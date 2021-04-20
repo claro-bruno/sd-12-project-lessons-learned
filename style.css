@@ -1,8 +1,29 @@
-body {
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Poppins", sans-serif;
     background-color: rgb(253, 251, 251);
 }
 
-header {
+
+header{
+    width: 100%;
     position: fixed;
     top: 0;
+    position: flex;
+}
+
+
+table{
+    border: 1px solid black;
+}
+
+
+h1{
+    color: black;
+    font-size: 20px;
+    line-height: 16px;
 }
