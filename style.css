@@ -20,3 +20,7 @@ body {
     bottom: 0;
     margin-left: 40%;
 }
+table {
+    border: 1px solid black;
+    padding: 15px;
+}
