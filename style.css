@@ -14,7 +14,7 @@ body {
     top: 0;
     height: auto;
     width: 100%;
-    padding: 10px;
+    padding: 20px 10px;
     background-color: #282a36;
 }
 
@@ -22,15 +22,12 @@ body {
     display: inline-block;
     margin: 0;
     font-size: 40px;
+    font-weight: 700;
     color: #bd93f9;
 }
 
 #titulo:hover {
     color: #50fa7b;
-}
-
-.navigation {
-    
 }
 
 .navigation ul {
@@ -44,18 +41,65 @@ body {
     margin-right: 20px;
 }
 
-.navigation ul li a {
+.nav_items {
     text-decoration: none;
     font-size: 20px;
+    font-weight: 400;
     color: #f8f8f2;
 }
 
-.navigation ul li a:hover {
+.nav_items:hover {
     color: #bd93f9;
     border-bottom: 4px solid #bd93f9;
     margin-bottom: -4px;
 }
 
-.section-image {
-    margin-top: 100px;
+.button {
+    display: inline-block;
+    height: 40px;
+    padding: 0 10px;
+    line-height: 40px;
+    border-radius: 4px;
+    background-color: #bd93f9;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 400;
+    color: #f8f8f2;
+}
+
+.button:hover {
+    background-color: #50fa7b;
+}
+
+.content {
+    background-color: #44475a;
+    color: #f8f8f2;
+}
+
+.section_image {
+    padding: 20px;
+    width: 80%;
+    text-align: center;
+    margin: 124px auto 0;
+}
+
+.texto_imagem {
+    display: inline-block;
+    width: 30%;
+    margin-right: 20%;
+}
+
+.titulo_imagem {
+    font-size: 40px;
+}
+
+.paragrafo_imagem {
+    font-size: 24px;
+}
+
+.imagem {
+    display: inline-block;
+    width: 140px;
+    border-radius: 4px;
+    box-shadow: 10px 10px 0 #f8f8f2;
 }
