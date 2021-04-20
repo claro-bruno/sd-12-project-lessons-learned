@@ -70,7 +70,20 @@ body {
 }
 
 #licoes_aprendidas {
+  float: left;
   clear: left;
+}
+
+#licoes_aprendidas,
+#licoes_a_aprender {
+  column-count: 2;
+  column-gap: 20px;
+  width: 250px;
+}
+
+#licoes_a_aprender {
+  float: right;
+  width: 300px;
 }
 
 .table {
