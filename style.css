@@ -16,3 +16,23 @@ body {
     color: rgb(253, 251, 251);
     text-align: center;
 }
+
+
+
+.first-layer {
+    margin-top: 9%;
+    border-style: solid;
+}
+
+.first-layer-image {
+    border-style: solid;
+    width: max-content;
+}
+
+#licoes_aprendidas {
+    border-style: solid;
+}
+
+#licoes_a_aprender {
+    border-style: solid;
+}
