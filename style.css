@@ -41,13 +41,28 @@ li {
 }
 #section-inline {
   width: 35%;
-  margin-left: 100px;
+  margin-left: 200px;
   position: absolute;
 }
 #article-inline {
   width: 35%;
+  margin-left: 120px;
 }
 #rodape {
   background-color: rgb(135, 231, 135);
   float: inline-end;
+}
+#trybe-logo {
+  display: inline-flex;
+  position: absolute;
+}
+#table {
+  width: 100%;
+  color: green;
+}
+#p {
+  display: inline;
+}
+#par {
+  margin-left: 15px;
 }
