@@ -32,3 +32,12 @@ body {
     text-decoration: none;
     color: black;
 }
+
+#licoes_aprendidas {
+    margin-top: 50px;
+    display: inline-block;
+}
+
+#licoes_a_aprender {
+    display: inline-block;
+}
