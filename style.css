@@ -1,20 +1,28 @@
 body { 
-    background-color:rgb(253, 251, 251);
+background-color:rgb(253, 251, 251);
 }
 
-header {    
-    top: 0%;
-    background-color: #04830b;
+header {
+top: 0%;
+background-color: #04830b;
 }
 
-#cabecalho {
-    color: white;
+.cabecalho {
+color: white;
 }
 
-.menu { 
-    color: white;}
+.menu {
+color: white;
+}
 
+#minha_foto {
+width: 100px;
+}
 
-#minha_foto { 
-    width: 100px;
+.licoes_aprendida {
+color: black;
+}
+
+.licoes_a_aprender {
+    color: black;
 }
