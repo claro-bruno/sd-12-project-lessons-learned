@@ -1,0 +1,58 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  background-color: rgb(253, 251, 251);
+}
+#cabecalho{
+  position: fixed;
+  top: 0;
+  background-color: chocolate;
+}
+nav{
+
+}
+#minha_foto{
+
+}
+#licoes_aprendidas{
+
+}
+#licoes_a_aprender{
+
+}
+#rodape{
+
+}
+a{
+
+}
+article{
+
+}
+section{
+
+}
+aside{
+
+}
+.lado-esquerdo{
+
+}
+.lado-direito{
+  
+}
+
+/* 
+Altere margin, padding e border dos 
+elementos para ver, na prática, 
+como esses atributos influenciam e 
+melhoram a visualização dos componentes
+
+Altere o tamanho da letra
+Altere a cor da letra
+Altere o espaçamento entre as linhas
+Altere o font-family
+*/
