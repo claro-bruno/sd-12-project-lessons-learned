@@ -12,10 +12,18 @@ header {
 main {
     position: absolute;
     top: 75px;
+    text-align: center;
 }
 
 #minha_foto {
     border-radius: 50%;
     border: 3px solid #5E8C5D;
     width: 300px;
+}
+
+main a {
+    color: black;
+    text-decoration: none;
+    background-color: #5E8C5D;
+    padding: 10px 20px;
 }
