@@ -11,4 +11,18 @@ img {
 }
 body {
     background-color: rgb(253, 251, 251);
+    font-size: 1em;
+    
     }
+li {
+    font-family: mono;
+    font-size: 1.2em;
+    color: blue;
+}
+article section  {
+    background-color: rgb(211, 211, 211);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.2em;
+    color: rgb(1, 63, 1);
+    line-height: 1.5em;
+}
