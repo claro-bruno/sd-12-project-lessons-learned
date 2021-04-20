@@ -20,3 +20,9 @@ body{
 #licoes_aprendidas, #licoes_a_aprender{
     display: inline-block;
 }
+
+#rodape{
+    margin-top: 30px;
+    bottom: 0;
+    position: fixed;
+}
