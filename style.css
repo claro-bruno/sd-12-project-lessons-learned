@@ -47,3 +47,7 @@ body {
 #licoes_aprendidas {
   clear: both;
 }
+
+.table {
+  line-height: 1.7em;
+}
