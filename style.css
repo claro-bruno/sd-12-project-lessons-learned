@@ -2,6 +2,7 @@ body {
     background-color: rgb(253, 251, 251);
     text-align: center;
     margin:0;
+    font-family: "Nunito", sans-serif;
 }
 
 #cabecalho {
@@ -28,8 +29,12 @@ main {
 }
 
 #minha_foto {
-    border-radius:50%;
-    
+    border-radius:50%;   
     
 }
-    
+
+#licoes_aprendidas {
+
+    list-style-position: inside;   
+}
+
