@@ -1,6 +1,7 @@
 body {
     background-color: rgb(253, 251, 251);
     font-family: Arial, Helvetica, sans-serif;
+    overflow: auto;
 }
 
 #cabecalho {
@@ -36,17 +37,28 @@ h1 {
 
 #licoes_aprendidas {
     position: absolute;
-    top: 48%;
+    top: 50%;
     line-height: 25px;
     font-size: 18px;
 }
 
 #licoes_a_aprender{
     position: absolute;
-    top: 48%;
+    top: 50%;
     padding: 0 350px;
     line-height: 25px;
     font-size: 18px;
+}
+
+#meu_aprendizado {
+    position: fixed;
+    top: 19%;
+    left: 20%;
+    outline: rgb(25, 187, 25) groove;
+    margin: 0;
+    line-height: 25px;
+    font-size: 18px;
+    max-width: 500px;
 }
 
 #rodape {
@@ -60,3 +72,6 @@ h1 {
     background-color: #f5f5f5;
     margin: 10px;
 }
+
+
+
