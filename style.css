@@ -1,7 +1,21 @@
 body {
   background-color:rgb(253, 251, 251);
 }
-
+.artigo {
+  display: inline-block;
+  width: 80%;
+  border: 1px black solid;
+  box-sizing: border-box;
+  
+}
+.barra-lateral {
+  display: inline-block;
+  width: 19%;
+  height: 100%;
+  box-sizing: border-box;
+  border: 1px black solid;
+  
+}
 #cabecalho {
   position: fixed;
   top: 0px;
