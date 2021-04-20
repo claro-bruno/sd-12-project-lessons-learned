@@ -1,69 +1,86 @@
 * {
-    margin: 0;
+  margin: 0;
 }
+
 body {
-    background-color:rgb(253, 251, 251);
-    font-family: 'Franklin Gothic Medium', Arial, sans-serif;
+  background-color: rgb(253, 251, 251);
+  font-family: Arial, sans-serif;
 }
-header{
-    position: fixed;
-    width: 100%;
-    top: 0px;
-    background-color: grey;
+
+header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  background-color: grey;
 }
+
 header h1 {
-    font-size: 36px;
-    padding: 20px;
-    border: 5px double black;
-    text-align: center;
+  font-size: 36px;
+  padding: 20px;
+  border: 5px double black;
+  text-align: center;
 }
 
 #espacador_cabecalho {
-    height: 250px;
+  height: 120px;
 }
+
 img {
-    border-radius: 15%;
-    padding: 20px;
+  border-radius: 15%;
+  padding: 20px;
 }
+
 nav {
-    width: 100%;
-    text-align: center;
+  width: 100%;
+  text-align: center;
 }
+
 nav li {
-    width: 30%;
-    display: inline-block;
+  width: 30%;
+  display: inline-block;
+  padding: 5px;
 }
+
 table {
-    display: block;
+  display: block;
 }
-table li{
-    margin: 10px;
+
+table li {
+  margin: 10px;
 }
-article, aside {
-    color: rgb(35, 20, 35);
-}
-p {
-    line-height: 2em;
-    padding: 40px;
-}
-footer{
-    font-size: 32px;
-    background-color: grey;
-    width: 100%;
-    text-align: center;
-    padding: 20px;
-}
-a {
-    text-decoration: none;
-}
-a:hover {
-    font-weight: 800;
-}
+
 .lado-direito {
-    float: right;
-    width: 50%;
+  float: right;
+  width: 45%;
 }
+
 .lado-esquerdo {
-    float: left;
-    width: 50%;
+  float: left;
+  width: 45%;
+}
+
+article , aside {
+  color: rgb(35, 20, 35);
+  padding: 20px;
+}
+
+p {
+  line-height: 2em;
+}
+
+footer {
+  font-size: 32px;
+  background-color: grey;
+  width: 100%;
+  text-align: center;
+  padding: 20px;
+  clear: both;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  font-weight: 800;
 }
