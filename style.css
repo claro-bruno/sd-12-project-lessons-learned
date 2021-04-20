@@ -30,7 +30,6 @@ body{
     width: 100%;
     text-align: center;
     padding: 50px 100px;
-    border: 1px solid black;
 }
 
 .lessons_left{
@@ -43,4 +42,10 @@ body{
     border: 1px solid lightgray;
     background-color: #f2f2f2;
     width: 45%;
+}
+
+#rodape{
+    font-size: 30px;
+    background-color: #48d454;
+    text-align: center;
 }
