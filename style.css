@@ -1,63 +1,64 @@
 body {
-    background-color: rgb(253, 251, 251);
-    font-family: Helvetica, Arial;
+  background-color: rgb(253, 251, 251);
+  font-family: Helvetica, sans-serif;
 }
 
 #cabecalho {
-    width: 100%;
-    height: 60px;
-    top :0px;
-    left:0px;
-    background-color: rgb(80, 79, 79);
-    color:honeydew;
-    padding: ;
-    border:5px solid black;
-    margin: ;
-    position: fixed;
+  width: 100%;
+  height: 60px;
+  top: 0;
+  left: 0;
+  background-color: rgb(80, 79, 79);
+  color: honeydew;
+  padding: 0;
+  border: 5px solid black;
+  margin: 0;
+  position: fixed;
 }
 
 #titulo {
-    font-size: 22px ;
-    line-height: 3px;
-    margin-left: 10px;
+  font-size: 22px;
+  line-height: 3px;
+  margin-left: 10px;
 }
 
-#minha_foto{
-    margin: auto;
-    margin-top: 85px;    
-    display:block;
-    height: 200px;
-    border-radius: 2ch;
-    background-color: rgb(126, 126, 126);
-    padding: 1px;
-
+#minha_foto {
+  margin: auto;
+  margin-top: 85px;
+  display: block;
+  height: 200px;
+  border-radius: 2ch;
+  background-color: rgb(126, 126, 126);
+  padding: 1px;
 }
 
 h2 {
-    font-size: 18px ;
-    font-weight: 500;       
-    line-height: 3px;
-    margin-left: 80px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 3px;
+  margin-left: 80px;
 }
 
 .TEX {
-    font-style: italic;
-    margin-left: 150px;
+  font-style: italic;
+  margin-left: 150px;
 }
 
 div {
-left: 200px;
+  margin: auto;
+  padding: 10px;
 }
 
 section {
-    display:inline-block; 
+  display: inline-block;
 }
 
 .lado-esquerdo {
-    width:40%;
-    vertical-align: middle;     
+  width: 45%;
+  vertical-align: top;
 }
+
 .lado-direito {
-    width:40%;
-    vertical-align: middle;
+  width: 45%;
+  vertical-align: top;
 }
