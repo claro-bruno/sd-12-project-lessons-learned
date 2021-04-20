@@ -1,3 +1,12 @@
 body {
   background-color: rgb(253, 251, 251);
+  margin: 0px;
+}
+
+#cabecalho {
+  position: fixed;
+  top: 0%;
+  background-color: hsl(166, 95%, 22%);
+  color:rgb(255, 255, 255);
+  width: 100%;
 }
