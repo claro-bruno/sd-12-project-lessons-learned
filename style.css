@@ -5,9 +5,14 @@ body {
 #cabecalho {
     position: fixed;
     top: 0;
+    margin: 20px;
 }
 
 #titulo {
+    margin: 0;
+}
+
+#meu_nome {
     margin: 0;
 }
 
@@ -26,3 +31,4 @@ body {
 #rodape {
     font-style: italic;
 }
+
