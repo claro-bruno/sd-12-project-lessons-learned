@@ -2,11 +2,15 @@ body {
     background-color: rgb(253, 251, 251);
 }
 
-#header {
+#cabecalho {
     position: fixed;
     top: 0;
 }
 
 #titulo {
     margin: 0;
+}
+
+#minha_foto {
+    width: 300px;
 }
