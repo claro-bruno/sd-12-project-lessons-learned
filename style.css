@@ -31,21 +31,17 @@ img#minha_foto {
 
 article {
     width: 50%;
-    float: left;
+    display: inline-block;
     margin-left: 5%;
 }
 
 aside {
-    float: right;
+    display: inline-block;
     width: 30%;
-    margin-right: 5%;
+    margin-left: 5%;
+    vertical-align: top;
 }
 
-ol#licoes_aprendidas{
-    clear: both;
-    float: left;
-}
-
-ul#licoes_a_aprender {
-    float: left;
+section.listas ol, section.listas ul {
+    display: inline-block;
 }
