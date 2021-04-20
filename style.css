@@ -1,3 +1,20 @@
 body {
     background-color: rgb(253, 251, 251);
+    text-align: center;
+}
+
+#cabecalho {
+    background-color: rgb(0, 55, 86);
+    top:0;
+    left:0%;
+    right: 0;;
+    position: fixed;
+    box-shadow: 0 0 1px 2px rgb(24 26 24 / 15%);
+    align-items: center;
+    
+}
+
+#titulo {
+    color: rgb(232, 226, 217);
+    font-family: "Major Mono Display", monospace;
 }
