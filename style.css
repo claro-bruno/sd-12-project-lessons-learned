@@ -61,7 +61,8 @@ li {
   color: green;
 }
 #p {
-  display: inline;
+  display: inline-block;
+  
 }
 #par {
   margin-left: 15px;
