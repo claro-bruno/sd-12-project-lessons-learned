@@ -117,9 +117,7 @@ aside {
   font-size: 1.3vw;
   background-color: rgb(241, 242, 235);
   border-radius: 20px;
-  margin-top: 4%;
-  margin-right: 5%;
-  margin-left: 50px;
+  margin: 4% 5%;
 }
 
 footer {
