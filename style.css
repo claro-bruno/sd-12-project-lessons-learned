@@ -40,9 +40,24 @@ main {
                                          display: inline-block;
 }
 
+article {
+         width: 65%;
+         margin-right: 0px;
+         display: inline-block;
+}
+
 article p {
            width: 70%;
            text-indent: 30px;
+}
+
+aside {
+       float: right;
+       width: 35%;
+       border-radius: 13%;
+       background-color: rgb(211, 211, 211);
+       text-indent: 15px;
+       text-align: center;
 }
 
 footer {
