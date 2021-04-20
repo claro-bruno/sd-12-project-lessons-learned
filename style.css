@@ -3,15 +3,21 @@ body {
     margin: 0 auto;
 }
 
-div, section, article, p, img {
+div,
+section,
+article,
+img {
     border-style: solid;
 }
+
+
+/* Cabeçalho da página */
 
 #cabecalho {
     position: fixed;
     top: 0;
     width: 99.5%;
-    background-color: rgb(69, 67, 114);  
+    background-color: rgb(69, 67, 114);
     box-shadow: 1px 1px 1em;
     z-index: 1;
 }
@@ -25,43 +31,32 @@ div, section, article, p, img {
     color: wheat;
 }
 
+
+/* Primeira seção */
+
 .first-layer {
     margin-top: 10%;
+    display: inline-block;
+    background-color: royalblue;
 }
 
-.outer-image-container {
-    width: 99.5%;
-    position: relative;
-    height: 30%;
-    margin-bottom: 1%;
+.image-container {
+    border-style: solid;
+    border-color: wheat;
+    width: 30%;
+    display: inline-block;
 }
 
-.inner-image-container {
-    width: max-content;
-    margin: 0 auto;
+#minha_foto {
+    border-color: w;
 }
 
-.outer-about-container {
-    margin-bottom: 1%;
-}
-
-.outer-about-container h2 {
-    text-align: center;
-}
-
-.general-about {
-    width: 99.5%;
-    padding: 1%;
+.first-layer article {
+    width: 43%;
 }
 
 .about-list {
     display: inline-block;
     padding: 2%;
+    margin: 5%;
 }
-
-.about-text {
-    display: inline-block;
-    width: 40%;
-    margin-top: 2%;
-}
-
