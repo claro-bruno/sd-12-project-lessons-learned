@@ -63,3 +63,30 @@ body{
 #sobre-aprendizado a:hover{
     color: darkblue;
 }
+
+.container-nav{
+    display: flex;
+    align-content: center;
+
+}
+
+#linkedin{
+    width: 150px;
+}
+
+#linkedin:hover{
+    transform: scale(1.1);
+}
+
+#contato{
+    display: inline-block;
+    width: 50%;
+    padding-left: 10px;
+    height: 70px;
+}
+
+#rodape{
+    text-align: center;
+    background-color: rgb(96, 228, 195);
+    margin-top: 30px;
+}
