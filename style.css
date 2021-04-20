@@ -6,8 +6,14 @@ background-color: rgb(253, 251, 251);
 #cabeçalho{
     margin-top: 0;
     text-align: center;
+
 }
 
 #titulo{
+    color: rgb(60,60,62);
+}
+
+#minha_foto {
+    border-radius: 50%;
 
 }
