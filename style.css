@@ -16,9 +16,10 @@ body{
     text-align: center;
 }
 
-#matheus{
+main{
     overflow: hidden;
     margin-top: 120px;
+    width: 70%;
 }
 
 #minha_foto{
@@ -47,13 +48,14 @@ body{
 #sobre-matheus{
     text-align: left;
     display: inline-block;
-    width: 30%;
+    width: 40%;
 }
 
 .articles{
     display: block;
     width: 80%;
 }
+
 
 #sobre-aprendizado a{
     text-decoration: none;
@@ -63,6 +65,7 @@ body{
 #sobre-aprendizado a:hover{
     color: darkblue;
 }
+
 
 .container-nav{
     display: flex;
