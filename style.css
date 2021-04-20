@@ -102,6 +102,7 @@
         padding: 10px 25px;
         text-align: center;
         font-weight: bold;
+        line-height: 19px;
         background-color: deepskyblue;
     }
 
@@ -112,6 +113,7 @@
         padding: 10px 25px;
         text-align: center;
         font-weight: bold;
+        line-height: 19px;
         background-color: deepskyblue;
     }
 
@@ -131,6 +133,7 @@
         float: left;
         border: 2px solid green;
         background-color: yellowgreen;
+        line-height: 25px;
     }
 
     .lado-direito {
@@ -142,6 +145,7 @@
         float: right;
         border: 2px solid green;
         background-color: yellowgreen;
+        line-height: 25px;
     }
 
     footer {
