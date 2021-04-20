@@ -5,8 +5,12 @@
 }
 body {
     background-color:rgb(253, 251, 251);
-    font-family:'Montserrat', sans-serif;;
+    font-family:'Montserrat', sans-serif;
 }
 ul, ol, li {
     list-style: none;
+}
+#cabecalho {
+    position:fixed;
+    top:0;
 }
