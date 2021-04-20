@@ -78,6 +78,7 @@ header {
 .aprendi section {
   display: inline-block;
   vertical-align: middle;
+  line-height: 150%;
 }
 
 .aprendi section h3 {
