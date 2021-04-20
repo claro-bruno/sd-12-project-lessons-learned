@@ -15,6 +15,26 @@ body {
   display: block;
   margin: 0;
   padding-top: 30px;
+  color: rgb(157, 129, 137);
+}
+
+nav {
+  text-align: center;
+  background-color: rgb(157, 129, 137);
+  height: 60px;
+  padding-top: 10px;
+}
+
+nav li {
+  list-style: none;
+  display: inline-block;
+  padding-right: 80px;
+}
+
+nav a {
+  text-decoration: none;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
 }
 
 #minha_foto {
@@ -33,3 +53,4 @@ body {
   border-radius: 10px;
   display: inline-block;
   width: 100px;
+}
