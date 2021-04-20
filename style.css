@@ -11,6 +11,19 @@ body {
   width: 300px;
 }
 
+.lado-esquerdo{
+  display:inline-block;
+  width: 49%;
+}
+
+.lado-esquerdo article p{
+  width: 49%;
+}
+
+.lado-direito{
+  display:inline-block;
+}
+
 #projetos {
   margin: 81px;
   padding: 20px;
