@@ -1,13 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&display=swap');
 
-* {
+html {
+  border: 0;
   padding: 0;
   margin: 0;
+  font-size: 62.5%;
+  line-height: normal;
+  color: black;
   font-family: Inconsolata, monospace;
+  background-color: rgb(253, 251, 251);
 }
 
 body {
-  background-color: rgb(253, 251, 251);
+  font-size: 1.6rem;
+
 }
 
 #cabecalho {
