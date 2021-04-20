@@ -4,13 +4,16 @@ body {
 #cabecalho {
     position: fixed;
     top: 0;
+    margin-left: 40%;
     width: 300px;
     background-color: greenyellow;
     text-align: center;
+    letter-spacing: 3px;
 }
 #minha_foto {
-    max-width: 400px;
-    float: right;    
+    max-width: 250px;
+    float: right;
+    border-radius: 50%;    
 }
 .lista1 {
     margin-top: 150px;
@@ -21,6 +24,18 @@ body {
     margin-left: 40%;
 }
 table {
+    margin: auto;
     border: 1px solid black;
     padding: 15px;
+}
+.lado-esquerdo {
+    display: inline-block;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: large;
+    color: blue;
+    max-width: 700px;
+}
+.lado-direito {
+    display: inline-block;
+   max-width: 300px;   
 }
