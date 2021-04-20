@@ -4,9 +4,11 @@ body{
 }
 #cabecalho{
     top: 0%;
-    position: fixed; }
+    position: fixed; 
+}
 #minha_foto{
     width: 100px;
     padding-top: 70px;
-
+    border-radius:40%;
+    margin-left: 10px;
 }
