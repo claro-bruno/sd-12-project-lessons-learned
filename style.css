@@ -6,14 +6,14 @@ body {
   top: 0;
   position: fixed;
   padding: 8px;
-  border: 1px solid #111;
+  border: 1px solid black;
   width: 100%;
   text-align: center;
 }
 
 #cabecalho h1 {
-  color: #141414;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: black;
+  font-family: Franklin Gothic Medium, Arial Narrow, Arial, sans-serif;
 }
 
 .image-container {
@@ -35,7 +35,7 @@ body {
 }
 
 h3 {
-  color: #178601;
+  color: green;
 }
 
 .list-container {
@@ -57,13 +57,13 @@ h3 {
   margin: 8px;
 }
 
-.tabela table, th, td {
-  border: 1px solid #3a3939;
+.tabela table , th , td {
+  border: 1px solid gray;
   border-collapse: collapse;
   width: 300px;
 }
 
-.tabela th, td {
+.tabela th , td {
   text-align: center;
 }
 
@@ -94,7 +94,7 @@ h3 {
 }
 
 #rodape {
-  border-top: 1px solid #0f0f0f;
+  border-top: 1px solid black;
 }
 
 #rodape p {
