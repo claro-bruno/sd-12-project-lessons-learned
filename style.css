@@ -60,6 +60,8 @@ hr{
        margin-left: 50px;
        font-size: larger;
        word-spacing: 5px;
+       color: #4CAF50;
+       font-style: italic;
    }
    .asi{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -68,7 +70,8 @@ hr{
     margin-left: 50px;
     font-size: larger;
     word-spacing: 5px;
-    
+    color: #4CAF50;
+    font-style: italic;
    }
 
    
