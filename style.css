@@ -1,6 +1,7 @@
 body {
     background-color: rgb(253, 251, 251);
     text-align: center;
+    margin:0;
 }
 
 #cabecalho {
@@ -18,3 +19,17 @@ body {
     color: rgb(232, 226, 217);
     font-family: "Major Mono Display", monospace;
 }
+
+main {
+    margin: auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: rgb(232, 226, 217);
+}
+
+#minha_foto {
+    border-radius:50%;
+    
+    
+}
+    
