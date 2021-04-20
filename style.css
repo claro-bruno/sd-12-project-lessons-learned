@@ -25,3 +25,9 @@ body {
 #licoes_a_aprender {
   list-style: circle;
 }
+
+.contacts {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+}
