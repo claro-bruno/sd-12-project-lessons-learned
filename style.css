@@ -1,7 +1,7 @@
 body {
   background-color: rgb(253 , 251 , 251);
   font-size: 20px;
-  color: rgb(106,190,131);
+  color: rgb(106 , 190 , 131);
   line-height: 2.5rem;
   font-family: 'Lucida Sans' , 'Lucida Sans Regular' , 'Lucida Grande' , 'Lucida Sans Unicode' ,
   Geneva , Verdana , sans-serif;
@@ -14,13 +14,13 @@ body {
   margin: 4px;
   padding: 5px;
   text-align: center;
-  border: 4px dotted rgb(240,105,102);
+  border: 4px dotted rgb(240 , 105 , 102);
   background-color: rgba(0 , 0 , 0 , 0.5);
   z-index: 0;
 }
 
 #titulo, h2 {
-  text-shadow: 1px 1px 10px rgb(240,105,102);
+  text-shadow: 1px 1px 10px rgb(240 , 105 , 102);
   text-align: center;
 }
 
@@ -29,21 +29,21 @@ body {
   text-align: center;
   margin-top: 130px;
   padding: 0;
-  background-color: rgb(240,105,102);
+  background-color: rgb(240 , 105 , 102);
   border-radius: 10px;
-  text-shadow: 1px 1px 10px rgb(240,105,102);
-  box-shadow: 1px 1px 10px rgb(106,190,131);
+  text-shadow: 1px 1px 10px rgb(240 , 105 , 102);
+  box-shadow: 1px 1px 10px rgb(106 , 190 , 131);
 }
 
 
 #menu a {
   text-decoration: none;
-  color: rgb(106,190,131);
+  color: rgb(106 , 190 , 131);
   transition: 600ms;
 }
 
 #menu a:hover {
-  text-shadow: 1px 1px 10px rgb(50,51,56);
+  text-shadow: 1px 1px 10px rgb(50 , 51 , 56);
 }
 
 #artigos , #lists {
@@ -61,11 +61,11 @@ body {
   height: auto;
   border-radius: 50%;
   margin-left: 40px;
-  box-shadow: 1px 1px 10px rgb(240,105,102);
+  box-shadow: 1px 1px 10px rgb(240 , 105 , 102);
 }
 
 .lado-direito , .lado-esquerdo {
-  border: 4px dotted rgb(240,105,102);
+  border: 4px dotted rgb(240 , 105 , 102);
   margin: 5px;
   padding: 5px;
 }
@@ -73,20 +73,20 @@ body {
 table {
   text-align: center;
   margin: auto;
-  border: 4px dotted rgb(240,105,102);
+  border: 4px dotted rgb(240 , 105 , 102);
 }
 
 table td {
-  border: 4px dotted rgb(240,105,102);
+  border: 4px dotted rgb(240 , 105 , 102);
 }
 
 table tr th {
-  text-shadow: 1px 1px 10px rgb(240,105,102);
+  text-shadow: 1px 1px 10px rgb(240 , 105 , 102);
 }
 
 footer {
   width: auto;
   text-align: center;
-  border-top: 4px dotted rgb(240,105,102);
+  border-top: 4px dotted rgb(240 , 105 , 102);
   margin: 50px;
 }
