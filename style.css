@@ -11,3 +11,9 @@ header{
 h1{
     text-align: center;
 }
+main{
+    margin-top: 8%;
+}
+img{
+    width: 250px;
+}
