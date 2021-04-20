@@ -29,6 +29,35 @@ body {
     margin-top: 130px;
 }
 
+#licoes_aprendidas {
+    line-height: 20px;
+}
+
+#licoes_a_aprender {
+    line-height: 20px;
+}
+
+.depoimentos {
+    background-color: #fff;
+    color: #11a36a;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.lado-esquerdo {
+    width: 40%;
+    display: inline-block;
+    padding-left: 40px;
+    vertical-align: top;
+}
+
+.lado-direito {
+    width: 40%;
+    display: inline-block;
+    padding-left: 40px;
+    vertical-align: top;
+}
+
 .skills_logo {
     height: 60px;
     vertical-align: top;
