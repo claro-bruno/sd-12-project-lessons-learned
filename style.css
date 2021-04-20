@@ -1,6 +1,7 @@
 body {
         background-color: rgb(253, 251, 251);
         margin: 0;
+        font-family: sans-serif;
 }
 
 header {
@@ -26,6 +27,10 @@ article {
 
 #minha_foto {
                padding-left: 114px;
+}
+
+#nome {
+              padding-left: 85px;
 }
 
 .conteudo {
