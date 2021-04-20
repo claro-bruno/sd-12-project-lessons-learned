@@ -19,17 +19,22 @@ body{
 article {
     width: 550px;
     font-family: monospace;
-    font-size: 20px;
+    font-size: 19px;
     background-color: rgba(141, 221, 37, 0.527);
     padding: 10px;
     margin-left: 200px;
+    letter-spacing: 1px;
 
 }
 
 aside{
     width: 170px; 
     background-color: rgb(0, 128, 128);
-    padding: 5px 11px 145px; 
+    padding: 5px 11px 96px; 
+    word-spacing: 4px;
+    color: white;
+    font-weight: bolder;
+    margin-right: 365px;
 }
 
 .lists{
@@ -38,7 +43,6 @@ aside{
     width: 55%;
     margin-left:200px;
     background: rgb(143, 199, 86);
-
 }
 
 .listas{
@@ -51,16 +55,16 @@ aside{
 .separatextos{
     display: inline;
 }
+
 #lado-esquerdo{
 float: left;
-
 }
 
 #lado-direito{
 float: right;
-margin-right: 365px;
 }
-##nav{
+
+nav{
     text-decoration: none;
 }
 .footer{
@@ -69,4 +73,6 @@ margin-right: 365px;
     font-size: 20px;
     text-align: center;
     padding: 2px 0px 5px 0px;
+    margin: auto;
+    border-style: solid;
 }
