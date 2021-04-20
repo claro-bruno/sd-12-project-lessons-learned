@@ -5,7 +5,7 @@ body{
 #cabecalho{
     position: fixed;
     top: 0;
-    background-color: #1C61B1;
+    background-color: #1D80AF;
 }
 
 #titulo{
@@ -30,4 +30,9 @@ body{
 
 .listas{
     display: inline-block;
+}
+
+#rodape{
+    background-color: #1C61B1 ;
+    margin-bottom: 0%;
 }
