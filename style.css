@@ -77,6 +77,21 @@ button {
   color: #ffd639;
 }
 
+.aprendizado-text {
+  width: 50%;
+  display: inline-block;
+}
+.aprendizado-text p {
+  margin-left: 10px;
+  margin-right: 40px;
+  font-size: 1em;
+  font-weight: 400;
+  font-family: "Lato", sans-serif;
+}
+.lado-direito-aside {
+  display: inline-block;
+  float: right;
+}
 #rodape {
   background-color: #6a736f;
 }
@@ -87,3 +102,4 @@ button {
   color: #fff;
   font-family: "Lato", sans-serif;
   font-size: 1.165em;
+}
