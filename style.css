@@ -1,6 +1,7 @@
 body {
         font-family: monospace;
         font-size: 18px;
+        text-decoration: justify;
         line-height: 1.6;
         color: rgb(180, 129, 104);
         background-color: rgb(253, 251, 251);
@@ -34,4 +35,15 @@ body {
         margin-left: auto;
         margin-right: auto;
         display: block;        
+    }
+.s-descricao {
+        display: inline-flex;
+    }
+.lado-esquerdo {
+        display: inline-block;
+        margin: 20px;
+    }
+.lado-direito {
+        display: inline-block;
+        margin: 20px;
     }
