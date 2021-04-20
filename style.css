@@ -5,7 +5,7 @@ body{
 #cabecalho{
     top: 0;
     position: fixed;
-    background-color:#343434;
+    background-color: #343434;
     color: #F7FFF7;
     display: block;
     width: 100%;
@@ -21,8 +21,7 @@ body{
 #navigation a {
     color: #6CA6C1;
     text-decoration: none;
-    display: block;
-    
+    display: block;  
 }
 
 #navigation a:hover{
@@ -34,9 +33,21 @@ body{
     margin-top: 80px;
 }
 
-#licoes_aprendidas, #licoes_a_aprender{
+#licoes_aprendidas , #licoes_a_aprender{
     display: inline-block;
 }
+
+table{
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+td , th{
+    border: 1px solid black;
+    
+}
+
+
 
 #rodape{
     margin-top: 30px;
