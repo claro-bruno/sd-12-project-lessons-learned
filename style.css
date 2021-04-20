@@ -18,3 +18,29 @@ body {
 #minha_foto{
     margin-top: 210px;
 }
+
+#licoes_aprendidas, #licoes_a_aprender {
+    border: 1px solid black;
+    width: 150px;
+    padding-left: 25px;
+    padding-top: 20px;
+    padding-bottom: 5px;
+}
+
+.licoes_lado_A {
+    width: 20%;
+    padding-left: 15px;
+    margin-left: 0px;
+    float: left;
+    font-style: italic;
+    background-color: lightgray;
+  }
+
+.licoes_lado_B {
+    width: 20%;
+    padding-left: 15px;
+    margin-right: 750px;
+    float: right;
+    font-style: italic;
+    background-color: lightgray;
+  }
