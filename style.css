@@ -8,6 +8,7 @@ header {
   background-color: rgb(80, 94, 117);
   top: 0;
   padding: 2px;
+  color: rgb(227, 202, 172);
 }
 
 .perfil {
@@ -87,4 +88,16 @@ header {
 
 .aprendi section:nth-of-type( 3 ) {
   width: 20%;
+}
+
+footer {
+  text-align: center;
+  background-color: rgb(80, 94, 117);
+  padding: 2px;
+  color: rgb(241, 242, 235);
+}
+
+footer a {
+  text-decoration: none;
+  color: rgb(227, 202, 172);
 }
