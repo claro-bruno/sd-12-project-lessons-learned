@@ -24,7 +24,7 @@ body {
 }
 
 #menu {
-    width: 100 vw;
+    width: auto;
     text-align: center;
     margin-top: 130px;
     padding: 0;
