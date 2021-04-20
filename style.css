@@ -35,11 +35,17 @@ body {
   width: 100%;
   padding-top: 8px;
 
-
 }
 
 #texto1 {
   margin-left: 50px;
   
- 
+}
+#foto {
+  margin-top: 10px;
+  margin-left: 97%;
+  position: fixed;
+  width: 30px;
+  height: 30px;
+
 }
