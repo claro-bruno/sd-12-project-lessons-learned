@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body{
     background-color: rgb(253, 251, 251);
 }
@@ -45,4 +46,9 @@ body{
     background-color: #f5f5f5;
     display: inline-block;
     right: 0;
+=======
+body {
+    background-color: rgb(253, 251, 251);
+
+>>>>>>> 4a9f619ba63e0734efdc2b28383c5d7dfcf7c01f
 }
