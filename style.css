@@ -2,7 +2,7 @@ body {
     background-color: rgb(253, 251, 251);
     font-family: Arial, Helvetica, sans-serif;
     overflow: auto;
-    height: 130vh;
+    height: 110vh;
 }
 
 #cabecalho {
@@ -16,14 +16,14 @@ body {
 
 #cabecalho li {
     list-style-type: none;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 0;
+    display: block;
+    margin: 0;
+    text-align: left;
 }
 
 h1 {
-  font-size: 20px;
+  font-size: 25px;
+  text-decoration: underline;
 }
 
 #minha_foto {
@@ -37,18 +37,23 @@ h1 {
     top: 46%;
 }
 
+#competencias h1 {
+    position: absolute;
+    top: 55%;
+    left: 13%;
+    text-decoration: underline ;
+}
+
 #licoes_aprendidas {
     position: absolute;
-    top: 15%;
-    left: 18%;
+    top: 60%;
     line-height: 25px;
     font-size: 18px;
 }
 
 #licoes_a_aprender{
     position: absolute;
-    top: 15%;
-    left: 18%;
+    top: 60%;
     padding: 0 330px;
     line-height: 25px;
     font-size: 18px;
@@ -56,11 +61,13 @@ h1 {
 
 #article {
     position: absolute;
-    top: 60%;
+    top: 17%;
+    left: 17%;
     margin: 10px;
+    padding: 10px 10px;
     line-height: 25px;
     font-size: 18px;
-    width: 45%;   
+    width: 60%;   
     box-shadow: 0px 5px 5px 5px rgba(0,0,0,0.2);
 }
 
@@ -69,15 +76,20 @@ h1 {
     font-size: 25px;
 }
 
-#section {
+#aside {
     position: absolute;
-    /* top: 95%;
+    top: 17%;
+    left: 80%;
     margin: 10px;
+    padding: 10px 20px;
     line-height: 25px;
     font-size: 18px;
-    width: 45%; */
-    margin: 40px 0;
+    width: 15%;
     box-shadow: 0px 5px 5px 5px rgba(0,0,0,0.2);
+}
+
+#aside h1 {
+    text-decoration: underline;
 }
 
 #rodape {
