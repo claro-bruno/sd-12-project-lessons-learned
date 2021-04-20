@@ -6,11 +6,13 @@
 
 #img{
     padding-top: 70px;
-    display: inline-block;
-
+    
+    
 }
 
-
+#titulo{
+    text-align: center;
+}
 
 
 
