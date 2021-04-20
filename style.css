@@ -10,6 +10,7 @@ body{
     background-color: midnightblue;
     color: white;
     width: 100%;
+    border-bottom: 1px solid black ;
 }
 #titulo{
     font-size: 25px;
@@ -26,12 +27,61 @@ body{
 #cabecalho nav a:hover{
     text-decoration: underline;
 }
+#intro{
+    margin-top: 100px;
+}
 #minha_foto{
     width: 200px;
     border-radius: 50%;
-    margin-top: 100px;
     border: 1px solid black;
 }
 #sobre_mim{
+    margin-right: 50px;
     line-height: 1.5;
+    text-align: justify;
+    border-top: 1px solid black;
+}
+#aprendizado{
+    border-top: 1px solid black;
+    margin-top: 50px;
+    margin-right: 50px;
+}
+#meu_aprendizado{
+    width: 30%;
+    vertical-align: top;
+    text-align: justify;
+    line-height: 2;
+    margin-top: 20px;
+}
+#meu_aprendizado h2{
+    margin: 0;
+}
+#assuntos_estudados{
+    float: right;
+    margin-right: 150px;
+    margin-top: 20px;
+}
+#assuntos_estudados caption{
+    margin-bottom: 30px;
+    font-weight: 900;
+    font-size: 20px;
+}
+.inline_block{
+    display: inline-block;
+}
+.lado_esquerdo{
+    margin-left: 50px;
+}
+.lado_direito div{
+    margin-left: 100px;
+}
+.lado_direito td{
+    padding: 5px;
+    font-size: 14px;
+}
+.lado_direito th{
+    text-align: left;
+}
+.lado_direito caption{
+    margin-top: 10px;
 }

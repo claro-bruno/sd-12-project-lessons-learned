@@ -15,89 +15,100 @@
             <a href="#assuntos_estudados">Assuntos estudados</a>
         </nav>
     </header>
-    <img src="eu.jpg" alt="Pedro Gonçalves" id="minha_foto">
-    <section>
-        <h2>Lições</h2>
-        <ol id="licoes_aprendidas">
-            <li>Unix</li>
-            <li>Bash</li>
-            <li>Git</li>
-            <li>GitHub</li>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>HTML Semântico</li>
-            <li>Slack</li>
-            <li>Zoom</li>
-            <li>Inteligência emocional</li>
-        </ol>
-        <ul id="licoes_a_aprender">
-            <li>JavaScript</li>
-            <li>SQL</li>
-            <li>Python</li>
-            <li>React</li>
-            <li>CSS responsivo</li>
-            <li>Node</li>
-            <li>DOM</li>
-            <li>Estrutura de dados</li>
-            <li>Complexidade de algoritmos</li>
-            <li>Algoritmos de ordenação</li>
-        </ul>
+    <section id="intro">
+        <div class="lado_esquerdo inline_block">
+            <img src="eu.jpg" alt="Pedro Gonçalves" id="minha_foto">
+        </div>
+        <div class="lado_direito inline_block">
+            <div class="inline_block">
+                <h2>Lições Aprendidas</h2>
+                <ol id="licoes_aprendidas">
+                    <li>Unix</li>
+                    <li>Bash</li>
+                    <li>Git</li>
+                    <li>GitHub</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>HTML Semântico</li>
+                    <li>Slack</li>
+                    <li>Zoom</li>
+                    <li>Inteligência emocional</li>
+                </ol>
+            </div>
+            <div class="inline_block">
+                <h2>Lições Desejadas</h2>
+                <ul id="licoes_a_aprender">
+                    <li>JavaScript</li>
+                    <li>SQL</li>
+                    <li>Python</li>
+                    <li>React</li>
+                    <li>CSS responsivo</li>
+                    <li>Node</li>
+                    <li>DOM</li>
+                    <li>Estrutura de dados</li>
+                    <li>Complexidade de algoritmos</li>
+                    <li>Algoritmos de ordenação</li>
+                </ul>
+            </div>
+        </div>
     </section>
-    <article id="sobre_mim">
+    <article id="sobre_mim" class="lado_esquerdo">
         <h2>Sobre mim</h2>
         <p>Olá, meu nome é Pedro Gonçalves Pereira, tenho 25 anos, nasci e cresci em Fortaleza-CE, onde moro até hoje. Sou graduado em Ciência da Computação pelo Centro Universitário Farias Brito (FBUni), iniciei o curso de Matemática duas vezes, porém não conclui, e também iniciei o mestrado em Ciência da Computação, porém conclui apenas o primeiro semestre. Hoje sou aluno da Trybe e fazer esse curso está sendo uma experiência enriquecedora em diversos aspectos, pois aprendendo todos os dias assuntos teóricos, práticos, técnicos e sociais.</p>
     </article>
-    <aside id="meu_aprendizado">
-        <h2>Meu aprendizado na Trybe</h2>
-        <p>Até agora, estudei sobre Unix & Bash, Git & GitHub e HTML & CSS. Está página é um exemplo da aplicação de todos os assuntos vistos até esse ponto.</p>
-    </aside>
-    <table id="assuntos_estudados">
-        <caption>Fundamentos do Desenvolvimento Web</caption>
-        <tr>
-            <th>Bloco</th>
-            <th>Status</th>
-        </tr>
-        <tr>
-            <td>01 - Unix & Bash</td>
-            <td>Concluído</td>
-        </tr>
-        <tr>
-            <td>02 - Git, GitHub e Internet</td>
-            <td>Concluído</td>
-        </tr>
-        <tr>
-            <td>03 - Introdução à HTML e CSS</td>
-            <td>Concluído</td>
-        </tr>
-        <tr>
-            <td>04 - Introdução à JavaScript e Lógica de Programação</td>
-            <td>Aguardando início</td>
-        </tr>
-        <tr>
-            <td>05 - JavaScript: DOM, Eventos e Web Storage</td>
-            <td>Aguardando início</td>
-        </tr>
-        <tr>
-            <td>06 - HTML e CSS: Forms, Flexbox e Responsivo</td>
-            <td>Aguardando início</td>
-        </tr>
-        <tr>
-            <td>07 - Introdução à JavaScript ES6 e Testes Unitários</td>
-            <td>Aguardando início</td>
-        </tr>
-        <tr>
-            <td>08 - Higher Order Functions do JavaScript ES6</td>
-            <td>Aguardando início</td>
-        </tr>
-        <tr>
-            <td>09 - JavaScript Assíncrono e Promises</td>
-            <td>Aguardando início</td>
-        </tr>
-        <tr>
-            <td>10 - Testes automatizados com Jest</td>
-            <td>Aguardando início</td>
-        </tr>
-    </table>
+    <div id="aprendizado" class="lado_esquerdo inline_block">
+        <aside id="meu_aprendizado" class="inline_block">
+            <h2>Meu aprendizado na Trybe</h2>
+            <p>Até agora, estudei sobre Unix & Bash, Git & GitHub e HTML & CSS. Está página é um exemplo da aplicação de todos os assuntos vistos até esse ponto.</p>
+        </aside>
+        <table id="assuntos_estudados" class="lado_direito inline_block">
+            <caption>Fundamentos do Desenvolvimento Web</caption>
+            <tr>
+                <th>Bloco</th>
+                <th>Status</th>
+            </tr>
+            <tr>
+                <td>01 - Unix & Bash</td>
+                <td>Concluído</td>
+            </tr>
+            <tr>
+                <td>02 - Git, GitHub e Internet</td>
+                <td>Concluído</td>
+            </tr>
+            <tr>
+                <td>03 - Introdução à HTML e CSS</td>
+                <td>Concluído</td>
+            </tr>
+            <tr>
+                <td>04 - Introdução à JavaScript e Lógica de Programação</td>
+                <td>Aguardando início</td>
+            </tr>
+            <tr>
+                <td>05 - JavaScript: DOM, Eventos e Web Storage</td>
+                <td>Aguardando início</td>
+            </tr>
+            <tr>
+                <td>06 - HTML e CSS: Forms, Flexbox e Responsivo</td>
+                <td>Aguardando início</td>
+            </tr>
+            <tr>
+                <td>07 - Introdução à JavaScript ES6 e Testes Unitários</td>
+                <td>Aguardando início</td>
+            </tr>
+            <tr>
+                <td>08 - Higher Order Functions do JavaScript ES6</td>
+                <td>Aguardando início</td>
+            </tr>
+            <tr>
+                <td>09 - JavaScript Assíncrono e Promises</td>
+                <td>Aguardando início</td>
+            </tr>
+            <tr>
+                <td>10 - Testes automatizados com Jest</td>
+                <td>Aguardando início</td>
+            </tr>
+        </table>
+    </div>
     <footer id="rodape">
         <a href="https://github.com/PGP27" target="_blank">GitHub</a>
     </footer>
