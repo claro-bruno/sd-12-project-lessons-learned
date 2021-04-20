@@ -1,3 +1,15 @@
 body {
   background-color: rgb(253, 251, 251);
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+#cabecalho {
+  background-image: url(header.png);
+  position: fixed;
+  top: 0;
+
+  height: 150px;
+  width: 100%;
 }
