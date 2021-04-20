@@ -39,13 +39,7 @@ H4{
    
 }
 
-#rodape{
-    background-color: rgb(80, 77, 77);
-    color: white;
-    margin-left: 10px;
-    
-    
-}
+
 
 a{
     color: rgb(54, 224, 20);
@@ -54,3 +48,31 @@ a{
 
 }
 
+#artigo{
+    margin-left: 10px;
+
+}
+
+p{
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#rodape{
+    background-color: rgb(80, 77, 77);
+    color: white;
+    margin-left: 10px;
+    
+    
+}
