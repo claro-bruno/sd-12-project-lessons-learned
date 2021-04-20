@@ -7,6 +7,19 @@ header {
   top: 0;
 }
 
-#minha_foto {
-  max-width: 25%;
+h1 {
+  margin-block-start: 20px;
+  margin-block-end: 20px;
 }
+
+nav {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+#minha_foto {
+  width: 25%;
+  display: block;
+  border: 8px solid black;
+}
+
