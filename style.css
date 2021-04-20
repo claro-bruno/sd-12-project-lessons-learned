@@ -1,10 +1,47 @@
 body {
   background-color: rgb(253, 251, 251);
   margin: 0 auto;
+  font-size: 16px;
 }
 
 header {
   background-color: rgb(80, 94, 117);
   top: 0;
-  padding-top: 2px;
+  padding: 2px;
+}
+
+.perfil {
+  background-color: rgb(241, 242, 235);
+  padding: 30px 15px;
+}
+
+.perfil img {
+  width: 30%;
+  border-radius: 50%;
+  margin-left: 10%;
+}
+
+.perfil div {
+  display: inline-block;
+  vertical-align: top;
+  width: 40%;
+  margin-left: 8%;
+  margin-top: 4%;
+  text-align: center;
+}
+
+.perfil h2 {
+    font-size: 4vw;
+}
+
+.perfil table {
+  display: inline-block;
+  margin-top: 20px;
+  border: 2px solid rgb(121, 165, 170);
+  text-align: center;
+  font-size: 2.5vw;
+}
+
+.perfil td {
+  border: 1px solid rgb(121, 165, 170);
 }
