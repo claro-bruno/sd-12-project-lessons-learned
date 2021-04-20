@@ -20,5 +20,25 @@ main {
 
 img {
   width: 250px;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
+ol{
+  float: right;
+}
+ul{
+    float: right;
+}
+
+h2{
+  text-align: center;
+}
+
+nav{
+  margin: auto;
+  width: 35%;
+}
+section{
+    clear: both;
+}
