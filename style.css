@@ -1,9 +1,11 @@
 body {
-    background-color: rgb(253, 251, 251) 
+    background-color: rgb(253, 251, 251);
+    margin: 0%; 
 }
 #cabecalho{
     position: fixed;
     top: 0;
+    left: 0%;
 }
 #minha_foto{
     width: 20%;
@@ -13,4 +15,10 @@ body {
 }
 #licoes_a_aprender{
     font-family: monospace;
+}
+#rodape{
+    background-color: blanchedalmond;
+}
+#rodape h1{
+    margin: 0;
 }
