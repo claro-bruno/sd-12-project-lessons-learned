@@ -20,7 +20,7 @@ body {
   z-index: 0;
 }
 
-#titulo, h2 {
+#titulo , h2 {
   text-shadow: 1px 1px 10px rgb(240, 105, 102);
   text-align: center;
 }
@@ -47,7 +47,7 @@ body {
   text-shadow: 1px 1px 10px rgb(50, 51, 56);
 }
 
-#artigos, #lists {
+#artigos , #lists {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -65,7 +65,7 @@ body {
   box-shadow: 1px 1px 10px rgb(240, 105, 102);
 }
 
-.lado-direito, .lado-esquerdo {
+.lado-direito , .lado-esquerdo {
   border: 4px dotted rgb(240, 105, 102);
   margin: 5px;
   padding: 5px;
