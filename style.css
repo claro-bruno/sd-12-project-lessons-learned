@@ -1,4 +1,4 @@
-body{
+body {
     background-color: rgb(253, 251, 251);
 }
 
@@ -12,6 +12,12 @@ body{
     height: 100px;
 }
 
+#minha_foto {
+    border-radius: 50%;
+    margin-top: 10px;
+    width: 200px;
+}
+
 #titulo {
     color: rgb(253, 251,251);
     text-align: center;
@@ -22,8 +28,6 @@ main {
     padding: 10px;
 }
 
-#minha_foto {
-    border-radius: 50%;
-    margin-top: 10px;
-    width: 200px;
+ul ol {
+    display: inline-block;
 }
