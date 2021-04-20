@@ -1,18 +1,17 @@
 body{
     background-color: rgb(253, 251, 251);
-    
 }
 
-#header{
+#cabecalho{
     
     text-align: center;
-    padding:50px;
+    padding:30px;
     margin-top: 0px;
     background: rgb(21, 204, 36);
-    
 }
 
 #minha_foto{
+    padding: 20px;
     width: 300px;
     border-radius: 5%;
     
