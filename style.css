@@ -1,5 +1,9 @@
 body {
     background-color: rgb(253, 251, 251);
+    font-size: 20px;
+    color: rgb(128, 128, 128);
+    line-height: 2.5rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 #cabecalho {
