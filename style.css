@@ -3,18 +3,38 @@ body {
     margin: 0;
     border: 0;
     padding: 0;
-
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 #cabecalho {
     position: fixed;
     top: 0;
     padding: 30px;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 30px;
     background-color: #036b52;
     width: 100%;
     color: white;
+}
+
+#nav {
+    position: fixed;
+}
+
+#itens_nav {
+    list-style-type: none;
+    display: inline-block;
+    display: inline;
+    position: fixed;
+    top: 129px;
+    width: 100%;
+    background-color: #2fc18c;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    color: black;
+    font-weight: 600;
+
+    
 }
 
 #titulo {
