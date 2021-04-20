@@ -84,15 +84,15 @@ a {
 }
 
 #minha_foto {
-    position: fixed;
-    z-index: 2;
-    top: 50px;
-    left: 150px;
-    height: 300px;
-    border-radius: 50%;
-    border: 1px solid rgb(1, 17, 10);
-    box-shadow: 0 0 10px 1px rgb(1, 17, 10);
-     /* Ref.: https://www.w3schools.com/cssref/css3_pr_box-shadow.asp */
+  position: fixed;
+  z-index: 2;
+  top: 50px;
+  left: 150px;
+  height: 300px;
+  border-radius: 50%;
+  border: 1px solid rgb(1, 17, 10);
+  box-shadow: 0 0 10px 1px rgb(1, 17, 10); /* Ref.:
+  https://www.w3schools.com/cssref/css3_pr_box-shadow.asp */
 }
 
 #facts {
