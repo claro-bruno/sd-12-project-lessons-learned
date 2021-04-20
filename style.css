@@ -1,5 +1,5 @@
 html {
-    margin: 0px;
+  margin: 0px;
 }
 
 body {
@@ -7,29 +7,28 @@ body {
 }
 
 #cabecalho {
-    position: fixed;
-    top: 0%;
-    background-color: royalblue;
-    width: 100%;
-    text-align: center;
+  position: fixed;
+  top: 0%;
+  background-color: royalblue;
+  width: 100%;
+  text-align: center;
 }
 #titulo {
-    margin-top: 0px;
+  margin-top: 0px;
 }
 
 #minha_foto {
   width: 300px;
 }
 
-#listas{
-    width: 100%;
+#listas {
+  width: 100%;
 }
-ol{
-    display: inline-block;
-    width: 40%;
+ol {
+  display: inline-block;
+  width: 40%;
 }
-ul{
-    display: inline-block;
-    width: 40%;
-    
+ul {
+  display: inline-block;
+  width: 40%;
 }
