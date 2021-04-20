@@ -1,4 +1,16 @@
 body {
   background-color: rgb(253, 251, 251);
+  margin: auto;
+
+}
+
+#cabecalho{
+  background-color: #036b52;
+  color: aliceblue;
+  text-align: center;
+  padding: 20px;
+  margin-top: 0 px;
+
+
 
 }
