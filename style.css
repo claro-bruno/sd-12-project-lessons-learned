@@ -2,10 +2,38 @@ body {
   background-color: rgb(253, 251, 251);
 }
 
+/* ------------------------------ Cabeçalho -----------------------------------*/
+
 header {
   position: fixed;
   top: 0;
   background-color: rgb(47, 192, 140);
   width: 100%;
   text-align: center;
+  padding-bottom: 1rem;
+}
+
+h1 {
+  color: rgb(244, 255, 244);
+  font-weight: 800;
+}
+
+nav ul {
+  list-style: none;
+  padding-left: 0%;
+}
+
+nav ul li {
+  display: inline-block;
+}
+nav ul li a {
+  color: rgb(244, 255, 244);
+  text-decoration: none;
+  font-weight: 700;
+  padding: 1rem;
+  border-radius: 1rem;
+}
+
+nav ul li a:hover {
+  background-color: rgb(24, 99, 71);
 }
