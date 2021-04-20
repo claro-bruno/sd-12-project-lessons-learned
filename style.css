@@ -2,12 +2,13 @@ body {
   background-color: rgb(253, 251, 251);
   margin: 0;
   font-family: sans-serif;
-  position: fixed;
+  
 }
 
 #cabecalho {
   background-color: rgb(255, 202, 212);
   top: 0;
+  position: relative;
   height: 100px;
 }
 
@@ -34,8 +35,8 @@ nav li {
 
 nav a {
   text-decoration: none;
-  font-weight: bold;
-  color: rgb(255, 255, 255);
+  font-weight: 900;
+  color: rgb(255,255,255);
 }
 
 #sobre_mim {
@@ -51,7 +52,7 @@ nav a {
 #sobre_mim p {
   text-align: left;
   max-width: 70%;
-  margin: 0px;
+  margin: 0;
   float: right;
   padding-top: 80px;
   padding-right: 30px;
@@ -60,7 +61,7 @@ nav a {
 #rodape a {
   text-align: center;
   text-decoration: none;
-  font-weight: bold;
+  font-weight: 900;
   background-color: rgb(255, 202, 212);
   color: rgb(157, 129, 137);
   padding: 10px;
