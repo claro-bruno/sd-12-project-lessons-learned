@@ -1,24 +1,38 @@
 body {
-    background-color:rgb(253, 251, 251);
-}
-#cabecalho {
-    position: fixed;
-    top: 0px;
-    right: 0px;
-    width: 100%;
-    height: 10%;
-    background-color: #2C6E49;
-    color: #fff;
-    text-align: center;
-}
-#minha-foto {
-    margin-top: 60px;
-    width: 300px;
+  background-color:rgb(253, 251, 251);
 }
 
-#licoes_aprendidas{
-    display: inline-block;
+#cabecalho {
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  width: 100%;
+  height: 10%;
+  background-color: #2C6E49;
+  color: #fff;
+  text-align: center;
 }
-#licoes_a_aprender{
-    display: inline-block;
+
+#minha_foto {
+  margin-top: 60px;
+  width: 300px;
 }
+
+#licoes_aprendidas {
+  display: inline-block;
+}
+
+#licoes_a_aprender {
+  display: inline-block;
+}
+
+#rodape {
+  width: 100%;
+  right: 0px;
+  bottom: 0px;
+  position: fixed;
+  border: 1px black solid;
+  display: inline;
+}
+
+
