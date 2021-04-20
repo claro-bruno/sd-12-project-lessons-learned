@@ -13,10 +13,16 @@ header {
     text-align: center;
 }
 main {
-    margin-top: 150;
+    margin-top: 15%;
     
 }
 minha_foto {
-    display: block;
+    display: block; 
     margin-left: auto;
-    margin-right: auto }
+    margin-right: auto;
+    width: 50px;
+ }
+
+footer {
+
+}
