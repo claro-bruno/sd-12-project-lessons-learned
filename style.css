@@ -12,3 +12,10 @@ body {
 #titulo {
     color: white;
 }
+
+#minha_foto {
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-left: 15px;
+}
+
