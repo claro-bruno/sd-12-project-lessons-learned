@@ -62,18 +62,19 @@ letter-spacing: 0.2px;
 
 #list {
   display: inline-block;
-  font-size: 15px;
+  font-size: 16px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  line-height: 20px;
+  letter-spacing: 0.2px;
 }
 
 #sidebar {
-  width: 100%;
+  width: 20%;
   color:black;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 16px;
   line-height: 20px;
   letter-spacing: 0.2px;
-  text-align: right;
-  padding: 5px 15px 15px 15px;
-  position: relative;
+  text-align: center;
+  float: right;
 }
