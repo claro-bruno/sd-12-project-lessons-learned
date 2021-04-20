@@ -16,3 +16,7 @@ body {
 #minha_foto{
 padding: 10px ;
 }
+#licoes_aprendidas{
+  list-style: decimal;
+
+}
