@@ -21,7 +21,12 @@ body {
 	min-width: 30%;
 	margin-left: 50px;
 }
-.artigos{
+.lado-esquerdo{
+  width: 40%;
+	margin-left: 20px;
+	display: inline-block;
+}
+.lado-direito {
 	width: 40%;
 	margin-left: 20px;
 	display: inline-block;
