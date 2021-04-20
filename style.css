@@ -9,6 +9,7 @@ body {
   background-color: rgb(92, 89, 89, 0.2);
   width: 100%;
   padding-bottom: 15px;
+  text-align: center;
 }
 
 #minha_foto {
@@ -27,4 +28,12 @@ aside {
   margin: 5px 3px 5px 10px;
   padding: 5px;
   width: 30%;
+}
+
+li {
+  list-style-type: none;
+}
+
+img {
+  margin-top: 150px;
 }
