@@ -8,3 +8,9 @@ header{
     width: 100%;
     text-align: center;
 }
+
+img#minha_foto {
+    width: 300px;
+    margin-top: 100px;
+    margin-left: 200px;
+}
