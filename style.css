@@ -8,8 +8,14 @@
         padding: 5px;
         position: fixed;
         top: 0;
+        left: 0;
+        right: 0;
         width: 100%;
+    }
+
+    #titulo{
         text-align: center;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     }
 
     main{
@@ -17,20 +23,39 @@
         padding: 1px 10px 10px 10px;
     }
 
-    nav ul li{
+    nav{
+        margin-left: 20px;
+    }
+
+    .botao{
         background-color: black;
         display: inline-block;
+        margin: 15px;
         padding: 20px 60px;
-        margin: 10px;
         font-family: 'Courier New', Courier, monospace;
         font-size: 20px;
         color: white;
+        box-shadow: 15px 15px 15px grey;
+    }
+
+    .botao:hover{
+        color: white;
+        position: relative;
+        top: 4px;
+        box-shadow: 5px 5px 5px grey;
+    }
+
+    .botao:active{
+        position: relative;
+        top: 5px;
+        box-shadow: none;
     }
 
     #foto{
         margin-top: 30px;
         position: static;
-        background-color: turquoise;
+        background-image: url(https://kolmeia.net/wp-content/uploads/2021/01/Viego.jpg);
+        background-size: 100%;
         padding: 20px;
     }
 
@@ -43,18 +68,48 @@
         width: 150px;
     }
 
+    #name{
+        text-align: center;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: 50px;
+        color: deepskyblue;
+        text-shadow: 3px 6px 1px black;
+    }
+
+    #Nick{
+            text-align: center;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            font-size: 50px;
+            color: deepskyblue;
+            text-shadow: 3px 6px 1px black;
+            text-decoration: none;
+    }
+
+    #Nick:hover{
+        padding: 5px;
+        color: white;
+        position: relative;
+        top: 4px;
+        box-shadow: 5px 5px 5px deepskyblue;
+    }
+
     #licoes_aprendidas{
         display: inline-block;
-        margin: 100px;
+        margin: 50px;
+        margin-left: 345px;
         border: 5px solid green;
-        padding: 10px 20px;
+        padding: 10px 25px;
         text-align: center;
+        font-weight: bold;
+        background-color: deepskyblue;
     }
 
     #licoes_a_aprender{
         display: inline-block;
-        margin: 100px;
+        margin: 50px 100px;
         border: 5px solid green;
-        padding: 10px 20px;
+        padding: 10px 25px;
         text-align: center;
+        font-weight: bold;
+        background-color: deepskyblue;
     }
