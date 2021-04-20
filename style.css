@@ -3,13 +3,17 @@ body {
     margin: 0 auto;
 }
 
+div, section, article, p, img {
+    border-style: solid;
+}
+
 #cabecalho {
     position: fixed;  /* Requisito */ 
     top: 0;  /* Requisito */ 
-    border-style: solid;
     width: 99.5%;
     background-color: #454372;    
     box-shadow: 1px 1px 1em;
+    z-index: 1;
 }
 
 #titulo {
@@ -17,22 +21,47 @@ body {
     text-align: center;
 }
 
-
+.contatos a{
+    color: wheat;
+}
 
 .first-layer {
-    margin-top: 9%;
-    border-style: solid;
+    margin-top: 10%;
 }
 
-.first-layer-image {
-    border-style: solid;
+.outer-image-container {
+    width: 99.5%;
+    position: relative;
+    height: 30%;
+    margin-bottom: 1%;
+}
+
+.inner-image-container {
     width: max-content;
+    margin: 0 auto;
 }
 
-#licoes_aprendidas {
-    border-style: solid;
+.outer-about-container {
+    margin-bottom: 1%;
 }
 
-#licoes_a_aprender {
-    border-style: solid;
+.outer-about-container h2 {
+    text-align: center;
 }
+.general-about {
+    width: 99.5%;
+    padding: 1%;
+}
+
+.about-list {
+    display: inline-block;
+    padding: 2%;
+    
+}
+
+.about-text {
+    display: inline-block;
+    width: 40%;
+    margin-top: 2%;
+}
+
