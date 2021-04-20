@@ -9,7 +9,13 @@ body {
   height: 35px;
 }
 .minha_foto {
- width: 300px;
+ border-radius: 50%;
+  width: 300px;
  z-index: 1;
  top: 80px;
+}
+.link {
+  color:black;
+font-family: monospace;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
