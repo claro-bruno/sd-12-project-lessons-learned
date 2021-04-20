@@ -6,3 +6,7 @@ body {
 /* Classes */
 
 /* IDs */
+#cabecalho {
+    position: fixed;
+    top: 0;
+}
