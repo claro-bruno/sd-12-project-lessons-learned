@@ -9,23 +9,32 @@ header{
 }
 #titulo{
     color: #ede7e3;
-    font-size: 30px;
+    font-size: 35px;
     font-family: monospace;
     text-align: center;
     line-height: 30px
 }
 
 nav{
-    
+    top: 60px;
+    position: fixed;
+    background-color:  #0466c8;
+    width: 100%;
+    height: 30px;
+
 }
 a{
-
+    font-size: 20px; 
+    color: #ede7e3; 
+    text-decoration: none;
+    font-weight: bold;
+    padding-left: 15px;
 }
 
 #minha_foto{
     display: block;
-    margin-left: 60px;
-    margin-top: 100px;
+    margin-left: 90px;
+    margin-top: 150px;
     width: 200px;
     border-radius: 20%;
     border: 2px solid #0466c8;
@@ -33,6 +42,7 @@ a{
 #licoes_aprendidas, #licoes_a_aprender{
     display: inline-block;
     margin: 60px;
+    
 }
 
 .lado-esquerdo{
