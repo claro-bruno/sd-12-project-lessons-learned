@@ -22,3 +22,9 @@ body {
 #rodape h1{
     margin: 0;
 }
+.Artigo{
+    font-family: monospace;
+}
+.Aside{
+    font-family: monospace;
+}
