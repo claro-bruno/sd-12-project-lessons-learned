@@ -35,31 +35,25 @@ body{
     border-radius: 50%;
     border: 1px solid black;
 }
+#textos{
+    margin-top: 50px;
+}
 #sobre_mim{
-    margin-right: 50px;
     line-height: 1.5;
     text-align: justify;
-    border-top: 1px solid black;
-}
-#aprendizado{
-    border-top: 1px solid black;
-    margin-top: 50px;
+    width: 50%;
+    padding-right: 50px ;
     margin-right: 50px;
+    border-right: 1px solid black;
 }
 #meu_aprendizado{
     width: 30%;
     vertical-align: top;
     text-align: justify;
     line-height: 2;
-    margin-top: 20px;
-}
-#meu_aprendizado h2{
-    margin: 0;
 }
 #assuntos_estudados{
-    float: right;
-    margin-right: 150px;
-    margin-top: 20px;
+    margin-top: 50px;
 }
 #assuntos_estudados caption{
     margin-bottom: 30px;
@@ -75,13 +69,24 @@ body{
 .lado_direito div{
     margin-left: 100px;
 }
-.lado_direito td{
+.lado_esquerdo td{
     padding: 5px;
     font-size: 14px;
 }
-.lado_direito th{
+.lado_esquerdo th{
     text-align: left;
 }
-.lado_direito caption{
+.lado_esquerdo caption{
     margin-top: 10px;
+}
+#rodape{
+    background-color: silver;
+    padding: 20px;
+    margin-top: 50px;
+}
+#rodape a{
+    float: right;
+}
+#rodape p, #rodape a{
+    display: inline;
 }
