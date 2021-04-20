@@ -3,8 +3,13 @@ body {
 }
 .cabecalho {
   position: fixed;
-  top: 0;
-  left: 0;
+  top: 0px;
+  left: 680px;
   right: 0;
   height: 35px;
+}
+.minha_foto {
+ width: 300px;
+ z-index: 1;
+ top: 80px;
 }
