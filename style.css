@@ -38,12 +38,17 @@ main a {
   padding: 10px 20px;
 }
 
-#lists section {
+#lists .lado-esquerdo, .lado-direito {
   display: inline-block;
   background-color: rgb(253, 251, 251);
-  vertical-align: middle;
-  margin: 0px 15px;
+  margin: 50px 50px;
   padding: 15px;
   border-radius: 10px;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.253);
+}
+
+#lists li {
+  text-align: justify;
+  padding-left: 10px;
+  line-height: 1.5rem;
 }
