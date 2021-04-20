@@ -47,7 +47,7 @@ body {
   text-shadow: 1px 1px 10px rgb(50, 51, 56);
 }
 
-#artigos , #lists {
+#artigos, #lists {
   display: flex;
   flex-direction: row;
   align-items: center;
