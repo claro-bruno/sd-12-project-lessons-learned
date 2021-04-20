@@ -1,91 +1,92 @@
 body {
-    background-color: rgb(253, 251, 251);
-    font-size: 20px;
-    color: #6ABE83;
-    line-height: 2.5rem;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-color: rgb(253 , 251 , 251);
+  font-size: 20px;
+  color: #6abe83;
+  line-height: 2.5rem;
+  font-family: "Lucida Sans" , "Lucida Sans Regular" , "Lucida Grande" , "Lucida Sans Unicode" , 
+  Geneva , Verdana , sans-serif;
 }
 
 #cabecalho {
-    position: fixed;
-    top: 0;
-    width: 96vw;
-    margin: 4px;
-    padding: 5px;
-    text-align: center;
-    border: 4px dotted #F06966;
-    background-color: rgba(0,0,0,0.5);
-    z-index: 0;
+  position: fixed;
+  top: 0;
+  width: 96vw;
+  margin: 4px;
+  padding: 5px;
+  text-align: center;
+  border: 4px dotted #f06966;
+  background-color: rgba(0 , 0 , 0 , 0.5);
+  z-index: 0;
 }
 
 #titulo, h2 {
-    text-shadow: 1px 1px 10px #F06966;
-    text-align: center;
+  text-shadow: 1px 1px 10px #f06966;
+  text-align: center;
 }
 
 #menu {
-    width: auto;
-    text-align: center;
-    margin-top: 130px;
-    padding: 0;
-    background-color: #F06966;
-    border-radius: 10px;
-    text-shadow: 1px 1px 10px #F06966;
-    box-shadow: 1px 1px 10px #6ABE83;
+  width: auto;
+  text-align: center;
+  margin-top: 130px;
+  padding: 0;
+  background-color: #f06966;
+  border-radius: 10px;
+  text-shadow: 1px 1px 10px #f06966;
+  box-shadow: 1px 1px 10px #6abe83;
 }
 
 
 #menu a {
-    text-decoration: none;
-    color: #6ABE83;
-    transition: 600ms;
+  text-decoration: none;
+  color: #6abe83;
+  transition: 600ms;
 }
 
 #menu a:hover {
-    text-shadow: 1px 1px 10px #323338;
+  text-shadow: 1px 1px 10px #323338;
 }
 
-#artigos, #lists {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-evenly;
+#artigos , #lists {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
 }
 
 #minha_foto {
-    position: fixed;
-    top: 10px;
-    left: 220px;
-    width: 100px;
-    height: auto;
-    border-radius: 50%;
-    margin-left: 40px;
-    box-shadow: 1px 1px 10px #F06966;
+  position: fixed;
+  top: 10px;
+  left: 220px;
+  width: 100px;
+  height: auto;
+  border-radius: 50%;
+  margin-left: 40px;
+  box-shadow: 1px 1px 10px #f06966;
 }
 
-.lado-direito, .lado-esquerdo {
-    border: 4px dotted #F06966;
-    margin: 5px;
-    padding: 5px;
+.lado-direito , .lado-esquerdo {
+  border: 4px dotted #f06966;
+  margin: 5px;
+  padding: 5px;
 }
 
 table {
-    text-align: center;
-    margin: auto;
-    border: 4px dotted #F06966;
+  text-align: center;
+  margin: auto;
+  border: 4px dotted #f06966;
 }
 
 table td {
-    border: 4px dotted #F06966;
+  border: 4px dotted #f06966;
 }
 
 table tr th {
-    text-shadow: 1px 1px 10px #F06966;
+  text-shadow: 1px 1px 10px #f06966;
 }
 
 footer {
-    width: auto;
-    text-align: center;
-    border-top: 4px dotted #F06966;
-    margin: 50px;
+  width: auto;
+  text-align: center;
+  border-top: 4px dotted #f06966;
+  margin: 50px;
 }
