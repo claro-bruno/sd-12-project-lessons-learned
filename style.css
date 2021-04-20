@@ -24,3 +24,13 @@ body {
     padding: 16px;
     border: pink;
 }
+
+#artigo {
+width: 50%;
+}
+
+#ao-lado {
+width: 50%;
+float: right;
+position: inherit;
+}
