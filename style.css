@@ -16,6 +16,10 @@ header {
   z-index: 999;
 }
 
+header h1 {
+  text-align: center;
+}
+
 main {
   margin-top: 100px;
   text-align: center;
