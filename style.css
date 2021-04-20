@@ -29,7 +29,6 @@ body {
 #linkedin {
     margin-left: 10px;
     text-decoration: none;
-    color: black;
 }
 
 #licoes_aprendidas {
@@ -49,8 +48,4 @@ body {
 #aside {
     display: inline-block;
     width: 40%;
-}
-
-#separacao {
-    
 }
