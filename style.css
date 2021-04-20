@@ -1,11 +1,11 @@
-body{
+body {
  background-color: rgb(253, 251, 251);
 }
-#minha_foto{
+#minha_foto {
     border-radius: 50px;
     width: 150px;
     height: 150px;
 }
-#cabecalho{
-    top: 0px;
+#cabecalho {
+    top: 0;
 }
