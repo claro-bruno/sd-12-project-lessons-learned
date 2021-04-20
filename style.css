@@ -5,6 +5,8 @@ body {
 header{
     top:0;
     position:fixed;
+    background-color: rgb(255,188,181) ;
+    width: 100%
 }
 
 #minha_foto{
@@ -12,6 +14,7 @@ header{
     height: 200px;
     top: 20%;
     position: absolute;
+    border-radius: 50%;
 }
 
 #licoes_aprendidas{
@@ -22,5 +25,13 @@ header{
 #licoes_a_aprender{
     position: absolute;
     top: 80%;
+
+}
+
+footer{ 
+    background-color:rgb(255,188,181) ;
+    position:absolute;
+    width: 100%;
+    top: 130%;
 
 }
