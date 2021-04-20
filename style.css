@@ -26,3 +26,8 @@ body {
     top: 500px;
     left: 400px;
 }
+#rodape{
+    position: absolute;
+    display: block;
+    bottom: 1px;
+}
