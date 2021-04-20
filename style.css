@@ -8,5 +8,25 @@ header {
 }
 
 img {
-    width: 300px;
+    width: 100px;
 }
+
+article p, aside p {
+    margin: 2em;
+    padding: 1em;
+    border: solid 1px black;
+}
+
+table {
+    margin: 2em;
+}
+
+td {
+    padding: .5em;
+    text-align: center;
+}
+
+tr:first-child {
+    background-color: lightgray;
+}
+
