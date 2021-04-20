@@ -22,10 +22,24 @@ img {
   width: 250px;
   margin-left: 5%;
   margin-right: 5%;
+  float: left;
 }
 
 h2{
   text-align: center;
+}
+
+table{
+    width: 500px;
+    text-align: center;
+    padding: 0;
+
+}
+table tr th{
+    border: 1px solid black;
+}
+table tr td{
+    border: 1px solid black;
 }
 
 nav{
