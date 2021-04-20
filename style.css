@@ -32,3 +32,8 @@ body {
     font-style: italic;
 }
 
+#tabela {
+    border: 1px solid black;
+    text-align: center;
+    border-collapse: collapse;
+}
