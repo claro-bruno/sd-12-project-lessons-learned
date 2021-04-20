@@ -1,0 +1,18 @@
+body {
+    background-color: rgb(253, 251, 251);
+    font-family: trebuchet MS, sans-serif;
+}
+
+#cabecalho {
+    position: fixed;
+    top: 0%;
+    background-color:white;
+    width: 100%;
+    right: 0;
+    left: 0;
+    padding: auto;
+}
+
+#titulo {
+    color: green;
+}
