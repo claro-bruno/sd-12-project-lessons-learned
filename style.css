@@ -65,4 +65,15 @@ footer {
 footer a {
     color: white;
     text-decoration: none;
+    clear: both;
+}
+
+table {
+    display: inline-block;
+    font-size: 16px;
+    vertical-align: bottom;
+}
+
+table, th, td {
+    border: 1px solid black
 }
