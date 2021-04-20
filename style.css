@@ -78,7 +78,7 @@ table td {
 .lado_direito,
 .lado_esquerdo {
   display: inline-block;
-  vertical-align: middle;
+  vertical-align: text-top;
   width: 40%;
   text-align: center;
 
