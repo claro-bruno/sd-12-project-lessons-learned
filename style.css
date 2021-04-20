@@ -46,11 +46,19 @@ h2, h3  {
 .vamosAprender {
     background-color: red;    
 }
-.artigo {
-    background-color: yellowgreen;
-    border: 10px solid green;
+
+.lado-esquerdo, .lado-direito {
+    display: inline-block;
     width: 400px;
     margin: 20px;
     padding: 50px;
-    display: inline-block;    
+}
+
+.lado-direito {
+    border: 10px solid green;
+    background-color: yellow;
+}
+.lado-esquerdo {
+    border: 15px solid yellow;
+    background-color: green;
 }
