@@ -1,12 +1,13 @@
 body {
-	background-color: rgb(253, 251, 251);
+  background-color: rgb(253, 251, 251);
 }
 #cabecalho {
   top: 0px;
   position: fixed;
-	background-color: darkcyan; 
-	min-width: 100%;
-	text-align: center;  
+  background-color: #3C787E;
+  min-width: 100%;
+  text-align: center;
+  color: aliceblue;
 }
 #minha_foto {
   width: 300px;
@@ -14,20 +15,23 @@ body {
   margin-top: 80px;
 }
 #rodape {
-	background-color: cadetblue;
+  background-color: #81ADC8;
 }
 .listas {
-	display: inline-block;
-	min-width: 30%;
-	margin-left: 50px;
+  display: inline-block;
+  min-width: 30%;
+  margin-left: 50px;
 }
 .lado-esquerdo{
   width: 40%;
-	margin-left: 20px;
-	display: inline-block;
+  margin-left: 20px;
+  display: inline-block;
 }
 .lado-direito {
-	width: 40%;
-	margin-left: 20px;
-	display: inline-block;
+  width: 40%;
+  margin-left: 20px;
+  display: inline-block;
+}
+.foto {
+  background-color: #fdceaf
 }
