@@ -58,7 +58,33 @@ body {
     vertical-align: top;
 }
 
+.table {
+    text-align: center;
+    width: 100%;
+}
+
+.table td {
+    margin: 10px;
+    padding: 10px;
+    border: solid;
+    border-color: #11a36a;
+}
+
 .skills_logo {
     height: 60px;
     vertical-align: top;
+}
+
+#rodape {
+    font-size: 12px;
+    background-color: #11a36a;
+    color: #fff;
+    bottom: 0;
+    font-weight: bold;
+    min-height: 30px;
+    text-align: center;
+}
+
+#rodape p {
+    padding-top: 10px;
 }
