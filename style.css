@@ -17,8 +17,7 @@ header {
 }
 
 main {
-  position: absolute;
-  top: 75px;
+  margin-top: 100px;
   text-align: center;
 }
 
