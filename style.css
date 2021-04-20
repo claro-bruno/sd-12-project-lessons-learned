@@ -1,12 +1,12 @@
-@import url(https://cdnjs.cloudflare.com/ajax/libs/hack-font/3.3.0/web/hack.min.css);
+@import url("https://cdnjs.cloudflare.com/ajax/libs/hack-font/3.3.0/web/hack.min.css");
+
 body {
   background-color:rgb(253, 251, 251);
   margin: auto;
-  padding: 0px;
   font-family: hack;
   font-size: 16px;
   line-height: 20px;
-  color: #333;
+  color: black;
 }
 
 .lado-esquerdo {
@@ -19,7 +19,6 @@ body {
 .lado-direito {
   display: inline-block;
   width: 20%;
-
   border: 1px black solid;
   box-sizing: border-box;
 }
@@ -30,8 +29,8 @@ body {
   right: 0px;
   width: 100%;
   height: 10%;
-  background-color: #2C6E49;
-  color: #fff;
+  background-color: #2c6e49;
+  color: white;
   text-align: center;
 }
 
