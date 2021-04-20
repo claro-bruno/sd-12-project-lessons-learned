@@ -17,18 +17,18 @@ body {
 }
 
 .list-container {
-  display: inline-block;
-  width: 600px;
-  height: 400px;
+  display: flex;
+  width: 800px;
 }
 
 #licoes_aprendidas {
-  width: 50%;
-  position: absolute;
+  width: 20%;
 }
 
 #licoes_a_aprender {
-  width: 50%;
-  position: absolute;
-  margin-left: 300px;
+  width: 20%;
+}
+
+#rodape p {
+  text-align: center;
 }
