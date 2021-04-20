@@ -7,6 +7,8 @@ body {
 
 header {
   background-color: rgb(80, 94, 117);
+  position: fixed;
+  width: 100%;
   top: 0;
   padding: 2px;
   color: rgb(227, 202, 172);
@@ -15,6 +17,7 @@ header {
 .perfil {
   background-color: rgb(241, 242, 235);
   padding: 30px 15px;
+  margin-top: 85px;
 }
 
 .perfil img {
