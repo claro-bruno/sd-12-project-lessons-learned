@@ -66,3 +66,8 @@ body {
 .footer a:hover {    
     color: rgb(255, 136, 136);    
 }
+
+.Article-section {
+    margin-bottom: 80px;
+    text-align: center;
+}
