@@ -14,6 +14,10 @@ body {
   width: 100%;
 }
 
+#titulo {
+  font-family: "Megrim", sans-serif;
+}
+
 .box_img {
   float: right;
   width: 230px;
