@@ -1,5 +1,10 @@
 body {
     background-color: rgb(253, 251, 251);
+    margin-top: 140px;
+}
+
+#minha_foto {
+    width: 300px;
 }
 
 #cabecalho {
@@ -13,7 +18,4 @@ body {
 
 #rodape {
     width: 100%;
-}
-
-#even-odd-table {
 }
