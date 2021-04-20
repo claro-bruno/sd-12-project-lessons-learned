@@ -2,17 +2,28 @@ body{
     background-color: rgb(253, 251, 251);
 }
 #cabecalho{
+    background-color: rgb(7, 131, 168);
     position: fixed;
     top: 0px;
+    right: 0;
+    left: 0;
+    padding: 25px;
+    text-align: center;
 }
 #titulo{
+    color: lightgoldenrodyellow;
+    display: inline;
+    margin-top: auto;
     text-align: center;
 }
 #minha_foto{
-    width: 150px;
+    width: 200px;
+    margin-top: 100px;
+    border-radius: 50%;
 
 }
 .listas{
+    
 
 }
 #licoes_aprendidas{
