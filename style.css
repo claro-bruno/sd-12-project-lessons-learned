@@ -1,5 +1,7 @@
 body{
     background-color: rgb(253, 251, 251);
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 #cabecalho{
@@ -10,6 +12,7 @@ body{
     display: block;
     width: 100%;
     left: 0;
+    padding: 20px;
 }
 
 #navigation ul{
@@ -30,7 +33,7 @@ body{
 
 #minha_foto{
     width: 200px;
-    margin-top: 80px;
+    margin-top: 150px;
 }
 
 #licoes_aprendidas , #licoes_a_aprender{
@@ -47,10 +50,16 @@ td , th{
     
 }
 
-
-
 #rodape{
     margin-top: 30px;
-    bottom: 0;
-    position: fixed;
+    font-size: 0.7em;
+}
+
+#rodape a{
+    text-decoration: none;
+    color: #036b52;
+}
+
+#rodape a:hover{
+    color: #2fc18c;;
 }
