@@ -10,3 +10,12 @@ body {
 #minha_foto {
   width: 300px;
 }
+
+#projetos {
+  margin: 81px;
+  padding: 20px;
+}
+
+#projetos, th, tr{
+  border: 2px solid black;
+}
