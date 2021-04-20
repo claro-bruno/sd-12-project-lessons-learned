@@ -1,0 +1,22 @@
+body {
+    font-family: monospace;
+    font-size: 18px;
+    background-color: rgb(253, 251, 251);
+    margin: 0 15% 5% 15%;
+}
+h1 {
+    font-size: 2.5em;
+}
+#cabecalho {
+    background-color: rgb(164, 159, 127);
+    padding: 10px 30px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+#titulo {
+    text-align: center;
+}
+#minha_foto {
+    width: 300px;
+    border-radius: 20px;
+}
