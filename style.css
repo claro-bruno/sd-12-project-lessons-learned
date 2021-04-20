@@ -22,12 +22,12 @@ body{
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   color: darkgoldenrod;
   line-height: 25px;
-  display: inline-block;
+  
   
 }
 .lado-direito{
-  display: inline-block;
+  width: 800px;
 }
 .lado-esquerdo ul, ol{
-  display: inline-block;
+  float: left;
 }
