@@ -1,5 +1,6 @@
 body {
     background-color: rgb(253, 251, 251);
+    margin: 0px;
 }
 main {
     margin-top: 100px;
@@ -20,7 +21,6 @@ main {
 }
 .link {
     color: white;
-    text-decoration: none;
     list-style-type: none;
 }
 .aprendizado{
@@ -32,6 +32,7 @@ main {
     color: black;
     padding: 5px;
     border-radius: 5px;
+    text-decoration: none;
 }
 .passagem {
     position: absolute;
@@ -42,6 +43,7 @@ main {
     color: black;
     padding: 5px;
     border-radius: 5px;
+    text-decoration: none;
 }
 .contato {
     position: absolute;
@@ -52,11 +54,17 @@ main {
     color: black;
     padding: 5px;
     border-radius: 5px;
+    text-decoration: none;
+}
+#ctt {
+    margin-left: 10px;
+    padding-top: 10px;
 }
 #minha_foto {
     width: 150px;
     border-radius: 50%;
     padding-top: 10px;
+    margin-left: 10px;
 }
 #licoes_aprendidas {
     display: inline-block;
@@ -66,6 +74,12 @@ main {
     display: inline-block;
     margin: 10px;
 }
+.article-learning{
+    margin-left: 10px;
+}
+.aside-pass {
+    margin-left: 10px;
+}
 #rodape {
     background-color: gray;
     padding-bottom: 50px;
@@ -74,4 +88,32 @@ main {
 #rodape p {
     margin: 15px;
     padding-top: 10px;
+}
+.linkedinp {
+    height: 45px;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+.githubp {
+    height: 45px;
+    border-radius: 50px;
+    margin-left: 10px;
+}
+.twitterp {
+    height: 45px;
+    border-radius: 50px;
+    margin-left: 10px;
+}
+.instagramp {
+    height: 45px;
+    border-radius: 50px;
+    margin-left: 10px;
+}
+.facebookp {
+    height: 45px;
+    border-radius: 50px;
+    margin-left: 10px;
+}
+#social {
+    margin-left: 10px;
 }
