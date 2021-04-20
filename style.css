@@ -39,5 +39,18 @@ H4{
    
 }
 
+#rodape{
+    background-color: rgb(80, 77, 77);
+    color: white;
+    margin-left: 10px;
+    
+    
+}
 
+a{
+    color: rgb(54, 224, 20);
+    font-size: 20px;
+    margin-left: 10px;
+
+}
 
