@@ -1,5 +1,9 @@
 body{
     background-color:rgb(253, 251, 251) ;
+    font-size: larger;
+    word-spacing: 5px;
+    color:mediumslateblue;
+    font-style: italic;
 }
 
 main{
@@ -58,20 +62,14 @@ hr{
        text-align:justify;
        max-width: 800px;
        margin-left: 50px;
-       font-size: larger;
-       word-spacing: 5px;
-       color: #4CAF50;
-       font-style: italic;
+     
    }
    .asi{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align:justify;
     max-width: 800px;
     margin-left: 50px;
-    font-size: larger;
-    word-spacing: 5px;
-    color: #4CAF50;
-    font-style: italic;
+    
    }
 
    .links ul li a{
