@@ -1,3 +1,11 @@
-body{
+body {
     background-color: rgb(253, 251, 251);
+}
+
+.header {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background-color: green;
+    padding: 0px 700px 20px 650px;
 }
