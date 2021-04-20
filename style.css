@@ -26,3 +26,14 @@ img#minha_foto {
     border-radius: 50%;
     border: 2px solid black;
 }
+
+article.lado-esquerdo {
+    width: 50%;
+    margin-left: 5%;
+}
+
+aside.lado-direito {
+    float: right;
+    width: 30%;
+    margin-right: 5%;
+}
