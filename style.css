@@ -1,9 +1,14 @@
+html {
+    margin: 0px;
+}
+
 body {
   background-color: rgb(253, 251, 251);
 }
 
 header {
     margin-top: 0px;
+    top: 0px;
 }
 #titulo {
     margin-top: 0px;
