@@ -6,3 +6,10 @@ body{
 #minha_foto{
     width: 200px;
 }
+
+h6{
+    font-size: 15px;
+    text-align: end;
+    color: rgb(17, 121, 4);
+    background-color: ;
+}
