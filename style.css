@@ -1,11 +1,41 @@
 body {
   background-color: rgb(253, 251, 251);
 }
+
 #cabecalho {
   position: fixed;
   top: 0;
 }
+
 #minha_foto {
+  border-radius: 10px;
+  display: block;
   margin-top: 60px;
   width: 300px;
+}
+
+ol.lado-esquerdo {
+  margin-right: 20px;
+  padding: 20px;
+}
+
+ol.lado-esquerdo li {
+  margin-left: 20px;
+}
+ul.lado-direito {
+  padding: 20px;
+}
+
+ul.lado-direito li {
+  margin-left: 20px;
+}
+
+.lado-esquerdo,
+.lado-direito {
+  border: 4px solid #313b2f;
+  display: inline-block;
+}
+
+.btn {
+  display: block;
 }
