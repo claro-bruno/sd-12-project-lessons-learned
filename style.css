@@ -5,31 +5,45 @@ body {
 #cabecalho {
     position: fixed;
     top: 0;
-    background-color: beige;
+    background-color: #faedcd;
     left: 0;
     right: 0;
-    height: 60px;
+    height:120px;
     box-sizing: border-box;
     margin: auto;
     padding: 0%;
 }
 
+.menu {
+    list-style: none;
+    margin: 10px;
+}
+
+.listamenu {
+    list-style: none;
+    margin: 10px;
+    display: inline-block;
+    color: #283618;
+}
+
 #titulo {
     color: black;
+    text-align: center;
 }
 
 #minha_foto {
     width: 400px;
     border-radius: 50%;
     margin-top: 100px;
+    
 }
 
 #licoes_aprendidas {
-
+   
 }
 
 #licoes_a_aprender {
-
+    
 }
 
 #rodape {
