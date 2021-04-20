@@ -1,5 +1,7 @@
 body{
     background-color: rgb(253, 251, 251);
+    border: 0;
+    margin: 0;
 }
 
 #cabecalho{
@@ -14,7 +16,7 @@ body{
     text-align: center;
 }
 
-.intro{
+#matheus{
     overflow: hidden;
     margin-top: 120px;
 }
@@ -33,12 +35,13 @@ body{
 .flex-container{
     display: flex;
 }
-#listas{
+#lado-direito{
     margin-top: 100px;
 }
 
-.container-main{
+#lado-esquerdo{
     width: 70%;
+    padding-left: 10px;
 }
 
 #sobre-matheus{
@@ -47,3 +50,16 @@ body{
     width: 30%;
 }
 
+.articles{
+    display: block;
+    width: 80%;
+}
+
+#sobre-aprendizado a{
+    text-decoration: none;
+    color: rgb(54, 123, 228);
+}
+
+#sobre-aprendizado a:hover{
+    color: darkblue;
+}
