@@ -1,6 +1,11 @@
 body {
   background-color: rgb(253, 251, 251);
   margin: 0;
+  color: rgb(2, 2, 1)
+}
+
+h1 {
+  letter-spacing: 3px;
 }
 
 #cabecalho {
@@ -16,24 +21,45 @@ body {
   width: 300px;
 }
 
+#licoes {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 18px;
+}
+
 article {
+
   border: 1px solid black;
   margin: 5px 3px 5px 10px;
-  padding: 5px;
+  padding: 10px;
   width: 30%;
+  line-height: 1.2;
 }
 
 aside {
   border: 1px solid black;
   margin: 5px 3px 5px 10px;
-  padding: 5px;
+  padding: 10px;
   width: 30%;
+  line-height: 1.2;
 }
 
-li {
+#cabecalho li {
   list-style-type: none;
 }
 
 img {
   margin-top: 150px;
+}
+
+a {
+  color: rgb(4, 155, 79);
+  font-weight: bolder;
+}
+
+a:hover {
+  color: rgb(4, 88, 46);
+}
+
+#conteudo {
+  font-size: 20px;
 }
