@@ -9,35 +9,36 @@ body{
     margin-left: 300px;
     font-family: monospace;
 }
-article {
-    width: 750px;
-    font-family: monospace;
-    font-size: 20px;
-    background-color: gray;
-    padding: 10px;
-    margin-left: 200px;
-    left: ;
-}
+
 #minha_foto{
-    width: 766px;
+    width: 762px;
     margin-left: 200px;
     
 }
 
+article {
+    width: 550px;
+    font-family: monospace;
+    font-size: 20px;
+    background-color: rgba(141, 221, 37, 0.527);
+    padding: 10px;
+    margin-left: 200px;
+
+}
+
 aside{
-    width: 300px; 
-    background-color: rgb(165, 111, 111);
-    margin-right: 100px;
-    padding: 10px
+    width: 170px; 
+    background-color: rgb(0, 128, 128);
+    padding: 5px 11px 145px; 
 }
 
 .lists{
     font-family: sans-serif;
-    padding: 10px 20px 10px 20px;
+    padding: 10px 18px 10px 14px;
     width: 55%;
     margin-left:200px;
-    background: chartreuse;
-    border-radius: 15px;
+    background: rgb(143, 199, 86);
+
 }
 
 .listas{
@@ -47,3 +48,25 @@ aside{
     display:inline-block;
 }
 
+.separatextos{
+    display: inline;
+}
+#lado-esquerdo{
+float: left;
+
+}
+
+#lado-direito{
+float: right;
+margin-right: 365px;
+}
+##nav{
+    text-decoration: none;
+}
+.footer{
+    clear: both;
+    background-color: teal;
+    font-size: 20px;
+    text-align: center;
+    padding: 2px 0px 5px 0px;
+}
