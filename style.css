@@ -16,7 +16,11 @@ body {
   width: 49%;
 }
 
-.lado-esquerdo article p {
+.paragrafo {
+  font-size: 20px;
+  color: brown;
+  line-height: 20px;
+  font-family: monospace;
   width: 49%;
 }
 
@@ -29,13 +33,6 @@ body {
   padding: 20px;
 }
 
-p {
-  font-size: 20px;
-  color: brown;
-  line-height: 20px;
-  font-family: monospace;
-}
-
-#projetos, th, tr {
+#projetos , th , tr {
   border: 2px solid black;
 }
