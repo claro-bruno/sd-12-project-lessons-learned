@@ -26,3 +26,18 @@ main {
     margin-top: 150px;
 }
 
+#rodape {
+    background-color: black;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 20px;
+}
+
+#rodape_text {
+    color: white;
+    font-size: 10px;
+    font-family: fantasy;
+    text-align: center;
+}
+
