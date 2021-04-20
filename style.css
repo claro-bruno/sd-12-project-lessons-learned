@@ -53,14 +53,18 @@ header {
 .aprendi {
   background-color: rgb(227, 202, 172);
   padding: 30px 15px;
-  text-align: center;
   color: rgb(121, 165, 170);
 }
 
 .aprendi h2 {
-  text-align: center;
+  text-align: left;
+  margin-left: 17%;
   font-size: 3vw;
   color: rgb(80, 94, 117);
+}
+
+.bloco {
+  margin-left: 10%;
 }
 
 .aprendi section {
@@ -75,6 +79,7 @@ header {
 
 .aprendi section p {
   font-size: 1.5vw;
+  text-align: center;
 }
 
 .aprendi section:nth-of-type( 1 ) {
