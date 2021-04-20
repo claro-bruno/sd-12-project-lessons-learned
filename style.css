@@ -34,6 +34,7 @@
         padding: 20px 60px;
         font-family: 'Courier New', Courier, monospace;
         font-size: 20px;
+        text-decoration: none;
         color: white;
         box-shadow: 15px 15px 15px grey;
     }
@@ -112,4 +113,24 @@
         text-align: center;
         font-weight: bold;
         background-color: deepskyblue;
+    }
+
+    #paragrafos{
+        display: inline-block;
+        margin: auto;
+    }
+
+    #artigo{
+        position: relative;
+        display: flexbox;
+    }
+
+    aside{
+        position: relative;
+        display: flexbox;
+        
+    }
+
+    footer{
+        position:relative;
     }
