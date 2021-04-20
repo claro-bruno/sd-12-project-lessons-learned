@@ -16,6 +16,7 @@ main {
 }
 #titulo {
     color: white;
+    padding-left: 10px;
 }
 .link {
     color: white;
@@ -25,7 +26,7 @@ main {
 .aprendizado{
     position: absolute;
     top: 30px;
-    left: 200px;
+    left: 450px;
     font-weight: bold;
     background-color: white;
     color: black;
@@ -35,7 +36,7 @@ main {
 .passagem {
     position: absolute;
     top: 30px;
-    left: 400px;
+    left: 650px;
     font-weight: bold;
     background-color: white;
     color: black;
@@ -45,7 +46,7 @@ main {
 .contato {
     position: absolute;
     top: 30px;
-    left: 600px;
+    left: 850px;
     font-weight: bold;
     background-color: white;
     color: black;
@@ -55,6 +56,7 @@ main {
 #minha_foto {
     width: 150px;
     border-radius: 50%;
+    padding-top: 20px;
 }
 #licoes_aprendidas {
     display: inline-block;
