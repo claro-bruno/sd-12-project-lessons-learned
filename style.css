@@ -19,7 +19,10 @@ body {
 
 #minha_foto {
     border-radius: 50%;
-    margin-top: 20px;
+    margin-top: 10px;
+    margin-left: 50%;
+    margin-right: 50%;
+    
 
 }
 
