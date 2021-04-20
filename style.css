@@ -37,3 +37,9 @@ nav ul li {
   width: 80%;
   float: right;
 }
+
+section h2 {
+  margin-top: 70px;
+  margin-bottom: 30px;
+}
+
