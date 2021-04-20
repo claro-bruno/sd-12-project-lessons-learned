@@ -24,13 +24,6 @@ img {
   margin-right: 5%;
 }
 
-ol{
-  float: right;
-}
-ul{
-    float: right;
-}
-
 h2{
   text-align: center;
 }
@@ -39,6 +32,32 @@ nav{
   margin: auto;
   width: 35%;
 }
+
+ol{
+  float: left;
+}
+
+ul{
+  float: right;
+}
+
 section{
+  margin: auto;
+  width: 80%;
+  clear: both;
+}
+
+.lado-esquerdo{
+  float: left;
+  width: 400px;
+}
+
+.lado-direito{
+  float: right;
+  width: 400px;
+}
+
+footer{
     clear: both;
+    text-align: center;
 }
