@@ -29,6 +29,16 @@ body {
   width: 20%;
 }
 
+.tabela table, th, td{
+  border: 1px solid #555555;
+  border-collapse: collapse;
+  width: 300px;
+}
+
+.tabela th, td {
+  text-align: center;
+}
+
 #rodape p {
   text-align: center;
 }
