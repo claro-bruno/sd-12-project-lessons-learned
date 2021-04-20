@@ -10,12 +10,17 @@ body {
 #cabecalho {
   position: fixed;
   top: 0;
+  margin:100px;
+  text-align: center;
+  width:100%;
 }
 #titulo {
 
 }
 #minha_foto {
   width: 250px;
+  border:2px solid orange;
+  padding: 50px;
 }
 #licoes_aprendidas {
 
