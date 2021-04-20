@@ -1,14 +1,13 @@
-
 body {
 background-color: rgb(253, 251, 251);
 }
 
-#cabeçalho{
+#cabeçalho {
     margin-top: 0;
     text-align: center;
 }
 
-#titulo{
+#titulo {
     color: rgb(60,60,62);
 }
 
@@ -16,18 +15,25 @@ background-color: rgb(253, 251, 251);
     border-radius: 50%;
 }
 
-#lições_aprendidas{
+#lições_aprendidas {
     color: rgb(60,60,62);
 }
 
-#lições_a_aprender{
+/* travei aqui_ Como eu faço pra colocar as duas listas uma do lado da outra? e como faço para edita-las? */
+ol.aprendidas ul.a_aprender {
+    color:rgb(253, 251, 251);
+}
+
+/* travei aqui */
+
+#lições_a_aprender {
     color: rgb(60,60,62);
 }
 
-#rodape{
+#rodape {
     
 }
 
-.final{
+.final {
     color: rgb(60,60,62);
 }
