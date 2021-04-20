@@ -25,3 +25,25 @@ body{
     border-radius: 50%;
     padding-right: 15px;
 }
+
+#sobre-matheus{
+    text-align: left;
+}
+
+.flex-container{
+    display: flex;
+}
+#listas{
+    margin-top: 100px;
+}
+
+.container-main{
+    width: 70%;
+}
+
+#sobre-matheus{
+    text-align: left;
+    display: inline-block;
+    width: 30%;
+}
+
