@@ -15,13 +15,21 @@ body {
     text-align: center;
 }
 
-#linkedin {
+nav {
     text-align: left;
     position: absolute;
     margin-top: 170px;
     margin-left: 15px;
     font-size: 20px;
     font-weight: bold;
+}
+
+#linkedin {
+    margin-right: 25px;
+}
+
+#Aprendizados {
+    margin-right: 25px;
 }
 
 #minha_foto{
