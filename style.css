@@ -8,6 +8,10 @@ h1 {
   letter-spacing: 3px;
 }
 
+main {
+  margin-left: 2%;
+}
+
 #cabecalho {
   position: fixed;
   top: 0;
@@ -49,6 +53,7 @@ aside {
 
 img {
   margin-top: 150px;
+  margin-bottom: 15px;
 }
 
 a {
@@ -62,4 +67,29 @@ a:hover {
 
 #conteudo {
   font-size: 20px;
+  display: inline-block;
+  text-align: center;
+  margin: 0 auto;
+}
+
+#rodape {
+  text-align: right;
+  margin-top: 80px;
+  padding: 15px;
+}
+
+.lado-esquerdo {
+  float: left;
+}
+
+.lado-direito {
+  float: right;
+}
+
+table {
+  margin: auto;
+}
+
+.center {
+  text-align: center;
 }
