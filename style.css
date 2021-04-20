@@ -26,6 +26,14 @@ main {
     padding-top: 100px;
     padding-bottom: 100px;
     background-color: rgb(232, 226, 217);
+    
+}
+
+.img {
+    background-color:rgb(190, 167, 91);
+    margin-top: -30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 #minha_foto {
@@ -34,9 +42,22 @@ main {
 }
 
 article {
-    margin:auto;
-    max-width: 60%;
+    
+    max-width: 80%;
+    float: left;
+    
+    
 }
+
+aside {
+    
+    max-width: 20%;
+    float: left;
+    
+    
+}
+
+
 
 #licoes_aprendidas {
 
