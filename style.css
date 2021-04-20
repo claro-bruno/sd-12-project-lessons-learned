@@ -5,19 +5,26 @@ body{
 
 a{
     text-decoration: none;
+    color: white;
     padding: 7px;
-    font-size: 20px;
 }
 
 h1{
     text-align: center;
+    color: white;
 }
 
 #cabecalho{
     position: fixed;
-    margin: 0px;
-    padding: 0px;
+    top: 0;
+    width: 100%;
+    background-color: darkgreen;
+}
 
+#menu{
+    font-size: 20px;
+    position: relative;
+    margin-left: 45%;  
 }
 
 #minha_foto{
@@ -26,6 +33,4 @@ h1{
     padding: 10px;
     background-color: darkgreen;
     top: 180px;
-    left: auto;
-    right: auto;
 }
