@@ -46,7 +46,20 @@ ul.lado-direito li {
   border: 4px solid #313b2f;
   display: inline-block;
 }
-
+button {
+  text-decoration: none;
+}
 .btn {
+  background-color: #313b2f;
+  text-decoration: none;
   display: block;
+}
+.btn a {
+  color: #fff;
+  padding: 5px 10px 5px 10px;
+  text-decoration: none;
+}
+
+.btn a:hover {
+  color: #ffd639;
 }
