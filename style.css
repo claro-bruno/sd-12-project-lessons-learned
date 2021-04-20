@@ -7,3 +7,15 @@ body{
     top: 0;
     background-color: #1C61B1;
 }
+
+#titulo{
+    display: inline-block;
+}
+
+#navy{
+    display: inline-block;
+}
+
+#links li{
+    display: inline-block;
+}
