@@ -5,4 +5,37 @@ body {
 #cabecalho {
     position: fixed;
     top: 0;
+    height: 150px;
+    background-color: rgb(18, 18, 95);
+    width: 100%;
+}
+
+#cabecalho h1 {
+    color: white;
+    text-align: center;
+}
+
+nav {
+    margin-top: 30px;
+    
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline-block;
+    background-color: rgb(115, 228, 228);
+    padding: 10px 20px 10px 20px;
+    border-radius: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+main {
+    margin-top: 150px;
 }
