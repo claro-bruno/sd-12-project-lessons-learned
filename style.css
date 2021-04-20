@@ -25,53 +25,54 @@ img {
   float: left;
 }
 
-h2{
+h2 {
   text-align: center;
 }
 
-table{
-    width: 500px;
-    text-align: center;
-    padding: 0;
-
-}
-table tr th{
-    border: 1px solid black;
-}
-table tr td{
-    border: 1px solid black;
+table {
+  width: 500px;
+  text-align: center;
+  padding: 0;
 }
 
-nav{
+table tr th {
+  border: 1px solid black;
+}
+
+table tr td{ 
+  border: 1px solid black;
+}
+
+nav {
   margin: auto;
   width: 35%;
 }
 
-ol{
+ol {
   float: left;
 }
 
-ul{
+ul {
   float: right;
 }
 
-section{
+section {
   margin: auto;
   width: 80%;
   clear: both;
 }
 
-.lado-esquerdo{
+.lado-esquerdo {
   float: left;
   width: 400px;
 }
 
-.lado-direito{
+.lado-direito {
   float: right;
   width: 400px;
 }
 
-footer{
-    clear: both;
-    text-align: center;
+footer {
+  clear: both;
+  text-align: center;
 }
