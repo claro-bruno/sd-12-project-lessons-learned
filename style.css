@@ -15,6 +15,7 @@ article p, aside p {
     margin: 2em;
     padding: 1em;
     border: solid 1px black;
+    line-height: 2em;
 }
 
 table {
@@ -28,5 +29,9 @@ td {
 
 tr:first-child {
     background-color: lightgray;
+    font-size: 1.1em;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    color: red;
 }
 
