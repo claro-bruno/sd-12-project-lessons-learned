@@ -62,8 +62,11 @@
 
       <aside id="side-bar">
         <section id="article-small">
-          <em>"Podemos dentro da Trybe ver o constante aprendizado que obtemos por
-          meio dos exercícios propostos, que são sempre objetivos e precisos."</em>
+          <em
+            >"Podemos dentro da Trybe ver o constante aprendizado que obtemos
+            por meio dos exercícios propostos, que são sempre objetivos e
+            precisos."</em
+          >
         </section>
         <section id="stomatopoda">
           <div>
@@ -77,24 +80,30 @@
         </section>
 
         <section>
-          <div id="even-odd-table"> 
-              <p><strong>Probabilidade de ganhar no par ou ímpar</strong></p>
-            <table border="1">
-              <tr>
-                <th>&nbsp;</th>
-                <th>par</th>
-                <th>impar</th>
-              </tr>
-              <tr>
-                <th>par</th>
-                <td>par</td>
-                <td>impar</td>
-              </tr>
-              <tr>
-                <th>impar</th>
-                <td>impar</td>
-                <td>par</td>
-              </tr>
+          <div id="even-odd-table">
+            <p><strong>Probabilidade de ganhar no par ou ímpar</strong></p>
+            <table border="1" id="sidebar-table">
+              <thead>
+                <tr>
+                  <th scope="colgroup" id="blank">&nbsp;</th>
+                  <th scope="col" id="col2-even">par</th>
+                  <th scope="col" id="col3-odd">impar</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row" id="col1-even">par</th>
+                  <td scope="row" headers="even result">par</td>
+                  <td scope="row" headers="odd result">impar</td>
+                </tr>
+              </tbody>
+              <tfoot>
+                <tr>
+                  <th scope="row" id="col1-odd">impar</th>
+                  <td scope="row" headers="odd result">impar</td>
+                  <td scope="row" headers="even result">par</td>
+                </tr>
+              </tfoot>
             </table>
           </div>
         </section>
