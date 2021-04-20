@@ -1,10 +1,27 @@
 body {
       background-color: rgb(253, 251, 251);
+      margin: 0;
 }
 
 header {
         position: fixed;
         top: 0;
+        width: 100%;
+        background-color: rgb(7, 134, 7);
+}
+
+header h2 {
+           padding-left: 80px;
+}
+
+nav a {
+       text-decoration: none;
+       padding: 90px;
+       color: rgb(253, 251, 251);
+}
+
+main {
+      margin-left: 8px;
 }
 
 .conteudo {
@@ -17,4 +34,8 @@ header {
 
 .licoes_aprendidas, .licoes_a_aprender  {
                                          display: inline-block;
+}
+
+footer {
+        margin-left: 8px;
 }
