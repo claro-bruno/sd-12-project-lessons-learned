@@ -12,6 +12,7 @@ body {
     text-align: center;
     background-color: rgb(25, 187, 25);
     z-index: 1;
+    border: 1px solid black;
 }
 
 #cabecalho li {
@@ -30,6 +31,7 @@ h1 {
     width: 15%;
     position: absolute;
     top: 15.3%;
+    border: 1px solid black;
 } 
 
 #meu_github {
@@ -59,7 +61,7 @@ h1 {
     font-size: 18px;
 }
 
-#article {
+article {
     position: absolute;
     top: 17%;
     left: 17%;
@@ -71,12 +73,12 @@ h1 {
     box-shadow: 0px 5px 5px 5px rgba(0,0,0,0.2);
 }
 
-#article h1 {
+article h1 {
     text-decoration: underline;
     font-size: 25px;
 }
 
-#aside {
+aside {
     position: absolute;
     top: 17%;
     left: 80%;
@@ -88,7 +90,7 @@ h1 {
     box-shadow: 0px 5px 5px 5px rgba(0,0,0,0.2);
 }
 
-#aside h1 {
+aside h1 {
     text-decoration: underline;
 }
 
