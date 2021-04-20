@@ -26,8 +26,16 @@ body{
   
 }
 .lado-direito{
-  width: 800px;
+  width: 500px;
+  border: 2px solid rgb(38, 0, 255);
+  display: inline-block;
+  position:relative;
+  left: 300px;
+
 }
-.lado-esquerdo ul, ol{
-  float: left;
+.lado-esquerdo {
+  
+  width: 500px;
+  border: 2px solid red;
+  display: inline-block;
 }
