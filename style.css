@@ -6,6 +6,7 @@
 
 #minha_foto {
   padding-top: 150px;
+  display: inline-block;
 }
 
 #titulo {
@@ -18,6 +19,12 @@
 
 #link {
   display: block;
+}
+
+#tabela {
+  background-color: chartreuse;
+  display: inline-block;
+  margin-left: 300px;
 }
 
 .lado-direito {
