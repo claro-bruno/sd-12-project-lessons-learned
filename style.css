@@ -11,7 +11,12 @@ body {
     margin-right: 40px;
 }
 #titulo {
-    
+    font-size: 60px;
+    font-family: sans-serif;
+    color: #29302f;
+}
+p {
+    word-spacing: 3px;
 }
 #cabecalho {
     min-height: 100px;
