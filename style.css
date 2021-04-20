@@ -17,6 +17,8 @@ body {
 .menu {
     list-style: none;
     margin: 10px;
+    text-align: center;
+    color: #283618;
 }
 
 .listamenu {
@@ -26,15 +28,31 @@ body {
     color: #283618;
 }
 
+a:link {
+    color: #283618;
+}
+
+a:visited {
+    color: #bc6c25;
+}
+
+a:hover {
+    color: #e5989b;
+}
+
 #titulo {
-    color: black;
+    color: #283618;
     text-align: center;
+}
+
+h1, #titulo {
+    color: #606c38;
 }
 
 #minha_foto {
     width: 400px;
     border-radius: 50%;
-    margin-top: 100px;
+    margin-top: 200px;
     
 }
 
@@ -48,8 +66,4 @@ body {
 
 #rodape {
 
-<<<<<<< HEAD
-=======
-
->>>>>>> 09a0bbd4935bf77ee172f210bbaca18ac95cf2ac
 }
