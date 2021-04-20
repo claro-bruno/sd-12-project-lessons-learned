@@ -9,8 +9,16 @@ body {
 #cabecalho {
     position: fixed;
     top: 0;
-    width: 100vw;
-    margin: 0;
+    width: 96vw;
+    margin: 4px;
     padding: 5px;
     text-align: center;
+    border: 4px dotted black;
+}
+
+#menu {
+    width: 100 vw;
+    text-align: center;
+    margin-top: 120px;
+    padding: 0;
 }
