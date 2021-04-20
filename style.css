@@ -1,9 +1,9 @@
 header {
     position: fixed;
+    top: 0;
+    /* border: solid black 1px; */
+    /* background-color: green; */
 }
 body {
     background-color: rgb(253, 251, 251);
-}
-header {
-    top: 0;
 }
