@@ -10,7 +10,9 @@ body {
     left:0px;
     background-color: rgb(80, 79, 79);
     color:honeydew;
+    padding: ;
     border:5px solid black;
+    margin: ;
     position: fixed;
 }
 
@@ -41,4 +43,21 @@ h2 {
 .TEX {
     font-style: italic;
     margin-left: 150px;
+}
+
+div {
+left: 200px;
+}
+
+section {
+    display:inline-block; 
+}
+
+.lado-esquerdo {
+    width:40%;
+    vertical-align: middle;     
+}
+.lado-direito {
+    width:40%;
+    vertical-align: middle;
 }
