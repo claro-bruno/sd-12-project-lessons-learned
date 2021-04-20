@@ -1,6 +1,7 @@
 body{
     background-color: rgb(253, 251, 251);
 }
+
 #cabecalho{   
     width: 100%;
     position: fixed;
@@ -9,21 +10,33 @@ body{
     background-color: DarkMagenta;
     display: block;
 }
+
 #titulo{
     color:white;
     font-size: 45px;
     text-align: center;
-}
-    
+}  
 
 #minha_foto{
     width: 40%;
     display: block;
     padding: 80px;
-    
+}
+
+H4{
+    font-size: 30px;
+    margin-left: 10px;
 }
 #licoes_aprendidas{
-    
+    display: inline-block;
+    margin-left: 20px;
+}
+
+
+#licoes_a_aprender{
+    display: inline-block;
+    margin-left: 20PX;
+   
 }
 
 
