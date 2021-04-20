@@ -1,3 +1,9 @@
 body{
     background-color: rgb(253, 251, 251);
 }
+
+#header{
+    
+    text-align: center;
+    margin-top: 0px;
+}
