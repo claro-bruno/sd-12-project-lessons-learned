@@ -3,29 +3,17 @@
   padding: 0;
   border: 0;
 }
-
 body {
   background-color: rgb(253, 251, 251);
-  font-family: "Montserrat", sans-serif;
+  font-family: Montserrat, sans-serif;
 }
-
-ul,
-ol,
-li {}
-
 #cabecalho {
   position: fixed;
   top: 0;
 }
-
-#titulo {}
-
 #minha_foto {
   width: 250px;
 }
-
-#licoes_aprendidas {
-  position: absolute;
-  top: 300px;
-  left: 20px;
+main {
+  margin-top:294px;
 }
