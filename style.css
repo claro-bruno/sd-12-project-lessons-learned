@@ -23,3 +23,7 @@ body {
     background-color: rgb(95, 88, 88);
     padding: 3px;    
 }
+
+.list {
+    line-height: 30px;
+}
