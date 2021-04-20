@@ -1,16 +1,21 @@
 body{
     background-color: rgb(253, 251, 251);
+    
 }
 
 #header{
     
     text-align: center;
+    padding:50px;
     margin-top: 0px;
+    background: rgb(21, 204, 36);
+    
 }
 
 #minha_foto{
     width: 300px;
     border-radius: 5%;
+    
 }
 
 #licoes_a_aprender{
