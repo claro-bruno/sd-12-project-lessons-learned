@@ -10,8 +10,11 @@ body {
 }
 
 #titulo {
-  margin-left: 500px;
-  color:black
+  width: 100%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 30px;
+  text-align: center;
+  color: black;
 }
 
 #minha_foto {
@@ -29,7 +32,6 @@ body {
 
 #licoes_aprendidas {
   background-color: yellow;
-  font-family: sans-serif;
   border-width: 5px;
   border-style: double;
   border-color: black;
@@ -37,7 +39,6 @@ body {
 
 #licoes_a_aprender {
   background-color: magenta;
-  font-family: sans-serif;
   border-width: 5px;
   border-style: double;
   border-color: black;
@@ -51,14 +52,28 @@ body {
 }
 
 .texto {
-  font-family: monospace;
-  color: blue;
+width: 100%;
+color: black;
+font-family: Verdana, Geneva, Tahoma, sans-serif; 
+font-size: 16px;
+line-height: 20px;
+letter-spacing: 0.2px;
 }
 
-.main {
-  background-color: purple
-}
-
-.list {
+#list {
   display: inline-block;
+  font-size: 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#sidebar {
+  width: 100%;
+  color:black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  text-align: right;
+  padding: 5px 15px 15px 15px;
+  position: relative;
 }
