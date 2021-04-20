@@ -15,6 +15,7 @@ body {
 
 #minha_foto {
   width: 300px;
+  display: block;
 }
 
 #listas {
@@ -27,4 +28,18 @@ ol {
 ul {
   display: inline-block;
   width: 40%;
+}
+nav {
+    display: inline-block;
+    height: 200px;
+    text-align: center;
+}
+.lado-esquerdo{
+    display: inline-block;
+    width: 40%;
+    
+}
+.lado-direito {
+    display: inline-block;
+    width: 40%;
 }
