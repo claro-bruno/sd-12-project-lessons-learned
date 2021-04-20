@@ -8,7 +8,7 @@ body {
     font-family:'Montserrat', sans-serif;
 }
 ul, ol, li {
-    list-style: none;
+    
 }
 #cabecalho {
     position:fixed;
@@ -19,4 +19,9 @@ ul, ol, li {
 }
 #minha_foto {
     width: 250px;
+}
+#licoes_aprendidas {
+    position:absolute;
+    top:300px;
+    left:20px;
 }
