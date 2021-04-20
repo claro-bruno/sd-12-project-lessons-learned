@@ -9,3 +9,59 @@ body {
   background-color: rgb(253, 251, 251);
 	font-family: 'Poppins', sans-serif;
 }
+
+/* HEADER	*/
+#cabecalho {
+	position: fixed;
+	text-align: center;
+	top: 0;
+	padding: 1rem;
+	background: #036b52;
+	margin: auto;
+	left: 0;
+	right: 0;
+	z-index: 1;
+}
+
+#titulo {
+	color: #fff;
+}
+
+/* MAIN */
+
+#minha_foto {
+	border-radius: 50%;
+	position: absolute;
+	margin: auto;
+	left: 0;
+	right: 0;
+	top: 100px;
+}
+
+.container {
+	width: min(90vw, 800px);
+	margin: auto;
+	z-index: 0;
+}
+
+h2 {
+	margin-top: 20rem;
+	font-weight: normal;
+	color: #363f5f;
+}
+
+.cartao {
+	background: #fff;
+	padding: 1.5rem 2rem;
+	border-radius: 0.25rem;
+	margin-bottom: 2rem;
+	color: #363f5f;
+}
+
+#licoes_aprendidas {
+	float: left;
+}
+
+#licoes_a_aprender {
+	float: right;
+}
