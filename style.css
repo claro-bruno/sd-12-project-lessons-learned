@@ -16,8 +16,12 @@ body {
     color: white;
 }
 
+.secao-foto {
+    text-align: center;    
+}
+
 .profile {
-    width: 250px;
+    width: 250px;    
     border-radius: 50%;
     margin-top: 100px;
     margin-left: 50px;
@@ -25,6 +29,16 @@ body {
     padding: 3px;    
 }
 
+.list-section {
+    text-align: center; 
+    margin-top: 50px;
+}
+
 .list {
-    line-height: 30px;
+    line-height: 30px;    
+    display: inline-block;
+    padding: 20px;
+}
+.list li {
+    text-align: left;
 }
