@@ -12,6 +12,7 @@ header{
     font-size: 30px;
     font-family: monospace;
     text-align: center;
+    line-height: 30px
 }
 nav{
 
@@ -39,21 +40,16 @@ margin: 20px;
 .lado-esquerdo{
     display: inline-block;
     width: 40%;
-    
     text-align: justify;
     padding: 2%;
     margin-left: 20px;
-   
 }
 .lado-direito{
     display: inline-block;
     width: 40%;
-    
     text-align: justify;
     padding: 2%;
     margin-left: 20px;
-
-
 }
 #rodape{
     display: block;
