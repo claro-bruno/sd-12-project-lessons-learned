@@ -1,14 +1,27 @@
 body{
     background-color: rgb(253, 251, 251);
 }
-#cabecalho{
+#cabecalho{   
+    width: 100%;
     position: fixed;
+    left: 0px;
     top: 0px;
-    background-color: aqua;
+    background-color: DarkMagenta;
+    display: block;
+}
+#titulo{
+    color:white;
+    font-size: 45px;
+    text-align: center;
+}
+    
+}
+#minha_foto{
+    width: 45%;
+    display: block;
+    padding: 80px;
     
 }
 
-#titulo{
-        
-}
+
 
