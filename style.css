@@ -11,13 +11,16 @@ body {
 #titulo {
     color: white;
 }
+#minha_foto {
+    width: 250px;
+}
 #licoes_aprendidas {
     display: inline-block;
     margin: 10px;
 }
 #licoes_a_aprender {
-display: inline-block;
-margin: 10px;
+    display: inline-block;
+    margin: 10px;
 }
 #rodape {
     background-color: gray;
