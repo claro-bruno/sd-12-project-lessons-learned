@@ -19,10 +19,15 @@ body{
 #links li{
     display: inline-block;
 }
+
 #minha_foto{
     display: block;
     width: 300px;
     margin-left: 8%;
     margin-top: 10%;
     border-radius: 15%;
+}
+
+.listas{
+    display: inline-block;
 }
