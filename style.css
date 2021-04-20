@@ -41,5 +41,9 @@ body{
 }
 
 a:hover{
-    color: rgb(161, 243, 239);
+    color: rgb(1, 12, 1);
+}
+
+#link:hover{
+    color: rgb(1, 12, 1);
 }
