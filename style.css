@@ -1,6 +1,7 @@
 body {
   background-color: rgb(253, 251, 251);
   margin: 0;
+  font-family: sans-serif;
 }
 
 #cabecalho {
@@ -20,4 +21,16 @@ body {
   max-width: 300px;
   border-radius: 50%;
   margin: 50px;
+}
+
+#rodape a {
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+  background-color: rgb(255, 202, 212);
+  color: rgb(157, 129, 137);
+  padding: 10px;
+  border-radius: 10px;
+  display: inline-block;
+  width: 100px;
 }
