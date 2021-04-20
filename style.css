@@ -19,3 +19,9 @@ body {
     left: 10px;
     border: 2px solid green;
 }
+.article p {
+    font-size: 18px;
+    color:indigo;
+    font-family: monospace;
+    white-space:unset;
+}
