@@ -1,36 +1,47 @@
+header {
+
+    background-image: url(./logo_trybe.jpeg);
+    background-size: cover;
+    position:fixed;
+    top: 0;
+    block-size: 100px;
+    width: max-content;
+    background-position: 50% 25%;
+  
+
+}
+
+
 body {
 
     background-color: rgb(253, 251, 251);
 
 }
 
-.main {
+main {
 
-    margin-top: 50px;
+    margin-top: 80px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
+    color: #475550;
 
 }
 
-.cabecalho {
-
-    position:fixed;
-    top: 0;
-    float: right;
-    text-align: center;
+.cabecalho { 
+    text-align: justify;
     background-color:rgb(12, 33, 78);
-    width: auto;
+    line-height: 50px;
+    width: max-content;
+    
     
 }
 
 .titulo {
 
-    font-size: large;
-    font-weight: bold;
+    font-size: 1,5em;
+    font-weight: 600;
     text-align: center;
     padding: 14px 16px;
-    background-color:rgb(12, 33, 78);
-    margin-left: 40px;
     color: white;
     width: auto;
 
@@ -68,10 +79,6 @@ body {
 
     font-weight: 400;
     margin-left: 10px;
-
-
-}
-.nota_de_canto {
 
 
 }
