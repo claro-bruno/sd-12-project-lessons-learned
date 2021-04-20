@@ -1,0 +1,18 @@
+body {
+    background-color: rgb(253, 251, 251);  /* Requisito */ 
+    margin: 0 auto;
+}
+
+#cabecalho {
+    position: fixed;  /* Requisito */ 
+    top: 0;  /* Requisito */ 
+    border-style: solid;
+    width: 99.5%;
+    background-color: #454372;    
+    box-shadow: 1px 1px 1em;
+}
+
+#titulo {
+    color: rgb(253, 251, 251);
+    text-align: center;
+}
