@@ -19,3 +19,39 @@ body {
 #rodape {
     width: 100%;
 }
+
+#stomatopoda{
+    text-align: center;
+    margin-top: 40px;
+    border: 1.5px solid black;
+    padding: 20px;
+}
+
+#main-content {
+    width: 60%;
+    display: inline-block;
+}
+
+#side-bar{
+    display: inline-block;
+    width: 35%;
+    vertical-align: top;
+    margin-top: 20px;
+    border: 2px solid grey;
+    border-style: dotted;
+    padding: 10px;
+}
+
+#even-odd-table {
+    text-align: center;
+    margin-top: 40px;
+}
+
+#even-odd-table table {
+    margin: auto;
+    padding: 5px;
+}
+
+#article-small {
+    text-align: center;
+}
