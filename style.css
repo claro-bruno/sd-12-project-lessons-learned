@@ -1,5 +1,6 @@
 body {
   background-color: rgb(253, 251, 251);
+  margin: 0;
 }
 
 h2 {
@@ -70,4 +71,48 @@ table {
 table th,
 table td {
   padding: 0 1rem 0 1rem;
+}
+
+/* ----------------------------------- Aprendizados-----------------------------------*/
+
+.lado_direito,
+.lado_esquerdo {
+  display: inline-block;
+  vertical-align: middle;
+  width: 40%;
+  text-align: center;
+
+  padding: 0 2rem;
+
+  border: 1px dotted rgb(24, 99, 71);
+
+  margin-left: 1rem;
+  margin-bottom: 40px;
+}
+
+/* ----------------------------------- Lições-----------------------------------*/
+
+.licoes section ol li,
+.licoes section ul li {
+  line-height: 1.7rem;
+}
+
+/* ----------------------------------- Rodapé -----------------------------------*/
+
+footer {
+  background-color: rgb(47, 192, 140);
+  text-align: center;
+  padding: 1rem;
+  color: rgb(253, 251, 251);
+}
+
+footer a {
+  text-decoration: underline;
+  color: rgb(253, 251, 251);
+  border-radius: 1rem;
+  padding: 0.5rem;
+}
+
+footer a:hover {
+  background-color: rgb(24, 99, 71);
 }
