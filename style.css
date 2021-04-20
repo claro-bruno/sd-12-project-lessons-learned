@@ -1,8 +1,25 @@
 body {
     background-color: rgb(253, 251, 251);
+    align-items: center;
+    display: inline-block;
+    width: auto;
+}
+
+#minha_foto {
+    margin: 15px;
+    padding: 15px;
+    border: 5px;
 }
 
 #cabecalho {
     position: fixed;
     top: 0;
+}
+
+#article {
+    text-align: center;
+    align-content: center;
+    display: inline-block;
+    margin: 5% auto;
+    width: 450px;
 }
