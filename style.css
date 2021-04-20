@@ -33,3 +33,10 @@ h2 {
     font-family: sans-serif;
     margin-left: 200px;
 }
+
+#rodape {
+    font-family: 'Times New Roman', Times, serif;
+    width: 100px;
+    margin-top: 50px;
+    margin-left: 30px;
+}
