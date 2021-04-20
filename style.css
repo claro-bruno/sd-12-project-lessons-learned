@@ -16,7 +16,7 @@ body {
 }
 
 #minha_foto {
-   width: 100px;
+    width: 100px;
 }
 
 #tabela {
@@ -25,12 +25,15 @@ body {
     border: pink;
 }
 
-#artigo {
-width: 50%;
+#artigo, #ao-lado {
+    display: inline-block;
+    width: 50%;
+    float: right;
+    position:unset;
+    padding-top: 0%;
+    margin-top: 0%;
 }
 
 #ao-lado {
-width: 50%;
-float: right;
-position: inherit;
+    
 }
