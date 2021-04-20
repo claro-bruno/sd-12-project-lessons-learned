@@ -1,8 +1,10 @@
-body{
-    background-color:rgb(253, 251, 251);
+body {
+  background-color:rgb(253, 251, 251);
 }
 
-header{
+header {
+    font-family: 'Staatliches', cursive ;
+    font-size: 20px;
     text-align: center;
     top:0;
     position:fixed;
@@ -10,7 +12,7 @@ header{
     width: 100%
 }
 
-#minha_foto{
+#minha_foto {
     width: 200px;
     height: 200px;
     top: 20%;
@@ -18,18 +20,18 @@ header{
     border-radius: 20%;
 }
 
-#licoes_aprendidas{
+#licoes_aprendidas {
     position: absolute;
     top: 50%;
 }
 
-#licoes_a_aprender{
+#licoes_a_aprender {
     position: absolute;
     top: 80%;
 
 }
 
-footer{ 
+footer { 
     text-decoration: none;
     font-size: 40px;
     text-align: center;
@@ -41,21 +43,25 @@ footer{
 
 }
 
-#minhaexp{
+#minhaexp {
     top: 110%;
     position: absolute;
 }
 
-#sidebar{
+#sidebar {
+    border-radius:10%;
+    padding: 1% 1% 1% 1%;
+    margin: 0%;
     width:30%;
     top: 70%;
     left: 68%;
-    background-color: rgb(255,188,181);
+    background-color: rgb(242,229,215);
     display:block;
     position: absolute;
     text-align: center;
+    font-family: 'Staatliches', cursive;
 }
 
-.ambaslistas{
+.ambaslistas {
     display:inline-block;
 }
