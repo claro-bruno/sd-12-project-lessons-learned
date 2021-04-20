@@ -4,5 +4,13 @@ body {
 #cabecalho{
     position: fixed;
     top: 0;
-    
+}
+#minha_foto{
+    width: 20%;
+}
+#licoes_aprendidas{
+    font-family: Arial, Helvetica, sans-serif;
+}
+#licoes_a_aprender{
+    font-family: monospace;
 }
