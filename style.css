@@ -11,9 +11,21 @@ body {
   position: fixed;
   top: 0;
 }
+#titulo {
+
+}
 #minha_foto {
   width: 250px;
 }
+#licoes_aprendidas {
+
+}
+#licoes_a_aprender{
+
+}
 main {
+  margin-top:294px;
+}
+nav {
   margin-top:294px;
 }
