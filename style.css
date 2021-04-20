@@ -13,3 +13,7 @@ h6{
     color: rgb(17, 121, 4);
     background-color: ;
 }
+
+#licoes{
+    display: inline-flex;
+}
