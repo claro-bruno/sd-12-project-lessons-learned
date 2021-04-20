@@ -1,9 +1,10 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/hack-font/3.3.0/web/hack.min.css");
 
 body {
-  background-color:rgb(253, 251, 251);
+  background-color: rgb(253, 251, 251);
   margin: auto;
   font-family: hack;
+  padding: 0px;
   font-size: 16px;
   line-height: 20px;
   color: black;
