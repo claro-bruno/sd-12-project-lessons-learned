@@ -64,21 +64,34 @@ h3 {
     font-style: italic;
     line-height: auto;
     text-align: justify;
-    width: 800px;
+    width: 600px;
     display: block;
     margin-left: auto;
     margin-right: auto;
     clear: none;
     height: auto;
+}
 
+.list_title {
+    text-align: center;
 }
 
 #lista_ordenada {
-    float: right;
+    float: left;
+    border: 3px;
+    border-style: outset;
+    border-radius: 10px;
+    border-color: whitesmoke;
+    width: 220px;
 }
 
 #lista_nao_ordenada {   
-    float: left;
+    float: right;
+    border: 3px;
+    border-style: outset;
+    border-radius: 10px;
+    border-color: whitesmoke;
+    width: 220px;
 }
 
 #rodape {
