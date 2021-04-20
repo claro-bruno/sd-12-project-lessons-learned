@@ -5,7 +5,7 @@ body {
 
 }
 
-/*Cabeçalho*/
+
 #cabecalho {
   top: 0;
   position: fixed;
@@ -20,7 +20,7 @@ body {
   color: white;
 }
 
-/*Cabeçalho*/
+
 
 #minha_fot {
   border-radius: 80%;
@@ -30,7 +30,7 @@ body {
   height: 7%;
 }
 
-/*Rodape*/
+
 #rodape {
 
   position: absolute;
@@ -46,5 +46,3 @@ body {
   margin-left: 50px;
 
 }
-
-/*Rodape*/
