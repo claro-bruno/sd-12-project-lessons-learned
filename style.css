@@ -2,6 +2,7 @@ body {
   background-color: rgb(253, 251, 251);
   margin: 0;
   font-family: sans-serif;
+  position: fixed;
 }
 
 #cabecalho {
@@ -37,10 +38,23 @@ nav a {
   color: rgb(255, 255, 255);
 }
 
+#sobre_mim {
+  text-align: center;
+}
+
 #minha_foto {
-  max-width: 300px;
+  max-width: 20%;
   border-radius: 50%;
-  margin: 50px;
+  margin: 30px;
+}
+
+#sobre_mim p {
+  text-align: left;
+  max-width: 70%;
+  margin: 0px;
+  float: right;
+  padding-top: 80px;
+  padding-right: 30px;
 }
 
 #rodape a {
