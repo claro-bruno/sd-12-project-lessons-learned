@@ -1,8 +1,56 @@
 body {
-    background-color: rgb(253, 251, 251);
+background-color: rgb(253, 251, 251);
+font-family: 'Antic Didone', serif; /* Ref.: Google Fonts. */
+}
+
+h1 {
+font-family: 'Poppins', sans-serif; /* Ref.: Google Fonts. */
+font-weight: 100;
+}
+
+h2 {
+margin-bottom: 1px;
+color: rgb(30, 63, 32);
 }
 
 header {
+position: fixed;
+top: 0;
+left: 500px;
+color:rgb(22, 23, 61);
+font-size: 2em;
+}
+
+aside {
     position: fixed;
+    z-index: 1;
     top: 0;
+    left: 0;
+}
+
+ul {
+list-style-type: none;
+}
+
+.blur_bg {
+    height: 700px;
+}
+
+.minha_foto {
+    position: fixed;
+    z-index: 2;
+    top: 50px;
+    left: 150px;
+    height: 300px;
+    border-radius: 50%;
+    border: 1px solid rgb(1, 17, 10);
+    box-shadow: 0 0 10px 1px rgb(1, 17, 10); /* Ref.: https://www.w3schools.com/cssref/css3_pr_box-shadow.asp */
+    ;
+}
+
+.facts {
+    display: inline-block;
+    position: absolute;
+    top: 125px;
+    left: 465px;
 }
