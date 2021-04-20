@@ -14,6 +14,11 @@ body {
   width: 100%;
 }
 
+.box_img {
+  float: right;
+  width: 230px;
+}
+
 #minha_foto {
   margin-top: 150px;
 }
