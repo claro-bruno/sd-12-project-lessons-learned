@@ -51,5 +51,6 @@ h2, h3  {
     border: 10px solid green;
     width: 400px;
     margin: 20px;
-    padding: 50px;    
+    padding: 50px;
+    display: inline-block;    
 }
