@@ -8,3 +8,10 @@ body {
     background-color: greenyellow;
     text-align: center;
 }
+#minha_foto {
+    max-width: 300px;
+    float: right;    
+}
+#licoes_aprendidas {
+    margin-top: 300px;
+}
