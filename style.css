@@ -15,3 +15,8 @@ body {
 #licoes_aprendidas {
     margin-top: 300px;
 }
+#rodape {
+    position: fixed;
+    bottom: 0;
+    margin-left: 40%;
+}
