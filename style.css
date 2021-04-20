@@ -15,6 +15,9 @@ body {
 
 #minha_foto {
   padding: 10px;
+  border-radius: 4;
+  width: 300px;
+  height: 300px;
 }
 
 #licoes_aprendidas {
