@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(253, 251, 251);  /* Requisito */ 
+    background-color: rgb(253, 251, 251);
     margin: 0 auto;
 }
 
@@ -8,10 +8,10 @@ div, section, article, p, img {
 }
 
 #cabecalho {
-    position: fixed;  /* Requisito */ 
-    top: 0;  /* Requisito */ 
+    position: fixed;
+    top: 0;
     width: 99.5%;
-    background-color: #454372;    
+    background-color: rgb(69, 67, 114);  
     box-shadow: 1px 1px 1em;
     z-index: 1;
 }
@@ -21,7 +21,7 @@ div, section, article, p, img {
     text-align: center;
 }
 
-.contatos a{
+.contatos a {
     color: wheat;
 }
 
@@ -48,6 +48,7 @@ div, section, article, p, img {
 .outer-about-container h2 {
     text-align: center;
 }
+
 .general-about {
     width: 99.5%;
     padding: 1%;
@@ -56,7 +57,6 @@ div, section, article, p, img {
 .about-list {
     display: inline-block;
     padding: 2%;
-    
 }
 
 .about-text {
