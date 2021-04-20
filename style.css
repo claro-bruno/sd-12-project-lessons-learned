@@ -9,6 +9,8 @@ body {
 #cabecalho {
     position: fixed;
     top: 0%;
+    background-color: royalblue;
+    width: 100%;
 }
 #titulo {
     margin-top: 0px;
