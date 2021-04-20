@@ -6,6 +6,11 @@ body {
     position: fixed;
     top: 0px;
     left: 0px;
+    right: 0px;
     background-color: green;
-    padding: 0px 700px 20px 650px;
+    width: 100%;
+}
+
+.header h1 {
+    text-align: center;   
 }
