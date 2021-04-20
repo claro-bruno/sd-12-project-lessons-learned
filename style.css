@@ -9,14 +9,14 @@ body {
   color: #333;
 }
 
-.artigo {
+.lado-esquerdo {
   display: inline-block;
   width: 79%;
   border: 1px black solid;
   box-sizing: border-box;
 }
 
-.barra-lateral {
+.lado-direito {
   display: inline-block;
   width: 20%;
 
