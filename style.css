@@ -52,7 +52,7 @@ h2 {
 
 .cartao {
 	background: #fff;
-	padding: 1.5rem 2rem;
+	padding: 1.5rem 2rem 17.0rem;
 	border-radius: 0.25rem;
 	margin-bottom: 2rem;
 	color: #363f5f;
@@ -60,8 +60,12 @@ h2 {
 
 #licoes_aprendidas {
 	float: left;
+	position: relative;
+	display: inline-block;
 }
 
 #licoes_a_aprender {
 	float: right;
+	position: relative;
+	display: inline-block;
 }
