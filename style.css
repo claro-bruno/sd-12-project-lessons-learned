@@ -1,24 +1,46 @@
-body {
+ body {
     background-color: rgb(253, 251, 251);
 }
-header{
+
+ header {
     background-color: green;
     width: 100%;
     text-align: center;
 }
-p {
+
+.indice {
+    display: inline;
+    list-style-type: none;
+    list-style: none;
+    word-spacing: 30px;
+    text-align: center;
+}
+ li.indicelista {
+     display: inline-block;
+     
+ }
+
+ p {
     max-width: 80%;
 }
-main{
+
+ main {
     margin-top: 10%;
 }
-#cabecalho {
+
+ #cabecalho {
     position: fixed;
     top: 0;
 } 
-#minha_foto {
+
+ #minha_foto {
     width: 200px;
     border-radius: 20%;
     margin-top: 5%;
     margin-left: 10%;
 }
+ footer{
+    background-color: green;
+    width: 100%;
+    text-align: center;
+ }
