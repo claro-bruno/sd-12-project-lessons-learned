@@ -49,17 +49,23 @@ body {
   height: 30px;
 
 }
-#td1{
+
+#td1 {
   position: fixed;
   margin-left: 40%;
   color:white;
+  
 }
+
 #td2 {
   position: fixed;
   margin-left: 50%;
   color:white;
+
 }
-nav{
+
+nav {
   position: fixed;
   padding: 20px;
+
 }
