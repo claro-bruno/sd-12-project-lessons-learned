@@ -14,8 +14,10 @@ body{
     
 }
 #titulo{
+   
     margin-left: 100px;
     color: white;
+ 
   
 }
 #minha_foto{
@@ -25,4 +27,15 @@ body{
     width: 7%;
     height: 7%;
 }
-
+#rodape{
+   
+    bottom: 0;
+    position: absolute;
+    color: white;
+    background-color: rgb(87, 87, 87);
+    width: 100%;
+    
+}
+#texto1{
+    margin-left: 50px;
+}
