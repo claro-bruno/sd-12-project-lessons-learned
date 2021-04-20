@@ -18,3 +18,14 @@ body{
 #titulo{
     color: #fff;
 }
+
+main{
+    margin: 3rem;
+}
+
+#minha_foto{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    
+}
