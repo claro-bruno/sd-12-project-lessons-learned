@@ -41,15 +41,58 @@ nav ul li a {
 }
 
 main {
-    margin-top: 150px;
+    max-width: 60%;
+    margin: 150px auto;
+}
+
+.name {
+    width: 300px;
+    text-align: center;
+}
+
+img {
+    width: 300px;
+    border-style: double;
+    border-radius: 50%;
 }
 
 .lado-esquerdo {
     display: inline-block;
-    max-width: 30%;
+    max-width: 40%;
+    margin: 20px;
 }
 
 .lado-direito {
     display: inline-block;
-    max-width: 30%;
+    max-width: 40%;
+    vertical-align: top;
+    margin: 20px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table, th, td{
+    border: 1px solid black;
+}
+
+th, td {
+    padding: 20px;
+}
+
+#rodape {
+    width: 100%;
+    
+}
+
+#rodape a{
+    text-decoration: none;
+    color: black;
+    width: 20%;
+    margin: 40%;
+}
+
+#rodape a:hover{
+    color: rgb(18, 18, 95);
 }
