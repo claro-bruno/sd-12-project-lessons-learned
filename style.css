@@ -5,3 +5,7 @@ body{
   top: 0px;
   position: fixed;
 }
+#minha_foto{
+    width: 400px;
+    margin-top: 80px;
+}
