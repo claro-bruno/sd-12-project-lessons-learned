@@ -16,6 +16,8 @@ body {
 
 #titulo {
   font-family: "Megrim", sans-serif;
+  font-size: 42px;
+  letter-spacing: 0.1em;
 }
 
 .box_img {
