@@ -9,4 +9,16 @@ body{
     background-color: rgb(16, 16, 17);
     width: 100%;
     
+    
+}
+#titulo{
+    margin-left: 100px;
+    color: white;
+}
+#minha_foto{
+    border-radius: 80%;
+   margin-left: 40%;
+    margin-top: 90px;
+    width: 7%;
+    height: 7%;
 }
