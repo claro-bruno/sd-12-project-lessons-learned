@@ -6,4 +6,40 @@ body{
 #cabecalho{
     top: 0;
     position: fixed;
+    margin-left: 300px;
 }
+article {
+    width: 835px;
+    background-color: gray;
+    padding: 10px;
+    margin-right: 50px;
+    left: ;
+}
+#minha_foto{
+    width: 766px;
+    margin-left: 200px;
+    
+}
+
+aside{
+    width: 300px; 
+    background-color: rgb(165, 111, 111);
+    margin-right: 100px;
+    padding: 10px
+}
+
+.lists{
+    padding: 10px 20px 10px 20px;
+    width: 55%;
+    margin-left:200px;
+    background: chartreuse;
+    border-radius: 15px;
+}
+
+.listas{
+    width: 40%;
+    text-align: center;
+    margin: 5px;
+    display:inline-block;
+}
+
