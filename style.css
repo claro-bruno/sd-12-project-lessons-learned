@@ -1,6 +1,7 @@
 #cabecalho {
   top: 0;
   position: fixed;
+  width: 100%;
 }
 
 #minha_foto {
@@ -21,7 +22,8 @@
   display: inline-block;
   width: 500px;
   text-align: center;
-  padding-left: 200px;
+  padding-left: 10%;
+  position: absolute;
 }
 
 .list {
@@ -30,13 +32,18 @@
   border: solid rgb(56, 150, 64) 2px;
 }
 
+header{
+    background-color: green;
+}
+
 body {
   background-color: rgb(253, 251, 251);
 }
 
 h2 {
   text-align: center;
-  font-family: ;
+  font-family: monospace;
+  text-decoration: underline;
 }
 
 article {
