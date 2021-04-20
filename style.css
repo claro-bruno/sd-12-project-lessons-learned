@@ -1,5 +1,8 @@
 body {
     background-color: rgb(253, 251, 251);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    
 }
 
 #cabecalho {
@@ -17,6 +20,8 @@ body {
 
 nav {
     margin-top: 30px;
+    font-size: 16px;
+    line-height: 20px;
     
 }
 
