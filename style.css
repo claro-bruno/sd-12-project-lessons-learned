@@ -12,3 +12,7 @@ body {
 #cabecalho h1 {
     text-align: center;
 }
+
+#minha_foto {
+    width: 200px;
+}
