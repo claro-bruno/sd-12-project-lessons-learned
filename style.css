@@ -3,9 +3,16 @@ body {
     background-color: rgb(253, 251, 251);
 }
 
+h1 {
+    text-align: left;
+}
+
+
 #cabecalho {
     position: fixed;
     top: 0;
+    background-color: lavender;
+    width: 100%;
 }
 
 #titulo {
@@ -14,7 +21,7 @@ body {
 
 #minha_foto {
     border-radius: 20%;
-    width: 300px;
     position: absolute;
-    top: 80px;
+    top: 100px;
+    width: 300px;
 }
