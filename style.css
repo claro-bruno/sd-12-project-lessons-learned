@@ -1,46 +1,50 @@
  body {
-    background-color: rgb(253, 251, 251);
+  background-color: rgb(253, 251, 251);
 }
 
  header {
-    background-color: green;
-    width: 100%;
-    text-align: center;
+  background-color: green;
+  width: 100%;
+  text-align: center;
 }
 
-.indice {
-    display: inline;
-    list-style-type: none;
-    list-style: none;
-    word-spacing: 30px;
-    text-align: center;
+ .indice {
+  display: inline;
+  list-style-type: none;
+  list-style: none;
+  word-spacing: 30px;
+  text-align: center;
 }
  li.indicelista {
-     display: inline-block;
-     
+  display: inline-block;
+  background-color: white
+  border: blue;
+  border-style: outset;
+  font-size: 25px;
  }
 
  p {
-    max-width: 80%;
+  max-width: 80%;
 }
 
  main {
-    margin-top: 10%;
+  margin-top: 10%;
 }
 
  #cabecalho {
-    position: fixed;
-    top: 0;
+  position: fixed;
+  top: 0;
 } 
 
  #minha_foto {
-    width: 200px;
-    border-radius: 20%;
-    margin-top: 5%;
-    margin-left: 10%;
+  width: 200px;
+  border-radius: 30%;
+  margin-top: 5%;
+  margin-left: 10%;
 }
+
  footer{
-    background-color: green;
-    width: 100%;
-    text-align: center;
+  background-color: green;
+  width: 100%;
+  text-align: center;
  }
