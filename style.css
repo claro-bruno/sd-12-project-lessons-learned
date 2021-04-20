@@ -12,6 +12,23 @@ body{
     left: 0;
 }
 
+#navigation ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#navigation a {
+    color: #6CA6C1;
+    text-decoration: none;
+    display: block;
+    
+}
+
+#navigation a:hover{
+    color: aqua;
+}
+
 #minha_foto{
     width: 200px;
     margin-top: 80px;
