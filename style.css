@@ -40,6 +40,11 @@ main {
                                          display: inline-block;
 }
 
+article p {
+           width: 70%;
+           text-indent: 30px;
+}
+
 footer {
         margin-left: 8px;
 }
