@@ -1,10 +1,69 @@
+* {
+    margin: 0;
+}
 body {
     background-color:rgb(253, 251, 251);
+    font-family: 'Franklin Gothic Medium', Arial, sans-serif;
 }
-header#cabecalho {
+header{
     position: fixed;
+    width: 100%;
     top: 0px;
+    background-color: grey;
+}
+header h1 {
+    font-size: 36px;
+    padding: 20px;
+    border: 5px double black;
+    text-align: center;
+}
+
+#espacador_cabecalho {
+    height: 250px;
+}
+img {
+    border-radius: 15%;
+    padding: 20px;
 }
 nav {
+    width: 100%;
+    text-align: center;
+}
+nav li {
+    width: 30%;
     display: inline-block;
+}
+table {
+    display: block;
+}
+table li{
+    margin: 10px;
+}
+article, aside {
+    color: rgb(35, 20, 35);
+}
+p {
+    line-height: 2em;
+    padding: 40px;
+}
+footer{
+    font-size: 32px;
+    background-color: grey;
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+    font-weight: 800;
+}
+.lado-direito {
+    float: right;
+    width: 50%;
+}
+.lado-esquerdo {
+    float: left;
+    width: 50%;
 }
