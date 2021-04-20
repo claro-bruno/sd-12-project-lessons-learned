@@ -68,3 +68,9 @@ aside {
 footer {
           margin-left: 8px;
 }
+
+footer em {
+             font-size: small;
+             font-family: monospace;
+             font-variant: all-petite-caps;
+}
