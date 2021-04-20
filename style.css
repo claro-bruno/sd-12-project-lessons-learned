@@ -1,6 +1,7 @@
 body {
   background-color: rgb(253, 251, 251);
   box-sizing: border-box;
+  color: rgb(33, 33, 33);
   margin: 0;
   padding: 0;
 }
@@ -15,6 +16,7 @@ body {
 }
 
 #titulo {
+  color: rgb(253, 251, 251);
   font-family: "Megrim", sans-serif;
   font-size: 42px;
   letter-spacing: 0.1em;
