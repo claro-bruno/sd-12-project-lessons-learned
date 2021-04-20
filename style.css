@@ -11,3 +11,6 @@ body {
 #titulo {
     color: white;
 }
+.listas {
+    display: inline-block;
+}
