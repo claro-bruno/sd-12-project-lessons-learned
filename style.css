@@ -28,3 +28,12 @@ nav ul li {
 #leg-foto {
   margin-left: -45px;
 }
+
+#licoes_aprendidas {
+  display: inline-block;
+}
+
+#licoes_a_aprender {
+  width: 80%;
+  float: right;
+}
