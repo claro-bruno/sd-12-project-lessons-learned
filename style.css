@@ -60,7 +60,7 @@ body {
 
 .background_list {
     background-color: rgb(182, 238, 166);
-    margin-right: 50%;
+    margin-right: 25%;
     border: 8px solid rgb(95, 149, 115);
     border-left: 0px;
     border-top-right-radius: 1000px;
@@ -68,17 +68,17 @@ body {
     margin-bottom: 70px;
 }
 
-.artigo {
+.lado-direito {
     display: inline-block;
     width: 30%;
     margin-left: 30px;
     border: 5px dotted black;
     padding: 40px;
     font-size: 24px;
-    
+    line-height: 31px;
 }
 
-.artigo h2{
+.lado-direito h2{
     font-family: 'Nunito', sans-serif;
     margin: 50px 0px 30px 30px;
     background-color: rgb(95, 149, 115);
@@ -88,16 +88,17 @@ body {
     color: #fff;
 }
 
-.aside {
+.lado-esquerdo {
     display: inline-block;
     width: 30%;
     margin-left: 30px;
     border: 5px dotted black;
     padding: 40px;
     font-size: 24px;
+    line-height: 31px;
 }
 
-.aside h2 {
+.lado-esquerdo h2 {
     font-family: 'Nunito', sans-serif;
     margin: 50px 0px 30px 30px;
     background-color: rgb(95, 149, 115);
