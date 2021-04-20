@@ -1,6 +1,31 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+}
+
 body {
     background-color: rgb(253, 251, 251);
     margin-top: 140px;
+}
+
+h1 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 40px;
+    letter-spacing: 2px;
+    color: black;
+}
+
+h2 {
+    font-size: 27px;
+}
+
+p {
+    line-height: 25px;
+}
+
+#titulo {
+    margin-top: 10px;
+    margin-bottom: 0;
 }
 
 #minha_foto {
@@ -14,10 +39,29 @@ body {
     width: 100%;
     background-color:grey;
     text-align: center;
+    max-height: 150px;
 }
 
-#rodape {
+#rodape{
     width: 100%;
+    margin-top: 10%;
+}
+
+#rodape p, #rodape div{
+    display: inline-block;
+}
+
+#rodape p {
+    margin: 0;
+}
+
+#contact-links {
+    margin: 0 0 0 750px;
+}
+
+#contact-links a {
+    display: inline-block;
+    width: 80px;
 }
 
 #stomatopoda{
@@ -54,4 +98,33 @@ body {
 
 #article-small {
     text-align: center;
+}
+
+#lessons-list {
+    margin-top: 40px;
+}
+#lessons h2 {
+    text-align: center;
+}
+    
+#lessons li {
+    padding: 2px;
+}
+
+#licoes_aprendidas {
+    margin-left: 25% ;
+    margin-right: 2%;
+}
+
+#main-article {
+    margin-top: 100px;
+}
+
+#licoes_aprendidas, #licoes_a_aprender {
+    display: inline-block;
+}
+
+.nav-bar li{
+    display: inline-block;
+    margin-right: 50px;
 }

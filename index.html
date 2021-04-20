@@ -6,6 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
     <title>Lessons Learned</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+    <!--Beba Neue e Montserrat fonte-->
   </head>
   <body>
     <header id="cabecalho">
@@ -14,59 +19,72 @@
       </section>
       <nav>
         <ul class="nav-bar">
-          <li>Home</li>
-          <li>Contato</li>
+          <li id="home"><a href="#content">Home</a></li>
+          <li id="contact"><a href="#contact-links">Contato</a></li>
         </ul>
       </nav>
     </header>
     <main id="content">
       <section id="main-content">
         <section id="lessons">
-          <ol id="licoes_aprendidas">
-            <li>Unix</li>
-            <li>Git</li>
-            <li>GitHub</li>
-            <li>Controle Emocional</li>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>Slack</li>
-            <li>Zoom</li>
-            <li>Inspect</li>
-            <li>Semantic HTML</li>
-          </ol>
-          <ul id="licoes_a_aprender">
-            <li>JavaScrip</li>
-            <li>DOM</li>
-            <li>Forms</li>
-            <li>CSS Responsive</li>
-            <li>ES6</li>
-            <li>SQL</li>
-            <li>Unit Tests</li>
-            <li>Python</li>
-            <li>React</li>
-            <li>Node</li>
-          </ul>
+          <div id="lessons-list">
+            <h2>Lista de lições</h2>
+            <ol id="licoes_aprendidas">
+              <li>Unix</li>
+              <li>Git</li>
+              <li>GitHub</li>
+              <li>Controle Emocional</li>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>Slack</li>
+              <li>Zoom</li>
+              <li>Inspect</li>
+              <li>Semantic HTML</li>
+            </ol>
+            <ul id="licoes_a_aprender">
+              <li>JavaScript</li>
+              <li>DOM</li>
+              <li>Forms</li>
+              <li>CSS Responsive</li>
+              <li>ES6</li>
+              <li>SQL</li>
+              <li>Unit Tests</li>
+              <li>Python</li>
+              <li>React</li>
+              <li>Node</li>
+            </ul>
+          </div>
         </section>
-        <section>
+        <section id="main-article" class="lado-esquerdo">
           <article>
-            Hoje estou completando um dos grandes passos na Trybe, o primeiro
-            projeto. Esse projeto uniu tudo que aprendi até o momento, git,
-            html, css, etc... Me diverti bastante até agora com isso tudo, e
-            espero continuar me divertindo e me desenvolvendo como profissional,
-            atingindo os meus objetivos. As pessoas que nos acompanham na Trybe
-            são sensacionais, desde a equipe de facilitação até os professores.
-            Está sendo uma experiência e tanto!
+            <p>
+              Hoje estou completando um dos grandes passos na Trybe, o primeiro
+              projeto! Esse projeto uniu tudo que aprendi até o momento, git,
+              html, css, etc...
+            </p>
+            <p>
+              Me diverti bastante até agora com isso tudo, e espero continuar me
+              divertindo e me desenvolvendo como profissional, atingindo os meus
+              objetivos.
+            </p>
+            <p>
+              As pessoas que nos acompanham na Trybe são sensacionais, desde a
+              equipe de facilitação até os professores. Está sendo uma
+              experiência e tanto!
+            </p>
           </article>
         </section>
       </section>
 
       <aside id="side-bar">
-        <section id="article-small">
-          <em
-            >"Podemos dentro da Trybe ver o constante aprendizado que obtemos
-            por meio dos exercícios propostos, que são sempre objetivos e
-            precisos."</em
-          >
+        <section id="article-small" class="lado-direito">
+          <p>
+            <em
+              >"Podemos dentro da Trybe ver o constante aprendizado que obtemos
+              por meio dos exercícios propostos, que são sempre objetivos e
+              precisos."</em
+            >
+          </p>
         </section>
         <section id="stomatopoda">
           <div>
@@ -81,7 +99,7 @@
 
         <section>
           <div id="even-odd-table">
-            <p><strong>Probabilidade de ganhar no par ou ímpar</strong></p>
+            <h2><strong>Probabilidade de ganhar no par ou ímpar</strong></h2>
             <table border="1" id="sidebar-table">
               <thead>
                 <tr>
@@ -111,9 +129,14 @@
     </main>
     <footer id="rodape">
       <section>
-        <a href="https://github.com/brunognovaes" target="_blank">GitHub</a>
+        <p><strong>Todos os diretos reservados, Bruno.</strong></p>
+        <div id="contact-links">
+          <a href="https://github.com/brunognovaes" target="_blank">GitHub</a>
+          <a href="https://www.linkedin.com/in/brunognovaes/" target="_blank"
+            >Linkedin</a
+          >
+        </div>
       </section>
-      <section>Todos os diretos reservados, Bruno.</section>
     </footer>
   </body>
 </html>
