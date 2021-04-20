@@ -74,7 +74,8 @@ h3 {
 }
 
 #navegacao {
-    
+    position: fixed;
+    background-color: brown;
 }
 
 #links {
