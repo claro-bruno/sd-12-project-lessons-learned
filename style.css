@@ -13,6 +13,7 @@
   position: absolute;
   font-family: monospace;
   font-size: 28px;
+  letter-spacing: 10px;
 }
 
 #link {
@@ -47,9 +48,9 @@ h2 {
   text-decoration: underline;
 }
 
-h3{
-    padding-top: 10px;
-    color: greenyellow;
+h3 {
+  padding-top: 10px;
+  color: greenyellow;
 }
 
 article {
