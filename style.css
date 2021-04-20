@@ -51,30 +51,38 @@ h3 {
     font-style: italic;
 }
 
-
-#listas{
-    
+#side {
+    width: 150px;
+    float: right;
+    height: 300px;
+    margin-right: 200px;
+    top: 200px;
 }
-#lista_ordenada {
+
+#listas {
     font-family: monospace;
     font-style: italic;
     line-height: auto;
-    width: 300px;
-    background-color: aquamarine;
-    display: block;
     text-align: justify;
+    width: 800px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    clear: none;
+    height: auto;
+
 }
 
-#lista_desordenada {
-    font-family: monospace;
-    font-style: italic;
-    line-height: auto;
-    width: 300px;
-    display: block;
-    text-align: justify
+#lista_ordenada {
+    float: right;
+}
+
+#lista_nao_ordenada {   
+    float: left;
 }
 
 #rodape {
+    clear: both;
 
 }
 
