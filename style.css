@@ -1,5 +1,6 @@
 body {
     background-color: rgb(253, 251, 251) ;
+    margin: 0;
 }
 #cabecalho {
     position: fixed;
@@ -11,5 +12,4 @@ body {
 #titulo {
     text-align: center;
     color: rgb(255, 255, 255);
-
 }
