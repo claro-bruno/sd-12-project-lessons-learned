@@ -15,34 +15,31 @@ body {
 }
 
 #titulo {
-
   margin-left: 100px;
   color: white;
 }
 
-
-
-#minha_fot {
+#minha_foto {
   border-radius: 80%;
-  margin-left: 40%;
+  margin-left: 20px;
   margin-top: 90px;
   width: 7%;
   height: 7%;
 }
 
-
 #rodape {
-
-  position: absolute;
-  bottom: 0;
+  height: 50px;
+  margin-bottom: 0;
   color: white;
   background-color: rgb(87, 87, 87);
   width: 100%;
+  padding-top: 8px;
 
 
 }
 
 #texto1 {
   margin-left: 50px;
-
+  
+ 
 }
