@@ -51,6 +51,7 @@ body {
 
 #imagem {
     text-align: center;
+    color: rgb(74, 77, 80);
 }
 
 img {
@@ -64,6 +65,7 @@ img {
     display: inline-block;
     text-align: center;
     line-height: 22px;
+    font-family: 'Roboto', sans-serif;
 }
 
 #container a {
@@ -72,14 +74,14 @@ img {
     color: #036b52;
 }
 
-#aprendizado {
+#lado_esquerdo {
     width: 40%;
     display: inline-block;
     text-align: justify;
     text-indent: 40px;
 }
 
-#passagem_aprendizado {
+#lado_direito {
     width: 30%;
     display: inline-block;
     padding-left: 5%;
