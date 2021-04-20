@@ -1,12 +1,12 @@
-* {
+*{
     margin: 0;
 }
 
-body {
+body{
     background-color:rgb(253, 251, 251);
 }
 
-#cabecalho {
+#cabecalho{
     position:fixed;
     top: 0;
     font-size: 30px;
@@ -15,7 +15,7 @@ body {
     text-align: center;
 }
 
-.photo {
+.photo{
     display: flex;
     width: 100%;
 }
@@ -24,7 +24,7 @@ body {
     width: 25%;
 }
 
-.lessons_parent {
+.lessons_parent{
     display: flex;
     font-size: 30px;
     width: 100%;
@@ -33,13 +33,13 @@ body {
     border: 1px solid black;
 }
 
-.lessons_left {
+.lessons_left{
     border: 1px solid lightgray;
     background-color: #f2f2f2;
     width: 45%;
 }
 
-.lessons_right {
+.lessons_right{
     border: 1px solid lightgray;
     background-color: #f2f2f2;
     width: 45%;
