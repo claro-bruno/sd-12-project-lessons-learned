@@ -23,7 +23,7 @@ article {
     background-color: rgba(141, 221, 37, 0.527);
     padding: 10px;
     margin-left: 200px;
-    letter-spacing: 1px;
+    line-height: normal;
 
 }
 
@@ -56,11 +56,11 @@ aside{
     display: inline;
 }
 
-#lado-esquerdo{
+.lado-esquerdo{
 float: left;
 }
 
-#lado-direito{
+.lado-direito{
 float: right;
 }
 
