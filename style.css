@@ -11,6 +11,41 @@ body {
 #titulo {
     color: white;
 }
+.link {
+    color: white;
+    text-decoration: none;
+    list-style-type: none;
+}
+.aprendizado{
+    position: absolute;
+    top: 30px;
+    left: 200px;
+    font-weight: bold;
+    background-color: white;
+    color: black;
+    padding: 5px;
+    border-radius: 5px;
+}
+.passagem {
+    position: absolute;
+    top: 30px;
+    left: 400px;
+    font-weight: bold;
+    background-color: white;
+    color: black;
+    padding: 5px;
+    border-radius: 5px;
+}
+.contato {
+    position: absolute;
+    top: 30px;
+    left: 600px;
+    font-weight: bold;
+    background-color: white;
+    color: black;
+    padding: 5px;
+    border-radius: 5px;
+}
 #minha_foto {
     width: 250px;
 }
