@@ -9,7 +9,6 @@ body {
 #cabecalho {
     position: fixed;
     top: 0;
-    padding: 0px 50px;
     height: 150px;
     width: 100%;
 }
@@ -40,4 +39,18 @@ body {
 
 #licoes_a_aprender {
     display: inline-block;
+}
+
+#article {
+    display: inline-block;
+    width: 40%;
+}
+
+#aside {
+    display: inline-block;
+    width: 40%;
+}
+
+#separacao {
+    
 }
