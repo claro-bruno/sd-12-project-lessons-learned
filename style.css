@@ -1,16 +1,21 @@
 body {
+    margin: 0;
     background-color: rgb(253, 251, 251);
+    text-align: center;
 }
 
 header {
-    text-align: center;
+    background-color: gray;
     position: fixed;
     width: 100%;
+    height: 110px;
     top: 0;
 }
 
 img {
-    margin-top: 100px;
+    display: block;
+    margin: auto;
+    margin-top: 120px;
     width: 100px;
 }
 
@@ -21,18 +26,27 @@ article p, aside p {
     line-height: 2em;
 }
 
+.listas {
+    line-height: 2em;
+}
+
+.listas ul, .listas li {
+    list-style-type: none;
+    font-weight: bold;
+}
+
 article, aside {
     display: inline-block;
     width: 30%;
 }
 
 table {
-    margin: 2em;
+    margin: auto;
+    margin-bottom: 2em;
 }
 
 td {
     padding: .5em;
-    text-align: center;
 }
 
 tr:first-child {
@@ -41,5 +55,14 @@ tr:first-child {
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
     color: red;
+}
+
+footer {
+    padding: 2em;
+    background-color: gray;
+}
+
+footer a {
+    margin-right: 2em;
 }
 
