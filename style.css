@@ -4,7 +4,7 @@ body {
 
 }
 
-#cabecalho{
+#cabecalho {
   background-color: #036b52;
   color: aliceblue;
   text-align: center;
@@ -13,10 +13,15 @@ body {
 
 }
 
-#minha_foto{
-padding: 10px ;
+#minha_foto {
+  padding: 10px;
 }
-#licoes_aprendidas{
+
+#licoes_aprendidas {
   list-style: decimal;
 
+}
+
+#licoes_a_aprender {
+  list-style: circle;
 }
