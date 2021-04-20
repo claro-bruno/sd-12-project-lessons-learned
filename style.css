@@ -15,18 +15,18 @@ header {
 #minha_foto {
     width: 200px;
     height: 200px;
-    top: 20%;
-    position: absolute;
     border-radius: 20%;
+    margin-top: 9%;
+    margin-left: 40%;
 }
 
 #licoes_aprendidas {
-    position: absolute;
+    
     top: 50%;
 }
 
 #licoes_a_aprender {
-    position: absolute;
+    
     top: 80%;
 
 }
@@ -36,32 +36,37 @@ footer {
     font-size: 40px;
     text-align: center;
     background-color:rgb(255,188,181) ;
-    position:absolute;
     width: 100%;
     height:10%;
     top: 130%;
 
 }
-
-#minhaexp {
-    top: 110%;
-    position: absolute;
+h2 {
+    font-family: 'Staatliches', cursive ;
+}
+.lado-esquerdo {
+     float: left;
+     font-size: 20px;
+     background-color:rgb(242,229,215);
+     width: 400px;
+     padding: 1% 1% 1% 1%;
+     margin: 5%;
+     vertical-align: middle;
+     line-height: 25px;
 }
 
-#sidebar {
-    border-radius:10%;
+.lado-direito {
+      
     padding: 1% 1% 1% 1%;
-    margin: 0%;
-    width:30%;
-    top: 70%;
-    left: 68%;
+    margin-top: 10%;
+    margin-left: 40%;
+    width:400px;
+    top: 60%;
     background-color: rgb(242,229,215);
-    display:block;
-    position: absolute;
-    text-align: center;
     font-family: 'Staatliches', cursive;
+    
 }
 
 .ambaslistas {
-    display:inline-block;
+    margin-top: 14%;
 }
