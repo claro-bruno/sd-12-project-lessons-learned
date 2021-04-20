@@ -49,7 +49,7 @@ a:hover {
   display: block;
 }
 
-.indice li{
+.indice li {
   list-style: none;
   display: inline-block;
   background-color: rgb(164, 159, 127);
@@ -57,7 +57,7 @@ a:hover {
   border-radius: 10px;
 }
 
-.hr-i{
+.hr-i {
   margin: 50px 0;
   border-style: solid;
   border-width: 10px;
@@ -98,7 +98,7 @@ a:hover {
 }
 
 .table-p > thead {
-  background-color: rgb(118, 114, 97);  
+  background-color: rgb(118, 114, 97);
 }
 
 .table-p > tbody {
@@ -113,7 +113,7 @@ a:hover {
   border-color: rgb(180, 129, 104);
 }
 
-.redes li{
+.redes li {
   list-style: none;
   display: inline;
   padding: 40px;
