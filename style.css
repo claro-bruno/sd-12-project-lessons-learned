@@ -4,13 +4,17 @@ body {
 
 #titulo {
   text-align: center;
+  color: white;
 }
 
 #cabecalho {
+  display: block;
   position: fixed;
   top: 0;
   height: 150px;
   width: 100%;
+  background-color: green;
+  margin-bottom: 20px;
 }
 
 .main {
@@ -23,29 +27,56 @@ body {
   border-radius: 5%;
   height: auto;
   margin-bottom: 20px;
-  margin-left: 10px;
+  margin-left: 30px;
 }
 
 #linkedin {
-  margin-left: 10px;
+  display: block;
+  margin-left: 30px;
   text-decoration: none;
+  color: black;
+  margin-bottom: 20px;
+}
+
+#licoes {
+  margin-left: 155px;
 }
 
 #licoes_aprendidas {
-  margin-top: 50px;
+  margin-top: 20px;
   display: inline-block;
+  margin-left: 30px;
 }
 
 #licoes_a_aprender {
   display: inline-block;
+  margin-left: 30px;
 }
 
 #article {
   display: inline-block;
-  width: 40%;
+  width: 45%;
+  text-align: justify ;
+  margin-left: 30px;
 }
 
 #aside {
   display: inline-block;
-  width: 40%;
+  width: 45%;
+  text-align: justify ;
+  margin-left: 30px;
+  padding: 20px 10px 20px 30px;
+}
+
+#list-nav {
+  list-style-type: none;
+}
+
+.link-cabecalho {
+  text-decoration: none;
+  color: white;
+}
+
+#rodape {
+  margin-left: 30px;
 }
