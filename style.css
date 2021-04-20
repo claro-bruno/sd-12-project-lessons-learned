@@ -1,22 +1,44 @@
 body {
     background-color: rgb(253, 251, 251);
-    margin-left: 0px;
+    font-family: Helvetica, Arial;
 }
 
 #cabecalho {
-    width: 1366px; 
+    width: 100%;
+    height: 60px;
     top :0px;
+    left:0px;
     background-color: rgb(80, 79, 79);
     color:honeydew;
-    margin-left:0px;
     border:5px solid black;
     position: fixed;
 }
 
-#minha_foto{
-    margin-top: 170px;
-    display:block;
-    top: 100px;
-    height: 200px;
+#titulo {
+    font-size: 22px ;
+    line-height: 3px;
+    margin-left: 10px;
+}
 
+#minha_foto{
+    margin: auto;
+    margin-top: 85px;    
+    display:block;
+    height: 200px;
+    border-radius: 2ch;
+    background-color: rgb(126, 126, 126);
+    padding: 1px;
+
+}
+
+h2 {
+    font-size: 18px ;
+    font-weight: 500;       
+    line-height: 3px;
+    margin-left: 80px;
+}
+
+.TEX {
+    font-style: italic;
+    margin-left: 150px;
 }
