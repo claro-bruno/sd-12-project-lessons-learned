@@ -12,12 +12,14 @@ main {
     top: 0;
     left: 0;
     width: 100%;
-    font-size: 20px;
     height: 100px;
 }
 #titulo {
     color: white;
     padding-left: 10px;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 40px;
 }
 .link {
     color: white;
