@@ -44,12 +44,12 @@ h2, h3  {
     background-color: yellow;
 }
 .vamosAprender {
-    background-color: red;
-   
-    
+    background-color: red;    
 }
-.etabela {
+.artigo {
+    background-color: yellowgreen;
+    border: 10px solid green;
     width: 400px;
-    border: 30px;
-    border-color: #0000ff;
-    margin: 5px;
+    margin: 20px;
+    padding: 50px;    
+}
