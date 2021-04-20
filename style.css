@@ -74,7 +74,16 @@ hr{
     font-style: italic;
    }
 
-   
+   .links ul li a{
+       padding: 2px 10px;
+       display: inline-block;
+       width: 200px;
+       /* visual do link */
+       background-color:#EDEDED;
+       color: #333;
+       text-decoration: none;
+       border-bottom:3px solid #EDEDED;
+   }
 
   
   footer{
