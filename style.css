@@ -1,21 +1,29 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/hack-font/3.3.0/web/hack.min.css);
 body {
   background-color:rgb(253, 251, 251);
+  margin: auto;
+  padding: 0px;
+  font-family: hack;
+  font-size: 16px;
+  line-height: 20px;
+  color: #333;
 }
+
 .artigo {
   display: inline-block;
-  width: 80%;
+  width: 79%;
   border: 1px black solid;
   box-sizing: border-box;
-  
 }
+
 .barra-lateral {
   display: inline-block;
-  width: 19%;
-  height: 100%;
-  box-sizing: border-box;
+  width: 20%;
+
   border: 1px black solid;
-  
+  box-sizing: border-box;
 }
+
 #cabecalho {
   position: fixed;
   top: 0px;
