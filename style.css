@@ -75,8 +75,8 @@ table td {
 
 /* ----------------------------------- Aprendizados-----------------------------------*/
 
-.lado_direito,
-.lado_esquerdo {
+.lado-direito,
+.lado-esquerdo {
   display: inline-block;
   vertical-align: text-top;
   width: 40%;
