@@ -3,8 +3,8 @@ body {
   font-size: 20px;
   color: rgb(106, 190, 131);
   line-height: 2.5rem;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
-    'Lucida Sans Unicode',
+  font-family: Lucida Sans, Lucida Sans Regular, Lucida Grande,
+    Lucida Sans Unicode,
     Geneva, Verdana, sans-serif;
 }
 
@@ -65,7 +65,7 @@ body {
   box-shadow: 1px 1px 10px rgb(240, 105, 102);
 }
 
-.lado-direito , .lado-esquerdo {
+.lado-direito, .lado-esquerdo {
   border: 4px dotted rgb(240, 105, 102);
   margin: 5px;
   padding: 5px;
