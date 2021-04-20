@@ -2,13 +2,48 @@ body{
     background-color:rgb(253, 251, 251) ;
 }
 
+main{
+    margin-left: 50px;
+    margin-top: 50px;
+    
+}
+
+button{
+    
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+button:hover {
+    background-color: #4c9baf; /* Green */
+    color: white;
+}
+
+    
+
+
+
+hr{
+    background-color: rgb(35, 228, 28);
+    height: 2px;
+}
+
 .cabecalho{
     background-color: rgb(35, 228, 28);
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
-    height: 85px;
+    height: 150px;
   }
 
   h1{
@@ -16,7 +51,12 @@ body{
   }
 
   .foto{
+    border-radius: 60%;
     width: 20%;
     height: 50%;
 
+  }
+
+  footer{
+      text-align: center;
   }
