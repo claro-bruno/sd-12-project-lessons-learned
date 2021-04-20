@@ -16,6 +16,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    padding: 0;
 }
 
 h1 {
@@ -25,20 +26,37 @@ h1 {
 #minha_foto {
     width: 15%;
     position: absolute;
-    top: 17.9%;
-}    
+    top: 15.3%;
+} 
+
+#meu_github {
+    position: absolute;
+    top: 46%;
+}
 
 #licoes_aprendidas {
     position: absolute;
-    top: 50%;
+    top: 48%;
     line-height: 25px;
     font-size: 18px;
 }
 
 #licoes_a_aprender{
     position: absolute;
-    top: 50%;
-    left: 25%;
+    top: 48%;
+    padding: 0 350px;
     line-height: 25px;
     font-size: 18px;
+}
+
+#rodape {
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#rodape a {
+    background-color: #f5f5f5;
+    margin: 10px;
 }
