@@ -72,18 +72,16 @@ p {
 }
 
 #main-content {
-    width: 60%;
+    width: 100%;
     display: inline-block;
 }
 
 #side-bar{
-    display: inline-block;
     width: 35%;
-    vertical-align: top;
-    margin-top: 20px;
     border: 2px solid grey;
     border-style: dotted;
-    padding: 10px;
+    display: inline-block;
+    margin-left: 20px;
 }
 
 #even-odd-table {
@@ -96,7 +94,7 @@ p {
     padding: 5px;
 }
 
-#article-small {
+#small-article {
     text-align: center;
 }
 
@@ -112,12 +110,14 @@ p {
 }
 
 #licoes_aprendidas {
-    margin-left: 25% ;
+    margin-left: 35% ;
     margin-right: 2%;
 }
 
 #main-article {
     margin-top: 100px;
+    width: 755px;
+    display: inline-block;
 }
 
 #licoes_aprendidas, #licoes_a_aprender {
