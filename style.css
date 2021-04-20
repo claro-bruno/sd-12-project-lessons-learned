@@ -10,3 +10,9 @@ body {
 #minha_foto {
     margin-top: 80px;
 }
+
+#nav li{
+    display: inline-block;
+    margin-top: 80px;
+    list-style: none;
+}
