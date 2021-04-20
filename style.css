@@ -14,9 +14,18 @@ body {
 #cabecalho {
     position: fixed;
     top: 0;
+    background-color: white;
 }
 
 #article {
+    text-align: center;
+    align-content: center;
+    display: inline-block;
+    margin: 5% auto;
+    width: 450px;
+}
+
+#aside {
     text-align: center;
     align-content: center;
     display: inline-block;
