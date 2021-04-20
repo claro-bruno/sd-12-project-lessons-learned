@@ -25,3 +25,15 @@ body {
     font-family: monospace;
     white-space:unset;
 }
+.lado-esquerdo {
+    display: inline-block;
+    width: 300px;
+    height: 420px;
+    margin-right: 20px;
+}
+.lado-direito {
+    display: inline-block;
+    width: 300px;
+    height: 420px;
+    margin-right: 20px;
+}
