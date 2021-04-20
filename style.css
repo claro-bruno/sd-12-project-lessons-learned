@@ -10,7 +10,7 @@ body {
 h1 {
     color: chartreuse;
 }
-#licoes {
+.lado-esquerdo {
     display: inline-block;
 }
 #licoes_aprendidas {
@@ -19,10 +19,9 @@ h1 {
 #licoes_a_aprender {
     float: left;
 }
-article {
-    float: left;
+.lado-direito {
+    float: right;
     width: 60%;
-    padding-left: 20px;
 }    
 aside {
     line-height: 25px;
