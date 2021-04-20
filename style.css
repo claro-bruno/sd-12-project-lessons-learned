@@ -1,5 +1,6 @@
 body {
     background-color: rgb(253, 251, 251);
+}
 #cabecalho {
     min-height: 100px;
     position: fixed;
