@@ -2,6 +2,7 @@ body {
     background-color: rgb(253, 251, 251);
     font-family: Arial, Helvetica, sans-serif;
     overflow: auto;
+    height: 130vh;
 }
 
 #cabecalho {
@@ -10,6 +11,7 @@ body {
     width: 100%;
     text-align: center;
     background-color: rgb(25, 187, 25);
+    z-index: 1;
 }
 
 #cabecalho li {
@@ -37,28 +39,45 @@ h1 {
 
 #licoes_aprendidas {
     position: absolute;
-    top: 50%;
+    top: 15%;
+    left: 18%;
     line-height: 25px;
     font-size: 18px;
 }
 
 #licoes_a_aprender{
     position: absolute;
-    top: 50%;
-    padding: 0 350px;
+    top: 15%;
+    left: 18%;
+    padding: 0 330px;
     line-height: 25px;
     font-size: 18px;
 }
 
-#meu_aprendizado {
-    position: fixed;
-    top: 19%;
-    left: 20%;
-    outline: rgb(25, 187, 25) groove;
-    margin: 0;
+#article {
+    position: absolute;
+    top: 60%;
+    margin: 10px;
     line-height: 25px;
     font-size: 18px;
-    max-width: 500px;
+    width: 45%;   
+    box-shadow: 0px 5px 5px 5px rgba(0,0,0,0.2);
+}
+
+#article h1 {
+    text-decoration: underline;
+    font-size: 25px;
+}
+
+#section {
+    position: absolute;
+    /* top: 95%;
+    margin: 10px;
+    line-height: 25px;
+    font-size: 18px;
+    width: 45%; */
+    margin: 40px 0;
+    box-shadow: 0px 5px 5px 5px rgba(0,0,0,0.2);
 }
 
 #rodape {
