@@ -1,19 +1,23 @@
-body{
-    background-color: rgb(253,251,251);
+body {
+    background-color: rgb(253, 251, 251);
     margin: 0;
 }
-header{
+
+header {
     width: 100%;
     position: fixed;
     top: 0;
     background-color: green;
 }
-h1{
+
+h1 {
     text-align: center;
 }
-main{
+
+main {
     margin-top: 8%;
 }
-img{
+
+img {
     width: 250px;
 }
