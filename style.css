@@ -5,11 +5,12 @@ body {
 header {
     text-align: center;
     position: fixed;
+    width: 100%;
     top: 0;
 }
 
-
 img {
+    margin-top: 100px;
     width: 100px;
 }
 
