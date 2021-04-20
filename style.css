@@ -12,3 +12,10 @@ body {
     color: rgb(250, 250, 250);
     text-align: center;
 }
+.minha_foto {
+    position: absolute;
+    width: 200px;
+    border-radius: 30px;
+    top: 150px;
+    left: 25px;
+}
