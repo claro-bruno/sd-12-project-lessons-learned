@@ -11,17 +11,17 @@ body {
   width: 300px;
 }
 
-.lado-esquerdo{
-  display:inline-block;
+.lado-esquerdo {
+  display: inline-block;
   width: 49%;
 }
 
-.lado-esquerdo article p{
+.lado-esquerdo article p {
   width: 49%;
 }
 
-.lado-direito{
-  display:inline-block;
+.lado-direito {
+  display: inline-block;
 }
 
 #projetos {
@@ -29,13 +29,13 @@ body {
   padding: 20px;
 }
 
-p{
+p {
   font-size: 20px;
-  color:brown;
+  color: brown;
   line-height: 20px;
   font-family: monospace;
 }
 
-#projetos, th, tr{
+#projetos, th, tr {
   border: 2px solid black;
 }
