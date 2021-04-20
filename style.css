@@ -4,7 +4,7 @@ body {
 
 #cabeçalho {
     background-color: lightseagreen;
-    position: fixed;
+    position: absolute;
     top: 0;
     width: 100%;
     height: 200px;
@@ -29,14 +29,6 @@ body {
     
 }
 
-#licoes_aprendidas, #licoes_a_aprender {
-    border: 1px solid black;
-    width: 150px;
-    padding-left: 25px;
-    padding-top: 20px;
-    padding-bottom: 5px;
-}
-
 .licoes_lado_A {
     width: 20%;
     padding-left: 15px;
@@ -54,3 +46,29 @@ body {
     font-style: italic;
     background-color: lightgray;
   }
+
+#tabela, #Primeiro_Artigo #Segundo_Artigo {
+    border: 2px solid black
+}
+
+.artigo_A {
+    width: 45%;
+    margin-top: 15px;
+    padding-left: 15px;
+    margin-left: 0px;
+    float: left;
+    font-style: italic;
+    background-color: lightgray;
+  }
+
+.artigo_B {
+    width: 45%;
+    margin-top: 15px;
+    padding-left: 15px;
+    margin-right: 80px;
+    float: right;
+    font-style: italic;
+    background-color: lightgray;
+  }
+
+  
