@@ -3,7 +3,25 @@ body{
 }
 
 #cabecalho{
+    width: 100%;
     top: 0;
     position: fixed;
-    width: 100%;
+    background-color: rgb(65, 189, 137);
+    overflow: hidden;
+}
+
+#cabecalho h1{
+    text-align: center;
+}
+
+.intro{
+    overflow: hidden;
+    margin-top: 120px;
+}
+
+#minha_foto{
+    width: 20%;
+    float: left;
+    border-radius: 50%;
+    padding-right: 15px;
 }
