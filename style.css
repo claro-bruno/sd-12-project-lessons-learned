@@ -16,5 +16,11 @@ header{
 
 #licoes_aprendidas{
     position: absolute;
-    top: 60%;
+    top: 50%;
+}
+
+#licoes_a_aprender{
+    position: absolute;
+    top: 80%;
+
 }
