@@ -3,6 +3,7 @@ body{
     background-color: rgb(253, 251, 251);
     margin: 0;
 
+        /*Cabeçalho*/
 }
 #cabecalho{
     top: 0;
@@ -17,9 +18,11 @@ body{
    
     margin-left: 100px;
     color: white;
- 
+
   
 }
+         /*Cabeçalho*/  
+
 #minha_foto{
     border-radius: 80%;
    margin-left: 40%;
@@ -27,6 +30,8 @@ body{
     width: 7%;
     height: 7%;
 }
+
+        /*Rodape*/
 #rodape{
    
     bottom: 0;
@@ -39,3 +44,4 @@ body{
 #texto1{
     margin-left: 50px;
 }
+        /*Rodape*/
