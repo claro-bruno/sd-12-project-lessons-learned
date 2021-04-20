@@ -1,6 +1,9 @@
 body {
     background-color: rgb(253, 251, 251);
     font-family: trebuchet MS, sans-serif;
+    font-size: large;
+    text-decoration: none;
+    text-align: center;
 }
 
 #cabecalho {
@@ -17,6 +20,12 @@ body {
     color: green;
     margin-left: auto;
     margin-right: auto;
+    text-align: center;
+}
+
+h3 {
+    color: green;
+    font-style: normal;
 }
 
 #minha_foto {
@@ -28,11 +37,36 @@ body {
     margin-right: auto;
     margin-top: 200px;
     z-index: 0;
+    padding-top: auto
 }
 
-#listas {
+#artigo {
+    margin-left:auto;
+    margin-right: auto;
+    width: 900px;
+    font-style: italic;
+}
+
+
+#listas{
+    
+}
+#lista_ordenada {
+    font-style: italic;
+    line-height: auto;
+    width: 300px;
+    background-color: aquamarine;
     display: block;
-    position: absolute;
+    text-align: justify;
+}
+
+#lista_desordenada {
+    font-style: italic;
+    line-height: auto;
+    width: 300px;
+    background-color: aquamarine;
+    display: block;
+    text-align: justify
 }
 
 #rodape {
@@ -41,4 +75,9 @@ body {
 
 #navegacao {
     
+}
+
+#links {
+    text-decoration: none;
+    color: darkgreen;
 }
