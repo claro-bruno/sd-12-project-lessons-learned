@@ -6,4 +6,19 @@ body {
 header {
     position: fixed;
     top: 0;
+    background-color: rgb(9, 155, 9);
+    width: 100%;
+    text-align: center;
+    line-height: 10px;
 }
+
+#minha_foto {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 250px;
+    margin-top: 10%;
+    border-radius: 50%;
+    border: 5px solid rgb(9, 155, 9);
+}
+
