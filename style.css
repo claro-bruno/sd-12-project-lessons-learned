@@ -11,6 +11,7 @@ body {
     top: 0%;
     background-color: royalblue;
     width: 100%;
+    text-align: center;
 }
 #titulo {
     margin-top: 0px;
@@ -18,4 +19,17 @@ body {
 
 #minha_foto {
   width: 300px;
+}
+
+#listas{
+    width: 100%;
+}
+ol{
+    display: inline-block;
+    width: 40%;
+}
+ul{
+    display: inline-block;
+    width: 40%;
+    
 }
