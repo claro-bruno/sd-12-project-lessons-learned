@@ -2,6 +2,7 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Comfortaa', cursive;
 }
 
 body {
@@ -11,23 +12,48 @@ body {
 #cabecalho {
     position: fixed;
     top: 0;
-    height: 100px;
+    height: auto;
     width: 100%;
-    background-color: aqua;
+    padding: 10px;
+    background-color: #282a36;
 }
 
 #titulo {
+    display: inline-block;
     margin: 0;
+    font-size: 40px;
+    color: #bd93f9;
 }
 
-nav ul {
+#titulo:hover {
+    color: #50fa7b;
+}
+
+.navigation {
+    
+}
+
+.navigation ul {
     margin: 0;
     padding-left: 0;
     text-align: right;
 }
 
-nav ul li {
+.navigation ul li {
     display: inline-block;
+    margin-right: 20px;
+}
+
+.navigation ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #f8f8f2;
+}
+
+.navigation ul li a:hover {
+    color: #bd93f9;
+    border-bottom: 4px solid #bd93f9;
+    margin-bottom: -4px;
 }
 
 .section-image {
