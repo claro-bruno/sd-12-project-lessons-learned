@@ -15,9 +15,32 @@ body {
     text-align: center;
 }
 
-#minha_foto {
-    width: 600px;
+.photo {
+    display: flex;
+    width: 100%;
 }
 
+.photo #minha_foto{
+    width: 25%;
+}
 
+.lessons_parent {
+    display: flex;
+    font-size: 30px;
+    width: 100%;
+    text-align: center;
+    padding: 50px 100px;
+    border: 1px solid black;
+}
 
+.lessons_left {
+    border: 1px solid lightgray;
+    background-color: #f2f2f2;
+    width: 45%;
+}
+
+.lessons_right {
+    border: 1px solid lightgray;
+    background-color: #f2f2f2;
+    width: 45%;
+}
