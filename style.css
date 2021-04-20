@@ -74,9 +74,12 @@ nav {
     margin-top: 15px;
     padding-left: 15px;
     margin-right: 80px;
+    padding-bottom: 70px;
     float: right;
     font-style: italic;
     background-color: lightgray;
   }
 
-  
+footer {
+    font-weight: bold;
+}
