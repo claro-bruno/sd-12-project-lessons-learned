@@ -68,6 +68,15 @@ main {
     padding-top: 10px;
     margin-left: 10px;
 }
+.foto {
+    display: inline-block;
+}
+.tabela {
+    display: inline-block;
+    border-style: solid;
+    margin-left: 20px;
+    vertical-align: 50px;
+}
 #licoes_aprendidas {
     display: inline-block;
     margin: 10px;
