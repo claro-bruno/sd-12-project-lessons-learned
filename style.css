@@ -3,5 +3,11 @@ body{
 }
 
 #cabecalho{
-    top: 0px;
+    position: fixed;
+    top: 0;
+}
+
+#minha_foto{
+    width: 100px;
+    margin-top: 70px;
 }
