@@ -55,5 +55,6 @@ article {
 
 footer {
   padding-bottom: 5px;
-  float: right;
+  background-color: green;
+  width: 100%;
 }
