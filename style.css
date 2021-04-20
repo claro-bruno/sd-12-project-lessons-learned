@@ -37,6 +37,15 @@ body {
 	right: 0;
 	top: 100px;
 }
+#meu_nome {
+	position: absolute;
+	margin: auto;
+	left: 0;
+	right: 0;
+	top: 270px;
+	text-align: center;
+	color: gray;
+}
 
 .container {
 	width: min(90vw, 800px);
