@@ -21,9 +21,9 @@ body {
 }
 
 #horizon {
-    background-color: wheat;
+    /*background-color: wheat;*/
     padding-top: 150px;
-    width: 900px;
+    /*width: 900px;*/
     margin: auto;
 }
 
@@ -33,14 +33,29 @@ body {
 
 #minha_foto {
     width: 200px;
+    border-radius: 10px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+#artigo p {
+    text-align: justify;
 }
 
 #artigo {
+    width: 300px;
+    /*display: inline-block;*/
+    background-color: tomato;
+}
 
+#breve_artigo p {
+    text-align: justify;
 }
 
 #breve_artigo {
-
+    width: 300px;
+    background-color: teal;
+    display: inline-block;
 }
 
 #licoes_aprendidas {
