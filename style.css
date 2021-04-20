@@ -16,3 +16,7 @@ body {
 #rodape {
 	background-color: cadetblue;
 }
+.listas {
+	display: inline-block;
+	min-width: 30%
+}
