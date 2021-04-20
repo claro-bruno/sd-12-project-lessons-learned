@@ -6,13 +6,13 @@ body {
     background-color: green;
     position: fixed;
     top: 0px;
-    padding: 10px 490px;
+    padding: 10px 400px;
 
 }
 #minha_foto {
-    width: 150px;
+    width: 170px;
     top: 200px;
-    left: 100px;
+    left: 50px;
     position: absolute;
 }
 #licoes_aprendidas {
@@ -30,4 +30,10 @@ body {
     position: absolute;
     display: block;
     bottom: 1px;
+}
+#nome-linkado {
+    position: absolute;
+    display: block;
+    top: 430px;
+    left: 50px ;
 }
