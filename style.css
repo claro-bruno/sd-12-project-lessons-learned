@@ -11,7 +11,7 @@ body {
   position: fixed;
   top: 0;
 
-  height: 150px;
+  height: 100px;
   width: 100%;
 }
 
@@ -21,7 +21,7 @@ body {
   font-family: "Megrim", sans-serif;
   font-size: 42px;
   letter-spacing: 0.1em;
-  margin-top: 50px;
+  margin-top: 25px;
   margin-left: 60px;
 }
 
@@ -29,7 +29,7 @@ body {
   text-align: right;
 
   float: right;
-  margin-top: 40px;
+  margin-top: 15px;
   margin-right: 100px;
 }
 
@@ -49,22 +49,24 @@ body {
 .box_img {
   float: right;
   width: 230px;
+  margin-bottom: 5px;
 }
 
 #minha_foto {
-  margin-top: 150px;
+  margin-top: 100px;
 }
 
 .lado-esquerdo {
+  border: 2px solid #2727273d;
   float: left;
-  margin-top: 150px;
-  margin-right: 60px;
+  margin: 110px 60px 0 60px;
+  padding: 10px;
   width: 500px;
 }
 
 .lado-direito {
   float: right;
-  margin-top: 150px;
+  margin-top: 100px;
   vertical-align: top;
   width: 370px;
 }
@@ -86,8 +88,24 @@ body {
   width: 300px;
 }
 
-.table {
+.table,
+td,
+th {
   border: 2px solid #000;
-  display: inline-block;
-  line-height: 1.7em;
+  border-collapse: collapse;
+  padding: 1px 10px;
+}
+
+.table {
+  clear: both;
+  float: right;
+  margin-right: 40px;
+}
+
+#rodape {
+  clear: both;
+  font-size: 13px;
+  height: 30px;
+  padding-top: 20px;
+  text-align: center;
 }
