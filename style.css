@@ -19,3 +19,12 @@ body {
 display: inline-block;
 margin: 10px;
 }
+#rodape {
+    background-color: gray;
+    padding-bottom: 50px;
+    vertical-align: top;
+}
+#rodape p {
+    margin: 15px;
+    padding-top: 10px;
+}
