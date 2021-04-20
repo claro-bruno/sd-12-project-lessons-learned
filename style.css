@@ -36,24 +36,29 @@ display: block;
 margin: 20px;
 }
 
-.aprendizados{
+.lado-esquerdo{
     display: inline-block;
     width: 40%;
-    border: 2px solid black;
+    
     text-align: justify;
     padding: 2%;
+    margin-left: 20px;
+   
 }
-.aside{
+.lado-direito{
     display: inline-block;
     width: 40%;
-    border: 2px solid black;
+    
     text-align: justify;
     padding: 2%;
-}
+    margin-left: 20px;
 
+
+}
 #rodape{
     display: block;
     background-color: #0466c8;
     padding: 5px;
     border-radius: 5px;
     margin: 0;
+}
