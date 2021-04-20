@@ -1,5 +1,6 @@
     body {
         background-color: rgb(253, 251, 251);
+        font-family: Georgia, 'Times New Roman', Times, serif;
     }
 
     header {
@@ -121,7 +122,7 @@
         color: black;
     }
 
-    #artigo {
+    .lado-esquerdo {
         margin: auto;
         margin-top: 5px;
         padding: 5px;
@@ -132,7 +133,7 @@
         background-color: yellowgreen;
     }
 
-    aside {
+    .lado-direito {
         margin: auto;
         margin-top: 5px;
         padding: 5px;
