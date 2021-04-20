@@ -3,7 +3,19 @@ body {
 }
 
 #cabecalho {
+ 
+}
+#titulo {
+
+  text-align: center;
   position: fixed;
   top: 0px;
+  
+  
 }
-
+#minha_foto {
+  width: 150px;
+  border-radius: 50%;
+  display: block;
+  margin-top: 80px;
+}
