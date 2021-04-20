@@ -1,12 +1,12 @@
-body {
-      background-color: rgb(253, 251, 251);
-}
+    body {
+        background-color: rgb(253, 251, 251);
+    }
 
-header {
-      position: fixed;
-      margin-top: 0;
-}
+    header {
+        position: fixed;
+        margin-top: 0;
+    }
 
-#minha_foto {
-      width: 200px;
-}
+    #minha_foto {
+        width: 200px;
+    }
