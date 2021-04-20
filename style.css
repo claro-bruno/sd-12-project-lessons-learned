@@ -1,6 +1,7 @@
 body {
   background-color: rgb(253, 251, 251);
   margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 header {
@@ -72,7 +73,19 @@ section {
   width: 400px;
 }
 
+p {
+  line-height: 20px;
+}
+
 footer {
   clear: both;
   text-align: center;
+}
+
+footer p {
+  font-size: large;
+}
+
+a {
+    font color: black;
 }
