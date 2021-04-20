@@ -1,65 +1,65 @@
 body {
-      background-color: rgb(253, 251, 251);
-      margin: 0;
+        background-color: rgb(253, 251, 251);
+        margin: 0;
 }
 
 header {
-        position: fixed;
-        top: 0;
-        width: 100%;
-        background-color: rgb(7, 134, 7);
+          position: fixed;
+          top: 0;
+          width: 100%;
+          background-color: rgb(7, 134, 7);
 }
 
 header h2 {
-           padding-left: 80px;
+             padding-left: 80px;
 }
 
 nav a {
-       text-decoration: none;
-       padding: 90px;
-       color: rgb(253, 251, 251);
+         text-decoration: none;
+         padding: 90px;
+         color: rgb(253, 251, 251);
 }
 
 main {
-      margin: 10px;
+        margin: 10px;
 }
 
 #minha_foto {
-             padding-left: 114px;
+               padding-left: 114px;
 }
 
 .conteudo {
-           margin-top: 100px;
+             margin-top: 100px;
 }
 
 .licoes {
-         clear: both;
+           clear: both;
 }
 
-.licoes_aprendidas, .licoes_a_aprender  {
-                                         display: inline-block;
+.licoes_aprendidas, .licoes_a_aprender {
+                                          display: inline-block;
 }
 
 article {
-         width: 65%;
-         margin-right: 0px;
-         display: inline-block;
+          width: 65%;
+          margin-right: 0;
+          display: inline-block;
 }
 
 article p {
-           width: 70%;
-           text-indent: 30px;
+             width: 70%;
+             text-indent: 30px;
 }
 
 aside {
-       float: right;
-       width: 35%;
-       border-radius: 13%;
-       background-color: rgb(211, 211, 211);
-       text-indent: 15px;
-       text-align: center;
+         float: right;
+         width: 35%;
+         border-radius: 13%;
+         background-color: rgb(184, 177, 177);
+         text-indent: 15px;
+         text-align: center;
 }
 
 footer {
-        margin-left: 8px;
+          margin-left: 8px;
 }
