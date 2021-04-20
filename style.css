@@ -3,6 +3,7 @@ body {
 }
 
 header{
+    text-align: center;
     top:0;
     position:fixed;
     background-color: rgb(255,188,181) ;
@@ -33,5 +34,11 @@ footer{
     position:absolute;
     width: 100%;
     top: 130%;
+
+}
+
+#minhaexp{
+    position: absolute;
+    top: 110%
 
 }
