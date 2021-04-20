@@ -3,6 +3,15 @@ body {
 }
 #minha_foto {
     width: 300px;
+    margin-top: 200px;
+    }
+#cabecalho li {
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 40px;
+}
+#titulo {
+    
 }
 #cabecalho {
     min-height: 100px;
@@ -11,4 +20,6 @@ body {
     background-color: #FF9F1C;
     margin: 0px;
     width: 100%;
+    padding: 20px;
+    border: 10px;
 }
