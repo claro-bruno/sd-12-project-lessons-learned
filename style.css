@@ -6,6 +6,7 @@
   background-color: green;
   width: 100%;
   text-align: center;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
  .indice {
@@ -17,8 +18,8 @@
 }
  li.indicelista {
   display: inline-block;
-  background-color: white
-  border: blue;
+  background-color: white;
+  border: yellow;
   border-style: outset;
   font-size: 25px;
  }
