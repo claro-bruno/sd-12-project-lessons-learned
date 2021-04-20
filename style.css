@@ -19,16 +19,12 @@ h1 {
 #licoes_a_aprender {
     float: left;
 }
-#redacao {
-    display: inline-block;
-}
 article {
     float: left;
-    width: 50%;
-}
+    width: 60%;
+    padding-left: 20px;
+}    
 aside {
-    float: left;
-    width: 50%;
     line-height: 25px;
 }
 footer {
