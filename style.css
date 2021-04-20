@@ -1,12 +1,18 @@
 body {
     background-color: rgb(253, 251, 251);
 }
+main {
+    margin-top: 100px;
+    padding-top: 5px;
+}
 #cabecalho {
     position: fixed;
     background-color: black;
     top: 0;
     left: 0;
     width: 100%;
+    font-size: 20px;
+    height: 100px;
 }
 #titulo {
     color: white;
@@ -47,7 +53,8 @@ body {
     border-radius: 5px;
 }
 #minha_foto {
-    width: 250px;
+    width: 150px;
+    border-radius: 50%;
 }
 #licoes_aprendidas {
     display: inline-block;
