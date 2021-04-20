@@ -1,5 +1,6 @@
  body {
   background-color: rgb(253, 251, 251);
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
  header {
@@ -8,6 +9,10 @@
   text-align: center;
   font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
+ .ola {
+   font-size: 150px;
+   color:green;
+ }
 
  .indice {
   display: inline;
@@ -18,8 +23,8 @@
 }
  li.indicelista {
   display: inline-block;
-  background-color: white;
-  border: yellow;
+  background-color: yellow;
+  border: yellowgreen;
   border-style: outset;
   font-size: 25px;
  }
