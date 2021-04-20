@@ -1,98 +1,95 @@
 body {
-    background-color: rgb(253, 251, 251);
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    
+  background-color: rgb(253, 251, 251);
+  font-family: Arial, sans-serif;
 }
 
 #cabecalho {
-    position: fixed;
-    top: 0;
-    height: 150px;
-    background-color: rgb(18, 18, 95);
-    width: 100%;
+  position: fixed;
+  top: 0;
+  height: 150px;
+  background-color: rgb(18, 18, 95);
+  width: 100%;
 }
 
 #cabecalho h1 {
-    color: white;
-    text-align: center;
+  color: white;
+  text-align: center;
 }
 
 nav {
-    margin-top: 30px;
-    font-size: 16px;
-    line-height: 20px;
-    
+  margin-top: 30px;
+  font-size: 16px;
+  line-height: 20px;
 }
 
 nav ul {
-    list-style-type: none;
+  list-style-type: none;
 }
 
 nav ul li {
-    display: inline-block;
-    background-color: rgb(115, 228, 228);
-    padding: 10px 20px 10px 20px;
-    border-radius: 20px;
+  display: inline-block;
+  background-color: rgb(115, 228, 228);
+  padding: 10px 20px;
+  border-radius: 20px;
 }
 
 nav ul li a {
-    text-decoration: none;
-    color: black;
+  text-decoration: none;
+  color: black;
 }
 
 main {
-    max-width: 60%;
-    margin: 150px auto;
+  max-width: 60%;
+  margin: 150px auto;
 }
 
 .name {
-    width: 300px;
-    text-align: center;
+  width: 300px;
+  text-align: center;
 }
 
 img {
-    width: 300px;
-    border-style: double;
-    border-radius: 50%;
+  width: 300px;
+  border-style: double;
+  border-radius: 50%;
 }
 
 .lado-esquerdo {
-    display: inline-block;
-    max-width: 40%;
-    margin: 20px;
+  display: inline-block;
+  max-width: 40%;
+  margin: 20px;
 }
 
 .lado-direito {
-    display: inline-block;
-    max-width: 40%;
-    vertical-align: top;
-    margin: 20px;
+  display: inline-block;
+  max-width: 40%;
+  vertical-align: top;
+  margin: 20px;
 }
 
 table {
-    border-collapse: collapse;
+  border-collapse: collapse;
 }
 
-table, th, td{
-    border: 1px solid black;
+table , th , td {
+  border: 1px solid black;
 }
 
-th, td {
-    padding: 20px;
+th , td {
+  padding: 20px;
 }
 
 #rodape {
-    width: 100%;
-    
+  width: 100%;
 }
 
-#rodape a{
-    text-decoration: none;
-    color: black;
-    width: 20%;
-    margin: 40%;
+#rodape a {
+  text-decoration: none;
+  color: black;
+  width: 20%;
+  margin: 40%;
 }
 
-#rodape a:hover{
-    color: rgb(18, 18, 95);
+#rodape a:hover {
+  color: rgb(18, 18, 95);
 }
