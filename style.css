@@ -10,3 +10,8 @@ body {
 #minha_foto {
     margin-top: 150px;
 }
+
+.skills_logo {
+    height: 60px;
+    vertical-align: top;
+}
