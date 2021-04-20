@@ -39,3 +39,17 @@ p {
 h2, h3  {
     color: blueviolet;
 }
+
+.aprendidas {
+    background-color: yellow;
+}
+.vamosAprender {
+    background-color: red;
+   
+    
+}
+.etabela {
+    width: 400px;
+    border: 30px;
+    border-color: #0000ff;
+    margin: 5px;
