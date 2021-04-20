@@ -61,12 +61,18 @@ h2 {
 
 .cartao {
 	background: #fff;
-	padding: 1.5rem 2rem 17.0rem;
-	border-radius: 0.25rem;
+	padding: 1.5rem 3rem 17.0rem;
+	border-radius: 0.40rem;
 	margin-bottom: 2rem;
 	color: #363f5f;
 }
-
+.cartao_artigo {
+	background: #fff;
+	padding: 1.5rem 2rem 17rem;
+	border-radius: 0.40rem;
+	margin-bottom: 2rem;
+	color: #363f5f;
+}
 #licoes_aprendidas {
 	float: left;
 	position: relative;
@@ -77,4 +83,14 @@ h2 {
 	float: right;
 	position: relative;
 	display: inline-block;
+}
+
+.lado-esquerdo {
+	float: left;
+	width: 300px;
+}
+
+.lado-direito {
+	float: right;
+	width: 300px;
 }
