@@ -10,8 +10,8 @@ header {
           background-color: rgb(7, 134, 7);
 }
 
-header h2 {
-             padding-left: 80px;
+header h1 {
+             padding-left: 50px;
 }
 
 nav a {
@@ -20,7 +20,7 @@ nav a {
          color: rgb(253, 251, 251);
 }
 
-main {
+article {
         margin: 10px;
 }
 
@@ -40,13 +40,13 @@ main {
                                           display: inline-block;
 }
 
-article {
+#section2 {
           width: 65%;
           margin-right: 0;
           display: inline-block;
 }
 
-article p {
+section p {
              width: 70%;
              text-indent: 30px;
 }
