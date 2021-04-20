@@ -13,7 +13,6 @@ body{
     width: 100%;
     padding: 5px;
     
-    
 }
 
 #titulo{
@@ -27,8 +26,19 @@ body{
     color: rgba(255, 255, 255, 0.767);
 }
 
-.menu-navegacao a {
+.menu-navegacao{
+    text-align: center;
+    list-style-type: none;
+}
+
+
+.menu-navegacao a  {
     text-decoration: none;
     color:rgba(255, 255, 255, 0.767) ;
     font-weight: bolder;
+    font-size: 1.5em;
+}
+
+a:hover{
+    color: rgb(161, 243, 239);
 }
