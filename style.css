@@ -4,13 +4,13 @@ body {
 }
 
 #cabecalho {
-
-text-align: center;
-padding: 20px;
 background: rgb(21, 204, 36);
 position: fixed;
+top: 0%;
+width: 100%;
 z-index: 1;
-
+text-align: center;
+padding: 20px;
 }
 
 #minha_foto {
