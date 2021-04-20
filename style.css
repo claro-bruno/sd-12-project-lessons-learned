@@ -1,49 +1,49 @@
 body {
-        font-family: monospace;
-        font-size: 18px;
-        text-decoration: justify;
-        line-height: 1.6;
-        color: rgb(180, 129, 104);
-        background-color: rgb(253, 251, 251);
-        margin: 0 15% 5%;
-    }
+  font-family: monospace;
+  font-size: 18px;
+  text-decoration: justify;
+  line-height: 1.6;
+  color: rgb(180, 129, 104);
+  background-color: rgb(253, 251, 251);
+  margin: 0 15% 5%;
+}
 
 #cabecalho {
-        background-color: rgb(164, 159, 127);
-        padding: 0px 30px;
-        border-bottom-left-radius: 20px;
-        border-bottom-right-radius: 20px;
-        position: fixed;
-        top: 0;
-        left: 0;
-        right: 0;
-        text-align: center;
-    }
+  background-color: rgb(164, 159, 127);
+  padding: 0 30px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
 
 #titulo {
-        text-align: center;
-    }
+  text-align: center;
+}
 
 #minha_foto {
-        width: 300px;
-        border-width: 25px;
-        border-style: solid;
-        border-color: rgb(118, 114, 97);
-        border-radius: 20px;
-        margin-top: 10%;
-        margin-bottom: 5%;
-        margin-left: auto;
-        margin-right: auto;
-        display: block;        
-    }
+  width: 300px;
+  border-width: 25px;
+  border-style: solid;
+  border-color: rgb(118, 114, 97);
+  border-radius: 20px;
+  margin: 15% auto 5%;
+  display: block;        
+}
+
 .s-descricao {
-        display: inline-flex;
-    }
+  display: inline-flex;
+}
+
 .lado-esquerdo {
-        display: inline-block;
-        margin: 20px;
-    }
+  display: inline-block;
+  margin: 20px;
+}
+
 .lado-direito {
-        display: inline-block;
-        margin: 20px;
-    }
+  display: inline-block;
+  margin: 20px;
+}
