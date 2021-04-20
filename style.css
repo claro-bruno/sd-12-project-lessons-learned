@@ -33,6 +33,11 @@ main {
     
 }
 
+article {
+    margin:auto;
+    max-width: 60%;
+}
+
 #licoes_aprendidas {
 
     list-style-position: inside;   
