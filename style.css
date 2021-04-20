@@ -1,8 +1,25 @@
 body {
     background-color: rgb(253, 251, 251);
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 #cabecalho {
     position: fixed;
-    top: 0;
+    top: 0; 
+    width: 100%;
+    text-align: center;
+
+}
+
+#cabecalho li {
+    list-style-type: none;
+}
+
+h1 {
+  font-size: 20px;
+}
+
+#minha_foto {
+    width: 20%;
+    display: block;
 }
