@@ -6,8 +6,17 @@ body {
     background-color: aquamarine;
     position: fixed;
     top: 0%;
+    margin-left: 0%;
+    padding-left: 0%;
+    border-radius: 0%;
 }
 
 #minha_foto {
    width: 100px;
+}
+
+#tabela {
+    margin: 16px;
+    padding: 16px;
+    border: pink;
 }
