@@ -1,3 +1,6 @@
 body {
-    background-color: rgb(253, 251, 251);
+    backgroundColor: rgb(253, 251, 251);
+}
+header {
+    position: top 0;
 }
