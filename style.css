@@ -10,7 +10,8 @@ body {
   text-align: center;
 }
 #titulo {
-  margin-top: 0px;
+  margin-top: 10px;
+  padding: 10px;
 }
 
 #minha_foto {
@@ -22,8 +23,11 @@ body {
   width: 100%;
 }
 ol {
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
   display: inline-block;
   width: 40%;
+
 }
 ul {
   display: inline-block;
