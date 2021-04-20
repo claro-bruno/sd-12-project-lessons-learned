@@ -8,9 +8,11 @@ body {
 #cabecalho {
   position: fixed;
   top: 0;
-  background-color: royalblue;
+  background-color: darkblue;
+  color: white;
   width: 100%;
   font-style: italic;
+  padding-left: 30px;
 }
 
 #minha_foto {
@@ -19,8 +21,18 @@ body {
   margin-top: 100px;
   margin-left: auto;
   margin-right: auto;
+  border-radius: 9%;
 }
 
 ol ul {
   display: inline-block;
+}
+
+p {
+  line-height: 23px;
+}
+
+.texts article, aside {
+  display: inline-block;
+  max-width: 333px;
 }
