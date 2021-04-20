@@ -5,6 +5,7 @@ body {
     line-height: 30px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: justify;
+    margin-left: 0;
 }
 
 header {
@@ -44,4 +45,24 @@ aside {
 
 section.listas ol, section.listas ul {
     display: inline-block;
+    margin-left: 5%;
+}
+
+section.listas ul {
+    right: 0;
+}
+
+footer {
+    left: 0;
+    width:100%;
+    text-align: right;
+    background-color: rgb(42, 52, 162);
+    color: white;
+    border: 2px solid black;
+    padding: 5px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
 }
