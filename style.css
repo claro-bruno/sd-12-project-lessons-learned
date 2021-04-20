@@ -6,7 +6,6 @@ background-color: rgb(253, 251, 251);
 #cabeçalho{
     margin-top: 0;
     text-align: center;
-
 }
 
 #titulo{
@@ -22,5 +21,13 @@ background-color: rgb(253, 251, 251);
 }
 
 #lições_a_aprender{
+    color: rgb(60,60,62);
+}
+
+#rodape{
+    
+}
+
+.final{
     color: rgb(60,60,62);
 }
