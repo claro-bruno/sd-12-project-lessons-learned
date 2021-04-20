@@ -17,6 +17,9 @@ body {
 #minha_foto {
   width: 300px;
   display: block;
+
+  border: 3px solid black;
+  border-color: royalblue;
 }
 
 #listas {
@@ -25,13 +28,16 @@ body {
 ol {
     font-family: 'Courier New', Courier, monospace;
     font-style: italic;
-  display: inline-block;
-  width: 40%;
-
+    display: inline-block;
+    width: 40%;
+    font-size: 15px;
+    color: blueviolet;
+    line-height: 50px;
 }
 ul {
   display: inline-block;
   width: 40%;
+
 }
 nav {
     display: inline-block;
