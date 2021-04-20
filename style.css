@@ -61,6 +61,14 @@ hr{
        font-size: larger;
        word-spacing: normal;
    }
+   .aside{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align:justify;
+    max-width: 800px;
+    margin-left: 50px;
+    font-size: larger;
+    word-spacing: normal;
+   }
 
    
 
