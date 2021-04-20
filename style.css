@@ -20,6 +20,7 @@ body {
     display: block;
     margin: 0;
     text-align: left;
+    color: #000;
 }
 
 h1 {
@@ -37,6 +38,7 @@ h1 {
 #meu_github {
     position: absolute;
     top: 46%;
+    color: #000;
 }
 
 #competencias h1 {
