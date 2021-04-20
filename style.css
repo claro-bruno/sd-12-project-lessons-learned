@@ -4,8 +4,11 @@ body {
 
 #cabecalho {
     background-color: rgb(105, 255, 119);
-    top: 0%;
+    top: 0;
+    right: 25%;
+    left: 25%;
     position: fixed;
+    text-align: center;
 }
 
 #minha_foto {
