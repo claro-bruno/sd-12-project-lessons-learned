@@ -14,11 +14,20 @@ body{
   border: 2px solid coral;
   margin: 0%;
   padding: 5px;
+  
 }
-.article-phrase p{
+.lado-direito p{
   
   font-size: 19px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   color: darkgoldenrod;
   line-height: 25px;
+  display: inline-block;
+  
+}
+.lado-direito{
+  display: inline-block;
+}
+.lado-esquerdo ul, ol{
+  display: inline-block;
 }
