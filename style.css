@@ -1,9 +1,13 @@
 header {
     position: fixed;
     top: 0;
-    /* margin: 10px; */
-    /* padding: 1em; */
+    margin: 10px;
+    padding: 10px;
     border: solid black 1px;
+}
+img {
+    padding: 10px;
+    margin-top: 110px;
 }
 body {
     background-color: rgb(253, 251, 251);
