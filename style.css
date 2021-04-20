@@ -8,7 +8,7 @@ body {
   left: 0;
   right: 0;
   background-color: green;
-  color: rgb(255, 255, 255)
+  color: white;
 }
 
 #titulo {
@@ -44,5 +44,11 @@ section h2 {
 }
 
 article p {
-  width: 30%;
+  width: 50%;
+  margin-bottom: 40px;
+}
+
+aside p {
+  width: 40%;
+  margin-bottom: 60px;
 }
