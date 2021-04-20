@@ -1,12 +1,22 @@
 body {
     background-color: rgb(253, 251, 251);
+    margin-left: 0px;
 }
 
 #cabecalho {
+    width: 1366px; 
+    top :0px;
+    background-color: rgb(80, 79, 79);
+    color:honeydew;
+    margin-left:0px;
+    border:5px solid black;
     position: fixed;
-    top =0;
 }
 
 #minha_foto{
+    margin-top: 170px;
+    display:block;
+    top: 100px;
     height: 200px;
+
 }
