@@ -14,6 +14,11 @@ body {
 #minha-foto {
     margin-top: 60px;
     width: 300px;
-    
+}
 
+#licoes_aprendidas{
+    display: inline-block;
+}
+#licoes_a_aprender{
+    display: inline-block;
 }
