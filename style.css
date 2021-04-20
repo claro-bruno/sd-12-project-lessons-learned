@@ -1,12 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
 *{
     margin: 0;
     padding: 0;
 }
+img {
+    border: rgb(255, 174, 0) 10px solid;
+    box-shadow: 0px 10px 15px #0000002d;
+    border-radius: 50%;
+    width: 200px;
+}
 
 body{
     font-family: "Poppins", sans-serif;
-    background-color: rgb(253, 251, 251);
-
+    background-color: #fdfbfb;
 }
 
 
@@ -14,12 +20,11 @@ header{
     width: 100%;
     position: fixed;
     top: 0;
-    position: flex;
 }
 
 
 table{
-    border: 1px solid black;
+    border: 1px solid #000000;
 }
 
 
