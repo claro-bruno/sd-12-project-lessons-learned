@@ -10,7 +10,7 @@ body {
     top: 0;
     float: right;
     text-align: center;
- 
+    
 }
 
 .titulo {
@@ -46,4 +46,9 @@ body {
     font-style: normal;
     font-weight: 500;
     margin-left: 10px;
+}
+
+.rodape {
+
+    font-size: small;
 }
