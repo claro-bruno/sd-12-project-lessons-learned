@@ -1,7 +1,6 @@
 body {
     background-color: rgb(253, 251, 251);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: white;
     
 }
 
@@ -43,4 +42,14 @@ nav ul li a {
 
 main {
     margin-top: 150px;
+}
+
+.lado-esquerdo {
+    display: inline-block;
+    max-width: 30%;
+}
+
+.lado-direito {
+    display: inline-block;
+    max-width: 30%;
 }
