@@ -58,29 +58,83 @@ nav a {
   padding-right: 30px;
 }
 
+#lista {
+  text-align: center;
+  background-color: rgb(255, 202, 212);
+  width: 650px;
+  height: 230px;
+  margin: auto;
+}
+
+#titulo_lista {
+  background-color: rgb(157, 129, 137);
+  color: white;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  width: 700px;
+  text-align: center;
+  margin: auto;
+}
+
+#licoes_aprendidas {
+  display: inline-block;
+  text-align: left;
+  margin-right: 30px;
+}
+
+#licoes_a_aprender {
+  display: inline-block;
+  text-align: left;
+  margin-left: 30px;
+}
+
+#conteudo {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
 .lado-direito {
   display: inline-block;
-  margin: 30px;
+  margin-left: 30px;
   max-width: 60%;
+  text-align: left;
 }
 
 .lado-esquerdo {
   display: inline-block;
-  margin: 30px;
-  max-width: 20%;
+  margin-left: 30px;
+  max-width: 30%;
+  text-align: left;
+}
+
+.lado-esquerdo h4 {
+  margin: 0;
 }
 
 .icon {
   width: 45px;
-  margin: 1px;
+  margin-right: 1px;
+}
+
+#rodape {
+  text-align: center;
+  background-color: rgb(255, 202, 212);
+  height: 140px;
+}
+
+#rodape p {
+  font-weight: 900;
+  padding-top: 30px;
 }
 
 #rodape a {
   text-align: center;
   text-decoration: none;
   font-weight: 900;
-  background-color: rgb(255, 202, 212);
-  color: rgb(157, 129, 137);
+  background-color: rgb(157, 129, 137);
+  color: white;
   padding: 10px;
   border-radius: 10px;
   display: inline-block;
