@@ -1,5 +1,6 @@
 body {
   background-color: rgb(253, 251, 251);
+  font-family: 'Montserrat', sans-serif;
 }
 #cabecalho{
   position: fixed;
@@ -24,9 +25,14 @@ a{
 }
 .foto{
   margin-top: 100px;
+
 }
 .link{
   color: blue;
+
+}
+p{
+  line-height: 1.5;
 }
 #rodape{
   background-color:silver;
