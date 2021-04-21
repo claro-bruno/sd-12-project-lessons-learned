@@ -1,5 +1,6 @@
 body {
   background-color: rgb(253, 251, 251);
+  font-family:'Oswald', sans-serif;
 }
 
 header {
@@ -23,3 +24,4 @@ td {
 th {
   border: black solid;
 }
+
