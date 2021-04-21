@@ -25,9 +25,7 @@ body {
   position: static;
   top: 635px;
   background-color: rgb(168, 255, 143);
-  height: 10px;
-  padding: 5px 575px;
-}
-.rodapetexto {
-  font-size: 15px;
+  height: 13px;
+  padding: 0px 175px;
+  text-align: center;
 }
