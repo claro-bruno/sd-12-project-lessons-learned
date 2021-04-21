@@ -28,11 +28,11 @@ a:hover{
     border: 3px solid blue;
 }
 
-.artigo{
+#artigo{
     border: 2px solid black;
 }
 
-.lado{
+#lado{
     border: 2px solid gold;
 }
 
