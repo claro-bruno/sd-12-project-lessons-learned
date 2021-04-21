@@ -21,7 +21,7 @@ nav a {
          color: rgb(253, 251, 251);
 }
 
-article {
+main {
         margin: 10px;
 }
 
@@ -45,13 +45,13 @@ article {
                                           display: inline-block;
 }
 
-#section2 {
+#article {
           width: 65%;
           margin-right: 0;
           display: inline-block;
 }
 
-section p {
+article p {
              width: 70%;
              text-indent: 30px;
 }
