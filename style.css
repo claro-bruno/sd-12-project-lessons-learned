@@ -5,6 +5,7 @@ body {
 
 #cabecalho{
     position: fixed;
+    z-index: 1;
     background-color: rgb(42, 46, 43);
     top: 0px;
     width: 100%;
@@ -66,7 +67,7 @@ body {
     width: 200px;
     border-radius: 50%;
     position: absolute;
-    left: 45%;
+    left: 44%;
     top: 40%;
    
 }
