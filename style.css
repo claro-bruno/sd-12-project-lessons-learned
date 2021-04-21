@@ -1,6 +1,7 @@
 body {
   background-color: rgb(253, 251, 251);
-  margin: auto;
+  margin: 0;
+
 
 }
 
@@ -9,14 +10,19 @@ body {
   color: aliceblue;
   text-align: center;
   padding: 20px;
-  margin-top: 0 px;
-  width: 1366px;
+  margin: 0px;
+  position: fixed;
+  width: 1300px;
+  top: 0;
+
+
 
 
 
 }
 
 #minha_foto {
+  margin-top: 150px;
   padding: 10px;
   border-radius: 50%;
   width: 20%;
