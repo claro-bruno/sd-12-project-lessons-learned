@@ -38,7 +38,6 @@ main{
 }
 
 
-
 #lado-esquerdo{
     float: left;
     width: 40%;
@@ -51,6 +50,7 @@ main{
     display: inline-block;
     width: 40%;
 }
+
 
 #right{
     padding-top: 120px;
