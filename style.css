@@ -14,8 +14,8 @@ h1 {
   color: white;
 }
 
-h2{
-    text-align: center;
+h2 {
+  text-align: center;
 }
 
 #cabecalho {
@@ -29,7 +29,7 @@ h2{
 #menu {
   font-size: 20px;
   position: relative;
-  margin-left: 45%;  
+  margin-left: 45%;
 }
 
 #minha_foto {
@@ -42,13 +42,13 @@ h2{
 }
 
 .img {
-    height: 500px;
+  height: 500px;
 }
 
 .listas {
-    position: relative;
-    display: flex;
-    flex: row;
-    margin-left: 35%; 
+  position: relative;
+  display: flex;
+  flex: row;
+  margin-left: 35%;
 }
 
