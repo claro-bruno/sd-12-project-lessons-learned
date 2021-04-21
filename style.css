@@ -1,7 +1,7 @@
 body {
   background-color: rgb(253, 251, 251);
   text-align: center;
-  font-family: "Spartan", sans-serif;
+  font-family: 'Spartan', sans-serif;
   margin: 0;
 }
 
@@ -17,7 +17,7 @@ h1 {
   margin-block-end: 20px;
   color: white;
   font-size: 60px;
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 nav {
@@ -39,13 +39,27 @@ article , aside {
 
 #minha_foto {
   width: 25%;
-  display: block;
   border: 4px solid black;
-  margin: 180px auto 30px auto;
+  margin: 180px auto auto;
   border-radius: 50%;
 }
 
-.texto {
+.apresentacao {
+  display: flex;
+}
+
+.sobre-mim {
+  width: 40%;
+  margin: 180px 60px auto 20px;
+  padding: 20px;
+  background-color: rgb(205, 250, 250);
+}
+
+span {
+  font-weight: 600;
+}
+
+.texto, .lista {
   display: flex;
   justify-content: space-between;
 }
@@ -53,11 +67,52 @@ article , aside {
 .lado-esquerdo {
   width: 40%;
   margin-left: 40px;
+  padding: 20px;
+  background-color: rgb(224, 224, 224);
 }
 
 .lado-direito {
   width: 40%;
   margin-right: 40px;
+  padding: 20px;
+  background-color: rgb(224, 224, 224);
+}
+
+#licoes_aprendidas {
+  text-align: left;
+  width: 40%;
+  margin-left: 40px;
+  background-color: rgb(224, 224, 224);
+  padding-bottom: 20px;
+}
+
+#licoes_a_aprender {
+  text-align: left;
+  width: 40%;
+  margin-right: 40px;
+  background-color: rgb(224, 224, 224);
+  padding-bottom: 20px;
+}
+
+ul, ol {
+  padding: auto;
+}
+
+table {
+  margin: 40px auto;
+  padding: 5px;
+  border: 1px solid black;
+  background-color: rgb(224, 224, 224);
+}
+
+th, td {
+  border: 1px solid black;
+  padding: 5px;
+}
+
+.primeira {
+  background-color: rgb(170, 238, 238);
+  font-weight: 800;
 }
 
 footer {
@@ -65,5 +120,6 @@ footer {
   padding-bottom: 10px;
   background-color: rgb(27, 121, 121);
   font-size: 20px;
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
+  margin-top: 30px;
 }
