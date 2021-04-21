@@ -2,41 +2,64 @@ body {
         background-color: rgb(253, 251, 251);
 }
 #cabecalho {
-    top: 0;    
+        top:  0;    
 }
 .barra-superior {
+        display: block;
         background-color: green;
-        position: fixed;
+        position:  fixed;
+        height: 50px;
+        top:  0;
+        padding-bottom: 10px;
+        width: 100%;
+        z-index: 2021;
+}
+.barra-superior ul {
+        display: inline-block;
+        position: absolute;
         top: 0;
 }
+.barra-superior ul li{
+        color: blue;  
+}
 .barra-superior  h1 {
-        text-align: center;
+        text-align:  center;
 }
 #minha_foto {
         position: relative;
-        width: 300px;
-        padding: 20px;
+        display: block;
+        width:  200px;
+        padding:  20px;
         background-color: grey;
-        border-radius: 50%;
-        left: 10px;
+        border-radius:  50%;
+        top: 60px;
+        left: 50%;
+        transform: translateX(-50%);
         border: 2px solid green;
 }
 .article p {
-        font-size: 18px;
-        color:indigo;
-        font-family: monospace;
-        white-space:unset;
+        font-size:  18px;
+        color: indigo;
+        font-family:  monospace;
+        white-space:  unset;
 }
 .caixa-de-listas {
-        width: 500px;
-        display: block;
+        width:  auto;
+        height:  220px;        
+        padding: 10px;
+        background-color: #CCC;
 }
 .lado-esquerdo {
-        float: left;
-
-        
+        position: absolute;
+        display:  inline-block;
+        background-color: #CC0;
+        left:  30%;
+        border-radius: 15px;
 }
 .lado-direito {
-        float: right;
-        
+        position: absolute;
+        display:  inline-block;
+        background-color: #CC0;
+        left:  60%;
+        border-radius: 15px;
 }
