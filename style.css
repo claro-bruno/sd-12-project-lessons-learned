@@ -78,23 +78,14 @@ a:hover {
     line-height: 40px;
   }
 
-#seta-down {
-  color: rgb(255, 255, 255);
-  margin-left: 50%;
-  font-size: 40px;
-}
-
-#seta-down:hover {
-  color: rgb(0, 0, 0);
-}
-
 #licoes {
   
-  background-color: rgb(177, 224, 177);
+  background-color: rgb(50, 73, 173);
   height: 100vh;
   padding-top: 10px;
   margin: 0;
   line-height: 45px;
+  color: rgb(255, 255, 255);
  
 }
 
@@ -132,8 +123,10 @@ margin-left: 27%;
 
 #educacao{
   font-size: 19px;
-  background-color: rgb(177, 224, 177);
-  padding-top: 20px;
+  background-color: rgb(50, 73, 173);
+  padding-bottom: 25px;
+  color: rgb(255, 255, 255);
+  
 }
 
 .lado-esquerdo {
@@ -151,3 +144,4 @@ margin-left: 27%;
     text-align: right;
 
 }
+
