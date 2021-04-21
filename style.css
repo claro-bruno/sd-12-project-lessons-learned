@@ -1,33 +1,28 @@
 body {
     background-color: rgb(253, 251, 251);
     text-align: center;
-    margin:0;
+    margin: 0;
     font-family: "Nunito", sans-serif;
 }
 
 #cabecalho {
     background-color: rgb(0, 55, 86);
-    top:0;
-    left:0%;
+    top: 0;
+    left: 0%;
     right: 0;
-    bottom:auto;
+    bottom: auto;
     position: fixed;
     z-index: 999;
     box-shadow: 0 0 1px 2px rgb(24 26 24 / 15%);
     align-items: center;
     font-family: "Major Mono Display", monospace;
     justify-content: center;
-    display: flex;
-    
-    
+    display: flex; 
 }
 
 #cabecalho ul {
     list-style: none;
-    color:rgb(253, 251, 251);
-
-    
-    
+    color:rgb(253, 251, 251);  
 }
 
 #cabecalho li {
@@ -52,8 +47,7 @@ main {
     margin: auto;
     padding-top: 100px;
     padding-bottom: 100px;
-    background-color: rgb(232, 226, 217);
-    
+    background-color: rgb(232, 226, 217);    
 }
 
 .img {
@@ -64,8 +58,7 @@ main {
 }
 
 #minha_foto {
-    border-radius:50%;   
-    
+    border-radius:50%;    
 }
 
 .article_aside {
@@ -78,11 +71,10 @@ main {
     margin:auto;
     display: inline;
     background-color: rgb(190, 35, 41);
-    color:rgb(232, 226, 217);
-   
+    color:rgb(232, 226, 217);   
 }
 
-.lado_esquerdo {
+.lado-esquerdo {
     
     max-width: 50%;
     float: left;
@@ -91,7 +83,7 @@ main {
     line-height: 180%;     
 }
 
-.lado_direito {
+.lado-direito {
     
     max-width: 20%;
     float: right;
