@@ -3,7 +3,7 @@ body {
 }
 #minha_foto {
     width: 300px;
-    margin-top: 200px;
+    margin-top: 300px;
     }
 #cabecalho li {
     list-style-type: none;
@@ -14,9 +14,10 @@ body {
     font-size: 60px;
     font-family: sans-serif;
     color: #29302f;
+    text-align: center;
 }
 p {
-    word-spacing: 3px;
+    line-height: 23px;
 }
 #cabecalho {
     min-height: 100px;
@@ -30,7 +31,18 @@ p {
 }
 .lado-esquerdo {
     float: left;
+    max-width: 30%;
+    padding: 35px;
 }
 .lado-direito {
     float: right;
+    max-width: 30%;
+    padding: 35px;
+}
+a {
+    display: block;
+    text-decoration: none;
+    color: currentColor;
+    font-size: 53px;
+    font-family: sans-serif;
 }
