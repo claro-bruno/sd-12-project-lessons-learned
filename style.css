@@ -123,6 +123,16 @@ Source: https://developer.mozilla.org/pt-BR/docs/Web/CSS/CSS_Transitions/Using_C
 }
 
 
+#aprendizado {
+    max-width: 60%;
+    text-align: justify;
+    display: flex;
+    flex-flow: column wrap;
+    flex-grow: 1;
+}
+
+
+
 
 
 
