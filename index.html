@@ -12,48 +12,57 @@
     <section id="cabecalho">
         <header>
             <h1 id="titulo">Lições aprendidas - Trybe!</h1>
-            <nav>
-                <a href="#lessons">Lições</a>
-                <a href="#learning_trybe">Aprendizado na Trybe</a>
-                <a href="#rodape">Contato</a>
+            <nav id="nav_links">
+                <a href="#lessons">Lições |</a>
+                <a href="#learning_trybe">| Aprendizado na Trybe |</a>
+                <a href="#rodape">| Contato</a>
             </nav>
         </header>
     </section>
 
     <main>
         
-        <section>
-            <img id="minha_foto" src="foto_thalles_carneiro.jpg" alt="Foto de Thalles Carneiro">
+        <section class="profile">
+            <div>
+                <img id="minha_foto" src="foto_thalles_carneiro.jpg" alt="Foto de Thalles Carneiro">
+                <figcaption>Thalles de Oliveira Carneiro</figcaption>
+            </div>
 
-            <table>
-                <tr>
-                    <th>Trybe</th>
-                </tr>
-                <tr>
-                    <th>Requisitos</th>
-                    <th>Desempenho</th>
-                    <th>Avaliação</th>
-                </tr>
-                <tr>
-                    <td>Professores</td>
-                    <td>Excelente</td>
-                    <td>&check;</td>
-                </tr>
-                <tr>
-                    <td>Conteúdo</td>
-                    <td>Excelente</td>
-                    <td>&check;</td>
-                </tr>
-                <tr>
-                    <td>Aulas ao vivo</td>
-                    <td>Excelente</td>
-                    <td>&check;</td>
-                </tr>
-                <tr>
-                    <td>Resultado:</td>
-                    <td></td>
-                    <td>Aprovada!</td>
-                </tr>
+            <table id="trybe_table" border="1">
+                <thread>
+                    <tr>
+                        <th id="table_title" scope="col">Trybe</th>
+                    </tr>
+                    <tr class="first_row">
+                        <th id="requests" scope="col">Requisitos</th>
+                        <th id="performance" scope="col">Desempenho</th>
+                        <th id="rating" scope="col">Avaliação</th>
+                    </tr>
+                </thread>
+                <tbody>
+                    <tr class="middle_rows">
+                        <th id="teachers" scope="row">Professores</th>
+                        <td headers="teachers performance">Excelente</td>
+                        <td headers="teachers rating">&check;</td>
+                    </tr>
+                    <tr class="middle_rows">
+                        <th id="content" scope="row">Conteúdo</th>
+                        <td headers="content performance">Excelente</td>
+                        <td headers="content rating">&check;</td>
+                    </tr>
+                    <tr class="middle_rows">
+                        <th id="live_lectures" scope="row">Aulas ao vivo</th>
+                        <td headers="live_lectures performance">Excelente</td>
+                        <td headers="live_lectures rating">&check;</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr class="last_row">
+                        <th id="result" scope="row">Resultado:</th>
+                        <td headers=" result performance"></td>
+                        <td headers="result rating">Aprovada!</td>
+                    </tr>
+                </tfoot>
             </table>
         </section>
 
