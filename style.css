@@ -1,30 +1,30 @@
 body{
-    background-color: rgb(253, 251, 251);
-    margin: opx;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    color: rgb(253, 251, 251);
+    background-color:rgb(253, 251, 251);
+    margin:opx;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color:rgb(253, 251, 251);
 }
 
 body h3, body li{
-    color: rgb(42, 46, 43);
+    color:rgb(42, 46, 43);
 }
 #cabecalho{
-    position: fixed;
-    z-index: 1;
-    background-color: rgb(42, 46, 43);
-    top: 0px;
-    width: 100%;
-    margin: 0%;
-    height: 70px;
-    border-bottom: rgb(253, 251, 251);
+    position:fixed;
+    z-index:1;
+    background-color:rgb(42, 46, 43);
+    top:0px;
+    width:100%;
+    margin:0%;
+    height:70px;
+    border-bottom:rgb(253, 251, 251);
     
 }
 
 #titulo{
-    margin-left: 100px;
-    vertical-align: middle;
-    font-size: 40px;
-    text-align: unset;
+    margin-left:100px;
+    vertical-align:middle;
+    font-size:40px;
+    text-align:unset;
 
 }
 
@@ -53,84 +53,84 @@ body h3, body li{
 
 
 #nav a:hover{
-    background-color: rgb(42, 46, 43);
+    background-color:rgb(42, 46, 43);
    
 
 }
 
 #bg{
-    background-image: url(./img/trajeto.jpeg);
-    margin-top: 80px;
-    background-position-y: -400px;
-    background-position-x: -350px;
-    height: 500px;
+    background-image:url(./img/trajeto.jpeg);
+    margin-top:80px;
+    background-position-y:-400px;
+    background-position-x:-350px;
+    height:500px;
    
 
 }
 
 #minha_foto{
-    width: 200px;
-    border-radius: 50%;
-    border: double rgb(253, 251, 251);
-    position: absolute;
-    left: 44%;
-    top: 40%;
+    width:200px;
+    border-radius:50%;
+    border:double rgb(253, 251, 251);
+    position:absolute;
+    left:44%;
+    top:40%;
    
 }
 
 article{
-    width: 500px;
-    position: absolute;
-    top: 25%;
-    left: 3%;
-    padding: 10px;
-    border: double rgb(253, 251, 251);
+    width:500px;
+    position:absolute;
+    top:25%;
+    left:3%;
+    padding:10px;
+    border:double rgb(253, 251, 251);
 }
 
 #relato{
-    line-height: 25px;
-    font-style: italic;
+    line-height:25px;
+    font-style:italic;
     
 }
 
 aside{
-    width: 450px;
-    border: double rgb(253, 251, 251);
-    padding: 10px;
-    position: absolute;
-    left: 60%;
-    top: 57%;
+    width:450px;
+    border:double rgb(253, 251, 251);
+    padding:10px;
+    position:absolute;
+    left:60%;
+    top:57%;
 }
 
 aside p{
-    line-height: 25px;
-    font-style: italic;
+    line-height:25px;
+    font-style:italic;
     
 }
 
 
 .tabela, .tabela td{
-    border: 1px double rgb(42, 46, 43);
-    border-spacing: 1px;
-    color: rgb(42, 46, 43);
+    border:1px double rgb(42, 46, 43);
+    border-spacing:1px;
+    color:rgb(42, 46, 43);
     
 }
 .tabela td{
-    padding: 20px;
+    padding:20px;
 }
 
 
 #rodape{
-    background-color: rgb(42, 46, 43);
+    background-color:rgb(42, 46, 43);
 
 }
 footer img{
-    width: 40px;
+    width:40px;
 
 }
 footer a{
     
-    color: rgb(253, 251, 251);
-    text-decoration: none;
-    margin-left: 100px;
+    color:rgb(253, 251, 251);
+    text-decoration:none;
+    margin-left:100px;
 }
