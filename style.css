@@ -1,16 +1,16 @@
 body {
   background-color: rgb(253, 251, 251);
   margin: 0;
-  font-family: 'Roboto',
-    sans-serif;
+  font-family: 'Roboto';
   letter-spacing: 1px;
   font-size: 16px;
 }
 
 h1 {
   font-family: 'Roboto',
-    sans-serif,
+
     Medium 500 italic;
+  font-weight: 600;
 }
 
 #cabecalho {
@@ -22,6 +22,7 @@ h1 {
   position: fixed;
   width: 1300px;
   top: 0;
+
 }
 
 #minha_foto {
@@ -56,9 +57,10 @@ table {
 }
 
 section {
-  display: flex;
+  position: relative;
 
   padding: 20px;
+
 }
 
 
