@@ -6,7 +6,6 @@ body {
   top: 0;
   overflow: auto;
   background-color: lightblue;
-  z-index: 1;
 }
 
 #titulo {
@@ -16,15 +15,24 @@ body {
 }
 
 #minha_foto {
-  width: 100px;
-  margin-top: 10px;
+  width: 80px;
+  margin-top: 5px;
   margin-left: 30px;
   border-radius: 20%;
+}
+
+.link {
+  font-size: x-small;
 }
 
 #licoes_aprendidas {
   font-size: small;
   margin-left: 100px;
+  top: 220px;
+  border: solid;
+  border-width: medium;
+  border-color: lightseagreen;
+  display: inline-block;
 }
 
 #sub_titulo {
@@ -36,21 +44,28 @@ body {
 #licoes_a_aprender {
   font-size: small;
   position: absolute;
-  margin-left: 600px;
-  top: 250px;
-}
-
-#rodape {
-  font-size: x-small;
+  margin-left: 250px;
+  top: 220px;
+  border: solid 1px;
+  border-color: lightcoral;
+  border-width: medium;
+  list-style-type: square;
+  display: inline-block;
 }
 
 .lado-esquerdo {
   position: absolute;
-  display: block;
-  margin-left: 5px;
+  display: inline-block;
+  margin-right: 40px;
   font-size: x-small;
-  border-width: medium;
-  border-color: lightcoral;
+  padding-bottom: 10px;
+  margin-top: 300px;
+  right: 350px;
+  top: 200px;
+  border: solid;
+  border-width: thin;
+  border-color: purple;
+  line-height: 20px;
 }
 
 .lado-direito {
@@ -58,5 +73,21 @@ body {
   display: block;
   margin-left: 650px;
   font-size: x-small;
-  border-width: medium;
+  margin-top: 80px;
+  border: solid;
+  border-width: thin;
+  border-color: purple;
+  line-height: 20px;
+  top: 425px;
+  left: 10px;
+}
+
+#barra_rolagem{
+  overflow: visible;
+}
+
+#rodape {
+  font-size: x-small;
+  margin-top: 250px;
+  font-weight: bold;
 }
