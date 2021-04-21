@@ -33,6 +33,14 @@ th {
 
 article,
 aside {
+  display: inline-block;  
+  width: 500px;
   line-height: 1.8;
   font-size: 20px;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+article {
+    margin-right: 70px;
 }
