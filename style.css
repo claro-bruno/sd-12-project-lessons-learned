@@ -15,8 +15,17 @@
    margin-left: 18%;
  }
 
- .artigo1{
-  background-color:;
+ .artigo1 p {
+  margin-left: 350px;
+  width: 60%;
+ }
+ .apresent{
+  background-color: yellowgreen;
+ }
+
+ .aside1 p {
+  margin-left: 350px;
+  width: 60%;
  }
 
  .indice {
@@ -44,20 +53,30 @@
 }
 
  #cabecalho {
-  position: fixed;
+  position: absolute;
   top: 0;
 } 
 
  #minha_foto {
+  position: absolute;
   width: 200px;
   border-radius: 30%;
   margin-top: 5%;
   margin-left: 10%;
-  float: left;
   border: greenyellow;
   border-style: outset;
+  border-width: 5px;
 }
-
+ ol.ol, ul.ul {
+   display: inline-block;
+   margin-left: 28%;
+   background-color: yellowgreen;
+   border: green;
+   border-style: outset;
+ }
+ ul.ul{
+   margin-left: -1px;
+ }
  footer{
   background-color: green;
   width: 100%;
