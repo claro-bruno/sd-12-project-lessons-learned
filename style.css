@@ -5,11 +5,18 @@ background-color: rgb(253, 251, 251);
     top: 0;
     position:fixed;
     background-color: blue;
+    height: 4vh;
 
 }
 
-div {
+article {
     word-wrap: break-word;
     width: 1000px;
  }
  
+ aside {
+    height: 35vh;
+    width: 10vh;
+
+
+ }
