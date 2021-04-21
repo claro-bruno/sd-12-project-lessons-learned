@@ -51,9 +51,12 @@ main {
     color: white;
     padding: 15px 20px;
     border-radius: 10px;
+    position: relative;
     text-decoration: none;
-    margin-left: 50%;
-    margin-right: 50%;
+    top: 50%;
+    left: 50%;
+    margin-left: 20px;
+
     
 
 }
@@ -78,6 +81,10 @@ ol, ul {
     display: inline-block;
     width: 300px;
     
+    
+}
+
+section {
     
 }
 
