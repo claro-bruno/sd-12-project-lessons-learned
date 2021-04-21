@@ -2,6 +2,7 @@ body {
  background-color: rgb(253, 251, 251);
 }
 #cabecalho {
+    position: fixed;
     top: 0;
 }
 #titulo {
@@ -38,6 +39,7 @@ body {
     border-style: solid;
     display: inline-block;
     width: 400px;
+    margin-left: 50px;
 }
 .titulo-licoes {
     text-align: center;
