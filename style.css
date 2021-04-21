@@ -1,5 +1,6 @@
 body {
     background-color: rgb(253, 251, 251);
+    
     font-family: "Montserrat", sans-serif;
 }
 
@@ -18,8 +19,9 @@ header h1 {
 }
 
 header a {
-    margin-left: 2%;
     display: block;
+    margin-left: 2%;
+    
     color: rgb(255, 255, 255);
     text-decoration: none;
 }
@@ -29,4 +31,6 @@ img {
 
 }
 
-
+section ol, section ul {
+    display: inline-block;
+}
