@@ -5,7 +5,7 @@
 
 body {
   background-color: rgb(253, 251, 251);
-  font-family: Roboto, 'sans-serif';
+  font-family: "Roboto", "sans-serif";
 }
 
 #cabecalho {
@@ -72,7 +72,7 @@ li {
   text-align: center;
 }
 
-#licoes_aprendidas,#licoes_a_aprender {
+#licoes_aprendidas , #licoes_a_aprender {
   padding-left: 350px;
   font-size: 20px;
   margin: 50px 0;
@@ -100,7 +100,7 @@ li {
   padding: 20px;
 }
 
-.lado-direito,.lado-esquerdo {
+.lado-direito , .lado-esquerdo {
   border: rgb(130, 169, 200) 2px solid;
   border-radius: 8px;
 }
