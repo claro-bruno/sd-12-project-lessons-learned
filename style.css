@@ -2,13 +2,31 @@ body {
   background-color: rgb(253, 251, 251);
 }
 
-#cabecalho {
+header#cabecalho {
   position: fixed;
   top: 0;
+  background-color: rgb(9, 119, 27);
+  color: aliceblue;
+  width: 100%;
 }
 
-#minha_foto {
-  width: 300px;
+header#cabecalho h1#titulo{
+  text-align: center;
+} 
+
+main{
+  margin-top: 135px;
+}
+
+main section#secao_foto a{
+  display: block;
+  text-decoration: none;
+  color: black;
+  font-size: 17px;
+}
+
+main section#secao_foto img#minha_foto {
+  width: 200px;
 }
 
 .lado-esquerdo , .lado-direito {
