@@ -1,9 +1,9 @@
-body { 
+body {
   background-color: rgb(253, 251, 251);
 }
 
-#cabecalho { 
-  top: 0px;
+#cabecalho {
+  top: 0;
   position: fixed;
   background-color: rgb(160, 143, 89);
   color: white;
@@ -33,7 +33,7 @@ body {
 .div-sugestion a {
   background-color: rgb(117, 110, 88);
   color: rgb(98, 141, 29);
-  text-decoration:solid;
+  text-decoration: solid;
   font-weight: 900;
 }
 
@@ -63,7 +63,7 @@ body {
 
 .lado-direito p {
   font-size: 16px;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: 'Courier New';
   color: darkgoldenrod;
   line-height: 25px;
 }
@@ -105,4 +105,4 @@ body {
   background-color: rgb(117, 110, 88);
   padding: 10px;
   color: white;
-}
+} 
