@@ -36,7 +36,7 @@ h1 {
   font-size: 1.5em;
 }
 
-a:hover {
+.menu-navegacao a:hover {
   color: rgb(1, 12, 1);
 }
 
@@ -47,9 +47,7 @@ a:hover {
 #sobre-mim {
   height: 100vh;
   background-color: rgb(45, 49, 66);
-  
-  
-}
+  }
 
 #minha_foto {
   margin-top: 8%;
@@ -118,7 +116,6 @@ margin-left: 27%;
   font-size: 25px;
   text-align: right;
   font-weight: bold;
-
 }
 
 #educacao{
@@ -126,8 +123,7 @@ margin-left: 27%;
   background-color: rgb(50, 73, 173);
   padding-bottom: 25px;
   color: rgb(255, 255, 255);
-  
-}
+  }
 
 .lado-esquerdo {
     border: solid 1px black;
@@ -145,3 +141,40 @@ margin-left: 27%;
 
 }
 
+#sites-favoritos{
+    background-color: rgb(45, 49, 66);
+    font-size: 3em;
+    color: rgb(255, 255, 255);
+}
+
+.sites-favoritos-titulo{
+    display: block;
+    width: 100%;
+}
+
+
+
+.steam{
+    color:rgb(255, 255, 255);
+    margin-left: 10px;
+}
+
+.steam:hover{
+    color: rgb(199, 213, 224);
+}
+
+.youtube{
+    color:rgb(255, 0, 0);  
+}
+
+.youtube:hover{
+    color: rgb(199, 213, 224);
+}
+
+.spotify{
+    color:rgb(30, 215, 96);
+}
+
+.spotify:hover{
+    color: rgb(199, 213, 224);
+}
