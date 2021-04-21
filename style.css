@@ -19,7 +19,7 @@ main {
   margin-top: 135px;
 }
 
-#secao_foto{
+#secao_foto {
   display: inline-block;
 }
 
@@ -41,10 +41,10 @@ main {
 }
 
 .paragrafo {
-    font-size: 15px;
-    color: black;
-    line-height: 22px;
-    margin: 0 55px;
+  font-size: 15px;
+  color: black;
+  line-height: 22px;
+  margin: 0 55px;
 }
 
 #projetos {
