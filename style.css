@@ -14,6 +14,7 @@ body{
     width: 100%;
     text-align: center;
     margin-bottom: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 .nav{
@@ -75,19 +76,22 @@ body{
     font-size: 30px;
     width: 100%;
     padding: 50px 100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 45px;
 }
 
-.article{
+.lado_esquerdo{
     background-color: #f2f2f2;
     width: 45%;
     text-align: justify;
 }
 
-.article h3{
+.lado_esquerdo h3{
     text-align: center;
+    color: darkgreen;
 }
 
-.aside{
+.lado_direito{
     background-color: #f2f2f2;
     width: 45%;
     justify-content: center;
@@ -95,10 +99,11 @@ body{
     margin: 50px 150px 50px 50px;
 }
 
-.aside h3{
+.lado_direito h3{
     text-align: center;
+    color: darkgreen;
 
 }
-.aside p{
+.lado_direito p{
     text-align: justify;
 }
