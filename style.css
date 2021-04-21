@@ -6,12 +6,7 @@ body {
   font-size: 16px;
 }
 
-h1 {
-  font-family: 'Roboto',
 
-    Medium 500 italic;
-  font-weight: 600;
-}
 
 #cabecalho {
   background-color: #036b52;
@@ -92,7 +87,20 @@ article {
   width: 50%;
   text-align: justify;
   margin: auto;
+}
 
+
+.lado-esquerdo {
+  display: flexbox;
+  float: left;
+  width: 50%;
+
+
+
+}
+
+.lado-direito {
+  display: flexbox;
 
 
 
