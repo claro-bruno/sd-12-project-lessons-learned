@@ -1,14 +1,6 @@
 body {
  background-color: rgb(253, 251, 251);
 }
-#minha_foto {
-    border-style: solid;
-    border-radius: 50px;
-    width: 150px;
-    height: 150px;
-    margin-top: 100px;
-    margin-left: 20px;
-}
 #cabecalho {
     top: 10px;
 }
@@ -16,15 +8,43 @@ body {
     color: rgb(253, 251, 251);
     margin-left: 20px;
 }
-.paragrafo{
-    font-family: sans-serif;
-}
 .barra_superior {
     background-color: rgb(6, 117, 43);
     position: fixed;
-    top: 0;
+    top: 0px;
     left: 0;
     right: 0;
     height: 70px;
-  }
+}
+#minha_foto {
+    border-style: solid;
+    border-radius: 50px;
+    width: 150px;
+    height: 150px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+#perfil {
+    margin-top: 80px;
+    vertical-align: 100px; 
+    background-color: royalblue;
+}
+#menu {
+    margin-top: 10px;
+    display: inline-block;
+}
+.menu-content {
+    border-style: solid;
+    display: inline-block;
+    width: 400px;
+}
+#titulo-licoes {
+    text-align: center;
+}
+.paragrafo{
+    font-family: sans-serif;
+}
+.rodape_da_pagina {
+    background-color: rgb(6, 117, 43);
+}
   
