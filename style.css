@@ -1,74 +1,87 @@
 body {
-background-color: rgb(253, 251, 251);
+
+                background-color: rgb(253, 251, 251);
 }
 #cabecalho {
-top: 0;    
+
+                top: 0;    
 }
 .barra-superior {
 
-display: block;
-background-color: green;
-position: fixed;
-top: 0;
-height: 50px;
-padding-bottom: 10px;
-width: 100%;
-z-index: 2021;
+                display: block;
+                background-color: green;
+                position: fixed;
+                top: 0;
+                height: 50px;
+                padding-bottom: 10px;
+                width: 100%;
+                z-index: 2021;
 }
 .barra-superior ul {
 
-display: inline-block;
-position: absolute;
-top: 0;
+                display: inline-block;
+                position: absolute;
+                top: 0;
 }
 .barra-superior ul li {
 
-color: blue;  
+                color: blue;  
 }
 .barra-superior  h1 {
 
-text-align: center;
+                text-align: center;
 }
 #minha_foto {
 
-position: relative;
-display: block;
-width: 200px;
-padding: 20px;
-background-color: grey;
-border-radius: 50%;
-top: 60px;
-left: 50%;
-transform: translateX(-50%);
-border: 2px solid green;
+                position: relative;
+                display: block;
+                width: 200px;
+                padding: 20px;
+                background-color: grey;
+                border-radius: 50%;
+                top: 60px;
+                left: 50%;
+                transform: translateX(-50%);
+                border: 2px solid green;
 }
 .article p {
 
-font-size: 18px;
-color: indigo;
-font-family: monospace;
-white-space: unset;
-line-height: 25px;
+                font-size: 18px;
+                color: indigo;
+                font-family: monospace;
+                white-space: unset;
+                line-height: 25px;
 }
 .caixa-de-listas {
 
-width: auto;
-height: 220px;        
-padding: 10px;
-background-color: #ccc;
+                width: auto;
+                height: 220px;        
+                padding: 10px;
+                background-color: rgb(204, 204, 204);
 }
 .lado-esquerdo {
 
-position: absolute;
-display: inline-block;
-background-color: #cc0;
-left: 30%;
-border-radius: 15px;
+                position: absolute;
+                display: inline-block;
+                background-color: rgb(204, 204, 0);
+                left: 30%;
+                border-radius: 15px;
 }
 .lado-direito {
-position: absolute;
-display: inline-block;
-background-color: #cc0;
-left: 60%;
-border-radius: 15px;
+
+                position: absolute;
+                display: inline-block;
+                background-color: rgb(204, 204, 0);
+                left: 60%;
+                border-radius: 15px;
+}
+.box-model {
+
+                width: 100px;
+                height: 100px;
+                background-color: teal;
+                padding: 5px;
+                margin: 10px;
+                border: 3px solid blueviolet;
+                text-align: center;
 }
