@@ -1,5 +1,6 @@
 body {
     background-color: rgb(253, 251, 251);
+    margin: opx;
 }
 
 #cabecalho{
@@ -8,7 +9,44 @@ body {
     top: 0px;
     width: 100%;
     margin: 0%;
-    height: 100px;
+    height: 70px;
+    border-bottom: rgb(253, 251, 251);
     
+}
+
+#titulo{
+    margin-left: 100px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 40px;
+    color: rgb(253, 251, 251);
+    text-align: unset;
+
+}
+
+#nav{
+    position: fixed;
+    top: 71px;
+    border-bottom: solid rgb(253, 251, 251);
+    border-top: rgb(253, 251, 251);
+    background-color: rgb(20, 48, 20);
+    display: block;
+    width: 100%;
+    height: 40px;
     
+}
+
+#nav a{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(253, 251, 251);
+    margin: center;
+
+}
+
+#minha_foto{
+    border-radius: 40%;
+    width: 300px;
+    margin-top: 100px;
+    margin-left: 50%;
 }
