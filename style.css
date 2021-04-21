@@ -55,30 +55,6 @@ h3 {
   margin-left: 50px;
 }
 
-.nav-bar {
-  text-align: center;
-}
-
-.nav-bar ul {
-  list-style: none;
-}
-
-.nav-bar li {
-  display: inline-block;
-  padding-left: 50px;
-}
-
-.nav-bar li a {
-  text-decoration: none;
-  color: white;
-  transition-property: color;
-  transition-duration: 1s;
-}
-
-.nav-bar li a:hover {
-  color: rgb(165, 163, 163)
-}
-
 .foto {
   width: 100%;
   text-align: center;
@@ -105,7 +81,31 @@ h3 {
   color: rgb(3, 109, 85);
 }
 
-.licoes ul,ol {
+.nav-bar {
+  text-align: center;
+}
+
+.nav-bar ul {
+  list-style: none;
+}
+
+.nav-bar li {
+  display: inline-block;
+  padding-left: 50px;
+}
+
+.nav-bar li a {
+  text-decoration: none;
+  color: white;
+  transition-property: color;
+  transition-duration: 1s;
+}
+
+.nav-bar li a:hover {
+  color: rgb(165, 163, 163);
+}
+
+.licoes ul, ol {
   width: 100%;
 }
 
@@ -119,11 +119,11 @@ h3 {
   margin: auto;
 }
 
-.licoes li:nth-child(odd){
+.licoes li:nth-child( odd ) {
   background-color: rgb(3, 109, 85);
 }
 
-.licoes li:nth-child(even){
+.licoes li:nth-child( even ) { 
   background-color: rgb(8, 194, 150);
 }
 
@@ -179,11 +179,11 @@ h3 {
   color:  rgb(65, 61, 61);
 }
 
-.tabela td:nth-child(odd){
+.tabela td:nth-child( odd ) {
   background-color: rgb(165, 163, 163);
 }
 
-.tabela td:nth-child(even){
+.tabela td:nth-child( even ) {
   background-color: rgb(228, 214, 214);
 }
 
