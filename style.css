@@ -1,8 +1,8 @@
-body {
+body{
     background-color: rgb(253, 251, 251);
 }
 
-#cabecalho {
+#cabecalho{
     position: fixed;
     top: 0;
     width: 100%;
@@ -10,16 +10,29 @@ body {
     background-color: sandybrown;
 }
 
+#links{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+a:hover{
+    color: red;
+}
+
 #conteudo_principal{   
     padding-top: 200px; /*Usado,pq o cabeçalho está com position:fixed e não ocupa lacuna*/
     border: 3px solid blue;
 }
 
-#minha_foto {
+#minha_foto{
     width: 200px;
     height: 200px;
 }
 
-#rodape {
+#rodape{
     border: 3px solid red;
 }
