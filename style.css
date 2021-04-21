@@ -20,3 +20,7 @@ body{
     border-radius: 50%;
     margin-top: 15px;
 }
+
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
