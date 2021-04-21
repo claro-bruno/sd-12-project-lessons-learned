@@ -2,6 +2,7 @@ body {
   background-color: rgb(253, 251, 251);
   margin: 0;
   font-family: monospace;
+  font-size: 12px;
 }
 
 #cabecalho {
@@ -15,7 +16,7 @@ body {
   font-size: 12px;
 }
 
- #titulo {
+#titulo {
   font-family: monospace;
   font-weight: 900;
   text-align: center;
@@ -30,7 +31,7 @@ body {
   margin-left: 35px;
 }
 
-#licoes_aprendidas , #licoes_a_aprender , .lado-direito, .lado-esquerdo {
+#licoes_aprendidas , #licoes_a_aprender , .lado-direito , .lado-esquerdo {
   font-size: 12px;
 }
 
@@ -38,9 +39,9 @@ h2 {
   font-weight: 900;
   text-decoration: underline;
   font-size: 14px;
-   margin-top: 10px;
-   margin-bottom: 2px;
-   margin-left: 28px;
+  margin-top: 10px;
+  margin-bottom: 2px;
+  margin-left: 28px;
 }
 
 #licoes_aprendidas {
