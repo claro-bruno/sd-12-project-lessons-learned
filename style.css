@@ -36,13 +36,19 @@ main{
 .flex-container{
     display: flex;
 }
-#lado-direito{
-    margin-top: 120px;
+
+
+
+.article-container{
+    display: inline-block;
 }
 
+
 #lado-esquerdo{
-    width: 70%;
+    float: left;
+    width: 40%;
     padding-left: 10px;
+    padding-right: 10px;
 }
 
 #sobre-matheus{
@@ -51,20 +57,9 @@ main{
     width: 40%;
 }
 
-.article-container{
-    display: flex;
+#right{
+    padding-top: 120px;
 }
-
-
-#sobre-aprendizado a{
-    text-decoration: none;
-    color: rgb(54, 123, 228);
-}
-
-#sobre-aprendizado a:hover{
-    color: darkblue;
-}
-
 
 .container-nav{
     display: flex;
