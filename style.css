@@ -61,7 +61,7 @@ h2 {
 }
 
 .lado-esquerdo {
-  width: 30%;
+  width: 100%;
   padding: 0px 50px 0px 50px;
   border: 3px solid black;
 }
@@ -70,5 +70,9 @@ h2 {
   width: 30%;
   padding: 0px 50px 0px 50px;
   border: 3px solid black;
+}
+
+.tg {
+  margin-left: 40%;
 }
 
