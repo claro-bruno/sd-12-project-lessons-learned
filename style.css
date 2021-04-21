@@ -6,8 +6,7 @@ body {
 #minha_foto {
     width: 300px;
     margin-top: 80px;
-
-}
+    }
 #cabecalho {
     top: 0px;
     position: fixed;
@@ -26,4 +25,11 @@ body {
 }
 #rodape {
     font-size: 10px;
+}
+a {
+    font-size: 25px;
+    left: 50px;
+}
+.aprendidas {
+    font-size: 30px;
 }
