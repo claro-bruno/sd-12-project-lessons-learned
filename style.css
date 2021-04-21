@@ -12,7 +12,9 @@ body {
     margin-top: 0%;
     font-family:monospace;
     text-align: center;
+    font-size: 40px;
 }
+
 nav{
     position: absolute;
     top: 7%;
@@ -35,7 +37,6 @@ nav li{
     text-align: left;
     display: inline-block;
 }
-
 ul li a {
     display: inline-block;
     color: white;
@@ -49,30 +50,53 @@ ul li a {
 #minha_foto{
     padding-top: 10%;
     width: 20%;
+    display: block;
 }
+
 #licoes_aprendidas{
     font-family: Arial, Helvetica, sans-serif;
+    line-height: 20px;
 }
 #licoes_a_aprender{
     font-family: monospace;
 }
-#rodape{
-    background-color: blanchedalmond;
+
+.container{
+    height: 100%;
+    border: black;
+    border-style: groove;
+    overflow: auto;
 }
-#rodape h1{
-    margin: 0;
-}
-.Artigo{
+.lado-esquerdo{
     font-family: monospace;
+    width: 45%;
+    float: left;
+    padding: 1px;
 }
-.Aside{
+}
+.lado-direito{
     font-family: monospace;
+    width: 45%;
+    float: right;
+    padding: 1px;
+    border:black;
+    border-style:groove
 }
 
+table{
+    bottom: 100%;
+}
 table tr td{
     text-align: center;
 }
 table tr td a{
     text-align: center;
     color: rosybrown;
+}
+
+#rodape{
+    background-color: blanchedalmond;
+}
+#rodape h1{
+    margin: 0;
 }
