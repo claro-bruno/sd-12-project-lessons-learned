@@ -66,6 +66,7 @@ a:hover {
   text-align: center;
   font-family: "Roboto Slab", serif;
   font-weight: bolder;
+  line-height: 40px;
 }
 
 #seta-down {
@@ -84,6 +85,7 @@ a:hover {
   height: 100vh;
   padding-top: 10px;
   margin: 0;
+  line-height: 45px;
  
 }
 
@@ -96,12 +98,13 @@ a:hover {
 #aprendidas{
 display: inline-block;
 margin-left: 27%;
-
 }
 
 #licoes_aprendidas {
   font-size: 25px;
   text-align: left;
+  font-weight: bold;
+
 }
 
 #aprender{
@@ -114,4 +117,28 @@ margin-left: 27%;
   direction: rtl;
   font-size: 25px;
   text-align: right;
+  font-weight: bold;
+
+}
+
+#educacao{
+  font-size: 19px;
+  background-color: rgb(177, 224, 177);
+  padding-top: 20px;
+}
+
+.lado-esquerdo {
+    border: solid 1px black;
+    width: 45%;
+    float: left;
+    margin-left: 2px;
+    text-align: left;
+}
+
+.lado-direito {
+    border: solid 1px black;
+    width: 45%;
+    margin-left: 54.8%;
+    text-align: right;
+
 }
