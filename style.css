@@ -1,8 +1,9 @@
 body {
   background-color: rgb(253, 251, 251);
   margin: 0;
-
-
+  font-family: 'Roboto',
+    sans-serif;
+  letter-spacing: normal;
 }
 
 #cabecalho {
@@ -14,11 +15,6 @@ body {
   position: fixed;
   width: 1300px;
   top: 0;
-
-
-
-
-
 }
 
 #minha_foto {
@@ -26,18 +22,32 @@ body {
   padding: 10px;
   border-radius: 50%;
   width: 20%;
+}
+
+table {
+  width: 500px;
+  height: 300px;
+  border-collapse: collapse;
+  border: 1px solid #455;
 
 
 }
 
+
 #licoes_aprendidas {
   list-style: decimal;
+
+  border-radius: 4px;
 
 }
 
 #licoes_a_aprender {
   list-style: circle;
+
+  border-radius: 4px;
+
 }
+
 
 .contacts {
   display: flex;
