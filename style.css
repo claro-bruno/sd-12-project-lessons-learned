@@ -26,3 +26,8 @@ body {
 #licoes_a_aprender {
     
 }
+
+#rodape {
+    position: fixed;
+    background-color: black;
+}
