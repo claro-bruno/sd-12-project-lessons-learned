@@ -47,6 +47,7 @@ header {
 
 main {
   text-align: center;
+  padding-bottom: 50px;
 }
 
 h2 {
@@ -88,6 +89,24 @@ section {
   display: inline-flex;
   border-top: 5px dotted palegreen;
 }
+
+.ranking {
+  font-size: 25px;
+  color: cornflowerblue;
+}
+
+table {
+  margin: auto;
+}
+
+tbody {
+  font-family: monospace;
+  text-align: center;
+  color: gray;
+  font-size: 15px;
+  font-weight: 700;
+}
+
 
 h3 {
   font-family: Noto Sans JP, sans-serif;
