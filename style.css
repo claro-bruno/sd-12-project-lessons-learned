@@ -69,7 +69,11 @@ ol, ul {
 }
 
 .lado_esquerdo {
-    margin-left: 525px;
+    margin-left: 100px;
+}
+
+.lado_direito {
+    margin-right: 100px;
 }
 
 
