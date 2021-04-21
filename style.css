@@ -96,3 +96,31 @@ table td {
 table tbody tr td:nth-child(odd) {
   text-align: initial;
 }
+
+#licoes {
+  display: block;
+  margin: auto;
+  background-color: green;
+  color: white;
+  width: 90%;
+}
+
+.licoes_esquerda, .licoes_direita {
+  display: inline-block;
+  width: 48%;
+  text-align: center;
+  margin: 7px;
+  border: solid 1px white;
+}
+
+.licoes_direita {
+  float: right;
+}
+
+.licoes h3 {
+  text-decoration: underline;
+}
+
+.licoes li {
+  text-align: initial;
+}
