@@ -1,6 +1,7 @@
 body { 
   background-color: rgb(253, 251, 251);
 }
+
 #cabecalho { 
   top: 0px;
   position: fixed;
@@ -9,6 +10,7 @@ body {
   width: 100%;
   text-align: center;
 }
+
 .nav-menu {
   position: sticky;
   top: 80px;
@@ -18,6 +20,7 @@ body {
   text-align: justify;
   padding: 5px 10px;
 }
+
 .div-sugestion {
   background-color: rgb(117, 110, 88);
   color: white;
@@ -26,24 +29,29 @@ body {
   padding: 5px 10px;
   text-decoration: none;
 }
+
 .div-sugestion a {
   background-color: rgb(117, 110, 88);
   color: rgb(98, 141, 29);
   text-decoration:solid;
   font-weight: 900;
 }
+
 .nav-menu a {
   text-decoration: none;
   color: white;
   margin-left: 30px;
 }
+
 .nav-menu a:hover {
   color: rgb(197, 199, 56);
 }
+
 #minha_foto {
-    width: 300px;
-    margin-top: 80px;
+  width: 300px;
+  margin-top: 80px;
 }
+
 .table-test {
   border: 2px dashed rgb(128, 129, 52);
   margin: 0%;
@@ -52,18 +60,21 @@ body {
   margin-bottom: 10px;
   text-align: center;
 }
+
 .lado-direito p {
   font-size: 16px;
   font-family: 'Courier New', Courier, monospace;
   color: darkgoldenrod;
   line-height: 25px;
 }
+
 .lado-direito {
   width: 500px;
   border: 2px dotted rgb(100, 96, 33);
   flex-direction: row;
   padding: 10px;
 }
+
 .lado-esquerdo {
   width: 500px;
   border: 2px dotted red;
@@ -73,18 +84,22 @@ body {
   font-family: Helvetica, sans-serif;
   color: rgb(168, 144, 81);
 }
+
 .container-lados {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
+
 .container-info {
   display: flex;
   flex-wrap: wrap;
 }
+
 .table-elements {
   text-align: left;
 }
+
 #rodape {
   text-align: center;
   background-color: rgb(117, 110, 88);
