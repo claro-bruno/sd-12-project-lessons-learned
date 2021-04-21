@@ -2,11 +2,31 @@ body {
     background-color: rgb(253, 251, 251);
     font-family: 'Ubuntu', sans-serif;
 }
-
 #cabecalho {
     position: fixed;
     top: 0;
+    left: 0;
+    right: 0;
+    background-color: rgb(3, 107, 82);
+    color: rgb(255, 255, 255);
+    text-align: center;
 }
+#titulo {
+    /* font-weight: 700; */
+}
+ul {
+    padding: 0;
+}
+
+nav ul li{
+    display: inline-block;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+nav ul li:hover{
+    font-weight: bold;
+}
+
 
 #minha_foto {
     width: 200px;
