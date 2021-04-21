@@ -2,12 +2,12 @@ body {
     background-color: rgb(253,251,251);
 }
 
-.rodape {
+#rodape {
     background-color: rgb(3, 119, 9);
     color: blanchedalmond;
     
 }
 
-.minha_foto {
+#minha_foto {
     border-radius: 15px;
 }
