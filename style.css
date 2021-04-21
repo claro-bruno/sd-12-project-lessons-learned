@@ -36,11 +36,11 @@ main{
 .flex-container{
     display: flex;
 }
-#lado-direito{
+#right{
     margin-top: 120px;
 }
 
-#lado-esquerdo{
+#left{
     width: 70%;
     padding-left: 10px;
 }
@@ -52,10 +52,19 @@ main{
 }
 
 .articles{
-    display: block;
+    display: inline-block;
     width: 80%;
 }
 
+#lado-esquerdo{
+    width: 40%;
+    display: inline-block   ;
+}
+
+#lado-direito{
+    width: 40%;
+    display: inline-block;
+}
 
 #sobre-aprendizado a{
     text-decoration: none;
