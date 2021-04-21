@@ -28,6 +28,16 @@ ol ul {
   display: inline-block;
 }
 
+table {
+  background-color: lightgray;
+  border-collapse: collapse;
+}
+
+table td , th {
+  border: solid 1px black;
+  padding: 6px;
+}
+
 p {
   line-height: 23px;
 }
