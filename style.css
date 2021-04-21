@@ -1,85 +1,91 @@
 body {
-    background-color: rgb(253,251,251);
+  background-color:rgb(253,251,251);
 }
 
-#cabeçalho {
-    background-color: lightseagreen;
-    position: absolute;
-    top: 0;
-    width: 100%;
-    height: 200px;
-    border: 3px solid black;
+#cabecalho {
+  background-color: lightseagreen;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 200px;
+  border: 3px solid black;
 }
 
 #titulo {
-    text-align: center;
+  text-align: center;
 }
 
 nav {
-    text-align: left;
-    position: absolute;
-    margin-top: 170px;
-    margin-left: 15px;
-    font-size: 20px;
-    font-weight: bold;
+  text-align: left;
+  position: absolute;
+  margin-top: 170px;
+  margin-left: 15px;
+  font-size: 20px;
+  font-weight: 1.2px bold;
 }
 
 #linkedin {
-    margin-right: 25px;
+  margin-right: 25px;
 }
 
 #Aprendizados {
-    margin-right: 25px;
+  margin-right: 25px;
 }
 
-#minha_foto{
-    margin-top: 210px;
-    
+#minha_foto {
+  margin-top: 210px;
 }
 
 .licoes_lado_A {
-    width: 20%;
-    padding-left: 15px;
-    margin-left: 0px;
-    float: left;
-    font-style: italic;
-    background-color: lightgray;
-  }
+  width: 20%;
+  padding-left: 15px;
+  margin-left: 2px;
+  float: left;
+  font-style: italic;
+  background-color: lightgray;
+}
 
 .licoes_lado_B {
-    width: 20%;
-    padding-left: 15px;
-    margin-right: 750px;
-    float: right;
-    font-style: italic;
-    background-color: lightgray;
-  }
+  width: 20%;
+  padding-left: 15px;
+  margin-right: 750px;
+  float: right;
+  font-style: italic;
+  background-color: lightgray;
+}
 
 #tabela, #Primeiro_Artigo #Segundo_Artigo {
-    border: 2px solid black
+  border:2px solid black;
 }
 
 .artigo_A {
-    width: 45%;
-    margin-top: 15px;
-    padding-left: 15px;
-    margin-left: 0px;
-    float: left;
-    font-style: italic;
-    background-color: lightgray;
-  }
+  width: 45%;
+  margin-top: 15px;
+  padding-left: 15px;
+  margin-left: 2px;
+  float: left;
+  font-style: italic;
+  background-color: lightgray;
+}
 
 .artigo_B {
-    width: 45%;
-    margin-top: 15px;
-    padding-left: 15px;
-    margin-right: 80px;
-    padding-bottom: 70px;
-    float: right;
-    font-style: italic;
-    background-color: lightgray;
-  }
+  width: 45%;
+  margin-top: 15px;
+  padding-left: 15px;
+  margin-right: 80px;
+  padding-bottom: 100px;
+  float: right;
+  font-style: italic;
+  background-color: lightgray;
+}
+
+p {
+  font-weight: 16px;
+  color: darkblue;
+  line-height: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 
 footer {
-    font-weight: bold;
+  font-weight:1.2px bold;
 }
