@@ -13,7 +13,7 @@ img {
 
 body{
     font-family: "Poppins", sans-serif;
-    background-color: #fdfbfb;
+    background-color: rgb(253, 251, 251);
 }
 
 ul{
@@ -52,8 +52,8 @@ nav ul li {
 nav ul li a{
     height:40px;
 	line-height: 43px;
-	margin: 3px;
-	padding: 0px 22px;
+	margin: 10px;
+	padding: 0px 10px;
 	display: flex;
 	font-size: 0.8rem;
 	text-transform: uppercase;
