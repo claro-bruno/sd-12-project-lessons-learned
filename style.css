@@ -3,10 +3,12 @@
   padding: 0;
   border: 0;
 }
+
 body {
   background-color: rgb(253, 251, 251);
   font-family: Montserrat, sans-serif;
 }
+
 #cabecalho {
   position: fixed;
   top: 0;
@@ -14,34 +16,39 @@ body {
   text-align: center;
   width:100%;
 }
-#titulo {
 
-}
 #minha_foto {
   width: 250px;
   border:2px solid orange;
   padding: 50px;
 }
+
 #licoes_aprendidas {
   font-size:18px;
 }
+
 #p {
   color:orange;
   line-height: 50px;
 }
+
 #licoes_a_aprender{
   font-size:20px;
 }
+
 main {
   margin-top:294px;
 }
+
 nav {
   margin-top:294px;
 }
+
 .lado-esquerdo {
   display:inline-block;
   width:49%;
 }
+
 .lado-direito {
   display:inline-block;
   width:50%;
