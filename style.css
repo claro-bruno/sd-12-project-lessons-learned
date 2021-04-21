@@ -15,12 +15,17 @@ header {
 
 li, p {
     padding: 3px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Roboto';
 }
 
 h2, h3, footer {
     text-align: left;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Balsamiq Sans';
+}
+
+a {
+    text-decoration: none;
+    color:blueviolet;
 }
 
 #cabecalho {
@@ -38,7 +43,8 @@ h2, h3, footer {
 }
 
 #titulo {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Balsamiq Sans';
+    color: blueviolet;
 }
 
 #minha_foto {
@@ -56,20 +62,25 @@ h2, h3, footer {
 
 #licoes_aprendidas {
     position: absolute;
-    top: 380px;
+    top: 392px;
     left: 230px;
     border: solid lavender;
     border-width: 3px;
     border-radius: 6px;
+    padding: 25px;
+    margin: 5px;
 }
 
 #licoes_a_aprender {
     position: absolute;
-    top: 380px;
-    left: 490px;
+    top: 392px;
+    left: 495px;
     border: solid lavender;
     border-width: 3px;
     border-radius: 6px;
+    padding: 25px;
+    margin: 5px;
+
 }
 
 .links_estudos li {
@@ -98,7 +109,7 @@ h2, h3, footer {
 }
 
 .article {
-    background-color: lavender;
+    background-color: rgb(0, 230, 161);
     position: absolute;
     left: 230px;
     top: 115px;
@@ -115,7 +126,7 @@ h2, h3, footer {
     position: absolute;
     left: 710px;
     top: 115px;
-    width: 235px;
+    width: 238px;
     height: 260px;
     overflow: auto;
     padding: 1px;
@@ -127,6 +138,6 @@ h2, h3, footer {
 #rodape {
     position: absolute;
     left:220px;
-    top: 1000px;
+    top: 950px;
     bottom: 0;
 }
