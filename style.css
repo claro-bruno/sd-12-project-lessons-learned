@@ -25,6 +25,7 @@ body {
 
 main {
   margin-top: 100px;
+  margin-bottom: 24px;
   padding: 10px;
 }
 
@@ -34,4 +35,13 @@ main {
 
 #licoes_a_aprender {
   display: inline-block;
+}
+
+#rodape {
+  position: absolute;
+  background-color: darkgreen;
+  right: 0;
+  left: 0;
+  text-align: center;
+  color: white;
 }
