@@ -5,6 +5,7 @@
 
 body {
     font-family: sans-serif;
+    background-color: rgb(253, 251, 251);
 }
 
 main {
@@ -100,109 +101,26 @@ main {
     background-color: rgb(152, 239, 251);
 }
 
-
+/*Vídeo*/
 
 .video {
     grid-area: video;
     background-color: rgb(255, 8, 0);
+    padding: 30px 2px;
+    text-align: center;
+}
+
+.tituloN4 {
+    font-style: italic;
+}
+
+.videoMargin {
+    margin-top: 20px;
+    margin-bottom: 5px;
 }
 
 .rodape {
     grid-area: rodape;
     background-color: rgb(94, 11, 80);
-}
-
-
-/*{
-
-
-    margin: 0 auto;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    background-color: rgb(253, 251, 251);
-    font-family: sans-serif;
-}
-
-
-
-#titulo {
-    color: white;
-    vertical-align: middle;
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-
-#cabecalho {
-    top: 0;
-    position: fixed;
-    background-color: #458202;
-    width: 100%;
     text-align: center;
-    
 }
-
-#navegacao a {
-    color: white;
-    text-decoration: none;
-    display: inline-block;
-    margin-bottom: 10px;
-    margin: 20px;
-    font-weight: bolder;
-}
-
-#navegacao a:hover {
-    color: rgb(16, 83, 13);
-    font-weight: bolder;
-}
-
-
-#horizon {
-    background-color: wheat;
-    padding-top: 200px;
-    width: 900px;
-    margin: auto;
-}
-
-#minha_foto {
-    width: 240px;
-    border-radius: 30px;
-    margin-top: 50px;
-}
-
-#artigo p {
-    text-align: justify;
-}
-
-#artigo {
-    width: 300px;
-    display: inline-block;
-    background-color: tomato;
-}
-
-#breve_artigo p {
-    text-align: justify;
-}
-
-#breve_artigo {
-    width: 230px;
-    background-color: teal;
-    display: inline-block;
-    position: relative;
-    left: 352px;
-    bottom: 130px;
-}
-
-#licoes_aprendidas {
-
-}
-
-#licoes_a_aprender {
-
-}
-
-#rodape {
-    background-color: aqua;
-}*/
