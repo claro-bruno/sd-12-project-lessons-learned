@@ -46,3 +46,10 @@ a {
     font-size: 53px;
     font-family: sans-serif;
 }
+table, td, th {
+    clear: both;
+    width: 60%;
+    text-align: center;
+    border: 1px solid black;
+    margin: auto;
+}
