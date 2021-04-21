@@ -29,8 +29,9 @@ nav {
 
 a {
   color: black;
-  padding: 10%;
+  padding: 10px;
   text-decoration: none;
+  margin: 10%;
 }
 
 article , aside {
