@@ -97,11 +97,11 @@ aside {
   display: inline-block;
 }
 
-.lado_esquerdo {
+.lado-esquerdo {
   float: left;
 }
 
-.lado_direito {
+.lado-direito {
   float: right;
 }
 
