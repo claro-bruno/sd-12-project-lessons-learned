@@ -45,3 +45,8 @@ main {
   text-align: center;
   color: white;
 }
+
+a {
+  display: block;
+  margin-left: 50px;
+}
