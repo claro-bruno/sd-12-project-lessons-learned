@@ -2,8 +2,8 @@
   background-color: rgb(253, 251, 251);
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: large;
+  line-height: 30px;
 }
-
  header {
   position: fixed;
   background-color: green;
@@ -11,24 +11,27 @@
   text-align: center;
   font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   top: 0;
+  z-index: 5;
 }
+
  .ola {
    font-size: 150px;
    color:green;
    margin-left: 60px;
+   position: absolute;
+   margin-top: 2%;
  }
+
  .ola:hover {
-   background-color: yellowgreen;
-   color: white;
-   border-radius: 100%;
+   color: yellowgreen;
    transition: 3s;
-   width: 100%;
  }
 
  .artigo1 p {
   margin-left: 350px;
   width: 60%;
  }
+
  .lado-esquerdo{
   background-color: yellowgreen;
  }
@@ -55,7 +58,7 @@
 
  p {
   max-width: 80%;
-  margin-top: 50px;
+  margin-top: 0px;
   padding: 8px;
 }
  p.lado-direito{
@@ -65,17 +68,20 @@
  p.lado-esquerdo p.lado-direito {
    display: inline-block;
    width: 30%;
+   z-index: 4;
  }
  main article p.lado-esquerdo {
   display: inline-block;
   width: 30%;
   position: absolute;
+  z-index: 3;
+  margin-top: 6%;
  }
  main aside p.lado-direito{
    display: inline-block;
    width: 30%;
    margin-left: 59%;
-   margin-top: 4%;
+   margin-top: 10%;
  }
 
  main {
@@ -83,7 +89,7 @@
 }
 
  #cabecalho {
-  position: absolute;
+  position: fixed;
   top: 0;
 } 
 
