@@ -50,6 +50,11 @@ main {
   list-style: none;
 }
 
+#redes-sociais a {
+  display: inline-block;
+  margin: 1px 35px;
+}
+
 #menu li {
   list-style: none;
 }
@@ -99,9 +104,4 @@ main {
   text-decoration: none;
   line-height: 25px;
   font-size: 15px;
-}
-
-#redes-sociais a {
-  display: inline-block;
-  margin: 1px 35px;
 }
