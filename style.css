@@ -1,14 +1,52 @@
 body {
   background-color: rgb(253, 251, 251);
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+main {
+  margin-top: 135px;
 }
 
 #cabecalho {
   position: fixed;
   top: 0;
+  width: 100vw;
+  background-color: green;
+  color: white;
+}
+
+#cabecalho h1 {
+  text-align: center;
 }
 
 #nav_bar {
   position: fixed;
+  display: inline-block;
+  width: 100vw;
+  background-color: black;
+}
+
+#nav_bar ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  margin-block: 0;
+  margin-inline: 0;
+  padding-inline:0;
+  text-align: center;
+}
+
+#nav_bar li {
+  display: inline-block;
+  padding: 1vw;
+  padding-inline: 3vw;
+}
+
+#nav_bar li:hover {
+  color: grey;
+  transition: 0.3s;
 }
 
 #minha_foto {
