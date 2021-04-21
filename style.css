@@ -32,7 +32,7 @@ p {
   line-height: 23px;
 }
 
-.texts article, aside {
+.texts article , aside {
   display: inline-block;
   max-width: 333px;
 }
