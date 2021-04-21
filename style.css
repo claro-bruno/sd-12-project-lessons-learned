@@ -30,70 +30,52 @@ h1 {
 
 #minha_foto {
     width: 15%;
-    position: absolute;
-    top: 15.3%;
+    margin-top: 8%;
     border: 1px solid black;
 } 
 
-#competencias h1 {
-    position: absolute;
-    top: 55%;
-    left: 13%;
-    text-decoration: underline ;
+#competencias {
+    display: flex;
+    flex-direction: row;
+    line-height: 25px;
+    margin-top: 6%;
+    font-size: 18px;
 }
 
 #licoes_aprendidas {
-    position: absolute;
-    top: 60%;
-    line-height: 25px;
-    font-size: 18px;
+    padding: 0 30px;
 }
 
 #licoes_a_aprender{
-    position: absolute;
-    top: 60%;
-    padding: 0 330px;
-    line-height: 25px;
-    font-size: 18px;
+    margin-left: 3%;
 }
 
-article {
+.lado-esquerdo{
     position: absolute;
-    top: 17%;
-    left: 17%;
-    margin: 10px;
+    top: 0;
+    margin: 10% 17%;
     padding: 10px 10px;
     line-height: 25px;
-    font-size: 18px;
-    width: 60%;   
+    font-size: 18px; 
+    max-width: 60%;
     box-shadow: 0px 5px 5px 5px rgba(0,0,0,0.2);
 }
 
-article h1 {
-    text-decoration: underline;
-    font-size: 25px;
-}
-
-aside {
+.lado-direito {
     position: absolute;
-    top: 17%;
-    left: 80%;
-    margin: 10px;
+    top: 0;
     padding: 10px 20px;
     line-height: 25px;
     font-size: 18px;
+    margin: 10% 80%;
     width: 15%;
     box-shadow: 0px 5px 5px 5px rgba(0,0,0,0.2);
 }
 
-aside h1 {
-    text-decoration: underline;
-}
-
 table {
-    position: absolute;
-    top: 46%;
-    
+   position: absolute;
+   top: 0;
+   margin-top: 24%;
 }
 
 tr td{
