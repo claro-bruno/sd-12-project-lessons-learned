@@ -1,6 +1,7 @@
 body {
   background-color: rgb(253, 251, 251);
-  font-family:'Oswald', sans-serif;
+  font-family: 'Oswald', sans-serif;
+  color: rgb(56, 53, 53);
 }
 
 header {
@@ -16,6 +17,11 @@ header {
   border-radius: 50%;
 }
 
+ol,
+ul {
+  font-size: 20px;
+}
+
 td {
   border-top: black dotted;
   border-right: dotted black;
@@ -25,3 +31,8 @@ th {
   border: black solid;
 }
 
+article,
+aside {
+  line-height: 1.8;
+  font-size: 20px;
+}
