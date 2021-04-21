@@ -9,7 +9,7 @@ a {
   padding: 7px;
   font-size: 20px;
   line-height: 2px;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: Times, serif;
 }
 
 h1 {
@@ -57,18 +57,18 @@ h2 {
 .lado {
   display: flex;
   flex: row;
-  padding: 0px 150px 0px 150px;
+  padding: 0 150px 0 150px;
 }
 
 .lado-esquerdo {
   width: 100%;
-  padding: 0px 50px 0px 50px;
+  padding: 0 50px 0 50px;
   border: 3px solid black;
 }
 
 .lado-direito {
   width: 30%;
-  padding: 0px 50px 0px 50px;
+  padding: 0 50px 0 50px;
   border: 3px solid black;
 }
 
