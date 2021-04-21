@@ -4,11 +4,43 @@ body {
 
 #cabecalho {
   position: fixed;
+  width: 100%;
   top: 0%;
+  color: rgb(255, 255,255);
+  text-align: center;
+  background-color: rgb(60,179,113);
+}
+
+h2 {
+  font-style: italic;
+}
+
+#nav {
+  border: 8px;
+  border-top: double;
+  border-bottom: double;
+}
+
+#nav li {
+  display: inline-block;
+  width: 200px;
+  font-size: 18px;
+}
+
+#nav li:hover {
+  color: rgb(0,100,0);
+  font-weight: bold;
+}
+
+#foto {
+  margin-top: 200px;
+  text-align: right;
 }
 
 #minha_foto {
-  margin-top: 130px;
+  border: 8px;
+  border-style: double;
+  border-color: rgb(60,179,113);
 }
 
 #link-trybe {
