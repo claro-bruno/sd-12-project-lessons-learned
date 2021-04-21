@@ -20,13 +20,29 @@ body {
   font-weight: 550;
   font-size: 3em;
   display: inline-block;
+  color: white;
+  padding-left: 50px;
 }
 
 .navegador{
   display: inline-block;
+  font-size: 30px;
+  padding-left: 120px;
+  text-transform:uppercase ;
+  color: white;
 }
 
 #minha_foto{
   border-radius: 10px;
-  margin: 100px 0 20px 70px;
+  margin: 150px 0 20px 70px;
+}
+
+.subtitulo{
+  font-weight: 500;
+  font-size:50px;
+  margin: 10px 0 20px 70px;
+  padding: 10px 10px;
+  background-color: #4f8ec2;
+  color: white;
+  border: #4f8ec2 solid 2px;
 }
