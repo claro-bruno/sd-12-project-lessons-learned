@@ -32,6 +32,7 @@ main {
 .listanav li {
     display: inline-block;
     margin: 20px;
+    /*Usei margin para deixar o menu no centro da div, mas está correto?*/
 }
 
 .listanav a {
@@ -55,17 +56,32 @@ main {
     height: 500px;
 }
 
+.titulo {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    font-size: 50px;
+    /*Como colocar o texto no centro da div?*/
+}
 
+/*Conteúdo em parágrafos*/
 
 .conteudo {
     grid-area: conteudo;
     background-color: orchid;
 }
 
+.paragraph {
+    margin: 30px;
+    line-height: 2em;
+}
+
 .lateral {
     grid-area: lateral;
     background-color: rgb(25, 0, 255);
 }
+
+/*Listas*/
 
 .lista1 {
     grid-area: lista1;
