@@ -1,23 +1,28 @@
-*{
+
+* {
   padding: 0;
   margin: 0;
 }
-html{
+
+html {
   height: 100%;
 }
-body{
+
+body {
   background-color: rgb(253, 251, 251);
   height: 100%;
   font-family: monospace, sans-serif;
 }
-.footer-fix{
-  display:flex;
+
+.footer-fix {
+  display: flex;
   flex-direction: column;
   align-items: center;
   min-height: 100%;
   margin-bottom: -50px;
 }
-#cabecalho{
+
+#cabecalho {
   position: fixed;
   top: 0;
   left: 0;
@@ -28,75 +33,101 @@ body{
   height: 80px;
   background-color: chocolate;
 }
-header h1{
+
+header h1 {
   max-width: 300px;
   font-family: 'Zen Dots', cursive;
   font-size: 50px;
   text-align: center;
 }
-#minha_foto{
+
+#minha_foto {
   max-width: 300px;
   margin-top: 150px;
   border-radius: 50%;
 }
-.licoes{
+
+.licoes {
   margin-top: 50px;
   display: flex;
   justify-content: space-between;
   width: 700px;
   padding-left: 150px;
 }
-#licoes_aprendidas{
+
+#licoes_aprendidas {
   color: green;
 }
-#licoes_a_aprender{
+
+#licoes_a_aprender {
   color: crimson;
 }
-nav{
+
+nav {
   display: flex;
-  flex-direction:column;
+  flex-direction: column;
   margin-top: 50px;
 }
-a{
+
+a {
   text-decoration: none;
   padding: 10px 0;
 }
-.divArticle{
+
+.divArticle {
   display: flex;
   max-width: 900px;
   align-items: center;
   text-align: center;
-  background-color: #f0f0f0;
+  background-color: rgb(219, 219, 219);
   margin: 50px 0;
   padding: 50px;
 }
-article{
+
+article {
   color: blueviolet;
 }
-article h2{
+
+article h2 {
   padding: 0 50px 50px 50px;
 }
-section{
+
+section {
   padding: 0 50px 50px 50px;
   
 }
-aside{
+
+aside {
   padding: 50px;
   
 }
-.lado-esquerdo{
+
+.lado-esquerdo {
   font-size: 15px;
   
 }
-.lado-direito{
+
+.lado-direito {
   font-size: 25px;
   font-weight: bold;
+  line-height: 1.6;
   color: rgb(0, 140, 255);
 }
-table{
+
+table {
   margin-bottom: 100px;
 }
-#rodape{
+
+th, td{
+  // display: flex;
+  text-align: center;
+  border: rgb(122, 122, 122) solid 10px;
+  color: white;
+  background-color: rgb(70, 70, 70);
+  width: 200px;
+}
+
+#rodape {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -104,15 +135,3 @@ table{
   height: 50px;
   background-color: chocolate;
 }
-
-/* 
-Altere margin, padding e border dos 
-elementos para ver, na prática, 
-como esses atributos influenciam e 
-melhoram a visualização dos componentes
-
-Altere o tamanho da letra
-Altere a cor da letra
-Altere o espaçamento entre as linhas
-Altere o font-family
-*/
