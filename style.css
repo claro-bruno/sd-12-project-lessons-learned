@@ -43,25 +43,39 @@ body {
   margin: 150px 0 20px 70px;
 }
 
+.conteudo-licoes {
+  text-align: center;
+}
+
+.secao-direita{
+  display: inline-block;
+}
+
+.secao-esquerda{
+  display: inline-block;
+}
+
 .subtitulo{
   font-weight: 500;
   font-size:50px;
-  margin: 10px 0 20px 70px;
+  margin: 10px 70px 20px 70px;
   padding: 10px 30px;
   background-color: #4f8ec2;
   color: white;
   border-radius: 5px;
   width: 600px;
+  text-align:center;
 }
 
 #licoes_aprendidas, #licoes_a_aprender{ 
-  padding-left: 150px;
+  padding-left: 350px;
   font-size: 20px;
-  margin: 50px 0;
+  margin: 50px 0; 
 }
 
 li{
   margin-bottom: 15px;
+  text-align: left;
 }
 
 .artigo{
@@ -105,7 +119,7 @@ li{
   border: #4f8ec2 solid 2px;
   padding: 20px 20px;
   background-color: #4f8ec2;
-  color: white; 
+  color: white;
   font-size: 30px;
   text-align: center;
   border-radius: 8px;
