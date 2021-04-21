@@ -4,6 +4,7 @@ body {
   font-size: large;
   line-height: 30px;
 }
+
 header {
   position: fixed;
   background-color: green;
@@ -26,6 +27,12 @@ header {
    color: yellowgreen;
   transition: 3s;
  }
+
+p {
+  max-width: 80%;
+  margin-top: 0px;
+  padding: 8px;
+}
 
 .artigo1 p {
   margin-left: 350px;
@@ -56,15 +63,17 @@ li.indicelista {
   font-size: 25px;
  }
 
-p {
-  max-width: 80%;
-  margin-top: 0px;
-  padding: 8px;
-}
 
 p.lado-direito {
   background-color: yellowgreen;
   margin-top: -10px;
+}
+
+main aside p.lado-direito {
+  display: inline-block;
+  width: 30%;
+  margin-left: 59%;
+  margin-top: 10%;
 }
 
 p.lado-esquerdo p.lado-direito {
@@ -81,12 +90,6 @@ main article p.lado-esquerdo {
   margin-top: 6%;
  }
 
-main aside p.lado-direito {
-   display: inline-block;
-   width: 30%;
-   margin-left: 59%;
-   margin-top: 10%;
- }
 
 main {
   margin-top: 10%;
