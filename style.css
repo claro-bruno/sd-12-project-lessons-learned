@@ -68,12 +68,16 @@ ol, ul {
     
 }
 
-.lado_esquerdo {
-    margin-left: 100px;
+
+.lado-esquerdo {
+    display: inline-block;
+    width: 300px;
 }
 
-.lado_direito {
-    margin-right: 100px;
+.lado-direito {
+    display: inline-block;
+    width: 300px;
+    
+    
 }
-
 
