@@ -9,18 +9,26 @@
 </head>
 <body>
   <header id="cabecalho">
-    <h1 id="titulo">Lições Aprendidas - Trybe</h1>
-    <nav>
+    <img src="./images/trybe.svg" alt="logo da trybe" class='trybe'>
+    <h1 id="titulo">Lessons Learned</h1>
+    <nav class="nav-bar">
       <ul>
-        <li><a href="#licoes_aprendidas">Lições Aprendidas</a></li>
-        <li><a href="#licoes_a_aprender">Lições a Aprender</a></li>
+        <li><a href="#aprendidas-title">Lições Aprendidas</a></li>
+        <li><a href="#a-aprender-title">Lições a Aprender</a></li>
         <li><a href="#sobre">Sobre meu aprendizado</a></li>
+        <li><a href="#table">Habilidades Adquiridas</a></li>
       </ul>
     </nav>
   </header>
-  <img src="./images/perfil.jpg" alt="foto de David Gonzaga" id="minha_foto">
-  <section>
-    <h2>Lições Aprendidas</h2>
+  <section class="foto">
+    <a href="https://gonzagadavid.github.io./" target="_blank">
+    <img src="./images/perfil.jpg" alt="foto de David Gonzaga" id="minha_foto">
+      <p>David Gonzaga</p>
+      <em>Estudante Tribe - turma 12</em>
+    </a>
+  </section>
+  <section class="licoes">
+    <h2 id="aprendidas-title"">Lições Aprendidas</h2>
     <ol id="licoes_aprendidas">
       <li>Criar, copiar e manipular arquivos pelo terminal Unix-Bash</li>
       <li>A importancia e utilidade de uma ferramenta de versionamento</li>
@@ -34,7 +42,7 @@
       <li>Posicionamento de elementos HTML através do CSS</li>
     </ol>
     
-    <h2>Lições a Aprender</h2>
+    <h2 id="a-aprender-title">Lições a Aprender</h2>
     <ul id="licoes_a_aprender">
       <li>JavaScript</li>
       <li>NodeJS</li>
@@ -57,7 +65,7 @@
       <p><em>A pratica é algo essencial para meu aprendizado pois só realmente entendemos a resposta quando fazemos a pergunta certa, e não existe uma pergunta certa se a dúvida não antecede-la de forma concreta.</em></p>
     </aside>
   </section>
-  <table>
+  <table id="table">
     <h3>Habilidades Adquiridas</h3>
     <thead>
       <tr>
