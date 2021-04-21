@@ -78,28 +78,37 @@ body {
 
 .section_image {
     padding: 20px;
-    width: 80%;
+    max-width: 1200px;
     text-align: center;
-    margin: 124px auto 0;
+    margin: 120px auto 0;
 }
 
 .texto_imagem {
     display: inline-block;
     width: 30%;
-    margin-right: 20%;
+    margin-right: 10%;
 }
 
 .titulo_imagem {
-    font-size: 40px;
+    font-size: 60px;
+    color: #bd93f9;
+}
+
+.subtitulo_imagem {
+    font-size: 30px;
+}
+
+.subtitulo_imagem a {
+    text-decoration: none;
+    color: #50fa7b;
 }
 
 .paragrafo_imagem {
-    font-size: 24px;
+    font-size: 20px;
 }
 
 .imagem {
-    display: inline-block;
-    width: 140px;
+    width: 20%;
     border-radius: 4px;
     box-shadow: 10px 10px 0 #f8f8f2;
 }
