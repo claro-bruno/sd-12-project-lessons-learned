@@ -59,8 +59,30 @@ li{
 }
 
 .artigo{
-  padding-left: 150px;
+  /* padding-left: 150px; */
   font-size: 20px;
-  width: 50%;
   line-height: 2em;
+  text-align: center;
+}
+
+.lado-esquerdo{
+  display: inline-block;
+  width: 30%;
+  margin-right: 150px;
+  text-align: left;
+  padding: 20px 20px;
+}
+
+.lado-direito{
+  display: inline-block;
+  width: 30%;
+  text-align: left;
+  vertical-align: top;  
+  padding: 20px 20px;
+}
+
+.lado-direito, .lado-esquerdo{
+  
+  border:#82a9c8 2px solid;
+  border-radius: 8px;
 }
