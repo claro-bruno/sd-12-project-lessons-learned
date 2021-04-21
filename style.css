@@ -1,5 +1,6 @@
 body {
   background-color: rgb(253, 251, 251);
+  font-family: monospace;
 }
 
 #cabecalho {
@@ -18,6 +19,10 @@ main {
   margin-top: 135px;
 }
 
+#secao_foto{
+  display: inline-block;
+}
+
 #secao_foto a {
   display: block;
   text-decoration: none;
@@ -31,16 +36,15 @@ main {
 
 .lado-esquerdo , .lado-direito {
   display: inline-block;
-  width: 49%;
+  width: 40%;
   vertical-align: top;
 }
 
 .paragrafo {
-  font-size: 20px;
-  color: brown;
-  line-height: 20px;
-  font-family: monospace;
-  width: 49%;
+    font-size: 15px;
+    color: black;
+    line-height: 22px;
+    margin: 0 55px;
 }
 
 #projetos {
