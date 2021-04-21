@@ -4,4 +4,11 @@ body {
 
 #cabecalho {
   top: 0;
+  overflow: auto;
+  background-color: lightblue;
 }
+
+#minha_foto {
+  width: 100px;
+}
+
