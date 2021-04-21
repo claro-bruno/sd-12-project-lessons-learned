@@ -47,13 +47,13 @@ h3 {
 
 #licoes_aprendidas {
     position: absolute;
-    top: 460px;
+    top: 300px;
     left: 230px;
 }
 
 #licoes_a_aprender {
     position: absolute;
-    top: 460px;
+    top: 300px;
     left: 490px;
 }
 
@@ -73,10 +73,17 @@ h3 {
 }
 
 .article {
-    position:relative;
-    left:220px;
+    position: relative;
+    left: 220px;
     top: 100px;
     width: 70%;
     height: 300px;
     overflow: auto;
+}
+
+.aside {
+    position: relative;
+    left: 220px;
+    top: 350px;
+    width: 70%;
 }
