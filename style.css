@@ -28,6 +28,14 @@ a:hover{
     border: 3px solid blue;
 }
 
+.artigo{
+    border: 2px solid black;
+}
+
+.lado{
+    border: 2px solid gold;
+}
+
 #minha_foto{
     width: 200px;
     height: 200px;
