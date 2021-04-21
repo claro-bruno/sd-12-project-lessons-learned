@@ -1,32 +1,36 @@
 body {
-    background-color: rgb(253, 251, 251);
+  background-color: rgb(253, 251, 251);
 }
 
 a {
-    color: inherit;
+  color: inherit;
+}
+
+mark {
+  background-color: rgb(0, 255, 200);
+  color: rgb(77, 74, 74);
 }
 
 #cabecalho {
-    width: -webkit-fill-available;
-    top: 0;
-    position: fixed;
-    background-image: linear-gradient(to right, rgb(123, 255, 0), rgb(235, 235, 235));
-    color: rgb(14, 94, 25);
-    font-family: Arial, Helvetica, sans-serif;
+  width: fit-content;
+  top: 0;
+  position: fixed;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 #minha_foto {
-    width: 200px;
-    top: 0;
-    margin-top: 5%;
+  width: 200px;
+  top: 0;
+  margin-top: 5%;
 }
 
 h4 {
-    font-size: 15px;
-    text-align: end;
-    color: rgb(17, 121, 4);
+  font-size: 15px;
+  text-align: end;
+  color: rgb(17, 121, 4);
 }
 
 #licoes {
-    display: inline-flex;
+  display: inline-flex;
 }
