@@ -1,41 +1,46 @@
-*{
+* {
   margin: 0;
   padding: 0;
 }
 
 body {
   background-color: rgb(253, 251, 251);
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 #cabecalho {
   position: fixed;
   padding: 20px;
   width: 100%;
-  background-color: #26669b;
+  background-color: rgb(38, 102, 155);
   display: inline-block;
 }
 
-#cabecalho h1{
+#cabecalho h1 {
   font-weight: 550;
   font-size: 3em;
   display: inline-block;
-  color: white;
+  color: rgb(255, 255, 255);
   padding-left: 50px;
 }
 
-.navegador{
+.navegador {
   display: inline-block;
   font-size: 30px;
   padding-left: 120px;
-  text-transform:uppercase ;
-  color: white;
+  text-transform: uppercase;
+  color: rgb(255, 255, 255);
 }
 
-.lista-navegador li{
+li {
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.lista-navegador li { 
   display: inline-block;
   margin-left: 70px;
-  text-decoration: none;
+  text-decoration: none;  
 }
 
 #minha_foto{
@@ -47,7 +52,7 @@ body {
   text-align: center;
 }
 
-.secao-direita{
+.secao-direita {
   display: inline-block;
 }
 
@@ -55,37 +60,32 @@ body {
   display: inline-block;
 }
 
-.subtitulo{
+.subtitulo {
   font-weight: 500;
-  font-size:50px;
+  font-size: 50px;
   margin: 10px 70px 20px 70px;
   padding: 10px 30px;
-  background-color: #4f8ec2;
-  color: white;
+  background-color: rgb(79, 142, 194);
+  color: rgb(255, 255, 255);
   border-radius: 5px;
   width: 600px;
-  text-align:center;
+  text-align: center;
 }
 
-#licoes_aprendidas, #licoes_a_aprender{ 
+#licoes_aprendidas, #licoes_a_aprender { 
   padding-left: 350px;
   font-size: 20px;
   margin: 50px 0; 
 }
 
-li{
-  margin-bottom: 15px;
-  text-align: left;
-}
-
-.artigo{
+.artigo {
   /* padding-left: 150px; */
   font-size: 20px;
   line-height: 2em;
   text-align: center;
 }
 
-.lado-esquerdo{
+.lado-esquerdo {
   display: inline-block;
   width: 30%;
   margin-right: 150px;
@@ -93,62 +93,60 @@ li{
   padding: 20px 20px;
 }
 
-.lado-direito{
+.lado-direito {
   display: inline-block;
   width: 30%;
   text-align: left;
-  vertical-align: top;  
+  vertical-align: top;
   padding: 20px 20px;
 }
 
-.lado-direito, .lado-esquerdo{  
-  border:#82a9c8 2px solid;
+.lado-direito, .lado-esquerdo {  
+  border: rgb(130, 169, 200) 2px solid;
   border-radius: 8px;
 }
 
-.titulo-tabela{
+.titulo-tabela {
   font-size: 35px;
   text-align: center;
   margin-top: 70px;
-  color: #26669b;
+  color: rgb(38, 102, 155);
 }
 
-.tabela{
+.tabela {
   width: 500px;
   margin: 30px auto;
-  border: #4f8ec2 solid 2px;
+  border: rgb(79, 142, 194) solid 2px;
   padding: 20px 20px;
-  background-color: #4f8ec2;
-  color: white;
+  background-color: rgb(79, 142, 194);
+  color: rgb(255, 255, 255);
   font-size: 30px;
   text-align: center;
   border-radius: 8px;
 }
 
-th{
+th {
   padding-bottom: 20px;
 }
 
-td{
+td {
   padding-bottom: 20px;
 }
 
-#rodape{
+#rodape {
   text-align: center;
-  padding:30px 0;
+  padding: 30px 0;
   margin-top: 80px;
-  background-color: #26669b;
-  color: white;
+  background-color: rgb(38, 102, 155);
+  color: rgb(255, 255, 255);
 }
 
-#rodape a{
-  color: white;
+#rodape a {
+  color: rgb(255, 255, 255);
   text-decoration: none;
   font-size: 30px;
 }
 
-#rodape a:hover{
-  color: #082033;
+#rodape a:hover {
+  color: rgb(8, 32, 51);
 }
-
-
