@@ -47,6 +47,7 @@ header {
   word-spacing: 30px;
   text-align: center;
 }
+
 li.indicelista {
   display: inline-block;
   background-color: yellow;
@@ -60,15 +61,18 @@ p {
   margin-top: 0px;
   padding: 8px;
 }
+
 p.lado-direito {
   background-color: yellowgreen;
   margin-top: -10px;
 }
+
 p.lado-esquerdo p.lado-direito {
    display: inline-block;
    width: 30%;
    z-index: 4;
  }
+
 main article p.lado-esquerdo {
   display: inline-block;
   width: 30%;
@@ -76,6 +80,7 @@ main article p.lado-esquerdo {
   z-index: 3;
   margin-top: 6%;
  }
+
 main aside p.lado-direito {
    display: inline-block;
    width: 30%;
@@ -90,7 +95,7 @@ main {
 #cabecalho {
   position: fixed;
   top: 0;
-} 
+}
 
 #minha_foto {
   position: absolute;
@@ -102,6 +107,7 @@ main {
   border-style: outset;
   border-width: 5px;
 }
+
 ol.ol, ul.ul {
   margin-top: 50px;
   display: inline-block;
@@ -110,16 +116,20 @@ ol.ol, ul.ul {
   border: green;
   border-style: outset;
  }
+
 ul.ul {
   margin-left: -1px;
  }
+
 footer {
   background-color: green;
   width: 100%;
  }
+
 footer.rodape {
   text-align: center;
  }
+
 table {
   border: 5px solid yellowgreen;
   float: right;
