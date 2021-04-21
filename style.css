@@ -10,9 +10,16 @@ header {
 }
 
 #minha_foto {
-    margin-top: 150px;
-    width: 300px;
-    border-radius: 50%;
-  }
-  
- 
+  margin-top: 150px;
+  width: 300px;
+  border-radius: 50%;
+}
+
+td {
+  border-top: black dotted;
+  border-right: dotted black;
+}
+
+th {
+  border: black solid;
+}
