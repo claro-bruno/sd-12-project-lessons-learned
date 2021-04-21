@@ -1,3 +1,30 @@
-body{
+body {
     background-color: rgb(253, 251, 251);
+}
+
+#cabecalho{
+    position: fixed;
+    background-color: rgb(42, 46, 43);
+    margin-top: 0px;
+    width: 100%;
+    margin: 0%;
+    height: 100px;
+    
+    
+}
+
+#titulo{
+    margin: 5px;
+}
+
+header nav{
+    margin: 0px;
+    top: 0px;
+}
+
+header nav a{
+    text-decoration: none;
+    display: inline;
+    
+
 }
