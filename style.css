@@ -6,6 +6,8 @@ body {
 }
 #titulo {
     color: rgb(253, 251, 251);
+    font-size: 30px;
+    letter-spacing: 3px;
     margin-left: 20px;
 }
 .barra_superior {
@@ -27,7 +29,6 @@ body {
 #perfil {
     margin-top: 80px;
     vertical-align: 100px; 
-    background-color: royalblue;
 }
 #menu {
     margin-top: 10px;
@@ -38,7 +39,7 @@ body {
     display: inline-block;
     width: 400px;
 }
-#titulo-licoes {
+.titulo-licoes {
     text-align: center;
 }
 .paragrafo{
