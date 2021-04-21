@@ -121,3 +121,13 @@
  footer.rodape {
   text-align: center;
  }
+ table {
+   border: 5px solid yellowgreen;
+   float: right;
+   margin-right: 9.6%;
+ }
+ 
+ .rodape{
+   margin-left: 8%;
+   text-align: center;
+ }
