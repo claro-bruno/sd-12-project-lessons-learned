@@ -1,10 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100&display=swap');
 
 body {
     background-color: rgb(253, 251, 251);
     margin: 0;
     text-shadow: 3px 3px 5px rgb(153, 153, 153);
     font-family: 'Inconsolata', monospace;
+    line-height: 30px;
 }
 
 header {
@@ -17,7 +20,8 @@ header {
     line-height: 10px;
     text-shadow: 3px 3px 5px rgb(54, 54, 54);
     box-shadow: 3px 3px 5px rgb(54, 54, 54);
-    font-size: 16px;
+    font-size: 20px;
+    font-family: 'Kanit', sans-serif;
 }
 
 #minha_foto {
@@ -53,5 +57,71 @@ section {
 #licoes_a_aprender {
     list-style-type: none;
     padding-right: 16%;
+}
+
+.lado-esquerdo {
+    font-family: 'Kanit', sans-serif;
+    font-weight: 700;
+    font-size: larger;
+    display: inline-block;
+    margin-top: 50px;
+    margin-left: 5%;
+    margin-bottom: 50px;
+    text-align: center;
+    width: 40%;
+    background-color: rgba(0, 0, 0, 0.082) ;
+    border-radius: 60%;
+}
+
+.lado-direito {
+    position: static;
+    font-family: 'Kanit', sans-serif;
+    font-weight: 600;
+    font-size: larger;
+    display: inline-block;
+    margin-top: 50px;
+    margin-left: 5%;
+    margin-bottom: px;
+    text-align: center;
+    width: 40%;
+    background-color: rgba(0, 0, 0, 0.082) ;
+    border-radius: 60%;
+}
+
+table, th, td {
+    border: 1px solid gray;
+    padding: 2px;
+} /*estilo retirado do site https://medium.com/jaguaribetech/aprenda-a-criar-tabelas-utilizando-o-html-5-c6ac6a22a5b6 */
+
+table {
+    margin-left: 80%;
+}
+
+footer {
+    margin-bottom: 0;
+}
+
+#rodape {
+    background-color: rgb(0, 7, 0);
+    text-align: center;
+    line-height: 4px;
+    padding-bottom: 15px;
+}
+
+#rodape p {
+    padding-top: 10px;
+    color: white;
+    font-size: 16px;
+}
+ 
+#rodape a {
+    text-decoration: none;
+    color: silver;
+    padding: 5px;
+}
+
+#rodape a:hover {
+    color: white;
+    font-weight: bold;
 }
 
