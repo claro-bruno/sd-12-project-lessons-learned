@@ -10,3 +10,13 @@ body {
 #minha_foto {
   margin-top: 130px;
 }
+
+#link-trybe{
+  color: green;
+}
+
+#link-trybe:hover{
+  background-color: green;
+  color: white;
+  border-radius: 5px;
+}
