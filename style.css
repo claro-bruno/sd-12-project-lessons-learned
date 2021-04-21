@@ -11,13 +11,9 @@ body {
     color: rgb(255, 255, 255);
     text-align: center;
 }
-#titulo {
-    /* font-weight: 700; */
-}
 ul {
     padding: 0;
 }
-
 nav ul li{
     display: inline-block;
     margin-left: 15px;
@@ -26,8 +22,33 @@ nav ul li{
 nav ul li:hover{
     font-weight: bold;
 }
-
-
+#perfil {
+    min-height: 240px;
+    background-color: rgb(65, 25, 127);
+    box-shadow: 3px 3px 15px 1px rgb(129, 129, 129);
+    border-radius: 10px;
+    margin-top: 135px;
+    margin-left: 2%;
+    margin-right: 2%;
+}
 #minha_foto {
     width: 200px;
+    border-radius: 50%;
+    float: left;
+    margin-top: 20px;
+    margin-left: 10%;
+}
+#descricao {
+    float: right;
+    color: rgb(253, 251, 251);
+    text-align: center;
+    margin-right: 10%;
+}
+h3{
+    font-size: 20px;
+    font-weight: 500;
+}
+#turma {
+    font-size: 12px;
+    font-weight: bold;
 }
