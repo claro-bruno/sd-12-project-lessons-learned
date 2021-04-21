@@ -3,6 +3,7 @@ body {
 }
 
 #cabecalho {
+  position: fixed;
   top: 0;
   overflow: auto;
   background-color: lightblue;
@@ -86,10 +87,10 @@ body {
   border-color: purple;
   line-height: 20px;
   top: 425px;
-  left:10px;
+  left: 10px;
 }
 
-#barra_rolagem{
+#barra_rolagem {
   overflow: visible;
 }
 
