@@ -1,36 +1,54 @@
-body{
-    background-color: rgb(253, 251, 251);
-    margin: 0;
+body {
+  background-color: rgb(253, 251, 251);
+  margin: 0;
 }
 
-a{
-    text-decoration: none;
-    color: white;
-    padding: 7px;
+a {
+  text-decoration: none;
+  color: white;
+  padding: 7px;
 }
 
-h1{
+h1 {
+  text-align: center;
+  color: white;
+}
+
+h2{
     text-align: center;
-    color: white;
 }
 
-#cabecalho{
-    position: fixed;
-    top: 0;
-    width: 100%;
-    background-color: darkgreen;
+#cabecalho {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: darkgreen;
+  z-index: 1;
 }
 
-#menu{
-    font-size: 20px;
+#menu {
+  font-size: 20px;
+  position: relative;
+  margin-left: 45%;  
+}
+
+#minha_foto {
+  position: relative;
+  border-radius: 50%;
+  padding: 10px;
+  background-color: darkgreen;
+  top: 180px;
+  left: 400px;
+}
+
+.img {
+    height: 500px;
+}
+
+.listas {
     position: relative;
-    margin-left: 45%;  
+    display: flex;
+    flex: row;
+    margin-left: 35%; 
 }
 
-#minha_foto{
-    position: absolute;
-    border-radius: 50%;
-    padding: 10px;
-    background-color: darkgreen;
-    top: 180px;
-}
