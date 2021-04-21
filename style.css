@@ -15,10 +15,15 @@ body {
   padding-left: 30px;
 }
 
+nav {
+  margin-top: 90px;
+
+}
+
 #minha_foto {
   width: 100px;
   display: block;
-  margin-top: 100px;
+  margin-top: 60px;
   margin-left: auto;
   margin-right: auto;
   border-radius: 9%;
