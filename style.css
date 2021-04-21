@@ -7,7 +7,7 @@ body {
 }
 
 #cabecalho {
-  background-color: rgb(76, 228, 76);
+  background-color: rgb(255, 255, 255);
   position: fixed;
   top: 0;
   width: 100%;
@@ -20,9 +20,10 @@ h1 {
   font-size: 2.5em;
   text-decoration: none;
 }
+
 #link{
   text-decoration: none;
-  color: rgba(255, 255, 255, 0.767);
+  color: rgba(114, 137, 218);
 }
 .menu-navegacao {
   text-align: center;
@@ -31,7 +32,7 @@ h1 {
 
 .menu-navegacao a {
   text-decoration: none;
-  color: rgba(255, 255, 255, 0.767);
+  color: rgba(114, 137, 218);
   font-weight: bolder;
   font-size: 1.5em;
 }
@@ -46,7 +47,7 @@ h1 {
 
 #sobre-mim {
   height: 100vh;
-  background-color: rgb(45, 49, 66);
+  background-color: rgb(153, 170, 181);
   }
 
 #minha_foto {
@@ -78,7 +79,7 @@ h1 {
 
 #licoes {
   
-  background-color: rgb(50, 73, 173);
+  background-color: rgb(114, 137, 218);
   height: 100vh;
   padding-top: 10px;
   margin: 0;
@@ -120,39 +121,43 @@ margin-left: 27%;
 
 #educacao{
   font-size: 19px;
-  background-color: rgb(50, 73, 173);
+  background-color: rgb(114, 137, 218);
   padding-bottom: 25px;
   color: rgb(255, 255, 255);
   }
 
 .lado-esquerdo {
-    border: solid 1px black;
+    border: solid 4px rgb(44, 47, 51);
     width: 45%;
     float: left;
     margin-left: 2px;
     text-align: left;
+    font-weight: 700;
 }
 
 .lado-direito {
-    border: solid 1px black;
-    width: 45%;
-    margin-left: 54.8%;
+    border: solid 4px rgb(44, 47, 51);
+    width: 30%;
+    margin-left: 69%;
     text-align: right;
-
+    font-weight: 700;
 }
+
+
 
 #sites-favoritos{
-    background-color: rgb(45, 49, 66);
+    background-color: rgb(114, 137, 218);
     font-size: 3em;
     color: rgb(255, 255, 255);
+    padding-bottom: 20px;
+    padding-top: 20px;
 }
 
-.sites-favoritos-titulo{
-    display: block;
-    width: 100%;
+th{
+    display: inline-block;
+    margin-left: 54.8%;
+    width: 30%;
 }
-
-
 
 .steam{
     color:rgb(255, 255, 255);
@@ -160,7 +165,7 @@ margin-left: 27%;
 }
 
 .steam:hover{
-    color: rgb(199, 213, 224);
+    color: rgb(153, 170, 181);
 }
 
 .youtube{
@@ -168,7 +173,7 @@ margin-left: 27%;
 }
 
 .youtube:hover{
-    color: rgb(199, 213, 224);
+    color: rgb(153, 170, 181);
 }
 
 .spotify{
@@ -176,5 +181,15 @@ margin-left: 27%;
 }
 
 .spotify:hover{
-    color: rgb(199, 213, 224);
+    color: rgb(153, 170, 181);
+}
+
+#rodape{
+    background-color: rgb(114, 137, 218);
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    clear: both;
+    text-align: center;
+    padding: 20px;
+    font-weight: bold;
 }
