@@ -6,6 +6,8 @@ body {
     top: 0;
     position: fixed;
     background-color: whitesmoke;
+    font-style: normal;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 h1 {
@@ -16,6 +18,7 @@ h1 {
 
 #minha_foto {
     margin-top: 150px;
+    padding: 10px;
 }
 
 #nav{
@@ -42,7 +45,7 @@ h1 {
     text-decoration: none;
 }
 
-#tablecurso {
+#table {
     padding: 10px;
     color: rgb(32, 32, 32);
 }
@@ -58,4 +61,14 @@ th {
 
 td {
     padding: 5px;
+}
+
+.lado-esquerdo {
+    float: left;
+    margin: auto;
+}
+
+.lado-direito {
+    float: right;
+    margin: auto;
 }
