@@ -82,15 +82,16 @@ main {
    
 }
 
-article {
+.lado_esquerdo {
     
     max-width: 50%;
     float: left;
     font-size: large; 
-    font-weight: 600;     
+    font-weight: 600;
+    line-height: 180%;     
 }
 
-aside {
+.lado_direito {
     
     max-width: 20%;
     float: right;
