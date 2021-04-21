@@ -33,13 +33,23 @@ body {
 .list-section {
     text-align: center; 
     margin-top: 50px;
+    padding: 20px;
+    background-color: rgb(129, 116, 116);
+    border-radius: 20px;
+    color: white;
 }
 
 .list {
     line-height: 30px;    
     display: inline-block;
-    padding: 20px;
+    padding: 20px; 
+    margin-left: 150px;   
 }
+
+.lists {
+    text-align: center;
+}
+
 .list li {
     text-align: left;
 }
@@ -76,10 +86,20 @@ body {
 }
 
 .aside {    
-    max-width: 582px;            
-    display: inline-block;    
+    max-width: 800px;            
+    display: inline-block;
+    margin-top: 150px;
+    margin-right: 50px;
+    position: absolute;
 }
 
 .aside-content {
-    margin-left: 500px;   
+    margin-left: 500px;
+    background-color: rgb(95, 88, 88);
+    padding-left: 25px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 25px;
+    color: white;
 }
