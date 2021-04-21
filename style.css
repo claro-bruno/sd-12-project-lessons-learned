@@ -13,14 +13,19 @@ body {
 }
 
 #licoes_aprendidas {
-  font-size:small;
+  font-size: small;
 }
 
 #sub_titulo {
   font-style: italic;
-  font-weight: bold;
 }
 
 #licoes_a_aprender {
   font-size: small;
 }
+
+#rodape {
+  font-size: x-small;
+}
+
+
