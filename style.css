@@ -1,119 +1,116 @@
 body {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Comfortaa', cursive;
-}
-
-body {
-    background-color: rgb(253, 251, 251);
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Comfortaa, cursive;
+  background-color: rgb(253, 251, 251);
 }
 
 #cabecalho {
-    position: fixed;
-    top: 0;
-    height: auto;
-    width: calc(100vw - 35px);
-    padding: 20px 10px;
-    background-color: #282a36;
+  position: fixed;
+  top: 0;
+  height: auto;
+  width: calc(100vw - 35px);
+  padding: 20px 10px;
+  background-color: rgb(40, 42, 54);
 }
 
 #titulo {
-    display: inline-block;
-    margin: 0;
-    font-size: 40px;
-    font-weight: 700;
-    color: #bd93f9;
+  display: inline-block;
+  margin: 0;
+  font-size: 40px;
+  font-weight: 700;
+  color: rgb(189, 147, 249);
 }
 
 #titulo:hover {
-    color: #50fa7b;
+  color: rgb(80, 250, 123);
 }
 
 .navigation ul {
-    margin: 0;
-    padding-left: 0;
-    text-align: right;
+  margin: 0;
+  padding-left: 0;
+  text-align: right;
 }
 
 .navigation ul li {
-    display: inline-block;
+  display: inline-block;
 }
 
 .nav_items {
-    margin-right: 20px;
-    text-decoration: none;
-    font-size: 20px;
-    font-weight: 400;
-    color: #f8f8f2;
+  margin-right: 20px;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 400;
+  color: rgb(248, 248, 242);
 }
 
 .nav_items:hover {
-    color: #bd93f9;
-    border-bottom: 4px solid #bd93f9;
-    margin-bottom: -4px;
+  color: rgb(189, 147, 249);
+  border-bottom: 4px solid rgb(189, 147, 249);
+  margin-bottom: -4px;
 }
 
 .button {
-    display: inline-block;
-    height: 40px;
-    margin-right: 0;
-    padding: 0 10px;
-    line-height: 40px;
-    border-radius: 4px;
-    background-color: #bd93f9;
-    text-decoration: none;
-    font-size: 20px;
-    font-weight: 700;
-    color: #f8f8f2;
+  display: inline-block;
+  height: 40px;
+  margin-right: 0;
+  padding: 0 10px;
+  line-height: 40px;
+  border-radius: 4px;
+  background-color: rgb(189, 147, 249);
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 700;
+  color: rgb(248, 248, 242);
 }
 
 .button:hover {
-    background-color: #50fa7b;
+  background-color: rgb(80, 250, 123);
 }
 
 .content {
-    background-color: #44475a;
-    color: #f8f8f2;
+  background-color: rgb(68, 71, 90);
+  color: rgb(248, 248, 242);
 }
 
 .section_image {
-    padding: 20px;
-    max-width: 1200px;
-    text-align: center;
-    margin: 120px auto 0;
+  padding: 20px;
+  max-width: 1200px;
+  text-align: center;
+  margin: 120px auto 0;
 }
 
 .texto_imagem {
-    display: inline-block;
-    text-align: justify;
-    width: 30%;
-    margin-right: 10%;
+  display: inline-block;
+  text-align: justify;
+  width: 30%;
+  margin-right: 10%;
 }
 
 .titulo_imagem {
-    font-size: 60px;
-    font-weight: 700;
-    color: #bd93f9;
+  font-size: 60px;
+  font-weight: 700;
+  color: rgb(189, 147, 249);
 }
 
 .subtitulo_imagem {
-    font-size: 30px;
-    font-weight: 700;
+  font-size: 30px;
+  font-weight: 700;
 }
 
 .subtitulo_imagem a {
-    text-decoration: none;
-    color: #50fa7b;
+  text-decoration: none;
+  color: rgb(80, 250, 123);
 }
 
 .paragrafo_imagem {
-    font-size: 20px;
-    font-weight: 400;
+  font-size: 20px;
+  font-weight: 400;
 }
 
 .imagem {
-    width: 20%;
-    border-radius: 4px;
-    box-shadow: 10px 10px 0 #f8f8f2;
+  width: 20%;
+  border-radius: 4px;
+  box-shadow: 10px 10px 0 rgb(248, 248, 242);
 }
