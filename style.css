@@ -58,22 +58,14 @@ main {
 
 }
 
-div {
-    width: 100px;
-    height: 100px;
-    display: inline-block;
-}
-
-#div1 {
-    background-color: magenta;    
-}
-
-#div2 {
-    background-color: teal;
-
-}
 
 h2 {
     text-align: center;
 }
+
+ol, ul {
+    display: inline-block;
+    
+}
+
 
