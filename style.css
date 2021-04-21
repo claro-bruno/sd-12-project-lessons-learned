@@ -11,11 +11,11 @@ body {
   margin-top: 130px;
 }
 
-#link-trybe{
+#link-trybe {
   color: green;
 }
 
-#link-trybe:hover{
+#link-trybe:hover {
   background-color: green;
   color: white;
   border-radius: 5px;
