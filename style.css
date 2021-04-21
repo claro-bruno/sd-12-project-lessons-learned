@@ -67,7 +67,7 @@ p {
   margin-top: -10px;
 }
 
-aside p.lado-direito {
+aside .lado-direito {
   display: inline-block;
   width: 30%;
   margin-left: 59%;
@@ -80,7 +80,7 @@ aside p.lado-direito {
   z-index: 4;
 }
 
-article p.lado-esquerdo {
+p.lado-esquerdo {
   display: inline-block;
   width: 30%;
   position: absolute;
