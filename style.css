@@ -4,7 +4,7 @@ body {
 
 #cabecalho {
   background-color: lightseagreen;
-  position: absolute;
+  position: fixed;
   top: 0;
   width: 100%;
   height: 200px;
@@ -58,7 +58,7 @@ nav {
   border:2px solid black;
 }
 
-.artigo_A {
+.lado-direito {
   width: 45%;
   margin-top: 15px;
   padding-left: 15px;
@@ -66,9 +66,11 @@ nav {
   float: left;
   font-style: italic;
   background-color: lightgray;
+  display: inline-block;
+  offset: initial;
 }
 
-.artigo_B {
+.lado-esquerdo {
   width: 45%;
   margin-top: 15px;
   padding-left: 15px;
@@ -77,6 +79,8 @@ nav {
   float: right;
   font-style: italic;
   background-color: lightgray;
+  display: inline-block;
+  offset:initial;
 }
 
 p {
