@@ -13,7 +13,7 @@ header {
     height: 90px;
 }
 
-li {
+li, p {
     padding: 3px;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -26,6 +26,7 @@ h3 {
 #cabecalho {
     position: fixed;
     top: 0;
+    left: 1%;
     background-color: lavender;
     width: 100%;
     border-radius: 6px;
@@ -37,36 +38,45 @@ h3 {
 }
 
 #minha_foto {
-    border-radius: 20%;
-    position: absolute;
-    top: 140px;
-    left: 20px;
+    border-radius: 50%;
+    position: fixed;
+    top: 100px;
+    left: 1%;
     width: 200px;
 }
 
 #licoes_aprendidas {
     position: absolute;
-    top: 80px;
+    top: 460px;
     left: 230px;
 }
 
 #licoes_a_aprender {
     position: absolute;
-    top: 80px;
+    top: 460px;
     left: 490px;
 }
 
 .links_estudos {
     font-size: 12px;
     text-align: left;
-    position: absolute;
-    left: 820px;
-    top:90px;
-    width: 150px;
+    position: fixed;
+    left: 11px;
+    top: 310px;
+    width: 165px;
     background-color: lavender;
     padding: 10px;
     border-style: solid;
     border-color: lavender;
     border-width: 7px;
     border-radius: 6px;
+}
+
+.article {
+    position:relative;
+    left:220px;
+    top: 100px;
+    width: 70%;
+    height: 300px;
+    overflow: auto;
 }
