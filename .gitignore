@@ -1,5 +1,3 @@
-.vscode
-node_modules/
-cypress/reports
-cypress/screenshots
-.DS_Store
+lessons-learned.sublime-project
+lessons-learned.sublime-workspace
+node_modules
