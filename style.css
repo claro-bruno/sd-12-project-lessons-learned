@@ -63,7 +63,7 @@ body {
 
 .lado-direito p {
   font-size: 16px;
-  font-family: 'Courier New';
+  font-family: Arial, Helvetica, sans-serif;
   color: darkgoldenrod;
   line-height: 25px;
 }
@@ -105,4 +105,4 @@ body {
   background-color: rgb(117, 110, 88);
   padding: 10px;
   color: white;
-} 
+}
