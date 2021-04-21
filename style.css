@@ -61,6 +61,8 @@ body {
   padding-right: 50px;
   margin-right: 50px;
   border-right: 1px solid black;
+  margin-left: 50px;
+  width: 50%;
 }
 
 #meu_aprendizado {
@@ -68,6 +70,7 @@ body {
   text-align: justify;
   line-height: 2;
   margin-right: 100px;
+  width: 30%;
 }
 
 #assuntos_estudados {
@@ -95,13 +98,10 @@ body {
 }
 
 .lado_esquerdo {
-  margin-left: 50px;
-  width: 50%;
   float: left;
 }
 
 .lado_direito {
-  width: 30%;
   float: right;
 }
 
