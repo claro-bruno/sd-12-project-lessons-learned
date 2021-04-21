@@ -54,6 +54,8 @@ a {
 
 .estilo_fonte {
   text-align: justify;
+  font-size: 24px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 aside {
