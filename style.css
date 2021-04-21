@@ -16,16 +16,19 @@ header {
 li, p {
     padding: 3px;
     font-family: 'Roboto';
+    line-height: 19px;
 }
 
 h2, h3, footer {
     text-align: left;
     font-family: 'Balsamiq Sans';
+    line-height: 19px;
 }
 
 a {
     text-decoration: none;
     color:blueviolet;
+    line-height: 19px;
 }
 
 #cabecalho {
@@ -45,6 +48,7 @@ a {
 #titulo {
     font-family: 'Balsamiq Sans';
     color: blueviolet;
+    line-height: 50px;
 }
 
 #minha_foto {
@@ -108,7 +112,7 @@ a {
     border-radius: 6px;
 }
 
-.article {
+.article, .lado-esquerdo {
     background-color: rgb(0, 230, 161);
     position: absolute;
     left: 230px;
@@ -122,7 +126,7 @@ a {
     border-radius: 6px;
 }
 
-.aside {
+.aside, .lado-direito {
     position: absolute;
     left: 710px;
     top: 115px;
