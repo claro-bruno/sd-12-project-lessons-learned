@@ -6,12 +6,12 @@ body {
   top: 0;
   position: fixed;
   width: 100%;
-  background-color: gold;
+  background-color: greenyellow;
 }
 
 #titulo {
   width: 100%;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Verdana, Tahoma, sans-serif;
   font-size: 30px;
   text-align: center;
   color: black;
@@ -31,14 +31,14 @@ body {
 }
 
 #licoes_aprendidas {
-  background-color: yellow;
+  background-color: rgb(187, 231, 142);
   border-width: 5px;
   border-style: double;
   border-color: black;
 }
 
 #licoes_a_aprender {
-  background-color: magenta;
+  background-color: rgb(187, 231, 142);
   border-width: 5px;
   border-style: double;
   border-color: black;
@@ -48,33 +48,44 @@ body {
   font-family: monospace;
   position: absolute;
   width: 100%;
-  background-color: whitesmoke;
+  background-color: greenyellow;
 }
 
 .texto {
-width: 100%;
-color: black;
-font-family: Verdana, Geneva, Tahoma, sans-serif; 
-font-size: 16px;
-line-height: 20px;
-letter-spacing: 0.2px;
+  width: 100%;
+  color: black;
+  font-family: Verdana, Tahoma, sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  text-align: left;
 }
 
 #list {
   display: inline-block;
   font-size: 16px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Verdana, Tahoma, sans-serif;
   line-height: 20px;
   letter-spacing: 0.2px;
 }
 
 #sidebar {
   width: 20%;
-  color:black;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: black;
+  font-family: Verdana, Tahoma, sans-serif;
   font-size: 16px;
   line-height: 20px;
   letter-spacing: 0.2px;
   text-align: center;
   float: right;
+}
+
+.texto2 {
+  width: 100%;
+  color: black;
+  font-family: Verdana, Tahoma, sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  text-align: center;
 }
