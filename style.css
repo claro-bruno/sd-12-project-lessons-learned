@@ -15,12 +15,12 @@ body {
 }
 
 
-#titulo {
+h1 {
   text-align: center;
   font-size: 2.5em;
   text-decoration: none;
 }
-#link {
+#link{
   text-decoration: none;
   color: rgba(255, 255, 255, 0.767);
 }
@@ -68,6 +68,15 @@ a:hover {
   font-weight: bolder;
   line-height: 40px;
 }
+
+#sobre-mim-texto-head {
+    font-size: 24px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: "Roboto Slab", serif;
+    font-weight: bolder;
+    line-height: 40px;
+  }
 
 #seta-down {
   color: rgb(255, 255, 255);
