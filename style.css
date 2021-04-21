@@ -67,6 +67,10 @@ main {
     padding: 10px;
 }
 
+#infos {
+    line-height: 20px;
+}
+
 table {
     display: inline-block;
     vertical-align: middle;    
@@ -83,7 +87,6 @@ table th, table td {
 
 #lessons {
     background-color: blue;
-    line-height: 30px;
     padding: 15px 30px 15px;
     margin: 0 auto;
 }
@@ -92,6 +95,10 @@ table th, table td {
     text-decoration: underline;
     font-size: 30px;
     margin-bottom: 20px;
+}
+
+#lessons ol, ul, li {
+    line-height: 30px;
 }
 
 .lessons_learned {
@@ -108,7 +115,6 @@ table th, table td {
 
 #learning_trybe {
     background-color: green;
-    line-height: 25px;
     padding: 15px 30px 15px;
 }
 
@@ -118,21 +124,29 @@ table th, table td {
     margin-bottom: 20px;
 }
 
-#learning_trybe article {
+#learning_trybe p {
+    line-height: 25px;
+}
+
+#learning_trybe .lado-esquerdo {
     width: 50%;
     text-align: justify;
     display: inline-block;
 }
 
-#learning_trybe article h3{
+#learning_trybe .lado-esquerdo h3{
     font-size: 20px;
+}
+
+#learning_trybe h3, p {
+    font-family: 'Roboto', sans-serif;;
 }
 
 #learning_trybe p {
     text-indent: 1.5em;
 }
 
-#learning_trybe aside {
+#learning_trybe .lado-direito {
     width: 30%;
     text-align: justify;
     vertical-align: top;
