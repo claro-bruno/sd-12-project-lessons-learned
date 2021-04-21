@@ -35,7 +35,7 @@ p {
 
 .artigo1 p {
   margin-left: 350px;
-  width: 60%;
+  width: 30%;
 }
 
 .lado-esquerdo {
@@ -80,7 +80,7 @@ aside .lado-direito {
   z-index: 4;
 }
 
-p.lado-esquerdo {
+.lado-esquerdo {
   display: inline-block;
   width: 30%;
   position: absolute;
