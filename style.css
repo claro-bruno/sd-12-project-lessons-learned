@@ -86,15 +86,11 @@ h3 {
   padding-left: 50px;
 }
 
-.nav-bar li a {
+.nav-bar  a {
   text-decoration: none;
   color: white;
   transition-property: color;
   transition-duration: 1s;
-}
-
-.nav-bar li a:hover {
-  color: rgb(165, 163, 163);
 }
 
 .foto a:visited {
@@ -105,7 +101,11 @@ h3 {
   color: rgb(3, 109, 85);
 }
 
-.licoes ul, ol {
+.nav-bar a:hover {
+  color: rgb(165, 163, 163);
+}
+
+.licoes ul , ol {
   width: 100%;
 }
 
