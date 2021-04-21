@@ -23,3 +23,17 @@ footer {
 div ol {
   margin-top: 80px;
 }
+div nav {
+  padding: 10px;
+  border: solid 2px rgb(9, 77, 9);
+  background-color: green;
+  width: 80px;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: monospace;
+  font-size: larger;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
