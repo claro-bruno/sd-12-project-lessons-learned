@@ -4,10 +4,12 @@
 }
 
  header {
+  position: fixed;
   background-color: green;
   width: 100%;
   text-align: center;
   font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  top: 0;
 }
  .ola {
    font-size: 150px;
@@ -53,9 +55,11 @@
  p {
   max-width: 80%;
   margin-top: 50px;
+  padding: 8px;
 }
  p.cont{
   background-color: yellowgreen;
+  margin-top: -10px;
 }
 
  main {
@@ -78,6 +82,7 @@
   border-width: 5px;
 }
  ol.ol, ul.ul {
+   margin-top: 50px;
    display: inline-block;
    margin-left: 28%;
    background-color: yellowgreen;
