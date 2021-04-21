@@ -1,6 +1,9 @@
 body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   background-color: rgb(253, 251, 251);
+  font-size: 16px;
+  color: rgb(39, 22, 1);
+  
 }
 
 #cabecalho {
@@ -25,8 +28,8 @@ position: absolute;
 a {
     position: absolute;
     top: 380px;
-margin-left: 40px;
-
+    margin-left: 40px;
+    
 }
 
 main {
@@ -41,6 +44,7 @@ h2 {
     position: absolute;
     top: 480px;
     margin-right: 10px;
+    line-height: 22px;
 }
 
 #licoes_a_aprender {
@@ -48,16 +52,31 @@ h2 {
     position: absolute;
     top: 480px;
     margin-left: 200px;
+    line-height: 22px;
 }
 
 article {
     position: absolute;
     top: 730px;
     margin-left: 10px;
+    text-align: justify;
+    line-height: 22px;
 }
 
 aside {
     position: absolute;
-    top: 880px;
+    top: 900px;
     margin-left: 10px;
+    text-align: justify;
+    line-height: 22px;
+    
+}
+
+#rodape {
+    position: absolute;
+    top: 1080px;
+    width: 100%;
+    border: 1%;
+    text-align: left;
+    
 }
