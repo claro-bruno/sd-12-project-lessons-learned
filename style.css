@@ -33,10 +33,24 @@ h1 {
 }
 
 table {
-  width: 500px;
-  height: 300px;
+
+
   border-collapse: collapse;
   border: 1px solid #455;
+  display: inline-block;
+  width: 50%;
+  text-align: justify;
+  margin: auto;
+
+
+}
+
+.article-right {
+  position: relative;
+  width: 50%;
+  text-align: justify;
+  float: right;
+
 }
 
 
@@ -71,16 +85,6 @@ article {
   margin: auto;
 
 
-
-
-}
-
-aside {
-
-  position: relative;
-  width: 50%;
-  text-align: justify;
-  float: right;
 
 
 
