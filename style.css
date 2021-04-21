@@ -44,9 +44,26 @@ body {
 .titulo-licoes {
     text-align: center;
 }
+.side-bar {
+    background-color: rgb(88, 148, 108);
+    width: 100px;
+    height: 150px;
+    text-align: center;
+}
+.menu-links {
+    text-align: center;
+    width: 100px;
+    height: 100px;
+}
 .paragrafo{
     font-family: sans-serif;
     line-height: 25px;
+    margin-left: 0px;
+}
+.box-paragrafo {
+    background-color: royalblue;
+    text-align: center;
+    width: 500px;
 }
 #rodape {
     background-color: rgb(6, 117, 43);
