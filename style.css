@@ -3,7 +3,7 @@ body {
   margin: 0;
   font-family: Epilogue, sans-serif;
   font-size: 21px;
-  letter-spacing: .2mm;
+  letter-spacing: 0.2mm;
   color: rgb(94, 86, 86);
 }
 
@@ -17,7 +17,6 @@ h2 {
 h3 {
   text-align: center;
   font-size: 35px;
-  /* margin: 120px 0px 100px; */
   color: rgb(3, 109, 85);
 }
 
@@ -69,18 +68,18 @@ h3 {
   padding-left: 50px;
 }
 
-.nav-bar a {
+.nav-bar li a {
   text-decoration: none;
   color: white;
   transition-property: color;
   transition-duration: 1s;
 }
 
-.nav-bar a:hover {
+.nav-bar li a:hover {
   color: rgb(165, 163, 163)
 }
 
-.foto{
+.foto {
   width: 100%;
   text-align: center;
   margin-top: 250px;
@@ -106,7 +105,7 @@ h3 {
   color: rgb(3, 109, 85);
 }
 
-.licoes ul, ol {
+.licoes ul,ol {
   width: 100%;
 }
 
@@ -120,16 +119,16 @@ h3 {
   margin: auto;
 }
 
-.licoes li:nth-child(odd) {
+.licoes li:nth-child(odd){
   background-color: rgb(3, 109, 85);
 }
 
-.licoes li:nth-child(even) {
+.licoes li:nth-child(even){
   background-color: rgb(8, 194, 150);
 }
 
 #sobre {
-  margin: 200px 0px 200px;
+  margin: 200px 0 200px;
   min-height: 550px;
 }
 
@@ -143,7 +142,7 @@ h3 {
 }
 
 .lado-esquerdo h2 {
-  margin: 0px;
+  margin: 0;
 }
 
 .lado-esquerdo p {
@@ -177,14 +176,14 @@ h3 {
 
 .tabela td {
   padding: 20px;
-  color:  rgb(80, 76, 76);;
+  color:  rgb(65, 61, 61);
 }
 
-.tabela td:nth-child(odd) {
+.tabela td:nth-child(odd){
   background-color: rgb(165, 163, 163);
 }
 
-.tabela td:nth-child(even) {
+.tabela td:nth-child(even){
   background-color: rgb(228, 214, 214);
 }
 
