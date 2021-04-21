@@ -1,5 +1,5 @@
 body {
-
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   background-color: rgb(253, 251, 251);
 }
 
@@ -16,11 +16,48 @@ padding: 20px;
 #minha_foto {
 width: 300px;
 border-radius: 9%;
-top: 180px;
+padding: 20px;
+top: 120px;
 position: absolute;
     
 }
 
+a {
+    position: absolute;
+    top: 380px;
+margin-left: 40px;
+
+}
+
 main {
     padding: 400px 30px 40px 30px;
+}
+
+h2 {
+    margin-left: 10px;
+}
+
+#licoes_aprendidas {
+    position: absolute;
+    top: 480px;
+    margin-right: 10px;
+}
+
+#licoes_a_aprender {
+    
+    position: absolute;
+    top: 480px;
+    margin-left: 200px;
+}
+
+article {
+    position: absolute;
+    top: 730px;
+    margin-left: 10px;
+}
+
+aside {
+    position: absolute;
+    top: 880px;
+    margin-left: 10px;
 }
