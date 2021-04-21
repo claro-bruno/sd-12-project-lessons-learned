@@ -44,7 +44,7 @@ body {
 	right: 0;
 	top: 270px;
 	text-align: center;
-	color: gray;
+	color: #2f3136;
 }
 
 .container {
@@ -60,18 +60,18 @@ h2 {
 }
 
 .cartao {
-	background: #fff;
-	padding: 1.5rem 3rem 17.0rem;
+	background: #2f3136;
+	padding: 1.3rem 3rem 17.0rem;
 	border-radius: 0.40rem;
 	margin-bottom: 2rem;
-	color: #363f5f;
+	color: #fff;
 }
 .cartao_artigo {
-	background: #fff;
-	padding: 1.5rem 2rem 17rem;
+	background: #2f3136;
+	padding: 1.5rem 2rem 18.8rem;
 	border-radius: 0.40rem;
 	margin-bottom: 2rem;
-	color: #363f5f;
+	color: #fff;
 }
 #licoes_aprendidas {
 	float: left;
@@ -93,4 +93,24 @@ h2 {
 .lado-direito {
 	float: right;
 	width: 300px;
+}
+
+/* FOOTER */
+
+footer {
+	background: #202020;
+	width: 100%;
+	color: white;
+	padding: 20px;
+	margin: auto;
+}
+
+.copyright {
+	color: #C7C7C7;
+	font-size: 12px;
+}
+
+.copyright a {
+	color: white;
+	font-weight: bold;
 }
