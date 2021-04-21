@@ -1,24 +1,29 @@
 body {
-      background-color: rgb(253, 251, 251);
+  background-color: rgb(253, 251, 251);
 }
 
 #cabecalho {
-      position: fixed;
-      top: 0;
+  margin-left: 40%;
+  position: fixed;
+  top: 0;
 }
 
 #nav li {
-      display: inline-block;
-      margin-top: 70px;
-      margin-right: 10px;
+  display: inline-block;
+  margin-top: 70px;
+  margin-right: 10px;
 }
 
 #minha_foto {
-      width: 250px;
-      margin-top: 100px;
+  width: 250px;
+  margin-top: 100px;
 }
 
 table td {
-      border: solid;
-      border-width: 1px;
+  border: solid;
+  border-width: 1px;
+}
+
+#rodape {
+  padding-top: 10px;
 }
