@@ -122,6 +122,46 @@ h2 {
   background-color: rgb(8, 194, 150);
 }
 
+#sobre{
+  min-height: 550px;
+  /* background-color: greenyellow; */
+}
+
+.lado-esquerdo {
+  background-color: rgb(165, 163, 163);
+  width: 70%;
+  padding: 15px;
+  float: left;
+  margin-left: 10px;
+  margin-top: 15px;
+}
+
+.lado-esquerdo h2 {
+  margin: 0px;
+}
+
+.lado-esquerdo p{
+  color: rgb(3, 109, 85);
+  line-height: 2;
+  vertical-align: top;
+}
+
+.lado-direito {
+  margin-top: 40px;
+  width: 26%;
+  float: right;
+  line-height: 1.5;
+}
+
+.lado-direito em {
+  padding: 10px;
+}
+
+
+#table{
+  clear: both;
+}
+
 @font-face {
   font-family: Epilogue;
   src: url(./fonts/Epilogue-VariableFont_wght.ttf);
