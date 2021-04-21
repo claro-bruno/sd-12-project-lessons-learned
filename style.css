@@ -3,6 +3,10 @@
     margin: 0;
 }
 
+body {
+    font-family: sans-serif;
+}
+
 main {
     display: grid;
     grid-template-rows: ;
@@ -15,16 +19,43 @@ main {
     grid-area: navegacao;
     background-color: orange;
     position: fixed;
+    width: 100%;
+    border-bottom: 10px solid rgb(94, 11, 80);
+}
+
+.listanav {
+    width: 900px;
+    margin: auto;
+    text-align: center;
 }
 
 .listanav li {
     display: inline-block;
+    margin: 20px;
 }
+
+.listanav a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+.listanav a:hover {
+    background-color: aquamarine;
+}
+
+/*Cabeçalho*/
 
 .cabecalho {
     grid-area: cabecalho;
-    background-color: olivedrab;
+    background-image: url(/images/marcus.jpeg);
+    background-size: cover;
+    width: 100%;
+    padding-top: 100px;
+    height: 500px;
 }
+
+
 
 .conteudo {
     grid-area: conteudo;
