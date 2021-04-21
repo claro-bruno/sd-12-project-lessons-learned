@@ -1,27 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap');
+
 body {
     background-color: rgb(253, 251, 251);
     margin: 0;
     text-shadow: 3px 3px 5px rgb(153, 153, 153);
+    font-family: 'Inconsolata', monospace;
 }
 
 header {
     position: fixed;
     top: 0;
-    background-color: rgb(9, 155, 9);
+    background-color: rgb(0, 7, 0);
     color: azure;
     width: 100%;
     text-align: center;
     line-height: 10px;
-    text-shadow: 3px 3px 5px rgb(0, 0, 0);
+    text-shadow: 3px 3px 5px rgb(54, 54, 54);
+    box-shadow: 3px 3px 5px rgb(54, 54, 54);
+    font-size: 16px;
 }
 
 #minha_foto {
     display: block;
-    margin-left: 20%;
+    margin-left: auto;
+    margin-right: auto;
     margin-bottom: 50px;
     box-shadow: 5px 5px 5px 5px black;
     width: 250px;
     margin-top: 10%;
-    border-radius: 50%;
-    border: 5px solid rgb(9, 155, 9);
+    border-radius: 30%;
+    border: 5px solid rgb(0, 7, 0);
 }
+
+section {
+    display: inline-block;
+    margin-left: 14%;
+    margin-right: 14%;
+    margin-bottom: 50px;
+    text-align: center;
+    width: 20%;
+    background-color:rgba(173, 216, 230, 0.349);
+    border: 2px dashed lightblue;
+    box-shadow: 2px 4px 2px rgb(54, 54, 54);
+}
+
+
+#licoes_aprendidas li {
+    list-style-type: none;
+    padding-right: 20%;
+}
+
+#licoes_a_aprender {
+    list-style-type: none;
+    padding-right: 16%;
+}
+
