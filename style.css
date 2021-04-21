@@ -94,37 +94,44 @@ nav a {
 
 #conteudo {
   text-align: center;
-  margin-top: 50px;
-  margin-bottom: 30px;
-}
-
-.lado-direito {
-  display: inline-block;
-  margin-left: 30px;
-  width: 60%;
-  text-align: left;
-  vertical-align: top;
-}
-
-.lado-direito h3 {
-  margin-top: 0;
+  padding: 50px 30px 20px 30px;
 }
 
 .lado-esquerdo {
-  display: inline-block;
-  margin-left: 30px;
-  width: 30%;
+  float: left;
+  max-width: 60%;
+  margin-left: 60px;
   text-align: left;
-  vertical-align: top;
 }
 
-.lado-esquerdo h4 {
+.lado-esquerdo h3 {
   margin: 0;
 }
 
+.lado-direito {
+  float: right;
+  max-width: 25%;
+  margin-right: 60px;
+  text-align: left;
+}
+
+.lado-direito h4 {
+  margin: 0;
+}
+
+#tabela {
+  clear: both;
+  margin: auto;
+  text-align: center;
+}
+
+#tabela table {
+  margin: auto;
+}
+
 .icon {
-  width: 45px;
-  margin-top: 10px;
+  width: 50px;
+  margin: 10px;
 }
 
 #rodape {
@@ -135,7 +142,7 @@ nav a {
 
 #rodape p {
   font-weight: 900;
-  padding-top: 30px;
+  padding-top: 20px;
 }
 
 #rodape a {
