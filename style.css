@@ -48,7 +48,6 @@ h2 {
 .listas {
   position: relative;
   display: flex;
-  flex: row;
   margin-left: 35%;
 }
 
