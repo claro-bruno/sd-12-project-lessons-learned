@@ -28,6 +28,7 @@ body {
 
 main {
     margin-top: 150px;
+    text-align: center;
 }
 
 #rodape {
@@ -51,14 +52,10 @@ main {
     color: white;
     padding: 15px 20px;
     border-radius: 10px;
-    position: relative;
     text-decoration: none;
     top: 50%;
     left: 50%;
-    margin-left: 20px;
-
-    
-
+    margin-left: 120px;
 }
 
 
@@ -86,7 +83,7 @@ ol, ul {
 
 table {
     border: solid 2px black;
-    position: absolute;
-    top: 370px;
-    left: 450px;
+    background-color: green;
+    
+
 }
