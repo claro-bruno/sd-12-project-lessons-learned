@@ -1,6 +1,7 @@
  body {
   background-color: rgb(253, 251, 251);
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: large;
 }
 
  header {
@@ -84,7 +85,7 @@
  ol.ol, ul.ul {
    margin-top: 50px;
    display: inline-block;
-   margin-left: 28%;
+   margin-left: 37%;
    background-color: yellowgreen;
    border: green;
    border-style: outset;
