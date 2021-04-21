@@ -84,4 +84,9 @@ ol, ul {
     
 }
 
-
+table {
+    border: solid 2px black;
+    position: absolute;
+    top: 370px;
+    left: 450px;
+}
