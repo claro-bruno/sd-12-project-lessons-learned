@@ -15,5 +15,12 @@ body {
     background-color: rgb(76, 170, 126);
     color: rgb(253, 251,251);
     text-align: center;
+}
+#foto_do_Perfil {
+    width:300px;
+    margin-top: 100px;
+    left: 500px;
+    
+
 
 }
