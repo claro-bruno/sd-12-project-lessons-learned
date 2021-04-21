@@ -55,7 +55,7 @@ body {
   margin-top: 50px;
 }
 
-#sobre_mim {
+article {
   line-height: 1.5;
   text-align: justify;
   padding-right: 50px;
@@ -65,7 +65,7 @@ body {
   width: 50%;
 }
 
-#meu_aprendizado {
+aside {
   vertical-align: top;
   text-align: justify;
   line-height: 2;
