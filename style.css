@@ -54,7 +54,7 @@ p {
   text-align: center;
 }
 
-li.indicelista {
+.indicelista {
   display: inline-block;
   background-color: yellow;
   border: yellowgreen;
@@ -62,25 +62,25 @@ li.indicelista {
   font-size: 25px;
 }
 
-p.lado-direito {
+.lado-direito {
   background-color: yellowgreen;
   margin-top: -10px;
 }
 
-main aside p.lado-direito {
+aside p.lado-direito {
   display: inline-block;
   width: 30%;
   margin-left: 59%;
   margin-top: 10%;
 }
 
-p.lado-esquerdo p.lado-direito {
+.lado-esquerdo .lado-direito {
   display: inline-block;
   width: 30%;
   z-index: 4;
 }
 
-main article p.lado-esquerdo {
+article p.lado-esquerdo {
   display: inline-block;
   width: 30%;
   position: absolute;
@@ -108,7 +108,7 @@ main {
   border-width: 5px;
 }
 
-ol.ol , ul.ul {
+.ol , .ul {
   margin-top: 50px;
   display: inline-block;
   margin-left: 26.4%;
@@ -117,17 +117,13 @@ ol.ol , ul.ul {
   border-style: outset;
 }
 
-ul.ul {
+.ul {
   margin-left: -1px;
 }
 
 footer {
   background-color: green;
   width: 100%;
-}
-
-.rodape {
-  text-align: center;
 }
 
 table {
