@@ -1,9 +1,10 @@
 body {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
   background-color: rgb(253, 251, 251);
   font-size: 16px;
   color: rgb(39, 22, 1);
-  
+  margin: 10px;
+  padding: 10px;
+  border: 10px;
 }
 
 #cabecalho {
@@ -14,6 +15,7 @@ width: 100%;
 z-index: 1;
 text-align: center;
 padding: 20px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 #minha_foto {
@@ -22,6 +24,7 @@ border-radius: 9%;
 padding: 20px;
 top: 120px;
 position: absolute;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
     
 }
 
@@ -34,6 +37,7 @@ a {
 
 main {
     padding: 400px 30px 40px 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 h2 {
@@ -61,6 +65,7 @@ article {
     margin-left: 10px;
     text-align: justify;
     line-height: 22px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 aside {
@@ -69,14 +74,12 @@ aside {
     margin-left: 10px;
     text-align: justify;
     line-height: 22px;
-    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 #rodape {
     position: absolute;
-    top: 1080px;
-    width: 100%;
-    border: 1%;
+    top: 1050px;
     text-align: left;
-    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
