@@ -67,7 +67,22 @@ body {
     color: rgb(255, 136, 136);    
 }
 
-.article {
+.article-section {
     margin-bottom: 80px;
-    text-align: center;
+    margin-top: 80px;       
+}
+
+.article {
+    max-width: 300px;    
+    margin-left: 250px;
+    display: inline-block;
+}
+
+.aside {    
+    max-width: 582px;            
+    display: inline-block;    
+}
+
+.aside-content {
+    margin-left: 500px;   
 }
