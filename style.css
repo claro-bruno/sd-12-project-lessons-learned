@@ -5,9 +5,49 @@ body {
 #cabecalho{
     position: fixed;
     top: 0;
-    left: 0%;
+    width:100%;
+    background-color: blue;
 }
+#cabecalho h1{
+    margin-top: 0%;
+    font-family:monospace;
+    text-align: center;
+}
+nav{
+    position: absolute;
+    top: 7%;
+    width: 100%;
+}   
+nav ul{
+    text-align: center;
+    list-style-type: none;
+    margin-top: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: red;
+    margin: 0%;
+}
+nav li{
+    text-align: center;
+    display: inline-block;
+}
+.nav1{
+    text-align: left;
+    display: inline-block;
+}
+
+ul li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    margin:auto;
+    font-family: 'Courier New', Courier, monospace;
+}
+
 #minha_foto{
+    padding-top: 10%;
     width: 20%;
 }
 #licoes_aprendidas{
@@ -27,4 +67,12 @@ body {
 }
 .Aside{
     font-family: monospace;
+}
+
+table tr td{
+    text-align: center;
+}
+table tr td a{
+    text-align: center;
+    color: rosybrown;
 }
