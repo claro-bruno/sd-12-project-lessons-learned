@@ -37,28 +37,25 @@ table {
   height: 300px;
   border-collapse: collapse;
   border: 1px solid #455;
-
-
 }
 
 
 #licoes_aprendidas {
   list-style: decimal;
-
   border-radius: 4px;
+
 
 }
 
 #licoes_a_aprender {
   list-style: circle;
-
   border-radius: 4px;
+
 
 }
 
 section {
-  position: relative;
-
+  display: flex;
   padding: 20px;
 
 }
@@ -68,4 +65,15 @@ section {
   display: flex;
   justify-content: center;
   list-style-type: none;
+}
+
+article {
+  display: inline-block;
+  background-color: aquamarine;
+
+}
+
+aside {
+  background-color: #036b52;
+  display: inline-block;
 }
