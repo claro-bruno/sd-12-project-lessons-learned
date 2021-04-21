@@ -9,7 +9,9 @@ body {
 #cabecalho {
     position: fixed;
     top: 0;
-    background-color: lightgreen;
+    z-index: 2;
+    background-color: seagreen;
+    color: white;
     width: 100%;
     padding: 20px 15px 10px;
 }
@@ -17,31 +19,138 @@ body {
 #titulo {
     text-align: center;
     padding-bottom: 15px;
-    font-size: 35px;
+    font-size: 45px;
+    font-family: 'Orelega One', cursive;
 }
 
+.links {
+    padding: 5px;
+    background-color: cadetblue;
+    width: fit-content;
+    border-radius: 5px;
+}
 #nav_links a {
     text-decoration: none;
-    color: black;
+    color: white;   
+}
+
+main {
+    margin-top: 122px;
+}
+
+.profile {
+    background-color: red;
+    padding: 30px 30px 15px;
+}
+
+#profile_content {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#profile_info {
+    display: inline-block;
+    width: 50%;
+    vertical-align: middle;
 }
 
 #minha_foto {
     width: 220px;
     border-radius: 30%;
+    display: block;
+    margin: 0 auto;
 }
 
-.profile {
-    background-color: red;
+#infos {
+    text-align: center;
+    padding: 10px;
+}
+
+table {
+    display: inline-block;
+    vertical-align: middle;    
+    background-color: aqua;
+    border-collapse: collapse;
+    text-align: center;
+    margin-bottom: 7%;
+}
+
+table th, table td {
+    border:  1px solid black;
+    padding: 3px 40px;
 }
 
 #lessons {
     background-color: blue;
+    line-height: 30px;
+    padding: 15px 30px 15px;
+    margin: 0 auto;
+}
+
+#lessons h2 {
+    text-decoration: underline;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.lessons_learned {
+    display: inline-block;
+    width: 35%;
+    font-size: 20px;
+}
+
+.lessons_to_learn {
+    display: inline-block;
+    width: 35%;
+    font-size: 20px;
 }
 
 #learning_trybe {
     background-color: green;
+    line-height: 25px;
+    padding: 15px 30px 15px;
+}
+
+#learning_trybe h2 {
+    text-decoration: underline;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+#learning_trybe article {
+    width: 50%;
+    text-align: justify;
+    display: inline-block;
+}
+
+#learning_trybe article h3{
+    font-size: 20px;
+}
+
+#learning_trybe p {
+    text-indent: 1.5em;
+}
+
+#learning_trybe aside {
+    width: 30%;
+    text-align: justify;
+    vertical-align: top;
+    display: inline-block;
+    margin-left: 15%;
 }
 
 #rodape {
     background-color: yellow;
+    padding: 10px 30px 10px;
+}
+
+#rodape p {
+    position: relative;
+    float: right;
+}
+
+#rodape a {
+    text-decoration: none;
+    color: white;
 }

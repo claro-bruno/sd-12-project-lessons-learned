@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Orelega+One&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -12,63 +13,69 @@
     <section id="cabecalho">
         <header>
             <h1 id="titulo">Lições aprendidas - Trybe!</h1>
-            <nav id="nav_links">
-                <a href="#lessons">Lições |</a>
-                <a href="#learning_trybe">| Aprendizado na Trybe |</a>
-                <a href="#rodape">| Contato</a>
-            </nav>
+            <div class="links" >
+                <nav id="nav_links">
+                    <a href="#lessons">Lições |</a>
+                    <a href="#learning_trybe">| Aprendizado na Trybe |</a>
+                    <a href="#rodape">| Contato</a>
+                </nav>
+            </div>
         </header>
     </section>
 
     <main>
         
         <section class="profile">
-            <div>
-                <img id="minha_foto" src="foto_thalles_carneiro.jpg" alt="Foto de Thalles Carneiro">
-                <figcaption>Thalles de Oliveira Carneiro</figcaption>
+            <div id="profile_content"></div>
+                <div id="profile_info">
+                    <img id="minha_foto" src="foto_thalles_carneiro.jpg" alt="Foto de Thalles Carneiro">
+                    <div id="infos">
+                        <p>Thalles de Oliveira Carneiro</p>
+                        <p>27 anos || Guarapari-ES</p>
+                        <p>Estudante de Desenvolvimento Web na Trybe</p>
+                    </div>
+                </div>
+                <table id="trybe_table">
+                    <thread>
+                        <tr>
+                            <th id="table_title" scope="col" colspan="3">Trybe</th>
+                        </tr>
+                        <tr>
+                            <th id="requests" scope="col">Requisitos</th>
+                            <th id="performance" scope="col">Desempenho</th>
+                            <th id="rating" scope="col">Avaliação</th>
+                        </tr>
+                    </thread>
+                    <tbody>
+                        <tr>
+                            <td headers="requests">Professores</td>
+                            <td headers="performance">Excelente</td>
+                            <td headers="rating">&check;</td>
+                        </tr>
+                        <tr>
+                            <td headers="requests">Conteúdo</td>
+                            <td headers="performance">Excelente</td>
+                            <td headers="rating">&check;</td>
+                        </tr>
+                        <tr>
+                            <td headers="requests">Aulas ao vivo</td>
+                            <td headers="performance">Excelente</td>
+                            <td headers="rating">&check;</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <th id="result" scope="row">Resultado:</th>
+                            <th id="approved" scope="row" colspan="2">Aprovada!</th>
+                        </tr>
+                    </tfoot>
+                </table>
             </div>
-
-            <table id="trybe_table" border="1">
-                <thread>
-                    <tr>
-                        <th id="table_title" scope="col">Trybe</th>
-                    </tr>
-                    <tr class="first_row">
-                        <th id="requests" scope="col">Requisitos</th>
-                        <th id="performance" scope="col">Desempenho</th>
-                        <th id="rating" scope="col">Avaliação</th>
-                    </tr>
-                </thread>
-                <tbody>
-                    <tr class="middle_rows">
-                        <th id="teachers" scope="row">Professores</th>
-                        <td headers="teachers performance">Excelente</td>
-                        <td headers="teachers rating">&check;</td>
-                    </tr>
-                    <tr class="middle_rows">
-                        <th id="content" scope="row">Conteúdo</th>
-                        <td headers="content performance">Excelente</td>
-                        <td headers="content rating">&check;</td>
-                    </tr>
-                    <tr class="middle_rows">
-                        <th id="live_lectures" scope="row">Aulas ao vivo</th>
-                        <td headers="live_lectures performance">Excelente</td>
-                        <td headers="live_lectures rating">&check;</td>
-                    </tr>
-                </tbody>
-                <tfoot>
-                    <tr class="last_row">
-                        <th id="result" scope="row">Resultado:</th>
-                        <td headers=" result performance"></td>
-                        <td headers="result rating">Aprovada!</td>
-                    </tr>
-                </tfoot>
-            </table>
         </section>
 
         <section id="lessons">
-            <h2>Lições</h2>
-            <section>
+            <h2>Lições:</h2>
+            <section class="lessons_learned">
                 <h3>Lições Aprendidas</h3>
                 <ol id="licoes_aprendidas">
                     <li>Unix</li>
@@ -101,11 +108,10 @@
         </section>
 
         <section id="learning_trybe">
-            <h2>Aprendizado na Trybe</h2>
+            <h2>Aprendizado na Trybe:</h2>
             <article>
-                <h3>Aprendizado em apenas duas semanas na Trybe</h3>
-                <p>Ao iniciar minha jornada na Trybe estava incerto quanto a conseguir acompanhar o conteúdo, mas fiquei surpreso com a qualidade do ensino. Em tão pouco tempo aprendi coisas novas, que nunca imaginei que tornariam-se parte do meu cotidiano.</p>
-                <p>Os professores e instrutores se preocupam não só com o aprendizado do conteúdo em si, mas também nos incentivam a sempre pesquisar sobre as dúvidas. Isso já é um grande diferencial, por isso não tenho dúvidas de que com muito esforço serei capaz de trilhar uma jornada incrível com a Trybe!</p>
+                <h3>Aprendizado em duas semanas</h3>
+                <p>Em tão pouco tempo aprendi coisas novas, que nunca imaginei que tornariam-se parte do meu cotidiano. Os professores e instrutores se preocupam não só com o aprendizado do conteúdo em si, mas também nos incentivam a sempre pesquisar sobre as dúvidas. Isso já é um grande diferencial, por isso não tenho dúvidas de que com muito esforço serei capaz de trilhar uma jornada incrível com a Trybe!</p>
             </article>
             <aside>
                 <h3>Metodologia de ensino ativo em ação!</h3>
@@ -117,7 +123,8 @@
     
     <footer id="rodape">
         <p>Todos os direitos reservados, Thalles Carneiro</p>
-        <a href="https://github.com/thalles-carneiro" target="_blank">GitHub</a>
+        <a class="links" href="https://github.com/thalles-carneiro" target="_blank">GitHub</a>
+        <a class="links" href="https://thalles-carneiro.github.io/" target="_blank">Portfólio</a>
     </footer>
 
 </body>
