@@ -35,6 +35,9 @@ main {
 
 #minha_foto {
   width: 250px;
+  margin: 1px;
+  padding: 1px;
+  border: 1px solid black;
 }
 
 .licao {
@@ -80,3 +83,25 @@ main {
   width: 100%;
 }
 
+#endereco , #redes-sociais {
+  display: inline-block;
+  width: 49%;
+  text-align: center;
+  vertical-align: top;
+}
+
+#lista-endereco li {
+  list-style: none;
+  text-align: justify;
+}
+
+#lista-endereco li a {
+  text-decoration: none;
+  line-height: 25px;
+  font-size: 15px;
+}
+
+#redes-sociais a {
+  display: inline-block;
+  margin: 1px 35px;
+}
