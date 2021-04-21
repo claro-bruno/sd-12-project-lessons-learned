@@ -21,12 +21,12 @@ header {
   margin-left: 60px;
   position: absolute;
   margin-top: 2%;
- }
+}
 
 .ola:hover {
-   color: yellowgreen;
+  color: yellowgreen;
   transition: 3s;
- }
+}
 
 p {
   max-width: 80%;
@@ -37,16 +37,16 @@ p {
 .artigo1 p {
   margin-left: 350px;
   width: 60%;
- }
+}
 
 .lado-esquerdo {
   background-color: yellowgreen;
- }
+}
 
 .aside1 p {
   margin-left: 350px;
   width: 60%;
- }
+}
 
 .indice {
   display: inline;
@@ -61,8 +61,7 @@ li.indicelista {
   border: yellowgreen;
   border-style: outset;
   font-size: 25px;
- }
-
+}
 
 p.lado-direito {
   background-color: yellowgreen;
@@ -77,10 +76,10 @@ main aside p.lado-direito {
 }
 
 p.lado-esquerdo p.lado-direito {
-   display: inline-block;
-   width: 30%;
-   z-index: 4;
- }
+  display: inline-block;
+  width: 30%;
+  z-index: 4;
+}
 
 main article p.lado-esquerdo {
   display: inline-block;
@@ -88,8 +87,7 @@ main article p.lado-esquerdo {
   position: absolute;
   z-index: 3;
   margin-top: 6%;
- }
-
+}
 
 main {
   margin-top: 10%;
@@ -111,14 +109,14 @@ main {
   border-width: 5px;
 }
 
-ol.ol, ul.ul {
+ol.ol , ul.ul {
   margin-top: 50px;
   display: inline-block;
   margin-left: 26.4%;
   background-color: yellowgreen;
   border: green;
   border-style: outset;
- }
+}
 
 ul.ul {
   margin-left: -1px;
@@ -127,19 +125,19 @@ ul.ul {
 footer {
   background-color: green;
   width: 100%;
- }
+}
 
 footer.rodape {
   text-align: center;
- }
+}
 
 table {
   border: 5px solid yellowgreen;
   float: right;
   margin-right: 9.6%;
- }
- 
+}
+
 .rodape {
   margin-left: 8%;
   text-align: center;
- }
+}
