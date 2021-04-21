@@ -21,7 +21,6 @@ h2 {
   text-align: center;
 }
 
-
 #cabecalho {
   position: fixed;
   top: 0;
@@ -53,5 +52,23 @@ h2 {
   position: relative;
   display: flex;
   margin-left: 35%;
+}
+
+.lado {
+  display: flex;
+  flex: row;
+  padding: 0px 150px 0px 150px;
+}
+
+.lado-esquerdo {
+  width: 30%;
+  padding: 0px 50px 0px 50px;
+  border: 3px solid black;
+}
+
+.lado-direito {
+  width: 30%;
+  padding: 0px 50px 0px 50px;
+  border: 3px solid black;
 }
 
