@@ -7,3 +7,9 @@ background-color: rgb(253, 251, 251);
     background-color: blue;
 
 }
+
+div {
+    word-wrap: break-word;
+    width: 1000px;
+ }
+ 
