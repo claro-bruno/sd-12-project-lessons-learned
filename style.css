@@ -54,11 +54,7 @@ table {
 
 }
 
-section {
-  display: flex;
-  padding: 20px;
 
-}
 
 
 .contacts {
@@ -68,12 +64,24 @@ section {
 }
 
 article {
+
   display: inline-block;
-  background-color: aquamarine;
+  width: 50%;
+  text-align: justify;
+  margin: auto;
+
+
+
 
 }
 
 aside {
-  background-color: #036b52;
-  display: inline-block;
+
+  position: relative;
+  width: 50%;
+  text-align: justify;
+  float: right;
+
+
+
 }
