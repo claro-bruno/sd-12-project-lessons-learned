@@ -44,6 +44,11 @@ h2 {
     margin-left: 10px;
 }
 
+h3{
+    
+    margin-right: 50%;
+}
+
 #licoes_aprendidas {
     position: absolute;
     top: 480px;
@@ -63,15 +68,18 @@ article {
     position: absolute;
     top: 730px;
     margin-left: 10px;
+    margin-right: 10%;
     text-align: justify;
     line-height: 22px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
 }
 
 aside {
     position: absolute;
     top: 900px;
     margin-left: 10px;
+    margin-right: 10%;
     text-align: justify;
     line-height: 22px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
