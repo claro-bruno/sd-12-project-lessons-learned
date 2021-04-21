@@ -41,14 +41,15 @@ h2 {
 }
 
 #foto {
-  margin-top: 200px;
-  text-align: right;
+  margin-top: 60px;
+  text-align: center;
 }
 
-#minha_foto {
-  border: 8px;
+#logo {
+  margin-top: 50px;
   border-style: double;
   border-color: mediumseagreen;
+  border-radius: 15px;
 }
 
 #link-trybe {
@@ -93,7 +94,7 @@ article h2 {
   border-color: mediumseagreen;
   border-radius: 15px;
   background-color: rgb(255,69,0, 0.4);
-  margin-top: 30px;
+  margin-top: 50px;
   margin-right: 15px;
   float: right;
   width: 29%;
@@ -119,4 +120,30 @@ article h2 {
 .listas p {
   text-align: center;
   font-weight: bold;
+}
+
+#final {
+  width: 67%;
+  display: inline-block;
+}
+
+#final h2 {
+  text-align: center;
+}
+
+#foto {
+  margin-top: 30px;
+  width: 29%;
+  float: right;
+}
+
+#minha_foto {
+  border-radius: 15px;
+}
+
+#tabela {
+  width: 100%;
+  text-align: center;
+  border: solid;
+  margin-left: 15px;
 }
