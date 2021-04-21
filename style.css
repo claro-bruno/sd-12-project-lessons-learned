@@ -67,12 +67,12 @@ body{
 
 #rodape{
     font-size: 30px;
-    background-color: #48d454;
+    background-color: green;
     text-align: center;
 }
 
 .others_parent{
-    display: flex;
+    display: inline-block;
     font-size: 30px;
     width: 100%;
     padding: 50px 100px;
@@ -84,6 +84,7 @@ body{
     background-color: #f2f2f2;
     width: 45%;
     text-align: justify;
+    float:left;
 }
 
 .lado_esquerdo h3{
@@ -97,6 +98,7 @@ body{
     justify-content: center;
     place-items: center;
     margin: 50px 150px 50px 50px;
+    float:right;
 }
 
 .lado_direito h3{
@@ -106,4 +108,23 @@ body{
 }
 .lado_direito p{
     text-align: justify;
+}
+
+.tabela {
+    display: flex;
+    justify-content: center;
+    place-items: center;
+    width: 100%;
+    margin-bottom: 100px;
+}
+.tabela table {
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: black;
+    text-align: center;
+    border: 2px solid black;
+}
+
+.tabela table th{
+    border: 2px solid black;
 }
