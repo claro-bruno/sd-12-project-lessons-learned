@@ -9,4 +9,12 @@ body{
 
 #minha_foto{
     width: 200px;
+    margin: 70px;
+}
+
+#rodape{
+    border: 20px;
+    border-color: rgb(80, 147, 202);
+    border-style: solid;
+    padding: 10px;
 }
