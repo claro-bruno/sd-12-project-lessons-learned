@@ -4,60 +4,75 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://kit.fontawesome.com/6fb2f5e971.js" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="style.css">
         <title>Document</title>
     </head>
-    <body>
+    <body id="home">
         <header id="cabecalho" class="header">
             <h1 id="titulo">Lessons Learned - Erick Silva</h1>
-            <nav class="nav">
-                <ul class="nav-list">
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#sobre">Sobre</a></li>
-                    <li><a href="#licoes">Liçoes</a></li>
-                    <li><a href="contato">Contato</a></li>
-                </ul>
-            </nav>
+            <div class="nav-pos">
+                <nav class="nav">
+                    <ul class="nav-list">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#licoes">Liçoes</a></li>
+                        <li><a href="#contato">Contato</a></li>
+                    </ul>  
+                </nav>
+            </div>
         </header>
-        <img src="profile.jpg" alt="uma imagem minha de perfil" id="minha_foto" class="img">
-        <article id="artigo" class="article">
-            <p>Chegamos ao fim do bloco 2, de introdução ao HTML e CSS, e com o fim do bloco chegou também o primeiro projeto. Nessas últimas duas semanas tive uma curva de aprendizado muito íngreme, aprendi como usar o terminal Unix, como utilizar o Git e GitHub, o funcionamento da Internet e como utilizar corretamente o HTML e CSS, com o uso do HTML Semântico, que da uma estrutura muito melhor para o código e mais acessibilidade ao site.</p>
-        </article>
-        <aside>
-            <section id="secao" class="section">
-                <p>Uma das coisas mais importantes que aprendi na <strong>Trybe</strong> foi a importância das soft skills. Estamos constantemente evoluindo neste quesito e desenvolvendo nossas habilidades interpessoais.</p>
-            </section>
-        </aside>
-            <h2>Lições Aprendidas</h2>
-            <ol id="licoes_aprendidas" class="list">
-                <li>Unix</li>
-                <li>Bash</li>
-                <li>Shell</li>
-                <li>Soft Skills</li>
-                <li>Internet</li>
-                <li>Git</li>
-                <li>GitHub</li>
-                <li>HTML</li>
-                <li>HTML Semântico</li>
-                <li>CSS</li>
-            </ol>
-            <h2>Lições a Aprender</h2>
-            <ul id="licoes_a_aprender" class="list">
-                <li>JavaScript</li>
-                <li>CSS Responsivo</li>
-                <li>React</li>
-                <li>Metodologias Ágeis</li>
-                <li>SQL</li>
-                <li>MongoDB</li>
-                <li>NodeJS</li>
-                <li>Python</li>
-                <li>Estrutura de Dados</li>
-                <li>Programação orientada a objetos</li>
-            </ul>
-        <footer id="rodape">
-            <a href="https://www.linkedin.com/in/ericksilvadev" target="_blank">LinkedIn</a>
-            <a href="https://www.github.com/ericksilvadev" target="_blank">GitHub</a>
-            <a href="https://www.instagram.com/ericksilvadev" target="_blank">Instagram</a>
+        <div class="main">
+            <img src="profile.jpg" alt="uma imagem minha de perfil" id="minha_foto" class="img">
+            <article id="artigo" class="article">
+                <h2>Meu Aprendizado</h2>
+                <p>Chegamos ao fim do bloco 2, de introdução ao HTML e CSS, e com o fim do bloco chegou também o primeiro projeto. Nessas últimas duas semanas tive uma curva de aprendizado muito íngreme, aprendi como usar o terminal Unix, como utilizar o Git e GitHub, o funcionamento da Internet e como utilizar corretamente o HTML e CSS, com o uso do HTML Semântico, que da uma estrutura muito melhor para o código e mais acessibilidade ao site.</p>
+            </article>
+            <aside class="aside">
+                <section id="secao" class="section">
+                    <h2>Soft Skills</h2>
+                    <p>Uma das coisas mais importantes que aprendi na <strong>Trybe</strong> foi a importância das soft skills. Estamos constantemente evoluindo neste quesito e desenvolvendo nossas habilidades interpessoais.</p>
+                </section>
+            </aside>
+        </div>    
+        <div class="second-section" id="licoes">
+            <div class="aprendida">
+                <h3>Lições Aprendidas</h3>
+                <ol id="licoes_aprendidas" class="list aprendidas">
+                    <li>Unix</li>
+                    <li>Bash</li>
+                    <li>Shell</li>
+                    <li>Soft Skills</li>
+                    <li>Internet</li>
+                    <li>Git</li>
+                    <li>GitHub</li>
+                    <li>HTML</li>
+                    <li>HTML Semântico</li>
+                    <li>CSS</li>
+                </ol>
+            </div>
+            <div class="a-aprender">
+                <h3>Lições a Aprender</h3>
+                <ul id="licoes_a_aprender" class="list a-aprender">
+                    <li>JavaScript</li>
+                    <li>CSS Responsivo</li>
+                    <li>React</li>
+                    <li>Metodologias Ágeis</li>
+                    <li>SQL</li>
+                    <li>MongoDB</li>
+                    <li>NodeJS</li>
+                    <li>Python</li>
+                    <li>Estrutura de Dados</li>
+                    <li>Programação orientada a objetos</li>
+                </ul>
+            </div>      
+        </div>
+        <footer id="rodape" class="footer">
+            <div class="redes" id="contato">
+            <h4>Entre em Contato</h4>
+            <a href="https://www.linkedin.com/in/ericksilvadev" target="_blank"><em class="fab fa-linkedin-in"></em></a>
+            <a href="https://www.github.com/ericksilvadev" target="_blank"><em class="fab fa-github"></em></a>
+            <a href="https://www.instagram.com/ericksilvadev" target="_blank"><em class="fab fa-instagram"></em></a>
+            </div>
         </footer>
     </body>
 </html>
