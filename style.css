@@ -1,15 +1,22 @@
 body {
   background-color: rgb(253, 251, 251);
+  margin: 0;
+  padding-top: 180px;
 }
 
 #cabecalho {
   position: fixed;
+  height: 180px;
   width: 100%;
   top: 0%;
-  color: rgb(255, 255,255);
+  color: white;
   text-align: center;
-  background-color: rgb(60,179,113);
+  background-color: mediumseagreen;
 }
+
+#cabecalho a {
+  color: white;
+ }
 
 h2 {
   font-style: italic;
@@ -18,7 +25,8 @@ h2 {
 #nav {
   border: 8px;
   border-top: double;
-  border-bottom: double;
+  border-bottom: double white;
+  background-color: mediumseagreen;
 }
 
 #nav li {
@@ -27,8 +35,8 @@ h2 {
   font-size: 18px;
 }
 
-#nav li:hover {
-  color: rgb(0,100,0);
+#nav a:hover {
+  color: darkgreen;
   font-weight: bold;
 }
 
@@ -40,7 +48,7 @@ h2 {
 #minha_foto {
   border: 8px;
   border-style: double;
-  border-color: rgb(60,179,113);
+  border-color: mediumseagreen;
 }
 
 #link-trybe {
@@ -51,4 +59,36 @@ h2 {
   background-color: green;
   color: white;
   border-radius: 5px;
+}
+
+#main {
+  border-style: double;
+  border-color: mediumseagreen;
+  border-radius: 15px;
+  margin-top: 30px;
+  margin-left: 15px;
+  width: 67%;
+  display: inline-block;
+  
+}
+
+article {
+  margin: 10px;
+  text-align: justify;
+}
+
+article h2 {
+  text-align: center;
+}
+
+#aside {
+  text-align: center;
+  border-style: double;
+  border-color: mediumseagreen;
+  border-radius: 15px;
+  margin-top: 30px;
+  margin-right: 15px;
+  float: right;
+  width: 29%;
+  height: 300px;
 }
