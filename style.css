@@ -2,7 +2,7 @@ body {
   background-color: rgb(253, 251, 251);
 }
 
-header#cabecalho {
+#cabecalho {
   position: fixed;
   top: 0;
   background-color: rgb(9, 119, 27);
@@ -10,22 +10,22 @@ header#cabecalho {
   width: 100%;
 }
 
-header#cabecalho h1#titulo{
+#titulo {
   text-align: center;
-} 
+}
 
-main{
+main {
   margin-top: 135px;
 }
 
-main section#secao_foto a{
+#secao_foto a {
   display: block;
   text-decoration: none;
   color: black;
   font-size: 17px;
 }
 
-main section#secao_foto img#minha_foto {
+#minha_foto {
   width: 200px;
 }
 
