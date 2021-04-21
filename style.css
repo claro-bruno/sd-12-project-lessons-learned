@@ -49,17 +49,31 @@ a{
 }
 
 #artigo{
+    margin-bottom: 15px;
     margin-left: 10px;
+    width: 65%;
+    display: inline-block;
+    
 
 }
 
 p{
     font-size: 20px;
+    margin-left: 10px;
 }
 
+aside{
+    margin-left: 10px;
+    margin-bottom: 15px;
+    width: 30%;
+    background-color: lightgrey;
+    display: inline-block;
 
+}
 
-
+h2{
+    text-align: center;
+}
 
 
 
