@@ -67,12 +67,9 @@ body {
     color: rgb(255, 136, 136);    
 }
 
-.article-section {
-    margin-bottom: 80px;
-    margin-top: 80px;       
-}
-
 .article {
+    margin-bottom: 80px;
+    margin-top: 80px; 
     max-width: 300px;    
     margin-left: 250px;
     display: inline-block;
