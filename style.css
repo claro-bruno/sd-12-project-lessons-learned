@@ -15,9 +15,14 @@ header h1 {
   padding-left: 50px;
 }
 
+header h2 {
+  display: inline-block;
+  font-size: small;
+}
+
 nav a {
   text-decoration: none;
-  padding: 90px;
+  padding: 45px;
   color: rgb(253, 251, 251);
 }
 
@@ -34,7 +39,7 @@ main {
 }
 
 .conteudo {
-  margin-top: 100px;
+  margin-top: 147px;
 }
 
 .licoes {
