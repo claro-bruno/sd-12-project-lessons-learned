@@ -13,7 +13,7 @@ body{
 
 #titulo{
     color:white;
-    font-size: 45px;
+    font-size: 35px;
     text-align: center;
 }  
 
@@ -27,6 +27,7 @@ H4{
     font-size: 30px;
     margin-left: 10px;
 }
+
 #licoes_aprendidas{
     display: inline-block;
     margin-left: 20px;
@@ -35,17 +36,13 @@ H4{
 
 #licoes_a_aprender{
     display: inline-block;
-    margin-left: 20PX;
-   
+    margin-left: 20PX; 
 }
-
-
 
 a{
     color: rgb(54, 224, 20);
     font-size: 20px;
     margin-left: 10px;
-
 }
 
 #artigo{
@@ -53,8 +50,6 @@ a{
     margin-left: 10px;
     width: 65%;
     display: inline-block;
-    
-
 }
 
 p{
@@ -68,25 +63,14 @@ aside{
     width: 30%;
     background-color: lightgrey;
     display: inline-block;
-
 }
 
 h2{
     text-align: center;
 }
 
-
-
-
-
-
-
-
-
 #rodape{
     background-color: rgb(80, 77, 77);
     color: white;
-    margin-left: 10px;
-    
-    
+    margin-left: 10px;   
 }
