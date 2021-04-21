@@ -1,6 +1,6 @@
 body {
     background-color: rgb(253, 251, 251);
-    margin: 0;
+    margin-top: 200px;
     border: 0;
     padding: 0;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -17,8 +17,9 @@ body {
     margin: ;
 }
 
-#nav {
+#nav ul{
     position: fixed;
+    margin: 0;
 }
 
 #itens_nav li { 
@@ -39,7 +40,7 @@ body {
 #itens_nav {
     list-style-type: none;
     position: fixed;
-    top: 109px;
+    top: 129px;
     width: 100%;
     background-color: #2fc18c;
     font-size: 20px;
@@ -58,6 +59,12 @@ body {
 
 #minha_foto {
     width: 300px;
+    top: 200px;
+    border-radius: 50%;
+    border: 8px solid #036b52;
+    display: block;
+    margin-left: 20%;
+    
 }
 
 #licoes_aprendidas {
