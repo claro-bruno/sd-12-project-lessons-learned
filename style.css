@@ -39,11 +39,6 @@ main{
 
 
 
-.article-container{
-    display: inline-block;
-}
-
-
 #lado-esquerdo{
     float: left;
     width: 40%;
