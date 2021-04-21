@@ -55,8 +55,10 @@ body{
     vertical-align: top;
     text-align: justify;
     line-height: 2;
+    margin-right: 100px;
 }
 #assuntos_estudados{
+    margin-left: 50px;
     margin-top: 50px;
 }
 #assuntos_estudados th{
@@ -77,9 +79,11 @@ body{
 .lado_esquerdo{
     margin-left: 50px;
     width: 50%;
+    float: left;
 }
 .lado_direito{
     width: 30%;
+    float: right;
 }
 #rodape{
     background-color: silver;
