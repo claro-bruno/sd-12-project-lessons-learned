@@ -1,54 +1,53 @@
- body {
+body {
   background-color: rgb(253, 251, 251);
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: sans-serif;
   font-size: large;
   line-height: 30px;
 }
- header {
+header {
   position: fixed;
   background-color: green;
   width: 100%;
   text-align: center;
-  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-family: sans-serif;
   top: 0;
   z-index: 5;
 }
 
- .ola {
-   font-size: 150px;
-   color:green;
-   margin-left: 60px;
-   position: absolute;
-   margin-top: 2%;
+.ola {
+  font-size: 150px;
+  color: green;
+  margin-left: 60px;
+  position: absolute;
+  margin-top: 2%;
  }
 
- .ola:hover {
+.ola:hover {
    color: yellowgreen;
-   transition: 3s;
+  transition: 3s;
  }
 
- .artigo1 p {
+.artigo1 p {
   margin-left: 350px;
   width: 60%;
  }
 
- .lado-esquerdo{
+.lado-esquerdo {
   background-color: yellowgreen;
  }
 
- .aside1 p {
+.aside1 p {
   margin-left: 350px;
   width: 60%;
  }
 
- .indice {
+.indice {
   display: inline;
   list-style-type: none;
-  list-style: none;
   word-spacing: 30px;
   text-align: center;
 }
- li.indicelista {
+li.indicelista {
   display: inline-block;
   background-color: yellow;
   border: yellowgreen;
@@ -56,44 +55,44 @@
   font-size: 25px;
  }
 
- p {
+p {
   max-width: 80%;
   margin-top: 0px;
   padding: 8px;
 }
- p.lado-direito{
+p.lado-direito {
   background-color: yellowgreen;
   margin-top: -10px;
 }
- p.lado-esquerdo p.lado-direito {
+p.lado-esquerdo p.lado-direito {
    display: inline-block;
    width: 30%;
    z-index: 4;
  }
- main article p.lado-esquerdo {
+main article p.lado-esquerdo {
   display: inline-block;
   width: 30%;
   position: absolute;
   z-index: 3;
   margin-top: 6%;
  }
- main aside p.lado-direito{
+main aside p.lado-direito {
    display: inline-block;
    width: 30%;
    margin-left: 59%;
    margin-top: 10%;
  }
 
- main {
+main {
   margin-top: 10%;
 }
 
- #cabecalho {
+#cabecalho {
   position: fixed;
   top: 0;
 } 
 
- #minha_foto {
+#minha_foto {
   position: absolute;
   width: 200px;
   border-radius: 30%;
@@ -103,31 +102,31 @@
   border-style: outset;
   border-width: 5px;
 }
- ol.ol, ul.ul {
-   margin-top: 50px;
-   display: inline-block;
-   margin-left: 26.4%;
-   background-color: yellowgreen;
-   border: green;
-   border-style: outset;
+ol.ol, ul.ul {
+  margin-top: 50px;
+  display: inline-block;
+  margin-left: 26.4%;
+  background-color: yellowgreen;
+  border: green;
+  border-style: outset;
  }
- ul.ul{
-   margin-left: -1px;
+ul.ul {
+  margin-left: -1px;
  }
- footer{
+footer {
   background-color: green;
   width: 100%;
  }
- footer.rodape {
+footer.rodape {
   text-align: center;
  }
- table {
-   border: 5px solid yellowgreen;
-   float: right;
-   margin-right: 9.6%;
+table {
+  border: 5px solid yellowgreen;
+  float: right;
+  margin-right: 9.6%;
  }
  
- .rodape{
-   margin-left: 8%;
-   text-align: center;
+.rodape {
+  margin-left: 8%;
+  text-align: center;
  }
