@@ -13,6 +13,8 @@ main {
     grid-template-areas: "navegacao navegacao navegacao" "cabecalho cabecalho cabecalho" "conteudo conteudo lateral" "lista1 lista2 video" "rodape rodape rodape";
 }
 
+/*Eu poderia usar grid para construir aquele site das aulas?*/
+
 /*Navegação*/
 
 .navegacao {
@@ -81,17 +83,24 @@ main {
     background-color: rgb(25, 0, 255);
 }
 
-/*Listas*/
+/*Listas 1 e 2*/
 
 .lista1 {
     grid-area: lista1;
     background-color: rgb(251, 216, 152);
 }
 
+.licoes_aprendidas {
+    text-align: center;
+    list-style: none;
+}
+
 .lista2 {
     grid-area: lista2;
     background-color: rgb(152, 239, 251);
 }
+
+
 
 .video {
     grid-area: video;
