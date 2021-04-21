@@ -1,98 +1,120 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
-body{
-    background-color: rgb(253, 251, 251);
-    margin: 0;
-    font-family: 'Montserrat';
+
+body {
+  background-color: rgb(253, 251, 251);
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
 }
-#cabecalho{
-    position: fixed;
-    top: 0;
-    background-color: midnightblue;
-    color: white;
-    width: 100%;
-    border-bottom: 1px solid black ;
+
+#cabecalho {
+  position: fixed;
+  top: 0;
+  background-color: midnightblue;
+  color: white;
+  width: 100%;
+  border-bottom: 1px solid black;
 }
-#titulo{
-    font-size: 25px;
-    margin-top: 10px;
-    margin-left: 20px;
-    margin-bottom: 20px;
+
+#titulo {
+  font-size: 25px;
+  margin-top: 10px;
+  margin-left: 20px;
+  margin-bottom: 20px;
 }
-#cabecalho nav a{
-    text-decoration: none;
-    color: white;
-    margin-left: 20px;
-    padding: 10px;
+
+#cabecalho nav a {
+  text-decoration: none;
+  color: white;
+  margin-left: 20px;
+  padding: 10px;
 }
-#cabecalho nav a:hover{
-    text-decoration: underline;
+
+#cabecalho nav a:hover {
+  text-decoration: underline;
 }
+
 #intro{
-    margin-top: 100px;
+  margin-top: 100px;
 }
-#minha_foto{
-    width: 200px;
-    border-radius: 50%;
-    border: 1px solid black;
+
+#minha_foto {
+  width: 200px;
+  border-radius: 50%;
+  border: 1px solid black;
 }
-.imagem{
-    margin-left: 50px;
+
+.imagem {
+  margin-left: 50px;
 }
-.list{
-    margin-left: 100px;
+
+.list {
+  margin-left: 100px;
 }
-#textos{
-    margin-top: 50px;
+
+#textos {
+  margin-top: 50px;
 }
-#sobre_mim{
-    line-height: 1.5;
-    text-align: justify;
-    padding-right: 50px ;
-    margin-right: 50px;
-    border-right: 1px solid black;
+
+#sobre_mim {
+  line-height: 1.5;
+  text-align: justify;
+  padding-right: 50px;
+  margin-right: 50px;
+  border-right: 1px solid black;
 }
-#meu_aprendizado{
-    vertical-align: top;
-    text-align: justify;
-    line-height: 2;
-    margin-right: 100px;
+
+#meu_aprendizado {
+  vertical-align: top;
+  text-align: justify;
+  line-height: 2;
+  margin-right: 100px;
 }
-#assuntos_estudados{
-    margin-left: 50px;
-    margin-top: 50px;
+
+#assuntos_estudados {
+  margin-left: 50px;
+  margin-top: 50px;
 }
-#assuntos_estudados th{
-    text-align: left;
+
+#assuntos_estudados th {
+  text-align: left;
 }
-#assuntos_estudados td{
-    padding: 5px;
-    font-size: 14px;
+
+#assuntos_estudados td {
+  padding: 5px;
+  font-size: 14px;
 }
-#assuntos_estudados caption{
-    margin-bottom: 30px;
-    font-weight: 900;
-    font-size: 20px;
+
+#assuntos_estudados caption {
+  margin-bottom: 30px;
+  font-weight: 900;
+  font-size: 20px;
 }
-.inline_block{
-    display: inline-block;
+
+.inline_block {
+  display: inline-block;
 }
-.lado_esquerdo{
-    margin-left: 50px;
-    width: 50%;
-    float: left;
+
+.lado_esquerdo {
+  margin-left: 50px;
+  width: 50%;
+  float: left;
 }
-.lado_direito{
-    width: 30%;
-    float: right;
+
+.lado_direito {
+  width: 30%;
+  float: right;
 }
-#rodape{
-    background-color: silver;
-    padding: 20px;
-    margin-top: 50px;
+
+#rodape {
+  background-color: silver;
+  padding: 20px;
+  margin-top: 50px;
 }
-#rodape a{
-    float: right;
+
+#link_externo {
+  float: right;
 }
-#rodape p, #rodape a{
-    display: inline;
+
+#nome, #link_externo {
+  display: inline;
 }
