@@ -1,5 +1,6 @@
 body {
   background-color: rgb(253, 251, 251);
+  margin: 0;
 }
 
 #cabecalho {
@@ -53,4 +54,14 @@ a {
 
 .estilo_fonte {
   text-align: justify;
+}
+
+aside {
+  height: 100px;
+  background-color: gold;
+}
+
+.estilo_aside {
+  display: inline-block;
+  flex-direction: row;
 }
