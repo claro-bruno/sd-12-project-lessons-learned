@@ -1,110 +1,117 @@
-
-body{
-    background-color: rgb(253, 251, 251);
-    font-size: 15px;
-    font-family: 'Rubik', sans-serif;
-    margin-left: 0;
-    margin-right: 0;
-    
+body {
+  background-color: rgb(253, 251, 251);
+  font-size: 15px;
+  font-family: "Rubik", sans-serif;
+  margin-left: 0;
+  margin-right: 0;
 }
 
-#cabecalho{
-    background-color:rgb(76, 228, 76) ;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 1;
-   }
-
-#titulo{
-    text-align: center;
-    font-size: 2.5em;
-    text-decoration: none;
-}
-#link{
-    text-decoration: none;
-    color: rgba(255, 255, 255, 0.767);
-}
-.menu-navegacao{
-    text-align: center;
-    list-style-type: none;
+#cabecalho {
+  background-color: rgb(76, 228, 76);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
 }
 
 
-.menu-navegacao a  {
-    text-decoration: none;
-    color:rgba(255, 255, 255, 0.767) ;
-    font-weight: bolder;
-    font-size: 1.5em;
+#titulo {
+  text-align: center;
+  font-size: 2.5em;
+  text-decoration: none;
+}
+#link {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.767);
+}
+.menu-navegacao {
+  text-align: center;
+  list-style-type: none;
 }
 
-a:hover{
-    color: rgb(1, 12, 1);
+.menu-navegacao a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.767);
+  font-weight: bolder;
+  font-size: 1.5em;
 }
 
-#link:hover{
-    color: rgb(1, 12, 1);
+a:hover {
+  color: rgb(1, 12, 1);
 }
 
-#sobre-mim{
-    height: 100vh;
-    background-color: rgb(45, 49, 66);
+#link:hover {
+  color: rgb(1, 12, 1);
 }
 
-#minha_foto{
-    transform: translateX(-50%);
-    margin-top: 110px;
-    display: block;
-    width: 400px;
-    margin-left: 50%;
-    border-radius: 30%;
-    }
+#sobre-mim {
+  height: 100vh;
+  background-color: rgb(45, 49, 66);
+  
+  
+}
 
-  #sobre-mim-texto{
-      font-size: 2.5em;
-      color: rgb(255, 255, 255);
-      text-align: center;
-      font-family: 'Roboto Slab', serif;
-      font-weight: bolder;
-       }
+#minha_foto {
+  margin-top: 8%;
+  display: block;
+  width: 25%;
+  transform: translateX(-50%);
+  margin-left: 50%;  
+  border-radius: 30%;
+}
 
-       #seta-down{
-        color: rgb(255, 255, 255);
-        margin-left: 50%;
-        margin-top: 20px;
-        font-size: 45px;
-         }
+#sobre-mim-texto {
+  font-size: 24px;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-family: "Roboto Slab", serif;
+  font-weight: bolder;
+}
 
-         #seta-down:hover{
-           color: rgb(0, 0, 0);
-         }
+#seta-down {
+  color: rgb(255, 255, 255);
+  margin-left: 50%;
+  font-size: 40px;
+}
 
-    
+#seta-down:hover {
+  color: rgb(0, 0, 0);
+}
 
 #licoes {
+  
+  background-color: rgb(177, 224, 177);
+  height: 100vh;
+  padding-top: 10px;
+  margin: 0;
+ 
+}
+
+#titulo-licoes{
+    font-size: 40px;
     text-align: center;
-    background-color: aqua;
-    height: 100vh;
-    margin-top: 110px;
+    margin-left: 48px;
+}
+
+#aprendidas{
+display: inline-block;
+margin-left: 27%;
 
 }
 
-h2{
-    font-size: 3em;
+#licoes_aprendidas {
+  font-size: 25px;
+  text-align: left;
 }
 
-#licoes_aprendidas{
+#aprender{
     display: inline-block;
-   margin-right: 50%;
-   font-size: 30px;
-   text-align: left;
-    
+    margin-left: 20%;
 }
 
-#licoes_a_aprender{
-    display: inline-block;
-    direction: rtl;
-    font-size: 30px;
-    text-align: right;
-}
 
+#licoes_a_aprender {
+  direction: rtl;
+  font-size: 25px;
+  text-align: right;
+}
