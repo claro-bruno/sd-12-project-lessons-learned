@@ -9,18 +9,45 @@ body {
     background-color: rgb(0, 55, 86);
     top:0;
     left:0%;
-    right: 0;;
+    right: 0;
+    bottom:auto;
     position: fixed;
+    z-index: 999;
     box-shadow: 0 0 1px 2px rgb(24 26 24 / 15%);
     align-items: center;
+    font-family: "Major Mono Display", monospace;
+    justify-content: center;
+    display: flex;
+    
     
 }
 
+#cabecalho ul {
+    list-style: none;
+    color:rgb(253, 251, 251);
+
+    
+    
+}
+
+#cabecalho li {
+    display: inline;
+    padding-left: 30px;
+}
 #titulo {
     color: rgb(232, 226, 217);
     font-family: "Major Mono Display", monospace;
 }
 
+a {
+    text-decoration: none;
+    color: rgb(232, 226, 217);
+    font-weight: 800;
+}
+
+a:hover {
+    color:rgb(190, 35, 41);
+}
 main {
     margin: auto;
     padding-top: 100px;
@@ -41,18 +68,34 @@ main {
     
 }
 
+.article_aside {
+    float: left;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 20%;
+    padding-right: 20%;
+    max-width: 100%;
+    margin:auto;
+    display: inline;
+    background-color: rgb(190, 35, 41);
+    color:rgb(232, 226, 217);
+   
+}
+
 article {
     
-    max-width: 80%;
+    max-width: 50%;
     float: left;
-    
-    
+    font-size: large; 
+    font-weight: 600;     
 }
 
 aside {
     
     max-width: 20%;
-    float: left;
+    float: right;
+    
+    
     
     
 }
