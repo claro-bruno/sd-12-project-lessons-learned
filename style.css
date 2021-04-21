@@ -24,6 +24,12 @@ body {
   border-radius: 9%;
 }
 
+.lista-tabela ol , ul , table {
+  display: inline-block;
+  margin-right: 30px;
+  align-items: center;
+}
+
 ol ul {
   display: inline-block;
 }
@@ -45,4 +51,15 @@ p {
 .texts article , aside {
   display: inline-block;
   max-width: 333px;
+}
+
+footer {
+  background-color: cadetblue;
+  height: 60px;
+}
+
+footer a {
+  display: inline-block;
+  margin-left: 20px;
+  margin-top: 20px;
 }
