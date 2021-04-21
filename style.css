@@ -7,9 +7,13 @@ body {
   top: 0px;
 }
 
+img {
+    max-width: 100%;
+}
+
 article {
-  margin: 15px;
-  padding: 30px;
+  margin: 10px;
+  padding: 25px;
 }
 
 p {
@@ -21,4 +25,15 @@ p {
 
 table {
   border: 1px solid #333;
+}
+
+.lado-esquerdo {
+  width: 50%;
+  display: inline-block;
+}
+
+.lado-direito {
+  width: 30%;
+  display: inline-block;
+  vertical-align: top;
 }
