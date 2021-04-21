@@ -16,7 +16,7 @@ header {
 }
 
 img {
-    margin-top: 70px;
+    margin-top: 80px;
     width: 300px;
 }
 
@@ -26,4 +26,8 @@ img {
 #cabecalho {
     position: fixed;
     top: 0;
+}
+
+#titulo {
+    margin-bottom: 15px;
 }
