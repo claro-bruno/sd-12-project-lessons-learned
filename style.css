@@ -11,3 +11,16 @@ body {
 #minha_foto {
   width: 100px;
 }
+
+#licoes_aprendidas {
+  font-size:small;
+}
+
+#sub_titulo {
+  font-style: italic;
+  font-weight: bold;
+}
+
+#licoes_a_aprender {
+  font-size: small;
+}
