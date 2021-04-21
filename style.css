@@ -40,6 +40,11 @@ p {
 
 .lado-esquerdo {
   background-color: yellowgreen;
+  display: inline-block;
+  width: 30%;
+  position: absolute;
+  z-index: 3;
+  margin-top: 6%;
 }
 
 .aside1 p {
@@ -78,14 +83,6 @@ aside .lado-direito {
   display: inline-block;
   width: 30%;
   z-index: 4;
-}
-
-.lado-esquerdo {
-  display: inline-block;
-  width: 30%;
-  position: absolute;
-  z-index: 3;
-  margin-top: 6%;
 }
 
 main {
