@@ -13,14 +13,10 @@ body {
     position: fixed;
     width: 100%;
     background-color: rgb(76, 170, 126);
-    color: rgb(253, 251,251);
+    color: rgb(253, 251, 251);
     text-align: center;
 }
-#foto_do_Perfil {
-    width:300px;
-    margin-top: 100px;
-    left: 500px;
-    
-
-
+#licoes_aprendidas {
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif; 
 }
