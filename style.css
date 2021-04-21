@@ -30,7 +30,6 @@ header {
 
 p {
   max-width: 80%;
-  margin-top: 0px;
   padding: 8px;
 }
 
@@ -120,14 +119,14 @@ ol.ol , ul.ul {
 
 ul.ul {
   margin-left: -1px;
- }
+}
 
 footer {
   background-color: green;
   width: 100%;
 }
 
-footer.rodape {
+.rodape {
   text-align: center;
 }
 
