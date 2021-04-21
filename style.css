@@ -28,8 +28,9 @@ body {
 /* Primeira seção */
 
 .first-layer {
-    margin-top: 9.5%;
-    display: inline-block;
+    width: 99.5%;
+    margin-top: 10%;
+    margin-bottom: 3%;
 }
 
 #minha_foto {
@@ -39,10 +40,8 @@ body {
     transform: translatex(50%);
 }
 
-.first-layer article {
-    width: fit-content;
-    position: relative;
-}
+
+/* Listas da primeira seção */
 
 .about-list {
     display: inline-block;
@@ -58,10 +57,40 @@ body {
     float: right;
 }
 
+
+/* Segunda seção */
+
 .about-text {
     border-style: solid;
-    padding: 2%;
+    padding: 1.5%;
     font-size: larger;
     margin: auto;
     display: inline-block;
+    width: 45%;
+}
+
+aside.about-text {
+    float: right;
+    margin-top: 17%;
+}
+
+.table {
+    margin-top: 3%;
+    width: 40%;
+}
+
+table,
+th,
+tr,
+td {
+    border-style: solid;
+}
+
+.table {
+    margin-left: 15%;
+    font-size: larger;
+}
+
+.table table {
+    margin-left: 15%;
 }
