@@ -1,6 +1,6 @@
 body {
     background-color: rgb(253, 251, 251);
-    margin-top: 200px;
+    margin-top: 150px;
     margin-left: 0;
     border: 0;
     padding: 0;
@@ -20,10 +20,11 @@ body {
     z-index: 2;
 }
 
-#nav ul{
+#nav ul {
     position: fixed;
     margin: 0;
     z-index: 2;
+    margin-bottom: 3px;
 }
 
 #itens_nav li { 
@@ -100,8 +101,28 @@ body {
     width: fit-content;
 }
 
-#licoes_a_aprender {
+a.anchor {
+    display: block;
+    position: relative;
+    top: -162px;
+    visibility: hidden;
+}
 
+a.anchor_home {
+    display: block;
+    position: relative;
+    top: -150px;
+    visibility: hidden;
+}
+
+a.anchor_aprendizado {
+    display: block;
+    position: relative;
+    top: -150px;
+    visibility: hidden;
+}
+
+#licoes_a_aprender {
     background-color: lightsalmon;
     font-size: 20px;
     line-height: 25px;
@@ -110,7 +131,7 @@ body {
     margin: auto;
 }
 
-#rodape p{
+#rodape p {
     font-style: italic;
     background-color: #036b52;
     text-align: center;
@@ -121,9 +142,17 @@ body {
 }
 
 #tabela {
-    border: 1px solid black;
+    border: 2px solid black;
     text-align: center;
     border-collapse: collapse;
+    margin-left: 30px;
+    font-size: 20px;
+    padding-left: ;
+}
+
+td {
+    padding: 5px;
+    background-color: rgb(169, 247, 176);
 }
 
 #titulo_texto {
@@ -143,19 +172,25 @@ body {
     display: inline-block;
     position: relative;
     width: 50%;    
-    float: right;
     text-align: justify;
 }
 
-#meu_aprendizado {
+.lado-esquerdo {
     display: inline-block;
     width: 49%;
     vertical-align: top;
 }
 
-#curiosidade {
+.lado-direito {
     display: inline-block;
     width: 50%;
     margin: auto;
-    float: right;
 }
+
+.p {
+    margin-left: 30px;
+    text-align: justify;
+    width: 80%;
+    font-size: 18px;
+}
+
