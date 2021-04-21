@@ -55,6 +55,12 @@ table {
 
 }
 
+section {
+  display: flex;
+
+  padding: 20px;
+}
+
 
 .contacts {
   display: flex;
