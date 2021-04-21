@@ -13,7 +13,7 @@ body {
   border-bottom: 5px rgb(157, 129, 137) solid;
 }
 
-#cabecalho h1 {
+#titulo {
   text-align: center;
   font-size: 3em;
   display: block;
