@@ -3,7 +3,7 @@
 body {
   background-color: rgb(253, 251, 251);
   margin: 0;
-  font-family: 'Montserrat', sans-serif;
+  font-family: Montserrat, sans-serif;
 }
 
 #cabecalho {
@@ -33,7 +33,7 @@ body {
   text-decoration: underline;
 }
 
-#intro{
+#intro {
   margin-top: 100px;
 }
 
@@ -115,6 +115,6 @@ body {
   float: right;
 }
 
-#nome, #link_externo {
+#nome , #link_externo {
   display: inline;
 }
