@@ -1,75 +1,77 @@
 body {
-    background-color: rgb(253, 251, 251);
-    margin: 0;
-    font-family: Courier, monospace;
+  background-color: rgb(253, 251, 251);
+  margin: 0;
+  font-family: Courier, monospace;
 }
 
 #cabecalho {
-    top: 0;
-    position: fixed;
-    height: 70px;
-    background-color: rgb(38, 84, 143);
-    vertical-align: middle;
-    width: 100%;
+  top: 0;
+  position: fixed;
+  height: 70px;
+  background-color: rgb(38, 84, 143);
+  vertical-align: middle;
+  width: 100%;
 }
 
 .menu_principal li {
-    display: inline-block;
-    float: right;
-    vertical-align: middle;
-    padding-top: 10px;
-    margin-right: 10px;
+  display: inline-block;
+  float: right;
+  vertical-align: middle;
+  padding-top: 10px;
+  margin-right: 10px;
 }
 
 #minha_foto {
-    width: 300px;
-    border-radius: 50%;
-    margin-top: 20px;
+  width: 300px;
+  border-radius: 50%;
+  margin-top: 20px;
 }
 
 .lado-esquerdo {
-    float: left;
-    width: 30%;
-    margin-left: 75px;}
+  float: left;
+  width: 30%;
+  margin-left: 75px;
+}
 
 .lado-esquerdo h2 {
-    line-height: 20px;}
+  line-height: 20px;
+}
 
 .lado-direito {
-    float: right;
-    width: 25%;
-    margin-right: 75px;
+  float: right;
+  width: 25%;
+  margin-right: 75px;
 }
 
 .lado-direito h2 {
-    line-height: 20px;
+  line-height: 20px;
 }
 
 #rodape {
-    margin:0 auto;
+  margin: 0 auto;
 }
 
 .aprendidas {
-    border: 1px solid black;
-    padding: 15px;
-    width: 35%;
+  border: 1px solid black;
+  padding: 15px;
+  width: 35%;
 }
 
 .aprender {
-    border: 1px solid black;
-    margin-top: 15px;
-    width: 35%;
+  border: 1px solid black;
+  margin-top: 15px;
+  width: 35%;
 }
 
 .menu_principal img {
-    width: 20px;
+  width: 20px;
 }
 
-#licoes_aprendidas li,#licoes_a_aprender li {
-    font-size: 16px;
-    color: blue;
+#licoes_aprendidas li , #licoes_a_aprender li {
+  font-size: 16px;
+  color: blue;
 }
 
-#aprendidas, #aprender {
-    display: inline-block;
+#aprendidas , #aprender {
+  display: inline-block;
 }
