@@ -13,15 +13,18 @@ body{
     background-color: green;
     width: 100%;
     text-align: center;
+    margin-bottom: 40px;
 }
 
 .photo{
-    display: flex;
+    display: inline-block;
     width: 100%;
+    text-align: center;
 }
 
 .photo #minha_foto{
-    width: 25%;
+    margin-top: 100px;
+    width: 20%;
 }
 
 .lessons_parent{
@@ -42,10 +45,44 @@ body{
     border: 1px solid lightgray;
     background-color: #f2f2f2;
     width: 45%;
+    margin-left: 20px;
 }
 
 #rodape{
     font-size: 30px;
     background-color: #48d454;
     text-align: center;
+}
+
+.others_parent{
+    display: flex;
+    font-size: 30px;
+    width: 100%;
+    padding: 50px 100px;
+}
+
+.article{
+    background-color: #f2f2f2;
+    width: 45%;
+    text-align: justify;
+}
+
+.article h3{
+    text-align: center;
+}
+
+.aside{
+    background-color: #f2f2f2;
+    width: 45%;
+    justify-content: center;
+    place-items: center;
+    margin: 50px 150px 50px 50px;
+}
+
+.aside h3{
+    text-align: center;
+
+}
+.aside p{
+    text-align: justify;
 }
