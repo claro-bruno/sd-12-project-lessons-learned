@@ -6,22 +6,38 @@ body {
   top: 0;
   overflow: auto;
   background-color: lightblue;
+  z-index: 1;
+}
+
+#titulo {
+  font-size: medium;
+  font-family: cursive;
+  text-align: center;
 }
 
 #minha_foto {
   width: 100px;
+  margin-top: 10px;
+  margin-left: 30px;
+  border-radius: 20%;
 }
 
 #licoes_aprendidas {
   font-size: small;
+  margin-left: 100px;
 }
 
 #sub_titulo {
-  font-style: italic;
+  font-size: medium;
+  text-align: center;
+  font-style: oblique;
 }
 
 #licoes_a_aprender {
   font-size: small;
+  position: absolute;
+  margin-left: 600px;
+  top: 250px;
 }
 
 #rodape {
@@ -30,16 +46,17 @@ body {
 
 .lado-esquerdo {
   position: absolute;
-  z-index: 1;
   display: block;
   margin-left: 5px;
   font-size: x-small;
+  border-width: medium;
+  border-color: lightcoral;
 }
 
 .lado-direito {
   position: absolute;
-  z-index: 2;
   display: block;
   margin-left: 650px;
   font-size: x-small;
+  border-width: medium;
 }
