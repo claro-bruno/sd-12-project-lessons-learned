@@ -2,7 +2,7 @@ body {
   background-color: rgb(253, 251, 251);
   margin: 0;
   padding: 0;
-  font-family: 'Poppins', sans-serif;
+  font-family: Poppins, sans-serif;
   font-size: 16px;
 }
 
@@ -13,6 +13,10 @@ main {
 a {
   color: inherit;
   text-decoration: none;
+}
+
+#licoes li {
+  text-align: initial;
 }
 
 #cabecalho {
@@ -41,7 +45,7 @@ a {
   list-style: none;
   margin-block: 0;
   margin-inline: 0;
-  padding-inline:0;
+  padding-inline: 0;
   text-align: center;
 }
 
@@ -71,6 +75,16 @@ a {
   padding: 1vw;
 }
 
+.carteirinha {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.carteirinha h2 {
+  text-align: center;
+  margin: 0;
+}
+
 table {
   display: inline-block;
   border: solid 1px black;
@@ -82,9 +96,10 @@ table {
 
 table th {
   text-align: initial;
+  text-decoration: underline;
 }
 
-table th:nth-child(2) {
+table th:nth-child( 2 ) {
   font-style: italic;
 }
 
@@ -93,7 +108,7 @@ table td {
   border-radius: 5px;
 }
 
-table tbody tr td:nth-child(odd) {
+table tbody tr td:nth-child( odd ) {
   text-align: initial;
 }
 
@@ -105,7 +120,7 @@ table tbody tr td:nth-child(odd) {
   width: 90%;
 }
 
-.licoes_esquerda, .licoes_direita {
+.licoes_esquerda , .licoes_direita {
   display: inline-block;
   width: 48%;
   text-align: center;
@@ -122,10 +137,6 @@ table tbody tr td:nth-child(odd) {
   line-height: 20px;
 }
 
-#licoes li {
-  text-align: initial;
-}
-
 .lado-esquerdo {
   display: inline-block;
   width: 48%;
@@ -140,7 +151,7 @@ table tbody tr td:nth-child(odd) {
   text-align: center;
   vertical-align: middle;
   font-style: italic;
-  font-weight: bold;
+  font-weight: 900;
   font-size: 20px;
   margin: 5px;
 }
