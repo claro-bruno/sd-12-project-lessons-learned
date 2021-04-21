@@ -37,3 +37,12 @@ img {
 section ol , section ul {
     display: inline-block;
 }
+
+.lado_direito, .lado_esquerdo{
+    display: inline-block;
+    width: 35%;
+    padding: 10px;
+    margin: 0%;
+    border: 1px dotted black;
+
+}
