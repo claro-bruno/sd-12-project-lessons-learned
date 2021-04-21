@@ -15,16 +15,6 @@ body {
   text-align: center;
 }
 
-#menu li {
-  list-style: none;
-}
-
-#menu li a{
-  color: white;
-  text-decoration: none;
-  font-size: 15px;
-}
-
 main {
   margin-top: 135px;
 }
@@ -39,6 +29,26 @@ main {
   text-decoration: none;
   color: black;
   font-size: 17px;
+}
+
+.licao {
+  display: inline-block;
+  margin: 30px 50px 1px 50px;
+  text-align: justify;
+}
+
+.licao ol li , .licao ul li {
+  list-style: none;
+}
+
+#menu li {
+  list-style: none;
+}
+
+#menu li a {
+  color: white;
+  text-decoration: none;
+  font-size: 15px;
 }
 
 #minha_foto {
@@ -61,16 +71,6 @@ main {
 #secao_licoes {
   width: 100%;
   text-align: center;
-}
-
-.licao {
-  display: inline-block;
-  margin: 30px 50px 0px 50px;
-  text-align: justify;
-}
-
-.licao ol li , .licao ul li {
-  list-style: none;
 }
 
 #projetos {
