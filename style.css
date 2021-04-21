@@ -147,7 +147,6 @@ a.anchor_aprendizado {
     border-collapse: collapse;
     margin-left: 30px;
     font-size: 20px;
-    padding-left: ;
 }
 
 td {
@@ -155,7 +154,7 @@ td {
     background-color: rgb(169, 247, 176);
 }
 
-#titulo_texto {
+.titulo_texto {
     background-color: #2fc18c;
     padding: 10px 42px;
     font-size: 20px;
