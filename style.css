@@ -21,7 +21,9 @@ main {
 
 #secao_foto {
   display: inline-block;
-  margin-left: 20px;
+  margin-left: 5%;
+  min-width: 25%;
+  text-align: center;
 }
 
 #secao_foto a {
@@ -29,6 +31,10 @@ main {
   text-decoration: none;
   color: black;
   font-size: 17px;
+}
+
+#minha_foto {
+  width: 250px;
 }
 
 .licao {
@@ -51,13 +57,9 @@ main {
   font-size: 15px;
 }
 
-#minha_foto {
-  width: 200px;
-}
-
 .lado-esquerdo , .lado-direito {
   display: inline-block;
-  width: 40%;
+  max-width: 32%;
   vertical-align: top;
 }
 
@@ -73,11 +75,8 @@ main {
   text-align: center;
 }
 
-#projetos {
-  margin: 81px;
-  padding: 20px;
+#tabela {
+  border: 1px solid black;
+  width: 100%;
 }
 
-#projetos , th , tr {
-  border: 2px solid black;
-}
