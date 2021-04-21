@@ -14,27 +14,38 @@ body {
     background-color: #036b52;
     width: 100%;
     color: white;
+    margin: ;
 }
 
 #nav {
     position: fixed;
 }
 
+#itens_nav li { 
+    display: inline-block;
+    padding: 10px 42px;
+    list-style-type: none;
+}
+
+#itens_nav a {
+    text-decoration: none;
+    color: black;
+}
+
+#itens_nav a:hover {
+    color: white;
+}
+
 #itens_nav {
     list-style-type: none;
-    display: inline-block;
-    display: inline;
     position: fixed;
-    top: 129px;
+    top: 109px;
     width: 100%;
     background-color: #2fc18c;
     font-size: 20px;
-    margin: 0;
     padding: 0;
     color: black;
     font-weight: 600;
-
-    
 }
 
 #titulo {
