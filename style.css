@@ -12,7 +12,14 @@
  .ola {
    font-size: 150px;
    color:green;
-   margin-left: 18%;
+   margin-left: 60px;
+ }
+ .ola:hover {
+   background-color: yellowgreen;
+   color: white;
+   border-radius: 100%;
+   transition: 3s;
+   width: 100%;
  }
 
  .artigo1 p {
@@ -47,6 +54,9 @@
   max-width: 80%;
   margin-top: 50px;
 }
+ p.cont{
+  background-color: yellowgreen;
+}
 
  main {
   margin-top: 10%;
@@ -80,5 +90,7 @@
  footer{
   background-color: green;
   width: 100%;
+ }
+ footer.rodape {
   text-align: center;
  }
