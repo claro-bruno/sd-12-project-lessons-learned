@@ -46,6 +46,7 @@ body {
 }
 .paragrafo{
     font-family: sans-serif;
+    line-height: 25px;
 }
 #rodape {
     background-color: rgb(6, 117, 43);
