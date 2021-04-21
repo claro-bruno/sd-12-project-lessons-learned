@@ -12,6 +12,12 @@ body {
   font-size: medium;
   font-family: cursive;
   text-align: center;
+  color: blue;
+  
+}
+
+.navegacao {
+  font-size: x-small;
 }
 
 #minha_foto {
@@ -39,13 +45,14 @@ body {
   font-size: medium;
   text-align: center;
   font-style: oblique;
+  color: blueviolet;
 }
 
 #licoes_a_aprender {
   font-size: small;
   position: absolute;
   margin-left: 250px;
-  top: 220px;
+  top: 255px;
   border: solid 1px;
   border-color: lightcoral;
   border-width: medium;
@@ -79,7 +86,7 @@ body {
   border-color: purple;
   line-height: 20px;
   top: 425px;
-  left: 10px;
+  left:10px;
 }
 
 #barra_rolagem{
@@ -89,5 +96,13 @@ body {
 #rodape {
   font-size: x-small;
   margin-top: 250px;
-  font-weight: bold;
+}
+
+#tabela {
+  table-layout: auto;
+  border: solid;
+  border-color: coral;
+  position: absolute;
+  top: 20px;
+  right: 610px;
 }
