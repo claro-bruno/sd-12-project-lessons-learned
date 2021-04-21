@@ -8,6 +8,8 @@ body{
 body h3, body li{
     color:rgb(42, 46, 43);
 }
+
+
 #cabecalho{
     position:fixed;
     z-index:1;
@@ -51,12 +53,12 @@ body h3, body li{
     
 }
 
-
 #nav a:hover{
     background-color:rgb(42, 46, 43);
    
 
 }
+
 
 #bg{
     background-image:url(./img/trajeto.jpeg);
@@ -108,15 +110,38 @@ aside p{
     
 }
 
+.skills{
+    padding: 30px 70px 90px 70px;
+    width: 80%;
+    margin: auto;
+}
+.lado-esquerdo, .lado-direito{
+    border: 2px double rgb(42, 46, 43);
+    border-spacing: 2px;
+    padding: 10px;
+}
+.lado-esquerdo, .lado-direito, .tabela{
+    width: 30%;
+    margin: 10px;
+    display: inline-block;
+}
 
+
+.tabela{
+    color:rgb(42, 46, 43);
+   
+}
 .tabela, .tabela td{
     border:1px double rgb(42, 46, 43);
     border-spacing:1px;
     color:rgb(42, 46, 43);
     
+    
+    
 }
 .tabela td{
     padding:20px;
+   
 }
 
 
