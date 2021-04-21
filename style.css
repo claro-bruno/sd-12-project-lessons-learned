@@ -66,12 +66,14 @@ h2 {
 ol, ul {
     display: inline-block;
     
+    
 }
 
 
 .lado-esquerdo {
     display: inline-block;
     width: 300px;
+    text-align: center;
 }
 
 .lado-direito {
@@ -86,4 +88,14 @@ table {
     background-color: green;
     
 
+}
+
+section {
+    display: flex;
+    justify-content: center;
+}
+
+
+nav {
+    
 }
