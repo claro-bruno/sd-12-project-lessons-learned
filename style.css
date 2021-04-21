@@ -4,14 +4,14 @@ body {
 }
 
 #cabecalho {
-  width: 100%;
+  width: 98.1vw;
   height: 60px;
   top: 0;
   left: 0;
-  background-color: rgb(80, 79, 79);
-  color: honeydew;
+  background-color: rgba(37, 37, 37, 0.85);
+  color: white;
   padding: 0;
-  border: 5px solid black;
+  border: 5px solid rgba(0, 0, 0, 0.85);
   margin: 0;
   position: fixed;
 }
@@ -23,13 +23,76 @@ body {
 }
 
 #minha_foto {
-  margin: auto;
-  margin-top: 85px;
-  display: block;
+  position: absolute;
+  left: 44%;
   height: 200px;
   border-radius: 2ch;
   background-color: rgb(126, 126, 126);
   padding: 1px;
+  z-index: 5;
+}
+
+.fotoback {
+  margin-top: 85px;
+  margin-left: -10px;
+  height: 207px;
+  width: 100vw;
+  background-color: rgb(0, 0, 24);
+  text-align: center;
+  padding-top: 8px;
+  padding-bottom: 1px;
+}
+
+.rept1 {
+  position: absolute;
+  top: 50px;
+  color: rgb(176, 176, 197, 0.5);
+  font-size: 50px;
+  font-weight: 700;
+  z-index: 3;
+}
+
+.rept2 {
+  position: absolute;
+  top: 71px;
+  left: 40px;
+  color: rgba(237, 237, 245, 0.5);
+  font-size: 60px;
+  font-weight: 600;
+  z-index: 2;
+}
+
+.rept3 {
+  position: absolute;
+  top: 95px;
+  left: -141px;
+  width: 1400px;
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 70px;
+  font-weight: 600;
+  z-index: 1;
+}
+
+.rept4 {
+  position: absolute;
+  top: 190px;
+  color: rgba(176, 176, 197, 0.781);
+  left: -100px;
+  width: 1400px;
+  font-size: 30px;
+  font-weight: 800;
+  z-index: 4;
+}
+
+.rept5 {
+  position: absolute;
+  top: 202px;
+  color: rgba(255, 255, 255, 0.925);
+  left: -80px;
+  width: 1400px;
+  font-size: 40px;
+  font-weight: 700;
+  z-index: 1;
 }
 
 h2 {
@@ -44,21 +107,107 @@ h2 {
   margin-left: 150px;
 }
 
-div {
-  margin: auto;
+.meio {
+  margin-left: -10px;
   padding: 10px;
+  width: 100vw;
 }
 
-section {
+.lst {
   display: inline-block;
+  margin: auto;
+  height: 250px;
+  background-color: rgb(243, 243, 243);
+  border-radius: 1ch;
+  width: 46.5%;
+  vertical-align: top;
+  text-align: justify;
+  border: 1px dashed grey;
+  padding: 1vw;
 }
 
 .lado-esquerdo {
-  width: 45%;
-  vertical-align: top;
+  float: inline-start;
 }
 
 .lado-direito {
-  width: 45%;
-  vertical-align: top;
+  float: inline-end;
+}
+
+h3 {
+  font-size: 18px;
+  line-height: 3px;
+}
+
+.ajeitarlistas {
+  margin-left: -10px;
+  padding: 10px;
+  width: 100vw;
+
+}
+
+ul , ol {
+  display: inline-block;
+  margin: auto;
+  width: 48.6%;
+  border: 1px dashed rgb(204, 203, 203);
+  box-sizing: border-box;
+  padding-left: 18vw;
+  padding-bottom: 20px;
+  border-radius: 1ch;
+}
+
+table {
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid black;
+  width: 30%;
+  border-radius: 0.7ch;
+  background-color: rgb(190, 190, 190);
+}
+
+tr , td {
+  border: 1px solid black;
+  width: 10%;
+  text-align: center;
+  border-radius: 0.5ch;
+  background-color: rgb(219, 219, 219);
+}
+
+.tabname {
+  text-align: center;
+}
+
+.navlink {
+  text-decoration: none;
+  color: rgb(225, 225, 225);
+  background-color: rgb(0, 48, 0);
+  width: 100%;
+  padding: 10px;
+  border-radius: 0.6ch;
+  font-weight: 600;
+  font-size: 12px;
+}
+
+.navlink:hover {
+  background-color: rgb(0, 119, 0);
+  color: black;
+}
+
+#rodape {
+  margin-left: -10px;
+  width: 100vw;
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: rgb(240, 240, 240);
+}
+
+.tabsec {
+  margin-left: -10px;
+  width: 100vw;
+  background-color: rgb(223, 223, 223);
+  padding-bottom: 20px;
+  padding-top: 1px;
+  margin-top: 10px;
 }
