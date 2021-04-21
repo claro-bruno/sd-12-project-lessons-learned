@@ -46,7 +46,7 @@ main {
   text-align: justify;
 }
 
-.licao ol li, .licao ul li {
+.licao ol li , .licao ul li {
   list-style: none;
   font-size: 15px;
   line-height: 25px;
