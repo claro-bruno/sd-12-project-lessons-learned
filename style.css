@@ -1,5 +1,7 @@
 body {
   background-color: rgb(253, 251, 251);
+  line-height: 25px;
+  
 }
 #cabecalho {
   position: fixed;
@@ -37,4 +39,23 @@ div nav {
 a {
   text-decoration: none;
   color: white;
+}
+.lado-esquerdo {
+  position: relative;
+  width: 300px;
+  top: auto;
+  border-width: 2px;
+  width: auto;
+  height: auto;
+  display: inline-table;
+}
+.lado-direito {
+  position: relative;
+  width: 250px;
+  text-align: justify;
+  left: 300px;
+  display: inline-table;
+}
+aside {
+  text-align: center;
 }
