@@ -1,41 +1,93 @@
-body{ 
+body { 
   background-color: rgb(253, 251, 251);
 }
-#cabecalho{ 
+#cabecalho { 
   top: 0px;
   position: fixed;
-
+  background-color: rgb(160, 143, 89);
+  color: white;
+  width: 100%;
+  text-align: center;
 }
-#minha_foto{
+.nav-menu {
+  position: sticky;
+  top: 80px;
+  background-color: rgb(117, 110, 88);
+  color: white;
+  width: 100%;
+  text-align: justify;
+  padding: 5px 10px;
+}
+.div-sugestion {
+  background-color: rgb(117, 110, 88);
+  color: white;
+  width: 25%;
+  text-align: center;
+  padding: 5px 10px;
+  text-decoration: none;
+}
+.div-sugestion a {
+  background-color: rgb(117, 110, 88);
+  color: rgb(98, 141, 29);
+  text-decoration:solid;
+  font-weight: 900;
+}
+.nav-menu a {
+  text-decoration: none;
+  color: white;
+  margin-left: 30px;
+}
+.nav-menu a:hover {
+  color: rgb(197, 199, 56);
+}
+#minha_foto {
     width: 300px;
     margin-top: 80px;
 }
-.table-test{
-  border: 2px solid coral;
+.table-test {
+  border: 2px dashed rgb(128, 129, 52);
   margin: 0%;
   padding: 5px;
-  
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
 }
-.lado-direito p{
-  
-  font-size: 19px;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+.lado-direito p {
+  font-size: 16px;
+  font-family: 'Courier New', Courier, monospace;
   color: darkgoldenrod;
   line-height: 25px;
-  
-  
 }
-.lado-direito{
+.lado-direito {
   width: 500px;
-  border: 2px solid rgb(38, 0, 255);
-  display: inline-block;
-  position:relative;
-  left: 300px;
-
+  border: 2px dotted rgb(100, 96, 33);
+  flex-direction: row;
+  padding: 10px;
 }
 .lado-esquerdo {
-  
   width: 500px;
-  border: 2px solid red;
-  display: inline-block;
+  border: 2px dotted red;
+  flex-direction: row;
+  text-align: justify;
+  padding: 10px;
+  font-family: Helvetica, sans-serif;
+  color: rgb(168, 144, 81);
+}
+.container-lados {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.container-info {
+  display: flex;
+  flex-wrap: wrap;
+}
+.table-elements {
+  text-align: left;
+}
+#rodape {
+  text-align: center;
+  background-color: rgb(117, 110, 88);
+  padding: 10px;
+  color: white;
 }
