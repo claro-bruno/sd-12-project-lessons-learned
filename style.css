@@ -63,7 +63,7 @@ Source: https://www.w3schools.com/cssref/sel_visited.asp
 
 .perfil {
     display: flex;
-    flex-flow: column wrap;
+    flex-flow: column nowrap;
     align-items: center;
     margin-top: 10vh;
 }
@@ -75,8 +75,9 @@ Source: https://www.w3schools.com/cssref/sel_visited.asp
 }
 
 .perfil h2 {
-    font-size: 2rem;
+    font-size: 3rem;
     text-shadow: 1px 1px 5px black;
+    text-align: center;
 }
 
 #licoes {
@@ -88,6 +89,7 @@ Source: https://www.w3schools.com/cssref/sel_visited.asp
 
 #licoes h3 {
     margin: 4vh 40vw;
+    font-size: 1.5em;
 }
 
 .boxes {
