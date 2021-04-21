@@ -32,6 +32,12 @@ body {
   color: white;
 }
 
+.lista-navegador li{
+  display: inline-block;
+  margin-left: 70px;
+  text-decoration: none;
+}
+
 #minha_foto{
   border-radius: 10px;
   margin: 150px 0 20px 70px;
@@ -85,3 +91,50 @@ li{
   border:#82a9c8 2px solid;
   border-radius: 8px;
 }
+
+.titulo-tabela{
+  font-size: 35px;
+  text-align: center;
+  margin-top: 70px;
+  color: #26669b;
+}
+
+.tabela{
+  width: 500px;
+  margin: 30px auto;
+  border: #4f8ec2 solid 2px;
+  padding: 20px 20px;
+  background-color: #4f8ec2;
+  color: white; 
+  font-size: 30px;
+  text-align: center;
+  border-radius: 8px;
+}
+
+th{
+  padding-bottom: 20px;
+}
+
+td{
+  padding-bottom: 20px;
+}
+
+#rodape{
+  text-align: center;
+  padding:30px 0;
+  margin-top: 80px;
+  background-color: #26669b;
+  color: white;
+}
+
+#rodape a{
+  color: white;
+  text-decoration: none;
+  font-size: 30px;
+}
+
+#rodape a:hover{
+  color: #082033;
+}
+
+
