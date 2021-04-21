@@ -9,3 +9,10 @@ header {
   top: 0;
 }
 
+#minha_foto {
+    margin-top: 150px;
+    width: 300px;
+    border-radius: 50%;
+  }
+  
+ 
