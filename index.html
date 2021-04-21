@@ -6,17 +6,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
 
 <body>
 
     <header>
-        <nav id='cabecalho'><h1 id="titulo"><mark>LIÇÕES APRENDIDAS</mark></h1></nav>
-        <img id='minha_foto' src="./img/laine-moura-photo.jpg" alt="Foto da aluna Laíne Moura">
+        <nav id='cabecalho'>
+            <h1 id="titulo">LIÇÕES APRENDIDAS</h1>
+        </nav>
     </header>
 
     <main>
+
+        <img id='minha_foto' src="./img/laine-moura-photo.jpg" alt="Foto da aluna Laíne Moura">
+
         <h2>LIÇÕES</h2>
         <div id="licoes">
             <ol id='licoes_aprendidas'>
@@ -32,7 +38,7 @@
                 <li>Gerenciamento do tempo</li>
             </ol>
             <ul id='licoes_a_aprender'>
-                
+
                 <li>WEB Design Responsivo</li>
                 <li>JavaScript</li>
                 <li>SQL</li>
@@ -47,24 +53,38 @@
         </div>
     </main>
 
-    <article>
-        <p>
-            Sempre fui apaixonada por tudo que se relacionasse a computador. Procurava sempre por formas de resolver os problemas que me eram apresentados por meio de erros do computador, sendo a pesquisa na WEB sempre uma aliada. Decidi, então, neste ano de pandemia, mergulhar na minha paixão. No caminho encontrei a Trybe para me ajudar neste processo de transição! Quero ser uma referência para as próximas mulheres que viram!
-        </p>
-        
-    </article>
-        <section>
-            <aside>A Trybe tem me ajudado a dar o melhor de mim e do meu tempo no aprendizado de novas tecnologias e linguagens. Nem sempre é fácil! Mas sigo com o meu objetivo firme de ter uma nova profissão na área de desenvolvimento web e de <em>software</em>.
-            </aside>
-        </section>
+    <div id="article-section">
+        <article id='article-principal'>
+            <p>
+                Sempre fui apaixonada por tudo que se relacionasse a computador. Procurava sempre por formas de resolver
+                os problemas que me eram apresentados por meio de erros do computador, sendo a pesquisa na WEB sempre
+                uma aliada. Decidi, então, neste ano de pandemia, mergulhar na minha paixão. No caminho encontrei a
+                Trybe para me ajudar neste processo de transição! Quero ser uma referência para as próximas mulheres que
+                viram!
+            </p>
 
-
-
-        <h3> Para mais informações:</h3>
-        <article>
-            <p>Para mais informações sobre formação de pessoa desenvolvedora WEB: <a href="https://www.youtube.com/watch?v=kJkQFVqySUw&t=57s" target="_blank">clique aqui</a></p>
         </article>
-   
+        <section>
+            <aside>
+                <p>
+                    A Trybe tem me ajudado a dar o meu melhor no aprendizado de novas tecnologias e
+                    linguagens. Nem sempre é fácil, mas sigo com meu objetivo de ter uma nova profissão na área
+                    de desenvolvimento web e de <em>software</em>.
+            </aside>
+            </p>
+        </section>
+    </div>
+
+
+
+    <h3> Para mais informações:</h3>
+    <div id='mais-informacoes'>
+        <strong>
+            <p>Para mais informações sobre formação de pessoa desenvolvedora WEB: <a
+                    href="https://www.youtube.com/watch?v=kJkQFVqySUw&t=57s" target="_blank">clique aqui</a></p>
+        </strong>
+    </div>
+
 
 
     <footer id="rodape">
