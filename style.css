@@ -9,6 +9,7 @@ h1 {
 }
 
 #cabecalho {
+  top: 0;
   position: fixed;
   text-align: center;
   background-color: green;
@@ -28,7 +29,11 @@ main {
 }
 
 table {
-  display: inline;
+  display: inline-block;
+}
+
+#secao_principal {
+  display: inline-block;
 }
 
 .listas {
