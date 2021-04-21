@@ -27,3 +27,19 @@ body {
 #rodape {
   font-size: x-small;
 }
+
+.lado-esquerdo {
+  position: absolute;
+  z-index: 1;
+  display: block;
+  margin-left: 5px;
+  font-size: x-small;
+}
+
+.lado-direito {
+  position: absolute;
+  z-index: 2;
+  display: block;
+  margin-left: 650px;
+  font-size: x-small;
+}
