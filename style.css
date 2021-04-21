@@ -1,20 +1,32 @@
-body{
+body {
     background-color: rgb(253, 251, 251);
 }
 
-#cabecalho{
+#cabecalho {
     position: fixed;
     top:0px;
 }
 
-#minha_foto{
+#minha_foto {
     width: 200px;
     margin: 70px;
 }
 
-#rodape{
+#rodape {
     border: 20px;
     border-color: rgb(80, 147, 202);
     border-style: solid;
     padding: 10px;
+}
+
+#titulo {
+    font-size: 40px;
+    color: rgb(122, 39, 6);
+    font-family: monospace;
+}
+
+p {
+    line-height: 0.5cm;
+    color: rgb(122, 39, 6);
+
 }
