@@ -50,9 +50,26 @@ main {
     background-color: blue;
     color: white;
     padding: 15px 20px;
-    border-radius: 4px;
-    margin-top: 20px;
+    border-radius: 10px;
     text-decoration: none;
+    margin-left: 50%;
+    margin-right: 50%;
     
 
 }
+
+div {
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+}
+
+#div1 {
+    background-color: magenta;    
+}
+
+#div2 {
+    background-color: teal;
+
+}
+
