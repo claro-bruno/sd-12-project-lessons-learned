@@ -1,76 +1,77 @@
 body {
-        background-color: rgb(253, 251, 251);
-        margin: 0;
-        font-family: sans-serif;
+  background-color: rgb(253, 251, 251);
+  margin: 0;
+  font-family: sans-serif;
 }
 
 header {
-          position: fixed;
-          top: 0;
-          width: 100%;
-          background-color: rgb(7, 134, 7);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: rgb(7, 134, 7);
 }
 
 header h1 {
-             padding-left: 50px;
+  padding-left: 50px;
 }
 
 nav a {
-         text-decoration: none;
-         padding: 90px;
-         color: rgb(253, 251, 251);
+  text-decoration: none;
+  padding: 90px;
+  color: rgb(253, 251, 251);
 }
 
 main {
-        margin: 10px;
+  margin: 10px;
 }
 
 #minha_foto {
-               padding-left: 114px;
+  padding-left: 114px;
 }
 
 #nome {
-              padding-left: 85px;
+  padding-left: 85px;
 }
 
 .conteudo {
-             margin-top: 100px;
+  margin-top: 100px;
 }
 
 .licoes {
-           clear: both;
+  clear: both;
 }
 
-.licoes_aprendidas, .licoes_a_aprender {
-                                          display: inline-block;
+.licoes_aprendidas , .licoes_a_aprender {
+  display: inline-block;
 }
 
 #article {
-          width: 65%;
-          margin-right: 0;
-          display: inline-block;
+  width: 65%;
+  margin-right: 0;
+  display: inline-block;
 }
 
 article p {
-             width: 70%;
-             text-indent: 30px;
+  width: 70%;
+  text-indent: 30px;
 }
 
 aside {
-         float: right;
-         width: 35%;
-         border-radius: 13%;
-         background-color: rgb(184, 177, 177);
-         text-indent: 15px;
-         text-align: center;
+  float: right;
+  width: 35%;
+  border-radius: 13%;
+  background-color: rgb(184, 177, 177);
+  text-indent: 15px;
+  text-align: center;
 }
 
 footer {
-          margin-left: 8px;
+  margin-left: 8px;
 }
 
 footer em {
-             font-size: small;
-             font-family: monospace;
-             font-variant: all-petite-caps;
+  font-size: small;
+  font-family: monospace;
+  font-variant: all-petite-caps;
 }
+\n
