@@ -1,44 +1,47 @@
 body {
   background-color: rgb(253, 251, 251);
+  margin: 0;
 }
  #cabecalho {
-  top: 0px;
   position: fixed;
-
+  top: 0;
+  background-color: blue;
+  color: white;
+  width: 100%;
+  padding-bottom: 20px;
 }
-
  #titulo {
   font-family: -apple-system, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-weight: bold;
   text-align: center;
-  background-color: aqua;
 }
  #minha_foto {
+  float: none;
   width: 150px;
-  border-radius: 50%;
+  border-radius: 15%;
   display: block;
-  margin-top: 80px;
+  margin-top: 105px;
+  margin-left: 35px;
 }
  #licoes_aprendidas , #licoes_a_aprender , p {
+  font-size: 15px;
   font-family: -apple-system, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
- #licoes_aprendidas {
-  display: inline-block;
-  width: fit-content;
-  float: left;
-  margin-right: 35px;
-}
- #licoes_a_aprender {
-  float: left;
-  display: block;
-  margin-right: 35px;
-}
- article {
-  display: inline;
-  margin-left: 100px;
-}
- h3 {
+h3 {
   font-weight: bold;
   font-family: -apple-system, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-   margin-left: 15px;
+   margin-top: 45px;
+   margin-Left: 35px;
+}
+#licoes_aprendidas {
+  display: inline-block;
+  margin-top: 5px;
+}
+ #licoes_a_aprender {
+  display: inline-block;
+  margin: 5px;
+}
+ article {
+  display: block;
+  margin-top: 25px;
 }
