@@ -57,11 +57,10 @@ a {
 }
 
 aside {
-  height: 100px;
   background-color: gold;
 }
 
 .estilo_aside {
-  display: inline-block;
+  display: block;
   flex-direction: row;
 }
