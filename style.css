@@ -146,11 +146,15 @@ tr, td {
     text-align: left;
 }
 
-.trybe {
-    
-    
+.trybe a {
+    color: rgb(190, 35, 41);   
+}
+
+.trybe a:hover {
+    color :rgb(0, 55, 86);
 }
 
 #rodape {
     margin: 0;
 }
+
