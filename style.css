@@ -26,6 +26,26 @@ main{
     width: 70%;
 }
 
+.flex-container{
+    display: flex;
+}
+
+.articles{
+    display: inline-block;
+    border: solid black;
+    margin-top: 20px;
+}
+
+#lado-esquerdo{
+    float: left;
+    width: 40%;
+}
+
+#lado-direito{
+    float: right;
+    width: 30%;
+}
+
 #minha_foto{
     width: 20%;
     float: left;
@@ -37,25 +57,7 @@ main{
     text-align: left;
 }
 
-.flex-container{
-    display: flex;
-}
 
-.lados{
-    display: inline-block;
-}
-
-#lado-esquerdo{
-    float: left;
-    width: 40%;
-    padding-left: 10px;
-    padding-right: 50px;
-}
-
-#lado-direito{
-    float: right;
-    width: 40%;
-}
 #sobre-matheus{
     text-align: left;
     display: inline-block;
@@ -64,7 +66,12 @@ main{
 
 
 #right{
-    padding-top: 120px;
+    margin-top: 120px;
+    margin-left: 100px;
+}
+
+ul, ol, li{
+    border: 1px solid black;
 }
 
 .container-nav{
@@ -94,7 +101,6 @@ main{
     margin-top: 30px;
 }
 
-
 table, th, td {
     border: 1px solid black;
-  }
+}
