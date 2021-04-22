@@ -294,6 +294,7 @@ Source: https://developer.mozilla.org/en-US/docs/Web/CSS/linear-gradient()
 }
 #rodape p {
     margin: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 
