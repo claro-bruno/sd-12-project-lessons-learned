@@ -20,15 +20,11 @@ header{
     font-family: monospace;
 }
 
-.lado-esquerdo{
-    
-    width: 30%;
-    text-align: justify;
-}
+.
 
 .lado-direito{
     display: inline-block;
-    width: 50%;
-    text-align: justify;
+    
+    
     
 }
