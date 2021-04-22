@@ -40,7 +40,9 @@ a:hover {
     width: 100%;
     border: 2px solid rgb(0, 230, 161);
     border-radius: 6px;
-    padding: 2px;
+    padding-left: 20px;
+    padding-top: 3x;
+    padding-bottom: 3px;
     margin: 0;
 }
 
