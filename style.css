@@ -109,7 +109,7 @@ a:hover {
     border-radius: 6px;
 }
 
-.article {
+.article, .lado-esquerdo {
     z-index: 2;
     background-color: rgb(0, 230, 161);
     position: relative;
@@ -124,12 +124,12 @@ a:hover {
     border-radius: 6px;
 }
 
-.aside {
+.aside, .lado-direito {
     z-index: 1;
     position: absolute;
     top: 128px;
     left: 715px;
-    width: 238px;
+    width: 460px;
     height: 280px;
     overflow: auto;
     padding: 1px;
