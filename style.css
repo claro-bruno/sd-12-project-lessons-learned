@@ -15,7 +15,7 @@ body {
 
 h1 {
   padding: 10px 380px 10px 400px;
-  background-color:rgb(165, 110, 29);
+  background-color: rgb(165, 110, 29);
   color: whitesmoke;
 }
 
@@ -27,7 +27,6 @@ h2 {
   font-family: sans-serif;
   clear: both;
   color: rgb(17, 16, 16);
-  font-style: oblique;
   text-align: center;
 }
 
@@ -39,7 +38,7 @@ h2 {
   border-radius: 50%;
 }
 
-#nav{
+#nav {
   background-color: whitesmoke;
   font-style: none;
   text-align: center;
@@ -55,10 +54,9 @@ h2 {
   padding: 10px;
   font-family: sans-serif;
   text-transform: uppercase;
-  font-weight: bold;
 }
 
-#nav a{
+#nav a {
   color: rgb(127, 131, 73);
   text-decoration: none;
 }
@@ -91,7 +89,7 @@ th {
 }
 
 td {
-    padding: 5px;
+  padding: 5px;
 }
 
 .lado-esquerdo {
@@ -107,7 +105,7 @@ td {
   margin: -17% 10% 2% 60%;
   padding: 30px;
   text-align: justify;
-  background-color:rgb(127, 131, 73) ;
+  background-color: rgb(127, 131, 73);
   color: whitesmoke;
   font-weight: 300;
 }
@@ -115,6 +113,6 @@ td {
 #rodape {
   text-align: center;
   background-color: rgb(165, 110, 29);
-  color:whitesmoke;
+  color: whitesmoke;
   padding: 8px;
 }
