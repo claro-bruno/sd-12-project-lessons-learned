@@ -1,117 +1,117 @@
 body{
-    background-color:rgb(253, 251, 251) ;
-    font-size: larger;
-    word-spacing: 5px;
-    color:mediumslateblue;
-    font-style: italic;
+  background-color:rgb(253, 251, 251);
+  font-size: larger;
+  word-spacing: 5px;
+  color:mediumslateblue;
+  font-style: italic;
 }
 
 main{
-    margin-left: 150px;
-    margin-top: 50px;
-    
+  margin-left: 150px;
+  margin-top: 50px;
+  
 }
 
 button{
-    
-    background-color: #4CAF50; /* Green */
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    -webkit-transition-duration: 0.4s; /* Safari */
-    transition-duration: 0.4s;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 
 button:hover {
-    background-color: #4c9baf; /* Green */
-    color: white;
+  background-color: #4c9baf; /* Green */
+  color: white;
 }
 
-    
+
 
 hr{
-    background-color: rgb(35, 228, 28);
-    height: 2px;
+  background-color: rgb(35, 228, 28);
+  height: 2px;
 }
 
 .cabecalho{
-    background-color: rgb(35, 228, 28);
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 150px;
+  background-color: rgb(35, 228, 28);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 150px;
 }
 
 h1{
-    text-align: center;
+  text-align: center;
 }
 
 h2{
-    text-align: center;
+  text-align: center;
 }
 
 .foto{
-border-radius: 60%;
-display: inline-block;
-border-style: solid;
-border-color: green;
-width: 250px;
-height: 50%;
+  border-radius: 60%;
+  display: inline-block;
+  border-style: solid;
+  border-color: green;
+  width: 250px;
+  height: 50%;
 }
 
-    
-.lado-esquerdo{
-display: inline-block;
-vertical-align: top;
-position: relative;
-width: 400px;
-margin: 20px;
-font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-text-align:justify;
-line-height: 30px;
 
-    
+.lado-esquerdo{
+  display: inline-block;
+  vertical-align: top;
+  position: relative;
+  width: 400px;
+  margin: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align:justify;
+  line-height: 30px;
+  
+  
 }
 .lado-direito{
-display: inline-block;
-vertical-align: top;
-position: absolute;
-width: 400px;
-margin: 20px;
-font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-text-align:justify;
-line-height: 30px;
-
-
-
-
+  display: inline-block;
+  vertical-align: top;
+  position: absolute;
+  width: 400px;
+  margin: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align:justify;
+  line-height: 30px;
+  
+  
+  
+  
 }
 
 .links ul li a{
-    padding: 2px 10px;
-    display: inline-block;
-    width: 200px;
-    /* visual do link */
-    background-color:#EDEDED;
-    color: #333;
-    text-decoration: none;
-    border-bottom:3px solid #EDEDED;
+  padding: 2px 10px;
+  display: inline-block;
+  width: 200px;
+  /* visual do link */
+  background-color:#EDEDED;
+  color: #333;
+  text-decoration: none;
+  border-bottom:3px solid #EDEDED;
 }
 
 .tabela{
-    border-style: solid;
-    border-color: midnightblue;
-    text-align: center;
-    display: inline-block;
-
+  border-style: solid;
+  border-color: midnightblue;
+  text-align: center;
+  display: inline-block;
+  
 }
 
 footer{
-    text-align: center;
+  text-align: center;
 }
