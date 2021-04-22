@@ -72,6 +72,14 @@ span {
     color: rgb(255, 164, 0);
 }
 
+.fa-linkedin:hover,
+.fa-github:hover,
+.fa-envelope:hover {
+    color: rgb(227, 121, 0);
+    transition: 250ms;
+    font-size: 53px;
+}
+
 
 /* Primeira seção */
 
@@ -102,7 +110,12 @@ span {
     border-style: solid;
     border-radius: 14px;
     background-color: rgb(77, 83, 130);
-    box-shadow: 1px 2px 0.6em rgb(0, 0, 0);
+    box-shadow: 1px 2px 0.6em black;
+}
+
+.about-list:hover {
+    background-color: rgba(63, 68, 107, 0.966);
+    transition: 100ms;
 }
 
 .next-steps {
@@ -121,8 +134,13 @@ span {
     width: 45%;
     background-color: rgb(77, 83, 130);
     border-radius: 14px;
-    box-shadow: 1px 2px 0.6em rgb(0, 0, 0);
+    box-shadow: 1px 2px 0.6em black;
     position: relative;
+}
+
+.about-text:hover {
+    background-color: rgba(63, 68, 107, 0.966);
+    transition: 100ms;
 }
 
 aside.about-text {
@@ -130,8 +148,13 @@ aside.about-text {
     margin-top: 17%;
 }
 
-#lado-direito {
+.lado-direito {
     float: right;
+    position: relative;
+}
+
+.lado-esquerdo {
+    float: left;
     position: relative;
 }
 
@@ -139,23 +162,28 @@ aside.about-text {
 /* Seção da tabela */
 
 .table {
-    margin-top: 3%;
+    margin-top: 32%;
     width: 40%;
-    margin-left: 15%;
+    margin-left: 7%;
     font-size: larger;
 }
 
 table,
 th,
 td {
-    border: 2px rgb(0, 0, 0) solid;
+    border: 2px black solid;
     border-collapse: separate;
     font-size: 1.12em;
-    box-shadow: 1px 2px 0.3em rgb(0, 0, 0);
+    box-shadow: 1px 2px 0.3em black;
 }
 
 th {
     color: rgb(255, 164, 0);
+}
+
+th:hover {
+    background-color: rgba(63, 68, 107, 0.966);
+    transition: 100ms;
 }
 
 tr {
@@ -171,6 +199,6 @@ tr {
 }
 
 .wrong-check {
-    background-color: rgb(255);
+    background-color: red;
     color: rgb(253, 251, 251);
 }
