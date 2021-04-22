@@ -1,21 +1,38 @@
 body {
 	background-color: rgb(253, 251, 251);
+  padding: 0;
 }
 
 #cabecalho {
-  margin-top: 0;
+  width: 100%;
+  top: 0;
   text-align: center;
+  position: fixed;
+  background-color: rgb(77, 83, 94);
 }
 
 #titulo {
-  color:rgb(77, 83, 94);
+  color:rgb(253, 251, 251);
   font-weight:lighter;
+}
+
+#foto {
+  width: 100%;
+  position: relative;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  max-width: 100%;
+  max-height: 100%;
+
 }
 
 #minha_foto {
 	border-radius: 50%;
 	margin-left: 550px;
-}
+  margin-top: 150px;}
 
 #links {
   text-align: center;
