@@ -2,9 +2,13 @@ body {
     background-color:rgb(253, 251, 251);
 }
 #cabecalho {
+    display: inline-block;
     position: fixed;
     top: 0%;
 }
-img minha_foto.jpg{
-    width: 300px;
+#cabecalho h1#título {
+    float: right;
+    align-self: center;
+    max-width: 100%;
+    margin: auto;
 }
