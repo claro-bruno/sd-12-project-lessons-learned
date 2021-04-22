@@ -78,3 +78,13 @@ p {
     background-color: rgb(212, 212, 211);
     font-family: sans-serif;
 }
+
+
+ #licoes_aprendidas {
+    display: inline-block;
+
+}
+
+#licoes_a_aprender {
+    display: inline-block;
+} 
