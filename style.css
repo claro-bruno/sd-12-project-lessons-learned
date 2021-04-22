@@ -2,7 +2,7 @@ body {
   background-color: rgb(253, 251, 251);
   margin: 0;
   padding-top: 180px;
-  font-family: 'Nunito', sans-serif;
+  font-family: Nunito, sans-serif;
 }
 
 #cabecalho {
@@ -42,7 +42,7 @@ h2 {
 }
 
 #foto {
-  background-image: url(./images/grama.jpg);
+  background-image: url("./images/grama.jpg");
   height: 270px;
 }
 
@@ -116,6 +116,7 @@ article h2 {
   background-color: rgba(122, 60, 38, 0.2);
   height: 70px;
   color: darkgreen;
+  line-height: 22px;
 }
 
 #aside h3 {
@@ -130,7 +131,7 @@ article h2 {
 }
 
 #final {
-  margin: 0 15px 0 15px;
+  margin: 0 15px;
   width: 98%;
   height: 165px;
   background-color: mediumseagreen;
