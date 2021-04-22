@@ -14,14 +14,13 @@ body {
   z-index: 1;
 }
 
-
 h1 {
   text-align: center;
   font-size: 2.5em;
   text-decoration: none;
 }
 
-#link{
+#link {
   text-decoration: none;
   color: rgba(114, 137, 218);
 }
@@ -48,14 +47,14 @@ h1 {
 #sobre-mim {
   height: 100vh;
   background-color: rgb(153, 170, 181);
-  }
+}
 
 #minha_foto {
   margin-top: 8%;
   display: block;
   width: 25%;
   transform: translateX(-50%);
-  margin-left: 50%;  
+  margin-left: 50%;
   border-radius: 30%;
 }
 
@@ -69,48 +68,44 @@ h1 {
 }
 
 #sobre-mim-texto-head {
-    font-size: 24px;
-    color: rgb(255, 255, 255);
-    text-align: center;
-    font-family: "Roboto Slab", serif;
-    font-weight: bolder;
-    line-height: 40px;
-  }
+  font-size: 24px;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-family: "Roboto Slab", serif;
+  font-weight: bolder;
+  line-height: 40px;
+}
 
 #licoes {
-  
   background-color: rgb(114, 137, 218);
   height: 100vh;
   padding-top: 10px;
   margin: 0;
   line-height: 45px;
   color: rgb(255, 255, 255);
- 
 }
 
-#titulo-licoes{
-    font-size: 40px;
-    text-align: center;
-    margin-left: 48px;
+#titulo-licoes {
+  font-size: 40px;
+  text-align: center;
+  margin-left: 48px;
 }
 
-#aprendidas{
-display: inline-block;
-margin-left: 27%;
+#aprendidas {
+  display: inline-block;
+  margin-left: 27%;
 }
 
 #licoes_aprendidas {
   font-size: 25px;
   text-align: left;
   font-weight: bold;
-
 }
 
-#aprender{
-    display: inline-block;
-    margin-left: 20%;
+#aprender {
+  display: inline-block;
+  margin-left: 20%;
 }
-
 
 #licoes_a_aprender {
   direction: rtl;
@@ -119,77 +114,75 @@ margin-left: 27%;
   font-weight: bold;
 }
 
-#educacao{
+#educacao {
   font-size: 19px;
   background-color: rgb(114, 137, 218);
   padding-bottom: 25px;
   color: rgb(255, 255, 255);
-  }
+}
 
 .lado-esquerdo {
-    border: solid 4px rgb(44, 47, 51);
-    width: 45%;
-    float: left;
-    margin-left: 2px;
-    text-align: left;
-    font-weight: 700;
+  border: solid 4px rgb(44, 47, 51);
+  width: 45%;
+  float: left;
+  margin-left: 2px;
+  text-align: left;
+  font-weight: 700;
 }
 
 .lado-direito {
-    border: solid 4px rgb(44, 47, 51);
-    width: 30%;
-    margin-left: 69%;
-    text-align: right;
-    font-weight: 700;
+  border: solid 4px rgb(44, 47, 51);
+  width: 30%;
+  margin-left: 69%;
+  text-align: right;
+  font-weight: 700;
 }
 
-
-
-#sites-favoritos{
-    background-color: rgb(114, 137, 218);
-    font-size: 3em;
-    color: rgb(255, 255, 255);
-    padding-bottom: 20px;
-    padding-top: 20px;
+#sites-favoritos {
+  background-color: rgb(114, 137, 218);
+  font-size: 3em;
+  color: rgb(255, 255, 255);
+  padding-bottom: 20px;
+  padding-top: 20px;
 }
 
-th{
-    display: inline-block;
-    margin-left: 54.8%;
-    width: 30%;
+th {
+  display: inline-block;
+  margin-left: 54.8%;
+  width: 30%;
 }
 
-.steam{
-    color:rgb(255, 255, 255);
-    margin-left: 10px;
+.steam {
+  color: rgb(255, 255, 255);
+  margin-left: 10px;
 }
 
-.steam:hover{
-    color: rgb(153, 170, 181);
+.steam:hover {
+  color: rgb(153, 170, 181);
 }
 
-.youtube{
-    color:rgb(255, 0, 0);  
+.youtube {
+  color: rgb(255, 0, 0);
 }
 
-.youtube:hover{
-    color: rgb(153, 170, 181);
+.youtube:hover {
+  color: rgb(153, 170, 181);
 }
 
-.spotify{
-    color:rgb(30, 215, 96);
+.spotify {
+  color: rgb(30, 215, 96);
 }
 
-.spotify:hover{
-    color: rgb(153, 170, 181);
+.spotify:hover {
+  color: rgb(153, 170, 181);
 }
 
-#rodape{
-    background-color: rgb(114, 137, 218);
-    font-size: 18px;
-    color: rgb(255, 255, 255);
-    clear: both;
-    text-align: center;
-    padding: 20px;
-    font-weight: bold;
+#rodape {
+  background-color: rgb(114, 137, 218);
+  font-size: 18px;
+  color: rgb(255, 255, 255);
+  clear: both;
+  text-align: center;
+  padding: 20px;
+  font-weight: bold;
 }
