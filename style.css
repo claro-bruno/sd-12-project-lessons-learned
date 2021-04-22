@@ -30,6 +30,26 @@ body {
   height: 500px;
   background-color: #FF4E62;
 }
+.button {
+  background-color: transparent;
+  display: inline-block;
+  height: 38px;
+  margin-bottom: 1rem;
+  padding: 0 30px;
+  color: #555;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 38px;
+  letter-spacing: .2rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  border-radius: 10px; /*100px for rounded and 50% for circle*/
+  border: 5px solid #2ECFCA;
+  cursor: pointer;
+  font-family: monospace;
+  /* box-sizing: border-box; */
+}
 #cabecalho {
   position: fixed;
   top: 0;
