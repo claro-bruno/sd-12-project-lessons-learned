@@ -13,4 +13,12 @@ body{
 
 #minha_foto{
     margin-top: 80px;
+    border-radius: 30%;
+    border: 4px solid rgb(255, 0, 0);
+}
+
+#licoes_aprendidas{
+    display: inline-block;
+    background-color:aqua;
+    border: 4px solid rgb(255, 0, 0);
 }
