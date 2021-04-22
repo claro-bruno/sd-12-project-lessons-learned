@@ -9,7 +9,7 @@ body {
 .container {
   width: 1200px;
   margin: auto;
-  background-color: papayawhip;
+
 }
 
 
@@ -26,7 +26,7 @@ body {
 }
 
 #quem-sou {
-  background-color: rgb(15, 79, 79);
+
   display: inline-flex;
   margin-top: 155px;
   width: 100%;
@@ -40,18 +40,26 @@ body {
   width: 35%;
   margin: auto;
   display: inline-flexbox;
-  align-items: center;
+
 }
 
 .col-2 {
 
-  background-color: pink;
   width: 50%;
 
 }
 
+
+.col-2 li {
+
+  text-align: left;
+  color: #0c4934;
+
+
+}
+
 .col-3 {
-  background-color: purple;
+
   width: 100%;
 }
 
@@ -72,7 +80,7 @@ nav {
 }
 
 nav ul li {
-  color: antiquewhite;
+
   list-style: none;
   padding: 0px;
   margin: 0px;
