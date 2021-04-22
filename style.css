@@ -7,7 +7,7 @@
 
 body {
   background-color: rgb(253, 251, 251);
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 #cabecalho {
@@ -34,6 +34,7 @@ body {
   right: 0;
   top: 100px;
 }
+
 #meu_nome {
   position: absolute;
   margin: auto;
@@ -63,6 +64,7 @@ h2 {
   margin-bottom: 2rem;
   color: white;
 }
+
 .cartao_artigo {
   background: rgb(47, 49, 54);
   padding: 1.5rem 2rem 18.8rem;
@@ -70,6 +72,7 @@ h2 {
   margin-bottom: 2rem;
   color: white;
 }
+
 #licoes_aprendidas {
   float: left;
   position: relative;
