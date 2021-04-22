@@ -3,6 +3,8 @@ body {
   font-size: 20px;
   line-height: 35px;
   background-color: rgb(253, 251, 251);
+  width: 1366px;
+  height: 768px;
 }
 
 #footer {
@@ -39,12 +41,12 @@ body {
 
 .lado-direito {
   display: inline-block;
-  float: right;
+  text-align: right;  
 }
 
 .lado-esquerdo {
   display: inline-block;
-  float: left;
+  text-align: left;
 }
 
 section article {
