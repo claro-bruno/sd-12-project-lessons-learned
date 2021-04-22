@@ -71,42 +71,27 @@ body{
     text-align: center;
 }
 
-.others_parent{
-    display: flex;
+.container{
+    display: inline-block;
     font-size: 30px;
     width: 100%;
-    padding: 50px 100px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    line-height: 45px;
 }
 
 .lado_esquerdo{
-    background-color: #f2f2f2;
-    text-align: justify;
     float:left;
-}
-
-.lado_esquerdo h3{
+    width:50%;
+    background-color: lightsalmon;
     text-align: center;
-    color: darkgreen;
 }
 
 .lado_direito{
-    background-color: #f2f2f2;
-    justify-content: center;
-    place-items: center;
-    margin: 50px 150px 50px 50px;
     float:right;
-}
-
-.lado_direito h3{
+    width: 50%;
+    background-color: lightskyblue;
     text-align: center;
-    color: darkgreen;
+}
 
-}
-.lado_direito p{
-    text-align: justify;
-}
 
 .tabela {
     justify-content: center;
