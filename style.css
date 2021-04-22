@@ -38,17 +38,25 @@ h2 {
   font-size: 1.3em;
 }
 
+.lado-esquerdo {
+  width: 400px;
+}
+
+.lado-direito {
+  width: 400px;
+  position: absolute;
+  left: 780px;
+  top: 1110px;
+}
+
 .texto {
   line-height: 1.5em;
 }
 
 #rodape {
-  
   margin-top: 20px;
-  padding: 5px 5px 5px 5px;
-  /* padding-left: 5px;
-  padding-bottom: 5px;
-  padding-right: 5px; */
+  margin-bottom: 0px;
+  padding: 5px;
   background-color: teal;
 }
 
