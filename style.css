@@ -13,22 +13,22 @@ body {
 }
 .bg-header {
   top: 0;
-  height: 185px;
+  height: 100px;
   background-color: #2ECFCA;
 }
 .bg-hero {
-  top: 185px;
-  height: 500px;
+  top: 100px;
+  height: 430px;
   background-color: #FF4E62;
 }
 .bg-lessons-learned {
-  top: 685px;
+  top: 530px;
   height: 600px;
   background-color: #2ECFCA;
 }
 .bg-lessons-to-be {
-  top: 1235px;
-  height: 500px;
+  top: 1130px;
+  height: 515px;
   background-color: #FF4E62;
 }
 .button {
@@ -64,8 +64,11 @@ body {
 }
 
 article {
-  width: 600px;
-  margin: 100px 0 0 0;
+  width: 900px;
+  margin: 130px 0 0 0;
+}
+section > h2 {
+  margin: 80px 0 0 0;
 }
 
 main ol li,main ul li {
@@ -122,6 +125,6 @@ header a.button:hover {
   border: 10px solid #2ECFCA;
   border-radius: 110px;
 }
-#titulo {
-
+#lessons-to-be {
+  margin: 50px 0 0 0;
 }
