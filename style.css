@@ -14,6 +14,7 @@ body {
     width: 100%;
     height: 110px;
     color: green;
+    top: 0%;
 }
 
 #titulo {
@@ -30,6 +31,7 @@ h3 {
     text-align: right;
     margin-left: auto;
     margin-right: auto;
+    height: auto;
 }
 
 
@@ -115,4 +117,12 @@ li:active {
 
 li:hover {
     color: green;
+}
+
+#buttonGitHub {
+    border: none;
+    width: 50px;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0;
 }
