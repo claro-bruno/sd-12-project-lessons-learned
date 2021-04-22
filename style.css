@@ -82,7 +82,7 @@ main ol li,main ul li {
 
 nav li {
   list-style: none;
-  height: 50px;
+  height: 40px;
 }
 nav a {
   text-decoration: none;
