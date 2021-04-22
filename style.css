@@ -25,6 +25,8 @@ body {
 }
 #rodape {
     font-size: 10px;
+    color: grey;
+    
 }
 a {
     font-size: 25px;
@@ -33,3 +35,12 @@ a {
 .aprendidas {
     font-size: 30px;
 }
+.queroaprender {
+    font-size: 30px;
+}
+
+.articletext {
+    color:rgb(20, 66, 44);
+    font-size: 20px;
+}
+
