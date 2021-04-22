@@ -1,11 +1,10 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Antonio:wght@100;200;300;400;500;600;700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
 
-/*tags*/
+/* tags */
 body {
   background-color: rgb(253, 251, 251);
   margin: 0;
-  font-family: 'Antonio', sans-serif;
+  font-family: Antonio, sans-serif;
 }
 
 a {
@@ -16,29 +15,30 @@ a {
   color: white;
 }
 
-a:hover{
+a:hover {
   text-decoration: underline;
 }
 
 h1, h2 {
   text-align: center;
-
 }
 
-/*header*/
+li {
+  color: white;
+  font-size: 20px;
+}
+
+/* header */
 
 #cabecalho {
   position: fixed;
   top: 0;
   width: 100%;
-  background-color: darkgreen;
+  background: radial-gradient(50% 50% at 50% 50%, rgba(30, 142, 61, 0.75) 0%, #1E8E3D 100%);
+  opacity: 0.9;
   z-index: 2;
-  color: #FFF;
+  color: white;
   padding: 0 15px;
-}
-
-#cabecalho h2, #cabecalho ul, #cabecalho li,#cabecalho nav {
-  display: inline-block;
 }
 
 #titulo {
@@ -55,22 +55,21 @@ h1, h2 {
   margin-right: 20px;
 }
 
-/*Foto*/
+/* Foto */
 
-.main {
-  height: 600px;
+#foto{
+  height: 500px;
   padding-top: 15vh;
 }
 
-.card{
+.card {
   width: 900px;
   height: 420px;
-  background-color: darkgreen;
+  background: radial-gradient(50% 50% at 50% 50%, rgba(30, 142, 61, 0.75) 0%, #1E8E3D 100%);
   border-radius: 45px;
   position: relative;
   top: 60px;
-  left: 250px;
-  justify-content: center;
+  left: 17%;
   z-index: 1;
 }
 
@@ -78,7 +77,7 @@ h1, h2 {
   position: relative;
   border-radius: 50%;
   padding: 10px;
-  background-color: black;
+  background-color: #333;
   float: left;
   top: 80px;
   left: 60px;
@@ -95,7 +94,7 @@ h1, h2 {
 
 .nome {
   font-size: 60px;
-  margin: 20px 0px;
+  margin: 20px 0;
   color: white;
 }
 
@@ -112,9 +111,48 @@ h1, h2 {
   color: white;
 }
 
-/*listas*/
+/* listas */
 
-.container-listas {
+.titulo-listas {
+  font-size: 50px;
+}
+
+.listas {
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+.aprendidas {
+  float: left;
+  background: radial-gradient(50% 50% at 50% 50%, rgba(30, 142, 61, 0.75) 0%, #1E8E3D 100%);
+  width: 300px;
+  border-radius: 10%;
+}
+
+.aprender {
+  float: right;
+  background: radial-gradient(50% 50% at 50% 50%, rgba(30, 142, 61, 0.75) 0%, #1E8E3D 100%);
+  width: 300px;
+  border-radius: 10%;
+}
+
+#licoes_aprendidas {
+  text-align: center;
+}
+#licoes_a_aprender {
+  text-align: center;
+}
+
+.titulo-lista {
+  font-size: 25px;
+  color: white;
+  text-align: center;
+  padding-bottom: 10px;
+  text-decoration: underline;
+}
+
+
+/*.container-listas {
   position: absolute;
   top: 650px;
   width: 100%;
@@ -122,14 +160,31 @@ h1, h2 {
   background-color: darkgreen;
 }
 
+.titulo-lista{
+  font-size: 50px;
+  color: white;
+}
+
+.listas {
+  margin-left: 35%;
+  margin-right: 35%;
+}
+
+#licoes_aprendidas {
+  float: left;
+  background-color: white;
+}
+#licoes_a_aprender {
+  float: right;
+}
 .img {
   height: 500px;
 }
 
 .listas {
-  position: relative;
-  display: flex;
+  background: white;
   margin-left: 35%;
+  margin-right: 35%;
 }
 
 .lado {
