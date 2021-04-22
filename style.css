@@ -13,7 +13,7 @@ header {
     height: 90px;
 }
 
-li, p {
+li, p, table {
     padding: 3px;
     font-family: 'Roboto';
     line-height: 19px;
@@ -27,7 +27,6 @@ h2, h3, footer {
 
 a {
     text-decoration: none;
-
     font-weight: 900;
     color: blueviolet;
     line-height: 19px;
@@ -92,7 +91,6 @@ a:hover {
     border-radius: 6px;
     padding: 25px;
     margin: 5px;
-
 }
 
 .links_estudos li {
@@ -145,6 +143,16 @@ a:hover {
     border: solid blueviolet;
     margin: 1px;
     border-radius: 6px;
+}
+
+table {
+    position:relative;
+    top: 800px;
+    left: 225px;
+    line-height: 30px;
+    padding: 3px;
+    border: 3px solid lavender;
+    border-collapse: collapse;
 }
 
 #rodape {
