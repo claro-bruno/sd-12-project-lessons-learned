@@ -21,27 +21,32 @@ a {
   font-weight: 600;
 }
 
-#presentation {
+.presentation {
   width: 100%;
-  height: 400px;
+  height: 300px;
+  position: relative;
 }
 #presentation2 {
-  display: inline-block;
+  position: relative;
   max-width: 50%;
-  position: absolute;
-  left: 45%;
-  top: 250px;
+  left: 40%;
+  top: 50%;
+  transform: translateY(-50%);
   font-size: 22px;
   color: #475550;
 }
 
+#presentation3 {
+  
+}
+
 #minha_foto {
-  display: inline-block;
   width: 250px;
-  border: 5px solid #026B52;
+  position: relative;
   border-radius: 50%;
-  position: absolute;
-  margin: 60px;
+  border: 3px solid green;
+  left: 15%;
+  bottom: 10%;
 }
 
 #cabecalho {
@@ -64,6 +69,40 @@ a {
   text-align: center;
   width: 100%;
   border-bottom: 1px solid black;
+}
+
+.tg  {border-collapse:collapse;border-color:#bbb;border-spacing:0;
+}
+
+.tg td {
+  background-color:#E0FFEB;border-color:#bbb;border-style:solid;border-width:0px;
+  color:#594F4F;
+  font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;word-break:normal;
+}
+.tg th {
+  background-color:#9DE0AD;border-color:#bbb;border-style:solid;border-width:0px;
+  color:#493F3F;
+  font-family:Arial, sans-serif;font-size:14px;font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;
+}
+
+.tg .tg-rebb {
+  border-color:inherit;font-family:Verdana, Geneva, sans-serif !important;
+  font-weight: bold;
+  text-align: center;
+  vertical-align: top;
+}
+
+.tg .tg-1av6 {
+  border-color:inherit;font-family:Verdana, Geneva, sans-serif !important;text-align:center;text-decoration:underline;
+  vertical-align:top;
+}
+
+.tg .tg-jzjz {
+  font-family:Verdana, Geneva, sans-serif !important;text-align:center;vertical-align:top
+}
+
+.tg .tg-ix6g {
+  border-color:inherit;font-family:Verdana, Geneva, sans-serif !important;text-align:center;vertical-align:top
 }
 
 #licoes_aprendidas {
