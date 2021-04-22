@@ -15,23 +15,32 @@ header {
     text-align: center;
 }
 
+a {
+    text-decoration: none;
+
+}
+
 img {
     margin-top: 80px;
     width: 300px;
 }
 
-p {
-    padding: 0 10px 0 10px;
-}
-
 article, aside {
     margin-right: 3%;
     margin-left: 5%;
+    margin-bottom: 2%;
     width: 40%;
     display: inline-block;
     border: 1px solid black;
     border-radius: 5px;
     box-shadow: 5px 5px 10px 5px gray;
+}
+
+p {
+    padding: 0 10px 0 10px;
+    line-height: 25px;
+    font-size: 20px;
+    font-family: fantasy;
 }
 
 /* Classes */
@@ -44,4 +53,6 @@ article, aside {
 
 #titulo {
     margin-bottom: 15px;
+    color: wheat;
+    text-shadow: 5px 5px 5px rgb(43, 42, 42);
 }
