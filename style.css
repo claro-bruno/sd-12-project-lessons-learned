@@ -1,4 +1,4 @@
-body{
+body {
   background-color:rgb(253, 251, 251);
   font-size: larger;
   word-spacing: 5px;
@@ -6,15 +6,15 @@ body{
   font-style: italic;
 }
 
-main{
+main {
   margin-left: 150px;
   margin-top: 50px;
   
 }
 
-button{
+button {
   
-  background-color: #4CAF50; /* Green */
+  background-color: #4caf50; /* Green */
   border: none;
   color: white;
   padding: 15px 32px;
@@ -39,7 +39,7 @@ hr{
   height: 2px;
 }
 
-.cabecalho{
+.cabecalho {
   background-color: rgb(35, 228, 28);
   position: fixed;
   top: 0;
@@ -48,15 +48,15 @@ hr{
   height: 150px;
 }
 
-h1{
+h1 {
   text-align: center;
 }
 
-h2{
+h2 {
   text-align: center;
 }
 
-.foto{
+.foto {
   border-radius: 60%;
   display: inline-block;
   border-style: solid;
@@ -66,7 +66,7 @@ h2{
 }
 
 
-.lado-esquerdo{
+.lado-esquerdo {
   display: inline-block;
   vertical-align: top;
   position: relative;
@@ -78,7 +78,7 @@ h2{
   
   
 }
-.lado-direito{
+.lado-direito {
   display: inline-block;
   vertical-align: top;
   position: absolute;
@@ -88,23 +88,20 @@ h2{
   text-align:justify;
   line-height: 30px;
   
-  
-  
-  
 }
 
-.links ul li a{
+.links ul li a {
   padding: 2px 10px;
   display: inline-block;
   width: 200px;
   /* visual do link */
-  background-color:#EDEDED;
+  background-color:#ededed";
   color: #333;
   text-decoration: none;
-  border-bottom:3px solid #EDEDED;
+  border-bottom:3px solid #ededed";
 }
 
-.tabela{
+.tabela {
   border-style: solid;
   border-color: midnightblue;
   text-align: center;
@@ -112,6 +109,6 @@ h2{
   
 }
 
-footer{
+footer {
   text-align: center;
 }
