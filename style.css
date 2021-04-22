@@ -17,7 +17,13 @@ header {
 
 a {
     text-decoration: none;
+    color: rgb(170, 228, 220);
+}
 
+a:hover {
+    color: wheat;
+    text-shadow: 1px 1px 3px black;
+    transition: 0.5s;
 }
 
 img {
