@@ -14,8 +14,8 @@ body {
     margin: 0;
     padding: 1vh 3vw 1vh 5vw;
     width: 90vw;
-    color: #1d3557ff;
-    
+    color: #122532;
+    background: url(/sd-12-project-lessons-learned/images/sincerely-media-OOHsoUNRxt8-unsplash.png) no-repeat center fixed;
 }
 
 /* 
@@ -56,12 +56,12 @@ Source: https://www.w3schools.com/cssref/sel_visited.asp
 
 .home {
     transition-duration: .5s;
-    color: #1d3557ff;
+    color: #122532;
 
 }
 
 .nav a:visited {
-    color: #1d3557ff;
+    color: #122532;
 }
 
 .perfil {
@@ -105,7 +105,8 @@ Source: https://www.w3schools.com/cssref/sel_visited.asp
     flex-flow: column nowrap;
     align-items: center;
     transition-duration: .5s;
-    background-color:#a8dadcff;
+    background-color:#122532;
+    color: #f1faeeff;
 }
 
 /* 
