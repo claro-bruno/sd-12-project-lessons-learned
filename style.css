@@ -13,6 +13,7 @@ body {
 }
 .bg-header {
   height: 185px;
+  background-color: #2ECFCA;
 }
 .bg-hero {
   top: 185px;
