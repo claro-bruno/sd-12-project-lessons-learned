@@ -1,6 +1,11 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+
+/*tags*/
 body {
   background-color: rgb(253, 251, 251);
   margin: 0;
+  font-family: 'Open Sans', sans-serif;
 }
 
 a {
@@ -12,6 +17,10 @@ a {
   font-family: Times, serif;
 }
 
+a:hover{
+  text-decoration: underline;
+}
+
 h1 {
   text-align: center;
   color: white;
@@ -21,6 +30,13 @@ h2 {
   text-align: center;
 }
 
+/*header*/
+
+.menu {
+  position: relative;
+  top: 25px;
+  float: right;
+}
 #cabecalho {
   position: fixed;
   top: 0;
@@ -42,6 +58,10 @@ h2 {
   background-color: darkgreen;
   top: 180px;
   left: 400px;
+}
+
+#titulo{
+  float: left;
 }
 
 .img {
