@@ -1,193 +1,192 @@
 * {
-    margin: 0;
+  margin: 0;
 }
 
 body {
-    background-color: rgb(253, 251, 251);
+  background-color: rgb(253, 251, 251);
 }
 
 #cabecalho {
-    position: fixed;
-    top: 0;
-    z-index: 2;
-    background-color: seagreen;
-    color: white;
-    width: 100%;
-    padding: 20px 15px 10px;
+  position: fixed;
+  top: 0;
+  z-index: 2;
+  background-color: seagreen;
+  color: white;
+  width: 100%;
+  padding: 20px 15px 10px;
 }
 
 #titulo {
-    text-align: center;
-    padding-bottom: 15px;
-    font-size: 45px;
-    font-family: 'Orelega One', cursive;
+  text-align: center;
+  padding-bottom: 15px;
+  font-size: 45px;
+  font-family: Orelega One, cursive;
 }
 
 .links {
-    padding: 5px;
-    background-color: cadetblue;
-    width: fit-content;
-    border-radius: 5px;
+  padding: 5px;
+  background-color: cadetblue;
+  width: fit-content;
+  border-radius: 5px;
 }
+
 #nav_links a {
-    text-decoration: none;
-    color: white;   
+  text-decoration: none;
+  color: white;
 }
 
 main {
-    margin-top: 122px;
+  margin-top: 122px;
 }
 
 .profile {
-    padding: 30px 30px 15px;
+  padding: 30px 30px 15px;
 }
 
 #profile_content {
-    display: block;
-    margin: 0 auto;
-    text-align: center;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
 }
 
 #profile_info {
-    display: inline-block;
-    width: 50%;
-    vertical-align: middle;
+  display: inline-block;
+  width: 50%;
+  vertical-align: middle;
 }
 
 #minha_foto {
-    width: 220px;
-    border-radius: 30%;
-    display: block;
-    margin: 0 auto;
-    border: 5px solid seagreen;
+  width: 220px;
+  border-radius: 30%;
+  display: block;
+  margin: 0 auto;
+  border: 5px solid seagreen;
 }
 
 #infos {
-    text-align: center;
-    padding: 10px;
-    line-height: 20px;
+  text-align: center;
+  padding: 10px;
+  line-height: 20px;
 }
 
 table {
-    display: inline-block;
-    vertical-align: middle;    
-    background-color: #E0FFFD;
-    border-spacing: 0;
-    text-align: center;
-    margin-bottom: 7%;
+  display: inline-block;
+  vertical-align: middle;
+  background-color: rgb(224, 255, 253);
+  border-spacing: 0;
+  text-align: center;
+  margin-bottom: 7%;
 }
 
 #trybe_table {
-    border: 1px solid black;
-    border-radius: 5px;
-    padding: 2px;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 2px;
 }
 
-table th, td {
-    border-radius: 5px;
+table th , td {
+  border-radius: 5px;
 }
 
-tr:nth-child(odd) {
-    background-color: #D7FDDF;
+tr:nth-child( odd ) {
+  background-color: rgb(215, 253, 223);
 }
 
 tfoot th {
-    background-color: #E0FFFD;
+  background-color: rgb(224, 255, 253);
 }
 
-table th, table td {
-    border:  1px solid black;
-    padding: 3px 40px;
+table th , table td {
+  border: 1px solid black;
+  padding: 3px 40px;
 }
 
-a.anchor {
-    display: block;
-    position: relative;
-    top: -195px;
-    visibility: hidden;
+.anchor {
+  display: block;
+  position: relative;
+  top: -195px;
+  visibility: hidden;
 }
 
 #lessons {
-    background-color: seagreen;
-    padding: 15px 30px 15px;
-    margin: 0 auto;
-    color: white;
+  background-color: seagreen;
+  padding: 15px 30px;
+  margin: 0 auto;
+  color: white;
 }
 
 #lessons h2 {
-    text-decoration: underline;
-    font-size: 30px;
-    margin-bottom: 20px;
+  text-decoration: underline;
+  font-size: 30px;
+  margin-bottom: 20px;
 }
 
-#lessons ol, ul, li {
-    line-height: 30px;
+#lessons ol , ul , li {
+  line-height: 30px;
 }
 
 .lessons_learned {
-    display: inline-block;
-    width: 35%;
-    font-size: 20px;
+  display: inline-block;
+  width: 35%;
+  font-size: 20px;
 }
 
 .lessons_to_learn {
-    display: inline-block;
-    width: 35%;
-    font-size: 20px;
+  display: inline-block;
+  width: 35%;
+  font-size: 20px;
 }
 
 #learning_trybe {
-    padding: 15px 30px 15px;
+  padding: 15px 30px;
 }
 
 #learning_trybe h2 {
-    text-decoration: underline;
-    font-size: 30px;
-    margin-bottom: 20px;
+  text-decoration: underline;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+#learning_trybe h3 {
+  font-family: Roboto, sans-serif;
 }
 
 #learning_trybe p {
-    line-height: 25px;
+  font-family: Roboto, sans-serif;
+  line-height: 25px;
+  text-indent: 1.5em;
 }
 
 #learning_trybe .lado-esquerdo {
-    width: 50%;
-    text-align: justify;
-    display: inline-block;
+  width: 50%;
+  text-align: justify;
+  display: inline-block;
 }
 
-#learning_trybe .lado-esquerdo h3{
-    font-size: 20px;
-}
-
-#learning_trybe h3, p {
-    font-family: 'Roboto', sans-serif;;
-}
-
-#learning_trybe p {
-    text-indent: 1.5em;
+#learning_trybe .lado-esquerdo h3 {
+  font-size: 20px;
 }
 
 #learning_trybe .lado-direito {
-    width: 30%;
-    text-align: justify;
-    vertical-align: top;
-    display: inline-block;
-    margin-left: 15%;
+  width: 30%;
+  text-align: justify;
+  vertical-align: top;
+  display: inline-block;
+  margin-left: 15%;
 }
 
 #rodape {
-    background-color: seagreen;
-    padding: 10px 30px 10px;
+  background-color: seagreen;
+  padding: 10px 30px;
 }
 
 #rodape p {
-    color: white;
-    position: relative;
-    float: right;
+  color: white;
+  position: relative;
+  float: right;
 }
 
 #rodape a {
-    text-decoration: none;
-    color: white;
+  text-decoration: none;
+  color: white;
 }

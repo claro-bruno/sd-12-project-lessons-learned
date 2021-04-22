@@ -1,132 +1,132 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link href="https://fonts.googleapis.com/css2?family=Orelega+One&family=Roboto&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lições - Trybe</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orelega+One&family=Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  
+  <section id="cabecalho">
+    <header>
+      <h1 id="titulo">Lições aprendidas - Trybe!</h1>
+      <div class="links" >
+        <nav id="nav_links">
+          <a href="#lessons_anchor">Lições |</a>
+          <a href="#learning_trybe">| Aprendizado na Trybe |</a>
+          <a href="#rodape">| Contato</a>
+        </nav>
+      </div>
+    </header>
+  </section>
+  
+  <main>
     
-    <section id="cabecalho">
-        <header>
-            <h1 id="titulo">Lições aprendidas - Trybe!</h1>
-            <div class="links" >
-                <nav id="nav_links">
-                    <a href="#lessons_anchor">Lições |</a>
-                    <a href="#learning_trybe">| Aprendizado na Trybe |</a>
-                    <a href="#rodape">| Contato</a>
-                </nav>
-            </div>
-        </header>
+    <section class="profile">
+      <div id="profile_content"></div>
+      <div id="profile_info">
+        <img id="minha_foto" src="foto_thalles_carneiro.jpg" alt="Foto de Thalles Carneiro">
+        <div id="infos">
+          <p>Thalles de Oliveira Carneiro</p>
+          <p>27 anos || Guarapari-ES</p>
+          <p>Estudante de Desenvolvimento Web na Trybe</p>
+        </div>
+      </div>
+      <table id="trybe_table">
+        <thread>
+          <tr>
+            <th id="table_title" scope="col" colspan="3">Trybe</th>
+          </tr>
+          <tr>
+            <th id="requests" scope="col">Requisitos</th>
+            <th id="performance" scope="col">Desempenho</th>
+            <th id="rating" scope="col">Avaliação</th>
+          </tr>
+        </thread>
+        <tbody>
+          <tr>
+            <td headers="requests">Professores</td>
+            <td headers="performance">Excelente</td>
+            <td headers="rating">&check;</td>
+          </tr>
+          <tr>
+            <td headers="requests">Conteúdo</td>
+            <td headers="performance">Excelente</td>
+            <td headers="rating">&check;</td>
+          </tr>
+          <tr>
+            <td headers="requests">Aulas ao vivo</td>
+            <td headers="performance">Excelente</td>
+            <td headers="rating">&check;</td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <th id="result" scope="row">Resultado:</th>
+            <th id="approved" scope="row" colspan="2">Aprovada!</th>
+          </tr>
+        </tfoot>
+      </table>
+    </div>
+  </section>
+  
+  <section id="lessons">
+    <h2>Lições:</h2>
+    <section class="lessons_learned">
+      <a class="anchor" id="lessons_anchor"></a>
+      <h3>Lições Aprendidas</h3>
+      <ol id="licoes_aprendidas">
+        <li>Unix</li>
+        <li>Empatia</li>
+        <li>Git</li>
+        <li>Github</li>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>HTML Semântico</li>
+        <li>Slack</li>
+        <li>Zoom</li>
+        <li>Inspecionar</li>
+      </ol>
     </section>
+    <section class="lessons_to_learn">
+      <h3>Lições a Aprender</h3>
+      <ul id="licoes_a_aprender">
+        <li>JavaScript</li>
+        <li>CSS Responsivo</li>
+        <li>ES6</li>
+        <li>Testes Unitários</li>
+        <li>React</li>
+        <li>Metodologias Ágeis</li>
+        <li>SQL</li>
+        <li>NodeJS</li>
+        <li>Python</li>
+        <li>Algoritmos</li>
+      </ul>
+    </section>
+  </section>
+  
+  <section id="learning_trybe">
+    <h2>Aprendizado na Trybe:</h2>
+    <article class="lado-esquerdo">
+      <h3>Aprendizado em duas semanas</h3>
+      <p>Em tão pouco tempo aprendi coisas novas, que nunca imaginei que tornariam-se parte do meu cotidiano. Os professores e instrutores se preocupam não só com o aprendizado do conteúdo em si, mas também nos incentivam a sempre pesquisar sobre as dúvidas. Isso já é um grande diferencial, por isso não tenho dúvidas de que com muito esforço serei capaz de trilhar uma jornada incrível com a Trybe!</p>
+    </article>
+    <aside class="lado-direito">
+      <h3>Metodologia de ensino ativo em ação!</h3>
+      <p>Essa metodologia ajuda a desenvolver nossa capacidade de resolução de problemas, nos dando maior autonomia. Além disso, fixa melhor o conteúdo após os extensos testes e pesquisas realizados para solucionar o problema.</p>
+    </aside>
+  </section>
+  
+</main>
 
-    <main>
-        
-        <section class="profile">
-            <div id="profile_content"></div>
-                <div id="profile_info">
-                    <img id="minha_foto" src="foto_thalles_carneiro.jpg" alt="Foto de Thalles Carneiro">
-                    <div id="infos">
-                        <p>Thalles de Oliveira Carneiro</p>
-                        <p>27 anos || Guarapari-ES</p>
-                        <p>Estudante de Desenvolvimento Web na Trybe</p>
-                    </div>
-                </div>
-                <table id="trybe_table">
-                    <thread>
-                        <tr>
-                            <th id="table_title" scope="col" colspan="3">Trybe</th>
-                        </tr>
-                        <tr>
-                            <th id="requests" scope="col">Requisitos</th>
-                            <th id="performance" scope="col">Desempenho</th>
-                            <th id="rating" scope="col">Avaliação</th>
-                        </tr>
-                    </thread>
-                    <tbody>
-                        <tr>
-                            <td headers="requests">Professores</td>
-                            <td headers="performance">Excelente</td>
-                            <td headers="rating">&check;</td>
-                        </tr>
-                        <tr>
-                            <td headers="requests">Conteúdo</td>
-                            <td headers="performance">Excelente</td>
-                            <td headers="rating">&check;</td>
-                        </tr>
-                        <tr>
-                            <td headers="requests">Aulas ao vivo</td>
-                            <td headers="performance">Excelente</td>
-                            <td headers="rating">&check;</td>
-                        </tr>
-                    </tbody>
-                    <tfoot>
-                        <tr>
-                            <th id="result" scope="row">Resultado:</th>
-                            <th id="approved" scope="row" colspan="2">Aprovada!</th>
-                        </tr>
-                    </tfoot>
-                </table>
-            </div>
-        </section>
-
-        <section id="lessons">
-            <h2>Lições:</h2>
-            <section class="lessons_learned">
-                <a class="anchor" id="lessons_anchor"></a>
-                <h3>Lições Aprendidas</h3>
-                <ol id="licoes_aprendidas">
-                    <li>Unix</li>
-                    <li>Empatia</li>
-                    <li>Git</li>
-                    <li>Github</li>
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>HTML Semântico</li>
-                    <li>Slack</li>
-                    <li>Zoom</li>
-                    <li>Inspecionar</li>
-                </ol>
-            </section>
-            <section class="lessons_to_learn">
-                <h3>Lições a Aprender</h3>
-                <ul id="licoes_a_aprender">
-                    <li>JavaScript</li>
-                    <li>CSS Responsivo</li>
-                    <li>ES6</li>
-                    <li>Testes Unitários</li>
-                    <li>React</li>
-                    <li>Metodologias Ágeis</li>
-                    <li>SQL</li>
-                    <li>NodeJS</li>
-                    <li>Python</li>
-                    <li>Algoritmos</li>
-                </ul>
-            </section>
-        </section>
-
-        <section id="learning_trybe">
-            <h2>Aprendizado na Trybe:</h2>
-            <article class="lado-esquerdo">
-                <h3>Aprendizado em duas semanas</h3>
-                <p>Em tão pouco tempo aprendi coisas novas, que nunca imaginei que tornariam-se parte do meu cotidiano. Os professores e instrutores se preocupam não só com o aprendizado do conteúdo em si, mas também nos incentivam a sempre pesquisar sobre as dúvidas. Isso já é um grande diferencial, por isso não tenho dúvidas de que com muito esforço serei capaz de trilhar uma jornada incrível com a Trybe!</p>
-            </article>
-            <aside class="lado-direito">
-                <h3>Metodologia de ensino ativo em ação!</h3>
-                <p>Essa metodologia ajuda a desenvolver nossa capacidade de resolução de problemas, nos dando maior autonomia. Além disso, fixa melhor o conteúdo após os extensos testes e pesquisas realizados para solucionar o problema.</p>
-            </aside>
-        </section>
-
-    </main>
-    
-    <footer id="rodape">
-        <p>Todos os direitos reservados, Thalles Carneiro</p>
-        <a class="links" href="https://github.com/thalles-carneiro" target="_blank">GitHub</a>
-        <a class="links" href="https://thalles-carneiro.github.io/" target="_blank">Portfólio</a>
-    </footer>
+<footer id="rodape">
+  <p>Todos os direitos reservados, Thalles Carneiro</p>
+  <a class="links" href="https://github.com/thalles-carneiro" target="_blank">GitHub</a>
+  <a class="links" href="https://thalles-carneiro.github.io/" target="_blank">Portfólio</a>
+</footer>
 
 </body>
 </html>
