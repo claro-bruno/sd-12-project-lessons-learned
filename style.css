@@ -11,3 +11,21 @@ body {
   width: 100%;
   z-index: -1;
 }
+.bg-header {
+  height: 185px;
+}
+.bg-hero {
+  top: 185px;
+  height: 500px;
+  background-color: #FF4E62;
+}
+.bg-lessons-learned {
+  top: 685px;
+  height: 600px;
+  background-color: #2ECFCA;
+}
+.bg-lessons-to-be {
+  top: 1235px;
+  height: 500px;
+  background-color: #FF4E62;
+}
