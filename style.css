@@ -21,7 +21,8 @@ main {
 }
 #minha_foto {
   top: 100;
-  position: relative ;
+  position:relative;
+  /* ver aula ao vivo com o moço de natal */
   width: 40%;
   display: block;
   margin-left: auto; 
