@@ -74,14 +74,14 @@ img {
     color: #036b52;
 }
 
-#lado-esquerdo {
+.lado-esquerdo {
     width: 40%;
     display: inline-block;
     text-align: justify;
     text-indent: 40px;
 }
 
-#lado-direito {
+.lado-direito {
     width: 30%;
     display: inline-block;
     padding-left: 5%;
