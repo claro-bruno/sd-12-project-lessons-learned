@@ -75,30 +75,55 @@ main{
 h4{
     text-align: center;
 }
-article .article_trybe{
-    width: 800px;
-    height: 170px;
+article, aside{
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 50px;
+}
+article .lado-esquerdo{
+    width: 500px;
+    height: 190px;
     border: solid;
     border-radius: 20px;
     margin-top: 50px;
     text-align: justify;
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: bolder;
+    color:green;
+    border-color: blue;
 }
-article .article_trybe h2{
+article .lado-esquerdo h2{
     text-align: center;
 }
 p{
     padding: 20px 10px 10px 10px;
 }
-aside .aside_learned{
-    width: 800px;
-    height: 140px;
+aside .lado-direito{
+    width: 500px;
+    height: 190px;
     border: solid;
     border-radius: 20px;
     margin-top: 50px;
     text-align: justify;
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: bolder;
+    color: crimson;
+    border-color: green;
 }
-aside .aside_learned h3{
+aside .lado-direito h2{
     text-align: center;
+}
+table{
+    width: 500px;
+    border: solid;
+    margin-left: 50px;
+    margin-top: 50px;
+    text-align: center;
+    border-radius: 20px;
+    border-color: green;
+    color: blueviolet;
 }
 footer{
     width: 100%;
