@@ -6,11 +6,24 @@ body {
 h2 {
     text-align: center;
     color: rgb(255, 164, 0);
+    font-size: 1.6em;
 }
 
 h3 {
     font-size: xx-large;
     color: rgb(255, 164, 0);
+}
+
+li,
+p {
+    color: rgb(253, 251, 251);
+    font-family: 'Righteous', cursive;
+    line-height: 35px;
+    font-size: 1.1em;
+}
+
+span {
+    color: #2fc18c
 }
 
 
@@ -22,7 +35,7 @@ h3 {
     width: 99.9%;
     height: 100px;
     background-color: rgb(77, 83, 130);
-    box-shadow: 1px 10px 2em;
+    box-shadow: 1px 1px 0.7em rgb(77, 83, 130);
     z-index: 1;
 }
 
@@ -50,7 +63,7 @@ h3 {
 
 .fab,
 .far {
-    font-size: 36px;
+    font-size: 42px;
 }
 
 .fa-linkedin,
@@ -73,6 +86,8 @@ h3 {
     position: absolute;
     right: 50%;
     transform: translatex(50%);
+    border-radius: 25%;
+    box-shadow: 1px 2px 0.6em rgb(77, 83, 130);
 }
 
 
@@ -88,6 +103,7 @@ h3 {
     border-style: solid;
     border-radius: 14px;
     background-color: rgb(77, 83, 130);
+    box-shadow: 1px 2px 0.6em black;
 }
 
 .next-steps {
@@ -99,12 +115,14 @@ h3 {
 
 .about-text {
     border-style: solid;
-    padding: 1.5%;
+    padding: 1.4%;
     font-size: larger;
     margin: auto;
     display: inline-block;
     width: 45%;
     background-color: rgb(77, 83, 130);
+    border-radius: 14px;
+    box-shadow: 1px 2px 0.6em black;
 }
 
 aside.about-text {
@@ -112,23 +130,42 @@ aside.about-text {
     margin-top: 17%;
 }
 
+
+/* Seção da tabela */
+
 .table {
     margin-top: 3%;
     width: 40%;
-}
-
-table,
-th,
-tr,
-td {
-    border-style: solid;
-}
-
-.table {
     margin-left: 15%;
     font-size: larger;
 }
 
+table,
+th,
+td {
+    border: 2px black solid;
+    border-collapse: separate;
+    font-size: 1.12em;
+    box-shadow: 1px 2px 0.3em black;
+}
+
+th {
+    color: rgb(255, 164, 0);
+}
+
+tr {
+    background-color: rgb(77, 83, 130);
+}
+
 .table table {
     margin-left: 15%;
+}
+
+.right-check {
+    background-color: #2fc18c;
+}
+
+.wrong-check {
+    background-color: red;
+    color: rgb(253, 251, 251);
 }
