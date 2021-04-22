@@ -70,6 +70,13 @@ nav a:hover {
 
 #titulo_lista {
   font-size: 20px;
+  background-color: rgb(157, 129, 137);
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  width: 700px;
+  text-align: center;
+  margin: auto;
 }
 
 #lista {
@@ -77,16 +84,6 @@ nav a:hover {
   background-color: rgb(255, 202, 212);
   width: 650px;
   height: 230px;
-  margin: auto;
-}
-
-#titulo_lista {
-  background-color: rgb(157, 129, 137);
-  color: white;
-  padding: 10px;
-  border-radius: 10px;
-  width: 700px;
-  text-align: center;
   margin: auto;
 }
 
@@ -161,4 +158,3 @@ nav a:hover {
   width: 50px;
   margin: 10px;
 }
-
