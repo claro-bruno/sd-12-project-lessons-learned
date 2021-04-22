@@ -41,8 +41,13 @@ a{
 }
 #licoes_aprendidas, #licoes_a_aprender{
     display: inline-block;
-    margin: 60px;
-    
+    margin: 20px;
+    margin-top: 70px;
+    margin-bottom: 40px;
+    margin-left: 50px;
+    font-size: 16px;
+    width: 40%;
+
 }
 
 .lado-esquerdo{
@@ -51,6 +56,7 @@ a{
     text-align: justify;
     padding: 2%;
     margin-left: 20px;
+    
 }
 .lado-direito{
     display: inline-block; 
@@ -58,6 +64,16 @@ a{
     text-align: justify;
     padding: 2%;
     margin-left: 20px;
+    contain: layout;
+}
+h2{
+    display: inline-block;
+    background-color: #001845;
+    width: 100%;
+    padding: 3%;
+    border-radius: 5px;
+    color: #ede7e3;
+    text-align: center;
 }
 
 #link{
