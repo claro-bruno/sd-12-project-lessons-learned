@@ -16,7 +16,7 @@ header {
   top: 0;
   position: fixed;
   width: 100%;
-  height: 100px;
+  height: 140px;
 }
 
 
@@ -68,13 +68,21 @@ li {
   font-family: sans-serif;
   color: rgb(133, 131, 131);
   font-weight: 600;
+  background-color: rgb(235, 250, 245);
 }
 
-#article-principal , section {
-  width: 615px;
+#article-section {
+  width: fit-content;
+  display: inline-flex;
+  border-top: 5px dotted palegreen;
+}
+
+.lado-esquerdo , section {
+  width: 55%;
   padding: 20px;
   margin-left: 5px;
-  color: rgb(72, 73, 73);
+  color: rgb(96, 97, 97);
+  background-color: rgb(235, 250, 245);
   text-align: justify;
   font-size: 18px;
   font-weight: 600;
@@ -85,11 +93,6 @@ section {
   padding-top: 20px;
 }
 
-#article-section {
-  display: inline-flex;
-  border-top: 5px dotted palegreen;
-}
-
 .ranking {
   font-size: 25px;
   color: cornflowerblue;
@@ -97,6 +100,8 @@ section {
 
 table {
   margin: auto;
+  background-color: rgb(214, 226, 248);
+  border: 3px dotted cornflowerblue;
 }
 
 tbody {
@@ -111,7 +116,11 @@ tbody {
 h3 {
   font-family: Noto Sans JP, sans-serif;
   text-align: center;
-  font-weight: 800;
+  font-weight: 900;
+  border-top: 5px dotted palegreen;
+  line-height: 100px;
+  font-size: 30px;
+  color: gray;
 }
 
 h4 {
@@ -120,9 +129,13 @@ h4 {
   text-align: center;
 }
 
-#mais-informacoes {
+.mais-informacoes {
   text-align: center;
   font-size: 18px;
   color: cornflowerblue;
   font-weight: 900;
+}
+
+iframe {
+  text-align: center;
 }
