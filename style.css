@@ -1,39 +1,70 @@
 body {
-background-color: rgb(253, 251, 251);
+	background-color: rgb(253, 251, 251);
 }
 
-#cabeçalho {
-    margin-top: 0;
-    text-align: center;
+#cabecalho {
+
+  margin-top: 0;
+  text-align: center;
 }
 
 #titulo {
-    color: rgb(60,60,62);
+  color:rgb(77, 83, 94);
+  font-weight:lighter;
 }
 
 #minha_foto {
-    border-radius: 50%;
+	border-radius: 50%;
+	margin-left: 550px;
 }
 
-#lições_aprendidas {
-    color: rgb(60,60,62);
+#links {
+  text-align: center;
+  font-size: 15px;
+
+}
+  /* Como colocar icone do app? */
+.linkedin, .Github,  .instagram {
+  color: rgb(77, 83, 94);
+  font-family: monospace;
 }
 
-/* travei aqui_ Como eu faço pra colocar as duas listas uma do lado da outra? e como faço para edita-las? */
-ol.aprendidas ul.a_aprender {
-    color:rgb(253, 251, 251);
+#secao {
+  background-color: rgb(77, 83, 94);
 }
 
-/* travei aqui */
+div {
+  width: 180px;
+  height: 200px;
+  display: inline-block;
+  margin-left: 350px;
+  align-content: center;
+  text-align:center;
 
-#lições_a_aprender {
-    color: rgb(60,60,62);
 }
+
+#conteiner {
+  float: center;
+}
+
+  
+
+#conteiner2 {
+  float: center;
+}
+
+#licoes_aprendidas, #licoes_a_aprender, h2{
+  color: rgb(253, 251, 251);
+ }
 
 #rodape {
-    
+  display:inline;
 }
 
 .final {
-    color: rgb(60,60,62);
+  color: rgb(253, 251, 251);
+  text-align: center;
+  background-color: rgb(77, 83, 94);
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
