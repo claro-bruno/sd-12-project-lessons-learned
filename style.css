@@ -14,7 +14,7 @@ a {
   padding: 7px;
   font-size: 20px;
   line-height: 2px;
-  font-family: Times, serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 a:hover{
@@ -24,6 +24,7 @@ a:hover{
 h1 {
   text-align: center;
   color: white;
+  font-family: 'Open Sans', sans-serif;
 }
 
 h2 {
@@ -32,11 +33,6 @@ h2 {
 
 /*header*/
 
-.menu {
-  position: relative;
-  top: 25px;
-  float: right;
-}
 #cabecalho {
   position: fixed;
   top: 0;
@@ -45,11 +41,19 @@ h2 {
   z-index: 1;
 }
 
+#titulo {
+  float: left;
+  font-family: sans-serif;
+}
+
 #menu {
   font-size: 20px;
   position: relative;
-  margin-left: 45%;
+  top: 25px;
+  float: right;
 }
+
+/*Foto*/
 
 #minha_foto {
   position: relative;
@@ -58,10 +62,6 @@ h2 {
   background-color: darkgreen;
   top: 180px;
   left: 400px;
-}
-
-#titulo{
-  float: left;
 }
 
 .img {
