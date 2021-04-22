@@ -40,13 +40,15 @@ h2 {
 
 .lado-esquerdo {
   width: 400px;
+  float: left;
 }
 
 .lado-direito {
   width: 400px;
+  float: right;
   position: absolute;
-  left: 780px;
-  top: 1110px;
+  left: 700px;
+  top: 1126px;
 }
 
 .texto {
@@ -55,9 +57,9 @@ h2 {
 
 #rodape {
   margin-top: 20px;
-  margin-bottom: 0px;
   padding: 5px;
   background-color: teal;
+  clear: both;
 }
 
 #rodape a {
@@ -67,5 +69,5 @@ h2 {
 
 #rodape a:hover {
   color: black;
-  font-weight: bold;
+  font-weight: 700;
 }
