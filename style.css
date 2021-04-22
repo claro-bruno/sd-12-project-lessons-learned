@@ -45,28 +45,28 @@ body{
 }
 
 .lessons_parent{
-    display: inline-block;
+    display: flex;
     font-size: 30px;
     width: 100%;
     text-align: center;
-    border: 1px solid black;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     line-height: 40px;
 }
 
 .lessons_learned{
-    float: left;
     background-color: #f2f2f2;
     width: 50%;
-    color:midnightblue;
-    
+    color:black;
+    justify-content: center;
+    border: 1px solid;
 }
 
 .lessons_tolearn{
-    float: right;
     background-color: #f2f2f2;
     width: 50%;
-    color:rebeccapurple;
+    color:darkslategray;
+    justify-content: center;
+    border: 1px solid;
 }
 
 #rodape{
@@ -80,27 +80,31 @@ body{
     font-size: 30px;
     width: 100%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 250px;
+    margin-top: 20px;
 }
 
 .lado-esquerdo{
     float:left;
     width:50%;
-    background-color: lightsalmon;
+    background-color: gray;
     text-align: center;
+    height: 250px;
 }
 
 .lado-direito{
     float:right;
     width: 50%;
-    background-color: lightskyblue;
+    background-color: lightcyan;
     text-align: center;
+    height: 250px;
 }
-
 
 .tabela {
     justify-content: center;
     width: 100%;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
+    margin-top: 50px;
 }
 .tabela table {
     font-size: 30px;
