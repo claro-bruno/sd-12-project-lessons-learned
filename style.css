@@ -189,6 +189,7 @@ Source: https://developer.mozilla.org/pt-BR/docs/Web/CSS/CSS_Transitions/Using_C
     margin-top: 50vh;
     margin-bottom: 30vh;
     transition-duration: .5s;
+    line-height: 3vh;
 }
 
 #artigos:hover {
