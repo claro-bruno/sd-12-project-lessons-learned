@@ -5,7 +5,6 @@
 }
 body {
     background-color: #fff;
-
 }
 
 header {
@@ -17,7 +16,7 @@ header {
 .minha_foto {
     left: 50px;
 }
-li {
-    text-decoration: none;
+.menu {
+    text-decoration:#fff;
 }
 
