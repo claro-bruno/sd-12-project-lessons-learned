@@ -34,7 +34,7 @@ li {
   position: fixed;
   top: 0;
   width: 100%;
-  background: radial-gradient(50% 50% at 50% 50%, rgba(30, 142, 61, 0.75) 0%, rgba(30, 142, 61, 0.75) 100%);
+  background: radial-gradient(50% 50% at 50% 50%, rgba(30, 142, 61, 0.75) 0%, #1E8E3D 100%);
   opacity: 0.9;
   z-index: 2;
   color: white;
@@ -64,7 +64,7 @@ li {
 .card {
   width: 900px;
   height: 420px;
-  background: radial-gradient(50%50% at 50%50,rgba(30,142,61,0.75) 0%rgba(30,142,61,0.75)100%);
+  background: radial-gradient(50% 50% at 50% 50%, rgba(30, 142, 61, 0.75) 0%, #1E8E3D 100%);
   border-radius: 45px;
   position: relative;
   top: 60px;
@@ -76,7 +76,7 @@ li {
   position: relative;
   border-radius: 50%;
   padding: 10px;
-  background-color: #333;
+  background-color: rgb(33, 33, 33);
   float: left;
   top: 80px;
   left: 60px;
@@ -128,14 +128,14 @@ li {
 
 .aprendidas {
   float: left;
-  background: radial-gradient(50% 50% at 50% 50%, rgba(30, 142, 61, 0.75) 0%, rgba(30, 142, 61, 0.75) 100%);
+  background: radial-gradient(50% 50% at 50% 50%, rgba(30, 142, 61, 0.75) 0%, #1E8E3D 100%);
   width: 300px;
   border-radius: 10%;
 }
 
 .aprender {
   float: right;
-  background: radial-gradient(50% 50% at 50% 50%, rgba(30, 142, 61, 0.75) 0%, rgba(30, 142, 61, 0.75) 100%);
+  background: radial-gradient(50% 50% at 50% 50%, rgba(30, 142, 61, 0.75) 0%, #1E8E3D 100%);
   width: 300px;
   border-radius: 10%;
 }
@@ -161,7 +161,7 @@ li {
 /* aprendizado */
 .aprendizado {
   height: 500px;
-  background: radial-gradient(50% 50% at 50% 50%, rgba(30, 142, 61, 0.75) 0%, rgba(30, 142, 61, 0.75) 100%);
+  background: radial-gradient(50% 50% at 50% 50%, rgba(30, 142, 61, 0.75) 0%, #1E8E3D 100%);
 }
 
 .titulo-aprendizado {
