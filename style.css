@@ -1,8 +1,10 @@
 body {
     background-color:rgb(253, 251, 251);
 }
-header{
+#cabecalho {
+    position: fixed;
     top: 0%;
-    margin-top: 0%;
-    border-top: 0ch;
+}
+img minha_foto.jpg{
+    width: 300px;
 }
