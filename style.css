@@ -28,6 +28,20 @@ img {
     max-width: 100%;
 }
 
+.img_principal {
+  width: 450px;
+  margin: 20px auto;
+}
+
+#minha_foto {
+  width: 450px;
+  margin: auto;
+}
+
+#licoes_aprendidas, #licoes_a_aprender {
+  display: inline-block;
+}
+
 article {
   margin: 10px;
   padding: 25px;
@@ -45,12 +59,19 @@ table {
 }
 
 .lado-esquerdo {
-  width: 50%;
+  width: 65%;
   display: inline-block;
+  background-color: #a8caa5;
+  padding: 30px;
 }
 
 .lado-direito {
   width: 30%;
   display: inline-block;
   vertical-align: top;
+  
+}
+
+.tabela_informacoes, #licoes_aprendidas, #licoes_a_aprender {
+  margin-left: 35px;
 }
