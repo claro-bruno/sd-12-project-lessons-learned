@@ -1,6 +1,6 @@
 body {
   background-color: rgb(253, 251, 251);
-  padding-top: 140px;
+  padding-top: 135px;
   margin: 0px;
 }
 
@@ -9,6 +9,7 @@ body {
   position: fixed;
   top: 0px;
   background-color: #c5c5c5;
+  box-shadow: 0px 3px 8px #333;
 }
 
 #cabecalho {
@@ -66,7 +67,7 @@ table {
 }
 
 .lado-direito {
-  width: 340px;
+  width: 344px;
   display: inline-block;
   vertical-align: top;
   padding: 30px;
