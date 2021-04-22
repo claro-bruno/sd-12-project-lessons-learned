@@ -13,16 +13,29 @@ header {
     text-align: center;
 }
 main {
-    margin-top: 15%;
+  margin-top: 15%;
     
 }
 minha_foto {
-    display: block; 
-    margin-left: auto;
-    margin-right: auto;
-    width: 50px;
- }
-
-footer {
-
-}
+    /* position: relative ; */
+    width: 20%;
+    /* display: block;  
+    margin-left: auto; 
+    margin-right: auto;*/ 
+    }
+rodape {
+    position: absolute;
+    background-color: #54eb7a;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  /*   display: block;
+  background-color: #54eb7a;
+  font-size: 60px;
+  margin-right: auto;
+  margin-left: auto;
+  height: 80px;
+  width: 100%;
+  text-align: center;
+  position: fixed; */
+  }
