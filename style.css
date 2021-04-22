@@ -85,7 +85,7 @@ aside {
 
 .tg td {
   border-color: black;
-  border-style:s olid;
+  border-style: solid;
   border-width: 1px;
   font-family: Arial, sans-serif;
   font-size: 14px;
@@ -100,7 +100,7 @@ aside {
   border-width: 1px;
   font-family: Arial, sans-serif;
   font-size: 14px;
-  font-weight: normal;
+  font-weight: 900;
   overflow: hidden;
   padding: 10px 5px;
   word-break: normal;
@@ -112,7 +112,7 @@ aside {
 }
 
 .tg .tg-amwm {
-  font-weight: bold;
+  font-weight: 900;
   text-align: center;
   vertical-align: top;
 }
