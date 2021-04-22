@@ -82,6 +82,7 @@ Source: https://www.w3schools.com/cssref/sel_visited.asp
     border-radius: 50%;
     max-width: 20vw;
     min-width: 130px;
+    box-shadow: 2px 2px 5px black;
 }
 
 .perfil h2 {
@@ -105,7 +106,7 @@ Source: https://www.w3schools.com/cssref/sel_visited.asp
     color: #122532;
     transition: .5s;
     opacity: 70%;
-    width: 100vw;
+    width: 90vw;
     text-align: center;
 }
 .seta:hover {
@@ -114,6 +115,7 @@ Source: https://www.w3schools.com/cssref/sel_visited.asp
     text-shadow: 2px 2px 2px black;
     opacity: 100%;
 }
+
 
 #licoes {
     display: flex;
@@ -277,13 +279,16 @@ Sources:
     color: #f1faeeff;
 }
 
+/*
+Source: https://developer.mozilla.org/en-US/docs/Web/CSS/linear-gradient()
+*/
 #rodape {
     position: relative;
     bottom: -5vh;
     left: -5vw;
     color: #122532;
-    background-color: #f1faeeff;
-    width: 100vw;
+    background: linear-gradient(#122532 -30%, #f1faeeff 50%);
+    width: 98.9vw;
     text-align: center;
 }
 #rodape p {
