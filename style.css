@@ -9,7 +9,7 @@ body {
   position: fixed;
   background-color: whitesmoke;
   font-style: normal;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: Georgia, Times, serif;
   text-align: center;
 }
 
@@ -68,20 +68,20 @@ h2 {
 
 #licoes_a_aprender {
   float: right;
-  margin: -19% 20% 2% 20%;
+  margin: -19% 20% 2%;
 }
 
 table {
   padding: 10px;
   color: rgb(32, 32, 32);
   border: 10px;
-  margin: 200px 0px 30px 450px;
+  margin: 200px 1px 30px 450px;
   border-bottom: 1px solid rgb(127, 131, 73);
 }
 
 th {
   padding: 5px;
-  text-transform:uppercase;
+  text-transform: uppercase;
   font-family: sans-serif;
   font-size: 16px;
   color: rgb(17, 16, 16);
