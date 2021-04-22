@@ -1,11 +1,24 @@
-body{
+body {
     background-color: rgb(253, 251, 251);
 }
 
-#cabecalho{
+#cabecalho {
     position: fixed;
     top: 0;
+    width: 100%;
+    background-color: royalblue;
+    padding-left: 100px;
+    padding-right: 100px;
+    border: 5px solid black;
+    height: auto;
 }
-#minha_foto{
+#titulo {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15em;
+}
+#minha_foto {
     width: 100px;
 }
