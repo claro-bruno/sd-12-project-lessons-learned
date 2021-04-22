@@ -66,7 +66,7 @@ height: 50%;
 }
 
     
-.artigo{
+.lado-esquerdo{
 display: inline-block;
 vertical-align: top;
 position: relative;
@@ -78,7 +78,7 @@ line-height: 30px;
 
     
 }
-.asi{
+.lado-direito{
 display: inline-block;
 vertical-align: top;
 position: absolute;
