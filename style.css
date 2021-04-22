@@ -5,6 +5,7 @@ p {
 #cabecalho {
     position: fixed;
     top: 0;
+    background-color: rgb(253, 251, 251);
 }
 
 #minha_foto {
@@ -12,36 +13,42 @@ p {
     position: absolute;
     top: 70px;
     left: 20px; 
+    background-color: rgb(253, 251, 251);
 }
 
 #licoes {
     position: absolute;
     top: 350px;
     left: 20px;
+    background-color: rgb(253, 251, 251);
 }
 
 #licoes_aprendidas {
     position: absolute;
     top: 400px;
     left: 20px;
+    background-color: rgb(253, 251, 251);
 }
 
 #licoes_a_aprender {
     position: absolute;
     top: 400px;
     left: 220px;
+    background-color: rgb(253, 251, 251);
 }
 
 #rodape {
     position: absolute;
     top: 700px;
     left: 20px;
+    background-color: rgb(253, 251, 251);
 }
 
 #link_externo {
     position: absolute;
     top: 700px;
     left: 20px;
+    background-color: rgb(253, 251, 251);
 }
 
 #artigo {
@@ -49,6 +56,7 @@ p {
     top: 700px;
     left: 20px;
     text-align: justify;
+    background-color: rgb(253, 251, 251);
 }
 
 #relacionado {
@@ -57,4 +65,5 @@ p {
     left: 700px;
     text-align: justify;
     width: 200px;
+    background-color: rgb(253, 251, 251);
 }
