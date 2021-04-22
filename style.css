@@ -12,3 +12,10 @@ header{
     padding: 5px;
     border: 1px solid black;
 }
+
+#licoes_a_aprender{
+    font-size: 20px;
+    color: cadetblue;
+    line-height: 30px;
+    font-family: monospace;
+}
