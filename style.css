@@ -45,24 +45,28 @@ body{
 }
 
 .lessons_parent{
-    display: flex;
+    display: inline-block;
     font-size: 30px;
     width: 100%;
     text-align: center;
-    padding: 50px 100px;
+    border: 1px solid black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    line-height: 40px;
 }
 
-.lessons_left{
-    border: 1px solid lightgray;
+.lessons_learned{
+    float: left;
     background-color: #f2f2f2;
-    width: 45%;
+    width: 50%;
+    color:midnightblue;
+    
 }
 
-.lessons_right{
-    border: 1px solid lightgray;
+.lessons_tolearn{
+    float: right;
     background-color: #f2f2f2;
-    width: 45%;
-    margin-left: 20px;
+    width: 50%;
+    color:rebeccapurple;
 }
 
 #rodape{
@@ -78,14 +82,14 @@ body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.lado_esquerdo{
+.lado-esquerdo{
     float:left;
     width:50%;
     background-color: lightsalmon;
     text-align: center;
 }
 
-.lado_direito{
+.lado-direito{
     float:right;
     width: 50%;
     background-color: lightskyblue;
