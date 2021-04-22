@@ -1,0 +1,112 @@
+body{
+    background-color: rgb(253, 251, 251);
+}
+header{
+    width: 100%;
+    height: 80px;
+    margin: auto;
+    background-color: green;
+    position: fixed;
+}
+#cabecalho{
+    width: 400px;
+    height: 100px;
+    position: fixed;
+    top: 0;
+}
+h1, #titulo{
+    color: white;
+    font-family: sans-serif;
+}
+nav{
+    width: 100%;
+    position: fixed;
+    margin-top: 70px;
+    background-color: green;
+}
+.header-nav ul li{
+    width: 100px;
+    height: 30px;
+    display: inline-block;
+    vertical-align: text-top;
+    text-decoration: none;
+    color: white;
+}
+main{
+    font-family: sans-serif;
+}
+.main-foto img{
+    width: 200px;
+    margin-top: 150px;
+}
+.main-list-ordenada{
+    width: 300px;
+    height: 370px;
+    border: solid;
+    border-radius: 20px;
+    margin-top: 60px;
+}
+#licoes_aprendidas{
+    width: 150px;
+    height: 50px;
+    margin-top: 10px;
+}
+#licoes_aprendidas li{
+    width: 200px;
+    line-height: 30px;
+}
+.main-list-nao-ordenada{
+    width: 300px;
+    height: 370px;
+    border: solid;
+    border-radius: 20px;
+    margin-top: 60px;
+}
+#licoes_a_aprender ul{
+    width: 150px;
+    height: 50px;
+    margin-top: 10px;
+    text-decoration: none;
+}
+#licoes_a_aprender li{
+    width: 200px;
+    line-height: 30px;
+}
+h4{
+    text-align: center;
+}
+article .article_trybe{
+    width: 800px;
+    height: 170px;
+    border: solid;
+    border-radius: 20px;
+    margin-top: 50px;
+    text-align: justify;
+}
+article .article_trybe h2{
+    text-align: center;
+}
+p{
+    padding: 20px 10px 10px 10px;
+}
+aside .aside_learned{
+    width: 800px;
+    height: 140px;
+    border: solid;
+    border-radius: 20px;
+    margin-top: 50px;
+    text-align: justify;
+}
+aside .aside_learned h3{
+    text-align: center;
+}
+footer{
+    width: 100%;
+    height: 80px;
+    margin-top: 50px;
+    background-color: green;
+}
+footer .rodape_noticia{
+    padding-top: 30px;
+    text-align: center;
+}
