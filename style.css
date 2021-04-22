@@ -18,6 +18,11 @@ body {
   margin: 0 20% 0 20%
 }
 
+#titulo {
+  color: rgb(42, 168, 74);
+}
+
 .p_article {
   font-size: 6mm;
+  line-height: 35px;
 }
