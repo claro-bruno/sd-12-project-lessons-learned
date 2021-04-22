@@ -51,6 +51,7 @@ section h2 {
 article p {
   width: 50%;
   margin-bottom: 40px;
+  line-height: 25px;
 }
 
 article h3 {
@@ -61,6 +62,7 @@ aside p {
   width: 40%;
   margin-bottom: 60px;
   border: 10px;
+  line-height: 25px;
 }
 
 .lado-esquerdo {
