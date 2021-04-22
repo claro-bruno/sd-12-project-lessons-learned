@@ -57,6 +57,25 @@ body {
   padding: 10px 10px 10px 10px;
   color: #F8DF77;
 }
+nav li {
+  /* list-style: none; */
+  height: 50px;
+}
+nav a {
+  text-decoration: none;
+}
+nav a:link {
+  color: #F8DF77;
+  font-weight: 600;
+}
+nav a:hover {
+  color: #2ECFCA;
+  background-color: #FF4E62;
+  border-radius: 10px;
+  padding: 10px 10px 10px 10px;
+  font-weight: 600;
+  letter-spacing: .1rem;
+}
 nav.header {
   bottom: 10px;
   right: 10px;
@@ -67,11 +86,14 @@ h1.header {
 }
 header a.button {
   position: fixed;
-  bottom: 200px;
+  bottom: 265px;
   right: 10px;
-  color: #F8DF77;
+  color: #555;
   text-decoration: none;
   font-weight: 700;
+}
+header a.button:hover {
+  background-color: #FF4E62;
 }
 #cabecalho {
   position: fixed;
