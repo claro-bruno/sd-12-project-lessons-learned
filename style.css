@@ -36,3 +36,9 @@ p {
     top: 700px;
     left: 20px;
 }
+#artigo {
+    position:absolute;
+    top: 700px;
+    left: 20px;
+    text-align: justify;
+}
