@@ -46,6 +46,7 @@ main{
 
 .lado-direito{
     width: 30%;
+    float: right;
 }
 
 #minha_foto{
