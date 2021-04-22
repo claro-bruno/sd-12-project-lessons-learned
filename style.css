@@ -1,7 +1,7 @@
 body {
   color: #F9F3DE;
   background-color: rgb(253, 251, 251);
-  margin: 0;
+  margin: 0 0 0 0;
   font-size: 1.4em;
   line-height: 1.6;
   font-weight: 400;
@@ -32,7 +32,7 @@ body {
 }
 .button {
   background-color: transparent;
-  display: inline-block;
+  /* display: inline-block; */
   height: 38px;
   margin-bottom: 1rem;
   padding: 0 30px;
@@ -50,6 +50,29 @@ body {
   font-family: monospace;
   /* box-sizing: border-box; */
 }
+.header {
+  position: fixed;
+  width: 100%;
+  text-align: right;
+  padding: 10px 10px 10px 10px;
+  color: #F8DF77;
+}
+nav.header {
+  bottom: 10px;
+  right: 10px;
+}
+h1.header {
+  top: 10px;
+  right: 10px;
+}
+header a.button {
+  position: fixed;
+  bottom: 200px;
+  right: 10px;
+  color: #F8DF77;
+  text-decoration: none;
+  font-weight: 700;
+}
 #cabecalho {
   position: fixed;
   top: 0;
@@ -61,4 +84,7 @@ body {
   right: 10px;
   border: 10px solid #2ECFCA;
   border-radius: 110px;
+}
+#titulo {
+
 }
