@@ -30,19 +30,20 @@ main{
     display: flex;
 }
 
+
 .articles{
     display: inline-block;
     border: solid black;
     margin-top: 20px;
 }
 
-#lado-esquerdo{
+.lado-esquerdo{
     float: left;
     width: 40%;
+    padding-right: 40px;
 }
 
-#lado-direito{
-    float: right;
+.lado-direito{
     width: 30%;
 }
 
