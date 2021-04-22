@@ -59,17 +59,18 @@ table {
 }
 
 .lado-esquerdo {
-  width: 65%;
+  width: 875px;
   display: inline-block;
-  background-color: #a8caa5;
+  background-color: #cfcfdd;
   padding: 30px;
 }
 
 .lado-direito {
-  width: 30%;
+  width: 340px;
   display: inline-block;
   vertical-align: top;
-  
+  padding: 30px;
+  background-color: #cfcfdd;
 }
 
 .tabela_informacoes, #licoes_aprendidas, #licoes_a_aprender {
