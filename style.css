@@ -2,13 +2,11 @@ body {
     background-color:rgb(253, 251, 251);
 }
 #cabecalho {
-    display: inline-block;
     position: fixed;
     top: 0%;
+    width: 100%;
 }
-#cabecalho h1#título {
-    float: right;
-    align-self: center;
-    max-width: 100%;
-    margin: auto;
+
+#titulo {
+    text-align: center;
 }
