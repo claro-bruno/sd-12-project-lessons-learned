@@ -12,9 +12,6 @@ body {
     border: 5px solid black;
     height: auto;
 }
-#navigation-top {
-    display: inline;
-}
 #titulo {
     margin-top: 0px;
     margin-bottom: 0px;
@@ -26,7 +23,13 @@ a:link{
     color: black;
 }
 a:visited{
-    color: grey;
+    color: white;
+}
+a:hover {
+    background-color: blue;
+}
+a:active{
+    background-color: brown;
 }
 
 #minha_foto {
