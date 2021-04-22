@@ -2,6 +2,7 @@ body {
   background-color: rgb(253, 251, 251);
   margin: 0;
   padding-top: 180px;
+  font-family: 'Nunito', sans-serif;
 }
 
 #cabecalho {
@@ -40,11 +41,29 @@ h2 {
   font-weight: 600;
 }
 
+#foto {
+  background-image: url(./images/grama.jpg);
+  height: 270px;
+}
+
+#minha_foto {
+  border-style: double;
+  border-color: white;
+  margin-left: 15px;
+  margin-top: 35px;
+}
+
+legend {
+  margin-left: 35px;
+  color: white;
+  font-weight: 800;
+}
+
 #logo {
-  margin-top: 50px;
+  margin-top: 100px;
+  height: 120px;
   border-style: double;
   border-color: mediumseagreen;
-  border-radius: 15px;
 }
 
 #link-trybe {
@@ -54,19 +73,16 @@ h2 {
 #link-trybe:hover {
   background-color: green;
   color: white;
-  border-radius: 5px;
 }
 
 #main {
   border-style: double;
   border-color: mediumseagreen;
-  border-radius: 15px;
   background-color: rgb(0, 128, 128, 0.4);
-  margin-top: 30px;
+  margin-top: 25px;
   margin-left: 15px;
   width: 67%;
   display: inline-block;
-
 }
 
 article section {
@@ -87,24 +103,19 @@ article h2 {
   text-align: center;
   border-style: double;
   border-color: mediumseagreen;
-  border-radius: 15px;
   background-color: rgb(255, 69, 0, 0.4);
-  margin-top: 50px;
+  margin-top: 25px;
   margin-right: 15px;
   float: right;
   width: 29%;
-  height: 250px;
+  height: 315px;
   color: white;
 }
 
 #aside p {
-  background-color: rgb(255, 69, 0, 0.8);
-  height: 80px;
-}
-
-.listas p {
-  text-align: center;
-  font-weight: 600;
+  background-color: rgba(122, 60, 38, 0.2);
+  height: 70px;
+  color: darkgreen;
 }
 
 #aside h3 {
@@ -115,30 +126,24 @@ article h2 {
   margin-right: 30px;
   display: inline-block;
   width: 45%;
+  color: white;
 }
 
 #final {
-  width: 67%;
-  display: inline-block;
+  margin: 0 15px 0 15px;
+  width: 98%;
+  height: 165px;
+  background-color: mediumseagreen;
+  font-size: 18px;
 }
 
 #final h2 {
   text-align: center;
-}
-
-#foto {
-  margin-top: 30px;
-  width: 29%;
-  float: right;
-}
-
-#minha_foto {
-  border-radius: 15px;
+  color: white;
+  border-bottom-style: double;
 }
 
 #tabela {
   width: 100%;
   text-align: center;
-  border: solid;
-  margin-left: 15px;
 }
