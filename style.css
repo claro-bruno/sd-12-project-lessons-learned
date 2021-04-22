@@ -18,31 +18,33 @@ body {
 #licoes_aprendidas {
     display: inline-block;
     font: arial 16px;
-
+    margin-left: 200px;
 }
 #licoes_a_aprender {
     display: inline-block;
     font: arial 16px;
-    text-align: center;
+    margin-left: 100px;
 }
 #minha_foto {
-    background-color: blue;
     width: 200px;
     margin-top: 130px;
     margin-left: 20px;
     border-radius: 50px;
 }
-.artigo {
+.lado-esquerdo {
     vertical-align: top;
     display: inline-block;
     text-align: center;
     font: 16px Arial;
+    margin-right: 900px;
 }
-.secao {
+.lado-direito {
     vertical-align: top;
     float: left;
     text-align: center;
     font: 16px Arial;
+    margin-left: 790px;
+    margin-top: -128px;
 }
 a {
     margin-left: 30px;
