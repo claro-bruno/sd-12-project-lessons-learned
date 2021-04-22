@@ -64,8 +64,9 @@ a {
     width: 15%; 
     height: 100%; 
     float: right; 
-    top: 100px;
-}
+    padding: 50px;
+    
+}  
 .sizefooter {
     font-size: 20px;
 }
