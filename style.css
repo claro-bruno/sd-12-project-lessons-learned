@@ -1,4 +1,4 @@
-p, b {
+p , b {
     background-color: rgb(253, 251, 251);
 }
 
@@ -14,7 +14,7 @@ p, b {
     width: 150px;
     position: absolute;
     top: 100px;
-    left: 20px; 
+    left: 20px;
     background-color: rgb(253, 251, 251);
     z-index: 1;
 }
@@ -59,7 +59,7 @@ p, b {
     top: 700px;
     left: 20px;
     text-align: justify;
-    Width:500px;
+    width: 500px;
     background-color: rgb(253, 251, 251);
 }
 
