@@ -3,7 +3,7 @@ p {
 }
 #cabecalho {
     position:fixed;
-    top: 0;
+    top:0;
 }
 #minha_foto {
     width:150px;
@@ -13,32 +13,40 @@ p {
 }
 #licoes {
     position:absolute;
-    top: 350px;
-    left: 20px;
+    top:350px;
+    left:20px;
 }
 #licoes_aprendidas {
     position:absolute;
-    top: 400px;
-    left: 20px;
+    top:400px;
+    left:20px;
 }
 #licoes_a_aprender {
     position:absolute;
-    top: 400px;
-    left: 220px;
+    top:400px;
+    left:220px;
 }
 #rodape {
     position:absolute;
-    top: 700px;
-    left: 20px;
+    top:700px;
+    left:20px;
 }
 #link_externo {
     position:absolute;
-    top: 700px;
-    left: 20px;
+    top:700px;
+    left:20px;
 }
 #artigo {
     position:absolute;
-    top: 700px;
-    left: 20px;
+    top:700px;
+    left:20px;
     text-align: justify;
+}
+#relacionado 
+{
+    position:absolute;
+    top:70px;
+    left:700px;
+    text-align: justify;
+    width:200px;
 }
