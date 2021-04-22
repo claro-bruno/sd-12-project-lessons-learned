@@ -1,4 +1,7 @@
 body {
+  font-family: serif;
+  font-size: 20px;
+  line-height: 35px;
   background-color: rgb(253, 251, 251);
 }
 
@@ -18,11 +21,15 @@ body {
   margin: 0 20% 0 20%
 }
 
+.skills li {
+  line-height: 0.9em;
+}
+
 #titulo {
   color: rgb(42, 168, 74);
 }
 
 .p_article {
-  font-size: 6mm;
-  line-height: 35px;
+  font-size: 0.8em;
+  line-height: 1em;
 }
