@@ -195,7 +195,7 @@ https://mzl.la/32zHbum
   margin-top: 50vh;
   margin-bottom: 30vh;
   transition-duration: 0.5s;
-  line-height: 3vh;
+  line-height: 110%;
 }
 
 #artigos:hover {
