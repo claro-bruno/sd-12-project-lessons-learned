@@ -1,5 +1,7 @@
 body {
   background-color: rgb(253, 251, 251);
+  width: 1366;
+  height: 768;
 }
 
 #cabecalho {
@@ -27,12 +29,14 @@ body {
   margin-left: 450px;
   border-radius: 20%;
   top: 200px;
+  padding: 10px;
+  background-color: blueviolet;
 }
 
 .link {
   font-size: x-small;
   position: absolute;
-  top: 330px;
+  top: 350px;
   left: 450px;
 }
 
@@ -98,6 +102,12 @@ body {
   line-height: 20px;
   top: 425px;
   left: 5px;
+}
+
+aside{
+  width: 30%;
+  font-style: italic;
+  color: black;
 }
 
 #barra_rolagem {
