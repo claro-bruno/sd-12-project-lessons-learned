@@ -57,8 +57,17 @@ body {
   padding: 10px 10px 10px 10px;
   color: #F8DF77;
 }
+
+.padding-text {
+  padding: 10px 50px 10px 30px;
+}
+
+main ol li,main ul li {
+  margin: 0 0 0 20px;
+}
+
 nav li {
-  /* list-style: none; */
+  list-style: none;
   height: 50px;
 }
 nav a {
