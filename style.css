@@ -2,13 +2,18 @@ body {
   background-color: rgb(253, 251, 251);
 }
 
+* {
+  /* margin: 0; */
+}
+
 #cabecalho {
   top: 0;
+  left: 0;
   position: fixed;
-  padding: 8px;
-  border: 1px solid black;
+  /* border: 1px solid black; */
   width: 100%;
   text-align: center;
+  background-color: #ADE4AD;
 }
 
 #cabecalho h1 {
@@ -17,17 +22,30 @@ body {
 }
 
 .image-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   margin-top: 120px;
   padding: 8px;
 }
 
 .image-container img {
-  width: 200px;
-  height: 200px;
+  width: 160px;
+  height: 160px;
+  border-radius: 16px;
+}
+
+.image-container h2 {
+  font-family: Franklin Gothic Medium, Arial Narrow, Arial, sans-serif;
 }
 
 .content {
   display: flex;
+  justify-content: center;
+}
+
+.content h3 {
+  text-align: center;
 }
 
 .lado-esquerdo {
@@ -35,13 +53,14 @@ body {
 }
 
 h3 {
-  color: green;
+  color: #5C5A91;
 }
 
 .list-container {
   display: flex;
   width: 400px;
   padding: 8px;
+  border-right: 1px solid #5C5A91;
 }
 
 #licoes_aprendidas {
@@ -69,24 +88,29 @@ h3 {
 
 .lado-direito {
   display: flex;
-  margin-top: 40px;
-  margin-bottom: 40px;
   padding: 8px;
   line-height: 18px;
   align-items: center;
+  margin-top: 64px;
+  margin-left: 16px;
 }
 
 .aprendizado {
   width: 500px;
-  text-align: center;
+  text-align: justify;
   font-size: 18px;
   line-height: 18px;
 }
 
 .aprendizado_aside {
   width: 300px;
-  margin-left: 100px;
   font-size: 18px;
+  float: right;
+  color: #6A9ACB;
+  font-weight: bold;
+  margin: 0 0 2px 16px;
+  text-align: center;
+  border-left: 1px solid #6A9ACB;
 }
 
 .link {
