@@ -33,6 +33,7 @@ Source: https://css-tricks.com/snippets/css/a-guide-to-flexbox/
     justify-content: space-around;
     border-radius: 0 0 1vw 1vw;
     box-shadow: 0 2px 5px black;
+    opacity: 80%;
 }
 
 #titulo {
@@ -68,8 +69,14 @@ Source: https://www.w3schools.com/cssref/sel_visited.asp
     display: flex;
     flex-flow: column nowrap;
     align-items: center;
-    margin-top: 10vh;
+    margin: 10vh auto;
+    width: 40%;
+    border-radius: 1vw;
+    color: #f1faeeff;
+    padding: 1%;
+    transition-duration: .5s;
 }
+
 
 #minha_foto {
     border-radius: 50%;
@@ -81,6 +88,16 @@ Source: https://www.w3schools.com/cssref/sel_visited.asp
     font-size: 3rem;
     text-shadow: 1px 1px 5px black;
     text-align: center;
+    color: #122532;
+    padding: 1%;
+    border: 1px solid black;
+    border-radius: 1vw;
+    transition-duration: .5s;
+
+}
+.perfil h2:hover {
+    box-shadow: 5px 5px 5px black;
+    transition-duration: .5s;
 }
 
 #licoes {
@@ -88,11 +105,22 @@ Source: https://www.w3schools.com/cssref/sel_visited.asp
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
+    border-radius: 1vw;
 }
 
 #licoes h3 {
+    padding: 1vw;
+    border-radius: 1vw;
+    border: 1px solid black;
     margin: 4vh 40vw;
     font-size: 1.5em;
+    transition-duration: .5s;
+
+}
+
+#licoes h3:hover {
+    box-shadow: 5px 5px 5px black;
+    transition-duration: .5s;
 }
 
 .boxes {
@@ -113,7 +141,7 @@ Source: https://www.w3schools.com/cssref/sel_visited.asp
 Source: https://developer.mozilla.org/pt-BR/docs/Web/CSS/CSS_Transitions/Using_CSS_transitions 
 */
 .boxes:hover {
-    box-shadow: 1px 1px 5px black;
+    box-shadow: 5px 5px 5px black;
     transition-duration: .5s;
 }
 
@@ -126,15 +154,6 @@ Source: https://developer.mozilla.org/pt-BR/docs/Web/CSS/CSS_Transitions/Using_C
 }
 
 
-#aprendizado {
-    width: 40vw;
-    flex-grow: 1;
-    padding-right: 5%;
-}
-
-#aprendizado h4 {
-    text-align: center;
-}
 
 
 .artigos {
@@ -144,6 +163,26 @@ Source: https://developer.mozilla.org/pt-BR/docs/Web/CSS/CSS_Transitions/Using_C
     align-items: center;
     text-align: justify;
     padding: 2%;
+    background-color: #122532;
+    border-radius: 1vw;
+    margin-top: 10vh;
+    transition-duration: .5s;
+}
+
+.artigos:hover {
+    box-shadow: 5px 5px 5px black;
+    transition-duration: .5s;
+}
+
+#aprendizado {
+    width: 40vw;
+    flex-grow: 1;
+    padding-right: 5%;
+    color: #f1faeeff;
+}
+
+#aprendizado h4 {
+    text-align: center;
 }
 
 #lateral { 
@@ -156,24 +195,7 @@ Source: https://developer.mozilla.org/pt-BR/docs/Web/CSS/CSS_Transitions/Using_C
 
 }
 
-#lateral:hover {
-    box-shadow: 1px 1px 5px black;
-    transition-duration: .5s;
-
-}
 
 
 
  
-
-
-
-
-/* 
-Paleta de cores
-#e63946ff
-#f1faeeff
-#a8dadcff
-#457b9dff
-#1d3557ff
-q*/
