@@ -75,10 +75,10 @@ main{
 h4{
     text-align: center;
 }
-article, aside{
+section, article, aside{
     display: inline-block;
     vertical-align: top;
-    margin-left: 50px;
+    margin-left: 10px;
 }
 article .lado-esquerdo{
     width: 500px;
