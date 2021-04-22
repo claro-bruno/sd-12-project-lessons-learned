@@ -3,6 +3,16 @@ body {
     margin: 0 auto;
 }
 
+h2 {
+    text-align: center;
+    color: rgb(255, 164, 0);
+}
+
+h3 {
+    font-size: xx-large;
+    color: rgb(255, 164, 0);
+}
+
 
 /* Cabeçalho da página */
 
@@ -10,22 +20,50 @@ body {
     position: fixed;
     top: 0;
     width: 99.9%;
-    background-color: rgb(101, 142, 156);
-    box-shadow: 1px 1px 1em;
+    height: 100px;
+    background-color: rgb(77, 83, 130);
+    box-shadow: 1px 10px 2em;
     z-index: 1;
 }
 
 #titulo {
-    color: rgb(249, 235, 224);
+    color: rgb(253, 251, 251);
     text-align: center;
     font-family: 'Original Surfer', cursive;
+    font-size: 2em;
+}
+
+
+/* Nav bar */
+
+.contatos ul {
+    text-align: center;
+}
+
+.contatos li {
+    display: inline-block;
+    margin-right: 1%;
+}
+
+
+/* Ícones clicáveis da Nav Bar*/
+
+.fab,
+.far {
+    font-size: 36px;
+}
+
+.fa-linkedin,
+.fa-github,
+.fa-envelope {
+    color: rgb(255, 164, 0);
 }
 
 
 /* Primeira seção */
 
 .first-layer {
-    width: 99.5%;
+    width: 99.9%;
     margin-top: 10%;
     margin-bottom: 3%;
 }
@@ -37,29 +75,19 @@ body {
     transform: translatex(50%);
 }
 
-.contatos ul {
-    text-align: center;
-}
-
-.contatos li {
-    display: inline-block;
-}
-
-.fab {
-    font-size: 36px;
-}
-
 
 /* Listas da primeira seção */
 
 .about-list {
     display: inline-block;
     padding: 3%;
-    margin: 6%;
-    width: 20%;
+    margin: 5%;
+    width: 25%;
     font-size: 1.3em;
     margin-top: 7%;
     border-style: solid;
+    border-radius: 14px;
+    background-color: rgb(77, 83, 130);
 }
 
 .next-steps {
@@ -76,6 +104,7 @@ body {
     margin: auto;
     display: inline-block;
     width: 45%;
+    background-color: rgb(77, 83, 130);
 }
 
 aside.about-text {
