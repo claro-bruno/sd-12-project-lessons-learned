@@ -5,7 +5,7 @@ body {
   background-color: rgb(253, 251, 251);
   margin: 0;
   font-family: Antonio, sans-serif;
-  height: 2300px;
+  height: 2000px;
 }
 
 a {
@@ -188,6 +188,30 @@ li {
   font-size: 20px;
   text-align: justify;
 }
+/* Fim da seção aprendizado */
+
+/* Tabela */
+.tabela-section {
+  height: 300px;
+}
+
+.titulo-tabela {
+  font-size: 50px;
+}
+
+.tabela {
+  margin-left: 43%;
+  border: 2px solid #1E8E3D
+}
+
+td {
+  font-size: 24px;
+}
+
+th {
+  font-size:  24px;
+}
+
 /*rodapé*/
 
 #rodape {
