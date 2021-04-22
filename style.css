@@ -52,23 +52,40 @@ hr{
       text-align: center;
   }
 
+  h2{
+      text-align: center;
+  }
+
   .foto{
     border-radius: 60%;
-    width: 20%;
+    display: inline-block;
+    border-style: solid;
+    border-color: green;
+    width: 250px;
     height: 50%;
   }
+
+       
    .artigo{
-       font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-       text-align:justify;
-       max-width: 800px;
-       margin-left: 50px;
-     
-   }
-   .asi{
+    display: inline-block;
+    vertical-align: top;
+    width: 400px;
+    margin: 20px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align:justify;
-    max-width: 800px;
-    margin-left: 50px;
+    
+      
+  }
+   .asi{
+    display: inline-block;
+    vertical-align: top;
+    width: 400px;
+    margin: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align:justify;
+    
+    
+    
     
    }
 
