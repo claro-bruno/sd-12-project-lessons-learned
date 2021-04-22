@@ -32,17 +32,11 @@ body {
     border-radius: 250px;
 }
 
-
-#licoes_aprendidas {
-    float: left;
-
-}
-
-#licoes_a_aprender {
-    width: 40%;
-    padding-left: 10px;
-    margin-left: 10px;
-    display: inline-block;
+table, tr, th {
+    padding: 15px;
+    margin: 20px;
+    border: 2px black solid;
+    border-collapse: collapse;
 }
 
 .lado-direito {
