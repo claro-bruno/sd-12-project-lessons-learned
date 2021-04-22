@@ -41,13 +41,21 @@ main{
     display: flex;
 }
 
-
-#lado-esquerdo{
-    width: 40%;
-    padding-left: 10px;
-    padding-right: 10px;
+.lados{
+    display: inline-block;
 }
 
+#lado-esquerdo{
+    float: left;
+    width: 40%;
+    padding-left: 10px;
+    padding-right: 50px;
+}
+
+#lado-direito{
+    float: right;
+    width: 40%;
+}
 #sobre-matheus{
     text-align: left;
     display: inline-block;
@@ -86,10 +94,6 @@ main{
     margin-top: 30px;
 }
 
-.lados{
-    display: flex;
-    padding-top: 90px;
-}
 
 table, th, td {
     border: 1px solid black;
