@@ -32,10 +32,12 @@ main {
 
 #licoes_aprendidas {
   display: inline-block;
+  font-size: 18pt;
 }
 
 #licoes_a_aprender {
   display: inline-block;
+  font-size: 18pt;
 }
 
 #rodape {
@@ -63,7 +65,16 @@ aside {
   background-color: gold;
 }
 
-.estilo_aside {
-  display: block;
-  flex-direction: row;
+.lado_direito {
+  display: inline-block;
+  width: 30%;
+  vertical-align: top;
+  margin-left: 30px;
 }
+
+.lado_esquerdo {
+  display: inline-block;
+  width: 60%;
+}
+
+
