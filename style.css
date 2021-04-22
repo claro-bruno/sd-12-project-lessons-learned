@@ -29,23 +29,19 @@ a:hover {
 }
 
 #cabecalho {
+    font-family: 'Balsamiq Sans';
+    color: blueviolet;
     position: fixed;
     top: 0;
     left:0;
     background-color:  rgb(206, 206, 250);
-    z-index: 4;
+    z-index: 5;
     height: 90px;
     width: 100%;
     border: 2px solid rgb(0, 230, 161);
     border-radius: 6px;
     padding: 2px;
     margin: 0;
-}
-
-#titulo {
-    font-family: 'Balsamiq Sans';
-    color: blueviolet;
-    line-height: 50px;
 }
 
 #minha_foto {
@@ -62,7 +58,7 @@ a:hover {
 }
 
 #licoes_aprendidas {
-    z-index: 3;
+    z-index: 4;
     position: absolute;
     top: 420px;
     left: 225px;
@@ -110,7 +106,7 @@ a:hover {
 }
 
 .article, .lado-esquerdo {
-    z-index: 2;
+    z-index: 1;
     background-color: rgb(0, 230, 161);
     position: relative;
     top: 120px;
@@ -125,7 +121,7 @@ a:hover {
 }
 
 .aside, .lado-direito {
-    z-index: 1;
+    z-index: 2;
     position: absolute;
     top: 128px;
     left: 715px;
@@ -145,7 +141,7 @@ table {
     line-height: 30px;
     padding: 3px;
     border: 1px solid black;
-    border-collapse: separate;
+ 
 }
 
 #rodape {
