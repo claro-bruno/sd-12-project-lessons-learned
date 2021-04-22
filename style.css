@@ -12,14 +12,19 @@ body {
 #cabecalho {
   position: fixed;
   top: 0;
-  margin: 100px;
   text-align: center;
   width: 100%;
+  background-size: cover;
+  background-image: url(images/capalinkedin.png);
+  background-position: 0 20%;
+  height: 70px;
+  line-height: 70px;
+  color: white;
 }
 
 #minha_foto {
   width: 250px;
-  border: 2px solid orange;
+  border: 2px solid green;
   padding: 50px;
 }
 
