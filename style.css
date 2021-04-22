@@ -59,8 +59,8 @@ h2 {
 
 .cartao {
   background: rgb(47, 49, 54);
-  padding: 1.3rem 3rem 17.0rem;
-  border-radius: 0.40rem;
+  padding: 1.3rem 3rem 17rem;
+  border-radius: 0.4rem;
   margin-bottom: 2rem;
   color: white;
 }
@@ -68,7 +68,7 @@ h2 {
 .cartao_artigo {
   background: rgb(47, 49, 54);
   padding: 1.5rem 2rem 18.8rem;
-  border-radius: 0.40rem;
+  border-radius: 0.4rem;
   margin-bottom: 2rem;
   color: white;
 }
