@@ -32,6 +32,16 @@ h3 {
     font-style: normal;
 }
 
+#navegacao {
+    background-color: black;
+    color: white;
+    position: fixed;
+    z-index: 1;
+    float: right;
+    text-decoration:none
+}
+
+
 #minha_foto {
     border-radius: 50%;
     width: 250px;
@@ -105,15 +115,6 @@ a {
     text-decoration: none;
 }
 
-#navegacao {
-    background-color: black;
-    color: white;
-    position: fixed;
-    display: block;
-    z-index: 1;
-    float: right;
-    text-decoration:none
-}
 
 #table {
     float: right;
