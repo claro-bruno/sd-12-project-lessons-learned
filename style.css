@@ -21,34 +21,6 @@ a {
   font-weight: 600;
 }
 
-.presentation {
-  width: 100%;
-  height: 300px;
-  position: relative;
-}
-#presentation2 {
-  position: relative;
-  max-width: 50%;
-  left: 40%;
-  top: 50%;
-  transform: translateY(-50%);
-  font-size: 22px;
-  color: #475550;
-}
-
-#presentation3 {
-  
-}
-
-#minha_foto {
-  width: 250px;
-  position: relative;
-  border-radius: 50%;
-  border: 3px solid green;
-  left: 15%;
-  bottom: 10%;
-}
-
 #cabecalho {
   position: fixed;
   top: 0;
@@ -71,7 +43,44 @@ a {
   border-bottom: 1px solid black;
 }
 
-.tg  {border-collapse:collapse;border-color:#bbb;border-spacing:0;
+.presentation {
+  width: 100%;
+  height: 300px;
+  position: relative;
+}
+#presentation2 {
+  position: relative;
+  max-width: 50%;
+  left: 40%;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 22px;
+  color: #475550;
+}
+
+#minha_foto {
+  width: 250px;
+  position: relative;
+  border-radius: 50%;
+  border: 5px solid #026B52;
+  left: 15%;
+  bottom: 10%;
+}
+
+#table {
+  background-color: #F0F2F5;
+  height: 500px;
+  position: relative;
+}
+
+.tg  {
+  border-collapse:collapse;
+  border-color:#bbb;
+  border-spacing:0;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 60px;
 }
 
 .tg td {
