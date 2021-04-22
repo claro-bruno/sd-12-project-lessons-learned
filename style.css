@@ -143,9 +143,9 @@ span {
     transition: 100ms;
 }
 
-aside.about-text {
+section.about-text {
     float: right;
-    margin-top: 17%;
+    margin-top: 3%;
 }
 
 .lado-direito {
@@ -162,10 +162,13 @@ aside.about-text {
 /* Seção da tabela */
 
 .table {
-    margin-top: 32%;
     width: 40%;
     margin-left: 7%;
     font-size: larger;
+}
+
+aside.table {
+    margin-top: 15px;
 }
 
 table,
@@ -190,8 +193,8 @@ tr {
     background-color: rgb(77, 83, 130);
 }
 
-.table table {
-    margin-left: 15%;
+table {
+    margin: 0 auto;
 }
 
 .right-check {
@@ -201,4 +204,20 @@ tr {
 .wrong-check {
     background-color: red;
     color: rgb(253, 251, 251);
+}
+
+footer {
+    background-color: rgb(77, 83, 130);
+    width: 99.8%;
+    margin-top: 3%;
+    padding: 1.2%;
+}
+
+footer p {
+    text-align: center;
+    font-size: smaller;
+}
+
+footer a {
+    color: white;
 }
