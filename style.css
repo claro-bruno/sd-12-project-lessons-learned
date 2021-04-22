@@ -72,7 +72,7 @@ body{
 }
 
 .others_parent{
-    display: inline-block;
+    display: flex;
     font-size: 30px;
     width: 100%;
     padding: 50px 100px;
@@ -82,7 +82,6 @@ body{
 
 .lado_esquerdo{
     background-color: #f2f2f2;
-    width: 45%;
     text-align: justify;
     float:left;
 }
@@ -94,7 +93,6 @@ body{
 
 .lado_direito{
     background-color: #f2f2f2;
-    width: 45%;
     justify-content: center;
     place-items: center;
     margin: 50px 150px 50px 50px;
@@ -111,9 +109,7 @@ body{
 }
 
 .tabela {
-    display: flex;
     justify-content: center;
-    place-items: center;
     width: 100%;
     margin-bottom: 100px;
 }
@@ -121,10 +117,16 @@ body{
     font-size: 30px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: black;
-    text-align: center;
     border: 2px solid black;
+    margin: 0 auto;
 }
 
 .tabela table th{
     border: 2px solid black;
+}
+
+.tabela h4{
+    text-align: center;
+    font-size: 30px;
+    display: block;
 }
