@@ -55,6 +55,7 @@ header {
 #minha_foto {
   margin: auto;
   border-radius: 10px;
+  border: 4px solid #313b2f;
   display: block;
   margin-top: 150px;
   width: 300px;
