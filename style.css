@@ -1,33 +1,34 @@
 body {
-    background: rgb(253, 251, 251);
+  background: rgb(253, 251, 251);
 }
 header {
-    position: fixed;
-    top: 0;
-    background-color: rgb(235, 200, 84);
-    font-size: 20px;
-    text-align: left;
-    margin-right: 10px;
-    margin-left: 10px;
-    height: 95px;
-    width: 150%;
-    text-align: center;
+  position: fixed;
+  top: 0;
+  background-color: rgb(235, 200, 84);
+  font-size: 20px;
+  text-align: left;
+  margin-right: 10px;
+  margin-left: 10px;
+  height: 95px;
+  width: 150%;
+  text-align: center;
+}
+h1 {
+  text-align: center;
 }
 main {
   margin-top: 15%;
-    
 }
-minha_foto {
+#minha_foto {
   top: 100;
-    /* position: relative ; */
-    width: 20%;
-    /* display: block;  
-    margin-left: auto; 
-    margin-right: auto;*/ 
-    }
-rodape {
-    position: absolute;
-    background-color: #54eb7a;
+  position: relative ;
+  width: 40%;
+  display: block;
+  margin-left: auto; 
+  margin-right: auto
+}
+#rodape {
+  background-color: #54eb7a;
   bottom: 0;
   left: 0;
   width: 100%;
@@ -40,4 +41,4 @@ rodape {
   width: 100%;
   text-align: center;
   position: fixed; */
-  }
+}
