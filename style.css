@@ -7,7 +7,17 @@ p {
 }
 #minha_foto {
     width:150px;
-    position:fixed;
+    position:absolute;
     top:70px;
     left:20px; 
+}
+#licoes {
+    position:absolute;
+    top: 350px;
+    left: 20px;
+}
+#licoes_aprendidas {
+    position:absolute;
+    top: 400px;
+    left: 20px;
 }
