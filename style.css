@@ -43,6 +43,7 @@ a:hover {
     top: 0;
     left: 8px;
     background-color: lavender;
+    overflow: hidden;
     width: 100%;
     border-style: solid;
     border-color: rgb(0, 230, 161);
@@ -73,7 +74,7 @@ a:hover {
 
 #licoes_aprendidas {
     position: absolute;
-    top: 392px;
+    top: 420px;
     left: 225px;
     border: solid lavender;
     border-width: 3px;
@@ -84,7 +85,7 @@ a:hover {
 
 #licoes_a_aprender {
     position: absolute;
-    top: 392px;
+    top: 420px;
     left: 495px;
     border: solid lavender;
     border-width: 3px;
@@ -125,7 +126,7 @@ a:hover {
     left: 230px;
     top: 115px;
     width: 460px;
-    height: 260px;
+    height: 280px;
     overflow: auto;
     padding: 1px;
     border: solid rgb(0, 230, 161);
@@ -138,7 +139,7 @@ a:hover {
     left: 710px;
     top: 115px;
     width: 238px;
-    height: 260px;
+    height: 280px;
     overflow: auto;
     padding: 1px;
     border: solid blueviolet;
