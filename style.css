@@ -78,3 +78,13 @@ table {
 .tabela_informacoes, #licoes_aprendidas, #licoes_a_aprender {
   margin-left: 35px;
 }
+
+.tabela_informacoes {
+  border-collapse: collapse;
+  border: 1px solid #000;
+}
+.tabela_informacoes tr td {
+  border: 1px solid #000;
+  text-align: center;
+  padding: 7px 14px;
+}
