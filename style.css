@@ -220,17 +220,30 @@ Source: https://developer.mozilla.org/pt-BR/docs/Web/CSS/CSS_Transitions/Using_C
     font-size: 1.2rem;
 }
 
+/* Tabela de contatos vira um menu lateral "interativo": funciona normalmente apenas para a resolução pedida pelo projeto, por enquanto 
+Sources: 
+1- https://stackoverflow.com/questions/41468762/change-orientation-to-vertical-table-rows-html-css
+
+2- https://www.w3docs.com/snippets/html/how-to-add-an-onclick-effect-in-css.html
+
+*/
 #contatos {
     position: fixed;
     top: 50vh;
-    left: -7vw;
+    left: -7%;
     background-color: #122532;
     border-radius: 1vw;
     transform: rotate(90deg);
     color: #f1faeeff;
+    transition: .5s;
+    transition-delay: .2s;
+}
+#contatos:hover{
+    left: -3.5%;
+    transition: .5s;
 }
 #contatos td {
-    font-size: 3em;
+    font-size: 3rem;
     padding-left: .5vw;
     transform: rotate(-90deg);
 }
@@ -238,6 +251,17 @@ Source: https://developer.mozilla.org/pt-BR/docs/Web/CSS/CSS_Transitions/Using_C
 #contatos td a {
     color: #f1faeeff;
 }
+
+#contatos td a:hover {
+    color: #457b9dff;
+    text-shadow: 1px 1px 2px black;
+}
+
+#contatos td a:visited {
+    color: #f1faeeff;
+}
+
+
 
 
 
