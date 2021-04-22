@@ -91,6 +91,9 @@ nav a:link {
   color: #F8DF77;
   font-weight: 600;
 }
+nav a:visited {
+  color: #F9F3DE;
+}
 nav a:hover {
   color: #2ECFCA;
   background-color: #FF4E62;
