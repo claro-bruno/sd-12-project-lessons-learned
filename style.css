@@ -20,6 +20,20 @@ img {
     width: 300px;
 }
 
+p {
+    padding: 0 10px 0 10px;
+}
+
+article, aside {
+    margin-right: 3%;
+    margin-left: 5%;
+    width: 40%;
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px 5px gray;
+}
+
 /* Classes */
 
 /* IDs */
