@@ -20,7 +20,7 @@ a:hover {
   text-decoration: underline;
 }
 
-h1, h2 {
+h1 , h2 {
   text-align: center;
 }
 
@@ -30,7 +30,6 @@ li {
 }
 
 /* header */
-
 #cabecalho {
   position: fixed;
   top: 0;
@@ -57,7 +56,6 @@ li {
 }
 
 /* Foto */
-
 #foto {
   height: 500px;
   padding-top: 15vh;
@@ -78,7 +76,7 @@ li {
   position: relative;
   border-radius: 50%;
   padding: 10px;
-  background-color: #333;
+  background-color: #333333;
   float: left;
   top: 80px;
   left: 60px;
@@ -145,6 +143,7 @@ li {
 #licoes_aprendidas {
   text-align: center;
 }
+
 #licoes_a_aprender {
   text-align: center;
 }
@@ -160,7 +159,6 @@ li {
 /* Fim das listas */
 
 /* aprendizado */
-
 .aprendizado {
   height: 500px;
   background: radial-gradient(50% 50% at 50% 50%, rgba(30, 142, 61, 0.75) 0%, rgba(30, 142, 61, 0.75) 100%);
@@ -202,7 +200,7 @@ li {
 
 .tabela {
   margin-left: 43%;
-  border: 2px solid rgba(30, 142, 61, 0.75)
+  border: 2px solid rgba(30, 142, 61, 0.75);
 }
 
 td {
@@ -214,7 +212,6 @@ th {
 }
 
 /* rodapé */
-
 #rodape {
   position: relative;
   bottom: 0;
