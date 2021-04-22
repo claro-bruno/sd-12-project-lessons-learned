@@ -194,38 +194,3 @@ li {
   position: relative;
   bottom: 0;
 }
-
-
-/*
-.img {
-  height: 500px;
-}
-
-.listas {
-  background: white;
-  margin-left: 35%;
-  margin-right: 35%;
-}
-
-.lado {
-  display: flex;
-  flex: row;
-  padding: 0 150px;
-}
-
-.lado-esquerdo {
-  width: 100%;
-  padding: 0 50px;
-  border: 3px solid black;
-}
-
-.lado-direito {
-  width: 30%;
-  padding: 0 50px;
-  border: 3px solid black;
-}
-
-.tg {
-  margin-left: 40%;
-}
-
