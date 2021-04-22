@@ -40,13 +40,11 @@ body {
   width: 35%;
   margin: auto;
   display: inline-flexbox;
-
 }
 
 .col-2 {
 
   width: 50%;
-
 }
 
 
@@ -54,8 +52,6 @@ body {
 
   text-align: left;
   color: #0c4934;
-
-
 }
 
 .col-3 {
@@ -85,14 +81,12 @@ nav ul li {
   padding: 0px;
   margin: 0px;
   display: inline;
-
-
 }
 
 nav a {
   color: antiquewhite;
   text-decoration: none;
-  border-bottom: 3px solid #EDEDED;
+  border-bottom: 3px solid #ededed;
 
 }
 
@@ -101,10 +95,6 @@ nav a:hover {
   color: #f0f0f0;
   border-bottom: 3px solid #5be41b;
 }
-
-
-
-
 
 
 table {
@@ -124,9 +114,6 @@ table {
   border-radius: 5px;
   display: inline-block;
   padding: 5%;
-
-
-
 }
 
 
@@ -134,7 +121,6 @@ table {
   list-style: none;
   display: flexbox;
   float: right;
-
 }
 
 
@@ -149,14 +135,9 @@ table {
 #licoes_a_aprender {
   list-style: circle;
   border-radius: 4px;
-
 }
 
-.contacts {
-  display: flex;
-  justify-content: center;
-  list-style-type: none;
-}
+
 
 article {
 
@@ -175,7 +156,6 @@ aside {
   display: flexbox;
   float: left;
   width: 50%;
-
 }
 
 .lado-direito {
@@ -189,8 +169,13 @@ aside {
   margin-bottom: 20px;
 }
 
+
+
 .contacts {
   background-color: #036b52;
   padding: 20px;
   margin: auto;
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
 }
