@@ -6,7 +6,30 @@ header {
   background-color: #313b2f;
   width: 100%;
 }
+.navegacao {
+  background-color: #cbcfd1;
+}
 
+.navegacao ul {
+  margin: 0;
+  padding: 15px 20px;
+}
+
+.navegacao ul li {
+  text-align: center;
+  margin-right: 40px;
+  display: inline-block;
+}
+
+.navegacao ul li a {
+  font-family: "Lato", sans-serif;
+  text-decoration: none;
+  color: #313b2f;
+  text-transform: uppercase;
+}
+.navegacao ul li a:hover {
+  text-decoration: underline;
+}
 #titulo {
   color: #fff;
   margin-left: 20px;
@@ -14,6 +37,7 @@ header {
 }
 
 #cabecalho {
+  text-align: center;
   position: fixed;
   top: 0;
 }
@@ -29,9 +53,10 @@ header {
 }
 
 #minha_foto {
+  margin: auto;
   border-radius: 10px;
   display: block;
-  margin-top: 100px;
+  margin-top: 150px;
   width: 300px;
 }
 
@@ -75,6 +100,14 @@ button {
 
 .btn a:hover {
   color: #ffd639;
+}
+
+.aprendida-esquerda {
+  float: left;
+}
+
+.aprendida-direita {
+  float: right;
 }
 
 .aprendizado-text {
