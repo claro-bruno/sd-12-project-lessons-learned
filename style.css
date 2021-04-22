@@ -1,5 +1,6 @@
 body {
   background-color: rgb(253, 251, 251);
+  font-family: monospace, sans-serif;
 }
 
 #cabecalho {
@@ -41,6 +42,7 @@ nav ul li {
 section h2 {
   margin-top: 70px;
   margin-bottom: 30px;
+  font-size: 30px;
 }
 
 article p {
@@ -48,7 +50,13 @@ article p {
   margin-bottom: 40px;
 }
 
+article h3 {
+  font-size: 30px;
+}
+
 aside p {
   width: 40%;
   margin-bottom: 60px;
+  padding: 0px;
+  border: 10px;
 }
