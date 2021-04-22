@@ -9,19 +9,16 @@ body {
 #cabecalho {
     position: fixed;
     top: 0;
-    width: 99.5%;
-    background-color: rgb(69, 67, 114);
+    width: 99.9%;
+    background-color: rgb(101, 142, 156);
     box-shadow: 1px 1px 1em;
     z-index: 1;
 }
 
 #titulo {
-    color: rgb(253, 251, 251);
+    color: rgb(249, 235, 224);
     text-align: center;
-}
-
-.contatos a {
-    color: wheat;
+    font-family: 'Original Surfer', cursive;
 }
 
 
@@ -38,6 +35,18 @@ body {
     position: absolute;
     right: 50%;
     transform: translatex(50%);
+}
+
+.contatos ul {
+    text-align: center;
+}
+
+.contatos li {
+    display: inline-block;
+}
+
+.fab {
+    font-size: 36px;
 }
 
 
