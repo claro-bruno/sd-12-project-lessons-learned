@@ -207,6 +207,7 @@ Source: https://developer.mozilla.org/pt-BR/docs/Web/CSS/CSS_Transitions/Using_C
 
 #lateral { 
     text-align: center;
+    flex-grow: 1;
     width: 20vw;
     padding: 1%;
     background-color: #a8dadcff;
@@ -219,6 +220,24 @@ Source: https://developer.mozilla.org/pt-BR/docs/Web/CSS/CSS_Transitions/Using_C
     font-size: 1.2rem;
 }
 
+#contatos {
+    position: fixed;
+    top: 50vh;
+    left: -7vw;
+    background-color: #122532;
+    border-radius: 1vw;
+    transform: rotate(90deg);
+    color: #f1faeeff;
+}
+#contatos td {
+    font-size: 3em;
+    padding-left: .5vw;
+    transform: rotate(-90deg);
+}
+
+#contatos td a {
+    color: #f1faeeff;
+}
 
 
 
