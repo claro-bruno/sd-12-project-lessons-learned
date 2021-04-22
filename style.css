@@ -25,13 +25,13 @@ body {
     border: pink;
 }
 
-#artigo, #ao-lado {
+.lado-esquerdo, .lado-direito {
     display: inline-block;
     width: 50%;
-    float: right;
+    float:right;
     position:unset;
-    padding-top: 0%;
-    margin-top: 0%;
+    padding-top: 0px;
+    margin-top: 0%;    
 }
 
 #ao-lado {
