@@ -26,7 +26,8 @@ body{
     background-color: rgb(250, 165, 165);
     display: inline-block;
     border: 4px solid red;
-    padding-right: 200px;
+    padding-right: 40px;
+    padding-left: 40px;
 }
 
 #licoes_a_aprender{
@@ -34,5 +35,20 @@ body{
     background-color:aqua;
     float: right 80px;
     
+}
+
+.artigo{
+    background-color: rgb(250, 165, 165);
+    display: block;
+    border: 4px solid red;
+    margin-top: 20px;
+
+}
+
+.aside{
+    background-color: rgb(250, 165, 165);
+    display: block;
+    border: 4px solid red;
+    margin-top: 20px;
 }
 
