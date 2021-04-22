@@ -1,81 +1,82 @@
 body {
- background-color: rgb(253, 251, 251);
+ 	background-color: rgb(253, 251, 251);
 }
 #cabecalho {
-    position: fixed;
-    top: 0;
+	position: fixed;
+  top: 0;
 }
 #titulo {
-    color: rgb(253, 251, 251);
-    font-size: 30px;
-    letter-spacing: 3px;
-    margin-left: 20px;
+	color: rgb(253, 251, 251);
+  font-size: 30px;
+  letter-spacing: 3px;
+  margin-left: 20px;
 }
 .barra_superior {
-    background-color: rgb(6, 117, 43);
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 70px;
+  background-color: rgb(6, 117, 43);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 70px;
 }
 #minha_foto {
-    border-style: solid;
-    border-radius: 50px;
-    width: 150px;
-    height: 150px;
-    margin-top: 10px;
-    margin-left: 10px;
+  border-style: solid;
+  border-radius: 50px;
+  width: 150px;
+  height: 150px;
+  margin-top: 10px;
+  margin-left: 10px;
 }
 #perfil {
-    margin-top: 80px;
-    vertical-align: 100px; 
+  margin-top: 80px;
+  vertical-align: 100px; 
 }
 #menu {
-    margin-top: 10px;
-    display: inline-block;
+  margin-top: 10px;
+  display: inline-block;
 }
 .menu-content {
-    border-style: solid;
-    display: inline-block;
-    width: 400px;
-    margin-left: 50px;
+  border-style: solid;
+  display: inline-block;
+  width: 400px;
+  margin-left: 50px;
 }
 .titulo-licoes {
-    text-align: center;
+  text-align: center;
 }
 .side-bar {
-    margin-top: 10px;
-    background-color: rgb(88, 148, 108);
-    width: 180px;
-    height: 100px;
-    text-align: center;
+  margin-top: 10px;
+	margin-right: 5px;
+  background-color: rgb(88, 148, 108);
+  width: 180px;
+  height: 130px;
+  text-align: center;
 }
 .tabela {
-    align-items: center;
-    border-style: solid;
-    border-color: rgb(10, 10, 10);
+  align-items: center;
+  border-style: solid;
+  border-color: rgb(10, 10, 10);
 }
 .menu-links {
-    text-align: center;
-    width: 100px;
-    height: 100px;
+  text-align: center;
+  width: 100px;
+  height: 100px;
 }
 .paragrafo{
-    font-family: sans-serif;
-    line-height: 25px;
-    margin-left: 0px;
+  font-family: sans-serif;
+  line-height: 25px;
+  margin-left: 0px;
 }
 .box-paragrafo {
-    background-color: royalblue;
-    border-width: 200px;
-    text-align: center;
-    width: 500px;
-    display: inline-block;
-    line-height: 50px;
-    vertical-align: top;
+  background-color: royalblue;
+  border-width: 200px;
+  text-align: center;
+  width: 500px;
+  display: inline-block;
+  line-height: 50px;
+  vertical-align: top;
 }
 #rodape {
-    background-color: rgb(6, 117, 43);
+  background-color: rgb(6, 117, 43);
 }
   
