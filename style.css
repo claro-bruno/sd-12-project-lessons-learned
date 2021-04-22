@@ -35,6 +35,7 @@ main{
     display: inline-block;
     border: solid black;
     margin-top: 20px;
+    margin-left: 20px;
 }
 
 .lado-esquerdo{
