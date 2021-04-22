@@ -1,118 +1,118 @@
 /* GLOBAL */
 * {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-	line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  line-height: 1.6;
 }
 
 body {
-	background-color: rgb(253, 251, 251);
-	font-family: 'Poppins', sans-serif;
+  background-color: rgb(253, 251, 251);
+  font-family: 'Poppins', sans-serif;
 }
 
 /* HEADER	*/
 #cabecalho {
-	position: fixed;
-	text-align: center;
-	top: 0;
-	padding: 0.3rem;
-	background: rgb(3, 107, 82);
-	margin: auto;
-	left: 0;
-	right: 0;
+  position: fixed;
+  text-align: center;
+  top: 0;
+  padding: 0.3rem;
+  background: rgb(3, 107, 82);
+  margin: auto;
+  left: 0;
+  right: 0;
   z-index: 1;
 }
 
 #titulo {
-	color: white;
+  color: white;
 }
 
 /* MAIN */
 
 #minha_foto {
-	border-radius: 50%;
-	position: absolute;
-	margin: auto;
-	left: 0;
-	right: 0;
-	top: 100px;
+  border-radius: 50%;
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 100px;
 }
 #meu_nome {
-	position: absolute;
-	margin: auto;
-	left: 0;
-	right: 0;
-	top: 270px;
-	text-align: center;
-	color: rgb(54, 63, 95);
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 270px;
+  text-align: center;
+  color: rgb(54, 63, 95);
 }
 
 .container {
-	width: min(90vw, 700px);
-	margin: auto;
-	z-index: 0;
+  width: min(90vw, 700px);
+  margin: auto;
+  z-index: 0;
 }
 
 h2 {
-	margin-top: 20rem;
-	font-weight: normal;
-	color: rgb(54 63 95);
+  margin-top: 20rem;
+  font-weight: normal;
+  color: rgb(54 63 95);
 }
 
 .cartao {
-	background: rgb(47, 49, 54);
-	padding: 1.3rem 3rem 17.0rem;
-	border-radius: 0.40rem;
-	margin-bottom: 2rem;
-	color: white;
+  background: rgb(47, 49, 54);
+  padding: 1.3rem 3rem 17.0rem;
+  border-radius: 0.40rem;
+  margin-bottom: 2rem;
+  color: white;
 }
 .cartao_artigo {
-	background: rgb(47, 49, 54);
-	padding: 1.5rem 2rem 18.8rem;
-	border-radius: 0.40rem;
-	margin-bottom: 2rem;
-	color: white;
+  background: rgb(47, 49, 54);
+  padding: 1.5rem 2rem 18.8rem;
+  border-radius: 0.40rem;
+  margin-bottom: 2rem;
+  color: white;
 }
 #licoes_aprendidas {
-	float: left;
-	position: relative;
-	display: inline-block;
+  float: left;
+  position: relative;
+  display: inline-block;
 }
 
 #licoes_a_aprender {
-	float: right;
-	position: relative;
-	display: inline-block;
+  float: right;
+  position: relative;
+  display: inline-block;
 }
 
 .lado-esquerdo {
-	float: left;
-	width: 300px;
+  float: left;
+  width: 300px;
 }
 
 .lado-direito {
-	float: right;
-	width: 300px;
+  float: right;
+  width: 300px;
 }
 
 /* FOOTER */
 
 footer {
-	background: #202020;
-	width: 100%;
-	color: white;
-	text-align: center;
-	padding: 20px;
-	margin: auto;
+  background: #202020;
+  width: 100%;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin: auto;
 }
 
 .copyright {
-	color: #c7c7c7;
-	font-size: 12px;
+  color: #c7c7c7;
+  font-size: 12px;
 }
 
 .copyright a {
-	color: white;
-	font-weight: bold;
+  color: white;
+  font-weight: bold;
 }
