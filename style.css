@@ -1,4 +1,7 @@
 body {
+    font-family: Georgia, sans-serif;
+    font-size: 30px;
+    line-height: 50px;
     background-color: rgb(253, 251, 251);
     margin: 5%;
     padding: auto;
@@ -7,10 +10,12 @@ body {
 
 header {
     position: fixed;
-    top: 0px;
+    top: 50px;
+    background-color: darkblue;
+    color: white;
 }
 
 #minha_foto {
-width: 225px;
-margin-top: 150px;
+width: 250px;
+margin-top: 200px;
 }
