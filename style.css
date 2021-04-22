@@ -9,10 +9,7 @@ body {
 .container {
   width: 1200px;
   margin: auto;
-
-
 }
-
 
 
 #cabecalho {
@@ -24,15 +21,12 @@ body {
   position: fixed;
   width: 1300px;
   top: 0;
-  border-bottom: orange, 20px;
 
 }
 
 nav {
-  background-color: orange;
   width: 1200px;
   height: 30px;
-
 }
 
 nav ul li {
@@ -58,42 +52,48 @@ nav a:hover {
   border-bottom: 3px solid #5be41b;
 }
 
+#quem-sou {
+  background-color: rgb(145, 165, 165);
+
+}
+
 
 #minha_foto {
   margin-top: 150px;
   padding: 10px;
   border-radius: 50%;
-  width: 20%;
+  width: 15%;
+  background-color: rgba(196, 196, 196, 0.1);
+
+}
+
+#sobre {
+
+  width: 100%;
+  text-align: justify;
+  font-size: 17px;
+  color: #1a5532;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  line-height: 20px;
+
+}
+
+
+.licoes li {
+  list-style: none;
+  display: flexbox;
+  float: right;
+
 }
 
 table {
 
-
   border-collapse: collapse;
-  border: 1px solid #455;
+  border: 1px solid rgb(65, 218, 218);
   display: inline-block;
   width: 50%;
   text-align: justify;
   margin: auto;
-
-
-}
-
-#quem-sou {
-  background-color: #455;
-}
-
-#sobre {
-  position: relative;
-  width: 100%;
-  text-align: justify;
-  float: right;
-  font-size: 17px;
-  color: #036b52;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-
-  line-height: 20px;
-
 }
 
 
@@ -101,18 +101,13 @@ table {
   list-style: decimal;
   border-radius: 4px;
 
-
 }
 
 #licoes_a_aprender {
   list-style: circle;
   border-radius: 4px;
 
-
 }
-
-
-
 
 .contacts {
   display: flex;
@@ -128,20 +123,19 @@ article {
   margin: auto;
 }
 
+aside {
+  background-color: rgb(243, 243, 243);
+}
+
 
 .lado-esquerdo {
   display: flexbox;
   float: left;
   width: 50%;
 
-
-
 }
 
 .lado-direito {
   display: flexbox;
-
-
-
 
 }
