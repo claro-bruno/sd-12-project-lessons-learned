@@ -35,7 +35,7 @@ li {
   position: fixed;
   top: 0;
   width: 100%;
-  background: radial-gradient(50% 50% at 50% 50%, rgba(30, 142, 61, 0.75) 0%, #1E8E3D 100%);
+  background: radial-gradient(50% 50% at 50% 50%, rgba(30, 142, 61, 0.75) 0%, rgba(30, 142, 61, 0.75) 100%);
   opacity: 0.9;
   z-index: 2;
   color: white;
@@ -58,7 +58,7 @@ li {
 
 /* Foto */
 
-#foto{
+#foto {
   height: 500px;
   padding-top: 15vh;
 }
@@ -66,7 +66,7 @@ li {
 .card {
   width: 900px;
   height: 420px;
-  background: radial-gradient(50% 50% at 50% 50%, rgba(30, 142, 61, 0.75) 0%, #1E8E3D 100%);
+  background: radial-gradient(50% 50% at 50% 50%, rgba(30, 142, 61, 0.75) 0%, rgba(30, 142, 61, 0.75) 100%);
   border-radius: 45px;
   position: relative;
   top: 60px;
@@ -112,7 +112,7 @@ li {
   color: white;
 }
 
-/*Fim da seção foto*/
+/* Fim da seção foto */
 
 /* listas */
 #listas-secao {
@@ -130,14 +130,14 @@ li {
 
 .aprendidas {
   float: left;
-  background: radial-gradient(50% 50% at 50% 50%, rgba(30, 142, 61, 0.75) 0%, #1E8E3D 100%);
+  background: radial-gradient(50% 50% at 50% 50%, rgba(30, 142, 61, 0.75) 0%, rgba(30, 142, 61, 0.75) 100%);
   width: 300px;
   border-radius: 10%;
 }
 
 .aprender {
   float: right;
-  background: radial-gradient(50% 50% at 50% 50%, rgba(30, 142, 61, 0.75) 0%, #1E8E3D 100%);
+  background: radial-gradient(50% 50% at 50% 50%, rgba(30, 142, 61, 0.75) 0%, rgba(30, 142, 61, 0.75) 100%);
   width: 300px;
   border-radius: 10%;
 }
@@ -157,13 +157,13 @@ li {
   text-decoration: underline;
 }
 
-/*Fim das listas*/
+/* Fim das listas */
 
-/*aprendizado*/
+/* aprendizado */
 
 .aprendizado {
   height: 500px;
-  background: radial-gradient(50% 50% at 50% 50%, rgba(30, 142, 61, 0.75) 0%, #1E8E3D 100%);
+  background: radial-gradient(50% 50% at 50% 50%, rgba(30, 142, 61, 0.75) 0%, rgba(30, 142, 61, 0.75) 100%);
 }
 
 .titulo-aprendizado {
@@ -188,6 +188,7 @@ li {
   font-size: 20px;
   text-align: justify;
 }
+
 /* Fim da seção aprendizado */
 
 /* Tabela */
@@ -201,7 +202,7 @@ li {
 
 .tabela {
   margin-left: 43%;
-  border: 2px solid #1E8E3D
+  border: 2px solid rgba(30, 142, 61, 0.75)
 }
 
 td {
@@ -209,10 +210,10 @@ td {
 }
 
 th {
-  font-size:  24px;
+  font-size: 24px;
 }
 
-/*rodapé*/
+/* rodapé */
 
 #rodape {
   position: relative;
