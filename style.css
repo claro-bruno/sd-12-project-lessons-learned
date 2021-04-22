@@ -117,7 +117,7 @@ header a.button:hover {
 #minha_foto {
   width: 250px;
   position: fixed;
-  top: 300px;
+  bottom: 350px;
   right: 10px;
   border: 10px solid #2ECFCA;
   border-radius: 110px;
