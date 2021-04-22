@@ -7,8 +7,10 @@ body {
     top: 0;
     left: 0;
     right: 0;
-    background-color: rgb(3, 107, 82);
-    color: rgb(255, 255, 255);
+    border-bottom-left-radius: 18px;
+    border-bottom-right-radius: 18px;
+    background-color: rgb(40, 40, 38);
+    color: rgb(253, 251, 251);
     text-align: center;
 }
 ul {
@@ -16,20 +18,21 @@ ul {
 }
 nav ul li{
     display: inline-block;
-    margin-left: 15px;
-    margin-right: 15px;
+    margin-left: 12px;
+    margin-right: 12px;
 }
 nav ul li:hover{
     font-weight: bold;
 }
 #perfil {
     min-height: 240px;
-    background-color: rgb(65, 25, 127);
-    box-shadow: 3px 3px 15px 1px rgb(129, 129, 129);
-    border-radius: 10px;
+    background-image: url(quadriculado.png);
+    /* background-size: auto; */
+    background-repeat: no-repeat;
+    /* box-shadow: 3px 3px 15px 1px rgb(129, 129, 129); */
     margin-top: 135px;
-    margin-left: 2%;
-    margin-right: 2%;
+    margin-left: 20%;
+    margin-right: 20%;
 }
 #minha_foto {
     width: 200px;
@@ -37,18 +40,68 @@ nav ul li:hover{
     float: left;
     margin-top: 20px;
     margin-left: 10%;
+    border: 5px solid rgb(241, 87, 35);
+    box-shadow: 3px 5px 1px rgb(250, 171, 28),-6px -3px 1px rgb(92, 79, 161);
 }
 #descricao {
     float: right;
-    color: rgb(253, 251, 251);
     text-align: center;
+    margin-top: 50px;
     margin-right: 10%;
 }
-h3{
-    font-size: 20px;
-    font-weight: 500;
+#nome {
+    font-family: 'Fira Code', monospace;
+    font-size: 25px;
+    color: rgb(253, 251, 251);
+    background-color: rgb(92, 79, 161);
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+#estudante {
+    background-color: rgb(250, 171, 28);
+    color: rgb(92, 79, 161);
+    font-weight: 600;
+    display: inline;
 }
 #turma {
+    background-color: rgb(250, 171, 28);
+    color: rgb(92, 79, 161);
     font-size: 12px;
-    font-weight: bold;
+    font-weight: 600;
+    display: inline;
+}
+#skills {
+    min-height: 400px;
+    background-color: darkgrey;
+}
+h2 {
+    font-family: 'Fira Code', monospace;
+    color: rgb(92, 79, 161);
+    font-size: 25px;
+    margin-top: 50px;
+    margin-left: 25px;
+    display: flexbox;
+}
+ol li {
+    font-size: 25px;
+    line-height: 40px;
+}
+#coluna_1 {
+    float: left;
+    margin-left: 50px;
+    margin-top: 1%;
+}
+#coluna_2{
+    float: left;
+    margin-left: 150px;
+    margin-top: 1%;
+}
+#imagem_skills {
+    height: 350px;
+    float: right;
+    margin-right: 10%;
+}
+#artigos {
+    min-height: 600px;
+    background-color: hotpink;
 }
