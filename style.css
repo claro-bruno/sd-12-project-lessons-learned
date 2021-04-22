@@ -5,11 +5,12 @@ header {
     position: fixed;
     top: 0;
     background-color: rgb(235, 200, 84);
-    font-size: 60px;
-    margin-right: auto;
-    margin-left: auto;
-    height: 80px;
-    width: 100%;
+    font-size: 20px;
+    text-align: left;
+    margin-right: 10px;
+    margin-left: 10px;
+    height: 95px;
+    width: 150%;
     text-align: center;
 }
 main {
@@ -17,6 +18,7 @@ main {
     
 }
 minha_foto {
+  top: 100;
     /* position: relative ; */
     width: 20%;
     /* display: block;  
