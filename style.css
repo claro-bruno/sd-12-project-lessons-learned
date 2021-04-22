@@ -115,23 +115,27 @@ aside p{
     width: 80%;
     margin: auto;
 }
-.lado-esquerdo, .lado-direito{
+
+.lado-esquerdo, .lado-direito, .central{
     border: 2px double rgb(42, 46, 43);
     border-spacing: 2px;
     padding: 10px;
+    
 }
-.lado-esquerdo, .lado-direito, .tabela{
+
+.lado-esquerdo, .lado-direito, .tabela, .central{
     width: 30%;
     margin: 10px;
     display: inline-block;
 }
 
 
-.tabela{
+table{
     color:rgb(42, 46, 43);
+    margin: auto;
    
 }
-.tabela, .tabela td{
+table td{
     border:1px double rgb(42, 46, 43);
     border-spacing:1px;
     color:rgb(42, 46, 43);
@@ -139,7 +143,7 @@ aside p{
     
     
 }
-.tabela td{
+table td{
     padding:20px;
    
 }
