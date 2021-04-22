@@ -13,7 +13,7 @@ body {
     margin: 0;
     padding: 1vh 3vw 1vh 5vw;
     width: 90vw;
-    color: #122532;
+    color: #f1faeeff;
     background: url(/sd-12-project-lessons-learned/images/sincerely-media-OOHsoUNRxt8-unsplash.png) no-repeat center fixed;
     background-color: rgb(253,251,251);
 }
@@ -26,14 +26,14 @@ Source: https://css-tricks.com/snippets/css/a-guide-to-flexbox/
     left: 5vw;
     position: fixed;
     width: 90vw;
-    background-color: #f1faeeff;
+    background-color: #122532;
     display: flex;
     flex-flow: row-reverse wrap;
     align-items: center;
     justify-content: space-around;
     border-radius: 0 0 1vw 1vw;
     box-shadow: 0 2px 5px black;
-    opacity: 80%;
+    opacity: 95%;
 }
 
 #titulo {
@@ -45,23 +45,23 @@ Source: https://css-tricks.com/snippets/css/a-guide-to-flexbox/
     font-size: 1.5rem;
 }
 
+
+.internal {
+    transition-duration: .5s;
+    color: #f1faeeff;
+    padding: 0 .5vw; 
+}
 /*
 Source: https://www.w3schools.com/cssref/sel_visited.asp
  */
-.home:hover {
+.internal:hover {
     color: #457b9dff;
     text-shadow: 1px 1px 2px black;
     font-size: 101%;
     transition-duration: .5s;
 }
 
-.home {
-    transition-duration: .5s;
-    color: #122532;
-
-}
-
-.nav a:visited {
+.internal:visited {
     color: #122532;
 }
 
@@ -100,8 +100,22 @@ Source: https://www.w3schools.com/cssref/sel_visited.asp
     transition-duration: .5s;
 }
 
+.seta {
+    font-size: 4rem;
+    color: #122532;
+    transition: .5s;
+    opacity: 70%;
+    width: 100vw;
+    text-align: center;
+}
+.seta:hover {
+    color: #457b9dff;
+    transition: .5s;
+    text-shadow: 2px 2px 2px black;
+    opacity: 100%;
+}
+
 #licoes {
-    line-height: 4vh;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
@@ -112,10 +126,10 @@ Source: https://www.w3schools.com/cssref/sel_visited.asp
     padding: 1vw;
     border-radius: 1vw;
     border: 1px solid black;
-    margin: 4vh 40vw;
+    margin: 15vh 40vw 0 40vw;    
     font-size: 1.5em;
     transition-duration: .5s;
-
+    color: #122532;
 }
 
 #licoes h3:hover {
@@ -161,7 +175,7 @@ Source: https://developer.mozilla.org/pt-BR/docs/Web/CSS/CSS_Transitions/Using_C
 
 
 
-.artigos {
+#artigos {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
@@ -170,11 +184,12 @@ Source: https://developer.mozilla.org/pt-BR/docs/Web/CSS/CSS_Transitions/Using_C
     padding: 2%;
     background-color: #122532;
     border-radius: 1vw;
-    margin-top: 10vh;
+    margin-top: 50vh;
+    margin-bottom: 30vh;
     transition-duration: .5s;
 }
 
-.artigos:hover {
+#artigos:hover {
     box-shadow: 5px 5px 5px black;
     transition-duration: .5s;
 }
@@ -213,6 +228,7 @@ Source: https://developer.mozilla.org/pt-BR/docs/Web/CSS/CSS_Transitions/Using_C
     background-color: #a8dadcff;
     border-radius: 1vw;
     transition-duration: .5s;
+    color: #122532;
 }
 
 #lateral h4 {
@@ -241,6 +257,7 @@ Sources:
 #contatos:hover{
     left: -3.5%;
     transition: .5s;
+    text-shadow: 2px 2px 2px black;
 }
 #contatos td {
     font-size: 3rem;
@@ -248,20 +265,30 @@ Sources:
     transform: rotate(-90deg);
 }
 
-#contatos td a {
+.link {
     color: #f1faeeff;
 }
 
-#contatos td a:hover {
+.link:hover {
     color: #457b9dff;
-    text-shadow: 1px 1px 2px black;
 }
 
-#contatos td a:visited {
+.link:visited {
     color: #f1faeeff;
 }
 
-
+#rodape {
+    position: relative;
+    bottom: -5vh;
+    left: -5vw;
+    color: #122532;
+    background-color: #f1faeeff;
+    width: 100vw;
+    text-align: center;
+}
+#rodape p {
+    margin: 0;
+}
 
 
 
