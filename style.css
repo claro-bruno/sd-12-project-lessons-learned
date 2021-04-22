@@ -30,3 +30,11 @@ body {
   height: 500px;
   background-color: #FF4E62;
 }
+#minha_foto {
+  width: 250px;
+  position: fixed;
+  top: 300px;
+  right: 10px;
+  border: 10px solid #2ECFCA;
+  border-radius: 110px;
+}
