@@ -1,30 +1,30 @@
 body {
-    background-color: rgb(253, 251, 251);
-    font-family: Georgia, 'Times New Roman', Times, serif;
+  background-color: rgb(253, 251, 251);
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 header {
-    background-color: #036b52;
-    padding: 5px;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    width: 100%;
+  background-color: #036b52;
+  padding: 5px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
 }
 
 #titulo {
-    text-align: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 main {
-    margin-top: 90px;
-    padding: 1px 10px 10px 10px;
+  margin-top: 90px;
+  padding: 1px 10px 10px 10px;
 }
 
 nav {
-    margin-left: 20px;
+  margin-left: 20px;
 }
 
 .botao {
