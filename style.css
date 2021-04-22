@@ -69,6 +69,7 @@ hr{
    .artigo{
     display: inline-block;
     vertical-align: top;
+    position: relative;
     width: 400px;
     margin: 20px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -80,6 +81,7 @@ hr{
    .asi{
     display: inline-block;
     vertical-align: top;
+    position: absolute;
     width: 400px;
     margin: 20px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
