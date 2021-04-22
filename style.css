@@ -1,11 +1,10 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
 /*tags*/
 body {
   background-color: rgb(253, 251, 251);
   margin: 0;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
 }
 
 a {
@@ -14,7 +13,7 @@ a {
   padding: 7px;
   font-size: 20px;
   line-height: 2px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
 }
 
 a:hover{
@@ -24,7 +23,7 @@ a:hover{
 h1 {
   text-align: center;
   color: white;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
 }
 
 h2 {
@@ -55,14 +54,54 @@ h2 {
 
 /*Foto*/
 
+.container-foto {
+  width: 900px;
+  height: 420px;
+  background-color: darkgreen;
+  border-radius: 45px;
+  position: relative;
+  top: 180px;
+  left: 250px;
+}
+
 #minha_foto {
   position: relative;
   border-radius: 50%;
   padding: 10px;
-  background-color: darkgreen;
-  top: 180px;
-  left: 400px;
+  background-color: black;
+  float: left;
+  top: 80px;
+  left: 60px;
 }
+
+.description {
+  position: relative;
+  width: 480px;
+  height: 250px;
+  float: right;
+  top: 80px;
+  right: 60px;
+}
+
+.nome {
+  font-size: 60px;
+  margin: 20px 0px;
+}
+
+.div-nome {
+  width: 70%;
+  height: 5px;
+  background-color: white;
+  margin-left: 84px;
+}
+
+.descritivo {
+  font-size: 30px;
+  text-align: center;
+  color: white;
+}
+
+/*listas*/
 
 .img {
   height: 500px;
