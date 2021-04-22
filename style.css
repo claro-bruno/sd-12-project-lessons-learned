@@ -12,9 +12,9 @@ li{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
     color: blueviolet;
-    letter-spacing: 3px;
+    letter-spacing: 5px;
 }
-#licoes_aprendidas{
+#licoes_a_aprender{
     float: right;
-    width: 40%;
+    width: 50%;
 }
