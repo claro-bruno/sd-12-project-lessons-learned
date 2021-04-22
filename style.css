@@ -12,6 +12,7 @@ body {
   z-index: -1;
 }
 .bg-header {
+  top: 0;
   height: 185px;
   background-color: #2ECFCA;
 }
@@ -60,6 +61,11 @@ body {
 
 .padding-text {
   padding: 10px 50px 10px 30px;
+}
+
+article {
+  width: 550px;
+  margin: 100px 0 0 0;
 }
 
 main ol li,main ul li {
