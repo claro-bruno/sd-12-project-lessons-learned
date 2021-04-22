@@ -15,6 +15,7 @@ body {
     padding: 1vh 3vw 1vh 5vw;
     width: 90vw;
     color: #1d3557ff;
+    
 }
 
 /* 
@@ -55,6 +56,8 @@ Source: https://www.w3schools.com/cssref/sel_visited.asp
 
 .home {
     transition-duration: .5s;
+    color: #1d3557ff;
+
 }
 
 .nav a:visited {
@@ -115,7 +118,6 @@ Source: https://developer.mozilla.org/pt-BR/docs/Web/CSS/CSS_Transitions/Using_C
 
 .boxes li {
     width: fit-content;
-
 }
 
 .boxes li:hover {
@@ -124,15 +126,40 @@ Source: https://developer.mozilla.org/pt-BR/docs/Web/CSS/CSS_Transitions/Using_C
 
 
 #aprendizado {
-    max-width: 60%;
-    text-align: justify;
-    display: flex;
-    flex-flow: column wrap;
+    width: 40vw;
     flex-grow: 1;
+    padding-right: 5%;
+}
+
+#aprendizado h4 {
+    text-align: center;
 }
 
 
+.artigos {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    text-align: justify;
+    padding: 2%;
+}
 
+#lateral { 
+    text-align: center;
+    width: 20vw;
+    padding: 1%;
+    background-color: #a8dadcff;
+    border-radius: 1vw;
+    transition-duration: .5s;
+
+}
+
+#lateral:hover {
+    box-shadow: 1px 1px 5px black;
+    transition-duration: .5s;
+
+}
 
 
 
