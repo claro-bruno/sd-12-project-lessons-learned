@@ -2,7 +2,7 @@ body {
   background-color: rgb(253, 251, 251);
   text-align: center;
   margin: 0;
-  font-family: "Nunito", sans-serif;
+  font-family: Nunito, sans-serif;
 }
 
 #cabecalho {
@@ -15,7 +15,7 @@ body {
   z-index: 999;
   box-shadow: 0 0 1px 2px rgb(24 26 24 / 15%);
   align-items: center;
-  font-family: "Major Mono Display", monospace;
+  font-family: Major Mono Display, monospace;
   justify-content: center;
   display: flex;
 }
@@ -29,9 +29,10 @@ body {
   display: inline;
   padding-left: 30px;
 }
+
 #titulo {
   color: rgb(232, 226, 217);
-  font-family: "Major Mono Display", monospace;
+  font-family: Major Mono Display, monospace;
 }
 
 a {
@@ -43,6 +44,7 @@ a {
 a:hover {
   color: rgb(190, 35, 41);
 }
+
 main {
   margin: auto;
   padding-top: 100px;
@@ -61,10 +63,7 @@ main {
 
 .article_aside {
   float: left;
-  padding-top: 50px;
-  padding-bottom: 50px;
-  padding-left: 20%;
-  padding-right: 20%;
+  padding: 50px 20%;
   max-width: 100%;
   margin: auto;
   display: inline;
@@ -83,7 +82,7 @@ main {
 
 .lado-esquerdo h2 {
   text-align: left;
-  font-family: "Major Mono Display";
+  font-family: Major Mono Display, monospace;
 }
 
 .lado-direito {
@@ -101,14 +100,12 @@ table {
   width: 100%;
 }
 
-table,
-td {
+table , td {
   border: 0.5px solid rgb(190, 167, 91);
   border-collapse: collapse;
 }
 
-tr,
-td {
+tr , td {
   padding: 10px;
 }
 
@@ -117,7 +114,6 @@ td {
   padding-bottom: 50px;
   background-color: rgb(232, 226, 217);
   display: inline-flex;
-
   width: 100%;
   justify-content: center;
 }
