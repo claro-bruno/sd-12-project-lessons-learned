@@ -252,7 +252,7 @@ Sources:
 #contatos {
   position: fixed;
   top: 50vh;
-  left: -7%;
+  left: -100px;
   background-color: rgb(18,37,50);
   border-radius: 1vw;
   transform: rotate(90deg);
@@ -262,7 +262,7 @@ Sources:
 }
 
 #contatos:hover {
-  left: -3.5%;
+  left: -45px;
   transition: 0.5s;
   text-shadow: 2px 2px 2px black;
 }
