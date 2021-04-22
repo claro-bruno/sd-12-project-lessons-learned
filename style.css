@@ -1,10 +1,10 @@
 body {
+  color: #F9F3DE;
   background-color: rgb(253, 251, 251);
   margin: 0;
-}
-#cabecalho {
-  position: fixed;
-  top: 0;
+  font-size: 1.4em;
+  line-height: 1.6;
+  font-weight: 400;
 }
 .bg {
   position: absolute;
@@ -29,6 +29,10 @@ body {
   top: 1235px;
   height: 500px;
   background-color: #FF4E62;
+}
+#cabecalho {
+  position: fixed;
+  top: 0;
 }
 #minha_foto {
   width: 250px;
