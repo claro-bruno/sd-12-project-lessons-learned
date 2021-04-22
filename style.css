@@ -1,12 +1,17 @@
 header {
     position: fixed;
     top: 0;
-    margin: 10px;
+    background-color: green;
+    width: 100%;
     padding: 10px;
     border: solid black 1px;
+    text-align: center;
 }
 img {
-    width: 300px;
+    margin: 20px;
+    margin-top: 150px;
+    padding: 10px;
+    width: 200px;
     display: block;
 }
 body {
@@ -18,7 +23,7 @@ li {
     font-size: 1.2em;
     color: blue;
 }
-article section  {
+section  {
     background-color: rgb(211, 211, 211);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 1.2em;
@@ -31,6 +36,13 @@ article section  {
 }
 .lado-direito {
     width: 20%;
-    vertical-align: 2em;
+    display: inline-block;
+}
+#licoes_aprendidas{
+    width: 30%;
+    display: inline-block;
+}
+#licoes_a_aprender{
+    width: 20%;
     display: inline-block;
 }
