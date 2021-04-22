@@ -11,19 +11,18 @@ body {
 main {
     display: grid;
     grid-template-rows: ;
-    grid-template-areas: "navegacao navegacao navegacao" "cabecalho cabecalho cabecalho" "conteudo conteudo lateral" "lista1 lista2 video" "rodape rodape rodape";
+    grid-template-areas: "cabecalho cabecalho cabecalho" "navegacao navegacao navegacao" "conteudo conteudo lateral" "lista1 lista2 video" "rodape rodape rodape";
 }
-
-/*Eu poderia usar grid para construir aquele site das aulas?*/
 
 /*Navegação*/
 
 .navegacao {
     grid-area: navegacao;
-    background-color: orange;
-    position: fixed;
+    background-color: white;
     width: 100%;
-    border-bottom: 10px solid rgb(94, 11, 80);
+    /*border-bottom: 10px solid rgb(94, 11, 80);*/
+    box-shadow: 0 0 0 2px;
+    padding-top: 175px;
 }
 
 .listanav {
@@ -50,20 +49,26 @@ main {
 
 /*Cabeçalho*/
 
-.cabecalho {
+#cabecalho {
     grid-area: cabecalho;
-    background-image: url(/images/marcus.jpeg);
+    background-color: black;
     background-size: cover;
     width: 100%;
-    padding-top: 100px;
-    height: 500px;
+    position: fixed;
+    top: 0;
 }
 
-.titulo {
+#minha_foto {
+    width: 80px;
+    border-radius: 100%;
+}
+
+#titulo {
     color: white;
     font-size: 30px;
     text-align: center;
     font-size: 50px;
+    margin: 30px;
     /*Como colocar o texto no centro da div?*/
 }
 
@@ -91,9 +96,16 @@ main {
     background-color: rgb(251, 216, 152);
 }
 
-.licoes_aprendidas {
+#licoes_aprendidas {
+    margin: 30px;
+    line-height: 2em;
     text-align: center;
-    list-style: none;
+}
+
+#licoes_a_aprender {
+    margin: 30px;
+    line-height: 2em;
+    text-align: center;
 }
 
 .lista2 {
@@ -119,7 +131,7 @@ main {
     margin-bottom: 5px;
 }
 
-.rodape {
+#rodape {
     grid-area: rodape;
     background-color: rgb(94, 11, 80);
     text-align: center;
