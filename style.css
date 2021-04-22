@@ -5,15 +5,17 @@
 }
 body {
     background-color: #fff;
+
 }
 
 header {
+    top: 0;
     width: 100%;
     background-color: #6eaa5e;
 }   
 
-.FotoGabriel {
-    margin: 20px 0px;
+.minha_foto {
+    left: 50px;
 }
 li {
     text-decoration: none;
