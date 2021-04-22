@@ -55,7 +55,7 @@ a{
     width: 40%;
     text-align: justify;
     padding: 2%;
-    margin-left: 20px;
+    margin-left: 40px;
     
 }
 .lado-direito{
@@ -63,8 +63,7 @@ a{
     width: 40%;
     text-align: justify;
     padding: 2%;
-    margin-left: 20px;
-    contain: layout;
+    margin-left: 0px;
 }
 h2{
     display: inline-block;
@@ -74,6 +73,16 @@ h2{
     border-radius: 5px;
     color: #ede7e3;
     text-align: center;
+}
+h3{
+    background-color: #001845;
+    width: 90%;
+    padding: 1%;
+    border-radius: 5px;
+    color: #ede7e3;
+    text-align: center;
+    margin-left: 90px;
+    
 }
 
 #link{
