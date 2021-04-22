@@ -85,21 +85,23 @@ button {
   text-decoration: none;
 }
 .btn {
-  margin-top: 20px;
-  margin-bottom: 40px;
-  margin-left: 140px;
+  margin: 30px auto;
   background-color: #313b2f;
   text-decoration: none;
   display: block;
 }
 .btn a {
   color: #fff;
-  padding: 5px 10px 5px 10px;
+  padding: 20px;
   text-decoration: none;
 }
 
 .btn a:hover {
   color: #ffd639;
+}
+
+.aprendizado {
+  margin-left: 33%;
 }
 
 .aprendida-esquerda {
