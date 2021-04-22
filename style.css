@@ -1,165 +1,159 @@
 body {
-    background-color: rgb(253, 251, 251);
-    text-align: center;
-    margin: 0;
-    font-family: "Nunito", sans-serif;
+  background-color: rgb(253, 251, 251);
+  text-align: center;
+  margin: 0;
+  font-family: "Nunito", sans-serif;
 }
 
 #cabecalho {
-    background-color: rgb(0, 55, 86);
-    top: 0;
-    left: 0%;
-    right: 0;
-    bottom: auto;
-    position: fixed;
-    z-index: 999;
-    box-shadow: 0 0 1px 2px rgb(24 26 24 / 15%);
-    align-items: center;
-    font-family: "Major Mono Display", monospace;
-    justify-content: center;
-    display: flex; 
+  background-color: rgb(0, 55, 86);
+  top: 0;
+  left: 0%;
+  right: 0;
+  bottom: auto;
+  position: fixed;
+  z-index: 999;
+  box-shadow: 0 0 1px 2px rgb(24 26 24 / 15%);
+  align-items: center;
+  font-family: "Major Mono Display", monospace;
+  justify-content: center;
+  display: flex;
 }
 
 #cabecalho ul {
-    list-style: none;
-    color:rgb(253, 251, 251);  
+  list-style: none;
+  color: rgb(253, 251, 251);
 }
 
 #cabecalho li {
-    display: inline;
-    padding-left: 30px;
+  display: inline;
+  padding-left: 30px;
 }
 #titulo {
-    color: rgb(232, 226, 217);
-    font-family: "Major Mono Display", monospace;
+  color: rgb(232, 226, 217);
+  font-family: "Major Mono Display", monospace;
 }
 
 a {
-    text-decoration: none;
-    color: rgb(232, 226, 217);
-    font-weight: 800;
+  text-decoration: none;
+  color: rgb(232, 226, 217);
+  font-weight: 800;
 }
 
 a:hover {
-    color:rgb(190, 35, 41);
+  color: rgb(190, 35, 41);
 }
 main {
-    margin: auto;
-    padding-top: 100px;
-    padding-bottom: 100px;
-       
+  margin: auto;
+  padding-top: 100px;
 }
 
 .img {
-    background-color:rgb(190, 167, 91);
-    margin-top: -30px;
-    padding-top: 30px;
-    padding-bottom: 30px;
+  background-color: rgb(190, 167, 91);
+  margin-top: -30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 #minha_foto {
-    border-radius:50%;    
+  border-radius: 50%;
 }
 
 .article_aside {
-    float: left;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    padding-left: 20%;
-    padding-right: 20%;
-    max-width: 100%;
-    margin:auto;
-    display: inline;
-    background-color: rgb(190, 35, 41);
-    color:rgb(232, 226, 217);   
+  float: left;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 20%;
+  padding-right: 20%;
+  max-width: 100%;
+  margin: auto;
+  display: inline;
+  background-color: rgb(190, 35, 41);
+  color: rgb(232, 226, 217);
 }
 
 .lado-esquerdo {
-    
-    max-width: 50%;
-    float: left;
-    font-size: large; 
-    font-weight: 600;
-    line-height: 180%;
-    text-align: justify;     
+  max-width: 50%;
+  float: left;
+  font-size: large;
+  font-weight: 600;
+  line-height: 180%;
+  text-align: justify;
 }
 
 .lado-esquerdo h2 {
-    text-align: left;
-    font-family: "Major Mono Display" ;
+  text-align: left;
+  font-family: "Major Mono Display";
 }
 
 .lado-direito {
-    max-width: 35%;
-    float: right; 
-    font-size: large;
+  max-width: 35%;
+  float: right;
+  font-size: large;
+}
+
+aside {
+  width: 100%;
 }
 
 table {
-    
-    margin-top: 50px;
-    max-width: 100%;
-    
-  
+  margin-top: 50px;
+  width: 100%;
 }
 
-table, td {
-    border: 0.5px solid rgb(190, 167, 91);
-    border-collapse:collapse;
-    
+table,
+td {
+  border: 0.5px solid rgb(190, 167, 91);
+  border-collapse: collapse;
 }
 
-tr, td {
-    padding:10px;
+tr,
+td {
+  padding: 10px;
 }
 
 .licoes {
-    padding-top: 50px;
-    padding-bottom: 50px;
-    background-color: rgb(232, 226, 217);
-    display: inline-flex;
-   
-    width: 100%;
-    justify-content: center;
-   
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: rgb(232, 226, 217);
+  display: inline-flex;
+
+  width: 100%;
+  justify-content: center;
 }
 
 .licoes h3 {
-    padding: 10px;
-    border-style:solid;
-    border-width: 0.5px;
-    border-color: rgb(190, 167, 91);
+  padding: 10px;
+  border-style: solid;
+  border-width: 0.5px;
+  border-color: rgb(190, 167, 91);
 }
 
 #licoes_aprendidas {
-
-    list-style-position: inside;  
-    text-align: right; 
-    
+  list-style-position: inside;
+  text-align: right;
 }
 
 #licoes_a_aprender {
-
-    list-style-type: none;
-    list-style-position: inside;
-    text-align: left;
+  list-style-type: none;
+  list-style-position: inside;
+  text-align: left;
 }
 
 .trybe {
-    background-color: rgb(0, 55, 86);
-    padding: 30px;
-    color:rgb(232, 226, 217);
+  background-color: rgb(0, 55, 86);
+  padding: 30px;
+  color: rgb(232, 226, 217);
 }
 
 .trybe a {
-    color: rgb(190, 167, 91);   
+  color: rgb(190, 167, 91);
 }
 
 .trybe a:hover {
-    color :rgb(190, 35, 41);
+  color: rgb(190, 35, 41);
 }
 
 #rodape {
-    padding: 10px;
+  padding: 10px;
 }
-
