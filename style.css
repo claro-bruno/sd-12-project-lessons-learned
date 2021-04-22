@@ -7,7 +7,7 @@
 }
 
 body {
-  background-color: rgb(253, 251, 251);
+  	background-color: rgb(253, 251, 251);
 	font-family: 'Poppins', sans-serif;
 }
 
@@ -16,7 +16,7 @@ body {
 	position: fixed;
 	text-align: center;
 	top: 0;
-	padding: 1rem;
+	padding: 0.3rem;
 	background: #036b52;
 	margin: auto;
 	left: 0;
@@ -25,7 +25,7 @@ body {
 }
 
 #titulo {
-	color: #fff;
+	color: white;
 }
 
 /* MAIN */
@@ -65,14 +65,14 @@ h2 {
 	padding: 1.3rem 3rem 17.0rem;
 	border-radius: 0.40rem;
 	margin-bottom: 2rem;
-	color: #fff;
+	color: white;
 }
 .cartao_artigo {
 	background: #2f3136;
 	padding: 1.5rem 2rem 18.8rem;
 	border-radius: 0.40rem;
 	margin-bottom: 2rem;
-	color: #fff;
+	color: white;
 }
 #licoes_aprendidas {
 	float: left;
@@ -102,12 +102,13 @@ footer {
 	background: #202020;
 	width: 100%;
 	color: white;
+	text-align: center;
 	padding: 20px;
 	margin: auto;
 }
 
 .copyright {
-	color: #C7C7C7;
+	color: #c7c7c7;
 	font-size: 12px;
 }
 
