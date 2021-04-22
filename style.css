@@ -34,7 +34,7 @@ img {
 article, aside {
     margin-right: 3%;
     margin-left: 5%;
-    margin-bottom: 2%;
+    margin-bottom: 5%;
     width: 40%;
     display: inline-block;
     border: 1px solid black;
@@ -49,6 +49,18 @@ p {
     font-family: fantasy;
 }
 
+table {
+    margin: auto;
+    text-align: center;
+}
+
+th {
+    padding-right: 15px;
+}
+
+table, th, td {
+    border: 1px solid gray;
+}
 /* Classes */
 
 /* IDs */
