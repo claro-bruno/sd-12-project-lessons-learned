@@ -3,7 +3,6 @@ body {
 }
 
 #cabecalho {
-
   margin-top: 0;
   text-align: center;
 }
@@ -21,9 +20,8 @@ body {
 #links {
   text-align: center;
   font-size: 15px;
-
 }
-  /* Como colocar icone do app? */
+
 .linkedin, .Github,  .instagram {
   color: rgb(77, 83, 94);
   font-family: monospace;
@@ -38,16 +36,13 @@ div {
   height: 200px;
   display: inline-block;
   margin-left: 350px;
-  align-content: center;
-  text-align:center;
-
+  text-align: center;
+  align-items: center;  
 }
 
 #conteiner {
   float: center;
 }
-
-  
 
 #conteiner2 {
   float: center;
@@ -55,10 +50,16 @@ div {
 
 #licoes_aprendidas, #licoes_a_aprender, h2{
   color: rgb(253, 251, 251);
- }
+}
 
 #rodape {
   display:inline;
+}
+
+table {
+  padding: 0;
+  margin: auto;
+  color:rgb(77, 83, 94);
 }
 
 .final {
