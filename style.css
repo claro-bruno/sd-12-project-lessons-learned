@@ -177,7 +177,7 @@ h4{
 }
 
 .redes a:hover{
-    color: teal;
+    color: rgb(75, 75, 75);
 }
 
 @media (max-width: 1200px){
