@@ -11,3 +11,16 @@ body {
 #minha_foto {
     border-radius: 15px;
 }
+
+#cabecalho {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    
+    background-color: chartreuse;
+}
+
+#titulo {
+    text-align: center;
+
+}
