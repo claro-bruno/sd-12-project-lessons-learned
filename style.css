@@ -21,6 +21,10 @@ li{
     float: right;
     width: 50%;
 }
+#licoes_aprendidas{
+    float: left;
+    width: 40%;
+}
 
 #minha_foto{
     margin-left: 42%;
