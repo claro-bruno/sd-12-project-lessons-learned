@@ -34,7 +34,7 @@ h3 {
     height: auto;
 }
 
-#buttons {
+.buttons {
     border: none;
     width: 50px;
     margin-left: 0;
