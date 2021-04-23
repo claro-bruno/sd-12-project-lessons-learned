@@ -57,18 +57,23 @@ main a {
   line-height: 1.5rem;
 }
 
-#texto-lado-direito {
-  display: inline-block;
-  width: 500px;
-  margin: 25px 50px;
-  vertical-align: middle;
+#textos-corridos {
+  background-color: #f3f3f3;
 }
 
 #texto-lado-esquerdo {
   display: inline-block;
-  width: 500px;
-  margin: 25px 50px;
+  width: 46%;
   vertical-align: middle;
+  padding: 25px 10px;
+  border-right: 1px solid black;
+}
+
+#texto-lado-direito {
+  display: inline-block;
+  width: 45%;
+  vertical-align: middle;
+  padding: 10px;
 }
 
 footer {
