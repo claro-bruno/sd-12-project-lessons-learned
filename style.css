@@ -1,25 +1,53 @@
 body {
     background-color: rgb(253,251,251);
+    left: 0px;
 }
 
-#rodape {
-    background-color: rgb(3, 119, 9);
-    color: blanchedalmond;
-    
+.conjunto {
+    background-color: mediumaquamarine;
+    width: 100%;
+    left: 0px;
 }
 
 #minha_foto {
+    width: 185px;
+    margin-top: 105px;
     border-radius: 15px;
 }
 
 #cabecalho {
     position: fixed;
     top: 0;
+    left: 0;
     width: 100%;
+    text-align: center;
     background-color: chartreuse;
+    
 }
 
 #titulo {
-    text-align: center;
+    font-size: auto;
+    font-family: serif, sans-serif;
+    
 
+}
+
+#subtitulo{
+    font-size: 15px;
+
+}
+
+#licoes_aprendidas{
+
+}
+
+#licoes_a_aprender{
+    
+}
+
+#rodape {
+    background-color: rgb(3, 119, 9);
+    color: blanchedalmond;
+    
+    
 }
