@@ -85,13 +85,12 @@ h3{
     margin-left: 70px;
     
 }
-#link:hover{
+#link{
     margin: 20px;
     color: #0466c8;
-    display: inline-block;
 }
 #redes{
-    display: block;
+    
     float: right;
     width: 100px;
 }
