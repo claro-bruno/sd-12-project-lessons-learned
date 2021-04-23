@@ -34,7 +34,7 @@ li {
   position: fixed;
   top: 0;
   width: 100%;
-background-color: #1e8e3d;
+  background-color: darkgreen;
   opacity: 0.9;
   z-index: 2;
   color: white;
@@ -64,7 +64,7 @@ background-color: #1e8e3d;
 .card {
   width: 900px;
   height: 420px;
-background-color: #1e8e3d;
+  background-color: darkgreen;
   border-radius: 45px;
   position: relative;
   top: 60px;
@@ -128,14 +128,14 @@ background-color: #1e8e3d;
 
 .aprendidas {
   float: left;
-background-color: #1e8e3d;
+  background-color: darkgreen;
   width: 300px;
   border-radius: 10%;
 }
 
 .aprender {
   float: right;
-background-color: #1e8e3d;
+  background-color: darkgreen;
   width: 300px;
   border-radius: 10%;
 }
@@ -161,7 +161,7 @@ background-color: #1e8e3d;
 /* aprendizado */
 .aprendizado {
   height: 500px;
-background-color: #1e8e3d;
+  background-color: darkgreen;
 }
 
 .titulo-aprendizado {
