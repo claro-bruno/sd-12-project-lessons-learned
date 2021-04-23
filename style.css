@@ -59,13 +59,14 @@ table th {
         padding: 10px;
 }
 
-.passagem-meu-aprendizado p, section {
+.passagem-meu-aprendizado {
         font-family: 'Courier New', Courier, monospace;
         line-height: 25px;
-        display: inline-block;
-        width: 40%;
-        padding: 4em;
-}
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 4em;
+        margin: 4em;
+ }
 
 footer {
         background-color: teal;
