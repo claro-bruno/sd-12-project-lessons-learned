@@ -1,7 +1,15 @@
 body{ 
     background-color: rgb(253, 251, 251);
+    margin: 0 auto;
+    font-size: 16px;
+    font-family: serif;
+
+
 }
-#cabecalho {
+#cabeçalho {
     position:fixed;
-    top:0 px;
+    top:0;
+    background-color: aqua;
+    padding: 0 50px;
+
 }
