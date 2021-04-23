@@ -59,7 +59,7 @@ table th {
         padding: 10px;
 }
 
-.passagem-meu-aprendizado {
+#passagem-meu-aprendizado {
         font-family: 'Courier New', Courier, monospace;
         line-height: 25px;
         display: grid;
