@@ -66,3 +66,18 @@ table th {
     width: 40%;
     padding: 4em;
 }
+
+footer {
+    background-color: teal;
+    height: 5em;
+    width: 100%;
+}
+
+#rodape ul li, #rodape ul li a {
+    text-decoration: none;
+    list-style: none;
+    display: inline-block;
+    color: white;
+    padding: 2%;
+    margin-left: 27%;
+}
