@@ -30,7 +30,7 @@ nav ul li:hover{
     /* background-size: auto; */
     background-repeat: no-repeat;
     /* box-shadow: 3px 3px 15px 1px rgb(129, 129, 129); */
-    margin-top: 135px;
+    margin-top: 150px;
     margin-left: 20%;
     margin-right: 20%;
 }
@@ -71,35 +71,49 @@ nav ul li:hover{
     display: inline;
 }
 #skills {
+    margin-top: 50px;
     min-height: 400px;
-    background-color: darkgrey;
 }
 h2 {
     font-family: 'Fira Code', monospace;
     color: rgb(92, 79, 161);
     font-size: 25px;
-    margin-top: 50px;
     margin-left: 25px;
-    display: flexbox;
+}
+#habilidades{
+    display: inline-block;
+    margin-top: 50px;
+    margin-left: 170px;
 }
 ol li {
     font-size: 25px;
     line-height: 40px;
 }
+ol li:hover {
+    color: rgb(92, 79, 161);
+    font-weight: 600;
+    text-decoration: underline;
+}
 #coluna_1 {
     float: left;
-    margin-left: 50px;
+    margin-left: 100px;
     margin-top: 1%;
 }
 #coluna_2{
     float: left;
-    margin-left: 150px;
+    margin-left: 130px;
     margin-top: 1%;
+}
+#floating_direita {
+    float: left;
+    max-width: 45%;
 }
 #imagem_skills {
     height: 350px;
     float: right;
-    margin-right: 10%;
+    margin-right: 100px;
+    margin-top: 20px;
+    vertical-align: middle;
 }
 #artigos {
     min-height: 600px;
