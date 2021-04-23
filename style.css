@@ -74,27 +74,27 @@ a {
 .texts {
   background-color: #F0F2F5;
   height: 300px;
-  position: relative;
+  text-align: center;
 }
 
 .lado-esquerdo {
   display: inline-block;
   position: relative;
-  width: 35%;
-  line-height: 25px;
-  text-align: center;
-  top: 50%;
-  transform: translateY(-50%);
-  padding: 70px;
+  width: 500px;
+  margin: 20px 20px;
+  top: 55%;
+  transform: translateY(-85%);
 }
 
 .lado-direito {
   display: inline-block;
   position: relative;
-  width: 35%;
-  line-height: 25px;
-  text-align: center;
-  left: 110px;
+  width: 500px;
+  margin: 20px 20px;
+  top: 55%;
+  transform: translateY(-85%);
+  border-left: 1px solid black;
+  padding-left: 40px;
 }
 
 .listas {
@@ -130,16 +130,18 @@ a {
   height: 500px;
   position: relative;
   text-align: center;
+  border-radius: 20px;
 }
 
 .tg  {
-  border-collapse:collapse;
+  border-collapse:separate;
   border-color:#bbb;
   border-spacing:0;
   position: relative;
   left: 50%;
   transform: translateX(-50%);
   top: 30px;
+  box-shadow: 7px 5px 5px 5px rgba(0, 0, 0, 0.164);
 }
 
 .tg td {
