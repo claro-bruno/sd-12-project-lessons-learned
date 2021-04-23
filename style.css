@@ -139,7 +139,7 @@ a {
   position: relative;
   left: 50%;
   transform: translateX(-50%);
-  top: 10px;
+  top: 30px;
 }
 
 .tg td {
@@ -171,6 +171,22 @@ a {
 
 .tg .tg-ix6g {
   border-color:inherit;font-family:Verdana, Geneva, sans-serif !important;text-align:center;vertical-align:top
+}
+
+#rodape svg:hover {
+  fill: rgb(0, 0, 0);
+}
+
+#rodape svg {
+  fill: #026B52;
+  width: 30px;
+  margin: 0 4px;
+}
+
+#rodape {
+  text-align: center;
+  font-size: 14px;
+  height:fit-content;
 }
 
 
