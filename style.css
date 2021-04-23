@@ -42,7 +42,8 @@ nav ul li:hover{
     margin-top: 20px;
     margin-left: 10%;
     border: 5px solid rgb(241, 87, 35);
-    box-shadow: 3px 5px 1px rgb(250, 171, 28),-6px -3px 1px rgb(92, 79, 161);
+    box-shadow: 3px 5px 1px rgb(250, 171, 28),
+                -6px -3px 1px rgb(92, 79, 161);
 }
 #descricao {
     float: right;
@@ -78,8 +79,7 @@ nav ul li:hover{
 h2 {
     font-family: 'Fira Code', monospace;
     color: rgb(92, 79, 161);
-    font-size: 25px;
-    margin-left: 25px;
+    font-size: 30px;
 }
 #habilidades{
     display: inline-block;
@@ -137,7 +137,8 @@ ol li:hover {
     background-color: rgb(253, 251, 251);
     margin-left: 5%;
     margin-top: 60px;
-    box-shadow: -5px -5px 8px rgb(194, 194, 194);
+    box-shadow: -5px -5px 8px rgb(194, 194, 194),
+                1px 1px 5px rgb(194, 194, 194);
 }
 .lado-direito {
     position: absolute;
@@ -147,9 +148,38 @@ ol li:hover {
     margin-right: 5%;
     margin-top: 60px;
     background-color: rgb(253, 251, 251);
-    box-shadow: -5px -5px 8px rgb(194, 194, 194);
+    box-shadow: -5px -5px 8px rgb(194, 194, 194),
+                1px 1px 5px rgb(194, 194, 194);
 }
-.lado-esquerdo p , .lado-direito p{
-    margin-left: 25px;
-    margin-right: 25px;
+#artigos h2 {
+    display: inline-block;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+.lado-esquerdo p, .lado-direito p {
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: 100;
+    line-height: 35px;
+    text-align: justify;
+}
+strong {
+    font-weight: 300;
+}
+#abre_aspas {
+    float: left;
+    width: 100px;
+    position: relative;
+    z-index: 1;
+    margin-left: 50px;
+    margin-top: 100px;
+    padding-right: 30px;
+
+}
+#fecha_aspas {
+    width: 60px;
+    position: relative;
+    z-index: 1;
 }
