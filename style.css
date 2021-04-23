@@ -52,7 +52,7 @@ h3 {
 
 
 #main{
-    height: auto;
+    height: 300px;
     display:block;
     width: 100%;
 }
@@ -62,13 +62,17 @@ h3 {
     font-style: italic;
     margin-left: auto;
     margin-right: auto;
+    display: inline-block;
+    vertical-align: middle;
+    height: 100%;
 }
 
 .lado-direito {
-    float: right;
     height: 300px;
     width: 150px;
-    margin-right: 100px;
+    margin-right: 0;
+    display: inline-block;
+    margin-left: 40px;
 }
 
 #listas {
@@ -80,7 +84,7 @@ h3 {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    clear: none;
+    clear: right;
     height: auto;
 }
 
