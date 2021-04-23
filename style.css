@@ -7,6 +7,9 @@ body{
     position: fixed;
     left: 0;
     top: 0;
+    margin-left: 40%;
+    border-style: double;
+    border-color: aqua;
 }
 
 li{
@@ -17,4 +20,9 @@ li{
 #licoes_a_aprender{
     float: right;
     width: 50%;
+}
+
+#minha_foto{
+    margin-left: 42%;
+    padding-top: 10%;
 }
