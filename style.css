@@ -20,6 +20,10 @@ a {
   font-weight: 600;
 }
 
+#navigation_bar li a:hover {
+  color:#026B52;
+}
+
 #navigation_bar li {
   display: inline-block;
 }
@@ -44,7 +48,6 @@ a {
   line-height: 30px;
   text-align: center;
   width: 100%;
-  border-bottom: 1px solid black;
 }
 
 .presentation {
