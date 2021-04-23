@@ -19,13 +19,14 @@ body {
 #licoes_aprendidas {
     display: block;
     position: absolute;
-    top: 500px;
+    top: 250px;
+    right: 10px;
 }
 #licoes_a_aprender {
     display: block;
     position: absolute;
     top: 500px;
-    left: 400px;
+    right: 170px;
 }
 #rodape{
     position: absolute;
@@ -35,13 +36,21 @@ body {
 #nome-linkado {
     position: absolute;
     display: block;
-    top: 430px;
+    top: 445px;
     left: 50px ;
 }
 article {
     position: absolute;
     display: block;
-    width: 250px;
-    right: 20px;
-    bottom: 250px;
+    width: 500px;
+    left: 50px;
+    bottom: 350px;
+}
+
+#aside-aprendizado {
+    position: absolute;
+    display: block;
+    bottom: 100px;
+    width: 500px;
+    left: 50px;
 }
