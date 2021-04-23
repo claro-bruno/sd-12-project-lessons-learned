@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,200;1,500&display=swap');
+
+#body {
+    background-color: rgb(253, 251, 251);
+}
+
+#cabecalho {
+    top: 0;
+    height: 60px;
+    width: 1340px;
+    background-color: rgb(58, 195, 144);
+    margin-bottom: 20px;
+    /*position: fixed;*/
+}
+
+#titulo {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    padding: 15px;
+}
+
+#principal {
+    display: flex;
+}
+
+#minha_foto {
+    border-radius: 50%;
+}
