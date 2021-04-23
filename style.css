@@ -1,16 +1,19 @@
 body {
   background: rgb(253, 251, 251);
+  margin: 0;
+  top: 0;
 }
 header {
+  z-index: 5;
   position: fixed;
   top: 0;
   background-color: rgb(235, 200, 84);
   font-size: 20px;
   text-align: left;
-  margin-right: 10px;
-  margin-left: 10px;
-  height: 95px;
-  width: 150%;
+  /* margin-right: 10px;
+  margin-left: 10px; */
+  /* height: 95px; */
+  width: 100%;
   text-align: center;
 }
 h1 {
@@ -20,10 +23,11 @@ main {
   margin-top: 15%;
 }
 #minha_foto {
-  top: 100;
+  /* top: 10; */
   position:relative;
-  /* ver aula ao vivo com o moço de natal */
+  /* rever aula ao vivo com Isaac */
   width: 40%;
+  height: 40%;
   display: block;
   margin-left: auto; 
   margin-right: auto
