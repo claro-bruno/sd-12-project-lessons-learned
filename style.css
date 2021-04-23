@@ -1,67 +1,85 @@
 body {
-  color: #F9F3DE;
+  color: rgb(249, 243, 222);
   background-color: rgb(253, 251, 251);
-  margin: 0 0 0 0;
+  margin: 0;
   font-size: 1.4em;
   line-height: 1.6;
   font-weight: 400;
 }
+
 .bg {
   position: absolute;
   width: 100%;
   z-index: -1;
 }
+
 .bg-header {
   top: 0;
   height: 100px;
-  background-color: #2ECFCA;
+  background-color: rgb(46, 207, 202);
 }
+
 .bg-hero {
   top: 100px;
   height: 430px;
-  background-color: #FF4E62;
+  background-color: rgb(255, 78, 98);
 }
+
 .bg-lessons-learned {
   top: 530px;
   height: 600px;
-  background-color: #2ECFCA;
+  background-color: rgb(46, 207, 202);
 }
+
 .bg-lessons-to-be {
   top: 1130px;
   height: 515px;
-  background-color: #FF4E62;
+  background-color: rgb(255, 78, 98);
 }
+
 .bg-footer {
   top: 1645px;
   height: 80px;
-  background-color: #2ECFCA;
+  background-color: rgb(46, 207, 202);
 }
+
 .button {
-  background-color: #2ECFCA;
+  position: fixed;
+  bottom: 265px;
+  right: 114px;
+  color: rgb(85, 85, 85);
+  background-color: rgb(46, 207, 202);
+
   /* display: inline-block; */
   height: 38px;
   margin-bottom: 1rem;
   padding: 0 20px;
-  color: #555;
   text-align: center;
+  font-family: monospace;
   font-size: 16px;
-  font-weight: 600;
+  font-weight: 700;
   line-height: 38px;
-  letter-spacing: .2rem;
+  letter-spacing: 0.2rem;
   text-transform: uppercase;
   text-decoration: none;
-  border-radius: 10px; /*100px for rounded and 50% for circle*/
-  border: 5px solid #FF4E62;
+  border-radius: 10px;
+
+  /* 100px for rounded and 50% for circle */
+  border: 5px solid rgb(255, 78, 98);
   cursor: pointer;
-  font-family: monospace;
+
   /* box-sizing: border-box; */
+
 }
+
 .fixed {
   position: fixed;
+  bottom: 10px;
+  right: 10px;
   width: 100%;
   text-align: right;
-  padding: 10px 10px 10px 10px;
-  color: #F8DF77;
+  padding: 10px;
+  color: rgb(248, 223, 119);
 }
 
 .padding-text {
@@ -70,79 +88,78 @@ body {
 
 article {
   width: 900px;
-  margin: 130px 0 0 0;
-}
-section > h2 {
-  margin: 80px 0 0 0;
-  color: #F8DF77;
+  margin: 130px 0 0;
 }
 
-main ol li,main ul li {
-  margin: 0 0 0 20px;
+section > h2 {
+  margin: 80px 0 0;
+  color: rgb(248, 223, 119);
 }
 
 nav li {
   list-style: none;
   height: 40px;
 }
+
+main ol li , main ul li {
+  margin: 0 0 0 20px;
+}
+
 nav a {
   text-decoration: none;
 }
+
 nav a:link {
-  color: #F8DF77;
+  color: rgb(248, 223, 119);
   font-weight: 600;
 }
+
 nav a:visited {
-  color: #F9F3DE;
+  color: rgb(249, 243, 222);
 }
+
 nav a:hover {
-  color: #2ECFCA;
-  background-color: #FF4E62;
+  color: rgb(46, 207, 202);
+  background-color: rgb(255, 78, 98);
   border-radius: 10px;
-  padding: 10px 10px 10px 10px;
+  padding: 10px;
   font-weight: 600;
-  letter-spacing: .1rem;
+  letter-spacing: 0.1rem;
 }
-nav.fixed {
-  bottom: 10px;
-  right: 10px;
-}
-h1.fixed {
+
+.fixed#titulo {
   top: 10px;
   right: 10px;
 }
-main a.button {
-  position: fixed;
-  bottom: 265px;
-  right: 114px;
-  color: #555;
-  text-decoration: none;
-  font-weight: 700;
+
+.button:hover {
+  background-color: rgb(255, 78, 98);
 }
-main a.button:hover {
-  background-color: #FF4E62;
-}
+
 footer {
-  color: #F8DF77;
+  color: rgb(248, 223, 119);
   position: relative;
   bottom: -30px;
-  left: 0px;
+  left: 0;
   font-size: 16px;
   font-weight: 500;
   letter-spacing: 0.1rem;
 }
+
 #cabecalho {
   position: fixed;
   top: 0;
 }
+
 #minha_foto {
   width: 250px;
   position: fixed;
   bottom: 350px;
   right: 103px;
-  border: 10px solid #2ECFCA;
+  border: 10px solid rgb(46, 207, 202);
   border-radius: 110px;
 }
+
 #lessons-to-be {
-  margin: 50px 0 0 0;
+  margin: 50px 0 0;
 }
