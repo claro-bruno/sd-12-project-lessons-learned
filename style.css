@@ -9,7 +9,7 @@ body{
     background-color: #036b52;
     color: #fff;
     width:100%;
-    padding-left: 100px;
+    padding-left: 70px;
     margin-bottom: 0px;
     border-bottom: 3px solid #fff;
 }
@@ -38,4 +38,11 @@ nav {
 
 ul {
     margin:0;
+}
+
+#minha_foto{
+    border-radius: 50%;
+    float: right;
+    margin-right: 150px;
+    margin-top: 150px
 }
