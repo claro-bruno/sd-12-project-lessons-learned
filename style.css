@@ -21,10 +21,12 @@ body h2, body li{
     border-bottom:rgb(253, 251, 251);
     
 }
+h1 {
+    text-align: center;
+}
 
 #titulo{
     margin-left:100px;
-    vertical-align:middle;
     font-size:40px;
     text-align:unset;
 
