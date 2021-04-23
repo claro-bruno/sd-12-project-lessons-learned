@@ -5,4 +5,13 @@ body {
 .cabecalho {
     top: 0%;
     position: fixed;
+    background-color: rgb(47, 193, 140);
+    width: 100%;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+}
+
+#lucas {
+    color: #107550;
 }
