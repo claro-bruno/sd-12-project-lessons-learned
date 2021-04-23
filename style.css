@@ -102,6 +102,14 @@ body {
   vertical-align: top;
 }
 
+.box-aside {
+  text-align: center;
+  width: 500px;
+  display: inline-block;
+  line-height: 50px;
+  vertical-align: top;
+}
+
 #rodape {
   background-color: rgb(6, 117, 43);
   text-align: center;
