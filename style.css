@@ -90,6 +90,10 @@ footer svg {
   fill: white;
   margin: 15px;
 }
+ 
+footer svg:hover {
+  fill: black;
+}
 
 footer a {
   text-decoration: none;
