@@ -104,6 +104,10 @@ a {
   text-align: center;
 }
 
+.listas h3 {
+  color: #026B52;
+}
+
 .listas div {
   display: inline-block;
   position: relative;
@@ -115,10 +119,17 @@ a {
   padding: 30px;
 }
 
+#table h2 {
+  color: #026B52;
+  display:inline-block;
+  padding-top: 20px;
+}
+
 #table {
   background-color: #F0F2F5;
   height: 500px;
   position: relative;
+  text-align: center;
 }
 
 .tg  {
@@ -128,7 +139,7 @@ a {
   position: relative;
   left: 50%;
   transform: translateX(-50%);
-  top: 60px;
+  top: 10px;
 }
 
 .tg td {
