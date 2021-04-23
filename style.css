@@ -29,7 +29,7 @@ body {
     width: 200px;
     margin-top: 130px;
     margin-left: 20px;
-    border-radius: 50px;
+    border-radius: 20px;
 }
 .lado-esquerdo {
     vertical-align: top;
@@ -51,6 +51,11 @@ a {
     margin-left: 30px;
     text-decoration: none;
     float: left;
+}
+.tabela {
+    font: Arial 16px;
+    text-align: center;
+    margin-left: 850px;
 }
 .rodape {
     background-color: rgb(9, 138, 9);
