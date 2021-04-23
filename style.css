@@ -27,7 +27,9 @@ body {
 main {
   margin-top: 100px;
   margin-bottom: 24px;
-  padding: 10px;
+  margin-left: 0;
+  margin-right: 0;
+  padding: 15px;
 }
 
 #licoes_aprendidas {
@@ -57,19 +59,17 @@ a {
 .estilo_fonte {
   text-align: justify;
   font-size: 24px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: 'Times New Roman', Times, serif, Geneva, Tahoma, sans-serif;
   line-height: 48px;
-}
-
-aside {
-  background-color: gold;
 }
 
 .lado-direito {
   display: inline-block;
   width: 30%;
   vertical-align: top;
-  margin-left: 30px;
+  margin: 0;
+  padding: 0;
+  float: right;
 }
 
 .lado-esquerdo {
@@ -115,4 +115,12 @@ aside {
   font-weight: 900;
   text-align: center;
   vertical-align: top;
+}
+
+h3 {
+  font-size: xx-large;
+  text-align: center;
+}
+.estilo-nav {
+  display: flex;
 }
