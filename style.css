@@ -32,3 +32,20 @@ header {
     text-decoration: none;
     color: white;
 }
+
+#perfil {
+    padding-top: 7em;
+}
+
+#bio {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    padding: 10em;
+}
+
+#minha_foto {
+    border-radius: 50%;
+    width: 20em;
+    float: right;
+    padding: 2em;
+}
