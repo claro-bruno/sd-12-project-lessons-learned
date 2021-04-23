@@ -6,7 +6,6 @@ body {
 .conjunto {
     background-color: mediumaquamarine;
     width: 100%;
-    left: 0px;
 }
 
 #minha_foto {
@@ -38,14 +37,15 @@ body {
 }
 
 #licoes_aprendidas{
+    background-color: chartreuse;
 
 }
 
 #licoes_a_aprender{
-    
+    background-color: chartreuse;
 }
 
-#rodape {
+#rodape{
     background-color: rgb(3, 119, 9);
     color: blanchedalmond;
     
