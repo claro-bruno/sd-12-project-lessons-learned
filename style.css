@@ -102,18 +102,18 @@ a {
   padding-left: 40px;
 }
 
-#licoes_aprendidas {
+.listas {
   position: relative;
   height: 400px;
   list-style-type: none;
   text-align: center;
 }
 
-#licoes_aprendidas h3 {
+.listas h3 {
   color: #026B52;
 }
 
-#licoes_aprendidas div {
+.listas div {
   display: inline-block;
   position: relative;
   text-align: center;
