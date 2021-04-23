@@ -28,10 +28,14 @@ nav {
 }
 
 .barraNav {
-    background-color: aqua;
     display: inline-block;
     color:#fff;
     margin-left: 35px;
+    margin-top: 6px;
     font-size: 20px;
     font-weight: bold;
+}
+
+ul {
+    margin:0;
 }
