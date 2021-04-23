@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: rgb(253, 251, 251);
+  background-color: white;
   font-family: Montserrat, sans-serif;
 }
 
@@ -67,6 +67,32 @@ a {
   bottom: 10%;
 }
 
+.texts {
+  background-color: #F0F2F5;
+  height: 300px;
+  position: relative;
+}
+
+.lado-esquerdo {
+  display: inline-block;
+  position: relative;
+  width: 35%;
+  line-height: 25px;
+  text-align: center;
+  top: 50%;
+  transform: translateY(-50%);
+  padding: 70px;
+}
+
+.lado-direito {
+  display: inline-block;
+  position: relative;
+  width: 35%;
+  line-height: 25px;
+  text-align: center;
+  left: 110px;
+}
+
 #table {
   background-color: #F0F2F5;
   height: 500px;
@@ -118,22 +144,7 @@ a {
   font-size: 18px;
 }
 
-#p {
-  color: orange;
-  line-height: 50px;
-}
-
 #licoes_a_aprender {
   font-size: 20px;
-}
-
-.lado-esquerdo {
-  display: inline-block;
-  width: 49%;
-}
-
-.lado-direito {
-  display: inline-block;
-  width: 50%;
 }
 
