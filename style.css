@@ -34,6 +34,15 @@ h3 {
     height: auto;
 }
 
+#buttons {
+    border: none;
+    width: 50px;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0;
+    background-color: white;
+}
+
 
 #minha_foto {
     border-radius: 50%;
@@ -119,10 +128,4 @@ li:hover {
     color: green;
 }
 
-#buttonGitHub {
-    border: none;
-    width: 50px;
-    margin-left: 0;
-    margin-right: 0;
-    padding: 0;
-}
+
