@@ -1,37 +1,36 @@
 * {
-    margin: 0;
+        margin: 0;
 }
 
 body {
-    background-color: rgb(253, 251, 251);
+        background-color: rgb(253, 251, 251);
 }
 
 header {
-    position: fixed;
+        position: fixed;
         background-color: teal;
-            width: 100%;
-                height: 7em;
-                    color: white;
-                        font-family: 'Courier New', Courier, monospace;
+        width: 100%;
+        height: 7em;
+        color: white;
+        font-family: 'Courier New', Courier, monospace;
     }
 
 #titulo {
-    text-align: center;
+        text-align: center;
         font-size: 40px;
-            padding: 15px;
+        padding: 15px;
 }
 
 .navigation {
-    list-style: none;
+        list-style: none;
         display: inline;
-            padding: 6%;
-                font-size: 16px;
+        padding: 6%;
+        font-size: 16px;
 }
 
-.navigation 
-    a {
+.navigation a {
         text-decoration: none;
-            color: white;
+        color: white;
 }
 
 #perfil {
@@ -39,48 +38,47 @@ header {
 }
 
 #bio {
-    font-family: 'Courier New', Courier, monospace;
+        font-family: 'Courier New', Courier, monospace;
         font-size: 18px;
-            padding: 10em;
+        padding: 10em;
 }
 
 #minha_foto {
-    border-radius: 50%;
+        border-radius: 50%;
         width: 20em;
-            float: right;
-                padding: 2em;
+        float: right;
+        padding: 2em;
 }
 
 table {
-    margin: auto;
+        margin: auto;
         font-family: 'Courier New', Courier, monospace;
 }
 
 table th {
-    padding: 10px;
+        padding: 10px;
 }
 
-#passagem-meu-aprendizado {
-    font-family: 'Courier New', Courier, monospace;
+.passagem-meu-aprendizado {
+        font-family: 'Courier New', Courier, monospace;
         line-height: 25px;
-            display: grid;
-                grid-template-columns: repeat(2, 1fr);
-                    grid-gap: 4em;
-                        margin: 4em;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 4em;
+        margin: 4em;
  }
 
 footer {
-    background-color: teal;
+        background-color: teal;
         height: 5em;
-            width: 100%;
+        width: 100%;
 }
 
-#rodape ul li
-     #rodape ul li a {
+#rodape ul li , #rodape ul li a {
         text-decoration: none;
-            list-style: none;
-                display: inline-block;
-                    color: white;
-                        padding: 2%;
-                            margin-left: 27%;
-    }
+        list-style: none;
+        display: inline-block;
+        color: white;
+        padding: 2%;
+        margin-left: 27%;
+}
