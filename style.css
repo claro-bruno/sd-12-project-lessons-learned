@@ -56,6 +56,13 @@ table {
 }
 
 table th {
-    padding: 1px;
+    padding: 10px;
 }
 
+.passagem-meu-aprendizado {
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 25px;
+    display: inline-block;
+    width: 40%;
+    padding: 4em;
+}
