@@ -1,84 +1,91 @@
 * {
-        margin: 0;
+    margin: 0;
 }
 
 body {
-        background-color: rgb(253, 251, 251);
+    background-color: rgb(253, 251, 251);
 }
 
 header {
-        position: fixed;
-        background-color: teal;
-        width: 100%;
-        height: 7em;
-        color: white;
-        font-family: 'Courier New', Courier, monospace;
-    }
+    position: fixed;
+    background-color: teal;
+    width: 100%;
+    height: 7em;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
 
 #titulo {
-        text-align: center;
-        font-size: 40px;
-        padding: 15px;
+    text-align: center;
+    font-size: 40px;
+    padding: 15px;
 }
 
 .navigation {
-        list-style: none;
-        display: inline;
-        padding: 6%;
-        font-size: 16px;
+    list-style: none;
+    display: inline;
+    padding: 6%;
+    font-size: 16px;
 }
 
 .navigation a {
-        text-decoration: none;
-        color: white;
+    text-decoration: none;
+    color: white;
 }
 
 #perfil {
-        padding-top: 7em;
+    padding-top: 7em;
 }
 
 #bio {
-        font-family: 'Courier New', Courier, monospace;
-        font-size: 18px;
-        padding: 10em;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    padding: 10em;
 }
 
 #minha_foto {
-        border-radius: 50%;
-        width: 20em;
-        float: right;
-        padding: 2em;
+    border-radius: 50%;
+    width: 20em;
+    float: right;
+    padding: 2em;
 }
 
 table {
-        margin: auto;
-        font-family: 'Courier New', Courier, monospace;
+    margin: auto;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 table th {
-        padding: 10px;
+    padding: 10px;
 }
 
-.passagem-meu-aprendizado {
-        font-family: 'Courier New', Courier, monospace;
-        line-height: 25px;
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-gap: 4em;
-        margin: 4em;
- }
+#passagem-meu-aprendizado {
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 25px;
+    margin: 4em;
+}
+
+article {
+    display: inline-block;
+    width: 48%;
+}
+
+aside {
+    width: 48%;
+    float: right;
+}
 
 footer {
-        background-color: teal;
-        height: 5em;
-        width: 100%;
+    background-color: teal;
+    height: 5em;
+    width: 100%;
 }
 
 #rodape ul li , #rodape ul li a {
-        text-decoration: none;
-        list-style: none;
-        display: inline-block;
-        color: white;
-        padding: 2%;
-        margin-left: 27%;
+    text-decoration: none;
+    list-style: none;
+    display: inline-block;
+    color: white;
+    padding: 2%;
+    margin-left: 27%;
 }
