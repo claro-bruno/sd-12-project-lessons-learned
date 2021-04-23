@@ -37,15 +37,16 @@ body {
   vertical-align: 100px;
 }
 
-#menu {
+#licoes {
   margin-top: 10px;
-  display: inline-block;
+  display: inline;
 }
+
 .menu-content {
   border-style: solid;
   display: inline-block;
   width: 400px;
-  margin-left: 50px;
+  margin-left: 20px;
 }
 
 .titulo-licoes {
@@ -80,15 +81,13 @@ body {
   height: 100px;
 }
 
-.paragrafo {
+.lado-direito {
   font-family: sans-serif;
   line-height: 25px;
   margin-left: 0;
 }
 
 .box-paragrafo {
-  background-color: royalblue;
-  border-width: 200px;
   text-align: center;
   width: 500px;
   display: inline-block;
@@ -98,4 +97,6 @@ body {
 
 #rodape {
   background-color: rgb(6, 117, 43);
+  text-align: center;
+  height: 40px;
 }
