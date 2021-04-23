@@ -20,7 +20,7 @@ main {
 
 #cabecalho h1 {
   margin-left: 25px;
-  font-weight: 800;
+  font-weight: 600;
   vertical-align: middle;
 }
 
@@ -33,79 +33,75 @@ main {
 }
 
 #minha_foto {
-  width: 300px;
+  width: 250px;
   border-radius: 50%;
 }
 
+.topo {
+  text-align: center;
+}
+
 .lado-esquerdo {
+  text-align: center;
   float: left;
-  width: 30%;
+  width: 44%;
   margin-left: 12%;
   margin-top: 10px;
-  border: 1px solid black;
-  height: 300px;
   vertical-align: middle;
-  background-color: gold;
+  border: 5px inset rgb(45, 86, 133);
+  background-color: rgb(255, 192, 55);
 }
 
 .lado-direito {
+  text-align: center;
   float: right;
   width: 30%;
-  height: 300px;
   margin-top: 10px;
-  margin-right: 27%;
-  border: 1px solid black;
+  margin-right: 12%;
+  border: 5px inset rgb(255, 192, 55);
   vertical-align: middle;
+  background-color: rgb(45, 86, 133);
 }
 
-.lado-esquerdo h2 {
+.lado-esquerdo h2 , .lado-esquerdo p {
   line-height: 20px;
+  color: rgb(27, 70, 136);
 }
 
-.lado-direito h2 {
+.lado-direito h2 , .lado-direito p {
   line-height: 20px;
+  color: rgb(255, 192, 55);
 }
 
 .lado-esquerdo h2 , .lado-esquerdo p , .lado-direito h2 , .lado-direito p {
   margin-left: 10px;
-  margin-right: 10px;
+  font-size: 14px;
 }
 
 .aprendidas {
   padding: 15px;
-  width: 25%;
+  width: 31%;
   margin-top: 40px;
   margin-left: 15%;
   border: 5px solid rgb(45, 86, 133);
   border-left: 4px;
   border-right: 4px;
   border-radius: 25px;
-  border-bottom-left-radius: 300px;
   border-bottom-right-radius: 200px;
   background-color: rgb(255, 192, 55);
 }
 
-.aprendidas h2 , .aprender h2 {
-  margin-left: 160px;
-}
-
-.aprendidas h2 , .aprendidas ol , .aprender h2 , .aprender ol {
-  margin-left: 160px;
-}
-
 .aprender {
-  padding: 15px;
   margin-top: 40px;
-  width: 25%;
+  width: 31%;
   margin-right: 15%;
-  border-radius: 200px;
   background-color: rgb(45, 86, 133);
   border: 5px solid rgba(253, 187, 45, 1);
+  border-left: 4px;
   border-right: 4px;
-  border-top-right-radius: 25px;
-  border-bottom-left-radius: 25px;
+  border-radius: 25px;
+  border-bottom-left-radius: 300px;
 }
-
 
 .menu_principal img {
   width: 20px;
@@ -113,12 +109,16 @@ main {
 
 #licoes_aprendidas li , .aprendidas h2 {
   color: rgb(27, 70, 136);
-  font-weight: 800;
+  font-weight: 600;
+  font-size: 14px;
+  margin-left: 10px;
 }
 
 #licoes_a_aprender li , .aprender h2 {
   color: rgb(255, 190, 49);
-  font-weight: 800;
+  font-weight: 600;
+  font-size: 14px;
+  margin-left: 110px;
 }
 
 .aprendidas , .aprender {
@@ -129,18 +129,9 @@ main {
   text-align: center;
   height: 40px;
   vertical-align: middle;
-  margin-top: 20%;
+  margin-top: 39%;
   background: linear-gradient(0deg, rgb(45, 86, 133) 0%, rgba(253, 187, 45, 1) 100%);
   font-size: 20px;
   font-weight: 700;
   color: rgb(27, 70, 136);
-}
-
-.licoes_fsdfsd {
-  background-color: rgb(104, 153, 185);
-  border: 5px solid rgb(253, 187, 45);
-  border-left: 8px;
-  border-top-right-radius: 700px;
-  border-bottom-right-radius: 100px;
-
 }
