@@ -38,3 +38,10 @@ body {
     top: 430px;
     left: 50px ;
 }
+article {
+    position: absolute;
+    display: block;
+    width: 250px;
+    right: 20px;
+    bottom: 250px;
+}
