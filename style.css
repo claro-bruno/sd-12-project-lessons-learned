@@ -1,5 +1,6 @@
 body{
     background-color: rgb(253, 251, 251);
+    margin-left: 0;
 }
 
 #cabecalho {
@@ -9,4 +10,12 @@ body{
 
 span {
     text-decoration: line-through;
+}
+
+#cabecalho {
+    background-color: #036b52;
+    color: #fff;
+    width:100%;
+    border-bottom: 4px solid #2fc18c;
+    padding-left: 100px;
 }
