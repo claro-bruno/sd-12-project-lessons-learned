@@ -23,12 +23,11 @@ nav{
 }
 a{
     font-size: 20px; 
-    color: #ede7e3; 
+    color: #001233; 
     text-decoration: none;
     font-weight: bold;
     padding-left: 15px;
 }
-
 #minha_foto{
     display: inline-block;
     margin-left: 90px;
@@ -51,7 +50,6 @@ a{
     margin-left: 50px;
     font-size: 16px;
     width: 40%;
-
 }
 
 .lado-esquerdo{
@@ -59,8 +57,7 @@ a{
     width: 40%;
     text-align: justify;
     padding: 2%;
-    margin-left: 40px;
-    
+    margin-left: 50px;
 }
 .lado-direito{
     display: inline-block; 
@@ -88,11 +85,15 @@ h3{
     margin-left: 70px;
     
 }
-
-#link{
+#link:hover{
     margin: 20px;
     color: #0466c8;
     display: inline-block;
+}
+#redes{
+    display: block;
+    float: right;
+    width: 100px;
 }
 #rodape{
     display: block;
