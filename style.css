@@ -161,12 +161,12 @@ ol li:hover {
     margin-right: 50px;
     margin-top: 30px;
     font-size: 20px;
-    font-weight: 100;
+    font-weight: 200;
     line-height: 35px;
     text-align: justify;
 }
 strong {
-    font-weight: 300;
+    font-weight: 400;
 }
 #abre_aspas {
     float: left;
@@ -179,7 +179,29 @@ strong {
 
 }
 #fecha_aspas {
-    width: 60px;
+    float: left;
+    width: 100px;
     position: relative;
     z-index: 1;
+    margin-left: 650px;
+    margin-right: 50px;
+    padding-right: 30px;
+}
+#icone_github {
+    float: right;
+    width: 200px;
+    position: relative;
+    align-items: center;
+    margin-right: 70px;
+    margin-top: 30px;
+    margin-bottom: 25px;
+    /* margin-left: 30px; */
+}
+h3 {
+    display: inline;
+    font-family: 'Fira Code', monospace;
+    color: rgb(253, 251, 251);
+    background-color: rgb(250, 171, 28);
+    font-size: 30px;
+    margin-left: 130px;
 }
