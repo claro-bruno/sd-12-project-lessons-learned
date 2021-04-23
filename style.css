@@ -1,5 +1,7 @@
 body {
   background-color: rgb(253, 251, 251);
+  margin-left: 0;
+  margin-right: 0;
 }
 
 
@@ -7,7 +9,6 @@ body {
   top: 0;
   left: 0;
   position: fixed;
-  /* border: 1px solid black; */
   width: 100%;
   text-align: center;
   background-color: #ADE4AD;
@@ -23,7 +24,6 @@ body {
   flex-direction: column;
   align-items: center;
   margin-top: 120px;
-  padding: 8px;
   margin-bottom: 8px;;
 }
 
@@ -40,6 +40,8 @@ body {
 .content {
   display: flex;
   justify-content: center;
+  background-color: #ADE4AD;
+  padding: 24px;
 }
 
 .content h3 {
@@ -49,9 +51,12 @@ body {
 
 .lado-esquerdo {
   padding: 8px;
+  background-color: #fff;
+  box-shadow: 5px 5px 5px #5C5A91;
+  border-radius: 8px;
 }
 
-h3 {
+.lado-esquerdo h3 {
   color: #5C5A91;
 }
 
@@ -59,7 +64,6 @@ h3 {
   display: flex;
   width: 400px;
   padding: 8px;
-  border-right: 1px solid #5C5A91;
 }
 
 .list-container h4 {
