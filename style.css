@@ -50,19 +50,25 @@ h3 {
     margin-top: 110px;
 }
 
-#artigo {
-    margin-left:auto;
-    margin-right: auto;
-    width: 900px;
-    font-style: italic;
+
+#main{
+    height: auto;
+    display:block;
+    width: 100%;
 }
 
-#side {
-    width: 150px;
+.lado-esquerdo {
+    width: 700px;
+    font-style: italic;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.lado-direito {
     float: right;
     height: 300px;
-    margin-right: 200px;
-    top: 200px;
+    width: 150px;
+    margin-right: 100px;
 }
 
 #listas {
