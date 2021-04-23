@@ -28,7 +28,6 @@ main {
   margin-top: 100px;
   margin-bottom: 24px;
   margin-left: 0;
-  margin-right: 0;
   padding: 15px;
 }
 
@@ -59,7 +58,7 @@ a {
 .estilo_fonte {
   text-align: justify;
   font-size: 24px;
-  font-family: 'Times New Roman', Times, serif, Geneva, Tahoma, sans-serif;
+  font-family: Times, serif, Geneva, Tahoma, sans-serif;
   line-height: 48px;
 }
 
@@ -121,6 +120,7 @@ h3 {
   font-size: xx-large;
   text-align: center;
 }
+
 .estilo-nav {
   display: flex;
 }
