@@ -47,7 +47,7 @@ a {
   height: 30px;
   text-align: center;
   width: 100%;
-  position:fixed;
+  position: fixed;
   z-index: 998;
   background-color: rgb(253, 251, 251);
   top: 0;
@@ -93,12 +93,12 @@ a.trybe {
   text-decoration-line: underline;
 }
 
-.texts a.trybe:hover {
-  color:rgb(2, 107, 82);
+a.trybe:hover {
+  color: rgb(2, 107, 82);
 }
 
 span {
-  text-decoration-line:underline;
+  text-decoration-line: underline;
   font-weight: 700;
 }
 
