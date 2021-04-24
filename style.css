@@ -87,13 +87,13 @@ a {
   text-align: center;
 }
 
-a.trybe {
+.trybe {
   color: rgb(46, 193, 139);
   font-weight: 700;
   text-decoration-line: underline;
 }
 
-a.trybe:hover {
+.trybe:hover {
   color: rgb(2, 107, 82);
 }
 
@@ -109,6 +109,7 @@ a.trybe:hover {
   margin: 20px;
   top: 63%;
   transform: translateY(-85%);
+  right: 5%;
 }
 
 .lado-direito {
@@ -117,9 +118,8 @@ a.trybe:hover {
   width: 500px;
   margin: 20px;
   top: 28%;
+  left: 5%;
   transform: translateY(-85%);
-  border-left: 1px solid black;
-  padding-left: 40px;
 }
 
 .listas {
