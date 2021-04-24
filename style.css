@@ -17,6 +17,7 @@ img {
 body {
     background-color: rgb(253, 251, 251);
     font-size: 1em;   
+    margin: 0;
     }
 li {
     font-family: mono;
