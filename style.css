@@ -34,7 +34,7 @@ a {
   text-align: center;
   width: 100%;
   background-size: cover;
-  background-image: url(images/capalinkedin.png);
+  background-image: url('images/capalinkedin.png');
   background-position: 0 20%;
   height: 70px;
   line-height: 70px;
@@ -87,7 +87,7 @@ a {
   display: inline-block;
   position: relative;
   width: 500px;
-  margin: 20px 20px;
+  margin: 20px;
   top: 55%;
   transform: translateY(-85%);
 }
@@ -96,7 +96,7 @@ a {
   display: inline-block;
   position: relative;
   width: 500px;
-  margin: 20px 20px;
+  margin: 20px;
   top: 55%;
   transform: translateY(-85%);
   border-left: 1px solid black;
@@ -120,7 +120,7 @@ a {
   text-align: center;
   width: 300px;
   box-shadow: 7px 5px 5px 5px rgba(0, 0, 0, 0.164);
-  margin: 50px 50px;
+  margin: 50px;
   border-radius: 5px;
   padding: 30px;
 }
@@ -154,7 +154,7 @@ a {
   background-color: #e0ffeb;
   border-color: #bbb;
   border-style: solid;
-  border-width: 0px;
+  border-width: 0;
   color: #594f4f;
   font-family: Arial, sans-serif;
   font-size: 14px;
@@ -167,11 +167,10 @@ a {
   background-color: #9de0ad;
   border-color: #bbb;
   border-style: solid;
-  border-width: 0px;
+  border-width: 0;
   color: #493f3f;
   font-family: Arial, sans-serif;
   font-size: 14px;
-  font-weight: normal;
   overflow: hidden;
   padding: 10px 5px;
   word-break: normal;
@@ -179,7 +178,7 @@ a {
 
 .tg .tg-rebb {
   border-color: inherit;
-  font-family: Verdana, Geneva, sans-serif !important;
+  font-family: Verdana, Geneva, sans-serif ! important;
   font-weight: bold;
   text-align: center;
   vertical-align: top;
@@ -187,24 +186,21 @@ a {
 
 .tg .tg-1av6 {
   border-color: inherit;
-  font-family: Verdana, Geneva, sans-serif !important;text-align: center;
+  font-family: Verdana, Geneva, sans-serif ! important;
+  text-align: center;
   text-decoration: underline;
   vertical-align: top;
 }
 
 .tg .tg-jzjz {
-  font-family: Verdana, Geneva, sans-serif !important;text-align: center;
+  font-family: Verdana, Geneva, sans-serif ! important;text-align: center;
   vertical-align: top;
 }
 
 .tg .tg-ix6g {
   border-color: inherit;
-  font-family: Verdana, Geneva, sans-serif !important;text-align: center;
+  font-family: Verdana, Geneva, sans-serif ! important;text-align: center;
   vertical-align: top;
-}
-
-#rodape svg:hover {
-  fill: rgb(0, 0, 0);
 }
 
 #rodape svg {
@@ -213,11 +209,14 @@ a {
   margin: 0 4px;
 }
 
+#rodape svg:hover {
+  fill: rgb(0, 0, 0);
+}
+
+
+
 #rodape {
   text-align: center;
   font-size: 14px;
   height: fit-content;
 }
-
-
-
