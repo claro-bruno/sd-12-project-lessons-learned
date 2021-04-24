@@ -72,3 +72,13 @@
     background-color: rgb(253, 251, 251);
     z-index: 2;
 }
+
+#tabela {
+    position: absolute;
+    top: 900px;
+    left: 20px;
+    text-align: justify;
+    width: 400px;
+    background-color: rgb(253, 251, 251);
+    z-index: 2;
+}
