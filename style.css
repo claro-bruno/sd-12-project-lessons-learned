@@ -156,6 +156,7 @@ h1, #titulo {
     width: 400px;
     text-align: left;
     display: inline-block;
+    margin: auto;
 }
 
 .lado-direito {
@@ -168,6 +169,7 @@ h1, #titulo {
     width: 400px;
     text-align: right;
     display: inline-block;
+    margin: auto;
 }
 
 #rodape {
@@ -177,7 +179,7 @@ h1, #titulo {
     left: 0;
     bottom: 0;
     line-height: 1px;
-    width:1366px;
+    width:100%;
     color: #dfe6ca;
     
 
@@ -185,4 +187,26 @@ h1, #titulo {
 
 p, li {
     font-family: fantasy, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#tabela {
+    border: 2px solid #606c38;
+    text-align: center;
+    border-collapse: collapse;
+    margin-left: 170px;
+    font-size: 16px;
+    display: inline-block;
+    z-index: 0;
+}
+
+tr {
+    padding: 5px;
+    background-color: #e5989b);
+}
+
+.titulo_tabela {
+    padding: 10px 42px;
+    font-size: 16px;
+    top: 10px;
+    margin-left: 200px;
 }
