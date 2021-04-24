@@ -21,7 +21,7 @@ a {
 }
 
 #navigation_bar li a:hover {
-  color:#026B52;
+  color: #026b52;
 }
 
 #navigation_bar li {
@@ -54,9 +54,10 @@ a {
   width: 100%;
   height: 500px;
   position: relative;
-  text-align:center;
+  text-align: center;
   vertical-align: middle;
 }
+
 #presentation2 {
   position: relative;
   max-width: 700px;
@@ -65,19 +66,19 @@ a {
   top: 75%;
   font-size: 25px;
   color: white;
-  background-color: #026B52;
+  background-color: #026b52;
 }
 
 #minha_foto {
   width: 300px;
   position: relative;
   border-radius: 50%;
-  border: 5px solid #026B52;
+  border: 5px solid #026b52;
   bottom: 30px;
 }
 
 .texts {
-  background-color: #F0F2F5;
+  background-color: #f0f2f5;
   height: 300px;
   text-align: center;
 }
@@ -110,7 +111,7 @@ a {
 }
 
 .listas h2 {
-  color: #026B52;
+  color: #026b52;
 }
 
 .listas div {
@@ -125,23 +126,23 @@ a {
 }
 
 #table h2 {
-  color: #026B52;
-  display:inline-block;
+  color: #026b52;
+  display: inline-block;
   padding-top: 20px;
 }
 
 #table {
-  background-color: #F0F2F5;
+  background-color: #f0f2f5;
   height: 500px;
   position: relative;
   text-align: center;
   border-radius: 20px;
 }
 
-.tg  {
-  border-collapse:separate;
-  border-color:#bbb;
-  border-spacing:0;
+.tg {
+  border-collapse: separate;
+  border-color: #bbb;
+  border-spacing: 0;
   position: relative;
   left: 50%;
   transform: translateX(-50%);
@@ -150,34 +151,56 @@ a {
 }
 
 .tg td {
-  background-color:#E0FFEB;border-color:#bbb;border-style:solid;border-width:0px;
-  color:#594F4F;
-  font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;word-break:normal;
+  background-color: #e0ffeb;
+  border-color: #bbb;
+  border-style: solid;
+  border-width: 0px;
+  color: #594f4f;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  overflow: hidden;
+  padding: 10px 5px;
+  word-break: normal;
 }
+
 .tg th {
-  background-color:#9DE0AD;border-color:#bbb;border-style:solid;border-width:0px;
-  color:#493F3F;
-  font-family:Arial, sans-serif;font-size:14px;font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;
+  background-color: #9de0ad;
+  border-color: #bbb;
+  border-style: solid;
+  border-width: 0px;
+  color: #493f3f;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  overflow: hidden;
+  padding: 10px 5px;
+  word-break: normal;
 }
 
 .tg .tg-rebb {
-  border-color:inherit;font-family:Verdana, Geneva, sans-serif !important;
+  border-color: inherit;
+  font-family: Verdana, Geneva, sans-serif !important;
   font-weight: bold;
   text-align: center;
   vertical-align: top;
 }
 
 .tg .tg-1av6 {
-  border-color:inherit;font-family:Verdana, Geneva, sans-serif !important;text-align:center;text-decoration:underline;
-  vertical-align:top;
+  border-color: inherit;
+  font-family: Verdana, Geneva, sans-serif !important;text-align: center;
+  text-decoration: underline;
+  vertical-align: top;
 }
 
 .tg .tg-jzjz {
-  font-family:Verdana, Geneva, sans-serif !important;text-align:center;vertical-align:top
+  font-family: Verdana, Geneva, sans-serif !important;text-align: center;
+  vertical-align: top;
 }
 
 .tg .tg-ix6g {
-  border-color:inherit;font-family:Verdana, Geneva, sans-serif !important;text-align:center;vertical-align:top
+  border-color: inherit;
+  font-family: Verdana, Geneva, sans-serif !important;text-align: center;
+  vertical-align: top;
 }
 
 #rodape svg:hover {
@@ -185,7 +208,7 @@ a {
 }
 
 #rodape svg {
-  fill: #026B52;
+  fill: #026b52;
   width: 30px;
   margin: 0 4px;
 }
@@ -193,7 +216,7 @@ a {
 #rodape {
   text-align: center;
   font-size: 14px;
-  height:fit-content;
+  height: fit-content;
 }
 
 
