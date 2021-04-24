@@ -23,52 +23,95 @@ body {
 }
 
 .minhafoto {
-  width: 300px;
+  width: 250px;
   border-radius: 25%;
   float: left;
-  margin-left: 200px;
+  margin: 20px;
   border: solid rgb(47, 193, 140);
 }
 
 .header {
   margin-top: 100px;
-  height: 700px;
+  height: 400px;
+  text-align: center;
+  display: inline-block;
 }
 
+.lista_aprendida {
+  text-align: center;
+  float: left;
+  margin: 50px 20px;
+  background-color: rgb(47, 193, 140);
+  border-radius: 2%;
+  padding: 15px;
+  color: white;
+  font-family: Raleway, sans-serif;
+}
+.lista_aprendida h2 {
+    margin-top: 0%;
+}
 
 .article {
-  margin-top: 10px;
   border-radius: 2%;
-  margin-bottom: 10px;
   background-color: rgb(47, 193, 140);
   padding: 15px;
   max-width: 30%;
   color: white;
   font-family: Raleway, sans-serif;
   float: right;
-  margin-right: 200px;
+  margin: 50px 20px;
 }
 
-.aside {
-  margin-top: 10px;
-  background-color: rgb(47, 193, 140);
-  max-width: 30%;
-  border-radius: 2%;
-  padding: 15px;
-  color: white;
-  font-family: Raleway, sans-serif;
-  float: right;
-  clear: right;
-  margin-right: 200px;
-}
-
-.listas {
-  clear: both;
-  margin: 100px 50px;
-}
-
-.tabela {
-  border: rgb(16, 117, 80) solid thin;
+.segundaparte {
+  background-color: rgb(238, 238, 238);
+  margin-top: 100px;
+  height: 400px;
   text-align: center;
-  margin: auto;
+  display: inline-block;
+    
 }
+.aside {
+  border-radius: 2%;
+  background-color: rgb(47, 193, 140);
+  padding: 15px;
+  max-width: 30%;
+  color: white;
+  font-family: Raleway, sans-serif;
+  float: right;
+  margin: 50px 20px;
+  text-align: center;
+}
+.lista_a_aprender {
+  list-style-position: inside;
+  float: left;
+  margin: 50px 20px;
+  background-color: rgb(47, 193, 140);
+  border-radius: 2%;
+  padding: 15px;
+  color: white;
+  font-family: Raleway, sans-serif;
+}
+.terceiraparte {
+  margin: 100px;
+}
+.tabela {
+  border-radius: 4%;
+  background-color: rgb(47, 193, 140);
+  border:rgb(238, 238, 238) solid thin;
+  text-align: center;
+  margin:auto;
+  height: auto;
+  padding: 30px 20px;
+  color: white;
+}
+.rodape {
+  margin: 10px 10px;
+  height: auto;
+  background-color: rgb(238, 238, 238);
+  text-align: center;
+}
+.rodape p {
+  border-radius: 2%;
+  padding: 15px;
+  color: rgb(47, 193, 140);
+  font-family: Raleway, sans-serif;}
