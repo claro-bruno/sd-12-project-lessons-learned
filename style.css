@@ -8,8 +8,6 @@ body {
     background-color: rgb(253, 251, 251);
 }
 
-/*Cabeçalho*/
-
 #cabecalho {
     background-color: rgb(69, 130, 2);
     width: 100%;
@@ -23,10 +21,7 @@ body {
     font-size: 30px;
     margin: 30px;
     text-transform: uppercase;
-    /*Como colocar o texto no centro da div?*/
 }
-
-/*Navegação*/
 
 #navegacao {
     width: 100%;
@@ -41,7 +36,6 @@ body {
 .listanav li {
     display: inline-block;
     margin: 20px;
-    /*Usei margin para deixar o menu no centro da div, mas está correto?*/
 }
 
 .listanav a {
@@ -56,21 +50,15 @@ body {
     transition-duration: 2ms;
 }
 
-/*Principal*/
-
 #principal {
     padding-top: 205px;
     width: 900px;
     margin: auto;
 }
 
-/*Classe paragraph*/
-
 .paragraph {
     line-height: 2em;
 }
-
-/*Artigo*/
 
 #artigo {
     display: inline-block;
@@ -84,8 +72,6 @@ body {
     border-radius: 100%;
 }
 
-/*Lateral*/
-
 #lateral {
     display: inline-block;
     width: 430px;
@@ -94,8 +80,6 @@ body {
     vertical-align: top;
     padding-top: 59px;
 }
-
-/*Seção lista*/
 
 .secao_listas {
     background-color: rgb(203, 211, 148);
@@ -107,8 +91,6 @@ body {
     width: 900px;
     margin: auto;
 }
-
-/*Listas 1 e 2*/
 
 .lista1 {
     display: inline-block;
@@ -131,8 +113,6 @@ body {
 #licoes_a_aprender {
     text-align: center;
 }
-
-/*Vídeo*/
 
 .video {
     text-align: center;
