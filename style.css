@@ -30,3 +30,7 @@ li{
     margin-left: 42%;
     padding-top: 10%;
 }
+td {
+    text-align: center;
+    color:green;
+}
