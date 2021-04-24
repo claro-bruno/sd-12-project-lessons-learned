@@ -114,7 +114,7 @@ footer nav {
 footer svg {
   width: 20px;
   fill: white;
-  margin: 15px;
+  margin: 20px 15px 15px 15px;
 }
  
 footer svg:hover {
@@ -123,4 +123,11 @@ footer svg:hover {
 
 footer a {
   text-decoration: none;
+}
+
+footer p {
+  color: white;
+  margin: 0;
+  font-size: 0.8rem;
+  padding-bottom: 15px;
 }
