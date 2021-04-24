@@ -78,6 +78,15 @@ main {
   background-color: #f3f3f3;
 }
 
+#textos-corridos a {
+  color: #235945;
+  text-decoration: none;
+}
+
+#textos-corridos a:hover {
+  color: black;
+}
+
 #texto-lado-esquerdo {
   display: inline-block;
   width: 46%;
