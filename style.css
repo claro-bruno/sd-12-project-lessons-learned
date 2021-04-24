@@ -7,19 +7,21 @@ body {
   height: 768px;
 }
 
-#footer {
-  padding: 500px;
+#rodape {
+  background-color: rgb(184, 236, 177);
+  text-align: center;
+  padding: 22px 0 22px;
 }
 
 #cabecalho {
   position: fixed;
   top: 0;
+  background-color: rgb(42, 168, 74);
 }
 
 #minha_foto {
   border-radius: 50%;
-  border: 10px;
-  padding: 60px 0 0;
+  padding: 40px 0 0;
 }
 
 .skills {
@@ -31,7 +33,7 @@ body {
 }
 
 #titulo {
-  color: rgb(42, 168, 74);
+  color: rgb(255, 255, 255);
 }
 
 .p_article {
