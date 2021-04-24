@@ -97,6 +97,11 @@ a {
   color: rgb(2, 107, 82);
 }
 
+#bold {
+  font-weight: 700;
+  text-decoration-line: underline;
+}
+
 .lado-esquerdo span {
   text-decoration-line: underline;
   font-weight: 700;
