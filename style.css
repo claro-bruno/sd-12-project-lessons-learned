@@ -15,8 +15,15 @@ header h1 {
   padding-left: 50px;
 }
 
-header h2 {
+nav h2 {
   display: inline-block;
+  font-size: small;
+}
+
+nav {
+  margin-top: 78px;
+  background-color: rgb(7, 134, 7);
+  display: inherit;
   font-size: small;
 }
 
@@ -39,7 +46,7 @@ main {
 }
 
 .conteudo {
-  margin-top: 147px;
+  margin-top: 20px;
 }
 
 .licoes {
