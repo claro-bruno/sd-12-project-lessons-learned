@@ -26,6 +26,7 @@ a:hover{
 #conteudo_principal{   
     padding-top: 200px; /*Usado,pq o cabeçalho está com position:fixed e não ocupa lacuna*/
     border: 3px solid blue;
+    margin: 60px;
 }
 
 #artigo{
@@ -43,4 +44,9 @@ a:hover{
 
 #rodape{
     border: 3px solid red;
+}
+
+table, td, th, tfoot{
+    border: 2px solid black;
+    border-collapse: collapse;
 }
