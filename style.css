@@ -85,7 +85,7 @@ body {
     border-radius: 50%;
 }
 
-#conteudo-perfil #caixa-da-imagem h3 {
+#conteudo-perfil #caixa-da-imagem h2 {
     position: relative;
     bottom: 10px;
     text-align: center;
@@ -118,7 +118,7 @@ body {
     float: right;
 }
 
-#barra-lateral h4 {
+#barra-lateral h3 {
     font-family: 'Josefin Sans', sans-serif;
     font-size: 24px;
     text-align: right;
@@ -156,7 +156,7 @@ body {
     background-color: rgb(58,195,144);
 }
 
-#conteudo-aprendido h2 {
+#conteudo-aprendido h4 {
     text-align:left;
     font-size: 19px;
     font-weight: bold;
