@@ -46,12 +46,14 @@ h2 {
   display: inline-block;
   margin-left: 25px;
   margin-top: 6px;
+  line-height: 1.2;
 }
 
 #licoes_a_aprender {
   display: inline-block;
   margin: 6px;
   margin-left: 120px;
+  line-height: 1.2;
 }
 
 .lado-esquerdo {
