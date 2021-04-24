@@ -3,7 +3,7 @@ body {
     margin: 0%;
 }
 
-.cabecalho {
+#cabecalho {
     top: 0%;
     position: fixed;
     background-color: rgb(47, 193, 140);
@@ -12,6 +12,7 @@ body {
     font-family: 'Raleway', sans-serif;
     color: white;
     font-size: 15px;
+    letter-spacing: 10px;
 }
 
 #lucas {
@@ -21,7 +22,7 @@ body {
 .minhafoto {
     width: 300px;
     border-radius: 25%;
-    float: left ;
+    float: left;
     margin-left: 200px;
     border: solid rgb(47, 193, 140);
 }
@@ -35,7 +36,7 @@ body {
 .article {
     
     border-radius: 2%;
-    margin:auto;
+    margin: auto;
     margin-bottom: 10px;
     background-color: rgb(47, 193, 140);
     padding: 15px 15px;
