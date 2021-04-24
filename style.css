@@ -7,19 +7,19 @@ body {
   height: 768px;
 }
 
-#rodape {
-  background-color: rgb(184, 236, 177);
-  text-align: center;
-  padding: 22px 0;
-}
-
 #cabecalho {
   position: fixed;
   top: 0;
   background-color: rgb(42, 168, 74);
-  margin: 0px;
+  margin: 0;
   width: 100%;
   padding: 0;
+}
+
+#titulo {
+  color: white;
+  text-align: center;
+  margin: 0;
 }
 
 #minha_foto {
@@ -27,18 +27,18 @@ body {
   padding: 40px 0 0;
 }
 
-.skills {
-  margin: 0 20%;
+section article {
+  height: 100px;
+  width: 40%;
 }
 
-.skills li {
-  line-height: 0.9em;
+section aside {
+  height: 100px;
+  width: 50%;
 }
 
-#titulo {
-  color: white;
-  text-align: center;
-  margin: 0;
+section h2 {
+  color: rgb(42, 168, 74);
 }
 
 .p_article {
@@ -61,12 +61,21 @@ aside p {
   text-align: left;
 }
 
-section article {
-  height: 100px;
-  width: 40%;
+table p {
+  color: rgb(42, 168, 74);
 }
 
-section aside {
-  height: 100px;
-  width: 50%;
+.skills {
+  margin: 0 20%;
+}
+
+.skills li {
+  line-height: 0.9em;
+}
+
+#rodape {
+  background-color: rgb(42, 168, 74);
+  text-align: center;
+  padding: 22px 0;
+  color: white;
 }
