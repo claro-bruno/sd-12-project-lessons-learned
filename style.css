@@ -178,28 +178,30 @@ a {
 
 .tg .tg-rebb {
   border-color: inherit;
-  font-family: Verdana, Geneva, sans-serif ! important;
-  font-weight: bold;
+  font-family: Montserrat, Verdana, Geneva, sans-serif;
+  font-weight: 700;
   text-align: center;
   vertical-align: top;
 }
 
 .tg .tg-1av6 {
   border-color: inherit;
-  font-family: Verdana, Geneva, sans-serif ! important;
+  font-family: Montserrat, Verdana, Geneva, sans-serif;
   text-align: center;
   text-decoration: underline;
   vertical-align: top;
 }
 
 .tg .tg-jzjz {
-  font-family: Verdana, Geneva, sans-serif ! important;text-align: center;
+  font-family: Montserrat, Verdana, Geneva, sans-serif;
+  text-align: center;
   vertical-align: top;
 }
 
 .tg .tg-ix6g {
   border-color: inherit;
-  font-family: Verdana, Geneva, sans-serif ! important;text-align: center;
+  font-family: Montserrat, Verdana, Geneva, sans-serif;
+  text-align: center;
   vertical-align: top;
 }
 
@@ -210,10 +212,8 @@ a {
 }
 
 #rodape svg:hover {
-  fill: rgb(0, 0, 0);
+  fill: black;
 }
-
-
 
 #rodape {
   text-align: center;
