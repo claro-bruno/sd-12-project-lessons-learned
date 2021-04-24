@@ -21,7 +21,9 @@ nav h2 {
 }
 
 nav {
-  margin-top: 78px;
+  width: 100%;
+  position: fixed;
+  margin-top: -40px;
   background-color: rgb(7, 134, 7);
   display: inherit;
   font-size: small;
@@ -35,6 +37,7 @@ nav a {
 
 main {
   margin: 10px;
+  margin-top: 118px;
 }
 
 #minha_foto {
@@ -43,10 +46,6 @@ main {
 
 #nome {
   padding-left: 85px;
-}
-
-.conteudo {
-  margin-top: 20px;
 }
 
 .licoes {
