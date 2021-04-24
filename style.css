@@ -5,6 +5,7 @@ body {
    font-family: Impact, Haettenschweiler, sans-serif;
    line-height: 1.5em;
    font-size: 18px;
+  
 }
 header {
    background-color: rgba(96, 153, 58, 0.836);
@@ -44,4 +45,14 @@ aside {
    width: 100%;
    display: inline-block;
    color:cornsilk;
+}
+
+ol {
+   margin-right: 5%;
+   margin-left: 28%;
+   float: left;
+   display: inline;
+}
+ul {
+   text-decoration: none;
 }
