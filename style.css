@@ -34,36 +34,32 @@ a {
 }
 .aprendidas {
     font-size: 30px;
+    margin: 15px;
+    border: 15px;
+    padding: 15px;
 }
 .queroaprender {
     font-size: 30px;
 }
-
-
-
 .lado-direito {
   font-size: 25px;
   padding: 30px 70px 90px 70px;
   margin: auto;
-  
   }
-
   .lado-esquerdo {
     padding: 30px 70px 90px 70px;
     margin: auto;
     font-size: 25px; 
     width: 80%;
     }
-
     .conteiner-text {
         width: 30%;
         display:inline-block;
-        vertical-align: top;
-        text-align: :center;
-        margin: 10px;
+        vertical-align:top;
+        text-align:center;
+        margin:10px;
     }
-
-.botaoside {
+    .botaoside {
     position: relative;
     width: 80px; 
     height: 50%; 
@@ -71,16 +67,13 @@ a {
     padding: 50px;
     top: 100x;
     left: 500px;
-   
 }  
 .sizefooter {
     font-size: 20px;
 }
-
 .stiloptabela {
 font-size: 30px;
 position: center;
-
 }
 
 
