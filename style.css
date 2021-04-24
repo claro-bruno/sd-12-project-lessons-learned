@@ -11,10 +11,10 @@ header {
   top: 0;
   width: 100%;
   height: 75px;
-  background-color: #235945;
-  color: white;
+  background-color: rgb(35, 89, 69);
+  color: rgb(255, 255, 255);
   font-size: 1.5rem;
-  border-bottom: 1px solid #132623;
+  border-bottom: 1px solid rgb(19, 38, 35);
   z-index: 999;
 }
 
@@ -30,7 +30,7 @@ main {
 
 #minha_foto {
   border-radius: 50%;
-  border: 3px solid #235945;
+  border: 3px solid rgb(35, 89, 69);
   width: 300px;
   display: inline-block;
   vertical-align: middle;
@@ -48,8 +48,8 @@ main {
 #description h2 {
   font-size: 2rem;
   font-weight: 800;
-  color: white;
-  background-color: #235945;
+  color: rgb(255, 255, 255);
+  background-color: rgb(35, 89, 69);
   padding: 10px;
 }
 
@@ -75,16 +75,16 @@ main {
 }
 
 #textos-corridos {
-  background-color: #f3f3f3;
+  background-color: rgb(243, 243, 243);
 }
 
 #textos-corridos a {
-  color: #235945;
+  color: rgb(35, 89, 69);
   text-decoration: none;
 }
 
 #textos-corridos a:hover {
-  color: black;
+  color: rgb(0, 0, 0);
 }
 
 #texto-lado-esquerdo {
@@ -92,7 +92,7 @@ main {
   width: 46%;
   vertical-align: middle;
   padding: 25px 10px;
-  border-right: 1px solid black;
+  border-right: 1px solid rgb(0, 0, 0);
 }
 
 #texto-lado-direito {
@@ -103,7 +103,7 @@ main {
 }
 
 footer {
-  background-color: #235945;
+  background-color: rgb(35, 89, 69);
   width: 100%;
   text-align: center;
 }
@@ -113,12 +113,12 @@ footer nav {
 }
 footer svg {
   width: 20px;
-  fill: white;
+  fill: rgb(255, 255, 255);
   margin: 20px 15px 15px 15px;
 }
  
 footer svg:hover {
-  fill: black;
+  fill: rgb(0, 0, 0);
 }
 
 footer a {
@@ -126,7 +126,7 @@ footer a {
 }
 
 footer p {
-  color: white;
+  color: rgb(255, 255, 255);
   margin: 0;
   font-size: 0.8rem;
   padding-bottom: 15px;
