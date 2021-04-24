@@ -8,10 +8,13 @@ body {
     position: fixed;
     background-color: rgb(47, 193, 140);
     width: 100%;
+}
+
+#titulo {
     text-align: center;
-    font-family: 'Raleway', sans-serif;
+    font-family: Raleway, sans-serif;
     color: white;
-    font-size: 15px;
+    font-size: 20px;
     letter-spacing: 10px;
 }
 
@@ -33,16 +36,15 @@ body {
 }
 
 
-.article {
-    
-    border-radius: 2%;
+.article{
+    border-radius:2%;
     margin: auto;
     margin-bottom: 10px;
     background-color: rgb(47, 193, 140);
-    padding: 15px 15px;
+    padding: 15px;
     max-width: 30%;
     color: white;
-    font-family: 'Raleway', sans-serif;
+    font-family: Raleway, sans-serif;
     float: right;
     margin-right: 200px;
 }
@@ -51,9 +53,9 @@ body {
     background-color: rgb(47, 193, 140);
     max-width: 30%;
     border-radius: 2%;
-    padding: 15px 15px;
+    padding: 15px;
     color: white;
-    font-family: 'Raleway', sans-serif;
+    font-family: Raleway, sans-serif;
     float: right;
     clear: right;
     margin-right: 200px;
