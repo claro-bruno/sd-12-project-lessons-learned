@@ -11,7 +11,7 @@ body {
 /*Cabeçalho*/
 
 #cabecalho {
-    background-color: #458202;
+    background-color: rgb(69, 130, 2);
     width: 100%;
     position: fixed;
     top: 0;
@@ -45,7 +45,7 @@ body {
 }
 
 .listanav a {
-    color: #355125;
+    color: rgb(41, 80, 0);
     text-decoration: none;
     text-transform: uppercase;
     font-weight: bolder;
@@ -53,14 +53,13 @@ body {
 
 .listanav a:hover {
     color: white;
-    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+    transition-duration: 2ms;
 }
 
 /*Principal*/
 
 #principal {
     padding-top: 205px;
-    /*background-color: aqua;*/
     width: 900px;
     margin: auto;
 }
@@ -74,7 +73,6 @@ body {
 /*Artigo*/
 
 #artigo {
-    /*background-color: orchid;*/
     display: inline-block;
     width: 430px;
     padding-right: 15px;
@@ -89,7 +87,6 @@ body {
 /*Lateral*/
 
 #lateral {
-    /*background-color: rgb(25, 0, 255);*/
     display: inline-block;
     width: 430px;
     padding-left: 15px;
@@ -101,13 +98,12 @@ body {
 /*Seção lista*/
 
 .secao_listas {
-    background-color: #F6F4C5;
+    background-color: rgb(203, 211, 148);
     margin: 50px 0px;
     padding: 100px 0px;
 }
 
 #listas {
-    /*background-color: violet;*/
     width: 900px;
     margin: auto;
 }
@@ -118,7 +114,6 @@ body {
     display: inline-block;
     width: 430px;
     padding-right: 15px;
-    /*background-color: rgb(251, 216, 152);*/
     list-style-position: inside;
 }
 
@@ -127,7 +122,6 @@ body {
 }
 
 .lista2 {
-    /*background-color: rgb(152, 239, 251);*/
     display: inline-block;
     width: 430px;
     padding-left: 15px;
@@ -141,7 +135,6 @@ body {
 /*Vídeo*/
 
 .video {
-    /*background-color: rgb(255, 8, 0);*/
     text-align: center;
 }
 
@@ -158,6 +151,6 @@ body {
     margin-top: 50px;
     color: white;
     grid-area: rodape;
-    background-color: #4F7836;
+    background-color: rgb(69, 130, 2);
     text-align: center;
 }
