@@ -69,21 +69,23 @@ h1, #titulo {
 #minha_foto {
     width: 400px;
     border-radius: 50%;
-    margin-top: 200px;
+    margin-top: 20px;
     display: inline-block;
     margin-left: 65%; 
 }
 
 #juliane_nome {
-    font-size: 55px;
+
+    font-size: 40px;
     font-family: fantasy, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     display: inline;
     position: relative;
     z-index: 0;
-    margin: o;
+    margin-top: 40px;
     text-align: center;
-    margin-inline-start: 40px;
-    margin-left: 65%;
+    margin-inline-start: 50px;
+    margin-left: 68%;
+    top: 40px;
 }
 
 #juliane_nome a {
@@ -105,11 +107,11 @@ h1, #titulo {
 #anchor_aprendidas {
    font-size: 18px;
    margin: auto;
-   width: 500px;
+   width: 400px;
    border-radius: 5%;
    line-height: 30px;
    position: absolute;
-   padding: 10%;
+   padding: 12%;
    float: left;
    z-index: 0;
 }
@@ -117,12 +119,12 @@ h1, #titulo {
 #anchor_aprender {
     font-size: 18px;
     margin: auto;
-    width: 500px;
+    width: 400px;
     border-radius: 5%;
     line-height: 30px;
     position: relative;
     float: right;
-    padding:10%;
+    padding:12%;
     z-index: 1;
 }
 
@@ -138,21 +140,20 @@ h1, #titulo {
 
 #licoes_a_aprender {
     background-color: #dfe6ca;
-    background-color: #dfe6ca; 
     font-size: 18px;
     margin: auto;
-    width: 500px;
+    width: 400px;
     border-radius: 5%;
     line-height: 30px;
 }
 .lado-esquerdo {
     z-index: 3;
     position: absolute;
-    top: 1500px;
+    top: 1370px;
     display: inline-block;
     float: left;
     padding: 10%;
-    width: 500px;
+    width: 400px;
     text-align: left;
 }
 
@@ -162,13 +163,21 @@ h1, #titulo {
     display: inline-block;
     float: right;
     padding: 10%;
-    width: 500px;
+    width: 400px;
     text-align: right;
 }
 
 #rodape {
     background-color: #283618;
     font-style: italic;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    line-height: 1px;
+    width:1366px;
+    color: #dfe6ca;
+    
+
 }
 
 p, li {
