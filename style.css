@@ -15,9 +15,11 @@ body {
     text-align: center;
 }  
 #minha_foto {
-    width: 40%;
+    width: 30%;
     display: block;
-    padding: 80px;
+    padding: 5px;
+    margin: 30px;
+    border: thick double #32a1ce
 }
 #licoes_aprendidas {
     display: inline-block;
