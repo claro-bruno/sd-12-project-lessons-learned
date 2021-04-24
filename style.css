@@ -1,5 +1,6 @@
 body {
     background-color: rgb(253, 251, 251);
+    margin: 0%;
 }
 
 .cabecalho {
@@ -10,8 +11,54 @@ body {
     text-align: center;
     font-family: 'Raleway', sans-serif;
     color: white;
+    font-size: 15px;
 }
 
 #lucas {
     color: #107550;
+}
+
+.minhafoto {
+    width: 300px;
+    border-radius: 25%;
+    float: left ;
+    margin-left: 200px;
+    border: solid rgb(47, 193, 140);
+}
+
+.header {
+    margin-top: 100px;
+    height: 700px;
+}
+
+
+.article {
+    
+    border-radius: 2%;
+    margin:auto;
+    margin-bottom: 10px;
+    background-color: rgb(47, 193, 140);
+    padding: 15px 15px;
+    max-width: 30%;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    float: right;
+    margin-right: 200px;
+}
+
+.aside {
+    background-color: rgb(47, 193, 140);
+    max-width: 30%;
+    border-radius: 2%;
+    padding: 15px 15px;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    float: right;
+    clear: right;
+    margin-right: 200px;
+}
+
+.listas {
+    clear: both;
+    margin: 100px 50px;
 }
