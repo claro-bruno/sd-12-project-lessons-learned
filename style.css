@@ -5,7 +5,7 @@
 #cabecalho {
     position: fixed;
     top: 0;
-    width: 900px;
+    width: 940px;
     background-color: rgb(253, 251, 251);
     z-index: 3;
 }
@@ -81,4 +81,8 @@
     width: 400px;
     background-color: rgb(253, 251, 251);
     z-index: 2;
+}
+
+.linha {
+    border: 1px solid rgb(220, 220, 220);;
 }
