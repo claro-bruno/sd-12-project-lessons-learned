@@ -79,7 +79,7 @@ body {
     color: rgb(255, 136, 136);    
 }
 
-.article {
+.lado-esquerdo {
     margin-bottom: 80px;
     margin-top: 80px; 
     max-width: 300px;    
@@ -87,7 +87,7 @@ body {
     display: inline-block;
 }
 
-.aside {    
+.lado-direito {    
     max-width: 800px;            
     display: inline-block;
     margin-top: 150px;
