@@ -47,6 +47,21 @@ ul {
     margin-top: 150px;
 }
 
+.liçoes {
+    display: inline-block;
+    margin-top: 100px;
+    margin-left:150px;
+    font-size: 20px;
+}
+
+.title-liçoes{
+    text-align: center;
+}
+
+li {
+    padding-bottom: 10px;
+}
+
 h2 {
     text-align: center;
     padding: 30px 15px;
