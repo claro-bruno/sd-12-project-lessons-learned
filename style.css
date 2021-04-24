@@ -214,6 +214,55 @@ h3 {
     margin-left: 120px;
     padding-bottom: 20px;
 }
+table {
+    border-collapse: collapse;
+    border: 5px solid rgb(241, 87, 35);
+    font-family: 'Montserrat', sans-serif;
+    width: 50%;
+    margin-left: 25%;
+}
+thead tr:nth-of-type(1){
+    font-family: 'Fira Code', monospace;
+    background-color: rgb(241, 87, 35);
+    color: rgb(253, 251, 251);
+    font-size: 20px;
+    padding-bottom: 5px;
+}
+thead tr:nth-of-type(1) th:nth-of-type(1) {
+    text-align: left;
+    padding-left: 5px;
+}
+thead tr:nth-of-type(1) th:nth-of-type(2) {
+    text-align: right;
+    padding-right: 10px;
+}
+thead tr:nth-of-type(2) {
+    background-color: rgb(253, 251, 251);
+    color: rgb(241, 87, 35);
+    font-size: 18px;
+    line-height: 30px;
+}
+td {
+    border: 3px solid rgb(253, 251, 251);
+    background-color: rgb(229, 226, 226);
+    color: rgb(40, 40, 38);
+    text-align: center;
+    line-height: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+tbody tr td:nth-of-type(1) {
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
 .skills_aprendidas {
     text-align: center;
 }
