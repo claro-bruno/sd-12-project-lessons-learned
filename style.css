@@ -106,20 +106,17 @@ a {
   display: inline-block;
   position: relative;
   width: 500px;
-  margin: 20px;
-  top: 63%;
-  transform: translateY(-85%);
-  right: 5%;
+  padding-right: 20px;
+  top: 20%;
 }
 
 .lado-direito {
   display: inline-block;
   position: relative;
   width: 500px;
-  margin: 20px;
-  top: 28%;
-  left: 5%;
-  transform: translateY(-85%);
+  padding-left: 20px;
+  top: 8%;
+  border-left: 1px solid black;
 }
 
 .listas {
