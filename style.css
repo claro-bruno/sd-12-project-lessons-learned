@@ -145,7 +145,7 @@ h1, #titulo {
     border-radius: 5%;
     line-height: 30px;
 }
-.esquerdo {
+.lado-esquerdo {
     z-index: 3;
     position: absolute;
     top: 1500px;
@@ -156,7 +156,7 @@ h1, #titulo {
     text-align: left;
 }
 
-.direito {
+.lado-direito {
     z-index: 4;
     position: relative;
     display: inline-block;
@@ -167,9 +167,10 @@ h1, #titulo {
 }
 
 #rodape {
-
+    background-color: #283618;
+    font-style: italic;
 }
 
 p, li {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: fantasy, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
