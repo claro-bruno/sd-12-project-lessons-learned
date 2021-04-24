@@ -64,22 +64,31 @@ hr {
 }
 
 h2 {
-    margin: 0;
+    margin-top: 0;
     text-align: center;
     padding: 30px 15px;
 }
 
-article{
+.lado-esquerdo{
     margin-top: 0;
-    background-color: aquamarine;
-    padding-left: 70px;
-    width: 800px;
+    background-color:#0fa36b;
+    padding: 80px 70px 100px;
+    width: 760px;
+    display: inline-block;
 }
 
 .aprendizado{
     font-size: 20px;
 }
 
-aside {
+.lado-direito {
+    text-align: center;
+    display: inline-block;
     font-size: 20px;
+    width: 400px;
+}
+
+.inutilidades {
+    width: cover;
+    height: 400px;
 }
