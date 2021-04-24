@@ -8,21 +8,27 @@ body {
     background-color: rgb(253, 251, 251);
 }
 
-main {
-    display: grid;
-    grid-template-rows: ;
-    grid-template-areas: "cabecalho cabecalho cabecalho" "navegacao navegacao navegacao" "conteudo conteudo lateral" "lista1 lista2 video" "rodape rodape rodape";
+/*Cabeçalho*/
+
+#cabecalho {
+    background-color: black;
+    width: 100%;
+    position: fixed;
+    top: 0;
+}
+
+#titulo {
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    margin: 30px;
+    /*Como colocar o texto no centro da div?*/
 }
 
 /*Navegação*/
 
-.navegacao {
-    grid-area: navegacao;
-    background-color: white;
+#navegacao {
     width: 100%;
-    /*border-bottom: 10px solid rgb(94, 11, 80);*/
-    box-shadow: 0 0 0 2px;
-    padding-top: 175px;
 }
 
 .listanav {
@@ -44,18 +50,7 @@ main {
 }
 
 .listanav a:hover {
-    background-color: aquamarine;
-}
-
-/*Cabeçalho*/
-
-#cabecalho {
-    grid-area: cabecalho;
-    background-color: black;
-    background-size: cover;
-    width: 100%;
-    position: fixed;
-    top: 0;
+    color: aqua;
 }
 
 #minha_foto {
@@ -63,14 +58,11 @@ main {
     border-radius: 100%;
 }
 
-#titulo {
-    color: white;
-    font-size: 30px;
-    text-align: center;
-    font-size: 50px;
-    margin: 30px;
-    /*Como colocar o texto no centro da div?*/
-}
+
+
+
+
+
 
 /*Conteúdo em parágrafos*/
 
