@@ -53,7 +53,7 @@ a {
     margin: auto;
     font-size: 25px; 
     width: 80%;
-          }
+    }
 
     .conteiner-text {
         width: 30%;
@@ -64,10 +64,13 @@ a {
     }
 
 .botaoside {
-    width: 50px; 
+    position: relative;
+    width: 80px; 
     height: 50%; 
     float: right; 
     padding: 50px;
+    top: 100x;
+    left: 500px;
    
 }  
 .sizefooter {
