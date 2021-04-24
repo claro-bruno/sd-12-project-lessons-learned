@@ -19,7 +19,7 @@ body {
 }
 
 #lucas {
-    color: #107550;
+    color: rgb(16, 117, 80);
 }
 
 .minhafoto {
@@ -37,6 +37,7 @@ body {
 
 
 .article{
+    margin-top: 10px;
     border-radius:2%;
     margin: auto;
     margin-bottom: 10px;
@@ -50,6 +51,7 @@ body {
 }
 
 .aside {
+    margin-top: 10px;
     background-color: rgb(47, 193, 140);
     max-width: 30%;
     border-radius: 2%;
@@ -64,4 +66,10 @@ body {
 .listas {
     clear: both;
     margin: 100px 50px;
+}
+
+.tabela {
+    border: rgb(16, 117, 80) solid thin;
+    text-align: center;
+    margin: auto;
 }
