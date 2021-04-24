@@ -4,76 +4,76 @@ body {
   background-color: rgb(253, 251, 251);
   font-family: Impact, Haettenschweiler, sans-serif;
   line-height: 1.5em;
-  font-size: 18px; 
+  font-size: 18px;
 }
 
 a {
-   text-decoration: none;
+  text-decoration: none;
 }
 
 header {
-   background-color: rgba(96, 153, 58, 0.836);
-   top: 0%;
-   position: fixed;
-   width: 100%;
-   margin: 0%;
-   text-align: center;
+  background-color: rgba(96, 153, 58, 0.836);
+  top: 0%;
+  position: fixed;
+  width: 100%;
+  margin: 0%;
+  text-align: center;
 }
 
 #minha_foto {
-   border-radius: 50%;
+  border-radius: 50%;
 }
 
 section {
-   padding: 4%;
-   text-align: center;
+  padding: 4%;
+  text-align: center;
 }
 
 article {
-   margin-right: 3%;
-   margin-left: 28%;
-   float: left;
-   width: 300px;
-   text-align: justify;
+  margin-right: 3%;
+  margin-left: 28%;
+  float: left;
+  width: 300px;
+  text-align: justify;
 }
 
 aside {
-   margin-left: 28%;
-   padding: 7%;
-   width: 500px;
-   text-align: justify;
+  margin-left: 28%;
+  padding: 7%;
+  width: 500px;
+  text-align: justify;
 }
 
 #text-profile {
-   background-color: rgba(35, 87, 1, 0.877);
-   width: 100%;
-   display: inline-block;
-   color: cornsilk;
+  background-color: rgba(35, 87, 1, 0.877);
+  width: 100%;
+  display: inline-block;
+  color: cornsilk;
 }
 
 ol {
-   margin-top: 7%;
-   margin-right: 5%;
-   margin-left: 28%;
-   float: left;
-   display: inline;
+  margin-top: 7%;
+  margin-right: 5%;
+  margin-left: 28%;
+  float: left;
+  display: inline;
 }
 
 ul {
-   margin-top: 7%;
+  margin-top: 7%;
 }
 
 nav {
-   text-align: center;
-   margin-bottom: 2%;
+  text-align: center;
+  margin-bottom: 2%;
 }
 
 #icons-socialmidia {
-   margin-top: 14%;
-   text-align: center;
+  margin-top: 14%;
+  text-align: center;
 }
 
 #Review {
-   margin: 2%;
-   text-align: center;
+  margin: 2%;
+  text-align: center;
 }
