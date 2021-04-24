@@ -11,7 +11,7 @@ body {
 /*Cabeçalho*/
 
 #cabecalho {
-    background-color: black;
+    background-color: #458202;
     width: 100%;
     position: fixed;
     top: 0;
@@ -22,6 +22,7 @@ body {
     text-align: center;
     font-size: 30px;
     margin: 30px;
+    text-transform: uppercase;
     /*Como colocar o texto no centro da div?*/
 }
 
@@ -44,13 +45,40 @@ body {
 }
 
 .listanav a {
+    color: #355125;
     text-decoration: none;
     text-transform: uppercase;
     font-weight: bolder;
 }
 
 .listanav a:hover {
-    color: aqua;
+    color: white;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+/*Principal*/
+
+#principal {
+    padding-top: 205px;
+    /*background-color: aqua;*/
+    width: 900px;
+    margin: auto;
+}
+
+/*Classe paragraph*/
+
+.paragraph {
+    line-height: 2em;
+}
+
+/*Artigo*/
+
+#artigo {
+    /*background-color: orchid;*/
+    display: inline-block;
+    width: 430px;
+    padding-right: 15px;
+    text-align: justify;
 }
 
 #minha_foto {
@@ -58,64 +86,63 @@ body {
     border-radius: 100%;
 }
 
+/*Lateral*/
 
-
-
-
-
-
-/*Conteúdo em parágrafos*/
-
-.conteudo {
-    grid-area: conteudo;
-    background-color: orchid;
+#lateral {
+    /*background-color: rgb(25, 0, 255);*/
+    display: inline-block;
+    width: 430px;
+    padding-left: 15px;
+    text-align: justify;
+    vertical-align: top;
+    padding-top: 59px;
 }
 
-.paragraph {
-    margin: 30px;
-    line-height: 2em;
+/*Seção lista*/
+
+.secao_listas {
+    background-color: #F6F4C5;
+    margin: 50px 0px;
+    padding: 100px 0px;
 }
 
-.lateral {
-    grid-area: lateral;
-    background-color: rgb(25, 0, 255);
+#listas {
+    /*background-color: violet;*/
+    width: 900px;
+    margin: auto;
 }
 
 /*Listas 1 e 2*/
 
 .lista1 {
-    grid-area: lista1;
-    background-color: rgb(251, 216, 152);
+    display: inline-block;
+    width: 430px;
+    padding-right: 15px;
+    /*background-color: rgb(251, 216, 152);*/
+    list-style-position: inside;
 }
 
 #licoes_aprendidas {
-    margin: 30px;
-    line-height: 2em;
-    text-align: center;
-}
-
-#licoes_a_aprender {
-    margin: 30px;
-    line-height: 2em;
     text-align: center;
 }
 
 .lista2 {
-    grid-area: lista2;
-    background-color: rgb(152, 239, 251);
+    /*background-color: rgb(152, 239, 251);*/
+    display: inline-block;
+    width: 430px;
+    padding-left: 15px;
+    list-style-position: inside;
+}
+
+#licoes_a_aprender {
+    text-align: center;
 }
 
 /*Vídeo*/
 
 .video {
-    grid-area: video;
-    background-color: rgb(255, 8, 0);
-    padding: 30px 2px;
+    /*background-color: rgb(255, 8, 0);*/
     text-align: center;
-}
-
-.tituloN4 {
-    font-style: italic;
 }
 
 .videoMargin {
@@ -123,8 +150,14 @@ body {
     margin-bottom: 5px;
 }
 
+.tituloN4 {
+    font-style: italic;
+}
+
 #rodape {
+    margin-top: 50px;
+    color: white;
     grid-area: rodape;
-    background-color: rgb(94, 11, 80);
+    background-color: #4F7836;
     text-align: center;
 }
