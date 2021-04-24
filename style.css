@@ -1,16 +1,20 @@
 #fundo {
     background-color: rgb(253, 251, 251);
+    font-family: Times New Roman, serif;
+    font-size: medium;
+    color:	#2F4F4F;
+    line-height: 23px;   
 }
 
 #cabecalho {
     position: fixed;
     top: 0;
     width: 940px;
-    background-color: rgb(60,179,113);
+    background-color:#2F4F4F;
     color:white;
     border-top: 1px solid rgb(220, 220, 220);
     border-bottom: 1px solid rgb(220, 220, 220);
-    padding-top: 5px;
+    padding-top: 1px;
     z-index: 3;
 }
 
