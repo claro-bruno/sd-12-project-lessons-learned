@@ -1,29 +1,182 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,200;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
 
-#body {
+body {
     background-color: rgb(253, 251, 251);
+    /*margin: 0px;*/
+    /*padding: 0px;*/
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+    color:rgb(58,195,144);
+    
 }
 
 #cabecalho {
-    top: 0;
-    height: 60px;
-    width: 1340px;
-    background-color: rgb(58, 195, 144);
-    margin-bottom: 20px;
-    /*position: fixed;*/
+    top: 0px;
+    margin-bottom: 10px;
+    width: 100%;
+    height: 50px;
 }
 
-#titulo {
+#cabecalho #caixa-do-titulo {
+    width: 100%;
+    height: 25px;
+    box-sizing: border-box;
+    display: table;
+}
+
+#cabecalho #caixa-do-titulo h1 {
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 40px;
+    font-size: 26px;
     text-align: center;
-    padding: 15px;
+    display: table-cell;
+    vertical-align: middle;
+    font-weight: bold;
+    color: rgb(58,195,144);
 }
 
-#principal {
-    display: flex;
+#conteudo-perfil {
+    background-color: rgb(58,195,144);
+    max-width: 70%;
+    margin: 0;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 10px;
 }
 
-#minha_foto {
+/*#conteudo:after {
+    display: block;
+    clear: both;
+}*/
+
+#conteudo-perfil #caixa-da-imagem {
+    width: 200px;
+    flex: 0 0 200px;
+    float: left;
+}
+
+#conteudo-perfil #caixa-da-imagem  img {
+    max-width: 100%;
     border-radius: 50%;
+}
+
+#conteudo-perfil #caixa-da-imagem p {
+    position: relative;
+    bottom: 10px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(68,73,85);
+}
+
+#conteudo-perfil #caixa-do-texto {
+    padding-right: 10px;
+}
+
+#conteudo-perfil #caixa-do-texto p{
+    position: relative;
+    left: 15px;
+    text-align: justify;
+    font-size: 20px;
+    font-weight: bold;
+    color:#ffffff;
+    
+}
+
+#conteudo-aprendido {
+    max-width: 70%;
+    box-sizing: border-box;
+    border-radius: 10px;
+    background-color: rgb(58,195,144);
+}
+
+#conteudo-aprendido p {
+    text-align:center;
+    font-size: 19px;
+    font-weight: bold;
+    color:rgb(68,73,85);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#conteudo-aprendido #conteudo-esquerda {
+    max-width: 50%;
+    border-radius: 20px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: rgb(58,195,144);
+    float: left;
+}
+
+#conteudo-aprendido #conteudo-esquerda p {
+    text-align:center;
+    font-size: 18px;
+    font-weight: bold;
+    color:#057ceb;
+}
+
+#conteudo-aprendido #conteudo-esquerda #licoes_aprendidas li {
+    text-align:left;
+    font-size: 16px;
+    margin-right: 20px;
+    font-weight: bold;
+    color:#057ceb;
+}
+
+#conteudo-aprendido #conteudo-direita p {
+    text-align:center;
+    font-size: 18px;
+    font-weight: bold;
+    color:#b33333;
+}
+
+#conteudo-aprendido #conteudo-direita {
+    max-width: 50%;
+    border-radius: 20px;
+    border-style: dashed;
+    border-width: 5px;
+    border-color: rgb(58,195,144);
+    float: right;
+}
+
+#conteudo-aprendido #conteudo-direita #licoes_a_aprender li {
+    text-align:left;
+    font-size: 16px;
+    margin-right: 20px;
+    font-weight: bold;
+    color:#b33333;
+}
+
+#rodape {
+    bottom: 0px;
+    width: 100%;
+    height: 40px;
+    margin-top: 325px;
+    box-sizing: border-box;
+}
+
+#rodape h5 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 16px;
+    text-align: center;
+    font-weight: bold;
+    color: rgb(58,195,144);
+    position: relative;
+    top: 10px;
+}
+
+#rodape  a {
+    float: right;
+}
+
+#rodape  #github {
+    position: relative;
+    bottom: 42px;
+    left: -965px;
+}
+
+#rodape  #linkedin {
+    position: relative;
+    bottom: 43px;
+    right: 300px;
 }
