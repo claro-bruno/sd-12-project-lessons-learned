@@ -60,7 +60,7 @@ body {
     border-radius: 50%;
 }
 
-#conteudo-perfil #caixa-da-imagem p {
+#conteudo-perfil #caixa-da-imagem h3 {
     position: relative;
     bottom: 10px;
     text-align: center;
@@ -79,8 +79,49 @@ body {
     text-align: justify;
     font-size: 20px;
     font-weight: bold;
+    color:#ffffff;   
+}
+
+#barra-lateral {
+    width: 28%;
+    height: 650px;
+    position: relative;
+    bottom: 300px;
+    /*margin-left: 950px;*/
+    border-radius: 10px;
+    background-color: #057ceb;
+    float: right;
+}
+
+#barra-lateral h4 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 24px;
+    text-align: right;
+    font-weight: bold;
     color:#ffffff;
-    
+    margin: 50px 10px;
+    margin-right: 60px;
+    font-style: oblique;
+}
+
+#barra-lateral #item il {
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+    text-align: left;
+    font-weight: bold;
+    color:#ffffff;
+    position: relative;
+    right: 10px;
+}
+
+#barra-lateral #item #subitem il {
+    font-family: 'Nunito', sans-serif;
+    font-size: 15px;
+    text-align: left;
+    font-weight: bold;
+    color:#ffffff;
+    position: relative;
+    right: 20px;
 }
 
 #conteudo-aprendido {
@@ -90,8 +131,8 @@ body {
     background-color: rgb(58,195,144);
 }
 
-#conteudo-aprendido p {
-    text-align:center;
+#conteudo-aprendido h2 {
+    text-align:left;
     font-size: 19px;
     font-weight: bold;
     color:rgb(68,73,85);
@@ -163,6 +204,7 @@ body {
     color: rgb(58,195,144);
     position: relative;
     top: 10px;
+    left: 195px;
 }
 
 #rodape  a {
@@ -172,11 +214,11 @@ body {
 #rodape  #github {
     position: relative;
     bottom: 42px;
-    left: -965px;
+    left: 50px;
 }
 
 #rodape  #linkedin {
     position: relative;
     bottom: 43px;
-    right: 300px;
+    right: 550px;
 }
