@@ -81,7 +81,7 @@ h2 {
     color: rgb(92, 79, 161);
     font-size: 30px;
 }
-#habilidades{
+.conteudos{
     display: inline-block;
     margin-top: 50px;
     margin-left: 170px;
@@ -213,4 +213,18 @@ h3 {
     font-size: 20px;
     margin-left: 120px;
     padding-bottom: 20px;
+}
+.skills_aprendidas {
+    text-align: center;
+}
+.skills_aprendidas li{
+    display: inline-block;
+    font-size: 25px;
+    /* font-weight: bold; */
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 15px;
+    padding: 5px;
+    /* background-color: rgb(92, 79, 161);
+    color: rgb(253, 251, 251); */
 }
