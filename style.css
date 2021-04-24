@@ -1,6 +1,7 @@
 body{
     background-color: rgb(253, 251, 251);
     margin-left: 0;
+    margin-bottom: 0;
 }
 
 #cabecalho {
@@ -88,7 +89,6 @@ h2 {
 
 .inutilidades {
     margin-top: 0;
-    background-color: aquamarine;
     width: cover;
     height: 500px;
 }
@@ -118,6 +118,9 @@ img {
 }
 
 footer {
+    color: #999;
     height: 40px;
     background-color: #525252;
+    text-align: center;
+    padding-top: 20px;
 }
