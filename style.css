@@ -11,7 +11,7 @@ body {
   position: fixed;
   width: 100%;
   text-align: center;
-  background-color: #ADE4AD;
+  background-color: #Ade4ad;
 }
 
 #cabecalho h1 {
@@ -24,7 +24,7 @@ body {
   flex-direction: column;
   align-items: center;
   margin-top: 120px;
-  margin-bottom: 8px;;
+  margin-bottom: 8px;
 }
 
 .image-container img {
@@ -34,13 +34,13 @@ body {
 }
 
 .image-container h2 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: Montserrat, sans-serif;
 }
 
 .content {
   display: flex;
   justify-content: center;
-  background-color: #ADE4AD;
+  background-color: #Ade4ad;
   padding: 24px;
 }
 
@@ -51,14 +51,15 @@ body {
 
 .lado-esquerdo {
   padding: 12px 24px 12px 32px;
-  background-color: #fff;
-  box-shadow: 5px 5px 5px #5C5A91;
+  background-color: white;
+  box-shadow: 5px 5px 5px #5c5a91;
   border-radius: 8px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: Montserrat, sans-serif;
 }
 
 .lado-esquerdo h3 {
-  color: #5C5A91;
+  color: #5c5a91;
+  text-align: left;
 }
 
 .list-container {
@@ -67,8 +68,8 @@ body {
   padding: 8px;
 }
 
-.list-container h4 {
-  color: #5C5A91;
+.list-container h3 {
+  color: #5c5a91;
   font-size: 16px;
 }
 
@@ -95,7 +96,7 @@ body {
 }
 
 .tabela h3 {
-  color: #5C5A91;
+  color: #5c5a91;
 }
 
 .lado-direito {
@@ -106,7 +107,7 @@ body {
   align-items: center;
   margin-top: 16px;
   margin-left: 32px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: Montserrat, sans-serif;
 }
 
 .aprendizado {
@@ -120,8 +121,8 @@ body {
   width: 300px;
   font-size: 16px;
   float: right;
-  color: #6A9ACB;
-  font-weight: bold;
+  color: #6a9aCb;
+  font-weight: 700;
   margin: 16px 0 2px 16px;
   text-align: center;
 }
@@ -136,7 +137,7 @@ body {
 
 .link a {
   color: #59c5a8;
-  font-weight: bold;
+  font-weight: 500;
 }
 
 #rodape {
