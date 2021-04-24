@@ -87,6 +87,10 @@ h1, #titulo {
     margin-left: 65%;
 }
 
+#juliane_nome a {
+    color:#bc6c25
+}
+
 #juliane_nome a:visited {
     color:#606c38
 }
@@ -96,11 +100,29 @@ h1, #titulo {
 }
 
 #juliane_nome a {
-    color:#bc6c25
+    text-decoration: dotted;
 }
 
-#juliane_nome a {
-    text-decoration: dotted;
+#anchor_aprendidas {
+   font-size: 18px;
+    margin: auto;
+   width: 500px;
+   border-radius: 5%;
+   line-height: 30px;
+   position: absolute;
+   padding: 10%;
+   float: left;
+}
+
+#anchor_aprender {
+    font-size: 18px;
+    margin: auto;
+    width: 500px;
+    border-radius: 5%;
+    line-height: 30px;
+    position: relative;
+    float: right;
+    padding:10%;
 }
 
 #licoes_aprendidas {
@@ -113,11 +135,6 @@ h1, #titulo {
 }
 
 
-#aprendidas {
-
-
-}
-
 #licoes_a_aprender {
     background-color: #dfe6ca;
     background-color: #dfe6ca; 
@@ -126,6 +143,17 @@ h1, #titulo {
     width: 500px;
     border-radius: 5%;
     line-height: 30px;
+}
+#esquerdo {
+    display: inline-block;
+    float: left;
+    text-align: left;
+}
+
+#direito {
+    display: inline-block;
+    float: right;
+   
 }
 
 #rodape {
