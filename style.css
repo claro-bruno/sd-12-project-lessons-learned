@@ -7,6 +7,11 @@ body {
    font-size: 18px;
   
 }
+
+a{
+   text-decoration: none;
+}
+
 header {
    background-color: rgba(96, 153, 58, 0.836);
    top: 0%;
@@ -53,6 +58,12 @@ ol {
    float: left;
    display: inline;
 }
-ul {
-   text-decoration: none;
+
+nav {
+   text-align: center;
+   margin-bottom: 2%;
+}
+
+#icons-socialmidia {
+   text-align: center;
 }
