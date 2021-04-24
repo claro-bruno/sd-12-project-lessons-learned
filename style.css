@@ -4,11 +4,22 @@ body {
     background-color: rgb(253, 251, 251);
     text-align: center;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-left: 0%;
 }
+
  header {
      top: 0;
      position: fixed;
-     background-color: aqua;
+     background-color: rgba(5, 161, 57, 0.658);
      width: 100%;
+     margin: 0%;
  }
- 
+
+ #minha_foto {
+    border-radius: 50%;
+ }
+
+ section {
+    background-color: rgba(96, 153, 58, 0.836);
+    padding: 4%;
+ }
