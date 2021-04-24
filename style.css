@@ -8,13 +8,16 @@
 
 #cabecalho {
     position: fixed;
+    display: inline-block; 
     top: 0;
     width: 940px;
     background-color:#2F4F4F;
     color:white;
+    padding-top: 1px;
+    padding-bottom: 1px;
     border-top: 1px solid rgb(220, 220, 220);
     border-bottom: 1px solid rgb(220, 220, 220);
-    padding-top: 1px;
+    line-height: 50px; 
     z-index: 3;
 }
 
