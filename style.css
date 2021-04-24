@@ -39,36 +39,36 @@ a {
     font-size: 30px;
 }
 
-.articletext {
-    color:rgb(20, 66, 44);
-    font-size: 20px;
-    justify-content: center;
-    display: block;
-    padding: 15px;
-}
+
 
 .lado-direito {
-  position: relative;
-  top: 50px;
-  left: 100px;
-  float: right;
   font-size: 25px;
+  padding: 30px 70px 90px 70px;
+  margin: auto;
   
-  padding-bottom: 50px;
-  
-  padding: 50px;
-  
-  display: block;
-   
-}
+  }
 
+  .lado-esquerdo {
+    padding: 30px 70px 90px 70px;
+    margin: auto;
+    font-size: 25px; 
+    width: 80%;
+          }
+
+    .conteiner-text {
+        width: 30%;
+        display:inline-block;
+        vertical-align: top;
+        text-align: :center;
+        margin: 10px;
+    }
 
 .botaoside {
-    width: 15%; 
-    height: 100%; 
+    width: 50px; 
+    height: 50%; 
     float: right; 
     padding: 50px;
-    
+   
 }  
 .sizefooter {
     font-size: 20px;
