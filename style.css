@@ -59,10 +59,6 @@ li {
     padding-bottom: 10px;
 }
 
-hr {
-    margin: 0;
-}
-
 h2 {
     margin-top: 0;
     text-align: center;
@@ -75,6 +71,7 @@ h2 {
     padding: 80px 70px 100px;
     width: 760px;
     display: inline-block;
+    margin-bottom: 0;
 }
 
 .aprendizado{
@@ -86,9 +83,41 @@ h2 {
     display: inline-block;
     font-size: 20px;
     width: 400px;
+    margin-bottom: 0;
 }
 
 .inutilidades {
+    margin-top: 0;
+    background-color: aquamarine;
     width: cover;
-    height: 400px;
+    height: 500px;
+}
+
+.info-inuteis {
+    margin-top: 0;
+    font-size: 30px;
+    text-align: right;
+    margin-right: 500px;
+    padding-top: 100px;
+}
+
+table{
+    float: right;
+    font-size: 20px;
+    margin-right: 200px; 
+    border-collapse: separate;
+    border-spacing: 20px 15px;
+}
+
+img {
+    float: left;
+    border-radius: 25px;
+    border: #0fa36b 5px solid;
+    margin-top: 100px;
+    margin-left: 90px;
+}
+
+footer {
+    height: 40px;
+    background-color: #525252;
 }
