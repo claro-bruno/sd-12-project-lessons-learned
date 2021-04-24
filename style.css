@@ -60,7 +60,7 @@ ol {
 }
 
 ul {
-  margin-top: 7%;
+  margin-top: 8%;
 }
 
 nav {
@@ -74,9 +74,15 @@ nav {
 }
 
 #Review {
-  margin: 2%;
+  border-top: 1%;
   text-align: center;
+  background-color: rgba(35, 87, 1, 0.877);
 }
 footer{
-   text-align: center;
+  background-color: rgba(35, 87, 1, 0.877);
+  text-align: center;
+  color: aliceblue;
+}
+#ac{
+   color: aliceblue;
 }
