@@ -42,20 +42,18 @@ ul {
 
 #minha_foto{
     border-radius: 50%;
-    float: right;
-    margin-right: 20px;
-    margin-top: 150px;
+    float: left;
 }
 
 .liçoes {
     display: inline-block;
     margin-top: 100px;
-    margin-left:150px;
+    margin-left:210px;
     font-size: 20px;
 }
 
 .title-liçoes{
-    text-align: center;
+  margin-left: 80px;
 }
 
 li {
