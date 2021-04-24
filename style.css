@@ -155,16 +155,19 @@ h1, #titulo {
     padding: 10%;
     width: 400px;
     text-align: left;
+    display: inline-block;
 }
 
 .lado-direito {
     z-index: 4;
-    position: relative;
+    position: absolute;
+    top: 1370px;
     display: inline-block;
     float: right;
-    padding: 10%;
+    padding: 10% 60%;
     width: 400px;
     text-align: right;
+    display: inline-block;
 }
 
 #rodape {
