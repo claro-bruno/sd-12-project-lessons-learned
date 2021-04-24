@@ -16,7 +16,7 @@ body {
 
 #cabecalho h1 {
   color: black;
-  font-family: Franklin Gothic Medium, Arial Narrow, Arial, sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .image-container {
@@ -34,7 +34,7 @@ body {
 }
 
 .image-container h2 {
-  font-family: Franklin Gothic Medium, Arial Narrow, Arial, sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .content {
@@ -50,10 +50,11 @@ body {
 }
 
 .lado-esquerdo {
-  padding: 8px;
+  padding: 12px 24px 12px 32px;
   background-color: #fff;
   box-shadow: 5px 5px 5px #5C5A91;
   border-radius: 8px;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .lado-esquerdo h3 {
@@ -62,12 +63,13 @@ body {
 
 .list-container {
   display: flex;
-  width: 400px;
+  width: 450px;
   padding: 8px;
 }
 
 .list-container h4 {
   color: #5C5A91;
+  font-size: 16px;
 }
 
 #licoes_aprendidas {
@@ -92,31 +94,36 @@ body {
   text-align: center;
 }
 
+.tabela h3 {
+  color: #5C5A91;
+}
+
 .lado-direito {
   display: flex;
+  flex-direction: column;
   padding: 8px;
   line-height: 18px;
   align-items: center;
   margin-top: 16px;
-  margin-left: 16px;
+  margin-left: 32px;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .aprendizado {
   width: 500px;
   text-align: justify;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 18px;
 }
 
 .aprendizado_aside {
   width: 300px;
-  font-size: 18px;
+  font-size: 16px;
   float: right;
   color: #6A9ACB;
   font-weight: bold;
-  margin: 0 0 2px 16px;
+  margin: 16px 0 2px 16px;
   text-align: center;
-  border-left: 1px solid #6A9ACB;
 }
 
 .link {
