@@ -58,7 +58,7 @@ h1, #titulo {
 }
 
 #licoes_aprendidas {
-   
+   display: inline-block;
 }
 
 #licoes_a_aprender {
