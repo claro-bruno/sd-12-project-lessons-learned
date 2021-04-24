@@ -1,75 +1,74 @@
 body {
-    background-color: rgb(253, 251, 251);
-    margin: 0%;
+  background-color: rgb(253, 251, 251);
+  margin: 0%;
 }
 
 #cabecalho {
-    top: 0%;
-    position: fixed;
-    background-color: rgb(47, 193, 140);
-    width: 100%;
+  top: 0%;
+  position: fixed;
+  background-color: rgb(47, 193, 140);
+  width: 100%;
 }
 
 #titulo {
-    text-align: center;
-    font-family: Raleway, sans-serif;
-    color: white;
-    font-size: 20px;
-    letter-spacing: 10px;
+  text-align: center;
+  font-family: Raleway, sans-serif;
+  color: white;
+  font-size: 20px;
+  letter-spacing: 10px;
 }
 
 #lucas {
-    color: rgb(16, 117, 80);
+  color: rgb(16, 117, 80);
 }
 
 .minhafoto {
-    width: 300px;
-    border-radius: 25%;
-    float: left;
-    margin-left: 200px;
-    border: solid rgb(47, 193, 140);
+  width: 300px;
+  border-radius: 25%;
+  float: left;
+  margin-left: 200px;
+  border: solid rgb(47, 193, 140);
 }
 
 .header {
-    margin-top: 100px;
-    height: 700px;
+  margin-top: 100px;
+  height: 700px;
 }
 
 
-.article{
-    margin-top: 10px;
-    border-radius:2%;
-    margin: auto;
-    margin-bottom: 10px;
-    background-color: rgb(47, 193, 140);
-    padding: 15px;
-    max-width: 30%;
-    color: white;
-    font-family: Raleway, sans-serif;
-    float: right;
-    margin-right: 200px;
+.article {
+  margin-top: 10px;
+  border-radius: 2%;
+  margin-bottom: 10px;
+  background-color: rgb(47, 193, 140);
+  padding: 15px;
+  max-width: 30%;
+  color: white;
+  font-family: Raleway, sans-serif;
+  float: right;
+  margin-right: 200px;
 }
 
 .aside {
-    margin-top: 10px;
-    background-color: rgb(47, 193, 140);
-    max-width: 30%;
-    border-radius: 2%;
-    padding: 15px;
-    color: white;
-    font-family: Raleway, sans-serif;
-    float: right;
-    clear: right;
-    margin-right: 200px;
+  margin-top: 10px;
+  background-color: rgb(47, 193, 140);
+  max-width: 30%;
+  border-radius: 2%;
+  padding: 15px;
+  color: white;
+  font-family: Raleway, sans-serif;
+  float: right;
+  clear: right;
+  margin-right: 200px;
 }
 
 .listas {
-    clear: both;
-    margin: 100px 50px;
+  clear: both;
+  margin: 100px 50px;
 }
 
 .tabela {
-    border: rgb(16, 117, 80) solid thin;
-    text-align: center;
-    margin: auto;
+  border: rgb(16, 117, 80) solid thin;
+  text-align: center;
+  margin: auto;
 }
