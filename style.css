@@ -12,7 +12,7 @@ font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 #cabecalho {
     position: fixed;
     top: 0;
-    background-color: #faedcd;
+    background-color: #f7f0de;
     left: 0;
     right: 0;
     height:120px;
@@ -28,14 +28,13 @@ font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     margin-bottom: 10px;
     text-align: center;
     color: #283618;
-    z-index: 2;
 }
 
 #nav ul {
     position: fixed;
     margin: 0;
     margin-bottom: 10px;
-    z-index: 2;
+
 }
 
 .listamenu {
@@ -105,13 +104,14 @@ h1, #titulo {
 
 #anchor_aprendidas {
    font-size: 18px;
-    margin: auto;
+   margin: auto;
    width: 500px;
    border-radius: 5%;
    line-height: 30px;
    position: absolute;
    padding: 10%;
    float: left;
+   z-index: 0;
 }
 
 #anchor_aprender {
@@ -123,6 +123,7 @@ h1, #titulo {
     position: relative;
     float: right;
     padding:10%;
+    z-index: 1;
 }
 
 #licoes_aprendidas {
@@ -144,16 +145,25 @@ h1, #titulo {
     border-radius: 5%;
     line-height: 30px;
 }
-#esquerdo {
+.esquerdo {
+    z-index: 3;
+    position: absolute;
+    top: 1500px;
     display: inline-block;
     float: left;
+    padding: 10%;
+    width: 500px;
     text-align: left;
 }
 
-#direito {
+.direito {
+    z-index: 4;
+    position: relative;
     display: inline-block;
     float: right;
-   
+    padding: 10%;
+    width: 500px;
+    text-align: right;
 }
 
 #rodape {
