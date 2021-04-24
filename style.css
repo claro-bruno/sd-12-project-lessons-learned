@@ -1,14 +1,12 @@
-
 body {
    margin: 0%;
    padding-top: 10%;
    background-color: rgb(253, 251, 251);
-   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   font-family: Impact, Haettenschweiler, sans-serif;
    line-height: 1.5em;
    font-size: 18px;
 }
-
-header{
+header {
    background-color: rgba(96, 153, 58, 0.836);
    top: 0%;
    position: fixed;
@@ -18,18 +16,17 @@ header{
 }
 
 #minha_foto {
-    border-radius: 50%;
+   border-radius: 50%;
 }
 
 section {
-   background-color: rgba(96, 153, 58, 0.836);
    padding: 4%;
    text-align: center;
 }
 
 article {
    margin-right: 3%;
-   margin-left: 25%;
+   margin-left: 28%;
    float: left;
    width: 300px;
    text-align: justify;
@@ -43,7 +40,8 @@ aside {
 }
 
 #text-profile {
-   background-color: blue;
+   background-color: rgba(35, 87, 1, 0.877);
    width: 100%;
    display: inline-block;
+   color:cornsilk;
 }
