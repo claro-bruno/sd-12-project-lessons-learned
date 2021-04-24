@@ -1,11 +1,11 @@
 
 body {
-   margin-top: 15%;
+   margin: 0%;
+   padding-top: 10%;
    background-color: rgb(253, 251, 251);
-   text-align: center;
    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-   margin-left: 0%;
    line-height: 1.5em;
+   font-size: 18px;
 }
 
 header{
@@ -14,6 +14,7 @@ header{
    position: fixed;
    width: 100%;
    margin: 0%;
+   text-align: center;
 }
 
 #minha_foto {
@@ -21,6 +22,28 @@ header{
 }
 
 section {
-    background-color: rgba(96, 153, 58, 0.836);
-    padding: 4%;
+   background-color: rgba(96, 153, 58, 0.836);
+   padding: 4%;
+   text-align: center;
+}
+
+article {
+   margin-right: 3%;
+   margin-left: 25%;
+   float: left;
+   width: 300px;
+   text-align: justify;
+}
+
+aside {
+   margin-left:28%;
+   padding: 7%;
+   width: 500px;
+   text-align: justify;
+}
+
+#text-profile {
+   background-color: blue;
+   width: 100%;
+   display: inline-block;
 }
