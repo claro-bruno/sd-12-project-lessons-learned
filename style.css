@@ -35,6 +35,31 @@ body {
     color: rgb(58,195,144);
 }
 
+#cabecalho #navegacao {
+    width: 100%;
+    height: 25px;
+    box-sizing: border-box;
+    display: table;
+    border: #b33333;
+    border-width: thin;
+}
+
+#cabecalho #navegacao #botao-inicio{
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+    color:rgb(58,195,144);
+    position: relative;
+    left: 10px;
+}
+
+#cabecalho #navegacao #botao-fim{
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+    color:rgb(58,195,144);
+    position: relative;
+    left: 25px;
+}
+
 #conteudo-perfil {
     background-color: rgb(58,195,144);
     max-width: 70%;
