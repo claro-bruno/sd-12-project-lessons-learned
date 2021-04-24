@@ -25,7 +25,7 @@ nav {
   height: 30px;
 }
 
-#page {
+a {
   font-size: 20px; 
   color: #001233; 
   text-decoration: none;
@@ -95,45 +95,12 @@ h3 {
   margin-left: 70px;
 }
 
-#tabela {
-  display: inline-block;
-  background-color:#0466c8;
-  color: #ede7e3;
-  margin: 40px;  
-  margin-left: 70px;
+#link {
+  margin: 20px;
+  color: #0466c8;
 }
 
-#colorTabela {
-  background-color: #001845;
-}
-
-#linkdin {
-  margin-bottom: 30px;
-  margin-left: 50%;
-  display:inline-block ;
+#redes {
+  float: right;
   width: 100px;
-}
-
-#instagram {
-  width: 45px;;
-  display: inline-block;
-  margin-bottom: 35px;
-}
-
-#github {
-  width: 80px;
-  display: inline-block;
-  margin-bottom: 18px;
-  margin-left: 10px;
-}
-
-#rodape {
-  display: block;
-  background-color: #0466c8;
-  color: #ede7e3;
-  font-family: monospace;
-  font-size: 12px;
-  padding: 5px;
-  border-radius: 5px;
-  margin: 0;
 }
