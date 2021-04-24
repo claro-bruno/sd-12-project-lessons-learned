@@ -9,14 +9,7 @@ body {
     font-family: sans-serif;
 }
 
-/*Início da barra no topo*/
-
-#titulo {
-    color: white;
-    /*vertical-align: middle;*/
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
+/*Início da header*/
 
 #cabecalho {
     top: 0;
@@ -24,7 +17,13 @@ body {
     background-color: #458202;
     width: 100%;
     text-align: center;
-    
+}
+
+#titulo {
+    color: white;
+    /*vertical-align: middle;*/
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 #navegacao a {
@@ -41,52 +40,20 @@ body {
     font-weight: bolder;
 }
 
-/*Início do header*/
+/*Conteúdo*/
 
 #horizon {
-    background-color: wheat;
-    padding-top: 200px;
+    padding-top: 180px;
     width: 900px;
     margin: auto;
 }
 
-#minha_foto {
-    width: 240px;
-    border-radius: 30px;
-    margin-top: 50px;
+/*Início do conteúdo*/
+
+img {
+    width: 200px;
+    border-radius: 30%;
 }
 
-#artigo p {
-    text-align: justify;
-}
 
-#artigo {
-    width: 300px;
-    display: inline-block;
-    background-color: tomato;
-}
 
-#breve_artigo p {
-    text-align: justify;
-}
-
-#breve_artigo {
-    width: 230px;
-    background-color: teal;
-    display: inline-block;
-    position: relative;
-    left: 352px;
-    bottom: 130px;
-}
-
-#licoes_aprendidas {
-
-}
-
-#licoes_a_aprender {
-
-}
-
-#rodape {
-    background-color: aqua;
-}
