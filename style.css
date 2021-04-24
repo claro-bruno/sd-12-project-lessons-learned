@@ -10,13 +10,16 @@ body {
 #rodape {
   background-color: rgb(184, 236, 177);
   text-align: center;
-  padding: 22px 0 22px;
+  padding: 22px 0;
 }
 
 #cabecalho {
   position: fixed;
   top: 0;
   background-color: rgb(42, 168, 74);
+  margin: 0px;
+  width: 100%;
+  padding: 0;
 }
 
 #minha_foto {
@@ -33,12 +36,19 @@ body {
 }
 
 #titulo {
-  color: rgb(255, 255, 255);
+  color: white;
+  text-align: center;
+  margin: 0;
 }
 
 .p_article {
   font-size: 0.8em;
   line-height: 1em;
+  box-shadow: 0 1px 1px 0 rgb(0 0 0 / 14%), 0 2px 4px 1px rgb(0 0 0 / 30%);
+}
+
+aside p {
+  margin: 0;
 }
 
 .lado-direito {
