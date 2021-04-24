@@ -3,6 +3,7 @@ body {
   margin: 0;
   font-family: monospace;
   font-size: 12px;
+  font-style: normal;
 }
 
 #cabecalho {
@@ -14,6 +15,7 @@ body {
   width: 100%;
   padding-bottom: 18px;
   font-size: 12px;
+  font-style: italic;
 }
 
 #titulo {
@@ -29,10 +31,6 @@ body {
   display: block;
   margin-top: 80px;
   margin-left: 35px;
-}
-
-#licoes_aprendidas , #licoes_a_aprender , .lado-direito , .lado-esquerdo {
-  font-size: 12px;
 }
 
 h2 {
