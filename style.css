@@ -1,136 +1,135 @@
 * {
-    padding: 0;
-    margin: 0;
+padding: 0;
+margin: 0;
 }
 
 body {
-    font-family: sans-serif;
-    background-color: rgb(253, 251, 251);
+font-family: sans-serif;
+background-color: rgb(253, 251, 251);
 }
 
 #cabecalho {
-    background-color: rgb(69, 130, 2);
-    width: 100%;
-    position: fixed;
-    top: 0;
+background-color: rgb(69, 130, 2);
+width: 100%;
+position: fixed;
+top: 0;
 }
 
 #titulo {
-    color: white;
-    text-align: center;
-    font-size: 30px;
-    margin: 30px;
-    text-transform: uppercase;
+color: white;
+text-align: center;
+font-size: 30px;
+margin: 30px;
+text-transform: uppercase;
 }
 
 #navegacao {
-    width: 100%;
+width: 100%;
 }
 
 .listanav {
-    width: 900px;
-    margin: auto;
-    text-align: center;
+width: 900px;
+margin: auto;
+text-align: center;
 }
 
 .listanav li {
-    display: inline-block;
-    margin: 20px;
+display: inline-block;
+margin: 20px;
 }
 
 .listanav a {
-    color: rgb(41, 80, 0);
-    text-decoration: none;
-    text-transform: uppercase;
-    font-weight: bolder;
+color: rgb(41, 80, 0);
+text-decoration: none;
+text-transform: uppercase;
+font-weight: 900;
 }
 
 .listanav a:hover {
-    color: white;
-    transition-duration: 2ms;
+color: white;
 }
 
 #principal {
-    padding-top: 205px;
-    width: 900px;
-    margin: auto;
+padding-top: 205px;
+width: 900px;
+margin: auto;
 }
 
 .paragraph {
-    line-height: 2em;
+line-height: 2em;
 }
 
 #artigo {
-    display: inline-block;
-    width: 430px;
-    padding-right: 15px;
-    text-align: justify;
+display: inline-block;
+width: 430px;
+padding-right: 15px;
+text-align: justify;
 }
 
 #minha_foto {
-    width: 80px;
-    border-radius: 100%;
+width: 80px;
+border-radius: 100%;
 }
 
 #lateral {
-    display: inline-block;
-    width: 430px;
-    padding-left: 15px;
-    text-align: justify;
-    vertical-align: top;
-    padding-top: 59px;
+display: inline-block;
+width: 430px;
+padding-left: 15px;
+text-align: justify;
+vertical-align: top;
+padding-top: 59px;
 }
 
 .secao_listas {
-    background-color: rgb(203, 211, 148);
-    margin: 50px 0px;
-    padding: 100px 0px;
+background-color: rgb(203, 211, 148);
+margin: 50px;
+padding: 100px;
 }
 
 #listas {
-    width: 900px;
-    margin: auto;
+width: 900px;
+margin: auto;
 }
 
 .lista1 {
-    display: inline-block;
-    width: 430px;
-    padding-right: 15px;
-    list-style-position: inside;
+display: inline-block;
+width: 430px;
+padding-right: 15px;
+list-style-position: inside;
 }
 
 #licoes_aprendidas {
-    text-align: center;
+text-align: center;
 }
 
 .lista2 {
-    display: inline-block;
-    width: 430px;
-    padding-left: 15px;
-    list-style-position: inside;
+display: inline-block;
+width: 430px;
+padding-left: 15px;
+list-style-position: inside;
 }
 
 #licoes_a_aprender {
-    text-align: center;
+text-align: center;
 }
 
 .video {
-    text-align: center;
+text-align: center;
 }
 
 .videoMargin {
-    margin-top: 20px;
-    margin-bottom: 5px;
+margin-top: 20px;
+margin-bottom: 5px;
 }
 
 .tituloN4 {
-    font-style: italic;
+font-style: italic;
 }
 
 #rodape {
-    margin-top: 50px;
-    color: white;
-    grid-area: rodape;
-    background-color: rgb(69, 130, 2);
-    text-align: center;
+margin-top: 50px;
+color: white;
+grid-area: rodape;
+background-color: rgb(69, 130, 2);
+text-align: center;
 }
