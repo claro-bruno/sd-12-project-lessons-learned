@@ -29,116 +29,88 @@ a:hover {
 }
 
 #cabecalho {
-    font-family: 'Balsamiq Sans';
-    color: blueviolet;
+    z-index: 3;
     position: fixed;
+    left: 0;
     top: 0;
-    left:0;
+    font-family: 'Balsamiq Sans';
+    text-align: center;
+    color: blueviolet;
     background-color:  rgb(206, 206, 250);
-    z-index: 5;
     height: 90px;
     width: 100%;
     border: 2px solid rgb(0, 230, 161);
-    border-radius: 6px;
     padding-left: 20px;
-    padding-top: 3x;
+    padding-top: 3px;
     padding-bottom: 3px;
-    margin: 0;
 }
 
 #minha_foto {
-    position: relative;
-    top: -190px;
-    left: 0px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
     padding: 0;
     border-style: solid;
     border-color: rgb(0, 230, 161);
     border-width: 3px;
     border-radius: 10%;
-    margin: 5px;
     width: 220px;
 }
 
 .article, .lado-esquerdo {
-    position: relative;
-    top: 370px;
+    z-index: 2;
+    display: inline-block;
+    width: 65%;
     background-color: rgb(0, 230, 161);
-    width: 460px;
-    height: 280px;
-    overflow: auto;
     padding: 1px;
     border: solid rgb(0, 230, 161);
-    margin: 1px;
     border-radius: 6px;
 }
 
 .aside, .lado-direito {
-    position: relative;
-    top: -907px;
-    left: 480px;
-    z-index: 2;
-    width: 460px;
-    height: 280px;
-    overflow: auto;
+    z-index: 1;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 10px;
+    width: 30%;
     padding: 1px;
-    border: solid blueviolet;
-    margin: 1px;
+    border: solid rgb(206, 206, 250);
     border-radius: 6px;
 }
 
 #licoes_aprendidas {
-    position: relative;
-    top: 140px;
-    z-index: 4;
-    border: solid lavender;
+    border: solid rgb(0, 230, 161);
     border-width: 3px;
     border-radius: 6px;
-    padding: 25px;
-    margin: 5px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+
 }
 
 #licoes_a_aprender {
-    position:relative;
-    top: 160px;
-    z-index: 3;
-    border: solid lavender;
+    border: solid rgb(0, 230, 161);
     border-width: 3px;
     border-radius: 6px;
-    padding: 25px;
-    margin: 5px;
-}
-
-.links_estudos li {
-    list-style-type: none;
-    padding: 5px;
-    border: solid rgb(206, 206, 250);
-    margin: 1px;
-    border-radius: 6px;
+    padding-right: 10px;
+    padding-bottom: 10px;
 }
 
 
 .links_estudos {
-    position:absolute;
-    top: 100px;
-    left: 300px;
     font-size: 13px;
     text-align: left;
-    width: 150px;
-    background-color: rgb(206, 206, 250);
-    padding: 10px;
+    border-radius: 6px;
     border: solid rgb(0, 230, 161);
     border-width: 3px;
-    border-radius: 6px;
+    padding-bottom: 10px;
 }
 
 table {
-    position: relative;
-    top: -100px;
-    left: 10px;
+    padding-bottom: 10px;
     line-height: 30px;
     padding: 3px;
     border: 1px solid black;
-}
-
-#rodape {
+    border-radius: 6px;
 }
