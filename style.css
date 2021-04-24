@@ -50,15 +50,15 @@
 
 #rodape {
     position: absolute;
-    top: 700px;
+    top: 1070px;
     left: 20px;
     background-color: rgb(253, 251, 251);
 }
 
 #link_externo {
     position: absolute;
-    top: 700px;
-    left: 20px;
+    top: 900px;
+    left: 420px;
     background-color: rgb(253, 251, 251);
 }
 
