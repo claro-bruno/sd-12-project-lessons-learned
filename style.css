@@ -59,16 +59,21 @@ li {
     padding-bottom: 10px;
 }
 
+hr {
+    margin: 0;
+}
+
 h2 {
+    margin: 0;
     text-align: center;
     padding: 30px 15px;
 }
 
 article{
+    margin-top: 0;
     background-color: aquamarine;
-    padding-top: 100px;
     padding-left: 70px;
-    width: 1000px;
+    width: 800px;
 }
 
 .aprendizado{
