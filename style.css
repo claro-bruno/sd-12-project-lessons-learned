@@ -9,9 +9,9 @@ header {
   top: 0;
   background-color: rgb(235, 200, 84);
   font-size: 20px;
-  text-align: left;
-  /* margin-right: 10px;
-  margin-left: 10px; */
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  /* margin-right: 10px;*/
+  /*margin-left: 10px; */
   /* height: 95px; */
   width: 100%;
   text-align: center;
@@ -30,10 +30,10 @@ main {
   height: 40%;
   display: block;
   margin-left: auto; 
-  margin-right: auto
+  margin-right: auto;
 }
 #rodape {
-  background-color: aqua;
+  background-color: rgb(9, 141, 158);
   bottom: 0;
   left: 0;
   width: 100%;
