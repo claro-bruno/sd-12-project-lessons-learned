@@ -76,10 +76,10 @@ body {
 }
 
 .footer a:hover {    
-    color: rgb(255, 126, 126);    
+    color: rgb(255, 136, 136);    
 }
 
-.lado-esquerdo {
+.article {
     margin-bottom: 80px;
     margin-top: 80px; 
     max-width: 300px;    
@@ -87,7 +87,7 @@ body {
     display: inline-block;
 }
 
-.lado-direito {    
+.aside {    
     max-width: 800px;            
     display: inline-block;
     margin-top: 150px;
