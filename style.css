@@ -1,59 +1,138 @@
 * {
-    margin: 0 /*auto*/;
-    /*padding: 0;*/
-    /*box-sizing: border-box;*/
+    padding: 0;
+    margin: 0;
 }
 
 body {
-    background-color: rgb(253, 251, 251);
     font-family: sans-serif;
+    background-color: rgb(253, 251, 251);
 }
 
-/*Início da header*/
+main {
+    display: grid;
+    grid-template-rows: ;
+    grid-template-areas: "cabecalho cabecalho cabecalho" "navegacao navegacao navegacao" "conteudo conteudo lateral" "lista1 lista2 video" "rodape rodape rodape";
+}
+
+/*Navegação*/
+
+.navegacao {
+    grid-area: navegacao;
+    background-color: white;
+    width: 100%;
+    /*border-bottom: 10px solid rgb(94, 11, 80);*/
+    box-shadow: 0 0 0 2px;
+    padding-top: 175px;
+}
+
+.listanav {
+    width: 900px;
+    margin: auto;
+    text-align: center;
+}
+
+.listanav li {
+    display: inline-block;
+    margin: 20px;
+    /*Usei margin para deixar o menu no centro da div, mas está correto?*/
+}
+
+.listanav a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+.listanav a:hover {
+    background-color: aquamarine;
+}
+
+/*Cabeçalho*/
 
 #cabecalho {
-    top: 0;
-    position: fixed;
-    background-color: #458202;
+    grid-area: cabecalho;
+    background-color: black;
+    background-size: cover;
     width: 100%;
-    text-align: center;
+    position: fixed;
+    top: 0;
+}
+
+#minha_foto {
+    width: 80px;
+    border-radius: 100%;
 }
 
 #titulo {
     color: white;
-    /*vertical-align: middle;*/
+    font-size: 30px;
+    text-align: center;
+    font-size: 50px;
+    margin: 30px;
+    /*Como colocar o texto no centro da div?*/
+}
+
+/*Conteúdo em parágrafos*/
+
+.conteudo {
+    grid-area: conteudo;
+    background-color: orchid;
+}
+
+.paragraph {
+    margin: 30px;
+    line-height: 2em;
+}
+
+.lateral {
+    grid-area: lateral;
+    background-color: rgb(25, 0, 255);
+}
+
+/*Listas 1 e 2*/
+
+.lista1 {
+    grid-area: lista1;
+    background-color: rgb(251, 216, 152);
+}
+
+#licoes_aprendidas {
+    margin: 30px;
+    line-height: 2em;
+    text-align: center;
+}
+
+#licoes_a_aprender {
+    margin: 30px;
+    line-height: 2em;
+    text-align: center;
+}
+
+.lista2 {
+    grid-area: lista2;
+    background-color: rgb(152, 239, 251);
+}
+
+/*Vídeo*/
+
+.video {
+    grid-area: video;
+    background-color: rgb(255, 8, 0);
+    padding: 30px 2px;
+    text-align: center;
+}
+
+.tituloN4 {
+    font-style: italic;
+}
+
+.videoMargin {
     margin-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 5px;
 }
 
-#navegacao a {
-    color: white;
-    text-decoration: none;
-    display: inline-block;
-    /*margin-bottom: 10px;*/
-    margin: 20px;
-    font-weight: bolder;
+#rodape {
+    grid-area: rodape;
+    background-color: rgb(94, 11, 80);
+    text-align: center;
 }
-
-#navegacao a:hover {
-    color: rgb(16, 83, 13);
-    font-weight: bolder;
-}
-
-/*Conteúdo*/
-
-#horizon {
-    padding-top: 180px;
-    width: 900px;
-    margin: auto;
-}
-
-/*Início do conteúdo*/
-
-img {
-    width: 200px;
-    border-radius: 30%;
-}
-
-
-
