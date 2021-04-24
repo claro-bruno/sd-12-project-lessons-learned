@@ -28,6 +28,36 @@ main {
   text-align: center;
 }
 
+footer {
+  background-color: rgb(35, 89, 69);
+  width: 100%;
+  text-align: center;
+}
+
+footer nav {
+  height: 100%;
+}
+footer svg {
+  width: 20px;
+  fill: white;
+  margin: 20px 15px 15px;
+}
+ 
+footer svg:hover {
+  fill: black;
+}
+
+footer a {
+  text-decoration: none;
+}
+
+footer p {
+  color: white;
+  margin: 0;
+  font-size: 0.8rem;
+  padding-bottom: 15px;
+}
+
 #minha_foto {
   border-radius: 50%;
   border: 3px solid rgb(35, 89, 69);
@@ -58,11 +88,11 @@ main {
   font-size: 1.2rem;
 }
 
-#lists .lado-esquerdo, .lado-direito {
+#lists .lado-esquerdo , .lado-direito {
   text-align: justify;
   display: inline-block;
   background-color: rgb(253, 251, 251);
-  margin: 50px 50px;
+  margin: 50px;
   padding: 15px;
   border-radius: 10px;
   box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.253);
@@ -100,34 +130,4 @@ main {
   width: 45%;
   vertical-align: middle;
   padding: 10px;
-}
-
-footer {
-  background-color: rgb(35, 89, 69);
-  width: 100%;
-  text-align: center;
-}
-
-footer nav {
-  height: 100%;
-}
-footer svg {
-  width: 20px;
-  fill: white;
-  margin: 20px 15px 15px 15px;
-}
- 
-footer svg:hover {
-  fill: black;
-}
-
-footer a {
-  text-decoration: none;
-}
-
-footer p {
-  color: white;
-  margin: 0;
-  font-size: 0.8rem;
-  padding-bottom: 15px;
 }
