@@ -32,13 +32,30 @@ main {
   border-radius: 50%;
   border: 3px solid #235945;
   width: 300px;
+  display: inline-block;
+  vertical-align: middle;
+  margin: 25px;
 }
 
-main a {
+#description {
+  width: 400px;
+  text-align: justify;
+  display: inline-block;
+  vertical-align: middle;
+  margin: 25px;
+}
+
+#description h2 {
+  font-size: 2rem;
+  font-weight: 800;
   color: white;
-  text-decoration: none;
   background-color: #235945;
-  padding: 10px 20px;
+  padding: 10px;
+}
+
+#description span {
+  font-weight: 800;
+  font-size: 1.2rem;
 }
 
 #lists .lado-esquerdo, .lado-direito {
