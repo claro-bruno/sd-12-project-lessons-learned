@@ -8,68 +8,83 @@
     <title>Document</title>
 </head>
 <body>
+
     <header id="cabecalho">
-        <h1 id="titulo">Meu aprendizado na Trybe!</h1>
+        <div class="container">
+                <h1 id="titulo">Meu aprendizado na Trybe!</h1>
+            
+            <nav class="navegacao">
+                <a href="https://www.linkedin.com/in/rafael-primon-349188101/" target="_blank" id="linkedin">Linkedin</a>
+                <a href="#licoes_aprendidas" id="Aprendizados">Aprendizados</a>
+                <a href="#Primeiro_Artigo" id="Artigos">Depoimentos</a>
+            </nav>
+        </div>
     </header>
-    <nav>
-        <a href="https://www.linkedin.com/in/rafael-primon-349188101/" target="_blank" id="linkedin">Linkedin</a>
-        <a href="#licoes_aprendidas" id="Aprendizados">Aprendizados</a>
-        <a href="#Primeiro_Artigo" id="Artigos">Depoimentos</a>
-    </nav>
-    <img id="minha_foto" src="rafael.jpeg" alt="Foto de Rafael Primon de bigode">
-        <h2><strong>Rafael Fernandes Primon</strong></h2>
-    <section>
-        <aside class="licoes_lado_A">
-            <h3>Lições aprendidas</h3>
-                <ol id="licoes_aprendidas">
-                    <li>Unix</li>
-                    <li>Git</li>
-                    <li>GitHub</li>
-                    <li>HTML</li>
-                    <li>HTML Semântico</li>
-                    <li>CSS</li>
-                    <li>Soft Skills</li>
-                    <li>Code Review</li>
-                    <li>Aprendizado Ativo</li>
-                    <li>Trabalho em equipe</li>
-                </ol>
-        </aside>
-    </section>
-    <section>
-        <aside class="licoes_lado_B">
-            <h3>Próximas lições</h3>
-                <ul id="licoes_a_aprender">
-                    <li>JavaScript</li>
-                    <li>DOM</li>
-                    <li>Forms</li>
-                    <li>CSS Responsivo</li>
-                    <li>ES6</li>
-                    <li>HOF</li>
-                    <li>Unit Tests</li>
-                    <li>React</li>
-                    <li>Node</li>
-                    <li>SQL</li>
-                </ul>
-        </aside>
-    </section>
-    <section>
-        <table id="tabela">
-            <article class="lado-direito">
-                <aside id="Primeiro_Artigo" >
-                    <h3>Como estou aprendendo na TRYBE</h3>
-                        <p>A Trybe proporciona um ambiente dinâmico e extremamente rico em conteúdo e experiencias interpessoais.</p>
-                        <p>Estamos aprendendo a redigir códigos e ouvir pessoas, de maneira que, ao mesmo tempo em que criamos (com 2 semanas de curso), páginas HTML estilizadas com CSS, de maneira autonoma, aprendemos a ouvir e nos preocupar com todos ao nosso redor, transformando o ambiente remoto em uma grande rede de colaboração.</p>
-                        <p>É assim que estou aprendendo na Trybe!</p>
-                </aside>
-            </article>
-            <section id="Segundo_Artigo"  class="lado-esquerdo">
-                <aside>
-                    <h3>O Grande Diferencial</h3>
-                        <p>Gostaria de destacar a supresa que tive no momento em que me peguei redigindo meu primeiro código HTML sozinho. Foi algo mágico e natural.</p>
-                </aside>
-            </section>
-        </table>
-    </section>  
+
+    <main>
+        <img id="minha_foto" src="rafael.jpeg" alt="Foto de Rafael Primon de bigode">
+            <h2><strong>Rafael Fernandes Primon</strong></h2>
+        <section>
+            <aside class="licoes_lado_A">
+                <h3>Lições aprendidas</h3>
+                    <ol id="licoes_aprendidas">
+                        <li>Unix</li>
+                        <li>Git</li>
+                        <li>GitHub</li>
+                        <li>HTML</li>
+                        <li>HTML Semântico</li>
+                        <li>CSS</li>
+                        <li>Soft Skills</li>
+                        <li>Code Review</li>
+                        <li>Aprendizado Ativo</li>
+                        <li>Trabalho em equipe</li>
+                    </ol>
+            </aside>
+        </section>
+        <section>
+            <aside class="licoes_lado_B">
+                <h3>Próximas lições</h3>
+                    <ul id="licoes_a_aprender">
+                        <li>JavaScript</li>
+                        <li>DOM</li>
+                        <li>Forms</li>
+                        <li>CSS Responsivo</li>
+                        <li>ES6</li>
+                        <li>HOF</li>
+                        <li>Unit Tests</li>
+                        <li>React</li>
+                        <li>Node</li>
+                        <li>SQL</li>
+                    </ul>
+            </aside>
+        </section>
+        <section>
+            <table id="tabela">
+                <tr>
+                    <td>
+                        <article class="lado-direito">
+                            <aside id="Primeiro_Artigo" >
+                                <h3>Como estou aprendendo na TRYBE</h3>
+                                    <p>A Trybe proporciona um ambiente dinâmico e extremamente rico em conteúdo e experiencias interpessoais.</p>
+                                    <p>Estamos aprendendo a redigir códigos de maneira autonoma.</p>
+                                    <p>É assim que estou aprendendo na Trybe!</p>
+                            </aside>
+                        </article>
+                        <section id="Segundo_Artigo"  class="lado-esquerdo">
+                            <aside>
+                                <h3>O Grande Diferencial</h3>
+                                    <p>A trybe é mágica.</p>
+                            </aside>
+                        </section>
+                    </td>
+            </table>
+        </section>
+        <footer id="rodape">
+        
+            <h4>Criado por Rafael Fernandes Primon, 2021. Todos os direitos reservados.</h4>
+        </footer>
+    </main>  
+    
 </body>
-<footer id="rodape">Criado por Rafael Fernandes Primon, 2021. Todos os direitos reservados.</footer>
+
 </html>

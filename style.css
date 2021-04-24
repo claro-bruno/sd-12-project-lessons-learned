@@ -2,38 +2,36 @@ body {
   background-color:rgb(253,251,251);
 }
 
-#cabecalho {
+#cabecalho .container{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
   background-color: lightseagreen;
   position: fixed;
   top: 0;
   width: 100%;
-  height: 200px;
+  height: 100px;
   border: 3px solid black;
 }
 
-#titulo {
-  text-align: center;
-}
-
-nav {
-  text-align: left;
-  position: absolute;
-  margin-top: 170px;
+.navegacao a {
+  text-decoration: none;
+  color: inherit;
   margin-left: 15px;
-  font-size: 20px;
-  font-weight: 1.2px bold;
+}
+.navegacao {
+  padding: 10px;
+  margin-bottom: 10px;
+  color: black;
+  text-decoration: none;
+  display:block;
+  border-bottom: 1px solid black;
 }
 
-#linkedin {
-  margin-right: 25px;
-}
-
-#Aprendizados {
-  margin-right: 25px;
-}
 
 #minha_foto {
-  margin-top: 210px;
+  margin-top: 110px;
+  border-radius: 30px;
 }
 
 .licoes_lado_A {
@@ -48,21 +46,21 @@ nav {
 .licoes_lado_B {
   width: 20%;
   padding-left: 15px;
-  margin-right: 750px;
+  margin-right: 55%;
   float: right;
   font-style: italic;
   background-color: lightgray;
 }
 
-#tabela, #Primeiro_Artigo #Segundo_Artigo {
+#tabela {
   border:2px solid black;
 }
 
 .lado-direito {
-  width: 45%;
+  width: 40%;
   margin-top: 15px;
-  padding-left: 15px;
-  margin-left: 2px;
+  padding-left: 5px;
+  margin-left: 5px;
   float: left;
   font-style: italic;
   background-color: lightgray;
@@ -71,10 +69,10 @@ nav {
 }
 
 .lado-esquerdo {
-  width: 45%;
+  width: 40%;
   margin-top: 15px;
   padding-left: 15px;
-  margin-right: 80px;
+  margin-right: 10%;
   padding-bottom: 100px;
   float: right;
   font-style: italic;
@@ -90,6 +88,13 @@ p {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-footer {
+#rodape {
   font-weight:1.2px bold;
+  background-color: black;
+  color: white;
+  bottom:0;
+  width:100%;
+  margin: auto auto;
+  padding: 4px 4px;
+  clear: both;
 }
