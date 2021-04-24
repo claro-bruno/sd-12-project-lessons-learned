@@ -1,6 +1,7 @@
 
 body {
     background-color: rgb(253, 251, 251);
+    margin: 0;
 }
 
 #cabecalho {
@@ -8,6 +9,18 @@ body {
     top: 0;
 }
 
-#titulo {}
+#titulo {
 
-#minha_foto {}
+}
+
+#minha_foto {
+
+}
+
+#licoes_aprendidas {
+
+}
+
+#licoes_a_aprender {
+    
+}
