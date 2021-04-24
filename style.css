@@ -1,14 +1,13 @@
 body {
-   margin: 0%;
-   padding-top: 10%;
-   background-color: rgb(253, 251, 251);
-   font-family: Impact, Haettenschweiler, sans-serif;
-   line-height: 1.5em;
-   font-size: 18px;
-  
+      margin: 0%;
+      padding-top: 10%;
+      background-color: rgb(253, 251, 251);
+      font-family: Impact, Haettenschweiler, sans-serif;
+      line-height: 1.5em;
+      font-size: 18px; 
 }
 
-a{
+a {
    text-decoration: none;
 }
 
@@ -39,7 +38,7 @@ article {
 }
 
 aside {
-   margin-left:28%;
+   margin-left: 28%;
    padding: 7%;
    width: 500px;
    text-align: justify;
@@ -49,7 +48,7 @@ aside {
    background-color: rgba(35, 87, 1, 0.877);
    width: 100%;
    display: inline-block;
-   color:cornsilk;
+   color: cornsilk;
 }
 
 ol {
@@ -60,7 +59,7 @@ ol {
    display: inline;
 }
 
-ul{
+ul {
    margin-top: 7%;
 }
 
