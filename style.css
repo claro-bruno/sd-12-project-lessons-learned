@@ -114,4 +114,10 @@ body {
   border-radius: 2%;
   padding: 15px;
   color: rgb(47, 193, 140);
-  font-family: Raleway, sans-serif;}
+  font-family: Raleway, sans-serif;
+  font-size: 30px;
+}
+  
+.img {
+  width: 50px;
+}
