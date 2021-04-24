@@ -3,136 +3,137 @@ body {
 }
 
 header {
-    position: fixed;
-    top: 0;
-    background-color: #0466c8;
-    width: 100%
+  position: fixed;
+  top: 0;
+  background-color: #0466c8;
+  width: 100%
 }
 
 #titulo {
-    color: #ede7e3;
-    font-size: 35px;
-    font-family: monospace;
-    text-align: center;
-    line-height: 30px
+  color: #ede7e3;
+  font-size: 35px;
+  font-family: monospace;
+  text-align: center;
+  line-height: 30px
 }
 
 nav {
-    top: 60px;
-    position: fixed;
-    background-color: #0466c8;
-    width: 100%;
-    height: 30px;
+  top: 60px;
+  position: fixed;
+  background-color: #0466c8;
+  width: 100%;
+  height: 30px;
 }
 
 #page {
-    font-size: 20px; 
-    color: #001233; 
-    text-decoration: none;
-    font-weight: bold;
-    padding-left: 15px;
+  font-size: 20px; 
+  color: #001233; 
+  text-decoration: none;
+  font-weight: bold;
+  padding-left: 15px;
 }
 
 #minha_foto {
-    display: inline-block;
-    margin-left: 90px;
-    margin-top: 150px;
-    width: 200px;
-    border-radius: 20%;
-    border: 2px solid #0466c8;
+  display: inline-block;
+  margin-left: 90px;
+  margin-top: 150px;
+  width: 200px;
+  border-radius: 20%;
+  border: 2px solid #0466c8;
 }
 
 #gui {
-    display: inline-block;
-    width: 40%;
-    margin-left: 80px;
-    text-align: justify;
+  display: inline-block;
+  width: 40%;
+  margin-left: 80px;
+  text-align: justify;
 }
 
 #licoes_aprendidas, #licoes_a_aprender {
-    display: inline-block;
-    margin: 20px;
-    margin-top: 70px;
-    margin-bottom: 40px;
-    margin-left: 50px;
-    font-size: 16px;
-    width: 40%;
+  display: inline-block;
+  margin: 20px;
+  margin-top: 70px;
+  margin-bottom: 40px;
+  margin-left: 50px;
+  font-size: 16px;
+  width: 40%;
 }
 
 .lado-esquerdo {
-    display: inline-block;
-    width: 40%;
-    text-align: justify;
-    padding: 2%;
-    margin-left: 50px;
+  display: inline-block;
+  width: 40%;
+  text-align: justify;
+  padding: 2%;
+  margin-left: 50px;
 }
 
 .lado-direito {
-    display: inline-block; 
-    width: 40%;
-    text-align: justify;
-    padding: 2%;
-    margin-left: 0px;
+  display: inline-block; 
+  width: 40%;
+  text-align: justify;
+  padding: 2%;
+  margin-left: 0px;
 }
 
 h2 {
-    display: inline-block;
-    background-color: #001845;
-    width: 100%;
-    padding: 3%;
-    border-radius: 5px;
-    color: #ede7e3;
-    text-align: center;
+  display: inline-block;
+  background-color: #001845;
+  width: 100%;
+  padding: 3%;
+  border-radius: 5px;
+  color: #ede7e3;
+  text-align: center;
 }
 
 h3 {
-    background-color: #001845;
-    width: 90%;
-    padding: 20px;
-    border-radius: 5px;
-    color: #ede7e3;
-    text-align: center;
-    margin-left: 70px;
+  background-color: #001845;
+  width: 90%;
+  padding: 20px;
+  border-radius: 5px;
+  color: #ede7e3;
+  text-align: center;
+  margin-left: 70px;
 }
 
 #tabela {
-    display: inline-block;
-    background-color:#0466c8;
-    color: #ede7e3;
-    margin: 40px;  
-    margin-left: 70px;
+  display: inline-block;
+  background-color:#0466c8;
+  color: #ede7e3;
+  margin: 40px;  
+  margin-left: 70px;
 }
 
 #colorTabela {
-    background-color: #001845;
+  background-color: #001845;
 }
 
 #linkdin {
-    margin-bottom: 30px;
-    margin-left: 50%;
-    display:inline-block ;
-    width: 100px;
+  margin-bottom: 30px;
+  margin-left: 50%;
+  display:inline-block ;
+  width: 100px;
 }
 
 #instagram {
-    width: 45px;;
-    display: inline-block;
-    margin-bottom: 35px;
+  width: 45px;;
+  display: inline-block;
+  margin-bottom: 35px;
 }
+
 #github {
-    width: 80px;
-    display: inline-block;
-    margin-bottom: 18px;
-    margin-left: 10px;
+  width: 80px;
+  display: inline-block;
+  margin-bottom: 18px;
+  margin-left: 10px;
 }
 
 #rodape {
-    display: block;
-    background-color: #0466c8;
-    color: #ede7e3;
-    font-family: monospace;
-    font-size: 12px;
-    padding: 5px;
-    border-radius: 5px;
-    margin: 0;
+  display: block;
+  background-color: #0466c8;
+  color: #ede7e3;
+  font-family: monospace;
+  font-size: 12px;
+  padding: 5px;
+  border-radius: 5px;
+  margin: 0;
 }
