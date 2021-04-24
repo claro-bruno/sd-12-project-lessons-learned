@@ -74,7 +74,7 @@ nav ul li:hover{
 }
 #skills {
     margin-top: 50px;
-    min-height: 400px;
+    min-height: 450px;
 }
 h2 {
     font-family: 'Fira Code', monospace;
@@ -118,7 +118,7 @@ ol li:hover {
     vertical-align: middle;
 }
 #artigos {
-    min-height: 600px;
+    min-height: 700px;
     /* background-color: hotpink; */
 }
 #listrado {
@@ -133,6 +133,7 @@ ol li:hover {
     z-index: 1;
     float: left;
     max-width: 60%;
+    min-height: 600px;
     /* border: 4px solid rgb(92, 79, 161); */
     background-color: rgb(253, 251, 251);
     margin-left: 5%;
@@ -144,6 +145,7 @@ ol li:hover {
     position: absolute;
     z-index: 1;
     float: right;
+    min-height: 600px;
     margin-left: 68%;
     margin-right: 5%;
     margin-top: 60px;
@@ -153,13 +155,13 @@ ol li:hover {
 }
 #artigos h2 {
     display: inline-block;
-    margin-top: 50px;
+    margin-top: 65px;
     margin-left: 100px;
 }
 .lado-esquerdo p, .lado-direito p {
     margin-left: 50px;
     margin-right: 50px;
-    margin-top: 30px;
+    margin-top: 50px;
     font-size: 20px;
     font-weight: 200;
     line-height: 35px;
@@ -174,7 +176,7 @@ strong {
     position: relative;
     z-index: 1;
     margin-left: 50px;
-    margin-top: 100px;
+    margin-top: 120px;
     padding-right: 30px;
 
 }
@@ -183,18 +185,20 @@ strong {
     width: 100px;
     position: relative;
     z-index: 1;
-    margin-left: 650px;
+    /* margin-left: 650px;
     margin-right: 50px;
-    padding-right: 30px;
+    padding-right: 30px; */
+    bottom: 45px;
+    left: 650px;
 }
 #icone_github {
     float: right;
-    width: 200px;
+    width: 150px;
     position: relative;
     align-items: center;
-    margin-right: 70px;
+    margin-right: 105px;
     margin-top: 30px;
-    margin-bottom: 25px;
+    margin-bottom: 10px;
     /* margin-left: 30px; */
 }
 h3 {
@@ -202,6 +206,11 @@ h3 {
     font-family: 'Fira Code', monospace;
     color: rgb(253, 251, 251);
     background-color: rgb(250, 171, 28);
-    font-size: 30px;
+    font-size: 25px;
     margin-left: 130px;
+}
+.lado-direito a {
+    font-size: 20px;
+    margin-left: 120px;
+    padding-bottom: 20px;
 }
