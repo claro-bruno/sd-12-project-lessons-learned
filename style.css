@@ -25,7 +25,7 @@ main {
 #minha_foto {
   /* top: 10; */
   position:relative;
-  /* rever aula ao vivo com Isaac */
+  /* rever aula ao vivo com Isaac  */
   width: 40%;
   height: 40%;
   display: block;
@@ -37,6 +37,9 @@ main {
   bottom: 0;
   left: 0;
   width: 100%;
+  margin-left: 15px;
+  margin-right: 15px;
+
   /*   display: block;
   background-color: #54eb7a;
   font-size: 60px;
@@ -48,6 +51,11 @@ main {
   position: fixed; */
 }
 #artigo {
-  margin-left: 10px;
-  margin-righ: 10px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+#lateral {
+  margin-left: 15px;
+  margin-righ: 15px;
+
 }
