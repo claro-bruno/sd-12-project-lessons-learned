@@ -101,12 +101,9 @@ h2 {
     margin-bottom: 50px;
 }
 
-.tituloaside{
-    margin-top: 50px;
-}
-
 .textoaside{
-    margin-top: 65px;
+    margin-top: 50px;
+    letter-spacing: 1px;
 }
 .lado-esquerdo{
     margin-top: 0;
@@ -119,13 +116,13 @@ h2 {
     font-weight: 300;
     text-align: center;
     font-size: 22px;
+    letter-spacing: 1px;
 }
-
 
 .lado-direito {
     text-align: center;
     display: inline-block;
-    font-size: 20px;
+    font-size: 21.5px;
     width: 400px;
     margin-bottom: 0;
     color: #525252;
@@ -157,6 +154,7 @@ table{
 
 td:nth-child(odd){
     color:#0fa36b;
+    font-weight: 500;
 }
 
 td:nth-child(even){
