@@ -7,8 +7,12 @@ body {
   position: fixed;
   top: 0;
   background-color: teal;
-  padding-left: 45%;
-  padding-right: 40%;
+  padding-left: 41%;
+  padding-right: 44%;
+}
+
+h1 {
+  color: rgb(253, 251, 251);
 }
 
 #nav {
@@ -25,7 +29,9 @@ body {
 
 #nav a {
   text-decoration: none;
-  color: black;
+  color: rgb(253, 251, 251);
+  font-weight: 700;
+  font-family: sans-serif;
 }
 
 #minha_foto {
@@ -56,6 +62,7 @@ table td , th {
 
 .listTitle {
   margin-left: 20px;
+  font-family: monospace;
 }
 
 #licoes_aprendidas {
@@ -78,6 +85,7 @@ h2 {
   float: left;
   margin-left: 20px;
   text-align: justify;
+  font-family: monospace;
 }
 
 .lado-direito {
@@ -85,10 +93,11 @@ h2 {
   float: right;
   position: absolute;
   left: 700px;
-  top: 1170px;
+  top: 1130px;
   text-align: justify;
   background-color: rgba(0, 109, 128, 0.76);
-  padding: 10px;
+  padding: 20px;
+  font-family: monospace;
 }
 
 .texto {
