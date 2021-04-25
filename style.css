@@ -4,6 +4,7 @@ header{
     color:white;
     font-family: monospace;
     position:fixed center;
+    top: 0;
 
     
     
@@ -17,8 +18,6 @@ font-family: monospace;
 #minha_foto {
     max-height:250px;
     max-width:250px;
-    position: absolute;
-    left: 640px;
-    
-
+    margin-left: auto;
+    margin-right: auto;
 }
