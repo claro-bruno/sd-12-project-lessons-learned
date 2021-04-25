@@ -43,6 +43,7 @@ body {
   text-decoration: none;
   text-transform: uppercase;
   font-weight: 900;
+  transition: color 1s;
 }
 
 .listanav a:hover {
@@ -59,7 +60,7 @@ body {
   line-height: 2em;
 }
 
-#artigo {
+.lado-esquerdo {
   display: inline-block;
   width: 430px;
   padding-right: 15px;
@@ -71,7 +72,7 @@ body {
   border-radius: 100%;
 }
 
-#lateral {
+.lado-direito {
   display: inline-block;
   width: 430px;
   padding-left: 15px;
@@ -80,9 +81,23 @@ body {
   padding-top: 59px;
 }
 
+.tabela {
+  border-width: 0px;
+  width: 430px;
+}
+
+.tabela th {
+  padding: 5px 10px;
+}
+
+.tabela tr {
+  background-color: rgb(203, 211, 148);
+}
+
 .secao_listas {
   background-color: rgb(203, 211, 148);
-  margin: 50px;
+  margin-top: 50px;
+  margin-bottom: 50px;
   padding: 100px;
 }
 
