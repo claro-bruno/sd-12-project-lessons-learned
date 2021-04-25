@@ -12,6 +12,6 @@ header {
     height: 200px;
 }
 
-#licoes_a_aprender {
+section {
     display: inline-block;
 }
