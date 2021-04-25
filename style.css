@@ -16,6 +16,7 @@ body {
   top: 0;
   padding: 0.3rem;
   background: rgb(3, 107, 82);
+  border-bottom: solid rgb(32, 32, 32) 3px;
   margin: auto;
   left: 0;
   right: 0;
@@ -59,8 +60,8 @@ h2 {
 
 .cartao {
   background: rgb(47, 49, 54);
-  padding: 1.3rem 3rem 17rem;
-  border-radius: 0.4rem;
+  padding: 1.3rem 3rem 17.0rem;
+  border-radius: 0.40rem;
   margin-bottom: 2rem;
   color: white;
 }
@@ -68,7 +69,7 @@ h2 {
 .cartao_artigo {
   background: rgb(47, 49, 54);
   padding: 1.5rem 2rem 18.8rem;
-  border-radius: 0.4rem;
+  border-radius: 0.40rem;
   margin-bottom: 2rem;
   color: white;
 }
@@ -102,6 +103,7 @@ footer {
   text-align: center;
   padding: 20px;
   margin: auto;
+  border-top: solid rgb(3, 107, 82) 3px;
 }
 
 .copyright {
