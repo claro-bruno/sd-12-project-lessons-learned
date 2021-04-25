@@ -4,14 +4,23 @@ body {
 
 header {
     top: 0px;
-    position: fixed;
+    position: fixed;    
+    display: block;
+}
+
+#titulo {
+        
+    justify-content: center;
+    
+
 }
 
 #minha_foto {
     width: 150px;
     height: 200px;
+    display: block;
 }
 
-section {
-    display: inline-block;
+#licoes_a_aprender {
+    display: block;
 }
