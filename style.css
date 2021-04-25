@@ -2,6 +2,8 @@ body{
     background-color: rgb(253, 251, 251);
     margin-left: 0;
     margin-bottom: 0;
+    font-family: roboto, sans-serif;
+    font-weight: 100;
 }
 
 #cabecalho {
@@ -53,17 +55,27 @@ ul {
 }
 
 .title-liçoes{
-  margin-left: 80px;
+    margin-left: 80px;
 }
 
 li {
     padding-bottom: 10px;
 }
 
+h1 {
+    font-weight: 900;
+}
+
 h2 {
     margin-top: 0;
     text-align: center;
     padding: 30px 15px;
+    font-weight: 500;
+}
+
+.tituloaside{
+    font-weight: 500;
+    margin-bottom: 50px;
 }
 
 .lado-esquerdo{
@@ -107,6 +119,7 @@ table{
     margin-right: 200px; 
     border-collapse: separate;
     border-spacing: 20px 15px;
+
 }
 
 img {
