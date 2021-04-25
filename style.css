@@ -216,8 +216,9 @@ strong {
         width: 100px;
         position: relative;
         z-index: 1;
-        bottom: 45px;
+        bottom: 30px;
         left: 650px;
+        padding-left: 10px;
 }
 
 #imagem_github {
