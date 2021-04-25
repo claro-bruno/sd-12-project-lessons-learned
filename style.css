@@ -67,6 +67,7 @@ h3 {
 }
 
 .foto a {
+  color: rgb(94, 86, 86);
   text-decoration: none;
   transition-property: color;
   transition-duration: 1s;
