@@ -59,7 +59,7 @@ h2 {
   position: static;
   line-height: 1.2;
   width: 180px;
-  border-style:solid;
+  border-style: solid;
   border-color: rgb(4, 197, 36);
   border-radius: 5px;
   background-color: rgb(231, 252, 234);
@@ -80,11 +80,11 @@ article , .lado-direito {
   margin-right: 10px;
 }
 
-.lado-direito , .lado-esquerdo{
-  padding: 5px 5px;
+.lado-direito , .lado-esquerdo {
+  padding: 5px;
   border-style: solid;
   border-color: rgb(4, 197, 36);
-  background-color:  rgb(231, 252, 234);
+  background-color: rgb(231, 252, 234);
   border-radius: 5px;
 }
 
