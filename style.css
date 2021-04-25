@@ -251,6 +251,11 @@ table {
         border-collapse: collapse;
         margin-left: 25%;
         font-family: Montserrat, sans-serif;
+        text-align: center;
+}
+
+thead {
+        font-weight: 700;
 }
 
 thead tr:nth-of-type( 1 ) {
@@ -261,12 +266,12 @@ thead tr:nth-of-type( 1 ) {
         font-size: 20px;
 }
 
-thead tr:nth-of-type( 1 ) th:nth-of-type( 1 ) {
+thead tr:nth-of-type( 1 ) td:nth-of-type( 1 ) {
         padding-left: 5px;
         text-align: left;
 }
 
-thead tr:nth-of-type( 1 ) th:nth-of-type( 2 ) {
+thead tr:nth-of-type( 1 ) td:nth-of-type( 2 ) {
         padding-right: 10px;
         text-align: right;
 }
@@ -278,14 +283,13 @@ thead tr:nth-of-type( 2 ) {
         line-height: 30px;
 }
 
-td {
+tbody td {
         padding-top: 10px;
         padding-bottom: 10px;
         border: 3px solid rgb(253, 251, 251);
         background-color: rgb(229, 226, 226);
         color: rgb(40, 40, 38);
         line-height: 25px;
-        text-align: center;
 }
 
 tbody tr td:nth-of-type( 1 ) {
