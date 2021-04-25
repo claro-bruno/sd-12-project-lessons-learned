@@ -34,9 +34,23 @@ body {
   margin-left: 20px;
 }
 
-table td {
+table {
+  margin-left: 20px;
+}
+
+table td, th {
   border: solid;
   border-width: 1px;
+}
+
+.green:hover {
+  background-color: green;
+  font-weight: 700;
+}
+
+.red:hover {
+  background-color: red;
+  font-weight: 700;
 }
 
 .listTitle {
