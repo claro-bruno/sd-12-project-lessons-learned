@@ -46,6 +46,7 @@ body {
   color: white;
   font-family: Raleway, sans-serif;
 }
+
 .lista_aprendida h2 {
   margin-top: 0%;
 }
@@ -65,8 +66,9 @@ body {
   background-color: rgb(238, 238, 238);
   margin-top: 100px;
   height: 400px;
-  text-align: center; 
+  text-align: center;
 }
+
 .aside {
   border-radius: 2%;
   background-color: rgb(47, 193, 140);
@@ -78,6 +80,7 @@ body {
   margin: auto;
   text-align: center;
 }
+
 .lista_a_aprender {
   list-style-position: inside;
   float: left;
@@ -88,21 +91,24 @@ body {
   color: white;
   font-family: Raleway, sans-serif;
 }
+
 .terceiraparte {
   margin: 100px;
 }
+
 .tabela {
   border-radius: 4%;
   background-color: rgb(47, 193, 140);
-  border: rgb(238, 238, 238) solid thin; 
+  border: rgb(16, 117, 80) solid 5px;
   text-align: center;
   margin: auto;
   height: auto;
   padding: 30px 20px;
   color: white;
+  font-family: Raleway, sans-serif;
 }
+
 .rodape {
-  margin: 10px;
   height: auto;
   background-color: rgb(238, 238, 238);
   text-align: center;
@@ -113,8 +119,10 @@ body {
   color: rgb(47, 193, 140);
   font-family: Raleway, sans-serif;
   font-size: 30px;
+  margin: 0%;
 }
 
 .img {
   width: 50px;
+  margin: 10px;
 }
