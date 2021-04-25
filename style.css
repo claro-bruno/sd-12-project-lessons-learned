@@ -41,8 +41,15 @@ a{
 }
 
 article{
-    width: 50%;
+    width: 40%;
+    display: inline-block;
     
+}
+
+aside{
+    float: right;
+    width: 40%;
+
 }
 
 #rodape{
