@@ -32,15 +32,25 @@ nav {
 
 .barraNav {
     display: inline-block;
-    color:#fff;
+    color:#006dfb;
     margin-left: 35px;
     margin-top: 6px;
     font-size: 20px;
     font-weight: bold;
+    text-decoration: none;
 }
 
 ul {
     margin:0;
+}
+
+a, a:visited {
+    text-decoration: none;
+    color: #006dfb;
+}
+
+.barraNav:hover, a:hover {
+    color:#fff;
 }
 
 #minha_foto{
@@ -51,16 +61,29 @@ ul {
 .liçoes {
     display: inline-block;
     margin: 150px 180px 30px;
-    font-size: 20px;
+    font-size: 19px;
 }
 
 .title-liçoes{
     margin-left: 80px;
+    color:#0fa36b;
+}
+
+#licoes_a_aprender {
+    list-style: none; 
+}
+
+#licoes_a_aprender li::before{
+    content: "\2022";
+    color:#0fa36b;
+    font-weight: bold;
+    margin-right: 10px;
 }
 
 li {
     padding-bottom: 10px;
 }
+
 
 h1 {
     font-weight: 900;
@@ -85,11 +108,12 @@ h2 {
     width: 760px;
     display: inline-block;
     margin-bottom: 0;
-}
-
-.aprendizado{
+    color: #fff;
+    font-weight: 300;
+    text-align: center;
     font-size: 20px;
 }
+
 
 .lado-direito {
     text-align: center;
@@ -97,6 +121,8 @@ h2 {
     font-size: 20px;
     width: 400px;
     margin-bottom: 0;
+    color: #525252;
+    font-weight: 300;
 }
 
 .inutilidades {
@@ -111,6 +137,7 @@ h2 {
     text-align: right;
     margin-right: 500px;
     padding-top: 100px;
+    color:#036b52;
 }
 
 table{
@@ -119,7 +146,14 @@ table{
     margin-right: 200px; 
     border-collapse: separate;
     border-spacing: 20px 15px;
+}
 
+td:nth-child(odd){
+    color:#0fa36b;
+}
+
+td:nth-child(even){
+    font-weight: 100;
 }
 
 img {
