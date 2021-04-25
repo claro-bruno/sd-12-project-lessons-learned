@@ -25,17 +25,13 @@ body {
 
 #nav a {
   text-decoration: none;
-  color: black
-}
-
-#nav a:hover {
-  color: rgba(91, 36, 143, 0.479);
-  font-weight: 700;
+  color: black;
 }
 
 #minha_foto {
   width: 250px;
-  margin-top: 100px;
+  margin-top: 55px;
+  margin-left: 20px;
 }
 
 table td {
@@ -43,9 +39,14 @@ table td {
   border-width: 1px;
 }
 
+.listTitle {
+  margin-left: 20px;
+}
+
 #licoes_aprendidas {
   font-family: monospace;
   font-size: 14.5px;
+  margin-left: 20px;
 }
 
 #licoes_a_aprender {
@@ -85,6 +86,11 @@ h2 {
 #rodape a {
   text-decoration: none;
   color: white;
+}
+
+#nav a:hover {
+  color: rgba(91, 36, 143, 0.479);
+  font-weight: 700;
 }
 
 #rodape a:hover {
