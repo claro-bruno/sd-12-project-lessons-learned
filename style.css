@@ -1,5 +1,6 @@
 body {
   background-color: rgb(253, 251, 251);
+  margin: 0;
 }
 
 #cabecalho {
@@ -58,6 +59,7 @@ h2 {
 #rodape {
   margin-top: 20px;
   padding: 5px;
+  padding-left: 20px;
   background-color: teal;
   clear: both;
 }
