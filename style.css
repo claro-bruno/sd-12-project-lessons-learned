@@ -1,16 +1,16 @@
-body { 
-    background-color:rgb(253, 251, 251) ;
+body {
+  background-color: rgb(253, 251, 251);
 }
 
-  #cabecalho {
-    top: 0;
-    background-color: lightgreen;
+#cabecalho {
+  top: 0;
+  background-color: lightgreen;
 }
 
-  #minha_foto {
-    width: 200px;
+#minha_foto {
+  width: 200px;
 }
 
-footer{
-    background-color: lightgreen;
+footer {
+  background-color: lightgreen;
 }
