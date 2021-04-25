@@ -6,6 +6,7 @@ body {
 #minha_foto {
     width: 300px;
     margin-top: 80px;
+    border-radius: 100px;
     }
 #cabecalho {
     top: 0px;
