@@ -1,14 +1,14 @@
 body {
-        background-color: rgb(253, 251, 251);
-        font-family: Montserrat, sans-serif;
+background-color: rgb(253, 251, 251);
+font-family: Montserrat, sans-serif;
 }
 
 .lado-direito {
-        float: right;
+float: right;
 }
 
 .lado-esquerdo {
-        float: left;
+float: left;
 }
 
 #cabecalho {
@@ -40,12 +40,12 @@ nav ul li {
 }
 
 nav ul li:hover {
-        font-weight: 500;
+        font-weight: 700;
 }
 
 #perfil {
         min-height: 240px;
-        background-image: url(quadriculado.png);
+        background-image: url("quadriculado.png");
         background-repeat: no-repeat;
         margin-top: 150px;
         margin-right: 20%;
@@ -110,6 +110,11 @@ h2 {
         margin-left: 170px;
 }
 
+#licoes_aprendidas a {
+        color: rgb(40, 40, 38);
+        text-decoration: none;
+}
+
 #licoes_aprendidas li {
         font-size: 25px;
         line-height: 40px;
@@ -119,7 +124,10 @@ h2 {
         color: rgb(92, 79, 161);
         font-weight: 600;
         text-decoration: underline;
-        cursor: pointer;
+}
+
+#licoes_aprendidas a:hover {
+        color: rgb(92, 79, 161);
 }
 
 #licoes_aprendidas_coluna_1 {
@@ -155,28 +163,24 @@ h2 {
         margin-left: 1%;
 }
 
-#artigo_meu_aprendizado {
-        max-width: 60%;
+.espaco_artigo_aside {
         min-height: 600px;
         position: absolute;
         z-index: 1;
-        box-shadow: -5px -5px 8px rgb(194, 194, 194), 1px 1px 5px rgb(194, 194, 194);
-
+        box-shadow: 5px 5px 8px rgb(194, 194, 194),
+                -1px -1px 5px rgb(194, 194, 194);
         margin-top: 60px;
-        margin-left: 5%;
         background-color: rgb(253, 251, 251);
 }
 
+#artigo_meu_aprendizado {
+        max-width: 60%;
+        margin-left: 5%;
+}
+
 #aside_meu_aprendizado {
-        min-height: 600px;
-        position: absolute;
-        z-index: 1;
-        box-shadow: -5px -5px 8px rgb(194, 194, 194),
-                    1px 1px 5px rgb(194, 194, 194);
-        margin-top: 60px;
         margin-right: 5%;
         margin-left: 68%;
-        background-color: rgb(253, 251, 251);
 }
 
 #meu_aprendizado_titulo {
@@ -185,7 +189,7 @@ h2 {
         margin-left: 100px;
 }
 
-#artigo_meu_aprendizado p, #aside_meu_aprendizado p {
+#artigo_meu_aprendizado p , #aside_meu_aprendizado p {
         margin-top: 50px;
         margin-right: 50px;
         margin-left: 50px;
@@ -255,35 +259,25 @@ table {
 }
 
 thead {
-        font-weight: 700;
-}
-
-thead tr:nth-of-type( 1 ) {
         padding-bottom: 5px;
         background-color: rgb(241, 87, 35);
         color: rgb(253, 251, 251);
         font-family: Fira Code, monospace;
         font-size: 20px;
+        font-weight: 700;
 }
 
-thead tr:nth-of-type( 1 ) td:nth-of-type( 1 ) {
+thead tr th:nth-of-type( 1 ) {
         padding-left: 5px;
         text-align: left;
 }
 
-thead tr:nth-of-type( 1 ) td:nth-of-type( 2 ) {
+thead tr th:nth-of-type( 2 ) {
         padding-right: 10px;
         text-align: right;
 }
 
-thead tr:nth-of-type( 2 ) {
-        background-color: rgb(253, 251, 251);
-        color: rgb(241, 87, 35);
-        font-size: 18px;
-        line-height: 30px;
-}
-
-tbody td {
+tbody tr td {
         padding-top: 10px;
         padding-bottom: 10px;
         border: 3px solid rgb(253, 251, 251);
@@ -294,6 +288,13 @@ tbody td {
 
 tbody tr td:nth-of-type( 1 ) {
         font-size: 20px;
+}
+
+.tabela_segunda_linha {
+        background-color: rgb(253, 251, 251);
+        color: rgb(241, 87, 35);
+        font-size: 20px;
+        line-height: 30px;
 }
 
 #proximos_conteudos {
