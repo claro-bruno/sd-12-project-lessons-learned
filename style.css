@@ -69,18 +69,18 @@ h1 {
     margin-top:80px;
     background-position-y:-400px;
     background-position-x:-350px;
-    height:580px;
+    height:540px;
    
 
 }
 
 #minha_foto{
-    width:200px;
+    width:250px;
     border-radius:50%;
     border:double rgb(253, 251, 251);
     position:absolute;
-    left:44%;
-    top:40%;
+    left: 538px;
+    top:20em;
    
 }
 
@@ -88,7 +88,7 @@ article{
     width:500px;
     position:absolute;
     top:25%;
-    left:3%;
+    left: 1em;
     padding:10px;
     border:double rgb(253, 251, 251);
 }
@@ -104,8 +104,8 @@ aside{
     border:double rgb(253, 251, 251);
     padding:10px;
     position:absolute;
-    left:60%;
-    top:57%;
+    left:830px;
+    top:400px;
 }
 
 aside p{
