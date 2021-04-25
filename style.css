@@ -1,6 +1,6 @@
 body {
         background-color: rgb(253, 251, 251);
-        font-family: 'Montserrat', sans-serif;
+        font-family: Montserrat, sans-serif;
 }
 
 .lado-direito {
@@ -33,14 +33,14 @@ ul {
         padding: 0;
 }
 
-nav ul li{
+nav ul li {
         display: inline-block;
         margin-right: 12px;
         margin-left: 12px;
 }
 
-nav ul li:hover{
-        font-weight: bold;
+nav ul li:hover {
+        font-weight: 500;
 }
 
 #perfil {
@@ -71,7 +71,7 @@ nav ul li:hover{
 h2 {
         display: inline-block;
         color: rgb(92, 79, 161);
-        font-family: 'Fira Code', monospace;
+        font-family: Fira Code, monospace;
         font-size: 30px;
 }
 
@@ -81,11 +81,11 @@ h2 {
         padding-bottom: 5px;
         background-color: rgb(92, 79, 161);
         color: rgb(253, 251, 251);
-        font-family: 'Fira Code', monospace;
+        font-family: Fira Code, monospace;
         font-size: 25px;
 }
 
-#curso{
+#curso {
         display: inline;
         background-color: rgb(250, 171, 28);
         color: rgb(92, 79, 161);
@@ -105,7 +105,7 @@ h2 {
         margin-top: 50px;
 }
 
-#conteudos_abordados h2{
+#conteudos_abordados h2 {
         margin-top: 50px;
         margin-left: 170px;
 }
@@ -160,12 +160,13 @@ h2 {
         min-height: 600px;
         position: absolute;
         z-index: 1;
-        box-shadow: -5px -5px 8px rgb(194, 194, 194),
-                    1px 1px 5px rgb(194, 194, 194);
-        margin-top: 60px;            
+        box-shadow: -5px -5px 8px rgb(194, 194, 194), 1px 1px 5px rgb(194, 194, 194);
+
+        margin-top: 60px;
         margin-left: 5%;
         background-color: rgb(253, 251, 251);
 }
+
 #aside_meu_aprendizado {
         min-height: 600px;
         position: absolute;
@@ -229,7 +230,7 @@ h3 {
         margin-left: 130px;
         background-color: rgb(250, 171, 28);
         color: rgb(253, 251, 251);
-        font-family: 'Fira Code', monospace;
+        font-family: Fira Code, monospace;
         font-size: 25px;
 }
 
@@ -249,14 +250,14 @@ table {
         border: 5px solid rgb(241, 87, 35);
         border-collapse: collapse;
         margin-left: 25%;
-        font-family: 'Montserrat', sans-serif;
+        font-family: Montserrat, sans-serif;
 }
 
 thead tr:nth-of-type( 1 ) {
         padding-bottom: 5px;
         background-color: rgb(241, 87, 35);
         color: rgb(253, 251, 251);
-        font-family: 'Fira Code', monospace;
+        font-family: Fira Code, monospace;
         font-size: 20px;
 }
 
@@ -295,7 +296,7 @@ tbody tr td:nth-of-type( 1 ) {
         text-align: center;
 }
 
-#licoes_a_aprender div li{
+#licoes_a_aprender div li {
         display: inline-block;
         padding: 5px;
         margin-right: 20px;
@@ -310,7 +311,7 @@ tbody tr td:nth-of-type( 1 ) {
         padding-top: 30px;
         border-top: 1px solid rgb(40, 40, 38);
         color: rgb(40, 40, 38);
-        font-family: 'Fira Code', monospace;
+        font-family: Fira Code, monospace;
         font-size: 12px;
         line-height: 5px;
         text-align: right;
