@@ -6,3 +6,12 @@ header {
     top: 0px;
     position: fixed;
 }
+
+#minha_foto {
+    width: 150px;
+    height: 200px;
+}
+
+#licoes_a_aprender {
+    display: inline-block;
+}
