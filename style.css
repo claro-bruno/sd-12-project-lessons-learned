@@ -7,13 +7,14 @@ body {
 }
 
 #cabecalho {
-  font-size: 12;
+  font-size: 15px;
   color: white;
   font-style: oblique;
+  font-family: monospace;
   text-align: center;
   position: fixed;
   top: 0;
-  background-color: green; 
+  background-color: green;
   width: 100%;
   border: 1px solid black;
   border-top-left-radius: 20px;
@@ -22,12 +23,13 @@ body {
 }
 
 #linkedin , #GitHub {
+  font-size: 15px;
   position: absolute;
   top: 9px;
   margin: 15px;
   color: rgb(204, 243, 204);
-  text-decoration: none; 
-  }
+  text-decoration: none;
+}
 
 #GitHub {
   top: 35px;
@@ -50,7 +52,7 @@ body {
   border: 1px solid green;
 }
 
-#dados { 
+#dados {
   font-style: italic;
   position: absolute;
   padding: 5px;
@@ -62,6 +64,7 @@ body {
 h3 {
   text-decoration: underline;
 }
+
 #licoes_aprendidas {
   position: absolute;
   display: inline-block;
@@ -107,10 +110,12 @@ h3 {
   border: 1px solid rgb(4, 197, 36);
   border-radius: 5px;
   background-color: rgb(231, 252, 234);
+  font-size: 14px;
+  letter-spacing: 1.1px;
 }
 
 table {
-    font-weight: 500;
+  font-weight: 500;
   position: absolute;
   left: 940px;
   top: 300px;
@@ -120,8 +125,7 @@ table {
 td {
   border: 1px solid green;
   background-color: rgb(231, 252, 234);
-  padding: 15px;
-    
+  padding: 15px;   
 }
 
 th {
@@ -133,5 +137,5 @@ th {
 
 #rodape {
   position: absolute;
-  bottom: 0px;
+  bottom: 0;
 }
