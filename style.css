@@ -1,44 +1,48 @@
+/* Todo conteudo que nao tenha referencia especifica, foi retirado dos conhecimentos adquiridos no curso da TRYBE ate o momento */
 body {
     background-color: rgb(253, 251, 251);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
 }
 
-#cabecalho {
+header {
     position: fixed;
-    top: 0;
+    width: 100%;
+    background-color: green;
+    color: white;
+    line-height: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    font-size: 20px;
+    text-align: center;
 }
+
+p, li, th {
+    font-size: 16px;
+    color: black;
+}
+
+h2, h3 {
+    color: green;
+}
+
 
 #titulo {
-
+ 
 }
 
 #minha_foto {
-    width: 300px;
-}
+    border-width: 5px;
+    }
 
 #licoes_aprendidas {
-
+ 
 }
 
 #licoes_a_aprender {
+ 
+    }
 
-}
-
-.artigos{
-
-}
-
-.aside {
-
-}
-
-.textos {
-    
-}
-
-.tabelas {
-
-}
-
-#rodape {
-
+h2 {
+    color: green;
 }
