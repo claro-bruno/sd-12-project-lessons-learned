@@ -32,13 +32,14 @@ body {
   width: 250px;
   margin-top: 55px;
   margin-left: 20px;
+  border-radius: 30%;
 }
 
 table {
   margin-left: 20px;
 }
 
-table td, th {
+table td , th {
   border: solid;
   border-width: 1px;
 }
@@ -75,6 +76,8 @@ h2 {
 .lado-esquerdo {
   width: 400px;
   float: left;
+  margin-left: 20px;
+  text-align: justify;
 }
 
 .lado-direito {
@@ -83,6 +86,9 @@ h2 {
   position: absolute;
   left: 700px;
   top: 1170px;
+  text-align: justify;
+  background-color: rgba(0, 109, 128, 0.76);
+  padding: 10px;
 }
 
 .texto {
