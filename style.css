@@ -1,5 +1,8 @@
 body {
     background-color: rgb(253, 251, 251);
+    margin: 30px;
+    padding: 5px;
+    border: 10px;
 }
 
 #cabecalho {
@@ -14,7 +17,7 @@ body {
 
 #minha_foto {
     width: 200px;
-    margin-top: 160px;
+    margin-top: 140px;
     margin-left: 10px;
     border-radius: 50px;
 }
