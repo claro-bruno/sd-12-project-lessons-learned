@@ -19,6 +19,18 @@ body {
   display: inline-block;
   margin-top: 10px;
   margin-left: 10px;
+  padding: 5px;
+  background-color: rgba(0, 128, 128, 0.76);
+}
+
+#nav a {
+  text-decoration: none;
+  color: black
+}
+
+#nav a:hover {
+  color: rgba(91, 36, 143, 0.479);
+  font-weight: 700;
 }
 
 #minha_foto {
@@ -55,7 +67,7 @@ h2 {
   float: right;
   position: absolute;
   left: 700px;
-  top: 1126px;
+  top: 1170px;
 }
 
 .texto {
