@@ -1,137 +1,137 @@
 body {
-    background-color: rgb(253, 251, 251);
-    margin: 0 auto;
-    font-family: fantasy;
-    font-size: 14px;
-    letter-spacing: 1.2px;
+  background-color: rgb(253, 251, 251);
+  margin: 0 auto;
+  font-family: fantasy;
+  font-size: 14px;
+  letter-spacing: 1.2px;
 }
 
 #cabecalho {
-    font-size: 12;
-    color: white;
-    font-style: oblique;
-    text-align: center;
-    position: fixed;
-    top: 0;
-    background-color: green;
-    width: 100%;
-    border: 1px solid black;
-    border-top-left-radius: 20px;
-    border-bottom-right-radius: 20px;
-    padding-bottom: 40;
+  font-size: 12;
+  color: white;
+  font-style: oblique;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  background-color: green; 
+  width: 100%;
+  border: 1px solid black;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  padding-bottom: 40;
 }
 
 #linkedin , #GitHub {
-    position: absolute;
-    top: 9px;
-    margin: 15px;
-    color: rgb(204, 243, 204);
-    text-decoration: none; 
+  position: absolute;
+  top: 9px;
+  margin: 15px;
+  color: rgb(204, 243, 204);
+  text-decoration: none; 
   }
 
 #GitHub {
-    top: 35px;
+  top: 35px;
 }
 
 #GitHub:hover {
-    color: black;
+  color: black;
 }
 
 #linkedin:hover {
-    color: royalblue;
+  color: royalblue;
 }
 
 #minha_foto {
-    top: 80px;
-    position: absolute;
-    width: 125px;
-    border-radius: 40px;
-    left: 35px;
-    border: 1px solid green;
+  top: 80px;
+  position: absolute;
+  width: 125px;
+  border-radius: 40px;
+  left: 35px;
+  border: 1px solid green;
 }
 
 #dados { 
-    font-style: italic;
-    position: absolute;
-    padding: 5px;
-    font-size: 10px;
-    left: 170px;
-    top: 95px;
+  font-style: italic;
+  position: absolute;
+  padding: 5px;
+  font-size: 10px;
+  left: 170px;
+  top: 95px;
 }
 
 h3 {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 #licoes_aprendidas {
-    position: absolute;
-    display: inline-block;
-    top: 200px;
-    padding: 1px;
-    width: 215px;
-    left: 200px;
-    padding-left: 85px;
-    padding-bottom: 15px;
+  position: absolute;
+  display: inline-block;
+  top: 200px;
+  padding: 1px;
+  width: 215px;
+  left: 200px;
+  padding-left: 85px;
+  padding-bottom: 15px;
 }
 
 #licoes_a_aprender {
-    position: absolute;
-    display: inline-block;
-    top: 200px;
-    width: 220px;
-    left: 550px;
-    padding-left: 80px;
-    padding-bottom: 15px;
+  position: absolute;
+  display: inline-block;
+  top: 200px;
+  width: 220px;
+  left: 550px;
+  padding-left: 80px;
+  padding-bottom: 15px;
 }
 
 .lado-esquerdo {
-    display: inline-block;
-    text-align: justify;
-    position: absolute;
-    top: 455px;
-    width: 280px;
-    left: 200px;
-    padding: 10px;
+  display: inline-block;
+  text-align: justify;
+  position: absolute;
+  top: 455px;
+  width: 280px;
+  left: 200px;
+  padding: 10px;
 }
 
 .lado-direito {
-    text-align: justify;
-    width: 270px;
-    position: absolute;
-    top: 455px;
-    float: left;
-    left: 550px;
-    padding: 15px;
+  text-align: justify;
+  width: 270px;
+  position: absolute;
+  top: 455px;
+  float: left;
+  left: 550px;
+  padding: 15px;
 }
 
 #licoes_aprendidas , #licoes_a_aprender , .lado-direito , .lado-esquerdo {
-    border: 1px solid rgb(4, 197, 36);
-    border-radius: 5px;
-    background-color: rgb(231, 252, 234);
+  border: 1px solid rgb(4, 197, 36);
+  border-radius: 5px;
+  background-color: rgb(231, 252, 234);
 }
 
 table {
     font-weight: 500;
-    position: absolute;
-    left: 940px;
-    top: 300px;
-    padding: 5px;
+  position: absolute;
+  left: 940px;
+  top: 300px;
+  padding: 5px;
 }
 
 td {
-    border: 1px solid green;
-    background-color: rgb(231, 252, 234);
-    padding: 15px;
+  border: 1px solid green;
+  background-color: rgb(231, 252, 234);
+  padding: 15px;
     
 }
 
 th {
-    border: 1px solid rgb(231, 252, 234);
-    background-color: green;
-    color: white;
-    padding: 5px;
+  border: 1px solid rgb(231, 252, 234);
+  background-color: green;
+  color: white;
+  padding: 5px;
 }
 
 #rodape {
-    position: absolute;
-    bottom: 0px;
+  position: absolute;
+  bottom: 0px;
 }
