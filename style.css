@@ -47,7 +47,7 @@ body {
   font-family: Raleway, sans-serif;
 }
 .lista_aprendida h2 {
-    margin-top: 0%;
+  margin-top: 0%;
 }
 
 .article {
@@ -65,8 +65,7 @@ body {
   background-color: rgb(238, 238, 238);
   margin-top: 100px;
   height: 400px;
-  text-align: center;
-    
+  text-align: center; 
 }
 .aside {
   border-radius: 2%;
@@ -95,15 +94,15 @@ body {
 .tabela {
   border-radius: 4%;
   background-color: rgb(47, 193, 140);
-  border:rgb(238, 238, 238) solid thin;
+  border: rgb(238, 238, 238) solid thin; 
   text-align: center;
-  margin:auto;
+  margin: auto;
   height: auto;
   padding: 30px 20px;
   color: white;
 }
 .rodape {
-  margin: 10px 10px;
+  margin: 10px;
   height: auto;
   background-color: rgb(238, 238, 238);
   text-align: center;
@@ -115,7 +114,7 @@ body {
   font-family: Raleway, sans-serif;
   font-size: 30px;
 }
-  
+
 .img {
   width: 50px;
 }
