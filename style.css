@@ -32,7 +32,7 @@ nav {
 
 .barraNav {
     display: inline-block;
-    color:#006dfb;
+    color:#fff;
     margin-left: 35px;
     margin-top: 6px;
     font-size: 20px;
@@ -46,11 +46,11 @@ ul {
 
 a, a:visited {
     text-decoration: none;
-    color: #006dfb;
+    color: #fff;
 }
 
 .barraNav:hover, a:hover {
-    color:#fff;
+    color:#006dfb;
 }
 
 #minha_foto{
