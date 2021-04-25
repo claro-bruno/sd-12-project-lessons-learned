@@ -65,8 +65,9 @@ a, a:visited {
 }
 
 .title-liçoes{
-    margin-left: 80px;
+    margin-left: 75px;
     color:#0fa36b;
+    font-size: 20px;
 }
 
 #licoes_a_aprender {
