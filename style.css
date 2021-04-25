@@ -3,12 +3,11 @@
 
 body {
     background-color: rgb(253, 251, 251);
-    /*margin: 0px;*/
-    /*padding: 0px;*/
+    /* margin: 0px; */
+    /* padding: 0px; */
     font-family: 'Nunito', sans-serif;
     font-size: 20px;
-    color:rgb(58,195,144);
-    
+    color: rgb(58, 195, 144);
 }
 
 #cabecalho {
@@ -40,30 +39,30 @@ body {
     height: 25px;
     box-sizing: border-box;
     display: table;
-    border: #b33333;
+    border: rgb(179, 51, 51);
     border-width: thin;
 }
 
-#cabecalho #navegacao #botao-inicio{
+#cabecalho #navegacao #botao-inicio {
     font-family: 'Nunito', sans-serif;
     font-size: 19px;
     font-weight: bold;
-    color:rgb(58,195,144);
+    color: rgb(58, 195, 144);
     position: relative;
     left: 10px;
 }
 
-#cabecalho #navegacao #botao-fim{
+#cabecalho #navegacao #botao-fim {
     font-family: 'Nunito', sans-serif;
     font-size: 19px;
     font-weight: bold;
-    color:rgb(58,195,144);
+    color: rgb(58, 195, 144);
     position: relative;
     left: 25px;
 }
 
 #conteudo-perfil {
-    background-color: rgb(58,195,144);
+    background-color: rgb(58, 195, 144);
     max-width: 70%;
     margin: 0;
     padding: 20px;
@@ -71,10 +70,10 @@ body {
     border-radius: 10px;
 }
 
-/*#conteudo:after {
+/* #conteudo:after {
     display: block;
     clear: both;
-}*/
+} */
 
 #conteudo-perfil #caixa-da-imagem {
     width: 200px;
@@ -82,7 +81,7 @@ body {
     float: left;
 }
 
-#conteudo-perfil #caixa-da-imagem  img {
+#conteudo-perfil #caixa-da-imagem img {
     max-width: 100%;
     border-radius: 50%;
 }
@@ -93,20 +92,20 @@ body {
     text-align: center;
     font-size: 18px;
     font-weight: bold;
-    color: rgb(68,73,85);
+    color: rgb(68, 73, 85);
 }
 
 #conteudo-perfil #caixa-do-texto {
     padding-right: 10px;
 }
 
-#conteudo-perfil #caixa-do-texto p{
+#conteudo-perfil #caixa-do-texto p {
     position: relative;
     left: 15px;
     text-align: justify;
     font-size: 20px;
     font-weight: bold;
-    color:#ffffff;   
+    color: rgb(255, 255, 255);   
 }
 
 #barra-lateral {
@@ -116,7 +115,7 @@ body {
     bottom: 300px;
     /*margin-left: 950px;*/
     border-radius: 10px;
-    background-color: #057ceb;
+    background-color: rgb(5, 124, 235);
     float: right;
 }
 
@@ -125,28 +124,28 @@ body {
     font-size: 24px;
     text-align: right;
     font-weight: bold;
-    color:#ffffff;
+    color: rgb(255, 255, 255);
     margin: 50px 10px;
     margin-right: 60px;
     font-style: oblique;
 }
 
-#barra-lateral #item il {
+#barra-lateral #item li {
     font-family: 'Nunito', sans-serif;
     font-size: 20px;
     text-align: left;
     font-weight: bold;
-    color:#ffffff;
+    color: rgb(255, 255, 255);
     position: relative;
     right: 10px;
 }
 
-#barra-lateral #item #subitem il {
+#barra-lateral #item #subitem li {
     font-family: 'Nunito', sans-serif;
     font-size: 15px;
     text-align: left;
     font-weight: bold;
-    color:#ffffff;
+    color: rgb(255, 255, 255);
     position: relative;
     right: 20px;
 }
@@ -159,10 +158,10 @@ body {
 }
 
 #conteudo-aprendido h4 {
-    text-align:left;
+    text-align: left;
     font-size: 19px;
     font-weight: bold;
-    color:rgb(68,73,85);
+    color: rgb(68, 73, 85);
     margin-top: 10px;
     margin-bottom: 10px;
     position: relative;
@@ -174,30 +173,30 @@ body {
     border-radius: 20px;
     border-style: solid;
     border-width: 5px;
-    border-color: rgb(58,195,144);
+    border-color: rgb(58, 195, 144);
     float: left;
 }
 
 #conteudo-aprendido #conteudo-esquerda p {
-    text-align:center;
+    text-align: center;
     font-size: 18px;
     font-weight: bold;
-    color:#057ceb;
+    color: rgb(5, 124, 235);
 }
 
 #conteudo-aprendido #conteudo-esquerda #licoes_aprendidas li {
-    text-align:left;
+    text-align: left;
     font-size: 16px;
     margin-right: 20px;
     font-weight: bold;
-    color:#057ceb;
+    color: rgb(5, 124, 235);
 }
 
 #conteudo-aprendido #conteudo-direita p {
-    text-align:center;
+    text-align: center;
     font-size: 18px;
     font-weight: bold;
-    color:#b33333;
+    color: rgb(179, 51, 51);
 }
 
 #conteudo-aprendido #conteudo-direita {
@@ -205,16 +204,16 @@ body {
     border-radius: 20px;
     border-style: dashed;
     border-width: 5px;
-    border-color: rgb(58,195,144);
+    border-color: rgb(58, 195, 144);
     float: right;
 }
 
 #conteudo-aprendido #conteudo-direita #licoes_a_aprender li {
-    text-align:left;
+    text-align: left;
     font-size: 16px;
     margin-right: 20px;
     font-weight: bold;
-    color:#b33333;
+    color: rgb(179, 51, 51);
 }
 
 #rodape {
@@ -230,23 +229,23 @@ body {
     font-size: 16px;
     text-align: center;
     font-weight: bold;
-    color: rgb(58,195,144);
+    color: rgb(58, 195, 144);
     position: relative;
     top: 10px;
     left: 195px;
 }
 
-#rodape  a {
+#rodape a {
     float: right;
 }
 
-#rodape  #github {
+#rodape #github {
     position: relative;
     bottom: 42px;
     left: 50px;
 }
 
-#rodape  #linkedin {
+#rodape #linkedin {
     position: relative;
     bottom: 43px;
     right: 550px;
