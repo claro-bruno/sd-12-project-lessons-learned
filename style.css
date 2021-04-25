@@ -59,6 +59,14 @@ body {
     color: rgb(58, 195, 144);
     position: relative;
     left: 25px;
+
+}#cabecalho #navegacao #botao-trybe {
+    font-family: 'Nunito', sans-serif;
+    font-size: 19px;
+    font-weight: bold;
+    color: rgb(58, 195, 144);
+    position: relative;
+    left: 40px;
 }
 
 #conteudo-perfil {
@@ -148,6 +156,16 @@ body {
     color: rgb(255, 255, 255);
     position: relative;
     right: 20px;
+}
+
+#barra-lateral #item span {
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+    text-align: left;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    position: relative;
+    right: 10px;
 }
 
 #conteudo-aprendido {
