@@ -42,13 +42,13 @@ h2 {
     font-family: 'Times New Roman', Times, serif;
     width: 100px;
     margin-top: 50px;
-    margin-left: 30px;
+    margin-left: 10px;
 }
 
 #article {
     font-family: sans-serif;
     margin-top: 50px;
-    margin-left: 30px;
+    margin-left: 5px;
     text-align: justify;
     color: green;
     font-size: 18px;
@@ -58,7 +58,7 @@ h2 {
 #section {
     font-family: sans-serif;
     margin-top: 30px;
-    margin-left: 30px;
+    margin-left: 5px;
     text-align: justify;
     color: green;
     font-size: 18px;
@@ -68,6 +68,6 @@ h2 {
 #tabela {
     font-family: sans-serif;
     margin-top: 50px;
-    margin-left: 30px;
+    margin-left: 5px;
     
 }
