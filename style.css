@@ -3,7 +3,48 @@ body{
     
 }
 
-#cabecalho {
+#cabecalho{
     position: fixed;
     top: 0px;
+    width: 100%;
+    background-color: green;
+    text-align: center;
+    
+}
+
+#titulo{
+
+    color: white;
+    
+}
+
+#minha_foto{
+    padding-top: 90px;
+    margin-left: 10px;
+    margin-bottom: 30px
+}
+
+a{
+    position: absolute;
+    left: 20px;
+    top: 300px;
+}
+
+#licoes{
+    padding: 20px;
+}
+
+#licoes_a_aprender{
+    position: absolute;
+    left: 200px;
+    bottom: 50px;
+}
+
+article{
+    width: 50%;
+    
+}
+
+#rodape{
+    padding-top: 20px;
 }
