@@ -24,13 +24,25 @@ body {
 
 .links {
     padding: 5px;
-    background-color: goldenrod;
+    background-color: greenyellow;
     width: fit-content
 }
 
 
 main {
     margin-top: 140px;
+}
+
+.profile {
+    background-color:goldenrod;
+    padding: 30px 30px 15px;
+}
+
+#profile_info {
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    
 }
 
 #minha_foto {
@@ -40,18 +52,58 @@ main {
     margin: 0 auto;
 }
 
+#lessons {
+    background-color: gray;
+    color: honeydew;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 15px 30px 15px;   
+}
+
+#lessons h2 {
+    color: black;
+
+}
+
+#lessons ol, ul, li {
+    line-height: 25px;
+}
+
+.lessons_learned {
+    display: inline-block;
+    font-size: 20px;
+    width: 35%;
+}
+
+.lessons_to_learn {
+    display: inline-block;
+    font-size: 20px;
+    width: 35%;
+}
+
+#learning_trybe {
+    background-color: rebeccapurple;
+    line-height: 25px;
+    padding: 15px 30px 15px;
+}
+
 .left_side {
     display: inline-block;
     width: 35%;
     font-size: 20px;
+    text-align: justify;
 }
 
 .right_side {
     display: inline-block;
     width: 35%;
     font-size: 20px;
+    text-align: justify;
+    vertical-align: top;
+    margin-left: 20%;
+
 }
 
 #rodape {
-    background-color: greenyellow;
+    background-color: green;
+    color: whitesmoke;
 }
