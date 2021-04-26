@@ -7,7 +7,7 @@ body {
     width: 300px;
     margin-top: 80px;
     border-radius: 100px;
-    }
+}
 #cabecalho {
     top: 0px;
     position: fixed;
@@ -29,7 +29,7 @@ body {
     color: grey;
     
 }
-a {
+    a {
     font-size: 25px;
     left: 50px;
 }
@@ -43,23 +43,23 @@ a {
     font-size: 30px;
 }
 .lado-direito {
-  font-size: 25px;
-  padding: 30px 70px 90px 70px;
-  margin: auto;
-  }
+    font-size: 25px;
+    padding: 30px 70px 90px 70px;
+    margin: auto;
+}
   .lado-esquerdo {
     padding: 30px 70px 90px 70px;
     margin: auto;
     font-size: 25px; 
     width: 80%;
-    }
+}
     .conteiner-text {
-        width: 30%;
-        display:inline-block;
-        vertical-align:top;
-        text-align:center;
-        margin:10px;
-    }
+    width: 30%;
+    display:inline-block;
+    vertical-align:top;
+    text-align:center;
+    margin:10px;
+}
     .botaoside {
     position: relative;
     width: 80px; 
@@ -73,9 +73,24 @@ a {
     font-size: 20px;
 }
 .stiloptabela {
-font-size: 30px;
-position: center;
+    font-size: 30px;
+    position: center;
 }
+
+th {
+    font-size: 25px;
+    text-align: center;
+    padding: 5px;
+    border-collapse: collapse;
+}
+td {
+    font-size: 20px;
+    padding: 5px;
+    border-collapse: collapse;
+}
+
+
+
 
 
 
