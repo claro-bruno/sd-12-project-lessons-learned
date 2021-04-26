@@ -12,7 +12,6 @@ body {
 
 #titulo {
   color: rgb(253, 251, 251);
-  font-weight: 16px;
 }
 
 #foto {
@@ -54,7 +53,6 @@ div {
   margin: auto;
   padding: 10px;
   margin-left: 20%;
-    
 }
 
 #conteiner {
