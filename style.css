@@ -68,6 +68,10 @@ table{
     margin: auto;
 }
 
+#tema-tabela{
+    text-align: center;
+}
+
 .tabela{
     padding: 50px;
     border: 3px solid purple;
