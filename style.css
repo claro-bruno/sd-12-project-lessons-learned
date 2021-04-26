@@ -4,13 +4,13 @@ body {
 
 li, p, table {
   padding: 3px;
-  font-family: 'Roboto', sans-serif, monospace;
+  font-family: "Roboto", sans-serif, monospace;
   line-height: 19px;
 }
 
 h2, h3, footer {
   text-align: left;
-  font-family: 'Balsamiq Sans', sans-serif, monospace;
+  font-family: "Balsamiq Sans", sans-serif, monospace;
   line-height: 19px;
 }
 
@@ -31,7 +31,7 @@ a:hover {
   position: fixed;
   left: 0;
   top: 0;
-  font-family: 'Balsamiq Sans', Arial, Helvetica, sans-serif;
+  font-family: "Balsamiq Sans", Arial, sans-serif;
   text-align: center;
   color: blueviolet;
   background-color: rgb(206, 206, 250);
@@ -52,7 +52,6 @@ a:hover {
 }
 
 .article, .lado-esquerdo {
-  z-index: 2;
   display: inline-block;
   width: 65%;
   background-color: rgb(0, 230, 161);
@@ -62,7 +61,6 @@ a:hover {
 }
 
 .aside, .lado-direito {
-  z-index: 1;
   display: inline-block;
   vertical-align: top;
   margin-left: 10px;
