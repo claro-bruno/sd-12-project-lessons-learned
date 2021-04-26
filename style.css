@@ -6,7 +6,16 @@ body {
     top: 0%;
     width: 100%;
 }
-
 #titulo {
     text-align: center;
+}
+#img {
+    top: 0%;
+    left: 0%;
+    margin-bottom: 30px;
+}
+
+#rodape {
+    margin-top: 200px;
+    text-align: right;
 }
