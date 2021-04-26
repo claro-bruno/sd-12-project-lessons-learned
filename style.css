@@ -19,9 +19,9 @@ header {
 }
 
 .foto {
-    width: 470px;
-    padding: 100px 50px 10px 40px;
-    margin: auto;
+  width: 470px;
+  padding: 100px 50px 10px 40px;
+  margin: auto;
 }
 
 .primeiroBloco {
@@ -31,33 +31,51 @@ header {
 }
 
 .itemBloco {
-  width: 30%;
+  width: 30%;/* w3schools.com/howto/howto_css_images_side_by_side.asp */
   text-align: center;
   margin: 100px;
   display: inline-block;
 }
 
 .sideBySide {
-  width: 20%;
+  width: 50%;
   text-align: center;
-  padding: 5px 20px 20px 20px;
+  padding: 5px 20px 20px;
   margin: auto;
+  display: table;
 }
 
 .lado-esquerdo {
-  display: inline-block;  
+  float: left;
+  width: 33.33%;
+  padding: 5px;
 }
 
 .lado-direito {
-  display: inline-block;  
+  float: right;
+  width: 33.33%;
+  padding: 5px;
 }
 
-p , li , th {
-  
+footer {
+  width: 100%;
+  background-color: green;
+  margin: auto;
 }
 
-ul , ol {
-  
+#pe {
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 0;
+  line-height: 30px;
+}
+
+table {
+  text-align: center;
+  width: 200px;
+  padding: 20px 10px;
+  margin: auto;
 }
 
 h2 , h3 {
