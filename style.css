@@ -62,3 +62,6 @@ body{
     display: inline-block;
     width: 40%;
 }
+#tableId{
+    border: 1px solid;
+}
