@@ -49,7 +49,7 @@ body {
     top: 445px;
     left: 50px ;
 }
-article {
+.lado-esquerdo {
     position: absolute;
     display: block;
     width: 500px;
@@ -57,7 +57,7 @@ article {
     top: 480px;
 }
 
-#aside-aprendizado {
+.lado-direito {
     position: absolute;
     display: block;
     bottom: 100px;
