@@ -132,7 +132,7 @@ body {
     color: rgb(255, 255, 255);   
 }
 
-#barra-lateral {
+#caixa-barra-lateral #barra-lateral {
     position: relative;
     top: -248px;
     width: 28%;
@@ -145,7 +145,7 @@ body {
     float: right;
 }
 
-#barra-lateral h3 {
+#caixa-barra-lateral #barra-lateral h3 {
     font-family: 'Josefin Sans', sans-serif;
     font-size: 24px;
     text-align: right;
@@ -154,9 +154,10 @@ body {
     margin: 50px 10px;
     margin-right: 60px;
     font-style: oblique;
+    text-decoration: underline;
 }
 
-#barra-lateral #item li {
+#caixa-barra-lateral #barra-lateral #item li {
     font-family: 'Nunito', sans-serif;
     font-size: 20px;
     text-align: left;
@@ -166,28 +167,32 @@ body {
     right: 10px;
 }
 
-#barra-lateral #item #subitem li {
+#caixa-barra-lateral #barra-lateral #item #item-titulo #subitem {
     font-family: 'Nunito', sans-serif;
     font-size: 15px;
     text-align: left;
     font-weight: bold;
-    line-height: 25px;
+    line-height: 35px;
     color: rgb(255, 255, 255);
     position: relative;
-    right: 20px;
+    left: -5px;
+    top: 25px;
 }
 
-#barra-lateral #item span {
+#caixa-barra-lateral span {
     font-family: 'Nunito', sans-serif;
+    display: inline-block;
+    max-width: 350px;
     font-size: 20px;
     text-align: left;
     font-weight: bold;
     color: rgb(255, 255, 255);
     position: relative;
-    right: 10px;
+    left: 760px;
+    top: 75px;
 }
 
-#barra-lateral #tabela-curso-trybe {
+#caixa-barra-lateral #tabela-curso-trybe {
     font-family: 'Nunito', sans-serif;
     font-weight: bold;
     border-collapse: collapse;
@@ -197,17 +202,17 @@ body {
     color: rgb(255, 152, 152);
     position: relative;
     text-align: left;
-    bottom: 10px;
-    left: 85px;
+    bottom: -145px;
+    left: 975px;
 }
 
-#barra-lateral #tabela-curso-trybe th {
+#caixa-barra-lateral #tabela-curso-trybe th {
     color:rgb(58, 195, 144);
 }
 
 #conteudo-aprendido {
     position: relative;
-    top: 52px;
+    top: -150px;
     max-width: 70%;
     box-sizing: border-box;
     border-radius: 10px;
@@ -275,7 +280,7 @@ body {
 
 #rodape {
     position: relative;
-    top: 52px;
+    top: -150px;
     bottom: 0px;
     width: 100%;
     height: 40px;
@@ -313,5 +318,5 @@ body {
 #rodape #trybe-logo-02 {
     position: relative;
     left: 425px;
-    bottom: 240px;
+    bottom: 250px;
 }
