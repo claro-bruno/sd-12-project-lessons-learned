@@ -12,11 +12,34 @@ nav a {
 }
 
 article {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 16px;
     letter-spacing: 2px;
     color: seagreen;
 }
+
+#rodape {
+    margin: auto;
+    margin: 10px 0 10px 0;
+    width: 100%;
+    bottom: 0;
+    position: fixed;
+    float: right;
+}
+
+.lado-esquerdo{
+    width: 64%;
+    margin: auto;
+    float: left;
+}
+
+.lado-right{
+    width: 34%;
+    margin: auto;
+    float: right;
+}
+
 
 #cabecalho {
   margin: 0px 0px 0px -6px;
