@@ -1,17 +1,17 @@
 body {
-  background-color:rgb(253, 251, 251);
+  background-color: rgb(253, 251, 251);
 }
 
 header {
-  color:rgb(253, 251, 251);
-  background-color:#11a36a;
+  color: rgb(253, 251, 251);
+  background-color: #11a36a;
   position: fixed;
   padding: 10px;
-  width: 100%;    
+  width: 100%;
 }
 
 nav a {
-  color:rgb(253, 251, 251);
+  color: rgb(253, 251, 251);
   text-decoration: none;
 }
 
