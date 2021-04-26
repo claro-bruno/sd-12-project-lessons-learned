@@ -53,5 +53,12 @@ body{
 #licoes_a_aprender{
     display: inline-block;
     width: 40%;
-    
+}
+#articlestyle{
+    display: inline-block;
+    width: 40%;
+}
+#asidestyle{
+    display: inline-block;
+    width: 40%;
 }
