@@ -13,18 +13,31 @@ body {
         top: 75px;
 }
 
+#licoes_trybe {
+    position: absolute;
+    top: 350px;
+}
+
 #licoes_aprendidas{
         position: absolute;
-        top: 365px;
+        top: 395px;
 }
 
 #licoes_a_aprender {
         position: absolute;
-        top: 365px;
+        top: 395px;
         left: 200px;
 }
 
 #rodape {
         position: absolute;
-        top: 600px;
+        top: 700px;
+}
+#artigo_trybe {
+    position: absolute;
+    top: 590px;
+}
+#article {
+    position: absolute;
+    top: 650px;
 }
