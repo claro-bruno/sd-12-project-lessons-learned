@@ -29,6 +29,9 @@ body {
     color: grey;
     
 }
+#formatow {
+    font-size: 25px;
+}
     a {
     font-size: 25px;
     left: 50px;
@@ -52,8 +55,12 @@ body {
     font-size: 25px; 
     width: 80%;
     }  
-   .position {
+   .lado-direito .lado-esquerdo {
        display: inline-block;
+   }
+   
+   #aprendizado {
+
    }
 
 
