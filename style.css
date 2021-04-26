@@ -80,11 +80,11 @@ div {
   background-color: rgb(77, 83, 94);
   padding-top: 5px;
   padding-bottom: 5px;
+  line-height: 15px;
 }
 
 #artigo {
   width: 100%;
-  padding: 20px;
   margin: 5px;
 }
 
