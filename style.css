@@ -2,8 +2,8 @@ body {
   background-color: rgb(253, 251, 251);
   margin: 0 auto;
   font-family: fantasy;
-  font-size: 14px;
-  letter-spacing: 1.2px;
+  font-size: 15px;
+  line-height: 16px;
 }
 
 #titulo {
@@ -22,6 +22,7 @@ body {
   border: 1px solid black;
   border-top-left-radius: 20px;
   border-bottom-right-radius: 20px;
+  padding: 10px;
   padding-bottom: 40;
 }
 
@@ -113,8 +114,7 @@ h3 {
   border: 1px solid rgb(4, 197, 36);
   border-radius: 5px;
   background-color: rgb(231, 252, 234);
-  font-size: 14px;
-  letter-spacing: 1.1px;
+  font-size: 15px;
 }
 
 table {
