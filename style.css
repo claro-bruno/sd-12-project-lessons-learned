@@ -3,31 +3,36 @@ body {
   margin: 0;
   top: 0;
 }
+
 header {
   z-index: 5;
   position: fixed;
   top: 0;
   background-color: rgb(235, 200, 84);
   font-size: 20;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: 'Lucida Sans Regular',  sans-serif;
   width: 100%;
   text-align: center;
 }
+
 h1 {
   text-align: center;
   color:rgb(34, 158, 9);
 }
+
 main {
   margin-top: 15%;
 }
+
 #minha_foto {
   position:relative;
   width: 40%;
   height: 40%;
   display: block;
-  margin-left: auto; 
+  margin-left: auto;
   margin-right: auto;
 }
+
 #rodape {
   background-color: rgb(9, 141, 158);
   bottom: 0;
@@ -36,13 +41,14 @@ main {
   margin-left: 15px;
   margin-right: 15px;
 }
+
 #artigo {
   margin-left: 15px;
   margin-right: 15px;
   line-height: 2;
 }
+
 #lateral {
   margin-left: 15px;
   margin-right: 15px;
-
 }
