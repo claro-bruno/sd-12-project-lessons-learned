@@ -45,17 +45,24 @@ body {
 .lado-direito {
     font-size: 25px;
     padding: 30px 70px 90px 70px;
-    margin: auto;
-}
+    }
+
   .lado-esquerdo {
     padding: 30px 70px 90px 70px;
-    margin: auto;
     font-size: 25px; 
     width: 80%;
-}
+    }  
+   .position {
+       display: inline-block;
+   }
+
+
+
+
+
+       
     .conteiner-text {
     width: 30%;
-    display:inline-block;
     vertical-align:top;
     text-align:center;
     margin:10px;
@@ -71,10 +78,6 @@ body {
 }  
 .sizefooter {
     font-size: 20px;
-}
-.stiloptabela {
-    font-size: 30px;
-    position: center;
 }
 
 th {
