@@ -12,6 +12,7 @@ body {
 
 #cabecalho {
     top: 0px;
+    position: fixed;
     margin-bottom: 10px;
     width: 100%;
     height: 50px;
@@ -69,7 +70,15 @@ body {
     left: 40px;
 }
 
+#cabecalho #navegacao #trybe-logo-01 {
+    position: relative;
+    left: 55px;
+    top: 5px;
+}
+
 #conteudo-perfil {
+    position: relative;
+    top: 52px;
     background-color: rgb(58, 195, 144);
     max-width: 70%;
     margin: 0;
@@ -117,8 +126,10 @@ body {
 }
 
 #barra-lateral {
+    position: relative;
+    top: -248px;
     width: 28%;
-    height: 650px;
+    height: 659px;
     position: relative;
     bottom: 300px;
     /*margin-left: 950px;*/
@@ -153,6 +164,7 @@ body {
     font-size: 15px;
     text-align: left;
     font-weight: bold;
+    line-height: 25px;
     color: rgb(255, 255, 255);
     position: relative;
     right: 20px;
@@ -169,6 +181,8 @@ body {
 }
 
 #conteudo-aprendido {
+    position: relative;
+    top: 52px;
     max-width: 70%;
     box-sizing: border-box;
     border-radius: 10px;
@@ -186,7 +200,7 @@ body {
     left: 220px;
 }
 
-#conteudo-aprendido #conteudo-esquerda {
+#conteudo-aprendido #lado-esquerdo {
     max-width: 50%;
     border-radius: 20px;
     border-style: solid;
@@ -195,14 +209,14 @@ body {
     float: left;
 }
 
-#conteudo-aprendido #conteudo-esquerda p {
+#conteudo-aprendido #lado-esquerdo p {
     text-align: center;
     font-size: 18px;
     font-weight: bold;
     color: rgb(5, 124, 235);
 }
 
-#conteudo-aprendido #conteudo-esquerda #licoes_aprendidas li {
+#conteudo-aprendido #lado-esquerdo #licoes_aprendidas li {
     text-align: left;
     font-size: 16px;
     margin-right: 20px;
@@ -210,14 +224,14 @@ body {
     color: rgb(5, 124, 235);
 }
 
-#conteudo-aprendido #conteudo-direita p {
+#conteudo-aprendido #lado-direito p {
     text-align: center;
     font-size: 18px;
     font-weight: bold;
     color: rgb(179, 51, 51);
 }
 
-#conteudo-aprendido #conteudo-direita {
+#conteudo-aprendido #lado-direito {
     max-width: 50%;
     border-radius: 20px;
     border-style: dashed;
@@ -226,7 +240,7 @@ body {
     float: right;
 }
 
-#conteudo-aprendido #conteudo-direita #licoes_a_aprender li {
+#conteudo-aprendido #lado-direito #licoes_a_aprender li {
     text-align: left;
     font-size: 16px;
     margin-right: 20px;
@@ -235,6 +249,8 @@ body {
 }
 
 #rodape {
+    position: relative;
+    top: 52px;
     bottom: 0px;
     width: 100%;
     height: 40px;
@@ -267,4 +283,10 @@ body {
     position: relative;
     bottom: 43px;
     right: 550px;
+}
+
+#rodape #trybe-logo-02 {
+    position: relative;
+    left: 450px;
+    bottom: 200px;
 }
