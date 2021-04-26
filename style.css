@@ -75,7 +75,7 @@ a , a:visited {
 }
 
 #licoes_a_aprender li:before {
-  content: "•";
+  content: '•';
   color: rgb(15, 163, 107);
   font-weight: 700;
   margin-right: 10px;
