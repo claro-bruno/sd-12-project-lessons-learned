@@ -115,61 +115,44 @@ aside p{
 }
 
 .skills{
-    padding: 30px 70px 90px 70px;
+    padding: 20px 70px 20px 70px;
     width: 80%;
     margin: auto;
+    height: 400px;
+    box-sizing: content-box;
 }
 
 .lado-esquerdo, .lado-direito, .central{
     border: 2px double rgb(42, 46, 43);
     border-spacing: 2px;
     padding: 10px;
-    
-}
-
-.lado-esquerdo, .lado-direito, .tabela, .central{
     width: 27%;
     margin: 10px;
     display: inline-block;
+    vertical-align: top;
+    height: 100%;
+    box-sizing: border-box;
 }
 
-
 table{
-    color:rgb(42, 46, 43);
-    
-   
+    color:rgb(42, 46, 43); 
 }
 table td{
     border:1px double rgb(42, 46, 43);
     border-spacing:1px;
     color:rgb(42, 46, 43);
-    
-    
-    
-    
+    padding:20px;   
 }
-table td{
-    padding:20px;
-    
-   
-}
-
 
 #rodape{
     background-color:rgb(42, 46, 43);
     padding-bottom: 20px;
-    display: inline-block;
     width: 100%;
-   
-    
-
 }
 footer img{
     width:40px;
-
 }
-footer a{
-    
+footer a{  
     color:rgb(253, 251, 251);
     text-decoration:none;
     margin-right:30px;
