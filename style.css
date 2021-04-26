@@ -22,3 +22,8 @@ body {
     border-radius: 2%;
     padding: auto ;
 }
+
+#rodape {
+    background-color: rgb(155, 209, 28);
+    padding-bottom: 100px;
+}
