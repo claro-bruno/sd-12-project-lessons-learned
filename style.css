@@ -44,10 +44,25 @@ h1 {
   border-radius: 30%;
 }
 
+#eu {
+  font-family: 'Sacramento', cursive;
+  font-size: 50px;
+  position: absolute;
+  left: 20px;
+}
+
 table {
   position: absolute;
   left: 670px;
   bottom: 210px;
+}
+
+#aprendizado {
+  font-family: 'Sacramento', cursive;
+  font-size: 50px;
+  position: absolute;
+  left: 670px;
+  bottom: 330px;
 }
 
 table td , th {
