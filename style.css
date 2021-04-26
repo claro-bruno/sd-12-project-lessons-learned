@@ -3,11 +3,17 @@ body {
 }
 
 #cabecalho {
+  margin: 0px 0px 0px -6px;
+  padding: 0 0 0 10px;
+  width: 99%;
+  height: auto;
+  border: 2px solid #000;
   position: fixed;
   top: 0;
 }
 
 #minha_foto {
+    margin-top: 80px;
     height: 160px;
     width: 160px;
 }
