@@ -1,24 +1,24 @@
 body { 
   background-color:rgb(253, 251, 251);
-     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     
 }
 
-  header {
+header {
   top: 0%;
-    background-color: #04830b;
+  background-color: #04830b;
 }
 
-    #cabecalho {
-      color: white;font-size: 20px;
-       padding: 10px 10px 10px 10px;
-       top: 0;
+#cabecalho {
+  color: white;font-size: 20px;
+  padding: 10px 10px 10px 10px;
+  top: 0;
 }
 
-    .menu {
-      color: white;
-        text-decoration: none;
-         padding: 30px 30px ;
+.menu {
+  color: white;
+  text-decoration: none;
+  padding: 30px 30px ;
 }
 
 #minha_foto {
@@ -32,13 +32,14 @@ body {
 }
 
 #licoes_a_aprender {
-      color: black;
-      margin-left: 109px;
+  color: black;
+  margin-left: 109px;
 }
 .artigo{
   max-width: 90%;
   margin-left: 10px;
 }
+
 #rodape{
   color: black;
 }
