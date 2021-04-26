@@ -3,14 +3,46 @@ body{
     background-color: rgb(253, 251, 251);
 }
 
+header{
+    text-align: center;
+    background-color: rgba(112, 128, 144, 0.603);
+    margin-bottom: 10%;
+}
+
+nav ul li,a{
+    display: inline-block;
+    margin-left:1%;
+    margin-right:1%;
+    color: rgb(100, 102, 102);
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    color: rgb(6, 180, 180);
+    font-family: monospace;
+    font-weight: bold;
+}
+
 #cabecalho{
     position: fixed;
-    margin-top: 0%;
+    margin-top: 0px;
     width: 100%;
 }
 
 #titulo{
-text-align: center;
+    font-weight: bold;
+    font-family: monospace;
+    color: teal;
+}
+
+#titulo-learned{
+    color: slateblue;
+}
+
+h3{
+    color: rgb(97, 97, 97);
+    font-weight: bold;
+    font-family: monospace;
 }
 
 #minha_foto{
@@ -18,19 +50,53 @@ text-align: center;
     width: 200px;
 }
 
-.nomeEfoto{
+.sobre{
+    margin-bottom: 10%;
+}
+
+#licoes_aprendidas{
+    border: 2px solid slateblue;
+    background-color:rgba(70, 131, 180, 0.788);
+    border-radius: 3%;
+}
+
+#licoes_a_aprender{
+    border: 2px solid rgba(70, 131, 180, 0.788);
+    background-color:rgba(105, 90, 205, 0.747) ;
+    border-radius: 3%;
+}
+
+#JS{
+    color:rgb(155, 155, 4);
+}
+
+section ul, ol li{
+     font-weight: bold;
+     color: white;
+ }
+
+.aprendizados-left{
     display: inline-block;
+    margin-left: 5%;
+    margin-right: auto;
+ }
+
+.aprendizados-right{
+    display: inline-block;
+    margin-left: 25%;
+    margin-right: auto;
+ }
+
+aside{
+    margin-top: 10%;
+    border: 2px solid skyblue;
+    background-color: rgba(13, 139, 128, 0.096);
+    text-align: center;
+    margin-bottom: 10%;
+}
+
+
+#rodape{
     text-align: center;
 }
 
-.licoes_aprendidas{
-
-}
-
-.licoes_a_aprender{
-
-}
-
-.rodape{
-    
-}
