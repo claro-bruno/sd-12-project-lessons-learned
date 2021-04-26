@@ -9,8 +9,12 @@ body {
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   color: white;
   background-color: green;
+}
 
-}#minha_foto {
+#titulo {
+  font-size: 40px;
+}
+#minha_foto {
   size: 400px;
 }
 #minha_foto {
