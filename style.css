@@ -32,14 +32,14 @@ header {
 }
 
 .itemBloco {
-  width: 30%;/* w3schools.com/howto/howto_css_images_side_by_side.asp */
+  width: 30%;
   text-align: center;
   margin: 100px;
   display: inline-block;
 }
 
 .sideBySide {
-  width: 50%;
+  width: 50%;/* w3schools.com/howto/howto_css_images_side_by_side.asp */
   text-align: center;
   padding: 5px 20px 20px;
   margin: auto;
