@@ -31,17 +31,27 @@ body {
 }
 
 table {
-  margin: auto;
+margin: auto;
+padding: 70px 30px;
 }
 
 .lado-direito{
   float: right;
+  
 }
 
 .lado-esquerdo{
   float:left;
+  width: 30%;
+
+}
+
+aside{
+  clear: both;
 }
 
 footer {
+  clear: both;
   background-color: lightgreen;
+  margin-bottom: auto;
 }
