@@ -1,6 +1,6 @@
 body {
     background-color: rgb(253, 251, 251);  
-}
+};
 
 .header {
     position: fixed;
@@ -10,18 +10,18 @@ body {
     background-color: rgb(95, 88, 88);
     width: 100%;
     height: 100px;    
-}
+};
 
 .header h1 {
     text-align: center;
     color: white;
     font-size: 50px;
     font-family: sans-serif;
-}
+};
 
 .secao-foto {
     text-align: center;   
-}
+};
 
 .profile {
     width: 250px;
@@ -30,7 +30,7 @@ body {
     margin-left: 50px;
     background-color: rgb(95, 88, 88);
     padding: 3px;      
-}
+};
 
 .list-section {
     text-align: center; 
@@ -39,22 +39,22 @@ body {
     background-color: rgb(129, 116, 116);
     border-radius: 20px;
     color: white; 
-}
+};
 
 .list {
     line-height: 30px;   
     display: inline-block;
     padding: 20px; 
     margin-left: 150px;    
-}
+};
 
 .lists {
     text-align: center;
-}
+};
 
 .list li {
     text-align: left;
-}
+};
 
 .footer {
     position: fixed;
@@ -63,21 +63,21 @@ body {
     bottom: 0px;
     left: 0px;    
     height: 50px;
-}
+};
 
 .footer-links {
     text-align: center;
     margin-top: 15px;  
-}
+};
 
 .footer a {
     text-decoration: none;
     color: white;    
-}
+};
 
 .footer a:hover {  
     color: rgb(255, 136, 136);  
-}
+};
 
 .lado-esquerdo {
     margin-bottom: 80px;
@@ -85,7 +85,7 @@ body {
     max-width: 300px;  
     margin-left: 250px;
     display: inline-block;
-}
+};
 
 .lado-direito {    
     max-width: 800px;   
@@ -93,7 +93,7 @@ body {
     margin-top: 150px;
     margin-right: 50px;
     position: absolute;
-}
+};
 
 .aside-content {
     margin-left: 500px;
@@ -101,4 +101,4 @@ body {
     padding: 5px 25px 5px 20px;
     border-radius: 25px;
     color: white;
-}
+};
