@@ -6,6 +6,9 @@ body {
 #cabecalho {
   position: fixed;
   top: 0;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: white;
+  background-color: green;
 
 }#minha_foto {
   size: 400px;
