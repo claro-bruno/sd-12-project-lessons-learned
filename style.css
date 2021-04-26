@@ -1,9 +1,15 @@
 body {
   background-color: rgb(253, 251, 251);
+  font-family: sans-serif;
 }
 
 #cabecalho {
   position: fixed;
   top: 0;
 
+}#minha_foto {
+  size: 400px;
+}
+#minha_foto {
+  width: 300px;
 }
