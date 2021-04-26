@@ -22,7 +22,7 @@ body {
   color: rgb(16, 117, 80);
 }
 
-.minhafoto {
+.minha_foto {
   width: 250px;
   border-radius: 25%;
   float: left;
@@ -51,7 +51,7 @@ body {
   margin-top: 0%;
 }
 
-.article {
+.lado-esquerdo {
   border-radius: 2%;
   background-color: rgb(47, 193, 140);
   padding: 15px;
