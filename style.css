@@ -45,7 +45,7 @@ h1 {
 }
 
 #eu {
-  font-family: 'Sacramento', cursive;
+  font-family: Sacramento, cursive;
   font-size: 50px;
   position: absolute;
   left: 20px;
@@ -58,10 +58,10 @@ table {
 }
 
 #aprendizado {
-  font-family: 'Sacramento', cursive;
+  font-family: Sacramento, cursive;
   font-size: 50px;
   position: absolute;
-  left: 670px;
+  left: 700px;
   bottom: 330px;
 }
 
@@ -82,19 +82,34 @@ table td , th {
 }
 
 .listTitle {
-  margin-left: 20px;
+  margin-left: 150px;
   font-family: monospace;
+}
+
+#aprendi {
+  font-family: Sacramento, cursive;
+  font-size: 50px;
+  position: absolute;
+  left: 670px;
 }
 
 #licoes_aprendidas {
   font-family: monospace;
   font-size: 14.5px;
-  margin-left: 20px;
+  margin-left: 150px;
+}
+
+#vou-aprender {
+  font-family: Sacramento, cursive;
+  font-size: 50px;
+  position: absolute;
+  left: 630px;
 }
 
 #licoes_a_aprender {
   font-family: monospace;
   font-size: 14.5px;
+  margin-left: 150px;
 }
 
 h2 {
