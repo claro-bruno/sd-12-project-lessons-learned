@@ -4,23 +4,32 @@ body {
 }
 
 #cabecalho {
-    background-color: green;
+    background-color:green;
     position: fixed;
     top: 0px;
     padding: 10px 400px;
-
+    width: 100%;
 }
+
+#titulo {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(253, 251, 251);
+    font-size: 40px;
+}
+
 #minha_foto {
     width: 170px;
     top: 200px;
     left: 50px;
     position: absolute;
+    border-width: 2px;
+    border: 5px solid black;
 }
 #licoes_aprendidas {
     display: block;
     position: absolute;
-    top: 250px;
-    right: 10px;
+    top: 220px;
+    right: 30px;
 }
 #licoes_a_aprender {
     display: block;
@@ -32,6 +41,7 @@ body {
     position: absolute;
     display: block;
     bottom: 1px;
+    left: 10px;
 }
 #nome-linkado {
     position: absolute;
@@ -44,7 +54,7 @@ article {
     display: block;
     width: 500px;
     left: 50px;
-    bottom: 350px;
+    top: 480px;
 }
 
 #aside-aprendizado {
