@@ -3,7 +3,34 @@ body{
     background-color: rgb(253, 251, 251);
 }
 
-.cabecalho{
+#cabecalho{
     position: fixed;
     margin-top: 0%;
+    width: 100%;
+}
+
+#titulo{
+text-align: center;
+}
+
+#minha_foto{
+    border-radius: 50%;
+    width: 200px;
+}
+
+.nomeEfoto{
+    display: inline-block;
+    text-align: center;
+}
+
+.licoes_aprendidas{
+
+}
+
+.licoes_a_aprender{
+
+}
+
+.rodape{
+    
 }
