@@ -128,7 +128,7 @@ aside p{
 }
 
 .lado-esquerdo, .lado-direito, .tabela, .central{
-    width: 30%;
+    width: 27%;
     margin: 10px;
     display: inline-block;
 }
@@ -136,7 +136,7 @@ aside p{
 
 table{
     color:rgb(42, 46, 43);
-    margin: auto;
+    
    
 }
 table td{
@@ -146,9 +146,11 @@ table td{
     
     
     
+    
 }
 table td{
     padding:20px;
+    
    
 }
 
@@ -156,6 +158,8 @@ table td{
 #rodape{
     background-color:rgb(42, 46, 43);
     padding-bottom: 20px;
+    display: inline-block;
+    width: 100%;
    
     
 
