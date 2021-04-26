@@ -1,5 +1,8 @@
 body {
-        background-color: rgb(253, 251, 251);   
+        background-color: rgb(253, 251, 251);
+        font-family: sans-serif;
+        font-size: 15px;
+        line-height: 17px;   
 }
 
 #cabecalho {
@@ -16,6 +19,7 @@ body {
 #licoes_trybe {
     position: absolute;
     top: 350px;
+    color: cornflowerblue;
 }
 
 #licoes_aprendidas{
@@ -36,6 +40,7 @@ body {
 #artigo_trybe {
     position: absolute;
     top: 590px;
+    color: cornflowerblue;
 }
 #article {
     position: absolute;
@@ -44,6 +49,7 @@ body {
 #secao_trybe {
     position: absolute;
     top: 700px;
+    color: cornflowerblue;
 }
 #section {
     position: absolute;
