@@ -1,23 +1,60 @@
 
-header{
+header {
     background-color: rgb(51, 98, 199);
     color:white;
-    font-family: monospace;
     position:fixed center;
-    top: 0;
-
-    
-    
+    top: 0;    
 }
 
 body{
 background-color:rgb(253, 251, 251) ;
 font-family: monospace;
+font-size: 14px;
 }
 
 #minha_foto {
     max-height:250px;
     max-width:250px;
+    border-radius:20px;
     margin-left: auto;
     margin-right: auto;
+}
+article {
+    font-family: monospace;
+    border:4px solid red;
+    width: 75%;
+    padding:20px;
+    margin-right: 5px;
+}
+aside {
+    border:4px solid red;
+    border-radius: 10px;
+    width: 19%;
+    height: 100px;
+    padding:10px;
+    margin-right: 1px;
+    float: right;
+}
+
+ol li:hover {
+    display: inline-block;
+    background-color:rgb(51, 98, 199);
+    color: white;
+    width: 27%;
+}
+ul li:hover {
+    display:inline-block;
+    background-color:rgb(51, 98, 199);
+    color: white;
+    width: 27%;
+}
+
+#rodape {
+    background-color: rgb(51, 98, 199);
+    width:100%;
+    border-radius:10px;
+    height: 50px;
+    font-size: 15;
+    color:white;
+    bottom: 0;
 }
