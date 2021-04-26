@@ -77,7 +77,7 @@ a{
 #licoes_a_aprender{
     position: absolute;
     left: 316px;
-    bottom: 70px;
+    bottom: 35px;
     font-family: sans-serif;
 }
 
@@ -93,6 +93,7 @@ a{
     width: 40%;
     font-family: sans-serif;
     line-height: 25px;
+    top: 100px;
 
 }
 
