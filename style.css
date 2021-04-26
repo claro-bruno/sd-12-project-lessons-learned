@@ -4,7 +4,7 @@ body {
 }
 
 #cabecalho {
-    background-color:green;
+    background-color: #4f772d;
     position: fixed;
     top: 0px;
     padding: 10px 400px;
@@ -18,12 +18,12 @@ body {
 }
 
 #minha_foto {
-    width: 170px;
-    top: 200px;
+    width: 150px;
+    top: 180px;
     left: 50px;
     position: absolute;
     border-width: 2px;
-    border: 5px solid black;
+    border: 5px solid #132a13;
 }
 #licoes_aprendidas {
     display: block;
@@ -46,21 +46,38 @@ body {
 #nome-linkado {
     position: absolute;
     display: block;
-    top: 445px;
-    left: 50px ;
+    top: 405px;
+    left: 70px ;
+    color: #132a13;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bolder;
+    font-size: 20px;
+    
 }
 .lado-esquerdo {
     position: absolute;
     display: block;
-    width: 500px;
-    left: 50px;
-    top: 480px;
+    width: 270px;
+    left: 300px;
+    top: 250px;
+    text-align: center ;
+    background-color: #90a955;
+    padding: 20px;
+    border-radius: 10%;
+    border: 3px solid #132a13;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 .lado-direito {
     position: absolute;
     display: block;
-    bottom: 100px;
-    width: 500px;
-    left: 50px;
+    top: 275px;
+    width: 270px;
+    left: 620px;
+    text-align: center;
+    border: 3px solid #132a13;
+    background-color: #90a955;
+    padding: 20px;
+    border-radius: 10%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
