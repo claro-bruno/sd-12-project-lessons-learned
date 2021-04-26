@@ -2,6 +2,13 @@ body {
   background-color: rgb(253, 251, 251);
 }
 
+article {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 12px;
+    letter-spacing: 2px;
+    color: seagreen;
+}
+
 #cabecalho {
   margin: 0px 0px 0px -6px;
   padding: 0 0 0 10px;
