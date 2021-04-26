@@ -13,17 +13,20 @@ body {
 }
 #titulo {
     text-align: center;
-    color: rgb(255, 255, 255);
+    color: rgb(255,255,255);
 }
 #licoes_aprendidas {
     display: inline-block;
-    font: arial 16px;
-    margin-left: 200px;
+    font-family: Monospace;
+    font-style: normal 16px;
+    margin-left: 600px;
 }
 #licoes_a_aprender {
     display: inline-block;
-    font: arial 16px;
-    margin-left: 100px;
+    font-family: Monospace;
+    font-style: normal 16px;
+    margin-left: 50px;
+    margin-right: 250px;
 }
 #minha_foto {
     width: 200px;
@@ -32,22 +35,25 @@ body {
     border-radius: 20px;
 }
 .lado-esquerdo {
+    font-family: Monospace;
+    font-style: normal 16px;
     vertical-align: top;
     display: inline-block;
     text-align: center;
-    font: 16px Arial;
     margin-right: 900px;
 }
 .lado-direito {
+    font-family: Monospace;
+    font-style: normal 16px;
     vertical-align: top;
     float: left;
     text-align: center;
-    font: 16px Arial;
     margin-left: 850px;
     margin-top: -128px;
 }
 a {
-    font: Arial 16px;
+    font-family: Monospace;
+    font-style: normal 16px;
     margin-left: 30px;
     text-decoration: none;
     float: left;
