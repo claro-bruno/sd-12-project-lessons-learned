@@ -1,14 +1,14 @@
 
-body{
+body {
   background-color: rgb(253, 251, 251);
   color: rgb(22, 20, 20);
   font-size: 17px;
-  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   line-height: 20px;
   margin: 0%;
 }
 
-#cabecalho{
+#cabecalho {
   position: fixed;
   width: 100%;
   margin-bottom: 15%;
@@ -17,42 +17,42 @@ body{
   margin: 0px;
 }
 
-nav ul li,a{
+nav ul li,a {
   display: inline-block;
-  margin-left:1%;
-  margin-right:1%;
+  margin-left: 1%;
+  margin-right: 1%;
   color: rgb(100, 102, 102);
   text-decoration: none;
 }
 
-nav ul li a:hover{
+nav ul li a:hover {
   color: rgb(6, 180, 180);
   font-family: monospace;
   font-weight: bold;
 }
 
 
-#titulo{
+#titulo {
   font-weight: bold;
   font-family: monospace;
   color: teal;
 }
 
-#titulo-learned{
+#titulo-learned {
   color: slateblue;
 }
 
-article{
+article {
   margin: auto;
 }
 
-h3{
+h3 {
   color: rgb(97, 97, 97);
   font-weight: bold;
   font-family: monospace;
 }
 
-#minha_foto{
+#minha_foto {
   display: inline-block;
   border-radius: 50%;
   width: 200px;
@@ -60,57 +60,57 @@ h3{
   margin-right: auto;
 }
 
-#nome{
+#nome {
   display: inline-block;
   margin-left: auto;
   margin-right: auto;
   font-family: fantasy;
-  font-style:initial;
+  font-style: initial;
   color: cornflowerblue;
   margin-left: 5%;
 }
 
-.sobre{
+.sobre {
   margin-bottom: 5%;
   text-align: center;
   margin-left: 2%;
   margin-right: 2%;
 }
 
-#licoes_aprendidas{
+#licoes_aprendidas {
   border: 2px solid slateblue;
-  background-color:rgba(70, 131, 180, 0.788);
+  background-color: rgba(70, 131, 180, 0.788);
   border-radius: 3%;
 }
 
-#licoes_a_aprender{
+#licoes_a_aprender {
   border: 2px solid rgba(70, 131, 180, 0.788);
-  background-color:rgba(105, 90, 205, 0.747) ;
+  background-color: rgba(105, 90, 205, 0.747) ;
   border-radius: 3%;
 }
 
-#JS{
-  color:rgb(155, 155, 4);
+#JS {
+  color: rgb(155, 155, 4);
 }
 
-section ul, ol li{
+section ul, ol li {
   font-weight: bold;
   color: white;
  }
 
-.lado-esquerdo{
+.lado-esquerdo {
   display: inline-block;
   margin-left: 5%;
   margin-right: auto;
  }
 
-.lado-direito{
+.lado-direito {
   display: inline-block;
   margin-left: 22%;
   margin-right: auto;
  }
 
-aside{
+aside {
   margin-top: 7%;
   border: 2px solid skyblue;
   background-color: rgba(13, 139, 128, 0.096);
@@ -118,10 +118,10 @@ aside{
   margin-bottom: 5%;
 }
 
-#rodape{
+#rodape {
   text-align: center;
 }
 
-footer{
+footer {
   margin-bottom: 5%;
 }
