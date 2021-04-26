@@ -2,6 +2,15 @@ body {
   background-color: rgb(253, 251, 251);
 }
 
+nav {
+  margin-top: 100px;
+  text-align: center;
+}
+
+nav a {
+    padding: 0 20px;
+}
+
 article {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 12px;
@@ -20,7 +29,7 @@ article {
 }
 
 #minha_foto {
-    margin-top: 80px;
+    margin-top: 10px;
     height: 160px;
     width: 160px;
 }
