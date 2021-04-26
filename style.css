@@ -4,6 +4,7 @@ header {
   background-color: lightgreen;
   color: black;
   font-family: 'Times New Roman', Times, serif;
+  font-size: large;
   top: 0px;
   margin: 0;
 }
@@ -15,6 +16,7 @@ body {
 #bio {
   padding: 70px 30px;
   text-align: center;
+  line-height: normal;
   max-width: 80%;
   margin: auto;
 }
@@ -30,6 +32,14 @@ body {
 
 table {
   margin: auto;
+}
+
+.lado-direito{
+  float: right;
+}
+
+.lado-esquerdo{
+  float:left;
 }
 
 footer {
