@@ -1,4 +1,13 @@
-body{
+body {
     background-color: rgb(253, 251, 251);
+}
 
+#cabecalho {
+    position: fixed;
+    background-color: rgb(155, 209, 28);
+    top: 0px;
+}
+
+#titulo {
+    text-align: center;
 }
