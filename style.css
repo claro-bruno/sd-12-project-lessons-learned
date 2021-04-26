@@ -1,8 +1,10 @@
 body {
+    margin: auto;
     background-color: rgb(253, 251, 251);
 }
 
 #cabecalho {
+    width: 100%;
     position: fixed;
     background-color: rgb(155, 209, 28);
     top: 0px;
@@ -10,4 +12,13 @@ body {
 
 #titulo {
     text-align: center;
+}
+
+#bloco_foto {
+    padding: 100px;
+}
+
+#minha_foto {
+    border-radius: 2%;
+    padding: auto ;
 }
