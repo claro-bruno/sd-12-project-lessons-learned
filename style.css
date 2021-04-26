@@ -31,16 +31,16 @@ p {
     padding: auto;
 }
 
-#lista_ordenada, #lista_desordenada {
+#lista_ordenada , #lista_desordenada {
     display: inline-block;
     line-height: 20px;
 }
 
-.lado_esquerdo{
+.lado-esquerdo{
     float: left;
 }
 
-.lado_direito{
+.lado-direito{
     float: right;
 }
 
