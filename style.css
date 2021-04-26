@@ -37,7 +37,7 @@ body {
   text-align: center;
 }
 
-#licoes_aprendidas {
+.licoes_aprendidas {
   text-align: center;
   float: left;
   margin: 50px 20px;
