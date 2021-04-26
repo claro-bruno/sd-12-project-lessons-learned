@@ -1,9 +1,15 @@
 
-header {
+#cabecalho {
     background-color: rgb(51, 98, 199);
     color:white;
-    position:fixed center;
-    top: 0;    
+    position:fixed;
+    top: 0;
+    width: 100%;
+    text-align: center;
+}
+#titulo{
+    color: rgb(250, 250, 250);
+
 }
 
 body{
@@ -12,38 +18,48 @@ font-family: monospace;
 font-size: 14px;
 }
 
+#nav {
+    color: rgb(9, 109, 190);
+    font-size: 18px;
+    margin-left: 47%;
+}
+
+
 #minha_foto {
     max-height:250px;
     max-width:250px;
-    border-radius:20px;
-    margin-left: auto;
-    margin-right: auto;
+    border-radius: 50px 30px;
+    margin-top: 85px;
+    margin-left:41%;
+    
 }
 article {
     font-family: monospace;
-    border:4px solid red;
-    width: 75%;
+    width: 76%;
     padding:20px;
-    margin-right: 5px;
+    margin-left: 100px;
+    margin-top: 50px;
+    text-align: center;
 }
 aside {
-    border:4px solid red;
+    background-color:rgb(113, 154, 241);
+    color: white;
     border-radius: 10px;
-    width: 19%;
+    width: 20%;
     height: 100px;
     padding:10px;
     margin-right: 1px;
     float: right;
 }
 
-ol li:hover {
-    display: inline-block;
+#Lições_aprendidas:hover {
+    line-height: 20px;
     background-color:rgb(51, 98, 199);
     color: white;
     width: 27%;
 }
-ul li:hover {
-    display:inline-block;
+#Lições_a_aprender:hover {
+    line-height: 20px;
     background-color:rgb(51, 98, 199);
     color: white;
     width: 27%;
@@ -52,8 +68,8 @@ ul li:hover {
 #rodape {
     background-color: rgb(51, 98, 199);
     width:100%;
-    border-radius:10px;
-    height: 50px;
+    border-radius:20px 10px;
+    height: 40px;
     font-size: 15;
     color:white;
     bottom: 0;
