@@ -21,17 +21,19 @@ nav ul li , a {
   margin-right: 1%;
   color: rgb(100, 102, 102);
   text-decoration: none;
+  font-weight:100;
+  color: white;
 }
 
 nav ul li a:hover {
   color: rgb(6, 180, 180);
   font-family: monospace;
-  font-weight: bold;
+  font-weight: 100;
 }
 
 
 #titulo {
-  font-weight: bold;
+  font-weight: 100;
   font-family: monospace;
   color: teal;
 }
@@ -46,7 +48,7 @@ article {
 
 h3 {
   color: rgb(97, 97, 97);
-  font-weight: bold;
+  font-weight: 100;
   font-family: monospace;
   text-align: center;
 }
@@ -91,8 +93,8 @@ h3 {
   color: rgb(155, 155, 4);
 }
 
-ol , ul li {
-  font-weight: bold;
+ol li {
+  font-weight: 100;
   color: white;
 }
 
