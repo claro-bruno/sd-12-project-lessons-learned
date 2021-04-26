@@ -1,14 +1,34 @@
+header{
+  background-color: lightgreen;
+  color: black;
+  font-family: 'Courier New', Courier, monospace;
+  top: 0%;
+}
+
 body {
   background-color: rgb(253, 251, 251);
 }
 
 #cabecalho {
-  top: 0;
-  background-color: lightgreen;
+  top: 0%;
 }
+#bio {
+  padding: 70px 30px;
+  text-align: center;
+  max-width: 80%;
+  margin: auto;
+} 
 
 #minha_foto {
   width: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10%; 
+}
+
+table{
+  margin: auto;
 }
 
 footer {
