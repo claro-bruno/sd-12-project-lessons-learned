@@ -6,12 +6,15 @@ body {
   letter-spacing: 1.2px;
 }
 
-#cabecalho {
-  font-size: 15px;
+#titulo {
+  font-size: 30px;
   color: white;
   font-style: oblique;
   font-family: monospace;
   text-align: center;
+}
+
+#cabecalho {
   position: fixed;
   top: 0;
   background-color: green;
