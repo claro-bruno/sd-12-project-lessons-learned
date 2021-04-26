@@ -1,12 +1,15 @@
 
 body{
     background-color: rgb(253, 251, 251);
+    color: rgb(22, 20, 20);
+    font-size: 17px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 30px;
 }
 
 header{
     text-align: center;
     background-color: rgba(112, 128, 144, 0.603);
-    margin-bottom: 10%;
 }
 
 nav ul li,a{
@@ -27,6 +30,7 @@ nav ul li a:hover{
     position: fixed;
     margin-top: 0px;
     width: 100%;
+    margin-bottom: 15%;
 }
 
 #titulo{
@@ -39,6 +43,10 @@ nav ul li a:hover{
     color: slateblue;
 }
 
+article{
+    margin-top: 15;
+}
+
 h3{
     color: rgb(97, 97, 97);
     font-weight: bold;
@@ -46,12 +54,24 @@ h3{
 }
 
 #minha_foto{
+    display: inline-block;
     border-radius: 50%;
     width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#nome{
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: fantasy;
+    font-style: oblique;
 }
 
 .sobre{
-    margin-bottom: 10%;
+    margin-bottom: 5%;
+    text-align: center;
 }
 
 #licoes_aprendidas{
@@ -75,28 +95,30 @@ section ul, ol li{
      color: white;
  }
 
-.aprendizados-left{
+.lado-esquerdo{
     display: inline-block;
     margin-left: 5%;
     margin-right: auto;
  }
 
-.aprendizados-right{
+.lado-direito{
     display: inline-block;
     margin-left: 25%;
     margin-right: auto;
  }
 
 aside{
-    margin-top: 10%;
+    margin-top: 7%;
     border: 2px solid skyblue;
     background-color: rgba(13, 139, 128, 0.096);
     text-align: center;
-    margin-bottom: 10%;
+    margin-bottom: 5%;
 }
-
 
 #rodape{
     text-align: center;
 }
 
+footer{
+    margin-bottom: 5%;
+}
