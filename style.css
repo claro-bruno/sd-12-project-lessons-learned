@@ -22,6 +22,7 @@ header {
   width: 470px;
   padding: 100px 50px 10px 40px;
   margin: auto;
+  border: 10px;
 }
 
 .primeiroBloco {
