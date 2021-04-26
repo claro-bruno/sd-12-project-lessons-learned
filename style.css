@@ -8,6 +8,7 @@ header {
   position: fixed;
   width: 100%;
   background-color: green;
+  margin: auto;
 }
 
 .headerSection {
@@ -18,19 +19,45 @@ header {
 }
 
 .foto {
-  width: 250px;
-  padding: 10vh 43vw 5vw;
+    width: 470px;
+    padding: 100px 50px 10px 40px;
+    margin: auto;
+}
+
+.primeiroBloco {
+  width: 60%;
+  padding: 10px 20px 20px 10px;
   margin: auto;
 }
 
+.itemBloco {
+  width: 30%;
+  text-align: center;
+  margin: 100px;
+  display: inline-block;
+}
+
+.sideBySide {
+  width: 20%;
+  text-align: center;
+  padding: 5px 20px 20px 20px;
+  margin: auto;
+}
+
+.lado-esquerdo {
+  display: inline-block;  
+}
+
+.lado-direito {
+  display: inline-block;  
+}
+
 p , li , th {
-  font-size: 16px;
-  color: black;
+  
 }
 
 ul , ol {
-  margin-top: 10px;
-  margin-bottom: 20px;
+  
 }
 
 h2 , h3 {
