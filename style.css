@@ -30,6 +30,7 @@ body {
   font-style: normal 16px;
   margin-left: 50px;
   margin-right: 250px;
+  margin-top: 100px;
 }
 
 #minha_foto {
@@ -46,6 +47,8 @@ body {
   display: inline-block;
   text-align: center;
   margin-right: 900px;
+  margin-top: 50px;
+  overflow: auto;
 }
 
 .lado-direito {
@@ -55,7 +58,7 @@ body {
   float: left;
   text-align: center;
   margin-left: 850px;
-  margin-top: -128px;
+  margin-top: -144px;
 }
 
 a {
@@ -73,6 +76,5 @@ a {
 }
 
 .rodape {
-  background-color: rgb(9, 138, 9);
   text-align: center;
 }
