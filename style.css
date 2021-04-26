@@ -2,6 +2,7 @@ body {
     margin: auto;
     background-color: rgb(253, 251, 251);
     font-family: monospace;
+    text-align: center;
 }
 
 p {
@@ -31,25 +32,49 @@ p {
     padding: auto;
 }
 
+#secao_listas{
+    text-align: center;
+}
+
 #lista_ordenada , #lista_desordenada {
     display: inline-block;
     line-height: 20px;
+    text-align: start;
+}
+
+#secao_artigo{
+    text-align: center;
 }
 
 .lado-esquerdo{
     float: left;
+    width: 50%;
 }
 
 .lado-direito{
     float: right;
+    width: 50%;
 }
 
-#tabela {
+#secao_tabela {
     clear: both;
     line-height: 20px;
+    text-align: center;
+}
+
+.tabela {
+    margin: auto;
+}
+
+td:nth-child(2){
+    text-align: end;
+}
+
+td:nth-child(1){
+    text-align: start;
 }
 
 #rodape {
     background-color: rgb(155, 209, 28);
-    padding-bottom: 100px;
+    padding-bottom: 150px;
 }
