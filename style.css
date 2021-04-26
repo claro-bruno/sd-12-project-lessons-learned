@@ -44,10 +44,18 @@ h1 {
   border-radius: 30%;
 }
 
-#eu {
+.cursive {
   font-family: Sacramento, cursive;
   font-size: 50px;
   position: absolute;
+  color: white;
+}
+
+.cursive:hover {
+  color: black;
+}
+
+#eu {
   left: 20px;
 }
 
@@ -58,9 +66,6 @@ table {
 }
 
 #aprendizado {
-  font-family: Sacramento, cursive;
-  font-size: 50px;
-  position: absolute;
   left: 700px;
   bottom: 330px;
 }
@@ -82,34 +87,28 @@ table td , th {
 }
 
 .listTitle {
-  margin-left: 150px;
+  margin-left: 100px;
   font-family: monospace;
 }
 
 #aprendi {
-  font-family: Sacramento, cursive;
-  font-size: 50px;
-  position: absolute;
   left: 670px;
 }
 
 #licoes_aprendidas {
   font-family: monospace;
   font-size: 14.5px;
-  margin-left: 150px;
+  margin-left: 100px;
 }
 
 #vou-aprender {
-  font-family: Sacramento, cursive;
-  font-size: 50px;
-  position: absolute;
-  left: 630px;
+  left: 640px;
 }
 
 #licoes_a_aprender {
   font-family: monospace;
   font-size: 14.5px;
-  margin-left: 150px;
+  margin-left: 100px;
 }
 
 h2 {
@@ -119,7 +118,7 @@ h2 {
 .lado-esquerdo {
   width: 400px;
   float: left;
-  margin-left: 20px;
+  margin-left: 100px;
   text-align: justify;
   font-family: monospace;
   margin-bottom: 40px;
