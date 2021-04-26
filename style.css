@@ -1,8 +1,35 @@
 #cabecalho {
   position: fixed;
   top: 0;
+  background: rgb(142, 197, 174);
+  width: 100%;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-align: center;
+  color: aliceblue;
 }
 
 body {
-  background-color: rgb(253, 251, 251);
+  background-color: rgb(251, 253, 252);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+main {
+margin: 100px 20px;
+}
+
+article {
+    text-align: justify;
+}
+
+nav {
+text-align: center;
+padding: 20px 10px 20px 10px;
+color: aliceblue;
+}
+
+#minha_foto {
+    border-radius: 100%;
+    float: right;
+    border: rgb(87, 161, 145);
+    border-width: 15px;
 }
