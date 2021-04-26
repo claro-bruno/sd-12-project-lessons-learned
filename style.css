@@ -1,12 +1,11 @@
 header {
   position: fixed;
-  width: 100%;  
+  width: 100%;
   background-color: lightgreen;
   color: black;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: Times New Roman, Times, serif;
   font-size: large;
-  top: 0px;
-  margin: 0;
+  top: 0;
 }
 
 body {
@@ -31,23 +30,23 @@ body {
 }
 
 table {
-margin: auto;
-padding: 70px 30px;
+  margin: auto;
+  padding: 70px 30px;
 }
 
-.lado-direito{
+.lado-direito {
   float: right;
   height: 30%;
   width: 30%;
   padding: 70px 30px;
 }
 
-.lado-esquerdo{
-  float:left;
+.lado-esquerdo {
+  float: left;
   width: 30%;
 }
 
-aside{
+aside {
   clear: both;
 }
 
