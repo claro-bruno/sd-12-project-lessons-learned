@@ -1,6 +1,5 @@
 body {
   background-color: rgb(253, 251, 251);
-  padding: 0;
 }
 
 #cabecalho {
@@ -48,12 +47,14 @@ body {
 }
 
 div {
-  width: 180px;
-  height: 200px;
+  width: 20%;
   display: inline-block;
-  margin-left: 350px;
-  text-align: center;
   align-items: center;
+  text-align: center;
+  margin: auto;
+  padding: 10px;
+  margin-left: 20%;
+    
 }
 
 #conteiner {
@@ -69,29 +70,56 @@ div {
 }
 
 #rodape {
-  display: inline;
-}
-
-table {
-  padding: 0;
-  margin: auto;
-  color: rgb(77, 83, 94);
+  padding: 5%;
+  margin: 5px;
 }
 
 .final {
   color: rgb(253, 251, 251);
   text-align: center;
   background-color: rgb(77, 83, 94);
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
 #artigo {
-  font-family: monospace;
-  width: 60%;
-  height: auto;
-  text-align: justify;
-  padding-right: 60%;
-  margin-left: 290px;
+  width: 100%;
+  padding: 20px;
+  margin: 5px;
 }
 
+.lado-esquerdo {
+  color: rgb(77, 83, 94);
+  width: 30%;
+  float: left;
+  margin-left: 15%;
+  font-size: 20px;
+  text-align: justify;
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+.lado-direito {
+  color: rgb(77, 83, 94);
+  width: 30%;
+  float: right;
+  margin-right: 15%;
+  font-size: 20px;
+  text-align: justify;
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+#aside {
+  width: 30%;
+  display: block;
+  align-items: center;
+  text-align: justify;
+  margin-left: 20%;
+}
+
+#tabela {
+  color: rgb(77, 83, 94);
+  padding: 5px;
+  text-align: center;
+}
