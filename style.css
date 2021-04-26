@@ -125,7 +125,7 @@ h1, #titulo {
     position: relative;
     float: right;
     padding:12%;
-    z-index: 1;
+    z-index: 0;
 }
 
 #licoes_aprendidas {
@@ -157,6 +157,7 @@ h1, #titulo {
     text-align: left;
     display: inline-block;
     margin: auto;
+    z-index: 1;
 }
 
 .lado-direito {
@@ -170,6 +171,7 @@ h1, #titulo {
     text-align: right;
     display: inline-block;
     margin: auto;
+    z-index: 1;
 }
 
 #rodape {
@@ -181,7 +183,7 @@ h1, #titulo {
     line-height: 1px;
     width:100%;
     color: #dfe6ca;
-    
+    z-index: 3;
 
 }
 
