@@ -31,7 +31,7 @@ body {
 
 #rodape {
         position: absolute;
-        top: 700px;
+        top: 800px;
 }
 #artigo_trybe {
     position: absolute;
@@ -40,4 +40,12 @@ body {
 #article {
     position: absolute;
     top: 650px;
+}
+#secao_trybe {
+    position: absolute;
+    top: 700px;
+}
+#section {
+    position: absolute;
+    top: 760px;
 }
