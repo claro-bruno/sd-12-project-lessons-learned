@@ -90,22 +90,22 @@ h3 {
   color: rgb(155, 155, 4);
 }
 
-ul , ol li {
+ol , ul li {
   font-weight: bold;
   color: white;
- }
+}
 
 .lado-esquerdo {
   display: inline-block;
   margin-left: 5%;
   margin-right: auto;
- }
+}
 
 .lado-direito {
   display: inline-block;
   margin-left: 22%;
   margin-right: auto;
- }
+}
 
 aside {
   margin-top: 7%;
