@@ -1,8 +1,17 @@
 body {
-    background-color: rgb(253, 251, 251);
+    background-color: rgb(253, 251, 251);    
 }
 
 #cabecalho {
-    position: fixed;
+    position:fixed;
     top: 0px;
+    z-index: 1;
+}
+#minha_foto {
+    position: absolute;
+    top: 75px;
+}
+#licoes_aprendidas{
+    position: absolute;
+    top: 365px;
 }
