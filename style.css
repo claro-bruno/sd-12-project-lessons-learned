@@ -10,14 +10,14 @@ header {
   top: 0;
   background-color: rgb(235, 200, 84);
   font-size: 20;
-  font-family: 'Lucida Sans Regular',  sans-serif;
+  font-family: 'Lucida Sans Regular', sans-serif;
   width: 100%;
   text-align: center;
 }
 
 h1 {
   text-align: center;
-  color:rgb(34, 158, 9);
+  color: rgb(34, 158, 9);
 }
 
 main {
@@ -25,7 +25,7 @@ main {
 }
 
 #minha_foto {
-  position:relative;
+  position: relative;
   width: 40%;
   height: 40%;
   display: block;
