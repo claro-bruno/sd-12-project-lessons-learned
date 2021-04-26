@@ -37,13 +37,14 @@ padding: 70px 30px;
 
 .lado-direito{
   float: right;
-  
+  height: 30%;
+  width: 30%;
+  padding: 70px 30px;
 }
 
 .lado-esquerdo{
   float:left;
   width: 30%;
-
 }
 
 aside{
