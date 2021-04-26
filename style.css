@@ -11,10 +11,6 @@ body{
     width: 100%;
     background-color: green;
     text-align: center;
-    padding: 0px;
-    margin: 0px;
-    
-    
 }
 #titulo{
     
@@ -27,6 +23,8 @@ body{
 .links{
     
     background-color: green;
+    position: fixed;
+    padding-top: 35px;
 }
 
 .links ul{
@@ -47,7 +45,7 @@ body{
 
 #minha_foto{
     
-    padding-top: 15px;
+    padding-top: 100px;
     padding-left: 10px;
 }
 
@@ -63,7 +61,7 @@ a{
 #licoes_a_aprender{
     position: absolute;
     left: 200px;
-    bottom: 85px;
+    bottom: 70px;
 }
 
 article{
