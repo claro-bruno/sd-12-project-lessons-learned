@@ -1,6 +1,7 @@
 body {
     margin: auto;
     background-color: rgb(253, 251, 251);
+    font-family: monospace;
 }
 
 #cabecalho {
@@ -21,7 +22,15 @@ body {
 
 #minha_foto {
     border-radius: 2%;
-    padding: auto ;
+    padding: auto;
+}
+
+#lista_ordenada, #lista_desordenada {
+    display: inline-block;
+}
+
+#artigo, #passagem {
+    display: inline-block;
 }
 
 #rodape {
