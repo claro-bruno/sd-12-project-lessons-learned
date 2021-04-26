@@ -187,6 +187,24 @@ body {
     right: 10px;
 }
 
+#barra-lateral #tabela-curso-trybe {
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    border-collapse: collapse;
+    border: 2px solid rgb(255, 255, 255);
+    padding: 8px;
+    width: 25%;
+    color: rgb(255, 152, 152);
+    position: relative;
+    text-align: left;
+    bottom: 10px;
+    left: 85px;
+}
+
+#barra-lateral #tabela-curso-trybe th {
+    color:rgb(58, 195, 144);
+}
+
 #conteudo-aprendido {
     position: relative;
     top: 52px;
@@ -207,7 +225,7 @@ body {
     left: 220px;
 }
 
-#conteudo-aprendido #lado-esquerdo {
+#conteudo-aprendido .lado-esquerdo {
     max-width: 50%;
     border-radius: 20px;
     border-style: solid;
@@ -216,14 +234,14 @@ body {
     float: left;
 }
 
-#conteudo-aprendido #lado-esquerdo p {
+#conteudo-aprendido .lado-esquerdo p {
     text-align: center;
     font-size: 18px;
     font-weight: bold;
     color: rgb(5, 124, 235);
 }
 
-#conteudo-aprendido #lado-esquerdo #licoes_aprendidas li {
+#conteudo-aprendido .lado-esquerdo #licoes_aprendidas li {
     text-align: left;
     font-size: 16px;
     margin-right: 20px;
@@ -231,14 +249,14 @@ body {
     color: rgb(5, 124, 235);
 }
 
-#conteudo-aprendido #lado-direito p {
+#conteudo-aprendido .lado-direito p {
     text-align: center;
     font-size: 18px;
     font-weight: bold;
     color: rgb(179, 51, 51);
 }
 
-#conteudo-aprendido #lado-direito {
+#conteudo-aprendido .lado-direito {
     max-width: 50%;
     border-radius: 20px;
     border-style: dashed;
@@ -247,7 +265,7 @@ body {
     float: right;
 }
 
-#conteudo-aprendido #lado-direito #licoes_a_aprender li {
+#conteudo-aprendido .lado-direito #licoes_a_aprender li {
     text-align: left;
     font-size: 16px;
     margin-right: 20px;
