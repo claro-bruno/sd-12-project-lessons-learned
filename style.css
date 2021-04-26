@@ -1,8 +1,6 @@
 body {
   background-color: rgb(253, 251, 251);
-}
-
-
+}  
 li, p, table {
   padding: 3px;
   font-family: "Roboto", sans-serif, monospace;
@@ -45,68 +43,94 @@ a:hover {
 }
 
 #minha_foto {
-    display: block;
-    margin: 10px auto 10px auto;
-    padding: 0;
-    border-style: solid;
-    border-color: rgb(0, 230, 161);
-    border-width: 3px;
-    border-radius: 10%;
-    width: 220px;
+  display: block;
+  margin: 10px auto 10px auto;
+  padding: 0;
+  border-style: solid;
+  border-color: rgb(0, 230, 161);
+  border-width: 3px;
+  border-radius: 10%;
+  width: 220px;
 }
 
 .article, .lado-esquerdo {
-    z-index: 2;
-    display: inline-block;
-    width: 65%;
-    background-color: rgb(0, 230, 161);
-    padding: 1px;
-    border: solid rgb(0, 230, 161);
-    border-radius: 6px;
+  z-index: 2;
+  display: inline-block;
+  width: 60%;
+  margin-right: 10px;
+  margin-left: 60px;
+  height: 250px;
+  background-color: rgb(0, 230, 161);
+  padding: 1px;
+  border: solid rgb(0, 230, 161);
+  border-radius: 6px;
 }
 
 .aside, .lado-direito {
-    z-index: 1;
-    display: inline-block;
-    vertical-align: top;
-    margin-left: 10px;
-    width: 30%;
-    padding: 1px;
-    border: solid rgb(206, 206, 250);
-    border-radius: 6px;
+  z-index: 1;
+  display: inline-block;
+  text-align: justify;
+  width: 28%;
+  margin-left: 5px;
+  height: 250px;
+  padding: 1px;
+  border: solid rgb(206, 206, 250);
+  border-radius: 6px;
 }
 
 #licoes_aprendidas {
-    border: solid rgb(0, 230, 161);
-    border-width: 3px;
-    border-radius: 6px;
-    padding-right: 10px;
-    padding-bottom: 10px;
-
+  width: 600px;
+  list-style-position: inside;
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+  border: solid rgb(0, 230, 161);
+  border-width: 3px;
+  border-radius: 6px;
+  padding-right: 10px;
+  padding-bottom: 10px;
 }
 
 #licoes_a_aprender {
-    border: solid rgb(0, 230, 161);
-    border-width: 3px;
-    border-radius: 6px;
-    padding-right: 10px;
-    padding-bottom: 10px;
+  width: 600px;
+  list-style-position: inside;
+  text-align:left;
+  margin-left: auto;
+  margin-right: auto;
+  border: solid rgb(0, 230, 161);
+  border-width: 3px;
+  border-radius: 6px;
+  padding-right: 10px;
+  padding-bottom: 10px;
 }
 
+#h3-lista {
+    text-align: left;
+}
 
 .links_estudos {
-    font-size: 13px;
-    text-align: left;
-    border-radius: 6px;
-    border: solid rgb(0, 230, 161);
-    border-width: 3px;
-    padding-bottom: 10px;
+  width: 610px;
+  list-style-position: inside;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 13px;
+  text-align: left;
+  border-radius: 6px;
+  border: 3px solid rgb(0, 230, 161);
+  padding-bottom: 10px;
+  
 }
 
 table {
-    padding-bottom: 10px;
-    line-height: 30px;
-    padding: 3px;
-    border: 1px solid black;
-    border-radius: 6px;
+  width: 655px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 10px;
+  border: 3px solid rgb(0, 230, 161);
+  border-radius: 6px;
+}
+
+#rodape {
+  text-align: center;
 }
