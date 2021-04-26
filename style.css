@@ -8,11 +8,14 @@ body {
   top: 0;
   background-color: teal;
   padding-left: 41%;
-  padding-right: 44%;
+  padding-right: 40.64%;
 }
 
 h1 {
   color: rgb(253, 251, 251);
+  font-family: monospace;
+  text-transform: uppercase;
+  font-weight: 1000;
 }
 
 #nav {
@@ -23,7 +26,7 @@ h1 {
   display: inline-block;
   margin-top: 10px;
   margin-left: 10px;
-  padding: 5px;
+  padding: 10px;
   background-color: rgba(0, 128, 128, 0.76);
 }
 
