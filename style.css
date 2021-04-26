@@ -1,69 +1,78 @@
 body {
-    background-color: rgb(253, 251, 251);
-    margin: 0;
+  background-color: rgb(253, 251, 251);
+  margin: 0;
 }
-#cabecalho {
-    position: fixed;
-    top: 0;
-    background-color: rgb(9, 138, 9);
-    width: 100%;
-    max-height: 400px;
-    padding: auto;
 
+#cabecalho {
+  position: fixed;
+  top: 0;
+  background-color: rgb(9, 138, 9);
+  width: 100%;
+  max-height: 400px;
+  padding: auto;
 }
+
 #titulo {
-    text-align: center;
-    color: rgb(255,255,255);
+  text-align: center;
+  color: rgb(253, 251, 251);
 }
+
 #licoes_aprendidas {
-    display: inline-block;
-    font-family: Monospace;
-    font-style: normal 16px;
-    margin-left: 600px;
+  display: inline-block;
+  font-family: monospace;
+  font-style: normal 16px;
+  margin-left: 600px;
 }
+
 #licoes_a_aprender {
-    display: inline-block;
-    font-family: Monospace;
-    font-style: normal 16px;
-    margin-left: 50px;
-    margin-right: 250px;
+  display: inline-block;
+  font-family: monospace;
+  font-style: normal 16px;
+  margin-left: 50px;
+  margin-right: 250px;
 }
+
 #minha_foto {
-    width: 200px;
-    margin-top: 130px;
-    margin-left: 20px;
-    border-radius: 20px;
+  width: 200px;
+  margin-top: 130px;
+  margin-left: 20px;
+  border-radius: 20px;
 }
+
 .lado-esquerdo {
-    font-family: Monospace;
-    font-style: normal 16px;
-    vertical-align: top;
-    display: inline-block;
-    text-align: center;
-    margin-right: 900px;
+  font-family: monospace;
+  font-style: normal 16px;
+  vertical-align: top;
+  display: inline-block;
+  text-align: center;
+  margin-right: 900px;
 }
+
 .lado-direito {
-    font-family: Monospace;
-    font-style: normal 16px;
-    vertical-align: top;
-    float: left;
-    text-align: center;
-    margin-left: 850px;
-    margin-top: -128px;
+  font-family: monospace;
+  font-style: normal 16px;
+  vertical-align: top;
+  float: left;
+  text-align: center;
+  margin-left: 850px;
+  margin-top: -128px;
 }
+
 a {
-    font-family: Monospace;
-    font-style: normal 16px;
-    margin-left: 30px;
-    text-decoration: none;
-    float: left;
+  font-family: monospace;
+  font-style: normal 16px;
+  margin-left: 30px;
+  text-decoration: none;
+  float: left;
 }
+
 .tabela {
-    font: Arial 16px;
-    text-align: center;
-    margin-left: 850px;
+  font: Arial 16px;
+  text-align: center;
+  margin-left: 850px;
 }
+
 .rodape {
-    background-color: rgb(9, 138, 9);
-    text-align: center;
+  background-color: rgb(9, 138, 9);
+  text-align: center;
 }
