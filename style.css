@@ -1,17 +1,24 @@
 body {
     background-color: rgb(253,251,251);
     left: 0px;
+    margin: 0px;
+}
+
+#texto {
+    
 }
 
 .conjunto {
     background-color: mediumaquamarine;
     width: 100%;
+    text-align: center;
+    
 }
 
 #minha_foto {
     width: 185px;
-    margin-top: 105px;
-    border-radius: 15px;
+    margin-top: 115px;
+    border-radius: 40px;
 }
 
 #cabecalho {
@@ -36,13 +43,23 @@ body {
 
 }
 
-#licoes_aprendidas{
-    background-color: chartreuse;
+.seçao {
+    display: inline-block;
+    background-color: darkslategray;
+    width: 100%;
+    
+    
+}
 
+
+#licoes_aprendidas{
+    background-color: mediumaquamarine;
+    
 }
 
 #licoes_a_aprender{
-    background-color: chartreuse;
+    background-color:mediumaquamarine;
+ 
 }
 
 #rodape{
