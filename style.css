@@ -22,14 +22,14 @@ body {
   margin-top: 100px;
 }
 
-#learned {
+.lado-direito {
   width: 35%;
   display: inline-block;
   line-height: 2;
   vertical-align: top
 }
 
-#aside {
+.lado-esquerdo {
   display: inline-block;
   width: 35%;
   line-height: 2;
