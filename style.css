@@ -1,22 +1,33 @@
 body{
     background-color: rgb(253, 251, 251);
+    background-image: url(https://images.unsplash.com/photo-1585314062604-1a357de8b000?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8&w=1000&q=80);
+    margin: 0;
 }
+
 
 #cabecalho{
     position: fixed;
     top: 0;
     width: 100%;
-    border: 3px solid green;
-    background-color: sandybrown;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image: url(https://images.unsplash.com/photo-1585314062604-1a357de8b000?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8&w=1000&q=80);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-size: 20px;
     line-height: 35px;
     color: cornflowerblue;
-    
 }
 
-#links{
+#titulo{
+    text-align: center;
+}
+
+nav{
+    text-align: center;
+}
+
+nav > ul > li{
     list-style: none;
+    display: inline-block;
+    padding: 0 50px;
 }
 
 a{
@@ -25,33 +36,51 @@ a{
 }
 
 a:hover{
-    color: red;
+    color: goldenrod;
 }
 
 #conteudo_principal{   
-    padding-top: 200px; /*Usado,pq o cabeçalho está com position:fixed e não ocupa lacuna*/
-    border: 3px solid blue;
+    color:white;
+    padding-top: 180px; /*Usado,pq o cabeçalho está com position:fixed e não ocupa lacuna*/
     margin: 60px;
+}
+
+#minha_foto{
+    border-radius: 30%;
+    margin-left: 462px
+}
+
+#licoes_aprendidas > h2, #licoes_a_aprender >h2{
+    font-size: 50px;
+    color: cadetblue;
+}
+
+#licoes_aprendidas > li, #licoes_a_aprender >li{
+    font-size: 18px;
 }
 
 .lado-esquerdo{
     display: inline-block;
     width: 50%;
     height: 50%;
+    padding-top: 100px;
 }
 
 #artigo{
-    border: 2px solid black;
+    font-family: 'Courier New', Courier, monospace;
+    letter-spacing: 2px;
 }
 
 .lado-direito{
     float: right;
     width: 50%;
     height: 50%;
+    padding-top: 100px;
 }
 
 #aprendizado{
-    border: 2px solid gold;
+    font-family: 'Courier New', Courier, monospace;
+    letter-spacing: 2px;
 }
 
 #minha_foto{
@@ -60,8 +89,10 @@ a:hover{
 }
 
 table, td, th, tfoot{
-    border: 2px solid black;
+    border: 2px solid cadetblue;
     border-collapse: collapse;
+    font-size: 25px;
+    text-align: center;
 }
 
 table{
@@ -70,11 +101,11 @@ table{
 
 #tema-tabela{
     text-align: center;
+    font-size: 35px;
 }
 
 .tabela{
-    padding: 50px;
-    border: 3px solid purple;
+    padding: 130px;
     width: 50%;
     height: 50%;
     display: block;
@@ -83,5 +114,14 @@ table{
 }
 
 #rodape{
-    border: 3px solid red;
+    border-top: 1px solid white;
 }
+
+.logo_rodape{
+    width: 65px;
+    height: 65px;
+    float: right;
+    margin-top: 5px;
+    margin-right: 20px;
+}
+
