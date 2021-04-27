@@ -1,7 +1,8 @@
 body {
-    background-color: rgb(253, 251, 251);
+    background-color: rgb (253, 251, 251);
     margin-top: 100px;
 }
+
 p {
     font-size: 22px;
     font-family: Tahoma, Geneva, Verdana, sans-serif;
@@ -9,6 +10,7 @@ p {
     color: crimson;
     line-height: 0,3px;
 }
+
 #cabecalho {
     position: fixed;
     top: 0;
@@ -17,18 +19,18 @@ p {
     width: 100%;
     text-align: center;
 }
+
 #titulo {
     font-size: 50px;
     font-family: Courier, monospace;
-    color: blue;
+    color:white;
 }
 #minha_foto {
     display: block;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    width: 15%;
-    
+    width: 15%;    
 }
 #licoes_aprendidas {
     font-size: 20px;
@@ -55,6 +57,7 @@ p {
 footer p {
     text-align: center;
     color: aliceblue;
+
 }
 h2, h3 {
     color: blueviolet;
@@ -62,11 +65,26 @@ h2, h3 {
 }
 .lado-direito {
     float: right;
+    display: inline-block;
+    width: 30%;
+    margin: 45px;
+    padding: 20px;
+    border: 5px solid green;
+    background-color: beige;
+    vertical-align: top;
 }
 .lado-esquerdo {
     float: left;
+    display: inline-block;
+    width: 39%;
+    margin: 45px;
+    padding: 20px;
+    border: 5px solid green;
+    background-color: beige;
+    vertical-align: top;
 }
-.lado-esquerdo, .lado-direito, .vamosAprender, .aprendidas {
+
+.vamosAprender, .aprendidas {
     display: inline-block;
     width: 39%;
     margin: 20px;
