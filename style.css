@@ -49,7 +49,7 @@ main {
     position: absolute;
     margin: auto;
     top: 200px;
-    right: 480px;
+    left: 120px;
     font-family: 'Courier New', Courier, monospace;
 }
 #rodape {
