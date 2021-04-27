@@ -81,7 +81,8 @@ article p {
 
 #lado-direito {
   display: inline-block;
-  position: absolute;
+  float: right;
+  margin-right: 50px;
   width: 35%;
   border-radius: 13%;
   background-color: rgb(184, 177, 177);
