@@ -4,7 +4,7 @@
   left: 0;
   background: rgb(87, 161, 145);
   width: 100%;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
   text-align: center;
   color: aliceblue;
   font-size: 25px;
@@ -13,7 +13,7 @@
 
 body {
   background-color: rgb(253, 251, 251);
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
   margin: 200px 20px;
   line-height: 30px;
 }
