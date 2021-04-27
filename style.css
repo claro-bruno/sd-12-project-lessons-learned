@@ -18,23 +18,18 @@ main {
     font-size: 20px;
     height: 100px;
     font-family: 'Courier New', Courier, monospace;
-
 }
 
 #titulo {
     color: white;
     font-family: 'Courier New', Courier, monospace;
-
 }
 
 #minha_foto {
-    border-radius: 10px;
+    border-radius: 10px;                
     position: absolute;
     margin: auto;
-    left: 0;
-    right: 0;
     top: 110px;
-
 }
 
 #licoes_aprendidas {
@@ -49,8 +44,14 @@ main {
     font-family: 'Courier New', Courier, monospace;
 }
 
-
-
+#link {
+    border-radius: 10px;                
+    position: absolute;
+    margin: auto;
+    top: 200px;
+    right: 480px;
+    font-family: 'Courier New', Courier, monospace;
+}
 #rodape {
     background-color: black;
     width: 100%;
