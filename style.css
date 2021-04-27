@@ -2,7 +2,13 @@ body {
     background-color: rgb(253, 251, 251);
     margin-top: 100px;
 }
-
+p {
+    font-size: 22px;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    text-align: justify;
+    color: crimson;
+    line-height: 0,3px;
+}
 #cabecalho {
     position: fixed;
     top: 0;
@@ -11,13 +17,11 @@ body {
     width: 100%;
     text-align: center;
 }
-
 #titulo {
     font-size: 50px;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: Courier, monospace;
     color: blue;
 }
-
 #minha_foto {
     display: block;
     text-align: center;
@@ -26,22 +30,19 @@ body {
     width: 15%;
     
 }
-
 #licoes_aprendidas {
     font-size: 20px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: Arial, sans-serif;
     color: red;
 }
-
 #licoes_a_aprender {
     font-size: 20px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: sans-serif;
     color: green;
 }
-
 #rodape {
     font-size: 40px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: Impact, Haettenschweiler, sans-serif;
     color: yellow;
     width: 100%;
     background-color: green;
@@ -49,48 +50,43 @@ body {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
+    clear: both;
 }
 footer p {
     text-align: center;
     color: aliceblue;
 }
-p {
-    font-size: 22px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    text-align: justify;
-    color: crimson;
-    line-height: 0,3px;
-}
-
-h2, h3  {
+h2, h3 {
     color: blueviolet;
     text-align: center;
 }
-
+.lado-direito {
+    float: right;
+}
+.lado-esquerdo {
+    float: left;
+}
 .lado-esquerdo, .lado-direito, .vamosAprender, .aprendidas {
     display: inline-block;
     width: 39%;
     margin: 20px;
     padding: 50px;
     border: 5px solid green;
-    background-color: beige;;
+    background-color: beige;
     vertical-align: top;
 }
-
 nav {
     margin-top: 130px;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
 }
-
 .tabela, table {
     background-color: beige;
     margin-left: auto;
     margin-right: auto;
     width: 90%;
     text-align: center;
-    border: 5px;
     padding: 1%;
     border: 5px solid green;
 }
