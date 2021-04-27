@@ -9,8 +9,7 @@ nav, aside {
     height: 502px;
     width: 150px;
     left: 0px;
-    text-align: center;
-    
+    text-align: center;  
 }
 nav{
     float: left;
@@ -86,13 +85,10 @@ aside p{
     background-color:mediumaquamarine;
  
 }
-
 #rodape{
     background-color: darkslategray;
     color: black;
     float: left;
     width: 100%;
     text-align: center;
-    
-    
 }
