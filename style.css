@@ -133,6 +133,7 @@ body {
 
 .list {
   display: inline-block;
+  margin: 0 5%;
 }
 
 .lists {
