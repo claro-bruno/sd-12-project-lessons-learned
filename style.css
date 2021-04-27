@@ -131,7 +131,7 @@ body {
   width: 30%;
 }
 
-.lists ul, ol{
+.list {
   display: inline-block;
 }
 
