@@ -5,21 +5,33 @@ body {
 }
 
 nav, aside {
-    background-color: darkturquoise;
-    height: 500px;
+    background-color: darkslategray;
+    height: 502px;
     width: 150px;
     left: 0px;
     text-align: center;
+    
 }
 nav{
     float: left;
+    font-size: 20px;
+    
 }
-aside{
-    float: right;
+nav p{
+    margin-top: 170px;
 }
 
+aside{
+    float: right;
+    font-size: 20px;
+}
+aside p{
+    margin-top: 50px;
+}
+ 
 #texto {
     margin-bottom: 0px;
+    line-height: 20px;
 }
 
 .conjunto {
@@ -40,7 +52,7 @@ aside{
     top: 0;
     width: 100%;
     text-align: center;
-    background-color: chartreuse;
+    background-color:darkslategray;
     
 }
 
@@ -59,9 +71,9 @@ aside{
 .seçao {
     display: inline-block;
     background-color: darkslategray;
-    width: 100%;
-    
-    
+    width: 1045px;
+    float: left;
+
 }
 
 
@@ -76,8 +88,11 @@ aside{
 }
 
 #rodape{
-    background-color: rgb(3, 119, 9);
-    color: blanchedalmond;
+    background-color: darkslategray;
+    color: black;
+    float: left;
+    width: 100%;
+    text-align: center;
     
     
 }
