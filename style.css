@@ -23,5 +23,15 @@ body {
 }
 
 #learned {
-  margin-right: 30%;
+  width: 35%;
+  display: inline-block;
+  line-height: 2;
+  vertical-align: top
+}
+
+#aside {
+  display: inline-block;
+  width: 35%;
+  line-height: 2;
+  vertical-align: top;
 }
