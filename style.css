@@ -1,10 +1,11 @@
 body {
-    background-color: rgb(253 251 251);
+    background-color: rgb(253, 251, 251);
 }
 
 main { 
     margin-top: 100px;
     padding-top: 100px;
+    border-top: 100px;
 }
 
 #cabecalho {
@@ -33,7 +34,7 @@ main {
 }
 
 #licoes_aprendidas {
-  font-family: 'Courier New', Courier, monospace;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 #licoes_a_aprender {
