@@ -8,6 +8,10 @@ body {
     margin-top: 80px;
     border-radius: 100px;
 }
+#titulo {
+    font-size: 25px;
+    
+}
 #cabecalho {
     top: 0px;
     position: fixed;
