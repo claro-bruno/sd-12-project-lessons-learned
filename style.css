@@ -12,19 +12,25 @@ nav a {
 }
 
 article {
-
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 16px;
     letter-spacing: 2px;
     color: seagreen;
 }
 
+aside {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 14px;
+    letter-spacing: 1px;
+    color: seagreen;
+}
+
 #rodape {
     margin: auto;
-    margin: 10px 0 10px 0;
+    margin-top: 10px;
     width: 100%;
     bottom: 0;
-    position: fixed;
+    position: relative;
     float: right;
 }
 
@@ -46,7 +52,7 @@ article {
   padding: 0 0 0 10px;
   width: 99%;
   height: auto;
-  border: 2px solid #000;
+  border: 1px solid #000;
   position: fixed;
   top: 0;
 }
@@ -55,4 +61,5 @@ article {
     margin-top: 10px;
     height: 160px;
     width: 160px;
+    border-radius: 90px;
 }
