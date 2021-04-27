@@ -11,7 +11,12 @@ li, p, table {
 h2, h3, footer {
   text-align: left;
   font-family: "Balsamiq Sans", sans-serif, monospace;
+  font-size: 18px;
   line-height: 19px;
+}
+
+h1 {
+  font-size: 35px;
 }
 
 a {
@@ -45,7 +50,7 @@ a:hover {
 
 #minha_foto {
   display: block;
-  margin: 10px auto 10px auto;
+  margin: 10px auto;
   border: 3px solid rgb(0, 230, 161);
   border-radius: 6px;
   width: 220px;
@@ -82,6 +87,10 @@ a:hover {
   border-radius: 6px;
   padding-right: 10px;
   padding-bottom: 10px;
+}
+
+.links_estudos li {
+  font-size: 14px;
 }
 
 .links_estudos {
