@@ -1,35 +1,64 @@
 #cabecalho {
   position: fixed;
   top: 0;
-  background: rgb(142, 197, 174);
+  left: 0;
+  background: rgb(87, 161, 145);
   width: 100%;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   text-align: center;
   color: aliceblue;
+  font-size: 25px;
+  padding: 40px;
 }
 
 body {
-  background-color: rgb(251, 253, 252);
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background-color: rgb(253, 251, 251);
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin: 200px 20px;
+  line-height: 30px;
 }
 
-main {
-margin: 100px 20px;
-}
-
-article {
-    text-align: justify;
+.lado-esquerdo{
+  text-align: justify;
+  width: 50%;
+  margin: 20px 50px 20px 40px;
+  font-size: 18px;
+  background-color: aliceblue;
+  padding: 20px 30px;
+  display: inline-block;
+  color: rgb(58, 58, 58);
 }
 
 nav {
-text-align: center;
-padding: 20px 10px 20px 10px;
-color: aliceblue;
+  text-align: center;
+  color: aliceblue;
+  margin: 0;
+}
+
+.lado-direito{
+  text-align: center;
+  width: 30%;
+  background-color: aliceblue;
+  padding: 20px;
+  display: inline-block;
+  vertical-align: top;
+  margin: 20px;
+  color: gray;
 }
 
 #minha_foto {
-    border-radius: 100%;
-    float: right;
-    border: rgb(87, 161, 145);
-    border-width: 15px;
+  border-radius: 100%;
+  float: right;
+  border: rgb(87, 161, 145);
+  border-width: 15px;
+  margin: 100px;
+}
+
+section {
+  display: inline-block;
+  margin: 20px 50px 20px 40px;
+  padding: 30px;
+  border: 20px;
+  color: rgb(58, 58, 58);
+  font-size: 20px;
 }
