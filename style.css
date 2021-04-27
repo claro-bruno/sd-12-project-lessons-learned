@@ -57,6 +57,14 @@ main {
   display: inline-block;
 }
 
+.coluna1 {
+  padding-left: 20px;
+}
+
+.coluna2 {
+  padding-left: 70px;
+}
+
 #article {
   width: 65%;
   margin-right: 0;
@@ -79,6 +87,7 @@ aside {
 
 footer {
   margin-left: 8px;
+  padding-top: 30px;
 }
 
 footer em {
