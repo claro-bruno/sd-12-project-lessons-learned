@@ -4,15 +4,15 @@ body {
 
 header {
   color: rgb(253, 251, 251);
-  background-color: #11a36a;
+  background-color: rgb(17, 163, 106);;
   position: fixed;
   padding: 10px;
   width: 100%;
-  top: 0px;  
+  top: 0px;
 }
 
 nav a {
-  color: rgb(253, 251, 251);
+  color: rgb(253, 251, 251);;
   text-decoration: none;
 }
 
@@ -21,8 +21,8 @@ nav a {
 }
 
 #licoes {
-  font-family: "Didot";
-  color: #11a36a;
+  font-family: "Cambria";
+  color: #11A36A;
   font-size: 20px;
 }
 
