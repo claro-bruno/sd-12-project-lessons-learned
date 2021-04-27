@@ -88,7 +88,6 @@ body {
   top: 52px;
   background-color: rgb(58, 195, 144);
   max-width: 70%;
-  margin: 0px;
   padding: 20px;
   box-sizing: border-box;
   border-radius: 10px;
@@ -138,7 +137,7 @@ body {
   text-align: justify;
   font-size: 20px;
   font-weight: 1000;
-  color: white;   
+  color: white;
 }
 
 #caixa-barra-lateral #barra-lateral {
@@ -274,7 +273,6 @@ body {
 #rodape {
   position: relative;
   top: -150px;
-  bottom: 0px;
   width: 100%;
   height: 40px;
   margin-top: 325px;
