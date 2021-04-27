@@ -15,11 +15,15 @@ body {
   background-color: rgba(112, 128, 144, 0.603);
 }
 
+ol li {
+    font-weight: 100;
+    color: white;
+  }
+
 nav ul li , a {
   display: inline-block;
   margin-left: 1%;
   margin-right: 1%;
-  color: rgb(100, 102, 102);
   text-decoration: none;
   font-weight:100;
   color: white;
@@ -93,10 +97,6 @@ h3 {
   color: rgb(155, 155, 4);
 }
 
-ol li {
-  font-weight: 100;
-  color: white;
-}
 
 .lado-esquerdo {
   display: inline-block;
