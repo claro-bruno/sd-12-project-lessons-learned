@@ -9,6 +9,8 @@ body {
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   color: white;
   background-color: green;
+  padding: 10px;
+  border-top: 10px;
 }
 
 #titulo {
