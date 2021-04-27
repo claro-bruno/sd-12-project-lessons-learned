@@ -3,10 +3,8 @@ html {
 }
 
 :target {
-  /* display: block; */
   position: relative;
   top: -150px;
-  /* visibility: hidden; */
 }
 
 tbody div:target {
