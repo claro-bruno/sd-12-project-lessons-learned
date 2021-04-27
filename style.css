@@ -80,10 +80,8 @@ article p {
 }
 
 #lado-direito {
-  display: inline-block;
   float: right;
-  margin-right: 50px;
-  width: 35%;
+  width: 48%;
   border-radius: 13%;
   background-color: rgb(184, 177, 177);
   text-indent: 15px;
