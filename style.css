@@ -1,125 +1,126 @@
-*{
-    margin: 0;
+* {
+  margin: 0;
 }
 
-body{
-    background-color:rgb(253, 251, 251);
+body {
+  background-color: rgb(253, 251, 251);
 }
 
-#cabecalho{
-    position:fixed;
-    top: 0;
-    font-size: 40px;
-    background-color: green;
-    width: 100%;
-    text-align: center;
-    margin-bottom: 40px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+#cabecalho {
+  position: fixed;
+  top: 0;
+  font-size: 40px;
+  background-color: green;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 40px;
+  font-family: Impact, Haettenschweiler, Arial, sans-serif;
 }
 
-.nav{
-    background-color: darkgreen;
-    font-size: 30px;
-    position: fixed;
-    border: 1px solid black;
+.nav {
+  background-color: darkgreen;
+  font-size: 30px;
+  position: fixed;
+  border: 1px solid black;
 }
 
 .nav a {
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 30px;
+  color: lightcyan;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 30px;
 }
 
 
-.photo{
-    display: inline-block;
-    width: 100%;
-    text-align: center;
+.photo {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
 }
 
-.photo #minha_foto{
-    margin-top: 100px;
-    width: 20%;
+.photo #minha_foto {
+  margin-top: 100px;
+  width: 20%;
 }
 
-.lessons_parent{
-    display: flex;
-    font-size: 30px;
-    width: 100%;
-    text-align: center;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    line-height: 40px;
+.lessons_parent {
+  display: flex;
+  font-size: 30px;
+  width: 100%;
+  text-align: center;
+  font-family: Impact, Haettenschweiler, Arial, sans-serif;
+  line-height: 40px;
 }
 
-.lessons_learned{
-    background-color: #f2f2f2;
-    width: 50%;
-    color:black;
-    justify-content: center;
-    border: 1px solid;
+.lessons_learned {
+  background-color: lightgray;
+  width: 50%;
+  color: black;
+  justify-content: center;
+  border: 1px solid;
 }
 
-.lessons_tolearn{
-    background-color: #f2f2f2;
-    width: 50%;
-    color:darkslategray;
-    justify-content: center;
-    border: 1px solid;
+.lessons_tolearn {
+  background-color: lightgray;
+  width: 50%;
+  color: darkslategray;
+  justify-content: center;
+  border: 1px solid;
 }
 
-#rodape{
-    font-size: 30px;
-    background-color: green;
-    text-align: center;
+#rodape {
+  font-size: 30px;
+  background-color: green;
+  text-align: center;
 }
 
-.container{
-    display: inline-block;
-    font-size: 30px;
-    width: 100%;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    height: 250px;
-    margin-top: 20px;
+.container {
+  display: inline-block;
+  font-size: 30px;
+  width: 100%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  height: 250px;
+  margin-top: 20px;
 }
 
-.lado-esquerdo{
-    float:left;
-    width:50%;
-    background-color: gray;
-    text-align: center;
-    height: 250px;
+.lado-esquerdo {
+  float: left;
+  width: 50%;
+  background-color: gray;
+  text-align: center;
+  height: 250px;
 }
 
-.lado-direito{
-    float:right;
-    width: 50%;
-    background-color: lightcyan;
-    text-align: center;
-    height: 250px;
+.lado-direito {
+  float: right;
+  width: 50%;
+  background-color: lightcyan;
+  text-align: center;
+  height: 250px;
 }
 
 .tabela {
-    justify-content: center;
-    width: 100%;
-    margin-bottom: 50px;
-    margin-top: 50px;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 50px;
+  margin-top: 50px;
 }
+
 .tabela table {
-    font-size: 30px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: black;
-    border: 2px solid black;
-    margin: 0 auto;
+  font-size: 30px;
+  font-family: Impact, Haettenschweiler, Arial, sans-serif;
+  color: black;
+  border: 2px solid black;
+  margin: 0 auto;
 }
 
-.tabela table th{
-    border: 2px solid black;
+.tabela table th {
+  border: 2px solid black;
 }
 
-.tabela h4{
-    text-align: center;
-    font-size: 30px;
-    display: block;
+.tabela h4 {
+  text-align: center;
+  font-size: 30px;
+  display: block;
 }
