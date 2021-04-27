@@ -68,9 +68,11 @@ main {
 
 #lado-esquerdo {
   width: 50%;
+  vertical-align: top;
   margin-left: 10px;
   margin-right: 0;
   display: inline-block;
+  line-height: 1.5;
 }
 
 article p {
@@ -81,6 +83,7 @@ article p {
 
 #lado-direito {
   float: right;
+  vertical-align: top;
   width: 48%;
   border-radius: 13%;
   background-color: rgb(184, 177, 177);
