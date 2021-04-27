@@ -1,322 +1,315 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,200;1,500&display=swap');
+
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
 
 body {
-    background-color: rgb(253, 251, 251);
-    /* margin: 0px; */
-    /* padding: 0px; */
-    font-family: 'Nunito', sans-serif;
-    font-size: 20px;
-    color: rgb(58, 195, 144);
+  background-color: rgb(253, 251, 251);
+  font-family: "Nunito", sans-serif;
+  font-size: 20px;
+  color: rgb(58, 195, 144);
 }
 
 #cabecalho {
-    top: 0px;
-    position: fixed;
-    z-index: 5;
-    margin-bottom: 10px;
-    width: 100%;
-    height: 50px;
-    background-color: rgb(255, 255, 255);
+  top: 0px;
+  position: fixed;
+  z-index: 5;
+  margin-bottom: 10px;
+  width: 100%;
+  height: 50px;
+  background-color: white;
 }
 
 #cabecalho #caixa-do-titulo {
-    position: relative;
-    top: 15px;
-    width: 100%;
-    height: 25px;
-    box-sizing: border-box;
-    display: table;
+  position: relative;
+  top: 15px;
+  width: 100%;
+  height: 25px;
+  box-sizing: border-box;
+  display: table;
 }
 
 #cabecalho #caixa-do-titulo h1 {
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: 30px;
-    text-align: center;
-    display: table-cell;
-    vertical-align: middle;
-    font-weight: bold;
-    color: rgb(58,195,144);
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 30px;
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+  font-weight: 1000;
+  color: rgb(58, 195, 144);
 }
 
 #cabecalho #navegacao {
-    width: 100%;
-    height: 25px;
-    box-sizing: border-box;
-    display: table;
-    border: rgb(179, 51, 51);
-    border-width: thin;
+  width: 100%;
+  height: 25px;
+  box-sizing: border-box;
+  display: table;
+  border: rgb(179, 51, 51);
+  border-width: thin;
 }
 
 #cabecalho #navegacao #botao-inicio {
-    font-family: 'Nunito', sans-serif;
-    font-size: 19px;
-    font-weight: bold;
-    color: rgb(58, 195, 144);
-    position: relative;
-    top: -25px;
-    left: 10px;
+  font-family: 'Nunito', sans-serif;
+  font-size: 19px;
+  font-weight: 1000;
+  color: rgb(58, 195, 144);
+  position: relative;
+  top: -25px;
+  left: 10px;
 }
 
 #cabecalho #navegacao #botao-fim {
-    font-family: 'Nunito', sans-serif;
-    font-size: 19px;
-    font-weight: bold;
-    color: rgb(58, 195, 144);
-    position: relative;
-    top: -25px;
-    left: 25px;
+  font-family: "Nunito", sans-serif;
+  font-size: 19px;
+  font-weight: 1000;
+  color: rgb(58, 195, 144);
+  position: relative;
+  top: -25px;
+  left: 25px;
+}
 
-}#cabecalho #navegacao #botao-trybe {
-    font-family: 'Nunito', sans-serif;
-    font-size: 19px;
-    font-weight: bold;
-    color: rgb(58, 195, 144);
-    position: relative;
-    top: -25px;
-    left: 40px;
+#cabecalho #navegacao #botao-trybe {
+  font-family: "Nunito", sans-serif;
+  font-size: 19px;
+  font-weight: 1000;
+  color: rgb(58, 195, 144);
+  position: relative;
+  top: -25px;
+  left: 40px;
 }
 
 #cabecalho #navegacao #trybe-logo-01 {
-    position: relative;
-    left: 55px;
-    top: -16px;
+  position: relative;
+  left: 55px;
+  top: -16px;
 }
 
 #conteudo-perfil {
-    position: relative;
-    top: 52px;
-    background-color: rgb(58, 195, 144);
-    max-width: 70%;
-    margin: 0;
-    padding: 20px;
-    box-sizing: border-box;
-    border-radius: 10px;
+  position: relative;
+  top: 52px;
+  background-color: rgb(58, 195, 144);
+  max-width: 70%;
+  margin: 0px;
+  padding: 20px;
+  box-sizing: border-box;
+  border-radius: 10px;
 }
 
-/* #conteudo:after {
-    display: block;
-    clear: both;
-} */
-
 #conteudo-perfil #caixa-da-imagem {
-    width: 200px;
-    flex: 0 0 200px;
-    float: left;
+  width: 200px;
+  flex: 0 0 200px;
+  float: left;
 }
 
 #conteudo-perfil #caixa-da-imagem img {
-    max-width: 100%;
-    border-radius: 50%;
+  max-width: 100%;
+  border-radius: 50%;
 }
 
 #conteudo-perfil #caixa-da-imagem h2 {
-    position: relative;
-    bottom: 10px;
-    text-align: center;
-    font-size: 18px;
-    font-weight: bold;
-    color: rgb(68, 73, 85);
+  position: relative;
+  bottom: 10px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 1000;
+  color: rgb(68, 73, 85);
 }
 
 #conteudo-perfil #caixa-do-texto {
-    padding-right: 10px;
-}
-
-#conteudo-perfil #caixa-do-texto p {
-    position: relative;
-    left: 15px;
-    text-align: justify;
-    font-size: 20px;
-    font-weight: bold;
-    color: rgb(255, 255, 255);   
-}
-
-#caixa-barra-lateral #barra-lateral {
-    position: relative;
-    top: -248px;
-    width: 28%;
-    height: 659px;
-    position: relative;
-    bottom: 300px;
-    /*margin-left: 950px;*/
-    border-radius: 10px;
-    background-color: rgb(5, 124, 235);
-    float: right;
-}
-
-#caixa-barra-lateral #barra-lateral h3 {
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: 24px;
-    text-align: right;
-    font-weight: bold;
-    color: rgb(255, 255, 255);
-    margin: 50px 10px;
-    margin-right: 60px;
-    font-style: oblique;
-    text-decoration: underline;
-}
-
-#caixa-barra-lateral #barra-lateral #item li {
-    font-family: 'Nunito', sans-serif;
-    font-size: 20px;
-    text-align: left;
-    font-weight: bold;
-    color: rgb(255, 255, 255);
-    position: relative;
-    right: 10px;
-}
-
-#caixa-barra-lateral #barra-lateral #item #item-titulo #subitem {
-    font-family: 'Nunito', sans-serif;
-    font-size: 15px;
-    text-align: left;
-    font-weight: bold;
-    line-height: 35px;
-    color: rgb(255, 255, 255);
-    position: relative;
-    left: -5px;
-    top: 25px;
-}
-
-#caixa-barra-lateral span {
-    font-family: 'Nunito', sans-serif;
-    display: inline-block;
-    max-width: 350px;
-    font-size: 20px;
-    text-align: left;
-    font-weight: bold;
-    color: rgb(255, 255, 255);
-    position: relative;
-    left: 760px;
-    top: 75px;
-}
-
-#caixa-barra-lateral #tabela-curso-trybe {
-    font-family: 'Nunito', sans-serif;
-    font-weight: bold;
-    border-collapse: collapse;
-    border: 2px solid rgb(255, 255, 255);
-    padding: 8px;
-    width: 25%;
-    color: rgb(255, 152, 152);
-    position: relative;
-    text-align: left;
-    bottom: -145px;
-    left: 975px;
-}
-
-#caixa-barra-lateral #tabela-curso-trybe th {
-    color:rgb(58, 195, 144);
-}
-
-#conteudo-aprendido {
-    position: relative;
-    top: -150px;
-    max-width: 70%;
-    box-sizing: border-box;
-    border-radius: 10px;
-    background-color: rgb(58,195,144);
-}
-
-#conteudo-aprendido h4 {
-    text-align: left;
-    font-size: 19px;
-    font-weight: bold;
-    color: rgb(68, 73, 85);
-    margin-top: 10px;
-    margin-bottom: 10px;
-    position: relative;
-    left: 220px;
-}
-
-#conteudo-aprendido .lado-esquerdo {
-    max-width: 50%;
-    border-radius: 20px;
-    border-style: solid;
-    border-width: 5px;
-    border-color: rgb(58, 195, 144);
-    float: left;
+  padding-right: 10px;
 }
 
 #conteudo-aprendido .lado-esquerdo p {
-    text-align: center;
-    font-size: 18px;
-    font-weight: bold;
-    color: rgb(5, 124, 235);
-}
-
-#conteudo-aprendido .lado-esquerdo #licoes_aprendidas li {
-    text-align: left;
-    font-size: 16px;
-    margin-right: 20px;
-    font-weight: bold;
-    color: rgb(5, 124, 235);
+  text-align: center;
+  font-size: 18px;
+  font-weight: 1000;
+  color: rgb(5, 124, 235);
 }
 
 #conteudo-aprendido .lado-direito p {
-    text-align: center;
-    font-size: 18px;
-    font-weight: bold;
-    color: rgb(179, 51, 51);
+  text-align: center;
+  font-size: 18px;
+  font-weight: 1000;
+  color: rgb(179, 51, 51);
 }
 
-#conteudo-aprendido .lado-direito {
-    max-width: 50%;
-    border-radius: 20px;
-    border-style: dashed;
-    border-width: 5px;
-    border-color: rgb(58, 195, 144);
-    float: right;
+#conteudo-perfil #caixa-do-texto p {
+  position: relative;
+  left: 15px;
+  text-align: justify;
+  font-size: 20px;
+  font-weight: 1000;
+  color: white;   
+}
+
+#caixa-barra-lateral #barra-lateral {
+  position: relative;
+  top: -248px;
+  width: 28%;
+  height: 659px;
+  bottom: 300px;
+  border-radius: 10px;
+  background-color: rgb(5, 124, 235);
+  float: right;
+}
+
+#caixa-barra-lateral #barra-lateral h3 {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 24px;
+  text-align: right;
+  font-weight: 1000;
+  color: white;
+  margin: 50px 10px;
+  margin-right: 60px;
+  font-style: oblique;
+  text-decoration: underline;
+}
+
+#conteudo-aprendido .lado-esquerdo #licoes_aprendidas li {
+  text-align: left;
+  font-size: 16px;
+  margin-right: 20px;
+  font-weight: 1000;
+  color: rgb(5, 124, 235);
 }
 
 #conteudo-aprendido .lado-direito #licoes_a_aprender li {
-    text-align: left;
-    font-size: 16px;
-    margin-right: 20px;
-    font-weight: bold;
-    color: rgb(179, 51, 51);
+  text-align: left;
+  font-size: 16px;
+  margin-right: 20px;
+  font-weight: 1000;
+  color: rgb(179, 51, 51);
+}
+
+#caixa-barra-lateral #barra-lateral #item li {
+  font-family: "Nunito", sans-serif;
+  font-size: 20px;
+  text-align: left;
+  font-weight: 1000;
+  color: white;
+  position: relative;
+  right: 10px;
+}
+
+#caixa-barra-lateral #barra-lateral #subitem {
+  font-family: "Nunito", sans-serif;
+  font-size: 15px;
+  text-align: left;
+  font-weight: 1000;
+  line-height: 35px;
+  color: white;
+  position: relative;
+  left: -5px;
+  top: 25px;
+}
+
+#caixa-barra-lateral span {
+  font-family: "Nunito", sans-serif;
+  display: inline-block;
+  max-width: 350px;
+  font-size: 20px;
+  text-align: left;
+  font-weight: 1000;
+  color: white;
+  position: relative;
+  left: 760px;
+  top: 75px;
+}
+
+#caixa-barra-lateral #tabela-curso-trybe {
+  font-family: "Nunito", sans-serif;
+  font-weight: 1000;
+  border-collapse: collapse;
+  border: 2px solid white;
+  padding: 8px;
+  width: 25%;
+  color: rgb(255, 152, 152);
+  position: relative;
+  text-align: left;
+  bottom: -145px;
+  left: 975px;
+}
+
+#caixa-barra-lateral #tabela-curso-trybe th {
+  color: rgb(58, 195, 144);
+}
+
+#conteudo-aprendido {
+  position: relative;
+  top: -150px;
+  max-width: 70%;
+  box-sizing: border-box;
+  border-radius: 10px;
+  background-color: rgb(58, 195, 144);
+}
+
+#conteudo-aprendido h4 {
+  text-align: left;
+  font-size: 19px;
+  font-weight: 1000;
+  color: rgb(68, 73, 85);
+  margin-top: 10px;
+  margin-bottom: 10px;
+  position: relative;
+  left: 220px;
+}
+
+#conteudo-aprendido .lado-esquerdo {
+  max-width: 50%;
+  border-radius: 20px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: rgb(58, 195, 144);
+  float: left;
+}
+
+#conteudo-aprendido .lado-direito {
+  max-width: 50%;
+  border-radius: 20px;
+  border-style: dashed;
+  border-width: 5px;
+  border-color: rgb(58, 195, 144);
+  float: right;
 }
 
 #rodape {
-    position: relative;
-    top: -150px;
-    bottom: 0px;
-    width: 100%;
-    height: 40px;
-    margin-top: 325px;
-    box-sizing: border-box;
+  position: relative;
+  top: -150px;
+  bottom: 0px;
+  width: 100%;
+  height: 40px;
+  margin-top: 325px;
+  box-sizing: border-box;
 }
 
 #rodape h5 {
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: 16px;
-    text-align: center;
-    font-weight: bold;
-    color: rgb(58, 195, 144);
-    position: relative;
-    top: 10px;
-    left: 195px;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 16px;
+  text-align: center;
+  font-weight: 1000;
+  color: rgb(58, 195, 144);
+  position: relative;
+  top: 10px;
+  left: 195px;
 }
 
 #rodape a {
-    float: right;
+  float: right;
 }
 
 #rodape #github {
-    position: relative;
-    bottom: 42px;
-    left: 50px;
+  position: relative;
+  bottom: 42px;
+  left: 50px;
 }
 
 #rodape #linkedin {
-    position: relative;
-    bottom: 43px;
-    right: 550px;
+  position: relative;
+  bottom: 43px;
+  right: 550px;
 }
 
 #rodape #trybe-logo-02 {
-    position: relative;
-    left: 425px;
-    bottom: 250px;
+  position: relative;
+  left: 425px;
+  bottom: 250px;
 }
