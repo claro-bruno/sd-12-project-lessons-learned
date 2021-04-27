@@ -48,6 +48,8 @@ header {
 
 #licoes_aprendida #licoes_a_aprender {
   color: black;
+  width: 30%;
+  margin: 10px;
 }
 
 .artigo {
@@ -59,4 +61,9 @@ header {
 
 #rodape {
   color: black;
+  font-size: 10px;
+}
+
+h3{
+  font-weight: 300px;
 }
