@@ -146,15 +146,24 @@ table td{
 
 #rodape{
     background-color:rgb(42, 46, 43);
-    padding-bottom: 20px;
+    
     width: 100%;
 }
-footer img{
-    width:40px;
+footer #contact{
+    padding-left: 590px;
 }
-footer a{  
+#rodape img{
+    width:40px;
+    margin-right: 80px;
+    margin-bottom: 5px;
+    
+}
+#rodape a{  
     color:rgb(253, 251, 251);
     text-decoration:none;
-    margin-right:30px;
-    padding-left: 200px;
+    margin-right:65px;
+    
+}
+footer #linkedin{
+    padding-left: 580px; 
 }
