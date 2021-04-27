@@ -2,10 +2,21 @@ body {
     background-color: rgb(253 251 251);
 }
 
+main { 
+    margin-top: 100px;
+    padding-top: 100px;
+}
+
 #cabecalho {
     position: fixed;
+    text-align: center;
     background-color: black;
     top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    font-size: 20px;
+    height: 100px;
 
 }
 
@@ -15,19 +26,28 @@ body {
 
 #minha_foto {
     border-radius: 10px;
-    margin-top: 50px;
-    margin-left: 15px;
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 110px;
+
 }
 
 #licoes_aprendidas {
-
+  
 }
 
 #licoes_a_aprender {
     
+    
 }
 
 #rodape {
-    position: fixed;
     background-color: black;
+    width: 100%;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin: auto;
 }
