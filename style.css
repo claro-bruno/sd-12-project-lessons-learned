@@ -41,7 +41,7 @@ nav {
   background-color: aliceblue;
   padding: 20px;
   display: inline-block;
-  vertical-align: top;
+  vertical-align: bottom;
   margin: 20px;
   color: gray;
 }
