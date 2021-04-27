@@ -4,13 +4,13 @@
 
 body {
   background-color: rgb(253, 251, 251);
-  font-family: "Nunito", sans-serif;
+  font-family: Nunito, sans-serif;
   font-size: 20px;
   color: rgb(58, 195, 144);
 }
 
 #cabecalho {
-  top: 0px;
+  top: 0;
   position: fixed;
   z-index: 5;
   margin-bottom: 10px;
@@ -29,7 +29,7 @@ body {
 }
 
 #cabecalho #caixa-do-titulo h1 {
-  font-family: "Josefin Sans", sans-serif;
+  font-family: Josefin Sans, sans-serif;
   font-size: 30px;
   text-align: center;
   display: table-cell;
@@ -48,7 +48,7 @@ body {
 }
 
 #cabecalho #navegacao #botao-inicio {
-  font-family: 'Nunito', sans-serif;
+  font-family: Nunito, sans-serif;
   font-size: 19px;
   font-weight: 1000;
   color: rgb(58, 195, 144);
@@ -58,7 +58,7 @@ body {
 }
 
 #cabecalho #navegacao #botao-fim {
-  font-family: "Nunito", sans-serif;
+  font-family: Nunito, sans-serif;
   font-size: 19px;
   font-weight: 1000;
   color: rgb(58, 195, 144);
@@ -68,7 +68,7 @@ body {
 }
 
 #cabecalho #navegacao #botao-trybe {
-  font-family: "Nunito", sans-serif;
+  font-family: Nunito, sans-serif;
   font-size: 19px;
   font-weight: 1000;
   color: rgb(58, 195, 144);
@@ -153,7 +153,7 @@ body {
 }
 
 #caixa-barra-lateral #barra-lateral h3 {
-  font-family: "Josefin Sans", sans-serif;
+  font-family: Josefin Sans, sans-serif;
   font-size: 24px;
   text-align: right;
   font-weight: 1000;
@@ -181,7 +181,7 @@ body {
 }
 
 #caixa-barra-lateral #barra-lateral #item li {
-  font-family: "Nunito", sans-serif;
+  font-family: Nunito, sans-serif;
   font-size: 20px;
   text-align: left;
   font-weight: 1000;
@@ -191,7 +191,7 @@ body {
 }
 
 #caixa-barra-lateral #barra-lateral #subitem {
-  font-family: "Nunito", sans-serif;
+  font-family: Nunito, sans-serif;
   font-size: 15px;
   text-align: left;
   font-weight: 1000;
@@ -203,7 +203,7 @@ body {
 }
 
 #caixa-barra-lateral span {
-  font-family: "Nunito", sans-serif;
+  font-family: Nunito, sans-serif;
   display: inline-block;
   max-width: 350px;
   font-size: 20px;
@@ -216,7 +216,7 @@ body {
 }
 
 #caixa-barra-lateral #tabela-curso-trybe {
-  font-family: "Nunito", sans-serif;
+  font-family: Nunito, sans-serif;
   font-weight: 1000;
   border-collapse: collapse;
   border: 2px solid white;
@@ -282,7 +282,7 @@ body {
 }
 
 #rodape h5 {
-  font-family: "Josefin Sans", sans-serif;
+  font-family: Josefin Sans, sans-serif;
   font-size: 16px;
   text-align: center;
   font-weight: 1000;
