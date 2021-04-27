@@ -30,7 +30,7 @@ body{
     margin-top: 85px;
     margin-left: 41%;    
 }
-article {
+.lado-esquerdo {
     font-family: monospace;
     width: 76%;
     padding: 20px;
@@ -38,7 +38,7 @@ article {
     margin-top: 50px;
     text-align: center;
 }
-aside {
+.lado-direito {
     background-color:rgb(113, 154, 241);
     color: white;
     border-radius: 10px;
@@ -49,13 +49,13 @@ aside {
     float: right;
 }
 
-#Lições_aprendidas {
+#lições_aprendidas {
     line-height: 20px;
     background-color:rgb(51, 98, 199);
     color: white;
     width: 27%;
 }
-#Lições_a_aprender {
+#lições_a_aprender {
     line-height: 20px;
     background-color:rgb(51, 98, 199);
     color: white;
