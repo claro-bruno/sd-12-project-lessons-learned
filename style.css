@@ -66,7 +66,8 @@ main {
 }
 
 #article {
-  width: 65%;
+  width: 50%;
+  margin-left: 10px;
   margin-right: 0;
   display: inline-block;
 }
@@ -78,6 +79,7 @@ article p {
 
 aside {
   float: right;
+  margin-right: 10%;
   width: 35%;
   border-radius: 13%;
   background-color: rgb(184, 177, 177);
