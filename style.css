@@ -27,14 +27,20 @@ body {
   padding: 40px 0 0;
 }
 
+section h2 {
+  width: 100%;
+}
+
 section article {
   height: 100px;
   width: 40%;
+  vertical-align: auto;
 }
 
 section aside {
   height: 100px;
   width: 50%;
+  vertical-align: auto;
 }
 
 section h2 {
@@ -53,12 +59,12 @@ aside p {
 
 .lado-direito {
   display: inline-block;
-  text-align: right;
+  vertical-align: bottom;
 }
 
 .lado-esquerdo {
   display: inline-block;
-  text-align: left;
+  vertical-align: bottom;
 }
 
 table p {
@@ -78,4 +84,5 @@ table p {
   text-align: center;
   padding: 22px 0;
   color: white;
+  width: 100%;
 }
