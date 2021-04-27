@@ -29,6 +29,7 @@ body {
 
 section h2 {
   width: 100%;
+  color: rgb(42, 168, 74);
 }
 
 section article {
@@ -41,10 +42,6 @@ section aside {
   height: 100px;
   width: 50%;
   vertical-align: auto;
-}
-
-section h2 {
-  color: rgb(42, 168, 74);
 }
 
 .p_article {
