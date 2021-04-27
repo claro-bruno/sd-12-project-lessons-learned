@@ -1,11 +1,25 @@
 body {
     background-color: rgb(253,251,251);
+    width: auto;
+    margin: auto;
+}
+
+nav, aside {
+    background-color: darkturquoise;
+    height: 500px;
+    width: 150px;
     left: 0px;
-    margin: 0px;
+    text-align: center;
+}
+nav{
+    float: left;
+}
+aside{
+    float: right;
 }
 
 #texto {
-    
+    margin-bottom: 0px;
 }
 
 .conjunto {
@@ -24,7 +38,6 @@ body {
 #cabecalho {
     position: fixed;
     top: 0;
-    left: 0;
     width: 100%;
     text-align: center;
     background-color: chartreuse;
