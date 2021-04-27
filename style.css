@@ -44,6 +44,7 @@ header {
   margin: 10px;
   display: inline-block;
   margin-top: 10px;
+
 }
 
 #licoes_aprendida #licoes_a_aprender {
@@ -52,7 +53,7 @@ header {
   margin: 10px;
 }
 
-.artigo {
+.artigo aside section{
   max-width: 90%;
   margin-left: 10px;
   text-align: justify;
@@ -64,6 +65,8 @@ header {
   font-size: 10px;
 }
 
-h3{
-  font-weight: 300px;
+h2{
+font-size: 20px;
+color: rgb(3, 3, 3);
+line-height: 15px;
 }
