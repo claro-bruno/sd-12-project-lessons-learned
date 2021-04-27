@@ -28,7 +28,7 @@ body {
   display: inline-block;
   font-family: monospace;
   font-style: normal 16px;
-  margin-left:200px;
+  margin-left: 200px;
   margin-right: 250px;
   margin-top: 50px;
 }
@@ -69,7 +69,8 @@ a {
 }
 
 .tabela {
-  font: Arial 16px;
+  font-family: monospace;
+  font-style: Arial 16px;
   text-align: center;
   margin-left: 850px;
 }
