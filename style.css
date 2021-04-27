@@ -8,7 +8,7 @@ header {
   position: fixed;
   padding: 10px;
   width: 100%;
-  top: 0px;
+  top: 0px;  
 }
 
 nav a {
@@ -20,6 +20,12 @@ nav a {
   text-align: center;
 }
 
+#licoes {
+  font-family: "Didot";
+  color: #11a36a;
+  font-size: 20px;
+}
+
 #minha_foto {
   margin-top: 140px;
   display: block;
@@ -28,12 +34,14 @@ nav a {
 }
 
 #licoes_aprendidas {
+  line-height: 1.4;
   float: left;
 }
 
 #licoes_a_aprender {
   margin-left: 150px;
   margin-top: 35px;
+  line-height: 1.4;
 }
 
 div {
