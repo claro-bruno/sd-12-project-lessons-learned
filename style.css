@@ -26,6 +26,6 @@ body {
   top: 635px;
   background-color: rgb(168, 255, 143);
   height: 13px;
-  padding: 0px 175px;
+  padding: auto 175px;
   text-align: center;
 }
