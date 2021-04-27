@@ -46,6 +46,7 @@ main {
 
 #nome {
   padding-left: 85px;
+  color: rgb(7, 134, 7);
 }
 
 .licoes {
@@ -65,7 +66,7 @@ main {
   padding-left: 70px;
 }
 
-#article {
+#lado-esquerdo {
   width: 50%;
   margin-left: 10px;
   margin-right: 0;
@@ -73,11 +74,12 @@ main {
 }
 
 article p {
+  line-height: 1.5;
   width: 100%;
   text-indent: 30px;
 }
 
-aside {
+#lado-direito {
   float: right;
   margin-right: 10%;
   width: 35%;
