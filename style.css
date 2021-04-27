@@ -1,7 +1,7 @@
 #cabecalho {
     background-color: rgb(51, 98, 199);
     color: white;
-    position:fixed;
+    position: fixed;
     top: 0;
     width: 100%;
     text-align: center;
@@ -68,6 +68,6 @@ aside {
     border-radius: 20px 10px;
     height: 40px;
     font-size: 15;
-    color:white;
+    color: white;
     bottom: 0;
 }
