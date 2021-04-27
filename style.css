@@ -1,18 +1,11 @@
 body {
-    
-    font-family: Georgia, sans-serif;
-    
-    font-size: 30px;
-    
-    line-height: 50px;
-    
-    background-color: rgb(253, 251, 251);
-    
-    margin:0%;
-    
-    padding: 0%;
-    
-    border: 0%;
+  font-family: Georgia, sans-serif;
+  font-size: 30px;
+  line-height: 50px;
+  background-color: rgb(253, 251, 251);
+  margin:0%;
+  padding: 0%;
+  border: 0%;
 }
 
 header {
