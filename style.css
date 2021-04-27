@@ -1,42 +1,44 @@
 body {
   background-color:rgb(253, 251, 251);
   font-family: 'Trebuchet MS',Arial, sans-serif;
-  margin: 0;
+
 }
 
 header {
   top: 0;
   background-color: #04830b;
+  width: 10000px;
   }
 
-.titulos{
-  margin-left: 10px;
+.titulos {
+  margin-left: 110px;
 }
 
 #cabecalho {
-  color: white;font-size: 20px;
+  color: white; font-size: 20px;
   padding: 10px 10px 10px 10px;
   top: 0;
+  position: fixed;
 }
 
 .menu {
   color: white;
   text-decoration: none;
-  padding: 30px 30px ;
+  padding: 30px 30px;
 }
 
 #minha_foto {
   width: 150px;
-  border-radius: 50px ;
+  border-radius: 50px;
   margin-left: 10px;
-  margin-top: 10px;
+  margin-top: 150px;
 }
-.nome{
+.nome {
   font-size: 50px;
   margin-left: 10px;
   margin-top: 10px;
 }
-.lições-geral{
+.lições-geral {
   width: 30%;
   margin: 10px;
   display: inline-block;
@@ -47,13 +49,13 @@ header {
   color: black;
 }
 
-.artigo{
+.artigo {
   max-width: 90%;
   margin-left: 10px;
   text-align: justify;
   display: inline-block;
 }
 
-#rodape{
+#rodape {
   color: black;
 }
