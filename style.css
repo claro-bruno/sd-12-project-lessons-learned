@@ -66,7 +66,7 @@ main {
   padding-left: 70px;
 }
 
-#lado-esquerdo {
+.lado-esquerdo {
   width: 50%;
   vertical-align: top;
   margin-left: 10px;
@@ -81,7 +81,7 @@ article p {
   text-indent: 30px;
 }
 
-#lado-direito {
+.lado-direito {
   float: right;
   vertical-align: top;
   width: 48%;
