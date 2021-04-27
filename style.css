@@ -80,7 +80,7 @@ article p {
 }
 
 #lado-direito {
-  float: right;
+  display: inline-block;
   margin-right: 10%;
   width: 35%;
   border-radius: 13%;
