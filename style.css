@@ -130,3 +130,11 @@ body {
   display: inline-block;
   width: 30%;
 }
+
+.lists ul, ol{
+  display: inline-block;
+}
+
+.lists {
+  text-align: center;
+}
