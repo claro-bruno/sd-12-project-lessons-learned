@@ -3,11 +3,12 @@ body {
   margin: 0;
   padding-top: 180px;
   font-family: Nunito, sans-serif;
+  overflow-y: scroll; overflow-x: hidden;
 }
 
 #cabecalho {
   position: fixed;
-  height: 180px;
+  height: 120px;
   width: 100%;
   top: 0%;
   color: white;
@@ -19,7 +20,12 @@ body {
   color: white;
 }
 
+h1 { 
+  margin: 10px;
+}
+
 h2 {
+  margin: auto;
   font-style: italic;
 }
 
@@ -33,7 +39,12 @@ h2 {
 #nav li {
   display: inline-block;
   width: 200px;
-  font-size: 18px;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+#nav ul {
+  margin: 5px;
 }
 
 #nav a:hover {
@@ -43,37 +54,41 @@ h2 {
 
 #foto {
   background-image: url('./images/grama.jpg');
-  height: 270px;
+  height: auto;
+}
+
+#apresenta {
+  text-align: center ;
 }
 
 #minha_foto {
+  margin: 40px;
   border-style: double;
   border-color: white;
-  margin-left: 15px;
-  margin-top: 35px;
+  border-radius: 5px;
+  box-shadow: 15px 15px 15px rgba(2, 247, 84, 0.534);
+  
 }
 
 legend {
-  margin-left: 35px;
-  color: white;
+  color:white;
   font-weight: 800;
+  font-size: 35px;
+  font-style: italic;
 }
 
 #logo {
   margin-top: 80px;
   height: 120px;
-  width: 390px;
+  width: 30px;
   border-style: double;
   border-color: mediumseagreen;
 }
 
 #main {
-  border-style: double;
-  border-color: mediumseagreen;
-  background-color: rgb(0, 128, 128, 0.4);
   margin-top: 25px;
   margin-left: 15px;
-  width: 67%;
+  margin-right: 15px;
   display: inline-block;
 }
 
@@ -82,13 +97,14 @@ article section {
 }
 
 article {
-  margin: 10px;
+  width: 70%;
+  margin: auto;
   text-align: justify;
 }
 
-article h2 {
+article h3 {
   text-align: center;
-  font-size: 30px;
+  font-size: 25px;
 }
 
 #aside {
@@ -109,9 +125,8 @@ article h2 {
 }
 
 .listas {
-  margin-left: 40px;
   display: inline-block;
-  width: 45%;
+  width: 30%;
   color: darkgreen;
 }
 
