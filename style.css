@@ -44,8 +44,16 @@ h2 {
   font-size: 18px;
 }
 
+.listas li {
+  margin-left: 50px;
+}
+
 #nav ul {
   margin: 5px;
+}
+
+.listas ul {
+  margin: 0 20px;
 }
 
 #nav a:hover {
@@ -104,7 +112,6 @@ article {
 
 .listas {
   display: inline-block;
-  width: auto;
   margin-left: 3px;
   width: 49%;
   color: darkmagenta;
@@ -118,12 +125,17 @@ article {
   text-align: center;
 }
 
-.listas ul {
-  margin: 0, 20px;
+.aside p {
+  margin: 20px;
+  color: darkgreen;
+  line-height: 22px;
 }
 
-.listas li {
-  margin-left: 50px;
+footer p {
+  background-color: darkgreen;
+  color: white;
+  text-align: center;
+  font-size: 24px;
 }
 
 #final {
@@ -141,7 +153,7 @@ article {
 }
 
 .tabela {
-  margin: 0px;
+  margin: 0;
   width: 60%;
   text-align: center;
 }
@@ -160,12 +172,6 @@ article {
   border-color: mediumseagreen;
   width: 25%;
   float: right;
-}
-
-.aside p {
-  margin: 20px;
-  color: darkgreen;
-  line-height: 22px;
 }
 
 .titulos {
@@ -191,13 +197,6 @@ article {
 footer {
   background-image: url("./images/grama.jpg");
   height: 100px;
-}
-
-footer p {
-  background-color: darkgreen;
-  color: white;
-  text-align: center;
-  font-size: 24px;
 }
 
 #link-trybe {
