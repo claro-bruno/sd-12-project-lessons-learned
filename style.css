@@ -3,7 +3,8 @@ body {
   margin: 0;
   padding-top: 180px;
   font-family: Nunito, sans-serif;
-  overflow-y: scroll; overflow-x: hidden;
+  overflow-y: scroll;
+  overflow-x: hidden;
 }
 
 #cabecalho {
@@ -20,7 +21,7 @@ body {
   color: white;
 }
 
-h1 { 
+h1 {
   margin: 10px;
 }
 
@@ -40,7 +41,7 @@ h2 {
   display: inline-block;
   width: 200px;
   font-weight: 500;
-  font-size: 16px;
+  font-size: 18px;
 }
 
 #nav ul {
@@ -52,8 +53,8 @@ h2 {
   font-weight: 600;
 }
 
-#foto {
-  background-image: url('./images/grama.jpg');
+.foto {
+  background-image: url("./images/grama.jpg");
   height: auto;
 }
 
@@ -69,19 +70,11 @@ h2 {
   box-shadow: 15px 15px 15px rgba(2, 247, 84, 0.534);
 }
 
-legend {
-  color:white;
+.legend {
+  color: white;
   font-weight: 800;
   font-size: 35px;
   font-style: italic;
-}
-
-#logo {
-  margin-top: 80px;
-  height: 120px;
-  width: 30px;
-  border-style: double;
-  border-color: mediumseagreen;
 }
 
 #main {
@@ -97,7 +90,7 @@ article {
   text-align: justify;
 }
 
-article h3 {
+#h3 {
   text-align: center;
   font-size: 25px;
   color: green;
@@ -106,7 +99,7 @@ article h3 {
 #sections {
   margin: auto;
   width: 80%;
-  background-color: rgb(255, 228 ,225 , 0.4);
+  background-color: rgb(255, 228, 225, 0.4);
 }
 
 .listas {
@@ -127,7 +120,7 @@ article h3 {
 
 .listas ul {
   margin: 0, 20px;
-} 
+}
 
 .listas li {
   margin-left: 50px;
@@ -136,7 +129,7 @@ article h3 {
 #final {
   margin: 20px auto;
   width: 100%;
-  height: auto; 
+  height: auto;
   font-size: 18px;
 }
 
@@ -145,32 +138,6 @@ article h3 {
   font-size: 20px;
   font-weight: 800;
   font-style: italic;
-}
-#aside {
-  padding-left: 40px;
-  text-align: right;
-  margin-right: 20px;
-  border-left-style: double;
-  border-color: mediumseagreen;
-  width: 25%;
-  float: right;
-}
-
-#titulo {
-  font-size: 20px;
-  font-weight: 800;
-}
-
-#gus:hover {
-  color: red;
-  font-weight: 800;
-}
-
-#aside p {
-  margin: 20px;
-  color: darkgreen;
-  line-height: 22px;
-  font-size: ;
 }
 
 .tabela {
@@ -184,16 +151,45 @@ article h3 {
   font-weight: 800;
 }
 
-caption {
-  text-align: center;
+.aside {
+  padding-left: 40px;
+  text-align: right;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  border-left-style: double;
+  border-color: mediumseagreen;
+  width: 25%;
+  float: right;
+}
+
+.aside p {
+  margin: 20px;
+  color: darkgreen;
+  line-height: 22px;
+}
+
+.titulos {
   font-size: 20px;
-  font-weight: 600;
-  border-bottom-style: double;
-  border-color: white;
+  font-weight: 800;
+}
+
+#gus:hover {
+  color: red;
+  font-weight: 800;
+}
+
+#logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  height: min-content;
+  border-style: double;
+  border-color: mediumseagreen;
 }
 
 footer {
-  background-image: url('./images/grama.jpg');
+  background-image: url("./images/grama.jpg");
   height: 100px;
 }
 
@@ -201,7 +197,7 @@ footer p {
   background-color: darkgreen;
   color: white;
   text-align: center;
-  font-size: 22px;
+  font-size: 24px;
 }
 
 #link-trybe {
@@ -219,5 +215,6 @@ h5 {
   margin-right: 15px;
   text-align: right;
   font-style: italic;
+  font-size: large;
   color: white;
 }
