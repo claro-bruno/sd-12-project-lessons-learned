@@ -37,6 +37,10 @@ h2 {
   background-color: mediumseagreen;
 }
 
+.listas li {
+  margin-left: 50px;
+}
+
 #nav li {
   display: inline-block;
   width: 200px;
@@ -44,16 +48,12 @@ h2 {
   font-size: 18px;
 }
 
-.listas li {
-  margin-left: 50px;
+.listas ul {
+  margin: 0 20px;
 }
 
 #nav ul {
   margin: 5px;
-}
-
-.listas ul {
-  margin: 0 20px;
 }
 
 #nav a:hover {
@@ -62,7 +62,7 @@ h2 {
 }
 
 .foto {
-  background-image: url("./images/grama.jpg");
+  background-image: url('./images/grama.jpg');
   height: auto;
 }
 
@@ -131,7 +131,7 @@ article {
   line-height: 22px;
 }
 
-footer p {
+#footer p {
   background-color: darkgreen;
   color: white;
   text-align: center;
@@ -195,7 +195,7 @@ footer p {
 }
 
 footer {
-  background-image: url("./images/grama.jpg");
+  background-image: url('./images/grama.jpg');
   height: 100px;
 }
 
