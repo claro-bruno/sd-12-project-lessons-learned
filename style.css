@@ -58,7 +58,7 @@ h2 {
 }
 
 #apresenta {
-  text-align: center ;
+  text-align: center;
 }
 
 #minha_foto {
@@ -67,7 +67,6 @@ h2 {
   border-color: white;
   border-radius: 5px;
   box-shadow: 15px 15px 15px rgba(2, 247, 84, 0.534);
-  
 }
 
 legend {
@@ -92,70 +91,97 @@ legend {
   display: inline-block;
 }
 
-article section {
-  margin: 20px;
-}
-
 article {
-  width: 70%;
-  margin: auto;
+  width: 80%;
+  margin: 20px auto;
   text-align: justify;
 }
 
 article h3 {
   text-align: center;
   font-size: 25px;
+  color: green;
 }
 
-#aside {
-  text-align: center;
-  border-style: double;
-  border-color: mediumseagreen;
-  background-color: rgb(255, 69, 0, 0.4);
-  margin-top: 25px;
-  margin-right: 15px;
-  float: right;
-  width: 29%;
-  height: 315px;
-  color: white;
-}
-
-#aside h3 {
-  font-style: italic;
+#sections {
+  margin: auto;
+  width: 80%;
+  background-color: rgb(255, 228 ,225 , 0.4);
 }
 
 .listas {
   display: inline-block;
-  width: 30%;
-  color: darkgreen;
+  width: auto;
+  margin-left: 3px;
+  width: 49%;
+  color: darkmagenta;
 }
 
 .listas p {
-  text-align: center;
   font-size: 18px;
   font-weight: 600;
   font-style: italic;
+  width: 60%;
+  text-align: center;
 }
 
-#aside p {
-  color: darkgreen;
-  line-height: 22px;
+.listas ul {
+  margin: 0, 20px;
+} 
+
+.listas li {
+  margin-left: 50px;
 }
 
 #final {
-  margin: 15px;
-  width: 98%;
-  height: 165px;
-  background-color: mediumseagreen;
+  margin: 20px auto;
+  width: 100%;
+  height: auto; 
   font-size: 18px;
-  border-style: double;
-  border-color: white;
+}
+
+#conteudos {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 800;
+  font-style: italic;
+}
+#aside {
+  padding-left: 40px;
+  text-align: right;
+  margin-right: 20px;
+  border-left-style: double;
+  border-color: mediumseagreen;
+  width: 25%;
+  float: right;
+}
+
+#titulo {
+  font-size: 20px;
+  font-weight: 800;
+}
+
+#gus:hover {
+  color: red;
+  font-weight: 800;
+}
+
+#aside p {
+  margin: 20px;
+  color: darkgreen;
+  line-height: 22px;
+  font-size: ;
 }
 
 .tabela {
-  margin: auto;
+  margin: 0px;
   width: 60%;
   text-align: center;
+}
+
+.tabela td:hover {
+  color: darkgreen;
+  font-weight: 800;
 }
 
 caption {
