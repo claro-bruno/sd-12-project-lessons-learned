@@ -25,7 +25,7 @@ h1 {
   margin: 10px;
 }
 
-h2 {
+#h2 {
   margin: auto;
   font-style: italic;
 }
@@ -131,7 +131,7 @@ article {
   line-height: 22px;
 }
 
-#footer p {
+.footer p {
   background-color: darkgreen;
   color: white;
   text-align: center;
