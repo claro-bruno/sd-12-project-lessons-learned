@@ -1,58 +1,66 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
-    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Lessons Learned</title>
 </head>
-<body>
+<body id="body">
     <header id="cabecalho">
-        <h1 id="titulo">Artur Álvaro de Melo Cavalcante</h1>
+        <h1 id="titulo">Artur Álvaro</h1>
     </header>
-    <main>
-        <section>
-            <img src="/IMG-20130623-WA0003-1.jpg" alt="Foto de Artur" id="minha_foto">
-            <ol id="licoes_aprendidas">
-                <li><a href="https://github.com/ArturAlvaro" target="_blank">Git & Github</a></li>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>HTML Semântico</li>
-                <li>Empatia</li>
-                <li>Perseverança</li>
-                <li>Resiliência</li>
-                <li>Autoconfiança</li>
-                <li>Paciência</li>
-                <li>Que a Trybe tem os melhores Happy-hours</li>
-            </ol>
-            <ul id="licoes_a_aprender">
-                <li>JavaScript</li>
-                <li>React</li>
-                <li>Python</li>
-                <li>Frameworks</li>
-                <li>Ficar melhor no CSS</li>
-                <li>Vue.JS</li>
-                <li>Ser mais colaborativo</li>
-                <li>Dar mais code-reviews</li>
-                <li>Ser mais comunicativo</li>
-                <li>Codar melhor e mais rápido</li>
-            </ul>
-         </section>
-        <article id="article">
-            <p>Na Trybe o aprendizado é ativo, todos aprendemos através de muita prática e interação.
-            Eu pude perceber um avanço significável nas minhas habilidades, através de muita dedicação e comprometimento, consigo alcançar os resultados desejados nesse novo caminho que escolhi: Desenvolvimento Web.</p>
-        </article>
-    </main>
-    <aside id="aside">
-        <p>Ao longo de duas semanas, pude ter contato com tecnologias novas para  mim. Git e Github, HTML e CSS.</p>
-    </aside>
-    <footer id="rodape">
-        <nav id="nav-links">
-            <a href="https://www.linkedin.com/in/arturalvaro/">Me siga!</a></li>
+    <main id="main">
+        <div id="div-lessons">
+            <img src="rsz_img-20130623-wa0003-1.jpg" alt="Foto de Artur" id="minha_foto">
+            <section id="lessons">
+                <h3 id="licoes">Habilidades que aprendi:</h3>
+                <ol id="licoes_aprendidas" class="lado-esquerdo">
+                    <li>Git</li>
+                    <li>Github</li>
+                    <li>HTML Semântico</li>
+                    <li>CSS</li>
+                    <li>Media Queries</li>
+                    <li>Lógica de Programação</li>
+                    <li>JavaScript</li>
+                    <li>DOM</li>
+                    <li>Bootstrap</li>
+                    <li>ES6</li>
+                </ol>
+            </section>
+            <section id="lessons-to-learn">
+                <h3 id="futuras-licoes">Habilidades que pretendo aprender:</h3>
+                <ul id="licoes_a_aprender" class="lado-direito">
+                    <li>React</li>
+                    <li>Jest</li>
+                    <li>Python</li>
+                    <li>MongoDB</li>
+                    <li>Redux</li>
+                    <li>Metodologias Ágeis</li>
+                    <li>SQL</li>
+                    <li>VueJS</li>
+                    <li>Angular</li>
+                    <li>Ruby</li>
+                </ul>
+            </section>
+        </div>
+        <div id="div-texts">
+            <article id="article">
+                <h3>Meu aprendizado...</h3>
+                <p>no curso de Desenvolvimento de Software da Trybe, a curva de aprendizado demanda menos tempo, pois a estrutura do curso promove colaboração. Em pouco mais de um mês, absorvi muito conteúdo que equivale a um semestre de aprendizado solo. Hoje consigo estruturar uma página web sem muito esforço e conto com uma habilidade muito importante: Aprender a aprender!</p>
+            </article>
+            <aside>
+                <h3>Um dos momentos mais marcantes do curso...</h3>
+                <p>além de todos os projetos e dinâmicas voltadas à programação, foi o dia reservado à Inteligência Emocional. O cuidado está no ensino técnico e pessoal da pessoa estudante.</p>
+            </aside>
+        </div>
+        <nav class="social-menu">
+            <a href="https://www.linkedin.com/in/arturalvaro/" target="_blank" class="fa fa-linkedin"></a>
+            <a href="https://github.com/ArturAlvaro" target="_blank" class="fa fa-github"></a>
         </nav>
-    </footer>
+    </main>
+    <footer id="rodape"></footer>
 </body>
 </html>

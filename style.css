@@ -1,44 +1,94 @@
-body {
-    background-color: rgb(253, 251, 251);
-    align-items: center;
-    display: inline-block;
-    width: auto;
-    font-family: 'Roboto', sans-serif;
-    word-spacing: 5px;
-    font-size: large;
-    color: #3a3a3a;
-    line-height: 20px;
-}
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;1,100;1,300;1,400;1,500;1,700&display=swap');
 
-#minha_foto {
-    margin: 15px;
-    padding: 15px;
-    border: 5px;
-    border-radius: 30%;
+#body {
+  width: 55%;
+  margin: auto;
+  background-color: rgb(253, 251, 251);
+  font-family: Raleway, sans-serif;
+  color: rgb(10, 10, 10);
+  line-height: 19px;
 }
 
 #cabecalho {
-    position: fixed;
-    top: 0;
-    background-color: aliceblue;
+  position: fixed;
+}
+
+#minha_foto {
+  border-radius: 50%;
+  height: auto;
+  margin: auto;
+}
+
+#div-lessons {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: stretch;
+}
+
+li {
+  list-style: none;
+  font-style: italic;
+  font-weight: 400;
 }
 
 #article {
-    text-align: center;
-    align-content: center;
-    display: inline-block;
-    margin: 5% auto;
-    width: 450px;
+  margin-bottom: 15px;
 }
 
-#aside {
-    text-align: center;
-    align-content: center;
-    display: inline-block;
-    margin: 5% auto;
-    width: 450px;
+p {
+  border: unset;
+  padding: unset;
+  margin: auto;
+  text-align: center;
+  color: rgb(36, 46, 44);
 }
 
-#nav-links {
-    text-align: center;
+h3 {
+  font-weight: 800;
+  font-size: larger;
+}
+
+.social-menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 5%;
+}
+
+.social-menu .fa {
+  color: black;
+  font-size: 25px;
+  line-height: 50px;
+  transition: 0.5s;
+  margin: 0 2%;
+}
+
+.social-menu .fa:hover {
+  color: white;
+}
+
+.social-menu a {
+  position: relative;
+  display: block;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: white;
+  text-align: center;
+  transition: 0.5s;
+  box-shadow: 0.1px 7px 5px rgba(0, 0, 0, 0.5);
+}
+
+.social-menu a:hover {
+  transform: rotate(0deg) skew(0deg) translate(0, -10px);
+}
+
+.fa-linkedin:hover {
+  background: rgb(0, 123, 181);
+  color: white;
+}
+
+.fa-github:hover {
+  background: rgb(37, 41, 46);
+  color: white;
 }
