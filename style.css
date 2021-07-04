@@ -2,22 +2,22 @@
   background-color: rgb(253, 251, 251);
   font-family: Times New Roman, serif;
   font-size: medium;
-  color:#2F4F4F;
-  line-height: 23px;   
+  color: darkslategray;
+  line-height: 23px; 
 }
 
 #cabecalho {
   position: fixed;
-  display: inline-block; 
+  display: inline-block;
   top: 0;
   width: 940px;
-  background-color:#2F4F4F;
-  color:white;
+  background-color: darkslategray;
+  color: white;
   padding-top: 1px;
   padding-bottom: 1px;
-  border-top: 1px solid rgb(220, 220, 220);
-  border-bottom: 1px solid rgb(220, 220, 220);
-  line-height: 50px; 
+  border-top: 1px solid gainsboro;
+  border-bottom: 1px solid gainsboro;
+  line-height: 50px;
   z-index: 3;
 }
 
@@ -95,8 +95,8 @@
 }
 
 .linha {
-  border-top: 1px solid rgb(220, 220, 220);
-  border-bottom: 1px solid rgb(220, 220, 220);
+  border-top: 1px solid gainsboro;
+  border-bottom: 1px solid gainsboro;
   padding-top: 5px;
-  margin: 10px 10px 10px 10px;
+  margin: 10px;
 }
